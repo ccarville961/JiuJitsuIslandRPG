@@ -1,19 +1,20 @@
 # SPDX-License-Identifier: GPL-3.0
-# Copyright (c) 2014-2026 William Edwards <shadowapex@gmail.com>, Benjamin Bean <superman2k5@gmail.com>
 from __future__ import annotations
 
 import logging
+from collections.abc import Callable
 from typing import TYPE_CHECKING, Any, ClassVar
 
+import pygame
 from pygame.surface import Surface
 
+from tuxemon.menu.menu import PopUpMenu
 from tuxemon.platform.const.graphics import (
     BLACK_COLOR,
     CREATIVE_COMMONS,
     PYGAME_LOGO,
 )
 from tuxemon.platform.events import PlayerInput
-from tuxemon.state.state import State
 
 if TYPE_CHECKING:
     from tuxemon.base_client import BaseClient
@@ -22,7 +23,7 @@ if TYPE_CHECKING:
 logger = logging.getLogger(__name__)
 
 
-class SplashState(State):
+class SplashState(PopUpMenu[Callable[[], None]]):
     """The state responsible for the splash screen."""
 
     name: ClassVar[str] = "SplashState"
@@ -34,29 +35,24 @@ class SplashState(State):
         super().__init__(client=client, **kwargs)
 
         self.parent = parent
-
-        # this task will skip the splash screen after some time
         self.task(self.fade_out, interval=self.default_duration)
         self.triggered = False
 
         width, height = client.context.resolution
-
-        # The space between the edge of the screen
         splash_border = int(width / 20)
 
-        # Set up the splash screen logos
         logo = self.load_sprite(PYGAME_LOGO)
         logo.rect.topleft = (
             splash_border,
             height - splash_border - logo.rect.height,
         )
 
-        # Set up the splash screen logos
         cc = self.load_sprite(CREATIVE_COMMONS)
         cc.rect.topleft = (
             width - splash_border - cc.rect.width,
             height - splash_border - cc.rect.height,
         )
+
         self.client.sound_manager.play("sound_ding")
 
     def resume(self) -> None:
@@ -64,7 +60,6 @@ class SplashState(State):
             self.parent.pop_state()
 
     def process_event(self, event: PlayerInput) -> PlayerInput | None:
-        # Skip the splash screen if a key is pressed.
         if event.pressed and not self.triggered:
             self.fade_out()
         return None
@@ -72,6 +67,38 @@ class SplashState(State):
     def draw(self, surface: Surface) -> None:
         if not self.triggered:
             surface.fill(BLACK_COLOR)
+
+            warning_lines = [
+                "18+ GAME",
+                "IT'S CRUDE, RUDE",
+                "AND NOT FOR VEGANS!",
+            ]
+
+            y = surface.get_height() // 2 - 125
+
+            for line in warning_lines:
+                label = self.shadow_text(
+                    line,
+                    fg=(255, 255, 255),
+                    bg=(0, 0, 0),
+                ).convert_alpha()
+
+                scale = 2
+                label = pygame.transform.scale(
+                    label,
+                    (
+                        label.get_width() * scale,
+                        label.get_height() * scale,
+                    ),
+                )
+
+                label_rect = label.get_rect(
+                    center=(surface.get_width() // 2, y)
+                )
+
+                surface.blit(label, label_rect)
+                y += 55
+
             self.sprites.draw(surface)
 
     def fade_out(self) -> None:
