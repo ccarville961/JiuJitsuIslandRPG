@@ -1,0 +1,1720 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tuxemon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-14 05:41+0200\n"
+"PO-Revision-Date: 2023-02-03 04:41+0000\n"
+"Last-Translator: Betsy <betsymaxx@gmailvn.net>\n"
+"Language-Team: Esperanto <https://hosted.weblate.org/projects/tuxemon/tuxemon/eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
+
+# ITEM TRANSLATIONS ##
+# Apple
+msgid "apple"
+msgstr "Pomo"
+
+msgid "apple_description"
+msgstr "Ĝi sanigas monstron de 10 SP."
+
+# Berry
+msgid "berry"
+msgstr "Bero"
+
+msgid "berry_description"
+msgstr "Ĝi sanigas monstron de 10 SP."
+
+# Cherry
+msgid "cherry"
+msgstr "Ĉerizo"
+
+msgid "cherry_description"
+msgstr "Ĝi sanigas monstron de 10 SP."
+
+# Orange
+msgid "orange"
+msgstr "Oranĝo"
+
+msgid "orange_description"
+msgstr "Ĝi sanigas monstron de 20 SP."
+
+# Potion
+msgid "potion"
+msgstr "Pocio"
+
+msgid "potion_description"
+msgstr "Ĝi sanigas monstron de 50 SP."
+
+# Super Potion
+msgid "super_potion"
+msgstr "Ega pocio"
+
+msgid "super_potion_description"
+msgstr "Ĝi sanigas monstron de 100 SP."
+
+# Imperial Potion
+msgid "imperial_potion"
+msgstr "Imperia pocio"
+
+msgid "imperial_potion_description"
+msgstr "Ĝi sanigas monstron de 350 SP."
+
+# Capture Device
+msgid "capture_device"
+msgstr "Kaptilo"
+
+msgid "capture_device_description"
+msgstr "Ilo por kapti monstron."
+
+# NOTIFICATION TRANSLATIONS ##
+# Combat notifications
+msgid "combat_used_x"
+msgstr "{name} estis uzata de {user}!"
+
+msgid "combat_run"
+msgstr "{user} forkuris!"
+
+msgid "combat_player_run"
+msgstr "Vi forkuris!"
+
+msgid "combat_used_x_on_y"
+msgstr "{name} estis uzata de {user} kontraŭ {target}!"
+
+msgid "combat_swap"
+msgstr "{user} sendas {target}!"
+
+msgid "combat_call_tuxemon"
+msgstr "Iru, {name}!"
+
+# TODO: similar to combat_swap - refactor!
+msgid "combat_opponent_call_tuxemon"
+msgstr "{name} estis sendata de {user}!"
+
+msgid "combat_state_poison_damage"
+msgstr "{name} veneniĝis!"
+
+msgid "combat_status_damage"
+msgstr "{name} damaĝiĝis pro {status}!"
+
+msgid "combat_victory"
+msgstr "Vi venkis!"
+
+msgid "combat_defeat"
+msgstr "Vi malvenkis!"
+
+msgid "combat_draw"
+msgstr "Ĉiuj svenis!"
+
+msgid "combat_capturing_success"
+msgstr "{name} estas kaptita!"
+
+msgid "combat_capturing_fail"
+msgstr "{name} liberiĝis!"
+
+msgid "combat_replacement"
+msgstr "Elektu anstataŭon!"
+
+msgid "combat_replacement_is_fainted"
+msgstr "La monstro svenis!"
+
+msgid "combat_wild_appeared"
+msgstr "Sovaĝa {name} aperis!"
+
+msgid "combat_monster_choice"
+msgstr "Kion {name} faru?"
+
+msgid "combat_fainted"
+msgstr "{name} svenis!"
+
+msgid "combat_isactive"
+msgstr "{name} jam batalas."
+
+# Generic notifications
+msgid "not_implemented"
+msgstr "Ĉi tiu trajto ne estas jam realigita."
+
+msgid "generic_success"
+msgstr "Ĝi funkciis!"
+
+msgid "generic_failure"
+msgstr "Ĝi fiaskis!"
+
+msgid "empty_slot"
+msgstr "Malplena ujo"
+
+msgid "exit"
+msgstr "Eliri"
+
+msgid "item_confirm_use"
+msgstr "Uzi"
+
+msgid "item_confirm_cancel"
+msgstr "Nuligi"
+
+# TODO same as generic_success and generic_failure - refactor!
+msgid "item_success"
+msgstr "Ĝi funkciis!"
+
+msgid "item_failure"
+msgstr "Ĝi fiaskis!"
+
+msgid "attempting_capture"
+msgstr "Kaptado…"
+
+msgid "gotcha"
+msgstr "Bone!"
+
+msgid "item_cannot_use_here"
+msgstr "{name} ne uzeblas ĉi tie!"
+
+msgid "receive_happiness"
+msgstr ""
+
+msgid "received_x"
+msgstr "Vi ricevis {name}!"
+
+msgid "save_success"
+msgstr "Konservite!"
+
+msgid "save_failure"
+msgstr "Problemo okazis dum konservado!"
+
+msgid "slot"
+msgstr "Ujo"
+
+msgid "faint"
+msgstr "Svenite"
+
+msgid "poison"
+msgstr "veneno"
+
+# TECHNIQUE TRANSLATIONS ##
+msgid "bite"
+msgstr "Mordo"
+
+msgid "fire_explosion"
+msgstr "Fajra eksplodo"
+
+msgid "poison_string"
+msgstr "Venena pikilo"
+
+msgid "pound"
+msgstr "Frapo"
+
+msgid "swap"
+msgstr "Ŝanĝo"
+
+msgid "water_shot"
+msgstr "Akva pafo"
+
+msgid "whirlwind"
+msgstr "Ventokirlo"
+
+msgid "run"
+msgstr "Run"
+
+# MENU TRANSLATIONS ##
+msgid "menu_alphabet"
+msgstr ""
+"ABCĈDEFGĜHĤIJĴKLMNOPRSŜTUŬVZabcĉdefgĝhĥijĵklmnoprsŝtuŭvz1234567890.-!\\0"
+
+# Monster Menu notifications
+msgid "monster_menu_info"
+msgstr "Informoj"
+
+msgid "monster_menu_move"
+msgstr "Movi"
+
+# Menu notifications
+msgid "log_off"
+msgstr "Elsaluti"
+
+msgid "menu_bag"
+msgstr "Sako"
+
+msgid "menu_fight"
+msgstr "Lukti"
+
+msgid "menu_item"
+msgstr "Objekto"
+
+msgid "menu_items"
+msgstr "Objektoj"
+
+msgid "menu_journal"
+msgstr "Taglibro"
+
+msgid "menu_load"
+msgstr "Ŝargi"
+
+msgid "menu_monster"
+msgstr "Tuksemono"
+
+# TODO: duplicate of menu_monster?
+msgid "menu_monsters"
+msgstr "Monstroj"
+
+msgid "menu_multiplayer"
+msgstr "Pliludantoj"
+
+msgid "menu_new_game"
+msgstr "Nova ludo"
+
+msgid "menu_options"
+msgstr "Opcioj"
+
+msgid "menu_player"
+msgstr "Ludanto"
+
+msgid "menu_run"
+msgstr "Forkuri"
+
+msgid "menu_save"
+msgstr "Konservi"
+
+# Multiplayer notifications
+msgid "multiplayer_accept"
+msgstr "Akcepti"
+
+msgid "multiplayer_decline"
+msgstr "Malakcepti"
+
+msgid "multiplayer_duel"
+msgstr "{name} deziras dueli kun vi!"
+
+msgid "multiplayer_host_game"
+msgstr "Gastigi ludon"
+
+msgid "multiplayer_scan_games"
+msgstr "Serĉi por ludoj"
+
+msgid "multiplayer_join_game"
+msgstr "Aliĝi la ludon"
+
+msgid "multiplayer_hosting_ready"
+msgstr "Preta por gastigi!"
+
+msgid "multiplayer_already_hosting"
+msgstr "Vi jam gastigas!"
+
+msgid "multiplayer_no_servers"
+msgstr "Neniu servilo trovata..."
+
+msgid "multiplayer_join_prompt"
+msgstr "Ĉu gastignomo aŭ IP-adreso?"
+
+# MONSTER TRANSLATIONS ##
+# Monster details
+msgid "aardart"
+msgstr "Aardart"
+
+msgid "aardart_description"
+msgstr ""
+
+msgid "aardorn"
+msgstr "Aardorn"
+
+msgid "aardorn_description"
+msgstr ""
+
+msgid "agnidon"
+msgstr "Agnidon"
+
+msgid "agnidon_description"
+msgstr ""
+
+msgid "agnigon"
+msgstr "Agnigon"
+
+msgid "agnigon_description"
+msgstr ""
+
+msgid "agnite"
+msgstr "Agnite"
+
+msgid "agnite_description"
+msgstr ""
+
+msgid "allagon"
+msgstr "Allagon"
+
+msgid "allagon_description"
+msgstr ""
+
+msgid "anoleaf"
+msgstr "Anoleaf"
+
+msgid "anoleaf_description"
+msgstr ""
+
+msgid "axolightl"
+msgstr "Axolightl"
+
+msgid "axolightl_description"
+msgstr ""
+"Ĝi lumigas la profundajn akvojn per sia vosto, montrante sekuran ŝirmon por "
+"fiŝoj."
+
+msgid "bamboon"
+msgstr "Bambiano"
+
+msgid "bamboon_description"
+msgstr "Ĝi luktas kun sia bambua bastono, kiun ĝi uzas ankaŭ por ekvilibriĝi."
+
+msgid "bigfin"
+msgstr "Bigfin"
+
+msgid "bigfin_description"
+msgstr "Tuta ekosystem ekzistas sur sia dorso, do ĝi provas ne iri subakve."
+
+msgid "bolt"
+msgstr "Bolt"
+
+msgid "bolt_description"
+msgstr ""
+
+msgid "cairfrey"
+msgstr "Cairfrey"
+
+msgid "cairfrey_description"
+msgstr ""
+
+msgid "capiti"
+msgstr "Capiti"
+
+msgid "capiti_description"
+msgstr ""
+
+msgid "cardiling"
+msgstr "Cardiling"
+
+msgid "cardiling_description"
+msgstr "One wouldn't expect it to breathe fire, until it does."
+
+msgid "cardinale"
+msgstr "Cardinale"
+
+msgid "cardinale_description"
+msgstr ""
+
+msgid "cardiwing"
+msgstr "Cardiwing"
+
+msgid "cardiwing_description"
+msgstr ""
+
+msgid "chillimp"
+msgstr "Chillimp"
+
+msgid "chillimp_description"
+msgstr ""
+
+msgid "chloragon"
+msgstr "Chloragon"
+
+msgid "chloragon_description"
+msgstr ""
+"It hatches when an ancient egg is planted in fertile soil. When the eggs run"
+" out, there will be no more Chloragon."
+
+msgid "conifrost"
+msgstr "Conifrost"
+
+msgid "conifrost_description"
+msgstr ""
+
+msgid "corvix"
+msgstr "Corvix"
+
+msgid "corvix_description"
+msgstr ""
+
+msgid "dandylion"
+msgstr "Dandleono"
+
+msgid "dandylion_description"
+msgstr ""
+"Ĝi naskigas unu idaron dumvive. Do ĝi vagabondas per la mondo, klopodante en"
+" trovi ilin."
+
+msgid "djinnbo"
+msgstr "Djinnbo"
+
+msgid "djinnbo_description"
+msgstr ""
+"Oni malkorekte kredas, ke ĝi estas homo, kiu mortis en fajro. Aktuale, siaj "
+"gepatroj mortis."
+
+msgid "dollfin"
+msgstr "Dollfin"
+
+msgid "dollfin_description"
+msgstr "Ĝi sekvas ŝipon de loko al loko, eksplorante la mondon."
+
+msgid "dracune"
+msgstr "Dracune"
+
+msgid "dracune_description"
+msgstr ""
+
+msgid "dragarbor"
+msgstr "Dragarbor"
+
+msgid "dragarbor_description"
+msgstr ""
+
+msgid "dune_pincher"
+msgstr "Dune Pincher"
+
+msgid "dune_pincher_description"
+msgstr ""
+
+msgid "eaglace"
+msgstr "Eaglace"
+
+msgid "eaglace_description"
+msgstr ""
+
+msgid "eyenemy"
+msgstr "Okumiko"
+
+msgid "eyenemy_description"
+msgstr "Ĝi sin nutras per belaj videoj kaj aliaj spektindaj atrakcioj."
+
+msgid "falcono"
+msgstr "Falcono"
+
+msgid "falcono_description"
+msgstr ""
+"It is totally unafraid of adversaries, and will attack an enemy of any size "
+"without hesitation."
+
+msgid "ferricran"
+msgstr "Ferricran"
+
+msgid "ferricran_description"
+msgstr ""
+
+msgid "firomenis"
+msgstr "Firomenis"
+
+msgid "firomenis_description"
+msgstr "<<MISSING>>"
+
+msgid "fluttaflap"
+msgstr "Fluttaflap"
+
+msgid "fluttaflap_description"
+msgstr ""
+
+msgid "fruitera"
+msgstr "Fruktero"
+
+msgid "fruitera_description"
+msgstr ""
+
+msgid "gectile"
+msgstr "Gectile"
+
+msgid "gectile_description"
+msgstr ""
+
+msgid "heronquak"
+msgstr "Heronquak"
+
+msgid "heronquak_description"
+msgstr ""
+
+msgid "hydrone"
+msgstr "Hidrono"
+
+msgid "hydrone_description"
+msgstr ""
+
+msgid "lambert"
+msgstr "Lambert"
+
+msgid "lambert_description"
+msgstr ""
+"Ĝi sidiĝis sur siaj nuksoj de siaj gepatroj, kiuj sendis ĝin en la mondon."
+
+msgid "legko"
+msgstr "Legko"
+
+msgid "legko_description"
+msgstr ""
+
+msgid "magmaturtle"
+msgstr "Magmotestudo"
+
+msgid "magmaturtle_description"
+msgstr "<<MISSING>>"
+
+msgid "merlicun"
+msgstr "Merlicun"
+
+msgid "merlicun_description"
+msgstr "<<MISSING>>"
+
+msgid "moloch"
+msgstr "Moloch"
+
+msgid "moloch_description"
+msgstr ""
+
+msgid "noctalo"
+msgstr "Noctalo"
+
+msgid "noctalo_description"
+msgstr ""
+
+msgid "noctula"
+msgstr "Noctula"
+
+msgid "noctula_description"
+msgstr ""
+
+msgid "nostray"
+msgstr "Nostray"
+
+msgid "nostray_description"
+msgstr ""
+
+msgid "nudiflot"
+msgstr "Nudiflot"
+
+msgid "nudiflot_description"
+msgstr ""
+"Ĝi manĝas kaj konservas la venenon de la marbestoj, per kiu ĝi sin nutras."
+
+msgid "nut"
+msgstr "Juglando"
+
+msgid "nut_description"
+msgstr ""
+
+msgid "onaclov"
+msgstr "Onakluvo"
+
+msgid "onaclov_description"
+msgstr "<<MISSING>>"
+
+msgid "pigabyte"
+msgstr "Pigabyte"
+
+msgid "pigabyte_description"
+msgstr ""
+
+msgid "possessun"
+msgstr "Possessun"
+
+msgid "possessun_description"
+msgstr ""
+
+msgid "propellercat"
+msgstr "Propellercat"
+
+msgid "propellercat_description"
+msgstr ""
+
+msgid "rockat"
+msgstr "Rokato"
+
+msgid "rockat_description"
+msgstr ""
+
+msgid "rockitten"
+msgstr "Rokatido"
+
+msgid "rockitten_description"
+msgstr ""
+
+msgid "sapragon"
+msgstr "Sapragon"
+
+msgid "sapragon_description"
+msgstr ""
+
+msgid "selket"
+msgstr "Selket"
+
+msgid "selket_description"
+msgstr ""
+
+msgid "selmatek"
+msgstr "Selmatek"
+
+msgid "selmatek_description"
+msgstr ""
+
+msgid "simba"
+msgstr "Simbo"
+
+msgid "simba_description"
+msgstr "<<MISSING>>"
+
+msgid "sludgehog"
+msgstr "Sludgehog"
+
+msgid "sludgehog_description"
+msgstr ""
+
+msgid "sharpfin"
+msgstr "Sharpfin"
+
+msgid "sharpfin_description"
+msgstr ""
+
+msgid "snowrilla"
+msgstr "Snowrilla"
+
+msgid "snowrilla_description"
+msgstr ""
+
+msgid "spycozeus"
+msgstr "Spycozeus"
+
+msgid "spycozeus_description"
+msgstr ""
+
+msgid "sumobug"
+msgstr "Sumobug"
+
+msgid "sumobug_description"
+msgstr ""
+"Ĝi usas sian pezon por stumbligi plurajn malamikoj. Ĝi estas densa kiel "
+"stelo."
+
+msgid "tigrock"
+msgstr "Tigroko"
+
+msgid "tigrock_description"
+msgstr "Oni diras, ke ĝi inventis sin mem ĉar evoluo ne konsideris ĝin."
+
+msgid "tumblecoon"
+msgstr "Tumblecoon"
+
+msgid "tumblecoon_description"
+msgstr "<<MISSING>>"
+
+msgid "tumbleworm"
+msgstr "Tumbleworm"
+
+msgid "tumbleworm_description"
+msgstr ""
+
+msgid "tux"
+msgstr "Tukso"
+
+msgid "tux_description"
+msgstr "<<MISSING>>"
+
+msgid "tweesher"
+msgstr "Tweesher"
+
+msgid "tweesher_description"
+msgstr ""
+
+msgid "vamporm"
+msgstr "Vamporm"
+
+msgid "vamporm_description"
+msgstr ""
+
+msgid "velocitile"
+msgstr "Velocitile"
+
+msgid "velocitile_description"
+msgstr ""
+
+msgid "wrougon"
+msgstr "Wrougon"
+
+msgid "wrougon_description"
+msgstr ""
+"Each Wrougon is born with a patch of rust larger than the patch of its "
+"parents."
+
+msgid "zunna"
+msgstr "Zunna"
+
+msgid "zunna_description"
+msgstr ""
+
+# Monster categories
+msgid "anteater"
+msgstr "Anteater"
+
+msgid "snout"
+msgstr ""
+
+msgid "false_dragon"
+msgstr ""
+
+msgid "dragon"
+msgstr ""
+
+msgid "sprout"
+msgstr ""
+
+msgid "inchoate"
+msgstr "Embria"
+
+msgid "prehensile"
+msgstr "Prenpova"
+
+msgid "island"
+msgstr "Insulo"
+
+msgid "host"
+msgstr "Host"
+
+msgid "woodwose"
+msgstr ""
+
+msgid "firebird"
+msgstr ""
+
+msgid "frost_ape"
+msgstr ""
+
+msgid "taiga"
+msgstr ""
+
+msgid "horned_raptor"
+msgstr ""
+
+msgid "lions_tooth"
+msgstr "Dento de Leono"
+
+msgid "vengeance"
+msgstr "Venĝo"
+
+msgid "joyful"
+msgstr "Ĝojeco"
+
+msgid "cloaked"
+msgstr ""
+
+msgid "cirrus"
+msgstr ""
+
+msgid "pupil"
+msgstr "Lernanto"
+
+msgid "fire"
+msgstr ""
+
+msgid "sanguine"
+msgstr ""
+
+msgid "wood"
+msgstr "Ligno"
+
+msgid "climbing"
+msgstr ""
+
+msgid "crested"
+msgstr ""
+
+msgid "metal_water"
+msgstr "Metalo, Akvo"
+
+msgid "gumnut"
+msgstr "Gumnukso"
+
+msgid "lizard"
+msgstr ""
+
+msgid "earth_fire"
+msgstr "Tero, Fajro"
+
+msgid "devil"
+msgstr ""
+
+msgid "nightcrawler"
+msgstr ""
+
+msgid "proboscis"
+msgstr "Proboscis"
+
+msgid "flopped"
+msgstr "Ruiniĝita"
+
+msgid "metal"
+msgstr "Metalo"
+
+msgid "visitor"
+msgstr ""
+
+msgid "earth"
+msgstr "Tero"
+
+msgid "rip"
+msgstr ""
+
+msgid "yeti"
+msgstr ""
+
+msgid "ex_machina"
+msgstr "Ex Machina"
+
+msgid "water"
+msgstr "Akvo"
+
+msgid "clot"
+msgstr ""
+
+msgid "restless"
+msgstr ""
+
+msgid "slurpy"
+msgstr ""
+
+# NPC TRANSLATIONS ##
+# NPC slugs and names
+msgid "aeble"
+msgstr "Aeble"
+
+msgid "allie"
+msgstr "Allie"
+
+msgid "cottonnurse"
+msgstr "Cotton Nurse"
+
+msgid "karrianna"
+msgstr "Karrianna"
+
+msgid "knight1"
+msgstr ""
+
+msgid "knight2"
+msgstr ""
+
+msgid "liela"
+msgstr "Liela"
+
+msgid "maple_wren"
+msgstr "Klara"
+
+msgid "misa"
+msgstr "Misa"
+
+msgid "professor"
+msgstr "Professor"
+
+msgid "npc_red"
+msgstr "Red"
+
+msgid "tabanurse"
+msgstr ""
+
+msgid "tuxemart_keeper"
+msgstr ""
+
+msgid "tuxemart_aide"
+msgstr ""
+
+msgid "xerogrund1"
+msgstr "Team Xero Grunt I"
+
+msgid "xerogrund2"
+msgstr "Team Xero Grunt II"
+
+msgid "xerogrunt2"
+msgstr "Team Xero Grunt II"
+
+msgid "xerogrunt3"
+msgstr "Team Xero Grunt III"
+
+msgid "xerogrunt4"
+msgstr "Team Xero Grunt IV"
+
+msgid "xerogrunt5"
+msgstr "Team Xero Grunt V"
+
+msgid "xerogrunt6"
+msgstr "Team Xero Grunt VI"
+
+msgid "xerogrunt7"
+msgstr "Team Xero Grunt VII"
+
+msgid "xerogrunt8"
+msgstr "Team Xero Grunt VIII"
+
+msgid "xerogrunt9"
+msgstr "Team Xero Grunt IX"
+
+msgid "xerogrunt10"
+msgstr "Team Xero Grunt X"
+
+# DIALOG TRANSLATIONS ##
+# general dialogs
+msgid "healmytuxemon"
+msgstr "Do you want to heal your Tuxemon?"
+
+msgid "haveagoodday"
+msgstr "Have a nice day!"
+
+msgid "yes"
+msgstr "Jes"
+
+msgid "no"
+msgstr "Ne"
+
+msgid "door_problems"
+msgstr ""
+
+msgid "empty_pot"
+msgstr "It's an empty pot, maybe someone will plant something here"
+
+msgid "purple_flowers"
+msgstr ""
+
+msgid "orange_flowers"
+msgstr ""
+
+msgid "famous_statue"
+msgstr ""
+
+msgid "famous_statue2"
+msgstr ""
+
+msgid "cotton_town_fountain"
+msgstr "It's a fountain. A lot of coins are at the bottom"
+
+msgid "tree"
+msgstr ""
+
+msgid "route_2"
+msgstr "Vojo 2"
+
+msgid "sure_i_do"
+msgstr "Sure I do"
+
+msgid "not_really"
+msgstr "Not really"
+
+# NPC dialogs
+msgid "professor_dialog"
+msgstr ""
+"Profesoro: Ah, jes. Vi estas la persono, kiun mi antendas por renkontiĝi.\n"
+"Mi aŭdis, ke vi volas lerni pri Tuksemonoj.\n"
+"Tuksemonoj estas etaj bestoj, kelkaj personoj nomas ilin monstrojn, kiuj ni amikiĝas kaj uzas por batali kontraŭ aliaj Tuksemonoj.\n"
+"Mi ĵus ricevis tri novajn Tuksemonojn por serĉado kaj mi dezirus doni unu el ili al vi.\n"
+"Kiun vi deziras?"
+
+msgid "professor_dialog6.1"
+msgstr "Profesoro: Kia bonega elekto! Hidrono estas akvo-tipa Tuksemono"
+
+msgid "professor_dialog6.2"
+msgstr "Profesoro: Kia superba elekto! Rokato estas tero-tipa Tuksemono"
+
+msgid "professor_dialog6.3"
+msgstr "Profesoro: Kia saĝa elekto! Fruktero estas ligno-tipa Tuksemono"
+
+msgid "professor_dialog7"
+msgstr ""
+"Profesoro: Mi esperas, ke ni renkontiĝos denove! Mi ekvojaĝos, do eble ni "
+"renkontiĝos kelkfoje."
+
+msgid "karrianna_dialog1"
+msgstr ""
+"Lidja: Mi trejnas ekde la lastaj monatoj! Neniuj ankoraŭ malvenkigas min!"
+
+msgid "karrianna_dialog2"
+msgstr "Nu… Vi estas la unua trejnisto, kiun mi renkontis…"
+
+msgid "xero_hideout1"
+msgstr "Xero instituto por la Tuksemona Serĉado kaj Progreso antaŭen."
+
+msgid "cherry_found"
+msgstr "Vi trovis unu ĉerizon"
+
+msgid "xero_grunts_block"
+msgstr "This area is under construction, it should be done soon."
+
+msgid "waiting_for_misa"
+msgstr ""
+"Our leader would like to talk with you. When you are ready, talk to my "
+"friend next to me."
+
+msgid "teleport?"
+msgstr "Are you ready to meet our leader?"
+
+msgid "ouch"
+msgstr "Sorry, but this may hurt a bit..."
+
+msgid "maybe_sometime_again?"
+msgstr "Okay, I'll be here when you are ready."
+
+msgid "youcantleave"
+msgstr ""
+
+msgid "discovered_a_person"
+msgstr ""
+
+msgid "a_serious_discussion"
+msgstr ""
+
+msgid "oops"
+msgstr ""
+
+msgid "backstory"
+msgstr ""
+
+msgid "backstory9"
+msgstr ""
+
+msgid "sorryfurthis"
+msgstr ""
+
+msgid "mwah"
+msgstr ""
+
+msgid "mwah2"
+msgstr "JESS!!!"
+
+msgid "itslockedboi"
+msgstr ""
+
+msgid "hellothere"
+msgstr ""
+
+msgid "kmere"
+msgstr ""
+
+msgid "theinfo"
+msgstr ""
+
+msgid "liela_goes_to_battle"
+msgstr ""
+
+msgid "Cathedral_Center"
+msgstr ""
+
+msgid "Cotton_Mart"
+msgstr ""
+
+msgid "Cotton_Town_Sign"
+msgstr ""
+"Welcome to Cotton Town: A Growing Force\n"
+"^ Cotton Town --- Route 1 v"
+
+msgid "column1"
+msgstr ""
+
+msgid "column2"
+msgstr ""
+
+msgid "cityparksign"
+msgstr ""
+"Welcome to City Park: A Taste of the Wild\n"
+"^ City Park --- Route 2 v"
+
+msgid "route2speech"
+msgstr "EEK!!!"
+
+msgid "route2speech2"
+msgstr ""
+
+msgid "route2speech3"
+msgstr ""
+
+msgid "yestalk"
+msgstr ""
+
+msgid "notalk"
+msgstr ""
+
+msgid "spillit"
+msgstr ""
+
+msgid "spillit3"
+msgstr ""
+
+msgid "spillit4"
+msgstr ""
+
+msgid "spillit5"
+msgstr ""
+
+msgid "spillit6"
+msgstr ""
+
+msgid "spillit7"
+msgstr ""
+
+msgid "leavemealone"
+msgstr ""
+
+msgid "iamknight3"
+msgstr ""
+"What are you doing here? You know that only knights are allowed through city park.\n"
+"... ... ... Hmm... So you're trying to get to Leather Town...\n"
+"Well, I guess you could enter the challenge if you want. The only problem is that you'll need a Tuxemon...\n"
+"I'm sure we can lend you one. Are you up for the challenge?"
+
+msgid "sorry"
+msgstr "Okay, well... when you're ready, I'll still be here..."
+
+msgid "splendid"
+msgstr ""
+"You will? Splendid! Now, to find you a suitable Tuxemon...\n"
+"... ... You already have a Tuxemon? Well, I'm sure that you'd be able to handle yourself well..."
+
+msgid "cottonnurse_dialog"
+msgstr "Welcome to the Cotton Town Tuxecenter!"
+
+msgid "tabanurse_dialog"
+msgstr ""
+
+msgid "okaythen"
+msgstr ""
+
+msgid "okaythen2"
+msgstr "Well, it looks like your Tuxemon are full of energy! Here they are!"
+
+msgid "input_name"
+msgstr "Kiel vi nomiĝas?"
+
+msgid "birdling"
+msgstr "Birdling"
+
+msgid "budaye"
+msgstr "Budaye"
+
+msgid "viviphyta"
+msgstr "Viviphyta"
+
+msgid "botbot"
+msgstr "Botbot"
+
+msgid "vivisource"
+msgstr "Vivisource"
+
+msgid "viviteel"
+msgstr "Viviteel"
+
+msgid "tuxemon_stat2"
+msgstr "{desc}"
+
+msgid "abesnaki"
+msgstr "Abesnaki"
+
+msgid "altie"
+msgstr "Altie"
+
+msgid "angrito"
+msgstr "Angrito"
+
+#, fuzzy
+msgid "anu"
+msgstr "Anu"
+
+msgid "apeoro"
+msgstr "Apeoro"
+
+msgid "araignee"
+msgstr "Araignee"
+
+msgid "arthrobolt"
+msgstr "Arthrobolt"
+
+msgid "av8r"
+msgstr "Av8r"
+
+msgid "b_ver_1"
+msgstr "B-Ver.1"
+
+msgid "banling"
+msgstr "Banling"
+
+msgid "baobaraffe"
+msgstr "Baobaraffe"
+
+msgid "baoby"
+msgstr "Baoby"
+
+msgid "beenstalker"
+msgstr "Beenstalker"
+
+msgid "boltnu"
+msgstr "Boltnu"
+
+msgid "boxali"
+msgstr "Boxali"
+
+msgid "brewdin"
+msgstr "Brewdin"
+
+msgid "bugnin"
+msgstr "Bugnin"
+
+msgid "urcine"
+msgstr "Urcine"
+
+msgid "vigueur"
+msgstr "Vigueur"
+
+msgid "vivicinder"
+msgstr "Vivicinder"
+
+msgid "vividactil"
+msgstr "Vividactil"
+
+msgid "vivipere"
+msgstr "Vivipere"
+
+msgid "vivitrans"
+msgstr "Vivitrans"
+
+msgid "vivitron"
+msgstr "Vivitron"
+
+msgid "volcoli"
+msgstr "Volcoli"
+
+msgid "spoilurm"
+msgstr "Spoilurm"
+
+msgid "mystikapi"
+msgstr "Mystikapi"
+
+msgid "snock"
+msgstr "Snock"
+
+msgid "statursus"
+msgstr "Statursus"
+
+msgid "snaki"
+msgstr "Snaki"
+
+msgid "snarlon"
+msgstr "Snarlon"
+
+msgid "strella"
+msgstr "Strella"
+
+msgid "trapsnap"
+msgstr "Trapsnap"
+
+msgid "cateye"
+msgstr "Cateye"
+
+msgid "chenipode"
+msgstr "Chenipode"
+
+msgid "chibiro"
+msgstr "Chibiro"
+
+msgid "embra"
+msgstr "Embra"
+
+msgid "elofly"
+msgstr "Elofly"
+
+msgid "elostorm"
+msgstr "Elostorm"
+
+msgid "embazook"
+msgstr "Embazook"
+
+msgid "jemuar"
+msgstr "Jemuar"
+
+msgid "k9"
+msgstr "K9"
+
+msgid "pantherafira"
+msgstr "Pantherafira"
+
+msgid "eruptibus"
+msgstr "Eruptibus"
+
+msgid "pilthropus"
+msgstr "Pilthropus"
+
+msgid "sumchon"
+msgstr "Sumchon"
+
+msgid "chrome_robo"
+msgstr "Chrome Robo"
+
+msgid "dark_robo"
+msgstr "Dark Robo"
+
+msgid "xeon"
+msgstr "Xeon"
+
+msgid "xeon_2"
+msgstr "Xeon-2"
+
+msgid "mk01_alpha"
+msgstr "MK01 Alpha"
+
+msgid "nuenflu"
+msgstr "Nuenflu"
+
+msgid "bumbulus"
+msgstr "Bumbulus"
+
+msgid "bursa"
+msgstr "Bursa"
+
+msgid "cataspike"
+msgstr "Cataspike"
+
+msgid "chromeye"
+msgstr "Chromeye"
+
+msgid "cochini"
+msgstr "Cochini"
+
+msgid "coleorus"
+msgstr "Coleorus"
+
+msgid "conileaf"
+msgstr "Conileaf"
+
+msgid "coproblight"
+msgstr "Coproblight"
+
+msgid "cowpignon"
+msgstr "Cowpignon"
+
+msgid "criniotherme"
+msgstr "Criniotherme"
+
+msgid "dandicub"
+msgstr "Dandicub"
+
+msgid "dinoflop"
+msgstr "Dinoflop"
+
+msgid "drokoro"
+msgstr "Drokoro"
+
+msgid "drashimi"
+msgstr "Drashimi"
+
+msgid "elowind"
+msgstr "Elowind"
+
+msgid "enduros"
+msgstr "Enduros"
+
+msgid "exapode"
+msgstr "Exapode"
+
+msgid "exclawvate"
+msgstr "Exclawvate"
+
+msgid "eyesore"
+msgstr "Eyesore"
+
+msgid "fancair"
+msgstr "Fancair"
+
+msgid "flacono"
+msgstr "Flacono"
+
+msgid "flambear"
+msgstr "Flambear"
+
+msgid "fluoresfin"
+msgstr "Fluoresfin"
+
+msgid "foofle"
+msgstr "Foofle"
+
+msgid "fordin"
+msgstr "Fordin"
+
+msgid "forturtle"
+msgstr "Forturtle"
+
+msgid "foxfire"
+msgstr "Foxfire"
+
+msgid "frondly"
+msgstr "Frondly"
+
+msgid "furnursus"
+msgstr "Furnursus"
+
+msgid "galnec"
+msgstr "Galnec"
+
+msgid "ghosteeth"
+msgstr "Ghosteeth"
+
+msgid "grumpi"
+msgstr "Grumpi"
+
+msgid "gryfix"
+msgstr "Gryfix"
+
+msgid "hampotamos"
+msgstr "Hampotamos"
+
+msgid "graffiki"
+msgstr "Graffiki"
+
+msgid "grimachin"
+msgstr "Grimachin"
+
+msgid "grinflare"
+msgstr "Grinflare"
+
+msgid "grintot"
+msgstr "Grintot"
+
+msgid "grintrock"
+msgstr "Grintrock"
+
+msgid "happito"
+msgstr "Happito"
+
+msgid "hatchling"
+msgstr "Hatchling"
+
+msgid "ignibus"
+msgstr "Ignibus"
+
+msgid "incandesfin"
+msgstr "Incandesfin"
+
+msgid "jelillow"
+msgstr "Jelillow"
+
+msgid "katacoon"
+msgstr "Katacoon"
+
+msgid "katapill"
+msgstr "Katapill"
+
+msgid "komodraw"
+msgstr "Komodraw"
+
+msgid "lapinou"
+msgstr "Lapinou"
+
+msgid "lightmare"
+msgstr "Lightmare"
+
+msgid "loliferno"
+msgstr "Loliferno"
+
+msgid "lunight"
+msgstr "Lunight"
+
+msgid "manosting"
+msgstr "Manosting"
+
+msgid "masknake"
+msgstr "Masknake"
+
+msgid "medushock"
+msgstr "Medushock"
+
+msgid "memnomnom"
+msgstr "Memnomnom"
+
+msgid "metesaur"
+msgstr "Metesaur"
+
+msgid "miaownolith"
+msgstr "Miaownolith"
+
+msgid "mrmoswitch"
+msgstr "Mrmoswitch"
+
+msgid "narcileaf"
+msgstr "Narcileaf"
+
+msgid "neutrito"
+msgstr "Neutrito"
+
+msgid "nudiflot_female"
+msgstr "Nudiflot"
+
+msgid "nudiflot_male"
+msgstr "Nudiflot"
+
+msgid "nudikill"
+msgstr "Nudikill"
+
+msgid "nudimind"
+msgstr "Nudimind"
+
+msgid "octabode"
+msgstr "Octabode"
+
+msgid "ouroboutlet"
+msgstr "Ouroboutlet"
+
+msgid "pairagrim"
+msgstr "Pairagrim"
+
+msgid "pairagrin"
+msgstr "Pairagrin"
+
+msgid "pharfan"
+msgstr "Pharfan"
+
+msgid "picc"
+msgstr "Picc"
+
+msgid "pipis"
+msgstr "Pipis"
+
+msgid "poinchin"
+msgstr "Poinchin"
+
+msgid "polyrock"
+msgstr "Polyrock"
+
+msgid "prophetoise"
+msgstr "Prophetoise"
+
+msgid "puparmor"
+msgstr "Puparmor"
+
+msgid "pyraminx"
+msgstr "Pyraminx"
+
+msgid "pythock"
+msgstr "Pythock"
+
+msgid "pythwire"
+msgstr "Pythwire"
+
+msgid "qetzlrokilus"
+msgstr "Qetzlrokilus"
+
+msgid "rabbitosaur"
+msgstr "rabbitosaur"
+
+msgid "rhincus"
+msgstr "Rhincus"
+
+msgid "rosarin"
+msgstr "Rosarin"
+
+msgid "ruption"
+msgstr "Ruption"
+
+msgid "sadito"
+msgstr "Sadito"
+
+msgid "sampsack"
+msgstr "Sampsack"
+
+msgid "sampsage"
+msgstr "Sampsage"
+
+msgid "sapsnap"
+msgstr "Sapsnap"
+
+msgid "saurchin"
+msgstr "Saurchin"
+
+msgid "sclairus"
+msgstr "Sclairus"
+
+msgid "seirein"
+msgstr "Seirein"
+
+msgid "shammer"
+msgstr "Shammer"
+
+msgid "shelagu"
+msgstr "Shelagu"
+
+msgid "shnark"
+msgstr "Shnark"
+
+msgid "shybulb"
+msgstr "Shybulb"
+
+msgid "skwib"
+msgstr "Skwib"
+
+msgid "snokari"
+msgstr "Snokari"
+
+msgid "sockeserp"
+msgstr "Sockeserp"
+
+msgid "solight"
+msgstr "Solight"
+
+msgid "spighter"
+msgstr "Spighter"
+
+msgid "squabbit"
+msgstr "Squabbit"
+
+msgid "tarpeur"
+msgstr "Tarpeur"
+
+msgid "taupypus"
+msgstr "Taupypus"
+
+msgid "teddisun"
+msgstr "Teddisun"
+
+msgid "tetrchimp"
+msgstr "Tetrchimp"
+
+msgid "tikoal"
+msgstr "Tikoal"
+
+msgid "tikorch"
+msgstr "Tikorch"
+
+msgid "tobishimi"
+msgstr "Tobishimi"
+
+msgid "toufigel"
+msgstr "Toufigel"
+
+msgid "tourbidi"
+msgstr "Tourbidi"
+
+msgid "weavifly"
+msgstr "Weavifly"
+
+msgid "windeye"
+msgstr "Windeye"
+
+msgid "yiinaang"
+msgstr "Yiinaang"
+
+msgid "mk01_beta"
+msgstr "Mk01 Beta"
+
+msgid "tsushimi"
+msgstr "Tsushimi"
+
+msgid "tumblebee"
+msgstr "Tumblebee"
+
+msgid "tumblequill"
+msgstr "Tumblequill"
+
+msgid "turnipper"
+msgstr "Turnipper"
+
+msgid "kennel_label"
+msgstr "{box} ({qty})"
+
+# Default mod names on selection menu
+msgid "xero_campaign"
+msgstr "Tuxemon: Xero"

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Tuxemon
+Type=Application
+Exec=txmn.py
+Icon=resources/gfx/icon
+Comment=Open source monster-fighting RPG
+Terminal=false
+Categories=games;

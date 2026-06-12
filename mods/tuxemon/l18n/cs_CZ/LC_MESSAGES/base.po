@@ -1,0 +1,1839 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tuxemon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-14 05:41+0200\n"
+"PO-Revision-Date: 2023-02-03 04:41+0000\n"
+"Last-Translator: Betsy <betsymaxx@gmailvn.net>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/tuxemon/tuxemon/cs/>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16-dev\n"
+
+# ITEM TRANSLATIONS ##
+# Apple
+msgid "apple"
+msgstr "Jablko"
+
+msgid "apple_description"
+msgstr "Vyléčí tvoru 10 životů."
+
+# Berry
+msgid "berry"
+msgstr "Bobule"
+
+msgid "berry_description"
+msgstr "Vyléčí tvoru 10 životů."
+
+# Cherry
+msgid "cherry"
+msgstr "Třešeň"
+
+msgid "cherry_description"
+msgstr "Vyléčí tvoru 10 životů."
+
+# Orange
+msgid "orange"
+msgstr "Pomeranč"
+
+msgid "orange_description"
+msgstr "Vyléčí tvoru 20 životů."
+
+# Potion
+msgid "potion"
+msgstr "Lektvar"
+
+msgid "potion_description"
+msgstr "Vyléčí tvoru 50 životů."
+
+# Super Potion
+msgid "super_potion"
+msgstr "Super lektvar"
+
+msgid "super_potion_description"
+msgstr "Vyléčí tvoru 100 životů."
+
+# Imperial Potion
+msgid "imperial_potion"
+msgstr "Císařský lektvar"
+
+msgid "imperial_potion_description"
+msgstr "Vyléčí tvoru 350 životů."
+
+# Capture Device
+msgid "capture_device"
+msgstr "Chytací zařízení"
+
+msgid "capture_device_description"
+msgstr "Chytí tvora."
+
+# NOTIFICATION TRANSLATIONS ##
+# Combat notifications
+msgid "combat_used_x"
+msgstr "{user} použil {name}!"
+
+msgid "combat_run"
+msgstr "{user} utekl!"
+
+msgid "combat_player_run"
+msgstr "Podařilo se ti utéct!"
+
+msgid "combat_used_x_on_y"
+msgstr "{user} použil {name} na {target}!"
+
+msgid "combat_swap"
+msgstr "{user} odesláno {target}!"
+
+msgid "combat_call_tuxemon"
+msgstr "Běž {name}!"
+
+# TODO: similar to combat_swap - refactor!
+msgid "combat_opponent_call_tuxemon"
+msgstr "{user} posílá ven {name}!"
+
+msgid "combat_state_poison_damage"
+msgstr "{name} byl otráven!"
+
+msgid "combat_status_damage"
+msgstr "{name} byl zasažen {status}!"
+
+msgid "combat_victory"
+msgstr "VYHRÁL JSI!"
+
+msgid "combat_defeat"
+msgstr "PROHRÁL JSI!"
+
+msgid "combat_draw"
+msgstr "Všechny strany omdlely!"
+
+msgid "combat_capturing_success"
+msgstr "Chytil jsi {name}!"
+
+msgid "combat_capturing_fail"
+msgstr "{name} se vymanil!"
+
+msgid "combat_replacement"
+msgstr "Vyber náhradníka!"
+
+msgid "combat_replacement_is_fainted"
+msgstr "Tento tvor omdlel!"
+
+msgid "combat_wild_appeared"
+msgstr "Objevil se divoký {name}!"
+
+msgid "combat_monster_choice"
+msgstr "Co udělá {name}?"
+
+msgid "combat_fainted"
+msgstr "{name} omdlel!"
+
+msgid "combat_isactive"
+msgstr "{name} je již nasazen."
+
+# Generic notifications
+msgid "not_implemented"
+msgstr "Tato funkce zatím není implementována."
+
+msgid "generic_success"
+msgstr "Fungovalo to!"
+
+msgid "generic_failure"
+msgstr "To se nepovedlo!"
+
+msgid "empty_slot"
+msgstr "prázdná pozice"
+
+msgid "exit"
+msgstr "Vypnout"
+
+msgid "item_confirm_use"
+msgstr "Použít"
+
+msgid "item_confirm_cancel"
+msgstr "Zrušit"
+
+# TODO same as generic_success and generic_failure - refactor!
+msgid "item_success"
+msgstr "Fungovalo to!"
+
+msgid "item_failure"
+msgstr "Selhalo to!"
+
+msgid "attempting_capture"
+msgstr "Pokus o chycení…"
+
+msgid "gotcha"
+msgstr "Mám tě!"
+
+msgid "item_cannot_use_here"
+msgstr "{name} nemůže tady být použito!"
+
+msgid "receive_happiness"
+msgstr "Obdržel 5 snímacích zařízení!"
+
+msgid "received_x"
+msgstr "Obdržel {name}!"
+
+msgid "save_success"
+msgstr "Uloženo!"
+
+msgid "save_failure"
+msgstr "Při ukládání došlo k chybě!"
+
+msgid "slot"
+msgstr "Místo"
+
+msgid "faint"
+msgstr "Bezvědomý"
+
+msgid "poison"
+msgstr "Otrava"
+
+# TECHNIQUE TRANSLATIONS ##
+msgid "bite"
+msgstr "Kousnutí"
+
+msgid "fire_explosion"
+msgstr "Ohnivý výbuch"
+
+msgid "poison_string"
+msgstr "Jedové žihadlo"
+
+msgid "pound"
+msgstr "Úder"
+
+msgid "swap"
+msgstr "Výměna"
+
+msgid "water_shot"
+msgstr "Vodní střela"
+
+msgid "whirlwind"
+msgstr "Vichřice"
+
+msgid "run"
+msgstr "Utéct"
+
+# MENU TRANSLATIONS ##
+# Monster Menu notifications
+msgid "monster_menu_info"
+msgstr "Info"
+
+msgid "monster_menu_move"
+msgstr "Posun"
+
+# Menu notifications
+msgid "log_off"
+msgstr "Odhlásit se"
+
+msgid "menu_bag"
+msgstr "Batoh"
+
+msgid "menu_fight"
+msgstr "Souboj"
+
+msgid "menu_item"
+msgstr "Předmět"
+
+msgid "menu_items"
+msgstr "Předměty"
+
+msgid "menu_journal"
+msgstr "Deník"
+
+msgid "menu_load"
+msgstr "Nahrát"
+
+msgid "menu_monster"
+msgstr "Tuxemon"
+
+# TODO: duplicate of menu_monster?
+msgid "menu_monsters"
+msgstr "Tuxemoni"
+
+msgid "menu_multiplayer"
+msgstr "Multiplayer"
+
+msgid "menu_new_game"
+msgstr "Nová hra"
+
+msgid "menu_options"
+msgstr "Nastavení"
+
+msgid "menu_player"
+msgstr "Hráč"
+
+msgid "menu_run"
+msgstr "Utéct"
+
+msgid "menu_save"
+msgstr "Uložit"
+
+# Multiplayer notifications
+msgid "multiplayer_accept"
+msgstr "Přijmout"
+
+msgid "multiplayer_decline"
+msgstr "Odmítnout"
+
+msgid "multiplayer_duel"
+msgstr "{name} by chtěl Duel!"
+
+msgid "multiplayer_host_game"
+msgstr "Hostit hru"
+
+msgid "multiplayer_scan_games"
+msgstr "Vyhledat hry"
+
+msgid "multiplayer_join_game"
+msgstr "Připojit se ke hře"
+
+msgid "multiplayer_hosting_ready"
+msgstr "Připraven příjmat klienty!"
+
+msgid "multiplayer_already_hosting"
+msgstr "Již hostováno!"
+
+msgid "multiplayer_no_servers"
+msgstr "Servery nebyly nalezeny..."
+
+msgid "multiplayer_join_prompt"
+msgstr "Hostname nebo IP?"
+
+# MONSTER TRANSLATIONS ##
+# Monster details
+msgid "aardart"
+msgstr "Aardart"
+
+msgid "aardart_description"
+msgstr "Počítá každého mravence, kterého snědl, a oslavuje významná čísla."
+
+msgid "aardorn"
+msgstr "Aardorn"
+
+msgid "aardorn_description"
+msgstr "Když se narodí, je umístěn v mraveništi a ponechán jíst cestu ven."
+
+msgid "agnidon"
+msgstr "Agnidon"
+
+msgid "agnidon_description"
+msgstr ""
+"Preferuje čtyři nohy, ale může stát na dvou, aby otevřel dveře, tlačil přes "
+"stromy nebo držel věci."
+
+msgid "agnigon"
+msgstr "Agnigon"
+
+msgid "agnigon_description"
+msgstr ""
+"Říká se mu \"falešný drak\", protože se zdá být drakem, ale ve skutečnosti "
+"se vyvinul z jiné linie starověkých plazů."
+
+msgid "agnite"
+msgstr "Agnite"
+
+msgid "agnite_description"
+msgstr "Je hravá, ale musí se brzy naučit, aby udržela svůj oheň na uzdě."
+
+msgid "allagon"
+msgstr "Allagon"
+
+msgid "allagon_description"
+msgstr ""
+"ALLAGON jsou přitahováni k relikviím vyrobeným z kovů, které po sobě "
+"zanechali jejich předkové, a budou násilní, aby je získali."
+
+msgid "anoleaf"
+msgstr "Anoleaf"
+
+msgid "anoleaf_description"
+msgstr ""
+"Rostliny, které rostou v jeho blízkosti, považuje za své bratry a sestry."
+
+msgid "axolightl"
+msgstr "Axolightl"
+
+msgid "axolightl_description"
+msgstr ""
+"Pomocí svého ocasu osvětlí hluboké vody, odhalý bezpečný úkryt pro rybu."
+
+msgid "bamboon"
+msgstr "Bamboon"
+
+msgid "bamboon_description"
+msgstr ""
+"Bojuje pomocí svojí bambusové hole, kterou používá také při balancování."
+
+msgid "bigfin"
+msgstr "Bigfin"
+
+msgid "bigfin_description"
+msgstr "Na jeho zádech je celý ekosystém, takže se snaží se nepotápět"
+
+msgid "bolt"
+msgstr "Bolt"
+
+msgid "bolt_description"
+msgstr "Přítomnost BOLT způsobuje, že matice je tvrdší a jiskří více energie."
+
+msgid "cairfrey"
+msgstr "Cairfrey"
+
+msgid "cairfrey_description"
+msgstr ""
+"Veselý kus nábytku, který se jednoho rána probudil a rozhodl se prozkoumat."
+
+msgid "capiti"
+msgstr "Capiti"
+
+msgid "capiti_description"
+msgstr ""
+"Vypadá to jako dítě, ale byly nalezeny některé exempláře, které jsou stovky "
+"let staré."
+
+msgid "cardiling"
+msgstr "Cardiling"
+
+msgid "cardiling_description"
+msgstr "Člověk by nečekal, že bude chrlit oheň, dokud to neudělá."
+
+msgid "cardinale"
+msgstr "Cardinale"
+
+msgid "cardinale_description"
+msgstr ""
+"Vášnivě nenávidí všechny predátory a vede válku s nimi a jejich mláďaty, "
+"když může."
+
+msgid "cardiwing"
+msgstr "Cardiwing"
+
+msgid "cardiwing_description"
+msgstr ""
+"Jeho píseň je pozoruhodná, ale málokdo se odváží udržet výbušného zpěvného "
+"ptáka."
+
+msgid "chillimp"
+msgstr "Chillimp"
+
+msgid "chillimp_description"
+msgstr ""
+"Říká se, že žije na vrcholu zasněžených hor, ale nikdy nebyla pořízena žádná"
+" jasná fotografie."
+
+msgid "chloragon"
+msgstr "Chloragon"
+
+msgid "chloragon_description"
+msgstr ""
+"Vylíhne se, když je staré vejce zasazeno do úrodné půdy. Když vajíčka "
+"dojdou, nebude už žádný CHLORAGON."
+
+msgid "conifrost"
+msgstr "Conifrost"
+
+msgid "conifrost_description"
+msgstr "Pokud kýchá, dojde k lavině. Má permanentní čichání."
+
+msgid "corvix"
+msgstr "Corvix"
+
+msgid "corvix_description"
+msgstr "Vyzbrojuje svá křídla střepy kostí od svých obětí."
+
+msgid "dandylion"
+msgstr "Dandylion"
+
+msgid "dandylion_description"
+msgstr ""
+"Rodí jen jednou ve svém životě. Pak se potuluje po světě a snaží se najít "
+"svoje potomky."
+
+msgid "djinnbo"
+msgstr "Djinnbo"
+
+msgid "djinnbo_description"
+msgstr ""
+"Legendy říkají, že to je člověk, který zemřel při požáru. Ve skutečnosti se "
+"to stalo jeho příbuzným."
+
+msgid "dollfin"
+msgstr "Dollfin"
+
+msgid "dollfin_description"
+msgstr "Každý z nich následuje loď z místa na místo, a prozkoumává svět."
+
+msgid "dracune"
+msgstr "Dracune"
+
+msgid "dracune_description"
+msgstr "Během dne je nehybný, ale v noci se může kroutit a kousat."
+
+msgid "dragarbor"
+msgstr "Dragarbor"
+
+msgid "dragarbor_description"
+msgstr ""
+"Když cítí, že se blíží ke konci svého života, cestuje na hřbitov, kde se "
+"zasadí. Jeho ocasní květ roste navždy."
+
+msgid "dune_pincher"
+msgstr "Dune Pincher"
+
+msgid "dune_pincher_description"
+msgstr ""
+"Tito poustevníci se zabalí do toho, co je nejblíže. V poušti to jsou "
+"pohřební rubáše dávno mrtvých faraonů."
+
+msgid "eaglace"
+msgstr "Eaglace"
+
+msgid "eaglace_description"
+msgstr ""
+"When it takes flight, clouds form. When it claps its wings, hail falls."
+
+msgid "eyenemy"
+msgstr "Eyenemy"
+
+msgid "eyenemy_description"
+msgstr "Živí se krásným výhledem a jinou podívanou."
+
+msgid "falcono"
+msgstr "Falcono"
+
+msgid "falcono_description"
+msgstr ""
+"It is totally unafraid of adversaries, and will attack an enemy of any size "
+"without hesitation."
+
+msgid "ferricran"
+msgstr "Ferricran"
+
+msgid "ferricran_description"
+msgstr ""
+"Kdysi byly FERRICRAN pokryty adamantinskými šupinami a měly křídla mithrilu."
+
+msgid "firomenis"
+msgstr "Firomenis"
+
+msgid "firomenis_description"
+msgstr "<<MISSING>>"
+
+msgid "fluttaflap"
+msgstr "Fluttaflap"
+
+msgid "fluttaflap_description"
+msgstr "Živí se nečistotami, takže vrací vyčištěnou krev těm, které saje."
+
+msgid "fruitera"
+msgstr "Fruitera"
+
+msgid "fruitera_description"
+msgstr ""
+"FRUITERA je chamtivá po ovoci a nese co nejvíce. Když se poleká, upustí "
+"všechno své ovoce, znovu je shromáždí a teprve pak uteče."
+
+msgid "gectile"
+msgstr "Gectile"
+
+msgid "gectile_description"
+msgstr "Je tak rychlý a lehký, že může chodit po listech."
+
+msgid "heronquak"
+msgstr "Heronquak"
+
+msgid "heronquak_description"
+msgstr ""
+"Krystal na hrudi pytláci zaměňují za diamant. Roztaje, když je odstraněn z "
+"těla HERONQUAK."
+
+msgid "hydrone"
+msgstr "Hydrone"
+
+msgid "hydrone_description"
+msgstr "Využívá experimentální technologii, která vytváří energii z vody."
+
+msgid "lambert"
+msgstr "Lambert"
+
+msgid "lambert_description"
+msgstr "Do své skořápky byl uložen svými rodiči a poté vyslán do světa."
+
+msgid "legko"
+msgstr "Legko"
+
+msgid "legko_description"
+msgstr ""
+"Dlouho se myslelo, že je beznohé, jeho listy jsou vlastně zakrnělé "
+"končetiny."
+
+msgid "magmaturtle"
+msgstr "Magmaturtle"
+
+msgid "magmaturtle_description"
+msgstr "<<MISSING>>"
+
+msgid "merlicun"
+msgstr "Merlicun"
+
+msgid "merlicun_description"
+msgstr "<<MISSING>>"
+
+msgid "moloch"
+msgstr "Moloch"
+
+msgid "moloch_description"
+msgstr ""
+"Může ztuhnout nebo změkčit svou pokožku, aby reagovala na přátele a "
+"nepřátele."
+
+msgid "noctalo"
+msgstr "Noctalo"
+
+msgid "noctalo_description"
+msgstr "Obývá pouze místa opuštěná lidmi - hrady, hřbitovy a kanály."
+
+msgid "noctula"
+msgstr "Noctula"
+
+msgid "noctula_description"
+msgstr ""
+"Žere brouky a PIPIS jí ovoce, takže navzdory tomu, že žijí v těsné "
+"blízkosti, nesoutěží."
+
+msgid "nostray"
+msgstr "Nostray"
+
+msgid "nostray_description"
+msgstr "Může cítit cokoliv v oceánu, bez ohledu na to, jak daleko."
+
+msgid "nudiflot"
+msgstr "Nudiflot"
+
+msgid "nudiflot_description"
+msgstr "Jí a ukládá jed z mořských tvorů které pozře."
+
+msgid "nut"
+msgstr "Nut"
+
+msgid "nut_description"
+msgstr ""
+"Ve velkých lodích, které křižují oceány, poskytují tisíce MATIC a BOLT "
+"energii a drží ocelové obšívky pohromadě."
+
+msgid "onaclov"
+msgstr "Onaclov"
+
+msgid "onaclov_description"
+msgstr "<<MISSING>>"
+
+msgid "pigabyte"
+msgstr "Pigabyte"
+
+msgid "pigabyte_description"
+msgstr "Vědci zjistili, že nejlepší počítače mají organické implantáty."
+
+msgid "possessun"
+msgstr "Possessun"
+
+msgid "possessun_description"
+msgstr "Je to duch, který obývá mrtvou CAIRFREY."
+
+msgid "propellercat"
+msgstr "Propellercat"
+
+msgid "propellercat_description"
+msgstr "Je to nový druh, nebo jen domácí mazlíček vynálezce?"
+
+msgid "rockat"
+msgstr "Rockat"
+
+msgid "rockat_description"
+msgstr "Navzdory své značné váze jsou jeho kroky tiché."
+
+msgid "rockitten"
+msgstr "Rockitten"
+
+msgid "rockitten_description"
+msgstr "Používá své drobné skalní uši k přitulení."
+
+msgid "sapragon"
+msgstr "Sapragon"
+
+msgid "sapragon_description"
+msgstr ""
+"V dávných dobách měl každý prvek mocného draka - ale těchto tvorů ubylo a v "
+"dnešní době jsou vzácní."
+
+msgid "selket"
+msgstr "Selket"
+
+msgid "selket_description"
+msgstr ""
+"Čekají pod pískem a cítí svou kořist prostřednictvím vibrací svých kroků."
+
+msgid "selmatek"
+msgstr "Selmatek"
+
+msgid "selmatek_description"
+msgstr ""
+"SELMATEK, chovaný starými králi pouští, sloužil jako hlídací psi, lovečtí "
+"společníci a - nyní - obránci proti vykradačům hrobů."
+
+msgid "simba"
+msgstr "Simba"
+
+msgid "simba_description"
+msgstr "<<MISSING>>"
+
+msgid "sludgehog"
+msgstr "Sludgehog"
+
+msgid "sludgehog_description"
+msgstr ""
+"Žije v odpadcích a také ho jí. Jeho hroty se zdají být ostré, ale mohou je "
+"libovolně změkčit."
+
+msgid "sharpfin"
+msgstr "Sharpfin"
+
+msgid "sharpfin_description"
+msgstr ""
+"Ve vodě je neviditelná, je viditelná pouze tehdy, když vyskočí z vody, aby "
+"přetáhla zvířata na břehu zpět do hlubiny."
+
+msgid "snowrilla"
+msgstr "Snowrilla"
+
+msgid "snowrilla_description"
+msgstr "Těší ho hrát si s lyžaři na pustých svazích."
+
+msgid "spycozeus"
+msgstr "Spycozeus"
+
+msgid "spycozeus_description"
+msgstr ""
+"Šeptané komunikace lesa dostávají fyzickou podobu ve SPYCOZEUS, který myslí "
+"jako stromy."
+
+msgid "sumobug"
+msgstr "Sumobug"
+
+msgid "sumobug_description"
+msgstr ""
+"Využívá svoji hmotnost k poražení mnohem větších nepřátel. Jeho hustota je "
+"tak vysoká jako v jádru hvězdy."
+
+msgid "tigrock"
+msgstr "Tigrock"
+
+msgid "tigrock_description"
+msgstr ""
+"Říká se, že musel vynalézt sám sebe, protože evoluce ho nemohla navrhnout.."
+
+msgid "tumblecoon"
+msgstr "Tumblecoon"
+
+msgid "tumblecoon_description"
+msgstr "<<MISSING>>"
+
+msgid "tumbleworm"
+msgstr "Tumbleworm"
+
+msgid "tumbleworm_description"
+msgstr "Když přerostou svá voštinová vajíčka, spadnou nejprve na zem."
+
+msgid "tux"
+msgstr "Tux"
+
+msgid "tux_description"
+msgstr "<<MISSING>>"
+
+msgid "tweesher"
+msgstr "Tweesher"
+
+msgid "tweesher_description"
+msgstr ""
+"Čím chladnější je počasí, tím těžší je jeho zobák. Při méně než 0 stupních "
+"je tvrdší než diamant."
+
+msgid "vamporm"
+msgstr "Vamporm"
+
+msgid "vamporm_description"
+msgstr "Žízní po krvi, ale musí si vystačit se stromovou mízou."
+
+msgid "velocitile"
+msgstr "Velocitile"
+
+msgid "velocitile_description"
+msgstr "Může utéct kulce, ale pouze tehdy, když se zahřeje."
+
+msgid "wrougon"
+msgstr "Wrougon"
+
+msgid "wrougon_description"
+msgstr ""
+"Each Wrougon is born with a patch of rust larger than the patch of its "
+"parents."
+
+msgid "zunna"
+msgstr "Zunna"
+
+msgid "zunna_description"
+msgstr "Veselá ZUNNA nasává do žaludku veškerou potravu, kterou najde."
+
+# Monster categories
+msgid "anteater"
+msgstr "Zárodek"
+
+msgid "snout"
+msgstr "Čenich"
+
+msgid "false_dragon"
+msgstr "Falešný drak"
+
+msgid "dragon"
+msgstr "Drak"
+
+msgid "sprout"
+msgstr "Klíček"
+
+msgid "inchoate"
+msgstr "Počáteční"
+
+msgid "prehensile"
+msgstr "Zručný"
+
+msgid "island"
+msgstr "Ostrov"
+
+msgid "host"
+msgstr "Host"
+
+msgid "woodwose"
+msgstr "Dřevo"
+
+msgid "firebird"
+msgstr "Pták ohnivák"
+
+msgid "frost_ape"
+msgstr "Mrazová opice"
+
+msgid "taiga"
+msgstr "Tajga"
+
+msgid "horned_raptor"
+msgstr "Rohatý Raptor"
+
+msgid "lions_tooth"
+msgstr "Lví zub"
+
+msgid "vengeance"
+msgstr "Odveta"
+
+msgid "joyful"
+msgstr "Radostný"
+
+msgid "cloaked"
+msgstr "Maskovaná"
+
+msgid "cirrus"
+msgstr "Úponek"
+
+msgid "pupil"
+msgstr "Učeň"
+
+msgid "fire"
+msgstr "Oheň"
+
+msgid "sanguine"
+msgstr "Optimistický"
+
+msgid "wood"
+msgstr "Dřevo"
+
+msgid "climbing"
+msgstr "Horolezectví"
+
+msgid "crested"
+msgstr "Chocholatý"
+
+msgid "metal_water"
+msgstr "Kov, Voda"
+
+msgid "gumnut"
+msgstr "Gumový ořech"
+
+msgid "lizard"
+msgstr "Ještěrka"
+
+msgid "earth_fire"
+msgstr "Země, Oheň"
+
+msgid "devil"
+msgstr "Ďábel"
+
+msgid "nightcrawler"
+msgstr "Noční plazič"
+
+msgid "proboscis"
+msgstr "Proboscis"
+
+msgid "flopped"
+msgstr "Propadlo"
+
+msgid "metal"
+msgstr "Kov"
+
+msgid "visitor"
+msgstr "Návštěvník"
+
+msgid "earth"
+msgstr "Země"
+
+msgid "rip"
+msgstr "Roztrhnout"
+
+msgid "yeti"
+msgstr "Sněžný muž"
+
+msgid "ex_machina"
+msgstr "Ex Machina"
+
+msgid "water"
+msgstr "Vodní"
+
+msgid "clot"
+msgstr "Sraženina"
+
+msgid "restless"
+msgstr "Neklidný"
+
+msgid "slurpy"
+msgstr "Slurpy"
+
+# NPC TRANSLATIONS ##
+# NPC slugs and names
+msgid "aeble"
+msgstr "Aeble"
+
+msgid "allie"
+msgstr "Allie"
+
+msgid "cottonnurse"
+msgstr "Cotton Nurse"
+
+msgid "karrianna"
+msgstr "Karrianna"
+
+msgid "knight1"
+msgstr "Rytíř I"
+
+msgid "knight2"
+msgstr "Rytíř II"
+
+msgid "liela"
+msgstr "Liela"
+
+msgid "maple_wren"
+msgstr "Javor"
+
+msgid "misa"
+msgstr "Misa"
+
+msgid "professor"
+msgstr "Profesor"
+
+msgid "npc_red"
+msgstr "Red"
+
+msgid "tabanurse"
+msgstr "Zdravotní sestra Taba"
+
+msgid "tuxemart_keeper"
+msgstr "Tuxemart Obchodník"
+
+msgid "tuxemart_aide"
+msgstr "Tuxemart Zaměstnanec"
+
+msgid "xerogrund1"
+msgstr "Tým Xero Grunt I"
+
+msgid "xerogrund2"
+msgstr "Tým Xero Grunt II"
+
+msgid "xerogrunt2"
+msgstr "Tým Xero Grunt II"
+
+msgid "xerogrunt3"
+msgstr "Tým Xero Grunt III"
+
+msgid "xerogrunt4"
+msgstr "Tým Xero Grunt IV"
+
+msgid "xerogrunt5"
+msgstr "Tým Xero Grunt V"
+
+msgid "xerogrunt6"
+msgstr "Tým Xero Grunt VI"
+
+msgid "xerogrunt7"
+msgstr "Tým Xero Grunt VII"
+
+msgid "xerogrunt8"
+msgstr "Tým Xero Grunt VIII"
+
+msgid "xerogrunt9"
+msgstr "Tým Xero Grunt IX"
+
+msgid "xerogrunt10"
+msgstr "Tým Xero Grunt X"
+
+# DIALOG TRANSLATIONS ##
+# general dialogs
+msgid "healmytuxemon"
+msgstr "Do you want to heal your Tuxemon?"
+
+msgid "haveagoodday"
+msgstr "Have a nice day!"
+
+msgid "yes"
+msgstr "Ano"
+
+msgid "no"
+msgstr "Ne"
+
+msgid "door_problems"
+msgstr "Dveře jsou zaseknuté a neotevřou se..."
+
+msgid "empty_pot"
+msgstr "It's an empty pot, maybe someone will plant something here"
+
+msgid "purple_flowers"
+msgstr "Někdo zasadil sladce vonící fialové květy!"
+
+msgid "orange_flowers"
+msgstr "Někdo zasadil nějaké krásné oranžové květy!"
+
+msgid "famous_statue"
+msgstr "Je to socha bývalého mistra Tuxemon. Název je zvětralý..."
+
+msgid "famous_statue2"
+msgstr "Říká: Pro naše milované přátele a hrdiny všech, wywen"
+
+msgid "cotton_town_fountain"
+msgstr "It's a fountain. A lot of coins are at the bottom"
+
+msgid "tree"
+msgstr "Tento strom vypadá šťastně a zdravě!"
+
+msgid "route_2"
+msgstr "Cesta 2"
+
+msgid "sure_i_do"
+msgstr "Sure I do"
+
+msgid "not_really"
+msgstr "Not really"
+
+# NPC dialogs
+msgid "professor_dialog"
+msgstr ""
+"Profesor: Hurá. Přesně ten člověk se kterým jsem se chtěl setkat.\n"
+"Slyšel jsem že se chceš učit o Tuxemonech.\n"
+"Tuxemoni jsou malá zvířata, někteří je nazývají monstry, se kterými se přátelíme a používáme je k boji s dalšími Tuxemony.\n"
+"Napadlo mě, že jsem zrovna získal tři nové Tuxemony pro svůj výzkum. Jednoho bych ti rád dal.\n"
+"Který by se ti líbil?"
+
+msgid "professor_dialog6.1"
+msgstr "Profesor: Skvělá volba! Hydrone je vodní tuxemon"
+
+msgid "professor_dialog6.2"
+msgstr "Profesor: Vynikající volba! Rockitten je zemní tuxemon"
+
+msgid "professor_dialog6.3"
+msgstr "Profesor: Výborná volba! Fruitera je dřevní tuxemon"
+
+msgid "professor_dialog7"
+msgstr ""
+"Profesor: Doufám, že se uvidíme! Jdu se vydat na cestu, takže se možná někdy"
+" setkáme."
+
+msgid "karrianna_dialog1"
+msgstr "Karrianna: Trénovala jsem celý měsíc! Zatím mě nikdo neporazil!"
+
+msgid "karrianna_dialog2"
+msgstr "Dobře... Byl jsi první trenér, se kterým jsem se setkal..."
+
+msgid "xero_hideout1"
+msgstr "Institut Xero pro výzkum a vývoj v oblasti Tuxemonů."
+
+msgid "cherry_found"
+msgstr "Našel jsi třešeň"
+
+msgid "xero_grunts_block"
+msgstr "Tato oblast je ve výstavbě, mělo by to být brzy hotovo."
+
+msgid "waiting_for_misa"
+msgstr ""
+"Our leader would like to talk with you. When you are ready, talk to my "
+"friend next to me."
+
+msgid "teleport?"
+msgstr "Are you ready to meet our leader?"
+
+msgid "ouch"
+msgstr "Sorry, but this may hurt a bit..."
+
+msgid "maybe_sometime_again?"
+msgstr "Okay, I'll be here when you are ready."
+
+msgid "youcantleave"
+msgstr "Dveře jsou zamčené zvenčí... Je někde klíč?"
+
+msgid "discovered_a_person"
+msgstr "Našli jste mě! Haha!"
+
+msgid "a_serious_discussion"
+msgstr ""
+
+msgid "oops"
+msgstr ""
+
+msgid "backstory"
+msgstr ""
+
+msgid "backstory9"
+msgstr "Co vy na to? Pomůžete nám?"
+
+msgid "sorryfurthis"
+msgstr "Dobrá volba. Omlouvám se, ale bude to jen trochu bodat."
+
+msgid "mwah"
+msgstr ""
+
+msgid "mwah2"
+msgstr "JESS!!!"
+
+msgid "itslockedboi"
+msgstr "Allie za sebou zamkla dveře..."
+
+msgid "hellothere"
+msgstr "???: Čauky!"
+
+msgid "kmere"
+msgstr "Proč nepřijdeš sem a nepromluvíš si se mnou?"
+
+msgid "theinfo"
+msgstr ""
+
+msgid "liela_goes_to_battle"
+msgstr ""
+"Jestli mě budeš rušit, zatímco budu sbírat bobule, budu tě prostě muset "
+"vyzvat!"
+
+msgid "Cathedral_Center"
+msgstr "Cathedral Center: Žijeme, abychom sloužili."
+
+msgid "Cotton_Mart"
+msgstr "Získejte kopeček v obchodě Scoop!"
+
+msgid "Cotton_Town_Sign"
+msgstr ""
+"Welcome to Cotton Town: A Growing Force\n"
+"^ Cotton Town --- Route 1 v"
+
+msgid "column1"
+msgstr "Vzácný a starobylý sloup. To bývalo součástí chrámu."
+
+msgid "column2"
+msgstr ""
+"Vzácný a starobylý sloup. Další ruiny ze stejné kultury najdete na Route 3. "
+
+msgid "cityparksign"
+msgstr ""
+"Welcome to City Park: A Taste of the Wild\n"
+"^ City Park --- Route 2 v"
+
+msgid "route2speech"
+msgstr "EEK!!!"
+
+msgid "route2speech2"
+msgstr ""
+
+msgid "route2speech3"
+msgstr ""
+
+msgid "yestalk"
+msgstr "Vážně? Dík..."
+
+msgid "notalk"
+msgstr "Jak necitlivé od vás! Škoda, stejně mě budeš muset poslouchat!"
+
+msgid "spillit"
+msgstr ""
+
+msgid "spillit3"
+msgstr ""
+"Cokoliv... Allie je moje sestra a znamená pro mě celý svět, takže mě "
+"zničilo, když jsem zjistila, že ji vzal na velitelství."
+
+msgid "spillit4"
+msgstr ""
+"Nemusí se to zdát jako špatná věc, ale je to tak. Víte, co dělají svým "
+"rekrutům? ANO!?"
+
+msgid "spillit5"
+msgstr ""
+"Protože já také ne... Vím jen, že nikdo nikdy neopustil Omnichannel poté, co"
+" byl přijat."
+
+msgid "spillit6"
+msgstr ""
+"stejně... Vás se to netýká. Jediné, na čem záleží, je svržení Omnichannel."
+
+msgid "spillit7"
+msgstr ""
+"Omlouvám se, že vás obtěžuji svými problémy. City Park je vpředu, když se "
+"chcete posunout dál"
+
+msgid "leavemealone"
+msgstr "Hrávali jsme tu pořád, když jsme byli mladší..."
+
+msgid "iamknight3"
+msgstr ""
+"What are you doing here? You know that only knights are allowed through city park.\n"
+"... ... ... Hmm... So you're trying to get to Leather Town...\n"
+"Well, I guess you could enter the challenge if you want. The only problem is that you'll need a Tuxemon...\n"
+"I'm sure we can lend you one. Are you up for the challenge?"
+
+msgid "sorry"
+msgstr "Okay, well... when you're ready, I'll still be here..."
+
+msgid "splendid"
+msgstr ""
+"You will? Splendid! Now, to find you a suitable Tuxemon...\n"
+"... ... You already have a Tuxemon? Well, I'm sure that you'd be able to handle yourself well..."
+
+msgid "cottonnurse_dialog"
+msgstr "Welcome to the Cotton Town Tuxecenter!"
+
+msgid "tabanurse_dialog"
+msgstr ""
+"Vítejte v ${{map_name}} Tuxecenter!\n"
+"Chcete vyléčit své Tuxemon?"
+
+msgid "okaythen"
+msgstr "OK! Jen mi dej vteřinu a já uzdravím tvé Tuxemon!"
+
+msgid "okaythen2"
+msgstr "Well, it looks like your Tuxemon are full of energy! Here they are!"
+
+msgid "input_name"
+msgstr "Jméno?"
+
+msgid "tuxemon_stat2"
+msgstr "{desc}"
+
+msgid "urcine"
+msgstr "Urcine"
+
+msgid "vivisource"
+msgstr "Vivisource"
+
+msgid "viviteel"
+msgstr "Viviteel"
+
+msgid "vivicinder"
+msgstr "Vivicinder"
+
+msgid "vivitron"
+msgstr "Vivitron"
+
+msgid "volcoli"
+msgstr "Volcoli"
+
+msgid "vividactil"
+msgstr "Vividactil"
+
+msgid "vivipere"
+msgstr "Vivipere"
+
+msgid "vivitrans"
+msgstr "Vivitrans"
+
+msgid "viviphyta"
+msgstr "Viviphyta"
+
+msgid "chrome_robo"
+msgstr "Chrome Robo"
+
+msgid "dark_robo"
+msgstr "Dark Robo"
+
+msgid "xeon"
+msgstr "Xeon"
+
+msgid "xeon_2"
+msgstr "Xeon-2"
+
+msgid "mk01_beta"
+msgstr "Mk01 Beta"
+
+msgid "mk01_alpha"
+msgstr "MK01 Alpha"
+
+msgid "altie"
+msgstr "Altie"
+
+msgid "abesnaki"
+msgstr "Abesnaki"
+
+msgid "angrito"
+msgstr "Angrito"
+
+msgid "anu"
+msgstr "Anu"
+
+msgid "apeoro"
+msgstr "Apeoro"
+
+msgid "araignee"
+msgstr "Araignee"
+
+msgid "arthrobolt"
+msgstr "Arthrobolt"
+
+msgid "av8r"
+msgstr "Av8r"
+
+msgid "b_ver_1"
+msgstr "B-Ver.1"
+
+msgid "banling"
+msgstr "Banling"
+
+msgid "baobaraffe"
+msgstr "Baobaraffe"
+
+msgid "baoby"
+msgstr "Baoby"
+
+msgid "beenstalker"
+msgstr "Beenstalker"
+
+msgid "birdling"
+msgstr "Birdling"
+
+msgid "boltnu"
+msgstr "Boltnu"
+
+msgid "botbot"
+msgstr "Botbot"
+
+msgid "boxali"
+msgstr "Boxali"
+
+msgid "brewdin"
+msgstr "Brewdin"
+
+msgid "budaye"
+msgstr "Budaye"
+
+msgid "bugnin"
+msgstr "Bugnin"
+
+msgid "bumbulus"
+msgstr "Bumbulus"
+
+msgid "bursa"
+msgstr "Bursa"
+
+msgid "cataspike"
+msgstr "Cataspike"
+
+msgid "cateye"
+msgstr "Cateye"
+
+msgid "chenipode"
+msgstr "Chenipode"
+
+msgid "chibiro"
+msgstr "Chibiro"
+
+msgid "chromeye"
+msgstr "Chromeye"
+
+msgid "cochini"
+msgstr "Cochini"
+
+msgid "turnipper"
+msgstr "Turnipper"
+
+msgid "vigueur"
+msgstr "Vigueur"
+
+msgid "weavifly"
+msgstr "Weavifly"
+
+msgid "windeye"
+msgstr "Windeye"
+
+msgid "yiinaang"
+msgstr "Yiinaang"
+
+msgid "embazook"
+msgstr "Embazook"
+
+msgid "conileaf"
+msgstr "Conileaf"
+
+msgid "criniotherme"
+msgstr "Cowpignon"
+
+msgid "neutrito"
+msgstr "Neutrito"
+
+msgid "masknake"
+msgstr "Masknake"
+
+msgid "mrmoswitch"
+msgstr "Mrmoswitch"
+
+msgid "medushock"
+msgstr "Medushock"
+
+msgid "shelagu"
+msgstr "Shelagu"
+
+msgid "snock"
+msgstr "Snock"
+
+msgid "eruptibus"
+msgstr "Eruptibus"
+
+msgid "katacoon"
+msgstr "Katacoon"
+
+msgid "nudiflot_female"
+msgstr "Nudiflot"
+
+msgid "nudiflot_male"
+msgstr "Nudiflot"
+
+msgid "pilthropus"
+msgstr "Pilthropus"
+
+msgid "sumchon"
+msgstr "Sumchon"
+
+msgid "coproblight"
+msgstr "Coproblight"
+
+msgid "katapill"
+msgstr "Katapill"
+
+msgid "shammer_fossil"
+msgstr "Zkamenělina Shammer"
+
+msgid "rhincus_fossil"
+msgstr "Zkamenělina Rhincus"
+
+msgid "coleorus"
+msgstr "Coleorus"
+
+msgid "cowpignon"
+msgstr "Cowpignon"
+
+msgid "dandicub"
+msgstr "Dandicub"
+
+msgid "dinoflop"
+msgstr "Dandicub"
+
+msgid "drashimi"
+msgstr "Drashimi"
+
+msgid "drokoro"
+msgstr "Drokoro"
+
+msgid "elofly"
+msgstr "Elofly"
+
+msgid "elostorm"
+msgstr "Elostorm"
+
+msgid "elowind"
+msgstr "Elowind"
+
+msgid "embra"
+msgstr "Embra"
+
+msgid "enduros"
+msgstr "Enduros"
+
+msgid "exapode"
+msgstr "Exapode"
+
+msgid "exclawvate"
+msgstr "Exclawvate"
+
+msgid "eyesore"
+msgstr "Eyesore"
+
+msgid "fancair"
+msgstr "Fancair"
+
+msgid "flacono"
+msgstr "Fancair"
+
+msgid "fordin"
+msgstr "Fordin"
+
+msgid "forturtle"
+msgstr "Forturtle"
+
+msgid "flambear"
+msgstr "Flambear"
+
+msgid "fluoresfin"
+msgstr "Fluoresfin"
+
+msgid "foofle"
+msgstr "Foofle"
+
+msgid "foxfire"
+msgstr "Foxfire"
+
+msgid "frondly"
+msgstr "Frondly"
+
+msgid "furnursus"
+msgstr "Furnursus"
+
+msgid "galnec"
+msgstr "Galnec"
+
+msgid "ghosteeth"
+msgstr "Ghosteeth"
+
+msgid "graffiki"
+msgstr "Graffiki"
+
+msgid "grimachin"
+msgstr "Grimachin"
+
+msgid "grinflare"
+msgstr "Grinflare"
+
+msgid "grintot"
+msgstr "Grintot"
+
+msgid "grintrock"
+msgstr "Grintrock"
+
+msgid "grumpi"
+msgstr "Grumpi"
+
+msgid "gryfix"
+msgstr "Gryfix"
+
+msgid "ignibus"
+msgstr "Ignibus"
+
+msgid "hampotamos"
+msgstr "Hampotamos"
+
+msgid "happito"
+msgstr "Happito"
+
+msgid "hatchling"
+msgstr "Hatchling"
+
+msgid "incandesfin"
+msgstr "Incandesfin"
+
+msgid "jelillow"
+msgstr "Jelillow"
+
+msgid "jemuar"
+msgstr "Jemuar"
+
+msgid "k9"
+msgstr "K9"
+
+msgid "komodraw"
+msgstr "Komodraw"
+
+msgid "lapinou"
+msgstr "Lapinou"
+
+msgid "lightmare"
+msgstr "Lightmare"
+
+msgid "loliferno"
+msgstr "Loliferno"
+
+msgid "lunight"
+msgstr "Lunight"
+
+msgid "manosting"
+msgstr "Manosting"
+
+msgid "memnomnom"
+msgstr "Memnomnom"
+
+msgid "metesaur"
+msgstr "Metesaur"
+
+msgid "miaownolith"
+msgstr "Miaownolith"
+
+msgid "mystikapi"
+msgstr "Mystikapi"
+
+msgid "narcileaf"
+msgstr "Narcileaf"
+
+msgid "nudikill"
+msgstr "Nudikill"
+
+msgid "nudimind"
+msgstr "Nudimind"
+
+msgid "nuenflu"
+msgstr "Nuenflu"
+
+msgid "octabode"
+msgstr "Octabode"
+
+msgid "ouroboutlet"
+msgstr "Ouroboutlet"
+
+msgid "pairagrim"
+msgstr "Pairagrim"
+
+msgid "pairagrin"
+msgstr "Pairagrin"
+
+msgid "pantherafira"
+msgstr "Pantherafira"
+
+msgid "pharfan"
+msgstr "Pharfan"
+
+msgid "picc"
+msgstr "Picc"
+
+msgid "pipis"
+msgstr "Pipis"
+
+msgid "poinchin"
+msgstr "Poinchin"
+
+msgid "polyrock"
+msgstr "Polyrock"
+
+msgid "prophetoise"
+msgstr "Prophetoise"
+
+msgid "puparmor"
+msgstr "Puparmor"
+
+msgid "pyraminx"
+msgstr "Pyraminx"
+
+msgid "pythock"
+msgstr "Pythock"
+
+msgid "pythwire"
+msgstr "Pythwire"
+
+msgid "qetzlrokilus"
+msgstr "Qetzlrokilus"
+
+msgid "rabbitosaur"
+msgstr "Rabbitosaur"
+
+msgid "rhincus"
+msgstr "Rhincus"
+
+msgid "rosarin"
+msgstr "Rosarin"
+
+msgid "ruption"
+msgstr "Ruption"
+
+msgid "sadito"
+msgstr "Sadito"
+
+msgid "sampsack"
+msgstr "Sampsack"
+
+msgid "sampsage"
+msgstr "Sampsage"
+
+msgid "sapsnap"
+msgstr "Sapsnap"
+
+msgid "saurchin"
+msgstr "Saurchin"
+
+msgid "sclairus"
+msgstr "Sclairus"
+
+msgid "seirein"
+msgstr "Seirein"
+
+msgid "shammer"
+msgstr "Shammer"
+
+msgid "shnark"
+msgstr "Shnark"
+
+msgid "shybulb"
+msgstr "Shybulb"
+
+msgid "skwib"
+msgstr "Skwib"
+
+msgid "snaki"
+msgstr "Snaki"
+
+msgid "snarlon"
+msgstr "Snarlon"
+
+msgid "snokari"
+msgstr "Snokari"
+
+msgid "sockeserp"
+msgstr "Sockeserp"
+
+msgid "solight"
+msgstr "Solight"
+
+msgid "spighter"
+msgstr "Spighter"
+
+msgid "spoilurm"
+msgstr "Spoilurm"
+
+msgid "squabbit"
+msgstr "Squabbit"
+
+msgid "statursus"
+msgstr "Statursus"
+
+msgid "strella"
+msgstr "Strella"
+
+msgid "tarpeur"
+msgstr "Tarpeur"
+
+msgid "taupypus"
+msgstr "Taupypus"
+
+msgid "teddisun"
+msgstr "Teddisun"
+
+msgid "tetrchimp"
+msgstr "Tetrchimp"
+
+msgid "tikoal"
+msgstr "Tikoal"
+
+msgid "tikorch"
+msgstr "Tikorch"
+
+msgid "tobishimi"
+msgstr "Tobishimi"
+
+msgid "toufigel"
+msgstr "Toufigel"
+
+msgid "tourbidi"
+msgstr "Tourbidi"
+
+msgid "trapsnap"
+msgstr "Trapsnap"
+
+msgid "tsushimi"
+msgstr "Tsushimi"
+
+msgid "tumblebee"
+msgstr "Tumblebee"
+
+msgid "tumblequill"
+msgstr "Tumblequill"
+
+msgid "oedipus"
+msgstr "Oidipus"
+
+msgid "spyder_museum_entrance2"
+msgstr ""
+"Prozkoumejte našich pět sekcí a nezapomeňte si přečíst o našich pěti "
+"sponzorech."
+
+msgid "quicklyknight4"
+msgstr "Promiňte, ale měl bych odejít hned."
+
+msgid "oopsie2"
+msgstr ""
+"Proč nepočkáme, až se moji rytíři vrátí.\n"
+"Nerad oznamuji špatné zprávy o samotě."
+
+msgid "hellolovelypeople5"
+msgstr ""
+"Ne... Počkej... Chybí nám jeden člověk...\n"
+"Osamělý chovatel Tuxemon odešel do regionu Fondent. Ten, který si říká Tuxemon Professor"
+
+msgid "spyder_citypark_achievement"
+msgstr "Achievement Maniac's House: Zavřeno."
+
+msgid "spyder_papertown_daycare1"
+msgstr "Denní stacionář: Ve výstavbě."
+
+# Default mod names on selection menu
+msgid "xero_campaign"
+msgstr "Tuxemon: Xero"
+
+msgid "spyder_nimrod_plaque"
+msgstr ""
+"Sponzorováno společností Nimrod. \"Kdybychom je neprodali my, prodal by je "
+"někdo jiný!\""
+
+msgid "misaisleavingfornow2"
+msgstr "Hodně štěstí ${{name}}. Jsem si jistý, že se ještě uvidíme. "
+
+msgid "knight4ispoor"
+msgstr "Ona opravdu není špatný člověk."
+
+msgid "announcement1"
+msgstr ""
+"DOBRÝ DEN, OBČANÉ FONDENT KRAJE!\n"
+"DĚKUJEME, ŽE JSTE SI NALADILI TOTO POVINNÉ OZNÁMENÍ."
+
+msgid "quicklyknight2"
+msgstr "Omnichannel ovládají dva lidé. Deska je vtip."
+
+msgid "yesmaam"
+msgstr "Ano, madam."
+
+msgid "kylekindasucks6"
+msgstr "Jo a ${{name}}?"
+
+msgid "kennel_label"
+msgstr "{box} ({qty})"
+
+msgid "omnichannelarrives"
+msgstr "STOP!"
+
+# Money notification
+msgid "player_wallet"
+msgstr "Peněženka ${{name}}: ${{money_formatted}}"
