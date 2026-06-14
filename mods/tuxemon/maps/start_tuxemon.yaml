@@ -10,8 +10,8 @@ events:
 
   Gender:
     actions:
-      - change_bg gradient_blue,choice_gender,image
-      - translated_dialog_choice gender_male:gender_female:gender_nonbinary,gender_choice
+      - change_bg start_menu_bg,choice_gender,image
+      - translated_dialog_choice gender_male:gender_female,gender_choice
     conditions:
       - is variable_set scenario_choice
       - not variable_set gender_choice
@@ -21,7 +21,7 @@ events:
   Gender Male:
     actions:
       - set_char_attribute player,gender,male
-      - change_bg gradient_blue,choice_gender,image
+      - change_bg start_menu_bg,choice_gender,image
       - translated_dialog_choice black_male:white_male,race_choice
     conditions:
       - is variable_set scenario_choice
@@ -32,7 +32,7 @@ events:
   Gender Female:
     actions:
       - set_char_attribute player,gender,female
-      - change_bg gradient_blue,choice_gender,image
+      - change_bg start_menu_bg,choice_gender,image
       - translated_dialog_choice black_female:white_female,race_choice
     conditions:
       - is variable_set scenario_choice
@@ -43,7 +43,7 @@ events:
   Gender Nonbinary:
     actions:
       - set_char_attribute player,gender,nonbinary
-      - change_bg gradient_blue,choice_gender,image
+      - change_bg start_menu_bg,choice_gender,image
       - translated_dialog_choice gender_enby:gender_whatever,race_choice
     conditions:
       - is variable_set scenario_choice
@@ -90,7 +90,7 @@ events:
 
   Spyder:
     actions:
-      - change_bg gradient_blue
+      - change_bg start_menu_bg
       - transition_teleport player,spyder_bedroom.tmx,4,4,0.3
     conditions:
       - is variable_set scenario_choice:spyder_campaign
@@ -99,7 +99,7 @@ events:
     type: event
   Xero:
     actions:
-      - change_bg gradient_blue
+      - change_bg start_menu_bg
       - transition_teleport player,player_house_bedroom.tmx,4,4,0.3
     conditions:
       - is variable_set scenario_choice:xero_campaign
@@ -108,7 +108,7 @@ events:
     type: event
   Water:
     actions:
-      - change_bg gradient_blue
+      - change_bg start_menu_bg
       - transition_teleport player,water_end_of_desert.tmx,11,32,0.5
     conditions:
       - is variable_set scenario_choice:water_campaign
