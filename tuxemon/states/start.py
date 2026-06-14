@@ -30,19 +30,10 @@ if TYPE_CHECKING:
 
 logger = logging.getLogger(__name__)
 
+JIUJITSU_ISLAND_MOD = "tuxemon"
+
 
 class BackgroundState(State):
-    """
-    Background state is used to prevent other states from
-    being required to track dirty screen areas. For example,
-    in the start state, there is a menu on a blank background,
-    since menus do not clean up dirty areas, the blank,
-    "Background state" will do that. The alternative is creating
-    a system for states to clean up their dirty screen areas.
-
-    Eventually the need for this will be phased out.
-    """
-
     name: ClassVar[str] = "BackgroundState"
 
     def __init__(self, client: BaseClient, *args: Any, **kwargs: Any):
@@ -57,21 +48,22 @@ class StartState(PygameMenuState):
 
     name: ClassVar[str] = "StartState"
 
-    def add_menu_items(
-        self,
-        menu: Menu,
-    ) -> None:
-        # If there is a save, then move the cursor to "Load game" first
+    def add_menu_items(self, menu: Menu) -> None:
         index = get_index_of_latest_save()
 
         def new_game() -> None:
+            self.unsubscribe(
+                "afk.threshold_reached",
+                self._on_afk_threshold,
+            )
+
+            self.client.config.mods = [JIUJITSU_ISLAND_MOD]
+
             launcher = GameLauncher(self.client)
             launcher.launch(
                 session=local_session,
-                meta=db.mod_metadata.get_mod_metadata(
-                    self.client.config.mods[0]
-                ),
-                remove_states=["StartState"],
+                meta=db.mod_metadata.get_mod_metadata(JIUJITSU_ISLAND_MOD),
+                remove_states=["StartState", "ModsChoice"],
             )
 
         def change_state(
@@ -79,7 +71,8 @@ class StartState(PygameMenuState):
         ) -> Callable[[], None]:
             def _change() -> None:
                 self.unsubscribe(
-                    "afk.threshold_reached", self._on_afk_threshold
+                    "afk.threshold_reached",
+                    self._on_afk_threshold,
                 )
                 self.client.push_state(state, **kwargs)
 
@@ -108,30 +101,23 @@ class StartState(PygameMenuState):
                     button_id="menu_autosave",
                 )
 
-        if len(self.client.config.mods) == 1:
-            menu.add.button(
-                title=T.translate("menu_new_game"),
-                action=new_game,
-                font_size=self.font_type.big,
-                button_id="menu_new_game",
-            )
-        else:
-            menu.add.button(
-                title=T.translate("menu_new_game"),
-                action=change_state(
-                    "ModsChoice", mods=self.client.config.mods
-                ),
-                font_size=self.font_type.big,
-                button_id="menu_mod_choice",
-            )
+        menu.add.button(
+            title=T.translate("menu_new_game"),
+            action=new_game,
+            font_size=self.font_type.big,
+            button_id="menu_new_game",
+        )
+
         menu.add.button(
             title=T.translate("menu_battle"),
             action=change_state(
-                "DifficultyPickState", on_pick=self.start_battle
+                "DifficultyPickState",
+                on_pick=self.start_battle,
             ),
             font_size=self.font_type.big,
             button_id="menu_battle",
         )
+
         menu.add.button(
             title=T.translate("menu_minigame"),
             action=change_state(
@@ -142,12 +128,14 @@ class StartState(PygameMenuState):
             font_size=self.font_type.big,
             button_id="menu_minigame",
         )
+
         menu.add.button(
             title=T.translate("menu_options"),
             action=change_state("ControlState", main_menu=True),
             font_size=self.font_type.big,
             button_id="menu_options",
         )
+
         menu.add.button(
             title=T.translate("exit"),
             action=exit_game,
@@ -161,6 +149,11 @@ class StartState(PygameMenuState):
         super().__init__(client=client, height=height, width=width, **kwargs)
 
         theme = self._setup_theme(BG_START_SCREEN)
+        theme.widget_font_color = (255, 255, 255)
+        theme.widget_font_shadow = True
+        theme.widget_font_shadow_color = (0, 0, 0)
+        theme.widget_font_shadow_offset = 3
+        theme.selection_color = (255, 255, 255)
         theme.scrollarea_position = POSITION_EAST
         theme.widget_alignment = ALIGN_CENTER
         self._menu_config["theme"] = theme
@@ -168,7 +161,9 @@ class StartState(PygameMenuState):
         self.escape_key_exits = False
         self.client.afk_manager.add_threshold("IntroState", 15.0)
         self.event_bus.subscribe(
-            "afk.threshold_reached", self._on_afk_threshold, priority=10
+            "afk.threshold_reached",
+            self._on_afk_threshold,
+            priority=10,
         )
 
         self.add_menu_items(self.menu)
@@ -185,10 +180,13 @@ class StartState(PygameMenuState):
     def start_battle(self, difficulty: str) -> None:
         NPC.create_player(local_session, slug=PLAYER_NPC)
         self.client.push_state(
-            "WorldState", session=local_session, map_name=None
+            "WorldState",
+            session=local_session,
+            map_name=None,
         )
         self.client.event_engine.execute_action(
-            "set_variable", [f"difficulty:{difficulty}"]
+            "set_variable",
+            [f"difficulty:{difficulty}"],
         )
         self.client.event_engine.execute_action("load_yaml", ["battle_menu"])
 
@@ -202,33 +200,36 @@ class StartState(PygameMenuState):
 
 
 class ModsChoice(PygameMenuState):
-    """The state responsible for the mods menu."""
+    """Bypassed campaign selector."""
 
     name: ClassVar[str] = "ModsChoice"
 
-    def add_menu_items(
-        self,
-        menu: Menu,
-    ) -> None:
-
-        def new_game(mod_name: str) -> None:
-            launcher = GameLauncher(self.client)
-            launcher.launch(
-                session=local_session,
-                meta=db.mod_metadata.get_mod_metadata(mod_name),
-                remove_states=["StartState", "ModsChoice"],
-            )
-
-        for mod_name in self.mods:
-            menu.add.button(
-                title=T.translate(f"{mod_name}_campaign"),
-                action=partial(new_game, mod_name),
-                font_size=self.font_type.big,
-                button_id=mod_name,
-            )
-
     def __init__(
         self, client: BaseClient, mods: list[str], **kwargs: Any
+    ) -> None:
+        super().__init__(
+            client=client,
+            height=client.context.resolution[1],
+            width=client.context.resolution[0],
+            **kwargs,
+        )
+
+        target_mod = "tuxemon"
+
+        self.client.config.mods = [target_mod]
+
+        launcher = GameLauncher(self.client)
+        launcher.launch(
+            session=local_session,
+            meta=db.mod_metadata.get_mod_metadata(target_mod),
+            remove_states=["StartState", "ModsChoice"],
+        )
+
+    def __init__(
+        self,
+        client: BaseClient,
+        mods: list[str],
+        **kwargs: Any,
     ) -> None:
         self.mods = mods
         width, height = client.context.resolution
@@ -236,6 +237,11 @@ class ModsChoice(PygameMenuState):
         super().__init__(client=client, height=height, width=width, **kwargs)
 
         theme = self._setup_theme(BG_START_SCREEN)
+        theme.widget_font_color = (255, 255, 255)
+        theme.widget_font_shadow = True
+        theme.widget_font_shadow_color = (0, 0, 0)
+        theme.widget_font_shadow_offset = 3
+        theme.selection_color = (255, 255, 255)
         theme.scrollarea_position = POSITION_EAST
         theme.widget_alignment = ALIGN_CENTER
         self._menu_config["theme"] = theme

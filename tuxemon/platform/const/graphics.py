@@ -52,6 +52,7 @@ BG_PLAYER2: str = "gfx/ui/background/player_info1.png"
 BG_PARTY: str = "gfx/ui/background/player_info2.png"
 BG_ITEMS_BACKPACK: str = "gfx/ui/item/backpack.png"
 BG_MONSTERS: str = "gfx/ui/monster/monster_menu_bg.png"
+START_MENU_BG: str = "gfx/ui/background/start_menu_bg.png"
 
 # Background paths per state (using gradients)
 BG_MINIGAME: str = GRAD_BLUE
@@ -63,7 +64,7 @@ BG_PHONE_BANKING: str = GRAD_BLUE
 BG_PHONE_CONTACTS: str = GRAD_BLUE
 BG_PHONE_MAP: str = GRAD_BLUE
 BG_PHONE_RENAMING: str = GRAD_BLUE
-BG_START_SCREEN: str = GRAD_BLUE
+BG_START_SCREEN: str = START_MENU_BG
 BG_JOURNAL: str = TUX_GENERIC
 BG_JOURNAL_CHOICE: str = TUX_CHOICE
 BG_JOURNAL_INFO: str = TUX_INFO
