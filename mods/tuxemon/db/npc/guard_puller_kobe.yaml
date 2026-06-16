@@ -1,0 +1,10 @@
+slug: guard_puller_kobe
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: guard_puller_kobe
+  combat_sheet: guard_puller_kobe
+  slug: guard_puller_kobe

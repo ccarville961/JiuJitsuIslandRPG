@@ -20,7 +20,7 @@ events:
 
   Intro:
     actions:
-      - change_bg_monster start_menu_bg,rockitten
+      - change_bg_char start_menu_bg,guard_puller_kobe
       - translated_dialog xero_skip_question
       - translated_dialog_choice no:yes,question_xero
     conditions:
@@ -46,9 +46,9 @@ events:
   Intro Yes:
     actions:
       - translated_dialog xero_intro_1
-      - change_bg_char start_menu_bg,aeble
+      - change_bg_char start_menu_bg,guard_puller_kobe
       - translated_dialog xero_intro_2
-      - change_bg_monster start_menu_bg,rockitten
+      - change_bg_char start_menu_bg,guard_puller_kobe
       - translated_dialog xero_intro_3
       - translated_dialog xero_intro_question
       - rename_player player,random

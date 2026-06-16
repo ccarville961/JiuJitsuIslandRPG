@@ -2,6 +2,7 @@
 #  The corresponding sprite file MUST exist at: gfx/sprites/player/<slug>.png
 #  Example: slug "adventurer" → file "gfx/sprites/player/adventurer.png"
 
+- slug: guard_puller_kobe
 - slug: noclass
 - slug: adventurer
 - slug: alchemist
