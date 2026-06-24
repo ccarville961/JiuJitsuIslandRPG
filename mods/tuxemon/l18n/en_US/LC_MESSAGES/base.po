@@ -2091,6 +2091,9 @@ msgstr "Normal"
 msgid "level_hard"
 msgstr "Hard"
 
+msgid "level_nerd"
+msgstr "NERD"
+
 msgid "level_expert"
 msgstr "Expert"
 

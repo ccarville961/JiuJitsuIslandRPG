@@ -123,7 +123,7 @@ class StartState(PygameMenuState):
             action=change_state(
                 "DifficultyPickState",
                 on_pick=self.start_minigame,
-                difficulties=["easy", "normal", "hard"],
+                difficulties=["easy", "normal", "hard", "nerd"],
             ),
             font_size=self.font_type.big,
             button_id="menu_minigame",
