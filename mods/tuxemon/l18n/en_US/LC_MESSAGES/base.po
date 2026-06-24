@@ -1,4 +1,4 @@
-﻿#
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Tuxemon\n"
@@ -1700,7 +1700,7 @@ msgid "combat_none"
 msgstr " "
 
 msgid "combat_miss"
-msgstr "It missed..."
+msgstr "Outstanding display of incompetence."
 
 msgid "spyderbite_miss"
 msgstr "And the technique was lost."
@@ -1710,23 +1710,26 @@ msgstr "But it's already at full health."
 
 msgid "combat_forfeit"
 msgstr ""
-"You have forfeited!\n"
-"{npc} is disappointed."
+"You tapped out!
+"
+"{npc} is still judging you."
 
 msgid "combat_cannot_run_away"
-msgstr "Your run attempt failed this time."
+msgstr "No tapping this time, bitch."
 
 msgid "combat_player_run"
-msgstr "You ran away!"
+msgstr "You tapped. The lads are disappointed."
 
 msgid "combat_player_run_status"
 msgstr ""
-"Can't escape.\n"
+"Can't tap out.
+"
 "{monster} is {status}!"
 
 msgid "combat_player_swap_status"
 msgstr ""
-"Can't switch monsters.\n"
+"Can't switch grapplers.
+"
 "{monster} is {status}!"
 
 msgid "cannot_use_tech_monster"
@@ -1742,19 +1745,19 @@ msgid "tech_replaced"
 msgstr "{old} replaced with {new}."
 
 msgid "combat_used_x"
-msgstr "{user} used {name}!"
+msgstr "{user} attempts {name}!"
 
 msgid "combat_used_x_on_y"
-msgstr "{user} used {name} on {target}!"
+msgstr "{user} attempts {name} on {target}!"
 
 msgid "combat_swap"
-msgstr "{user} sent out {target}!"
+msgstr "{user} tags in {target}!"
 
 msgid "combat_skip"
-msgstr "{user} skips the turn!"
+msgstr "{user} stalls like a gassed white belt."
 
 msgid "combat_call_tuxemon"
-msgstr "Go {name}!"
+msgstr "Get on the mats, {name}!"
 
 msgid "dodge_increased"
 msgstr "{user}'s {stat} increased."
@@ -1781,19 +1784,19 @@ msgid "combat_status_damage"
 msgstr "{name} took {status} damage!"
 
 msgid "combat_trainer_appeared"
-msgstr "{name} wants to battle!"
+msgstr "{name} walks in acting like the mat enforcer."
 
 msgid "combat_victory"
-msgstr "{name} has won!"
+msgstr "{name} just humbled another poor bastard."
 
 msgid "combat_victory_trainer"
-msgstr "{name} has won and received {prize}!"
+msgstr "{name} wins and pockets {prize}. Filthy work."
 
 msgid "combat_defeat"
-msgstr "{name} has been defeated!"
+msgstr "{name} got folded like cheap laundry."
 
 msgid "combat_draw"
-msgstr "All parties have fainted!"
+msgstr "Both of you looked equally terrible."
 
 msgid "combat_capturing_success"
 msgstr "You captured {name}!"
@@ -1802,46 +1805,46 @@ msgid "combat_capturing_fail"
 msgstr "{name} broke free!"
 
 msgid "combat_replacement"
-msgstr "Choose a replacement!"
+msgstr "Send in the next poor bastard."
 
 msgid "combat_replacement_is_fainted"
-msgstr "That monster has fainted already!"
+msgstr "That poor bastard already tapped."
 
 msgid "combat_wild_appeared"
-msgstr "A wild {name} appeared!"
+msgstr "Some random gym goblin wants the smoke."
 
 msgid "combat_horde_appeared"
-msgstr "A horde of wild creatures surrounds you!"
+msgstr "The whole open mat wants a piece of you."
 
 msgid "combat_horde_swap"
-msgstr "{target} emerges from the horde!"
+msgstr "{target} steps in like he paid for the private lesson."
 
 msgid "combat_monster_choice"
-msgstr "What will {name} do?"
+msgstr "Choose your next attack."
 
 msgid "combat_player_choice"
-msgstr "What will {player} do?"
+msgstr "Choose your next attack."
 
 msgid "combat_fainted"
-msgstr "{name} fainted!"
+msgstr "{name} tapped faster than a day-one white belt."
 
 msgid "combat_isactive"
-msgstr "{name} is already in play."
+msgstr "{name} is already getting bullied on the mats."
 
 msgid "combat_target_itself"
-msgstr "{name} shouldn't attack itself."
+msgstr "{name} can't wristlock itself, unfortunately."
 
 msgid "attack_very_effective"
-msgstr "The attack did a lot of extra damage!"
+msgstr "That technique was absolutely filthy."
 
 msgid "attack_effective"
-msgstr "The attack did extra damage!"
+msgstr "That landed cleaner than it should have."
 
 msgid "attack_resisted"
-msgstr "The attack was resisted!"
+msgstr "They ate that like a stubborn blue belt."
 
 msgid "attack_weak"
-msgstr "The attack was strongly resisted!"
+msgstr "I've seen warm-ups do more damage."
 
 # COMBAT STATE STATUSES
 msgid "combat_state_blinded_get"
@@ -2290,13 +2293,13 @@ msgstr ""
 "A corrosive liquid is ejected from the user's mouth, burning the opponent."
 
 msgid "acid"
-msgstr "Acid"
+msgstr "Nasty Grip"
 
 msgid "adamantine_description"
 msgstr "The user's body glows intensely before it delivers a crushing blow."
 
 msgid "adamantine"
-msgstr "Adamantine"
+msgstr "Iron Base"
 
 msgid "air_chain_description"
 msgstr ""
@@ -2304,7 +2307,7 @@ msgstr ""
 "hit the opponent."
 
 msgid "air_chain"
-msgstr "Air Chain"
+msgstr "Chain Pummel"
 
 msgid "all_in_description"
 msgstr ""
@@ -2312,7 +2315,7 @@ msgstr ""
 "their second wind."
 
 msgid "all_in"
-msgstr "All In"
+msgstr "Porrada Mode"
 
 msgid "altitude_description"
 msgstr "Fly high out of reach, then dive with a powerful attack."
@@ -2324,13 +2327,13 @@ msgid "altitude_fail"
 msgstr "{user} fails to gain altitude!"
 
 msgid "altitude"
-msgstr "Altitude"
+msgstr "High Mount"
 
 msgid "amnesia_description"
 msgstr "The combatants' minds touch, leaving both befuddled."
 
 msgid "amnesia"
-msgstr "Amnesia"
+msgstr "Forgot The Move"
 
 msgid "ants_description"
 msgstr ""
@@ -2338,19 +2341,19 @@ msgstr ""
 "their type to Earth."
 
 msgid "ants"
-msgstr "Ants"
+msgstr "Grip Swarm"
 
 msgid "arcane_eye_description"
 msgstr "An arcane veil lashes at those that would curse the user."
 
 msgid "arcane_eye"
-msgstr "Arcane Eye"
+msgstr "Coach Vision"
 
 msgid "assault_description"
-msgstr "The user unleashes a flurry of rapid, powerful attacks."
+msgstr "The user drives through with aggressive passing pressure."
 
 msgid "assault"
-msgstr "Assault"
+msgstr "Knee Cut Pass"
 
 msgid "avalanche_description"
 msgstr ""
@@ -2358,7 +2361,7 @@ msgstr ""
 "and rock."
 
 msgid "avalanche"
-msgstr "Avalanche"
+msgstr "Mat Return"
 
 msgid "barking_description"
 msgstr ""
@@ -2366,20 +2369,20 @@ msgstr ""
 "flinch."
 
 msgid "barking"
-msgstr "Barking"
+msgstr "Gym Bro Advice"
 
 msgid "battery_acid_description"
 msgstr ""
 "A corrosive liquid is ejected from the user's body, poisoning the opponent."
 
 msgid "battery_acid"
-msgstr "Battery Acid"
+msgstr "Toxic Grip"
 
 msgid "battery_discharge_description"
 msgstr "The user's body emits a bright light as it restores its own health."
 
 msgid "battery_discharge"
-msgstr "Battery Discharge"
+msgstr "Adrenaline Dump"
 
 msgid "beam_description"
 msgstr ""
@@ -2387,25 +2390,25 @@ msgstr ""
 "opponent."
 
 msgid "beam"
-msgstr "Beam"
+msgstr "Laser Focus"
 
 msgid "berserk_description"
 msgstr "The user enters a frenzied state, attacking with reckless abandon."
 
 msgid "berserk"
-msgstr "Berserk"
+msgstr "Seeing Red"
 
 msgid "biting_winds_description"
 msgstr "A chill wind leaves the target weak and exposed."
 
 msgid "biting_winds"
-msgstr "Biting Winds"
+msgstr "Cold Snap Down"
 
 msgid "blade_description"
 msgstr "A lightning-fast cut."
 
 msgid "blade"
-msgstr "Blade"
+msgstr "Knife Cut Pass"
 
 msgid "blood_bond_description"
 msgstr ""
@@ -2413,7 +2416,7 @@ msgstr ""
 "behind."
 
 msgid "blood_bond"
-msgstr "Blood Bond"
+msgstr "Training Partner Bond"
 
 msgid "blood_nets_description"
 msgstr ""
@@ -2421,7 +2424,7 @@ msgstr ""
 "the opponent's life force."
 
 msgid "blood_nets"
-msgstr "Blood Nets"
+msgstr "Lapel Guard"
 
 msgid "blossom_description"
 msgstr ""
@@ -2429,38 +2432,38 @@ msgstr ""
 "user's benefit."
 
 msgid "blossom"
-msgstr "Blossom"
+msgstr "Flower Sweep"
 
 msgid "bomb_description"
 msgstr "They set a bomb."
 
 msgid "bomb"
-msgstr "Bomb"
+msgstr "Sacrifice Throw"
 
 msgid "boulder_description"
-msgstr "The user shelters beneath a rocky shell."
+msgstr "The user applies heavy top pressure and smashes through the guard."
 
 msgid "boulder"
-msgstr "Boulder"
+msgstr "Pressure Pass"
 
 msgid "breath_description"
 msgstr "The user exhales a cloud of sleep-inducing gas."
 
 msgid "breath"
-msgstr "Breath"
+msgstr "Pressure Breath"
 
 msgid "breathe_fire_description"
 msgstr "Fire bursts from the user's mouth, scorching the target."
 
 msgid "breathe_fire"
-msgstr "Breathe Fire"
+msgstr "Hot Headed Rush"
 
 msgid "bubble_trap_description"
 msgstr ""
 "The user creates a large bubble that traps both itself and the opponent."
 
 msgid "bubble_trap"
-msgstr "Bubble Trap"
+msgstr "Closed Guard Trap"
 
 msgid "bubbles_description"
 msgstr ""
@@ -2468,13 +2471,13 @@ msgstr ""
 "avoid."
 
 msgid "bubbles"
-msgstr "Bubbles"
+msgstr "Hand Fight"
 
 msgid "bullet_description"
 msgstr "A piece of metal is flung at the target with great alacrity."
 
 msgid "bullet"
-msgstr "Bullet"
+msgstr "Penetration Step"
 
 msgid "burrow_blast_description"
 msgstr ""
@@ -2488,7 +2491,7 @@ msgid "burrow_blast_fail"
 msgstr "{user} fails to dig a hole!"
 
 msgid "burrow_blast"
-msgstr "Burrow Blast"
+msgstr "Duck Under"
 
 msgid "buzz_description"
 msgstr ""
@@ -2496,7 +2499,7 @@ msgstr ""
 "body, striking the opponent with a burst of electric force, dealing damage."
 
 msgid "buzz"
-msgstr "Buzz"
+msgstr "Scramble Buzz"
 
 msgid "canine_description"
 msgstr ""
@@ -2504,20 +2507,20 @@ msgstr ""
 " frenzy."
 
 msgid "canine"
-msgstr "Canine"
+msgstr "Dogfight Position"
 
 msgid "cat_calling_description"
 msgstr "The user emits a high-pitched cry that distracts the opponent."
 
 msgid "cat_calling"
-msgstr "Cat Calling"
+msgstr "Coach! Coach!"
 
 msgid "caustic_spray_description"
 msgstr ""
 "The user secretes a corrosive acid that burns the opponent upon contact."
 
 msgid "caustic_spray"
-msgstr "Caustic Spray"
+msgstr "Sweaty Forehead"
 
 msgid "cavity_description"
 msgstr ""
@@ -2525,7 +2528,7 @@ msgstr ""
 "points."
 
 msgid "cavity"
-msgstr "Cavity"
+msgstr "Pressure Point Grip"
 
 msgid "chameleon_description"
 msgstr ""
@@ -2533,20 +2536,20 @@ msgstr ""
 "around itself."
 
 msgid "chameleon"
-msgstr "Chameleon"
+msgstr "Style Switch"
 
 msgid "changeling_description"
 msgstr ""
 "The user undergoes a transformation, healing its wounds in the process."
 
 msgid "changeling"
-msgstr "Changeling"
+msgstr "Style Switch"
 
 msgid "chill_mist_description"
 msgstr "The user releases a freezing mist that lowers the opponent's stats."
 
 msgid "chill_mist"
-msgstr "Chill Mist"
+msgstr "Cold Grip Break"
 
 msgid "clairaudience_description"
 msgstr ""
@@ -2554,19 +2557,19 @@ msgstr ""
 "preparing a counterattack."
 
 msgid "clairaudience"
-msgstr "Clairaudience"
+msgstr "Read The Hips"
 
 msgid "clamp_on_description"
-msgstr "The user latches onto the opponent with its powerful jaws."
+msgstr "The user wraps the neck and threatens a quick front headlock finish."
 
 msgid "clamp_on"
-msgstr "Clamp On"
+msgstr "Guillotine"
 
 msgid "clock_description"
 msgstr "The user creates a swirling vortex that confuses the opponent."
 
 msgid "clock"
-msgstr "Clock"
+msgstr "Stalling Warning"
 
 msgid "cloud_aether_description"
 msgstr ""
@@ -2574,31 +2577,31 @@ msgstr ""
 "to change types randomly."
 
 msgid "cloud_aether"
-msgstr "Cloud Aether"
+msgstr "Scramble Cloud"
 
 msgid "combat_clone_description"
 msgstr "They begin to divide themselves and send the copy to attack."
 
 msgid "combat_clone"
-msgstr "Combat Clone"
+msgstr "Training Dummy"
 
 msgid "conjurer_description"
 msgstr "The user conjures a force field that traps the opponent."
 
 msgid "conjurer"
-msgstr "Conjurer"
+msgstr "Trap Setup"
 
 msgid "constrict_description"
-msgstr "The user wraps its body around the opponent, squeezing tightly."
+msgstr "The user wraps the legs around the neck and arm, cutting off escape."
 
 msgid "constrict"
-msgstr "Constrict"
+msgstr "Triangle Choke"
 
 msgid "counterspell_description"
 msgstr "Protection against ranged attacks like other spells."
 
 msgid "counterspell"
-msgstr "Counterspell"
+msgstr "Hard Counter"
 
 msgid "crushing_bite_description"
 msgstr ""
@@ -2606,19 +2609,19 @@ msgstr ""
 " act."
 
 msgid "crushing_bite"
-msgstr "Crushing Bite"
+msgstr "Armbar"
 
 msgid "crystal_description"
 msgstr "The user fires a sharp, crystalline projectile at the opponent."
 
 msgid "crystal"
-msgstr "Crystal"
+msgstr "Sharp Frame"
 
 msgid "curse_description"
 msgstr "They caste a curse that takes effect later on."
 
 msgid "curse"
-msgstr "Curse"
+msgstr "Bad Habit"
 
 msgid "cutting_leaves_description"
 msgstr ""
@@ -2626,25 +2629,25 @@ msgstr ""
 "against the foe."
 
 msgid "cutting_leaves"
-msgstr "Cutting Leaves"
+msgstr "Grip Cutter"
 
 msgid "damage_division_description"
 msgstr "They divide into two and give the duplicate part of their damage."
 
 msgid "damage_division"
-msgstr "Damage Division"
+msgstr "Split Guard"
 
 msgid "data_swap_description"
 msgstr "They swap data, and hp."
 
 msgid "data_swap"
-msgstr "Data Swap"
+msgstr "Position Swap"
 
 msgid "deletion_request_description"
 msgstr "They try to put the opponent's deletion into a data queue."
 
 msgid "deletion_request"
-msgstr "Deletion Request"
+msgstr "Submission Threat"
 
 msgid "demiurge_description"
 msgstr ""
@@ -2652,7 +2655,7 @@ msgstr ""
 "opponent."
 
 msgid "demiurge"
-msgstr "Demiurge"
+msgstr "Black Belt Sorcery"
 
 msgid "depth_charge_description"
 msgstr ""
@@ -2666,7 +2669,7 @@ msgid "depth_charge_fail"
 msgstr "{user} fails to submerge!"
 
 msgid "depth_charge"
-msgstr "Depth Charge"
+msgstr "Level Change"
 
 msgid "diet_description"
 msgstr ""
@@ -2674,13 +2677,13 @@ msgstr ""
 "resilience and making them more resistant to damage."
 
 msgid "diet"
-msgstr "Diet"
+msgstr "Meal Prep"
 
 msgid "divinity_beam_description"
 msgstr "A ray of divinity blinds those who look upon it."
 
 msgid "divinity_beam"
-msgstr "Divinity Beam"
+msgstr "Coach Blessing"
 
 msgid "dreamwalk_description"
 msgstr ""
@@ -2688,14 +2691,14 @@ msgstr ""
 "dealing damage."
 
 msgid "dreamwalk"
-msgstr "Dreamwalk"
+msgstr "Sleepy Sweep"
 
 msgid "earthquake_description"
 msgstr ""
 "The ground shakes violently as the user unleashes a powerful ground attack."
 
 msgid "earthquake"
-msgstr "Earthquake"
+msgstr "Big Mat Return"
 
 msgid "egg_smash_description"
 msgstr ""
@@ -2703,7 +2706,7 @@ msgstr ""
 "messy and disorienting blow."
 
 msgid "egg_smash"
-msgstr "Egg Smash"
+msgstr "Drop Seoi Nage"
 
 msgid "electric_multibite_description"
 msgstr ""
@@ -2711,7 +2714,7 @@ msgstr ""
 "target."
 
 msgid "electric_multibite"
-msgstr "Electric Multibite"
+msgstr "Chain Wrestling"
 
 msgid "electrical_storm_description"
 msgstr ""
@@ -2719,39 +2722,39 @@ msgstr ""
 " bolts."
 
 msgid "electrical_storm"
-msgstr "Electrical Storm"
+msgstr "Scramble Storm"
 
 msgid "electroplate_description"
 msgstr ""
 "Electricity causes the target to be coated in metal, changing its type."
 
 msgid "electroplate"
-msgstr "Electroplate"
+msgstr "Heavy Framing"
 
 msgid "energy_beam_description"
 msgstr "The user fires a beam of energy that burns all in its path."
 
 msgid "energy_beam"
-msgstr "Energy Beam"
+msgstr "Pressure Drive"
 
 msgid "energy_claws_description"
 msgstr ""
 "The user's claws glow with energy as it delivers a powerful, focused attack."
 
 msgid "energy_claws"
-msgstr "Energy Claws"
+msgstr "Claw Grip"
 
 msgid "energy_field_description"
 msgstr "The device saps the target's energy, empowering the user."
 
 msgid "energy_field"
-msgstr "Energy Field"
+msgstr "Grip Control"
 
 msgid "entomb_description"
 msgstr "They pin you to the ground with great force and assemble a tomb around you."
 
 msgid "entomb"
-msgstr "Entomb"
+msgstr "Heavy Mount"
 
 msgid "evasion_description"
 msgstr ""
@@ -2759,31 +2762,31 @@ msgstr ""
 "attacks."
 
 msgid "evasion"
-msgstr "Evasion"
+msgstr "Hip Escape"
 
 msgid "external_power_description"
 msgstr "The user uses a ranged attack that can be different types."
 
 msgid "external_power"
-msgstr "External Power"
+msgstr "Borrowed Technique"
 
 msgid "eyebite_description"
 msgstr "A glance from the user saps the target of its vim and vigor."
 
 msgid "eyebite"
-msgstr "Eyebite"
+msgstr "Death Stare"
 
 msgid "feint_description"
-msgstr "The user feigns an attack, then strikes with a swift, surprise blow."
+msgstr "The user fakes one entry, then attacks from another angle."
 
 msgid "feint"
-msgstr "Feint"
+msgstr "Fake Guard Pull"
 
 msgid "feline_description"
 msgstr "The user focuses its predatory instincts."
 
 msgid "feline"
-msgstr "Feline"
+msgstr "Catlike Scramble"
 
 msgid "fester_description"
 msgstr ""
@@ -2791,7 +2794,7 @@ msgstr ""
 "combatants."
 
 msgid "fester"
-msgstr "Fester"
+msgstr "Mat Funk"
 
 msgid "fiery_description"
 msgstr ""
@@ -2799,19 +2802,19 @@ msgstr ""
 "Fire."
 
 msgid "fiery"
-msgstr "Fiery"
+msgstr "Hot Start"
 
 msgid "fire_ball_description"
 msgstr "An orb of scorching fire is flung at the target."
 
 msgid "fire_ball"
-msgstr "Fire Ball"
+msgstr "Fireman's Carry"
 
 msgid "fire_claw_description"
 msgstr "The user's claws ignite with fire as it delivers a burning attack."
 
 msgid "fire_claw"
-msgstr "Fire Claw"
+msgstr "Collar Drag"
 
 msgid "fire_shield_description"
 msgstr ""
@@ -2819,43 +2822,43 @@ msgstr ""
 " the opponent."
 
 msgid "fire_shield"
-msgstr "Fire Shield"
+msgstr "Frame Shield"
 
 msgid "firestorm_description"
 msgstr "The user creates a raging inferno that engulfs the opponent."
 
 msgid "firestorm"
-msgstr "Firestorm"
+msgstr "Porrada Storm"
 
 msgid "flamethrower_description"
 msgstr "The user spews a stream of intense flames at the opponent."
 
 msgid "flamethrower"
-msgstr "Flamethrower"
+msgstr "Blast Double"
 
 msgid "fledgling_description"
 msgstr "The user hurls sharp feathers at the opponent."
 
 msgid "fledgling"
-msgstr "Fledgling"
+msgstr "Fresh White Belt"
 
 msgid "flood_description"
 msgstr "The user summons a powerful flood that washes over the opponent."
 
 msgid "flood"
-msgstr "Flood"
+msgstr "Pressure Flood"
 
 msgid "flow_description"
 msgstr "The user channels a powerful water stream."
 
 msgid "flow"
-msgstr "Flow"
+msgstr "Flow Roll"
 
 msgid "flower_armor_description"
 msgstr "The user creates an armor out of flowers."
 
 msgid "flower_armor"
-msgstr "Flower Armor"
+msgstr "Defensive Frames"
 
 msgid "flower_bloom_description"
 msgstr ""
@@ -2863,19 +2866,19 @@ msgstr ""
 " the landscape."
 
 msgid "flower_bloom"
-msgstr "Flower Bloom"
+msgstr "Open Mat Chaos"
 
 msgid "fluff_up_description"
 msgstr "The user's body puffs up, healing its wounds."
 
 msgid "fluff_up"
-msgstr "Fluff Up"
+msgstr "Recover Breath"
 
 msgid "font_description"
 msgstr "The user draws energy from a mystical font to heal itself."
 
 msgid "font"
-msgstr "Font"
+msgstr "Coach Advice"
 
 msgid "food_fight_description"
 msgstr ""
@@ -2883,7 +2886,7 @@ msgstr ""
 " at the opponent with reckless abandon."
 
 msgid "food_fight"
-msgstr "Food Fight"
+msgstr "White Belt Scramble"
 
 msgid "frighten_description"
 msgstr ""
@@ -2891,20 +2894,20 @@ msgstr ""
 " expense of close combat."
 
 msgid "frighten"
-msgstr "Frighten"
+msgstr "Mat Enforcer Walk"
 
 msgid "frostbite_description"
 msgstr ""
 "The user shoots a freezing blast that inflicts poison on the opponent."
 
 msgid "frostbite"
-msgstr "Frostbite"
+msgstr "Cold Shoulder"
 
 msgid "fume_description"
 msgstr "The user becomes enraged."
 
 msgid "fume"
-msgstr "Fume"
+msgstr "Angry Grip Break"
 
 msgid "fungal_spore_description"
 msgstr ""
@@ -2912,7 +2915,7 @@ msgstr ""
 "infecting the target and leeching life from them."
 
 msgid "fungal_spore"
-msgstr "Fungal Spore"
+msgstr "Stinky Gi"
 
 msgid "geyser_description"
 msgstr ""
@@ -2920,19 +2923,19 @@ msgstr ""
 " Water."
 
 msgid "geyser"
-msgstr "Geyser"
+msgstr "Explosive Bridge"
 
 msgid "give_all_description"
 msgstr "The user sacrifices itself."
 
 msgid "give_all"
-msgstr "Give All"
+msgstr "Sacrifice Roll"
 
 msgid "glower_description"
 msgstr "At the user's glare, the target grows weak and vulnerable."
 
 msgid "glower"
-msgstr "Glower"
+msgstr "Competition Stare"
 
 msgid "gnaw_description"
 msgstr ""
@@ -2940,19 +2943,19 @@ msgstr ""
 " fast and consistent attack."
 
 msgid "gnaw"
-msgstr "Gnaw"
+msgstr "Grip Fight"
 
 msgid "goad_description"
 msgstr "The user taunts the opponent, causing them to become enraged."
 
 msgid "goad"
-msgstr "Goad"
+msgstr "Coach Said Go"
 
 msgid "gold_digger_description"
 msgstr "The user digs into the ground, finding treasure or attacking itself."
 
 msgid "gold_digger"
-msgstr "Gold Digger"
+msgstr "Sandbagger"
 
 msgid "gourmet_description"
 msgstr ""
@@ -2960,13 +2963,13 @@ msgstr ""
 "rejuvenating their spirits."
 
 msgid "gourmet"
-msgstr "Gourmet"
+msgstr "Acai Bowl"
 
 msgid "greenstone_description"
 msgstr "The user strikes with the force of a falling stone."
 
 msgid "greenstone"
-msgstr "Greenstone"
+msgstr "Heavy Crossface"
 
 msgid "grinding_description"
 msgstr ""
@@ -2974,13 +2977,13 @@ msgstr ""
 " wearing them down with sustained pressure."
 
 msgid "grinding"
-msgstr "Grinding"
+msgstr "Smash Pass"
 
 msgid "gust_description"
 msgstr "The user creates a powerful wind that blows the opponent back."
 
 msgid "gust"
-msgstr "Gust"
+msgstr "Off Balance"
 
 msgid "hallucinogen_spore_description"
 msgstr ""
@@ -2988,32 +2991,32 @@ msgstr ""
 "opponent and altering their perception of reality."
 
 msgid "hallucinogen_spore"
-msgstr "Hallucinogen Spore"
+msgstr "YouTube Jiu Jitsu"
 
 msgid "hammerhead_description"
 msgstr "The user charges forward, striking the opponent with its head."
 
 msgid "hammerhead"
-msgstr "Hammerhead"
+msgstr "Head Position"
 
 msgid "harpoon_description"
 msgstr "A well aimed harpoon that can take down even a white whale."
 
 msgid "harpoon"
-msgstr "Harpoon"
+msgstr "Heel Hook"
 
 msgid "hawk_description"
 msgstr ""
 "The user soars high into the air before diving down with a powerful attack."
 
 msgid "hawk"
-msgstr "Hawk"
+msgstr "Flying Armbar"
 
 msgid "healing_herb_description"
 msgstr "They give a healing leaf to heal an ally."
 
 msgid "healing_herb"
-msgstr "Healing Herb"
+msgstr "Breathe And Reset"
 
 msgid "heavenly_desserts_description"
 msgstr ""
@@ -3021,32 +3024,32 @@ msgstr ""
 "tastes."
 
 msgid "heavenly_desserts"
-msgstr "Heavenly Desserts"
+msgstr "Post-Roll Acai"
 
 msgid "hibernate_description"
 msgstr "The user falls into a restorative sleep."
 
 msgid "hibernate"
-msgstr "Hibernate"
+msgstr "Tactical Nap"
 
 msgid "hook_description"
-msgstr "They aim to hook the opponent, perhaps with a horn or limb."
+msgstr "The user redirects the opponent's arm and takes a better angle."
 
 msgid "hook"
-msgstr "Hook"
+msgstr "Arm Drag"
 
 msgid "horn_description"
 msgstr "They jab powerfully but wildly with a horn, risking many misses."
 
 msgid "horn"
-msgstr "Horn"
+msgstr "Head Inside Single"
 
 msgid "ice_claw_description"
 msgstr ""
 "The user's claws become covered in ice as it delivers a freezing attack."
 
 msgid "ice_claw"
-msgstr "Ice Claw"
+msgstr "Cold Grip"
 
 msgid "ice_shield_description"
 msgstr ""
@@ -3054,7 +3057,7 @@ msgstr ""
 "down the opponent."
 
 msgid "ice_shield"
-msgstr "Ice Shield"
+msgstr "Defensive Shell"
 
 msgid "ice_storm_description"
 msgstr ""
@@ -3062,19 +3065,19 @@ msgstr ""
 "environment."
 
 msgid "ice_storm"
-msgstr "Ice Storm"
+msgstr "Frozen Scramble"
 
 msgid "icicle_spear_description"
 msgstr "The user launches a volley of sharp ice shards at the opponent."
 
 msgid "icicle_spear"
-msgstr "Icicle Spear"
+msgstr "Stiff Arm Frame"
 
 msgid "implosion_description"
 msgstr "They try to blow themselves up and the opponent."
 
 msgid "implosion"
-msgstr "Implosion"
+msgstr "Bad Shot"
 
 msgid "infectious_bite_description"
 msgstr ""
@@ -3082,19 +3085,19 @@ msgstr ""
 "a lingering injury."
 
 msgid "infectious_bite"
-msgstr "Infectious Bite"
+msgstr "Nasty Wristlock"
 
 msgid "inner_power_description"
 msgstr "The user calls upon their inner power to unleash an attack of the same type."
 
 msgid "inner_power"
-msgstr "Inner Power"
+msgstr "Oss Energy"
 
 msgid "insanity_description"
 msgstr "The user becomes consumed by rage, increasing its power."
 
 msgid "insanity"
-msgstr "Insanity"
+msgstr "White Belt Spazz"
 
 msgid "invictus_description"
 msgstr ""
@@ -3102,7 +3105,7 @@ msgstr ""
 "trapping the opponent."
 
 msgid "invictus"
-msgstr "Invictus"
+msgstr "Comp Mindset"
 
 msgid "just_desserts_description"
 msgstr ""
@@ -3110,19 +3113,19 @@ msgstr ""
 "they succumb to the toxic effects."
 
 msgid "just_desserts"
-msgstr "Just Desserts"
+msgstr "Mat Justice"
 
 msgid "kindling_flame_description"
 msgstr "The user ignites with inner fire, increasing its attack power."
 
 msgid "kindling_flame"
-msgstr "Kindling Flame"
+msgstr "Warm Up Round"
 
 msgid "kiss_description"
 msgstr "They exchange a kiss, and health."
 
 msgid "kiss"
-msgstr "Kiss"
+msgstr "Awkward Clinch"
 
 msgid "kraken_description"
 msgstr ""
@@ -3130,13 +3133,13 @@ msgstr ""
 "devastating attack."
 
 msgid "kraken"
-msgstr "Kraken"
+msgstr "Ezekiel Choke"
 
 msgid "lantern_description"
 msgstr "The user damages the target with bright light."
 
 msgid "lantern"
-msgstr "Lantern"
+msgstr "Open The Guard"
 
 msgid "laser_beam_description"
 msgstr ""
@@ -3144,20 +3147,20 @@ msgstr ""
 "light."
 
 msgid "laser_beam"
-msgstr "Laser Beam"
+msgstr "Tunnel Vision"
 
 msgid "lava_description"
 msgstr ""
 "The user erupts with molten lava, burning both itself and the opponent."
 
 msgid "lava"
-msgstr "Lava"
+msgstr "Hot Mat Burn"
 
 msgid "leaf_barrage_description"
 msgstr "Barrage the opponent with a series of leaves."
 
 msgid "leaf_barrage"
-msgstr "Leaf Barrage"
+msgstr "Grip Barrage"
 
 msgid "leaf_stab_description"
 msgstr ""
@@ -3165,7 +3168,7 @@ msgstr ""
 "contact as the stab wound bleeds."
 
 msgid "leaf_stab"
-msgstr "Leaf Stab"
+msgstr "Collar Tie"
 
 msgid "levitate_description"
 msgstr ""
@@ -3173,7 +3176,7 @@ msgstr ""
 "struggling to connect with their hand-to-hand attacks."
 
 msgid "levitate"
-msgstr "Levitate"
+msgstr "Inversion"
 
 msgid "lick_lash_description"
 msgstr ""
@@ -3181,7 +3184,7 @@ msgstr ""
 " opponent stunned."
 
 msgid "lick_lash"
-msgstr "Lick Lash"
+msgstr "Snap Down"
 
 msgid "life_surge_description"
 msgstr ""
@@ -3189,43 +3192,43 @@ msgstr ""
 "opponent."
 
 msgid "life_surge"
-msgstr "Life Surge"
+msgstr "Second Wind"
 
 msgid "lightning_spheres_description"
 msgstr "The user launches multiple balls of electricity at the opponent."
 
 msgid "lightning_spheres"
-msgstr "Lightning Spheres"
+msgstr "Chain Attack"
 
 msgid "lineage_description"
 msgstr "The user draws power from its ancestors to unleash an attack."
 
 msgid "lineage"
-msgstr "Lineage"
+msgstr "Black Belt Wisdom"
 
 msgid "lock_horns_description"
 msgstr "They try to lock horns with the enemy. "
 
 msgid "lock_horns"
-msgstr "Lock Horns"
+msgstr "Over Under Clinch"
 
 msgid "lust_description"
 msgstr "The user uses its charm to weaken the opponent's defenses."
 
 msgid "lust"
-msgstr "Lust"
+msgstr "Fake Friendly Roll"
 
 msgid "magic_spell_description"
 msgstr "They try to increase enemy cooldowns of non-ranged moves."
 
 msgid "magic_spell"
-msgstr "Magic Spell"
+msgstr "YouTube Technique"
 
 msgid "magma_description"
 msgstr "The user erupts with a torrent of molten rock."
 
 msgid "magma"
-msgstr "Magma"
+msgstr "Pressure Cooker"
 
 msgid "magnetic_body_description"
 msgstr ""
@@ -3233,19 +3236,19 @@ msgstr ""
 "across the battlefield and disrupting the opponent's movements."
 
 msgid "magnetic_body"
-msgstr "Magnetic Body"
+msgstr "Heavy Base"
 
 msgid "meltdown_description"
 msgstr "The user unleashes a corrosive attack that damages the opponent."
 
 msgid "meltdown"
-msgstr "Meltdown"
+msgstr "Cardio Death"
 
 msgid "mending_description"
 msgstr "The user draws energy from its surroundings to heal itself."
 
 msgid "mending"
-msgstr "Mending"
+msgstr "Recover Guard"
 
 msgid "midnight_mantle_description"
 msgstr ""
@@ -3253,19 +3256,19 @@ msgstr ""
 "tendrils that inflict damage and disorient the opponent."
 
 msgid "midnight_mantle"
-msgstr "Midnight Mantle"
+msgstr "Sneaky Back Take"
 
 msgid "mind_explosion_description"
 msgstr "A powerful psychic or mushroom hallucinogen attack."
 
 msgid "mind_explosion"
-msgstr "Mind Explosion"
+msgstr "White Belt Panic"
 
 msgid "mind_vise_description"
 msgstr "The user traps the opponent's mind, preventing them from acting."
 
 msgid "mind_vise"
-msgstr "Mind Vise"
+msgstr "Wrist Lock"
 
 msgid "mobbing_description"
 msgstr ""
@@ -3273,56 +3276,56 @@ msgstr ""
 "with a flurry of attacks."
 
 msgid "mobbing"
-msgstr "Mobbing"
+msgstr "Shark Tank"
 
 msgid "muck_description"
 msgstr "The user covers the opponent in a sticky, poisonous substance."
 
 msgid "muck"
-msgstr "Muck"
+msgstr "Sweaty Gi Grip"
 
 msgid "muddle_description"
 msgstr "A haze over the battlefield makes it harder for attacks to connect."
 
 msgid "muddle"
-msgstr "Muddle"
+msgstr "Scramble Brain"
 
 msgid "mudslide_description"
 msgstr "The user creates a massive mudslide that engulfs the opponent."
 
 msgid "mudslide"
-msgstr "Mudslide"
+msgstr "Sumi Gaeshi"
 
 msgid "mystic_blending_description"
 msgstr "The user becomes one with its surroundings, healing itself."
 
 msgid "mystic_blending"
-msgstr "Mystic Blending"
+msgstr "Smooth Transition"
 
 msgid "needle_description"
 msgstr "The user stabs the target rapidly with a needle or thorns."
 
 msgid "needle"
-msgstr "Needle"
+msgstr "Collar Grip"
 
 msgid "negation_description"
 msgstr "The user cancels out the effects of the opponent's healing."
 
 msgid "negation"
-msgstr "Negation"
+msgstr "Shut Down"
 
 msgid "nest_description"
 msgstr "The user constructs a protective nest around itself."
 
 msgid "nest"
-msgstr "Nest"
+msgstr "Turtle Position"
 
 msgid "neutralize_description"
 msgstr ""
 "The battlefield is reset, with all conditions and other changes cleared."
 
 msgid "neutralize"
-msgstr "Neutralize"
+msgstr "Position Reset"
 
 msgid "oedipus_description"
 msgstr ""
@@ -3330,19 +3333,19 @@ msgstr ""
 "revenge."
 
 msgid "oedipus"
-msgstr "Oedipus"
+msgstr "Revenge Roll"
 
 msgid "one_million_talons_description"
 msgstr "The user unleashes a flurry of rapid, razor-sharp attacks."
 
 msgid "one_million_talons"
-msgstr "One Million Talons"
+msgstr "Ten Finger Grip"
 
 msgid "one_two_description"
 msgstr "Two decisive strikes bring the target to its knees."
 
 msgid "one_two"
-msgstr "One-Two"
+msgstr "Snap Down"
 
 msgid "orbs_description"
 msgstr ""
@@ -3350,7 +3353,7 @@ msgstr ""
 "the target."
 
 msgid "orbs"
-msgstr "Orbs"
+msgstr "Grip Exchange"
 
 msgid "oven_description"
 msgstr ""
@@ -3364,31 +3367,31 @@ msgid "oven_fail"
 msgstr "{user} hesitates and does not jump into the oven!"
 
 msgid "oven"
-msgstr "Oven"
+msgstr "Pressure Cooker"
 
 msgid "overfeed_description"
 msgstr "The user overloads the opponent with energy, slowing them down."
 
 msgid "overfeed"
-msgstr "Overfeed"
+msgstr "Too Much Acai"
 
 msgid "overgrowth_description"
 msgstr "Vines lash the target, locking them in place."
 
 msgid "overgrowth"
-msgstr "Overgrowth"
+msgstr "Leg Entanglement"
 
 msgid "panjandrum_description"
 msgstr "A reliable technique that hurts any monster in proportion to its HP."
 
 msgid "panjandrum"
-msgstr "Panjandrum"
+msgstr "Big Boy Pressure"
 
 msgid "peck_description"
 msgstr "The user attacks with a sharp peck from its beak."
 
 msgid "peck"
-msgstr "Peck"
+msgstr "Quick Jab Grip"
 
 msgid "peregrine_description"
 msgstr ""
@@ -3396,26 +3399,26 @@ msgstr ""
 "piercing attack."
 
 msgid "peregrine"
-msgstr "Peregrine"
+msgstr "Flying Triangle"
 
 msgid "perfect_cut_description"
 msgstr "The user strikes with surgical precision, leaving no room for error."
 
 msgid "perfect_cut"
-msgstr "Perfect Cut"
+msgstr "Clean Back Take"
 
 msgid "petrify_description"
 msgstr "The user emits a powerful aura that renders the opponent stuck."
 
 msgid "petrify"
-msgstr "Petrify"
+msgstr "Freeze Up"
 
 msgid "phantasmal_force_description"
 msgstr ""
 "The user creates an illusionary copy of itself that attacks the opponent."
 
 msgid "phantasmal_force"
-msgstr "Phantasmal Force"
+msgstr "Fake Sweep"
 
 msgid "piece_of_cake_description"
 msgstr ""
@@ -3424,7 +3427,7 @@ msgstr ""
 "delicious cake."
 
 msgid "piece_of_cake"
-msgstr "Piece of Cake"
+msgstr "Easy Round"
 
 msgid "pit_description"
 msgstr ""
@@ -3432,7 +3435,7 @@ msgstr ""
 "damage."
 
 msgid "pit"
-msgstr "Pit"
+msgstr "Side Control"
 
 msgid "platinum_description"
 msgstr ""
@@ -3440,7 +3443,7 @@ msgstr ""
 " defense and the ability to inflict damage."
 
 msgid "platinum"
-msgstr "Platinum"
+msgstr "Heavy Base"
 
 msgid "poison_courtship_description"
 msgstr ""
@@ -3448,7 +3451,7 @@ msgstr ""
 "while slowly poisoning them."
 
 msgid "poison_courtship"
-msgstr "Poison Courtship"
+msgstr "Nasty Collar Grip"
 
 msgid "pollen_blast_description"
 msgstr ""
@@ -3456,7 +3459,7 @@ msgstr ""
 "causing them to become disoriented."
 
 msgid "pollen_blast"
-msgstr "Pollen Blast"
+msgstr "Gi Dust Cloud"
 
 msgid "potluck_description"
 msgstr ""
@@ -3464,20 +3467,20 @@ msgstr ""
 "brief moment of camaraderie in the midst of battle."
 
 msgid "potluck"
-msgstr "Potluck"
+msgstr "Open Mat Special"
 
 msgid "pouch_description"
 msgstr ""
 "The user refreshes themselves with a tasty morsel from a pouch or bag."
 
 msgid "pouch"
-msgstr "Pouch"
+msgstr "Tape Break"
 
 msgid "power_theft_description"
 msgstr "The user steals some power, perhaps by gene exchange, and uses it to launch an attack of the enemy type."
 
 msgid "power_theft"
-msgstr "Power Theft"
+msgstr "Steal The Grip"
 
 msgid "proboscis_description"
 msgstr ""
@@ -3485,19 +3488,19 @@ msgstr ""
 "life force while inflicting damage."
 
 msgid "proboscis"
-msgstr "Proboscis"
+msgstr "Collar Drag"
 
 msgid "pseudopod_description"
 msgstr "The user extends a pseudopod to deliver a forceful, sticky blow."
 
 msgid "pseudopod"
-msgstr "Pseudopod"
+msgstr "Long Arm Frame"
 
 msgid "punch_description"
-msgstr "A classic, powerful strike with the user's fist."
+msgstr "The user applies a miserable shoulder crossface. Absolutely rude."
 
 msgid "punch"
-msgstr "Punch"
+msgstr "Crossface"
 
 msgid "pyrokinesis_description"
 msgstr ""
@@ -3505,7 +3508,7 @@ msgstr ""
 "opponents."
 
 msgid "pyrokinesis"
-msgstr "Pyrokinesis"
+msgstr "Mat Burn"
 
 msgid "quicksand_description"
 msgstr ""
@@ -3513,22 +3516,22 @@ msgstr ""
 " opponent."
 
 msgid "quicksand"
-msgstr "Quicksand"
+msgstr "Guard Retention"
 
 msgid "radiance_description"
 msgstr ""
 "The user emits blinding flash of light, followed by a powerful energy blast."
 
 msgid "radiance"
-msgstr "Radiance"
+msgstr "Highlight Reel"
 
 msgid "ram_description"
-msgstr ""
+msgstr "The user drives through both legs for a classic wrestling takedown."
 "The user charges forward with incredible force, delivering a devastating "
 "physical blow."
 
 msgid "ram"
-msgstr "Ram"
+msgstr "Double Leg"
 
 msgid "refresh_description"
 msgstr ""
@@ -3536,7 +3539,7 @@ msgstr ""
 "recovery."
 
 msgid "refresh"
-msgstr "Refresh"
+msgstr "Recover Guard"
 
 msgid "revenge_stance_description"
 msgstr ""
@@ -3544,7 +3547,7 @@ msgstr ""
 "first, while preparing for revenge."
 
 msgid "revenge_stance"
-msgstr "Revenge Stance"
+msgstr "Counter Stance"
 
 msgid "rift_dash_description"
 msgstr ""
@@ -3558,27 +3561,27 @@ msgid "rift_dash_fail"
 msgstr "{user} fails to teleport, leaving itself open to attack!"
 
 msgid "rift_dash"
-msgstr "Rift Dash"
+msgstr "Technical Stand-Up"
 
 msgid "ring_description"
 msgstr "The user conjures a ring that expands, engulfing the opponent."
 
 msgid "ring"
-msgstr "Ring"
+msgstr "De La Riva"
 
 msgid "riposte_description"
-msgstr ""
+msgstr "The user waits for pressure, then reverses the position."
 "The user assumes a defensive stance, preparing to counter any attack with a "
 "swift and powerful retaliation."
 
 msgid "riposte"
-msgstr "Riposte"
+msgstr "Counter Sweep"
 
 msgid "rock_description"
 msgstr "A heavy rock falls on the target."
 
 msgid "rock"
-msgstr "Rock"
+msgstr "Heavy Pressure"
 
 msgid "rocky_barrage_description"
 msgstr ""
@@ -3586,26 +3589,26 @@ msgstr ""
 "opponent with a crushing avalanche of stone."
 
 msgid "rocky_barrage"
-msgstr "Rocky Barrage"
+msgstr "Pressure Barrage"
 
 msgid "roll_description"
-msgstr "The user curls into a ball and rolls over or against the opponent."
+msgstr "The user rolls through danger and scrambles to a better position."
 
 msgid "roll"
-msgstr "Roll"
+msgstr "Granby Roll"
 
 msgid "rot_description"
 msgstr "A sickness befalls the target."
 
 msgid "rot"
-msgstr "Rot"
+msgstr "Bad Habits"
 
 msgid "ruby_description"
 msgstr ""
 "The user fires a concentrated beam of ruby-like energy, inflicting damage."
 
 msgid "ruby"
-msgstr "Ruby"
+msgstr "Red Belt Myth"
 
 msgid "rust_bomb_description"
 msgstr ""
@@ -3613,19 +3616,19 @@ msgstr ""
 " the opponent."
 
 msgid "rust_bomb"
-msgstr "Rust Bomb"
+msgstr "Rusty Technique"
 
 msgid "saber_description"
 msgstr "The user strikes with a swift and powerful sword-like attack."
 
 msgid "saber"
-msgstr "Saber"
+msgstr "Slicer Entry"
 
 msgid "salamander_description"
 msgstr "A bite brimming with heat and lashing pain."
 
 msgid "salamander"
-msgstr "Salamander"
+msgstr "Hot Scramble"
 
 msgid "sand_spray_description"
 msgstr ""
@@ -3633,19 +3636,19 @@ msgstr ""
 "and inflicting damage."
 
 msgid "sand_spray"
-msgstr "Sand Spray"
+msgstr "Dirty Grip Break"
 
 msgid "sands_of_time_description"
 msgstr "They imbue sand around them with the power to turn time."
 
 msgid "sands_of_time"
-msgstr "Sands of Time"
+msgstr "Stall Tactics"
 
 msgid "scope_description"
 msgstr "Identifies an opponent's strengths and weaknesses."
 
 msgid "scope"
-msgstr "Scope"
+msgstr "Gameplan Read"
 
 msgid "shadow_blast_description"
 msgstr ""
@@ -3653,13 +3656,13 @@ msgstr ""
 "beings."
 
 msgid "shadow_blast"
-msgstr "Shadow Blast"
+msgstr "Sneaky Sweep"
 
 msgid "shadow_boxing_description"
 msgstr "A flurry of punches strikes the target."
 
 msgid "shadow_boxing"
-msgstr "Shadow Boxing"
+msgstr "MMA Guy Energy"
 
 msgid "shapechange_description"
 msgstr ""
@@ -3667,7 +3670,7 @@ msgstr ""
 "surprising and powerful attack."
 
 msgid "shapechange"
-msgstr "Shapechange"
+msgstr "Suddenly Wrestler"
 
 msgid "shooting_star_description"
 msgstr ""
@@ -3678,14 +3681,14 @@ msgid "shooting_star_fail"
 msgstr "The lack of starlight from the daytime sky prevents the healing."
 
 msgid "shooting_star"
-msgstr "Shooting Star"
+msgstr "Flying Entry"
 
 msgid "shrapnel_description"
 msgstr ""
 "The user unleashes a barrage of sharp fragments, causing widespread damage."
 
 msgid "shrapnel"
-msgstr "Shrapnel"
+msgstr "Explosive Scramble"
 
 msgid "shuriken_description"
 msgstr ""
@@ -3693,7 +3696,7 @@ msgstr ""
 " with each hit."
 
 msgid "shuriken"
-msgstr "Shuriken"
+msgstr "Grip Throw"
 
 msgid "sleep_bomb_description"
 msgstr ""
@@ -3701,7 +3704,7 @@ msgstr ""
 "into a doze."
 
 msgid "sleep_bomb"
-msgstr "Sleep Bomb"
+msgstr "Nap Trap"
 
 msgid "sleeping_powder_description"
 msgstr ""
@@ -3709,13 +3712,13 @@ msgstr ""
 "asleep."
 
 msgid "sleeping_powder"
-msgstr "Sleeping Powder"
+msgstr "Sleepy Pressure"
 
 msgid "slice_description"
 msgstr "The user wields a sharp blade, delivery a powerful, cutting attack."
 
 msgid "slice"
-msgstr "Slice"
+msgstr "Knee Slice"
 
 msgid "slime_description"
 msgstr ""
@@ -3723,7 +3726,7 @@ msgstr ""
 "damage."
 
 msgid "slime"
-msgstr "Slime"
+msgstr "Sweaty No-Gi"
 
 msgid "snowball_description"
 msgstr ""
@@ -3731,7 +3734,7 @@ msgstr ""
 "and chilling them slightly."
 
 msgid "snowball"
-msgstr "Snowball"
+msgstr "Rolling Entry"
 
 msgid "snowstorm_description"
 msgstr ""
@@ -3739,7 +3742,7 @@ msgstr ""
 "exhausted."
 
 msgid "snowstorm"
-msgstr "Snowstorm"
+msgstr "Cold Open Mat"
 
 msgid "sockpuppet_description"
 msgstr ""
@@ -3747,7 +3750,7 @@ msgstr ""
 "the foe and shielding the user from tricks and status moves for several turns."
 
 msgid "sockpuppet"
-msgstr "Sockpuppet"
+msgstr "Dummy Grip"
 
 msgid "solar_synthesis_description"
 msgstr "Heals the user's health by absorbing sunlight."
@@ -3756,7 +3759,7 @@ msgid "solar_synthesis_fail"
 msgstr "The lack of sunlight prevents the healing."
 
 msgid "solar_synthesis"
-msgstr "Solar Synthesis"
+msgstr "Breathe And Recover"
 
 msgid "spiky_strike_description"
 msgstr ""
@@ -3764,13 +3767,13 @@ msgstr ""
 "with a flurry of piercing blows, inflicting pain and damage."
 
 msgid "spiky_strike"
-msgstr "Spiky Strike"
+msgstr "Sharp Frame"
 
 msgid "spit_poison_description"
 msgstr "Liquid death sprays from the user's venom sacs."
 
 msgid "spit_poison"
-msgstr "Spit Poison"
+msgstr "Toxic Coaching"
 
 msgid "splinter_description"
 msgstr ""
@@ -3778,7 +3781,7 @@ msgstr ""
 "opponent."
 
 msgid "splinter"
-msgstr "Splinter"
+msgstr "Splitting Pass"
 
 msgid "stabilo_description"
 msgstr ""
@@ -3786,19 +3789,19 @@ msgstr ""
 "opponent."
 
 msgid "stabilo"
-msgstr "Stabilo"
+msgstr "Stiff Frame"
 
 msgid "staff_smash_description"
 msgstr "The user delivers a powerful blow with its staff."
 
 msgid "staff_smash"
-msgstr "Staff Smash"
+msgstr "Collar Tie Snap"
 
 msgid "stampede_description"
 msgstr "A powerful charge that puts the user in motion."
 
 msgid "stampede"
-msgstr "Stampede"
+msgstr "Blast Double"
 
 msgid "starfall_description"
 msgstr ""
@@ -3806,7 +3809,7 @@ msgstr ""
 "and granting the user heightened focus while exhausting the opponent."
 
 msgid "starfall"
-msgstr "Starfall"
+msgstr "Flying Guard Pull"
 
 msgid "static_field_description"
 msgstr ""
@@ -3814,7 +3817,7 @@ msgstr ""
 "increased defense."
 
 msgid "static_field"
-msgstr "Static Field"
+msgstr "Base Stabilizer"
 
 msgid "steel_jaws_description"
 msgstr ""
@@ -3822,14 +3825,14 @@ msgstr ""
 "attack."
 
 msgid "steel_jaws"
-msgstr "Steel Jaws"
+msgstr "Jawbreaker Grip"
 
 msgid "stick_description"
 msgstr ""
 "The user uses a stick, plant part or twig to poke or smack the opponent."
 
 msgid "stick"
-msgstr "Stick"
+msgstr "Bo Staff Grip"
 
 msgid "sting_description"
 msgstr ""
@@ -3837,13 +3840,13 @@ msgstr ""
 "body."
 
 msgid "sting"
-msgstr "Sting"
+msgstr "Ankle Pick"
 
 msgid "stone_rot_description"
 msgstr "A sickness quickly befalls the target."
 
 msgid "stone_rot"
-msgstr "Stone Rot"
+msgstr "Heavy Legs"
 
 msgid "stonehenge_description"
 msgstr ""
@@ -3851,26 +3854,26 @@ msgstr ""
 "opponent."
 
 msgid "stonehenge"
-msgstr "Stonehenge"
+msgstr "Circle Pass"
 
 msgid "strangulation_description"
-msgstr ""
+msgstr "The user attacks the back and squeezes until the tap comes."
 "The user constricts the opponent's throat, cutting off their air supply."
 
 msgid "strangulation"
-msgstr "Strangulation"
+msgstr "Rear Naked Choke"
 
 msgid "strike_description"
-msgstr "The user delivers a powerful, focused blow."
+msgstr "The user attacks one leg and runs the pipe for the finish."
 
 msgid "strike"
-msgstr "Strike"
+msgstr "Single Leg"
 
 msgid "struggle_description"
 msgstr "They fight back with raw instinct when no other options remain."
 
 msgid "struggle"
-msgstr "Struggle"
+msgstr "Panic Scramble"
 
 msgid "suck_poison_description"
 msgstr ""
@@ -3878,14 +3881,14 @@ msgstr ""
 "with it."
 
 msgid "suck_poison"
-msgstr "Suck Poison"
+msgstr "Sweat Transfer"
 
 msgid "sudden_glow_description"
 msgstr ""
 "The user emits a radiant light, healing itself and restoring its stamina."
 
 msgid "sudden_glow"
-msgstr "Sudden Glow"
+msgstr "Second Wind"
 
 msgid "sunburst_description"
 msgstr ""
@@ -3893,14 +3896,14 @@ msgstr ""
 "attack."
 
 msgid "sunburst"
-msgstr "Sunburst"
+msgstr "Explosive Entry"
 
 msgid "supernova_description"
 msgstr ""
 "A cataclysmic explosion of energy, dealing immense damage to all opponents."
 
 msgid "supernova"
-msgstr "Supernova"
+msgstr "Gym War"
 
 msgid "suplex_description"
 msgstr ""
@@ -3914,13 +3917,13 @@ msgid "surf_description"
 msgstr "A massive wave crashes down upon the opponent."
 
 msgid "surf"
-msgstr "Surf"
+msgstr "Wave Sweep"
 
 msgid "surge_description"
 msgstr "A powerful electric discharge that shocks the opponent."
 
 msgid "surge"
-msgstr "Surge"
+msgstr "Explosive Bridge"
 
 msgid "sylvan_description"
 msgstr ""
@@ -3928,38 +3931,38 @@ msgstr ""
 "wooden puppet."
 
 msgid "sylvan"
-msgstr "Sylvan"
+msgstr "Tree Trunk Base"
 
 msgid "tail_lash_description"
 msgstr "The user lashes out with their tail or tail like appendage."
 
 msgid "tail_lash"
-msgstr "Tail Lash"
+msgstr "Leg Pummel"
 
 msgid "take_cover_description"
 msgstr "The user assumes a defensive stance, increasing its accuracy."
 
 msgid "take_cover"
-msgstr "Take Cover"
+msgstr "Defensive Shell"
 
 msgid "taunt_description"
-msgstr "A quick jab provokes the opponent into a powerful but distracted rage."
+msgstr "The user applies silent pressure by looking like they know exactly what you did wrong."
 
 msgid "taunt"
-msgstr "Taunt"
+msgstr "Mat Enforcer Stare"
 
 msgid "ten_thousand_feathers_description"
 msgstr ""
 "A flurry of feathers descends upon the opponent, inflicting multiple hits."
 
 msgid "ten_thousand_feathers"
-msgstr "Ten Thousand Feathers"
+msgstr "Grip Spam"
 
 msgid "terror_description"
 msgstr "The target is shaking with fear, unable to pick up or use items."
 
 msgid "terror"
-msgstr "Terror"
+msgstr "Mat Enforcer"
 
 msgid "thorn_burst_description"
 msgstr ""
@@ -3968,56 +3971,56 @@ msgstr ""
 "opponent to become stuck, immobilized by the thorny barrage."
 
 msgid "thorn_burst"
-msgstr "Thorn Burst"
+msgstr "Painful Frames"
 
 msgid "thunderball_description"
 msgstr "With a rumbling like thunder, a hard ball of rock strikes the target."
 
 msgid "thunderball"
-msgstr "Thunderball"
+msgstr "Blast Shot"
 
 msgid "thunderclap_description"
 msgstr ""
 "A sudden, deafening clap of thunder that stuns and damages the opponent."
 
 msgid "thunderclap"
-msgstr "Thunderclap"
+msgstr "Heavy Snap Down"
 
 msgid "time_crisis_description"
 msgstr "The user distorts the flow of time, causing the opponent damage."
 
 msgid "time_crisis"
-msgstr "Time Crisis"
+msgstr "Stalling Penalty"
 
 msgid "tinder_description"
 msgstr "The target is set alight."
 
 msgid "tinder"
-msgstr "Tinder"
+msgstr "Warm-Up Round"
 
 msgid "tip_description"
 msgstr "The user delivery a swift, precise strike to a vital point."
 
 msgid "tip"
-msgstr "Tip"
+msgstr "Wrist Pick"
 
 msgid "tonguespear_description"
 msgstr "The tongue is jabbed into the opponent, and their blood drained."
 
 msgid "tonguespear"
-msgstr "Tonguespear"
+msgstr "Long Range Grip"
 
 msgid "tooth_for_tooth_description"
 msgstr "The user bares their fangs, taking pain to give it back."
 
 msgid "tooth_for_tooth"
-msgstr "Tooth for Tooth"
+msgstr "Receipt Given"
 
 msgid "torch_description"
 msgstr "A projectile that strikes the opponent."
 
 msgid "torch"
-msgstr "Torch"
+msgstr "Burning Pressure"
 
 msgid "tornado_description"
 msgstr ""
@@ -4025,7 +4028,7 @@ msgstr ""
 "that lifts the opponent off the ground and deals damage."
 
 msgid "tornado"
-msgstr "Tornado"
+msgstr "Tornado Throw"
 
 msgid "trample_description"
 msgstr ""
@@ -4034,26 +4037,26 @@ msgstr ""
 " place."
 
 msgid "trample"
-msgstr "Trample"
+msgstr "Body Lock Trip"
 
 msgid "tsunami_description"
 msgstr "The user summons a colossal wave that crashes down upon the opponent."
 
 msgid "tsunami"
-msgstr "Tsunami"
+msgstr "Wave Sweep"
 
 msgid "tux_attack_description"
 msgstr "The user transforms into a whirlwind of data, dealing heavy damage."
 
 msgid "tux_attack"
-msgstr "Tux Attack"
+msgstr "Mascot Smash"
 
 msgid "ubuntu_description"
 msgstr ""
 "The user emits a chaotic energy that randomly alters the opponent's type."
 
 msgid "ubuntu"
-msgstr "Ubuntu"
+msgstr "Friendly Roll"
 
 msgid "undertaker_description"
 msgstr ""
@@ -4061,7 +4064,7 @@ msgstr ""
 " of the user's health."
 
 msgid "undertaker"
-msgstr "Undertaker"
+msgstr "Bow And Arrow"
 
 msgid "venomous_tentacle_description"
 msgstr ""
@@ -4069,7 +4072,7 @@ msgstr ""
 "them."
 
 msgid "venomous_tentacle"
-msgstr "Venomous Tentacle"
+msgstr "Leg Entanglement"
 
 msgid "viper_description"
 msgstr ""
@@ -4077,7 +4080,7 @@ msgstr ""
 "accuracy."
 
 msgid "viper"
-msgstr "Viper"
+msgstr "D'Arce Choke"
 
 msgid "vorpal_description"
 msgstr ""
@@ -4085,7 +4088,7 @@ msgstr ""
 "damage and fills the opponent with a burning desire for revenge."
 
 msgid "vorpal"
-msgstr "Vorpal"
+msgstr "Clean Submission"
 
 msgid "wall_fire_description"
 msgstr ""
@@ -4093,19 +4096,19 @@ msgstr ""
 "opponent."
 
 msgid "wall_fire"
-msgstr "Wall Fire"
+msgstr "Hot Frame"
 
 msgid "wall_of_steel_description"
 msgstr "The user spins about, creating a biting, shielding wall of steel."
 
 msgid "wall_of_steel"
-msgstr "Wall of Steel"
+msgstr "Closed Guard"
 
 msgid "wallow_description"
 msgstr "The user relaxes in a pool of mud, healing its wounds."
 
 msgid "wallow"
-msgstr "Wallow"
+msgstr "Rest Round"
 
 msgid "walls_description"
 msgstr ""
@@ -4113,7 +4116,7 @@ msgstr ""
 "barrier."
 
 msgid "walls"
-msgstr "Walls"
+msgstr "Open Guard"
 
 msgid "water_blast_description"
 msgstr ""
@@ -4121,20 +4124,20 @@ msgstr ""
 "torrent of liquid force, dealing damage."
 
 msgid "water_blast"
-msgstr "Water Blast"
+msgstr "Blast Double"
 
 msgid "water_bullet_description"
 msgstr "A mouthful of water is flung at the target with great alacrity."
 
 msgid "water_bullet"
-msgstr "Water Bullet"
+msgstr "Quick Shot"
 
 msgid "web_description"
 msgstr ""
 "A sticky web is shot at the opponent, trapping them and inflicting damage."
 
 msgid "web"
-msgstr "Web"
+msgstr "Spider Guard"
 
 msgid "webs_wind_description"
 msgstr ""
@@ -4142,20 +4145,20 @@ msgstr ""
 " dealing multiple hits and slowing their movement."
 
 msgid "webs_wind"
-msgstr "Webs Wind"
+msgstr "Lasso Guard"
 
 msgid "whirlwind_description"
 msgstr ""
 "The user creates a powerful vortex of wind that sweeps the opponent away."
 
 msgid "whirlwind"
-msgstr "Whirlwind"
+msgstr "Granby Escape"
 
 msgid "wicked_wind_description"
 msgstr "An ill wind draws near."
 
 msgid "wicked_wind"
-msgstr "Wicked Wind"
+msgstr "Nasty Sweep"
 
 msgid "wiggle_description"
 msgstr ""
@@ -4167,13 +4170,13 @@ msgid "wiggle_success"
 msgstr "{user} wiggled its body!"
 
 msgid "wiggle"
-msgstr "Wiggle"
+msgstr "Shrimp Escape"
 
 msgid "wing_tip_description"
 msgstr "The user delivers a sharp, cutting attack with the tip of its wing."
 
 msgid "wing_tip"
-msgstr "Wing Tip"
+msgstr "Outside Trip"
 
 msgid "woodsmash_description"
 msgstr ""
@@ -4181,7 +4184,7 @@ msgstr ""
 "damage and potentially knocking them back."
 
 msgid "woodsmash"
-msgstr "Woodsmash"
+msgstr "Club Grip"
 
 # MAP ##
 msgid "lion_mountain"
@@ -4760,7 +4763,7 @@ msgid "menu_player"
 msgstr "Player"
 
 msgid "menu_run"
-msgstr "Run"
+msgstr "Tap Out"
 
 msgid "menu_forfeit"
 msgstr "Tap Out"
@@ -5007,10 +5010,10 @@ msgid "multiplayer_join_prompt"
 msgstr "Hostname or IP?"
 
 msgid "swap"
-msgstr "Swap"
+msgstr "Tag Partner"
 
 msgid "skip"
-msgstr "Skip"
+msgstr "Stall For Breath"
 
 msgid "empty"
 msgstr "Empty"
