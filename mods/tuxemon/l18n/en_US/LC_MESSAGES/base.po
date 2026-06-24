@@ -5026,13 +5026,13 @@ msgstr ""
 "numbers."
 
 msgid "aardart"
-msgstr "Aardart"
+msgstr "Bonnie BlueBelt"
 
 msgid "aardorn_description"
 msgstr "When born it is placed in an anthill and left to eat its way out."
 
 msgid "aardorn"
-msgstr "Aardorn"
+msgstr "Vegan Niall"
 
 msgid "abesnaki_description"
 msgstr ""
@@ -5040,7 +5040,7 @@ msgstr ""
 "in a dead language."
 
 msgid "abesnaki"
-msgstr "Abesnaki"
+msgstr "Slutty Sarah"
 
 msgid "agnidon_description"
 msgstr ""
@@ -5048,7 +5048,7 @@ msgstr ""
 " hold things."
 
 msgid "agnidon"
-msgstr "Agnidon"
+msgstr "Only Dans"
 
 msgid "agnigon_description"
 msgstr ""
@@ -5056,13 +5056,13 @@ msgstr ""
 "actually evolved from a different line of ancient reptiles."
 
 msgid "agnigon"
-msgstr "Agnigon"
+msgstr "Mat Bastard"
 
 msgid "agnite_description"
 msgstr "It is playful, but must be taught early on to keep its fire in check."
 
 msgid "agnite"
-msgstr "Agnite"
+msgstr "Gi Goblin"
 
 msgid "allagon_description"
 msgstr ""
@@ -5070,7 +5070,7 @@ msgstr ""
 "ancestors, and will be violent to retrieve them."
 
 msgid "allagon"
-msgstr "Allagon"
+msgstr "Dr Kimura"
 
 msgid "altie_description"
 msgstr ""
@@ -5078,7 +5078,7 @@ msgstr ""
 "cannot float more than a few meters in the air."
 
 msgid "altie"
-msgstr "Altie"
+msgstr "Coach Atlas"
 
 msgid "ambuwl_description"
 msgstr ""
@@ -5086,7 +5086,7 @@ msgstr ""
 "with restorative powers."
 
 msgid "ambuwl"
-msgstr "Ambuwl"
+msgstr "Spazzy Steve"
 
 msgid "ampystoma_description"
 msgstr ""
@@ -5095,7 +5095,7 @@ msgstr ""
 "itself. It likes to go on land during thunderstorms."
 
 msgid "ampystoma"
-msgstr "Ampystoma"
+msgstr "Acai Slut"
 
 msgid "angesnow_description"
 msgstr ""
@@ -5104,7 +5104,7 @@ msgstr ""
 "through."
 
 msgid "angesnow"
-msgstr "Angesnow"
+msgstr "Craig NoGi"
 
 msgid "angrito_description"
 msgstr ""
@@ -5112,20 +5112,20 @@ msgstr ""
 "these urges too."
 
 msgid "angrito"
-msgstr "Angrito"
+msgstr "Wristlock Wes"
 
 msgid "anoleaf_description"
 msgstr ""
 "It considers the plants growing near it to be its brothers and sisters."
 
 msgid "anoleaf"
-msgstr "Anoleaf"
+msgstr "Stinky Gi"
 
 msgid "anu_description"
 msgstr "It is said that it enters others' dreams to search for its lost love."
 
 msgid "anu"
-msgstr "Anu"
+msgstr "Nasty Nate"
 
 msgid "apeoro_description"
 msgstr ""
@@ -5134,7 +5134,7 @@ msgstr ""
 " dreaming of empires."
 
 msgid "apeoro"
-msgstr "Apeoro"
+msgstr "Oilcheck Oz"
 
 msgid "araignee_description"
 msgstr ""
@@ -5142,7 +5142,7 @@ msgstr ""
 "of ARAIGNEE."
 
 msgid "araignee"
-msgstr "Araignee"
+msgstr "Leglock Larry"
 
 msgid "arthrobolt_description"
 msgstr ""
@@ -5150,7 +5150,7 @@ msgstr ""
 "away. But then the NUT and BOLT have no one to instruct them."
 
 msgid "arthrobolt"
-msgstr "Arthrobolt"
+msgstr "Porrada Paul"
 
 msgid "askylpaws_description"
 msgstr ""
@@ -5158,7 +5158,7 @@ msgstr ""
 "has caused others to sometimes blame it for the misfortune."
 
 msgid "askylpaws"
-msgstr "Askylpaws"
+msgstr "Sandbag Sam"
 
 msgid "asudopt_description"
 msgstr ""
@@ -5166,20 +5166,20 @@ msgstr ""
 "world. In the meantime, it sets the world's universal laws."
 
 msgid "asudopt"
-msgstr "Asudopt"
+msgstr "Sweaty Kev"
 
 msgid "av8r_description"
 msgstr "If the sun is out, it can fly as far or as high as it likes."
 
 msgid "av8r"
-msgstr "AV8R"
+msgstr "Choke Chad"
 
 msgid "axolightl_description"
 msgstr ""
 "It lights the deep waters with its tail, marking a safe shelter for fish."
 
 msgid "axolightl"
-msgstr "Axolightl"
+msgstr "Tapout Tim"
 
 msgid "b_ver_1_description"
 msgstr ""
@@ -5187,7 +5187,7 @@ msgstr ""
 "robot."
 
 msgid "b_ver_1"
-msgstr "B-Ver.1"
+msgstr "Guard Slag"
 
 msgid "babysnitch_description"
 msgstr ""
@@ -5196,7 +5196,7 @@ msgstr ""
 "grows into a BADDRSCRATCH."
 
 msgid "babysnitch"
-msgstr "Babysnitch"
+msgstr "Kimura Kev"
 
 msgid "baddrscratch_description"
 msgstr ""
@@ -5204,20 +5204,20 @@ msgstr ""
 "pursuit of its prey - even in the face of certain death."
 
 msgid "baddrscratch"
-msgstr "Baddrscratch"
+msgstr "Mount Mick"
 
 msgid "bamboon_description"
 msgstr "It fights with its bamboo staff, which it also uses for balance."
 
 msgid "bamboon"
-msgstr "Bamboon"
+msgstr "Halfguard Hal"
 
 msgid "banling_description"
 msgstr ""
 "Each BANLING is waiting for a homeless spirit to nestle in its branches."
 
 msgid "banling"
-msgstr "Banling"
+msgstr "Judo Jake"
 
 msgid "bansaken_description"
 msgstr ""
@@ -5225,7 +5225,7 @@ msgstr ""
 " naughty children who stay up too late to their number."
 
 msgid "bansaken"
-msgstr "Bansaken"
+msgstr "Wrestle Dad"
 
 msgid "banvengeance_description"
 msgstr ""
@@ -5233,7 +5233,7 @@ msgstr ""
 "roots to drown out the light, smothering competing plant life."
 
 msgid "banvengeance"
-msgstr "Banvengeance"
+msgstr "Neck Crank Ned"
 
 msgid "baobaraffe_description"
 msgstr ""
@@ -5242,7 +5242,7 @@ msgstr ""
 "creatures. When it has no water stored it is skinny."
 
 msgid "baobaraffe"
-msgstr "Baobaraffe"
+msgstr "Buggy Ben"
 
 msgid "baoby_description"
 msgstr ""
@@ -5251,7 +5251,7 @@ msgstr ""
 "dowsing rod. Many creatures follow BAOBY in droughts."
 
 msgid "baoby"
-msgstr "Baoby"
+msgstr "Degen Dan"
 
 msgid "bedoo_description"
 msgstr ""
@@ -5260,7 +5260,7 @@ msgstr ""
 "their victims into a permanent sleep."
 
 msgid "bedoo"
-msgstr "Bedoo"
+msgstr "Bluebelt Ben"
 
 msgid "beenstalker_description"
 msgstr ""
@@ -5269,7 +5269,7 @@ msgstr ""
 "harming them."
 
 msgid "beenstalker"
-msgstr "Beenstalker"
+msgstr "Purple Paul"
 
 msgid "bewhich_description"
 msgstr ""
@@ -5277,14 +5277,14 @@ msgstr ""
 "sinister - human. "
 
 msgid "bewhich"
-msgstr "Bewhich"
+msgstr "Brownbelt Bert"
 
 msgid "bigfin_description"
 msgstr ""
 "A whole ecosystem exists on its back, so it tries not to go underwater."
 
 msgid "bigfin"
-msgstr "Bigfin"
+msgstr "Blackbelt Baz"
 
 msgid "birdee_description"
 msgstr ""
@@ -5292,7 +5292,7 @@ msgstr ""
 "experiences when young."
 
 msgid "birdee"
-msgstr "Birdee"
+msgstr "Fake Coach"
 
 msgid "birdling_description"
 msgstr ""
@@ -5300,7 +5300,7 @@ msgstr ""
 "guard for a far more important egg than that."
 
 msgid "birdling"
-msgstr "Birdling"
+msgstr "Trial Tony"
 
 msgid "bishosand_description"
 msgstr ""
@@ -5308,7 +5308,7 @@ msgstr ""
 "to collect them, but is believed to not understand any of them."
 
 msgid "bishosand"
-msgstr "Bishosand"
+msgstr "Creonte Carl"
 
 msgid "blasdoor_description"
 msgstr ""
@@ -5316,14 +5316,14 @@ msgstr ""
 "macerate unwanted intruders and scrap machines between their steel teeth."
 
 msgid "blasdoor"
-msgstr "Blasdoor"
+msgstr "Manky Mike"
 
 msgid "bolt_description"
 msgstr ""
 "The presence of a BOLT makes a NUT clamp down harder and spark more energy."
 
 msgid "bolt"
-msgstr "Bolt"
+msgstr "Spicy Steve"
 
 msgid "boltnu_description"
 msgstr ""
@@ -5332,13 +5332,13 @@ msgstr ""
 "soil."
 
 msgid "boltnu"
-msgstr "Boltnu"
+msgstr "Gassy Gaz"
 
 msgid "botbot_description"
 msgstr "It is a universal robot that can be adapted for any purpose."
 
 msgid "botbot"
-msgstr "Botbot"
+msgstr "Toehold Tom"
 
 msgid "boxali_description"
 msgstr ""
@@ -5346,19 +5346,19 @@ msgstr ""
 "perform stunts and aerial attacks."
 
 msgid "boxali"
-msgstr "Boxali"
+msgstr "RNC Ray"
 
 msgid "boxorox_description"
 msgstr "The dumber it gets, the harder its rocky body becomes."
 
 msgid "boxorox"
-msgstr "Boxorox"
+msgstr "Smash Pass Sam"
 
 msgid "brachifor_description"
 msgstr "BRACHIFOR can go without eating if it stays perfectly still."
 
 msgid "brachifor"
-msgstr "Brachifor"
+msgstr "Juice Josh"
 
 msgid "breem_description"
 msgstr ""
@@ -5366,7 +5366,7 @@ msgstr ""
 "to be a normal bee."
 
 msgid "breem"
-msgstr "Breem"
+msgstr "Cringe Craig"
 
 msgid "brewdin_description"
 msgstr ""
@@ -5374,7 +5374,7 @@ msgstr ""
 "grants wishes to those who can make it smile."
 
 msgid "brewdin"
-msgstr "Brewdin"
+msgstr "Lazy Larry"
 
 msgid "bricgard_description"
 msgstr ""
@@ -5382,7 +5382,7 @@ msgstr ""
 "protect it from predators."
 
 msgid "bricgard"
-msgstr "Bricgard"
+msgstr "Dojo Derek"
 
 msgid "brickhemoth_description"
 msgstr ""
@@ -5391,13 +5391,13 @@ msgstr ""
 "BRICKHEMOTH."
 
 msgid "brickhemoth"
-msgstr "Brickhemoth"
+msgstr "Shark Tank Sam"
 
 msgid "brumi_description"
 msgstr "Neglected brooms may be stolen by BRUMI. "
 
 msgid "brumi"
-msgstr "Brumi"
+msgstr "Nosebeer Neil"
 
 msgid "budaye_description"
 msgstr ""
@@ -5405,14 +5405,14 @@ msgstr ""
 "encouraging mewls and waves."
 
 msgid "budaye"
-msgstr "Budaye"
+msgstr "Kneeride Kev"
 
 msgid "bugnin_description"
 msgstr ""
 "Its sword is actually an antenna grown and snapped off for that purpose."
 
 msgid "bugnin"
-msgstr "Bugnin"
+msgstr "Pullguard Pat"
 
 msgid "bumbulus_description"
 msgstr ""
@@ -5420,20 +5420,20 @@ msgstr ""
 " as a cloud. No one has ever seen its true body."
 
 msgid "bumbulus"
-msgstr "Bumbulus"
+msgstr "Dirty Dan"
 
 msgid "burrlock_description"
 msgstr ""
 "BURRLOCK likes to stick to passerbys to help it spread from place to place."
 
 msgid "burrlock"
-msgstr "Burrlock"
+msgstr "Tap Daddy"
 
 msgid "bursa_description"
 msgstr "It rejects fire as basic, and produces only the fire of the mind."
 
 msgid "bursa"
-msgstr "Bursa"
+msgstr "Gym Thot"
 
 msgid "cacaburr_description"
 msgstr ""
@@ -5441,7 +5441,7 @@ msgstr ""
 "CHICKADEE."
 
 msgid "cacaburr"
-msgstr "Cacaburr"
+msgstr "Acai Addict"
 
 msgid "cackleen_description"
 msgstr ""
@@ -5449,14 +5449,14 @@ msgstr ""
 "girl. "
 
 msgid "cackleen"
-msgstr "Cackleen"
+msgstr "Blue Belt Ex"
 
 msgid "cairfrey_description"
 msgstr ""
 "A jolly piece of furniture who awoke one morning and decided to explore."
 
 msgid "cairfrey"
-msgstr "Cairfrey"
+msgstr "Guard Goblin"
 
 msgid "caper_description"
 msgstr ""
@@ -5464,7 +5464,7 @@ msgstr ""
 "cold as ice."
 
 msgid "caper"
-msgstr "Caper"
+msgstr "Leglock Luke"
 
 msgid "capinyah_description"
 msgstr ""
@@ -5472,7 +5472,7 @@ msgstr ""
 " can CAPITI graduate to become CAPINYAH."
 
 msgid "capinyah"
-msgstr "Capinyah"
+msgstr "Wristlock Will"
 
 msgid "capiti_description"
 msgstr ""
@@ -5480,7 +5480,7 @@ msgstr ""
 "of years old."
 
 msgid "capiti"
-msgstr "Capiti"
+msgstr "Mat Enforcer"
 
 msgid "carcharock_description"
 msgstr ""
@@ -5489,13 +5489,13 @@ msgstr ""
 "sounds of its homeland."
 
 msgid "carcharock"
-msgstr "Carcharock"
+msgstr "Purple Perve"
 
 msgid "cardiling_description"
 msgstr "One wouldn't expect it to breathe fire, until it does."
 
 msgid "cardiling"
-msgstr "Cardiling"
+msgstr "Coach Creepy"
 
 msgid "cardinale_description"
 msgstr ""
@@ -5503,13 +5503,13 @@ msgstr ""
 "young when it can."
 
 msgid "cardinale"
-msgstr "Cardinale"
+msgstr "NoGi Niall"
 
 msgid "cardiwing_description"
 msgstr "Its song is remarkable, but few dare keep an explosive songbird."
 
 msgid "cardiwing"
-msgstr "Cardiwing"
+msgstr "Trial Guy"
 
 msgid "cataspike_description"
 msgstr ""
@@ -5517,19 +5517,19 @@ msgstr ""
 "spike to pick up rubbish."
 
 msgid "cataspike"
-msgstr "Cataspike"
+msgstr "Whitebelt Will"
 
 msgid "cateye_description"
 msgstr "They say it blinks once a year, in honor of summer's end."
 
 msgid "cateye"
-msgstr "Cateye"
+msgstr "Brownbelt Ben"
 
 msgid "chenipode_description"
 msgstr "It bites onto shoelaces and trouser legs when it wants to travel."
 
 msgid "chenipode"
-msgstr "Chenipode"
+msgstr "Blackbelt Bob"
 
 msgid "cherubat_description"
 msgstr ""
@@ -5538,14 +5538,14 @@ msgstr ""
 "nests."
 
 msgid "cherubat"
-msgstr "Cherubat"
+msgstr "Darce Dave"
 
 msgid "chibiro_description"
 msgstr ""
 "It is found in forests and fields, where it is often mistaken for a turnip."
 
 msgid "chibiro"
-msgstr "Chibiro"
+msgstr "Guillo Gary"
 
 msgid "chickadee_description"
 msgstr ""
@@ -5553,7 +5553,7 @@ msgstr ""
 "seems lesser than another."
 
 msgid "chickadee"
-msgstr "Chickadee"
+msgstr "Armbar Andy"
 
 msgid "chillimp_description"
 msgstr ""
@@ -5561,7 +5561,7 @@ msgstr ""
 "ever been taken."
 
 msgid "chillimp"
-msgstr "Chillimp"
+msgstr "Triangle Tom"
 
 msgid "chloragon_description"
 msgstr ""
@@ -5569,13 +5569,13 @@ msgstr ""
 " out, there will be no more CHLORAGON."
 
 msgid "chloragon"
-msgstr "Chloragon"
+msgstr "Berimbolo Ben"
 
 msgid "chromeye_description"
 msgstr "CHROMEYE was created to observe and learn how humans think and feel."
 
 msgid "chromeye"
-msgstr "Chromeye"
+msgstr "Sambo Sam"
 
 msgid "claymorior_description"
 msgstr ""
@@ -5583,13 +5583,13 @@ msgstr ""
 "REGALANCE."
 
 msgid "claymorior"
-msgstr "Claymorior"
+msgstr "Judo Judas"
 
 msgid "coaldiak_description"
 msgstr "This bear can set fire to anywhere and draw blood from anything."
 
 msgid "coaldiak"
-msgstr "Coaldiak"
+msgstr "Panic Pete"
 
 msgid "cobarett_description"
 msgstr ""
@@ -5598,7 +5598,7 @@ msgstr ""
 " which is so hot that tongues of flame shoot from its mouth."
 
 msgid "cobarett"
-msgstr "Cobarett"
+msgstr "Sweat Goblin"
 
 msgid "cochini_description"
 msgstr ""
@@ -5606,13 +5606,13 @@ msgstr ""
 "delicious."
 
 msgid "cochini"
-msgstr "Cochini"
+msgstr "Tape Finger"
 
 msgid "cocrune_description"
 msgstr "Whichever way it turns, the blood-red eye faces you."
 
 msgid "cocrune"
-msgstr "Cocrune"
+msgstr "Cauli Carl"
 
 msgid "cohldrabi_description"
 msgstr ""
@@ -5620,25 +5620,25 @@ msgstr ""
 "few weeks."
 
 msgid "cohldrabi"
-msgstr "Cohldrabi"
+msgstr "Shit Gi Sean"
 
 msgid "coleorus_description"
 msgstr "It has existed, unchanged, for millions of years."
 
 msgid "coleorus"
-msgstr "Coleorus"
+msgstr "Toe Hold Ted"
 
 msgid "conglolem_description"
 msgstr "The gel has long ago dried out, but CONGLOLEM continues."
 
 msgid "conglolem"
-msgstr "Conglolem"
+msgstr "Mouthguard Mo"
 
 msgid "conifrost_description"
 msgstr "If it sneezes, an avalanche occurs. It has a permanent sniffle."
 
 msgid "conifrost"
-msgstr "Conifrost"
+msgstr "Open Mat Oz"
 
 msgid "conileaf_description"
 msgstr ""
@@ -5646,7 +5646,7 @@ msgstr ""
 "food without it going off."
 
 msgid "conileaf"
-msgstr "Conileaf"
+msgstr "Comp Class Cam"
 
 msgid "coppi_description"
 msgstr ""
@@ -5654,7 +5654,7 @@ msgstr ""
 "beer brewing and medicine."
 
 msgid "coppi"
-msgstr "Coppi"
+msgstr "Stall Steve"
 
 msgid "coproblight_description"
 msgstr ""
@@ -5662,19 +5662,19 @@ msgstr ""
 "within itself for defense."
 
 msgid "coproblight"
-msgstr "Coproblight"
+msgstr "Grippy Greg"
 
 msgid "corvix_description"
 msgstr "It arms its wings with bone shards from its victims."
 
 msgid "corvix"
-msgstr "Corvix"
+msgstr "Underhook Ugo"
 
 msgid "cowpignon_description"
 msgstr "Some people dry it out and eat it as a medicinal enhancement."
 
 msgid "cowpignon"
-msgstr "Cowpignon"
+msgstr "Overhook Owen"
 
 msgid "crankus_description"
 msgstr ""
@@ -5682,7 +5682,7 @@ msgstr ""
 "another in running arguments that end only with the spring thaws."
 
 msgid "crankus"
-msgstr "Crankus"
+msgstr "Backtake Baz"
 
 msgid "criniotherme_description"
 msgstr ""
@@ -5690,7 +5690,7 @@ msgstr ""
 "as ash at night."
 
 msgid "criniotherme"
-msgstr "Criniotherme"
+msgstr "Snapdown Sid"
 
 msgid "crustagu_description"
 msgstr ""
@@ -5698,7 +5698,7 @@ msgstr ""
 "who threaten its underwater colonies."
 
 msgid "crustagu"
-msgstr "Crustagu"
+msgstr "Ankle Pick Al"
 
 msgid "dandicub_description"
 msgstr ""
@@ -5706,7 +5706,7 @@ msgstr ""
 "family again."
 
 msgid "dandicub"
-msgstr "Dandicub"
+msgstr "Collar Carl"
 
 msgid "dandylion_description"
 msgstr ""
@@ -5714,7 +5714,7 @@ msgstr ""
 "to find them."
 
 msgid "dandylion"
-msgstr "Dandylion"
+msgstr "Lapel Larry"
 
 msgid "dankush_description"
 msgstr ""
@@ -5722,7 +5722,7 @@ msgstr ""
 " of smoke to billow forth from each leaf."
 
 msgid "dankush"
-msgstr "Dankush"
+msgstr "Knee Slice Kai"
 
 msgid "delfeco_description"
 msgstr ""
@@ -5731,7 +5731,7 @@ msgstr ""
 "size, it's known for its playful nature and strong bond with its trainer."
 
 msgid "delfeco"
-msgstr "Delfeco"
+msgstr "Turtle Terry"
 
 msgid "demosnow_description"
 msgstr ""
@@ -5739,7 +5739,7 @@ msgstr ""
 "strictly safe, promising them glory and adventure."
 
 msgid "demosnow"
-msgstr "Demosnow"
+msgstr "Shrimp Sean"
 
 msgid "devidin_description"
 msgstr ""
@@ -5747,7 +5747,7 @@ msgstr ""
 "everyone always mistakes it for."
 
 msgid "devidin"
-msgstr "Devidin"
+msgstr "Bridge Barry"
 
 msgid "devidra_description"
 msgstr ""
@@ -5755,7 +5755,7 @@ msgstr ""
 "be a dinosaur."
 
 msgid "devidra"
-msgstr "Devidra"
+msgstr "Mounty Mike"
 
 msgid "deviraptor_description"
 msgstr ""
@@ -5763,7 +5763,7 @@ msgstr ""
 "true identity."
 
 msgid "deviraptor"
-msgstr "Deviraptor"
+msgstr "SideCtrl Sid"
 
 msgid "dinoflop_description"
 msgstr ""
@@ -5771,7 +5771,7 @@ msgstr ""
 "land on its shielded and spiny back."
 
 msgid "dinoflop"
-msgstr "Dinoflop"
+msgstr "Coach Big Ron"
 
 msgid "djinnbo_description"
 msgstr ""
@@ -5779,7 +5779,7 @@ msgstr ""
 "its relatives did."
 
 msgid "djinnbo"
-msgstr "Djinnbo"
+msgstr "Mum Said No"
 
 msgid "doctsky_description"
 msgstr ""
@@ -5787,19 +5787,19 @@ msgstr ""
 " after a movie with it as a villain came out."
 
 msgid "doctsky"
-msgstr "Doctsky"
+msgstr "Mat Karen"
 
 msgid "dollfin_description"
 msgstr "Each one follows a ship from place to place, exploring the world."
 
 msgid "dollfin"
-msgstr "Dollfin"
+msgstr "Drama Dan"
 
 msgid "dracune_description"
 msgstr "It is immobile during the day, but can wriggle and bite at night."
 
 msgid "dracune"
-msgstr "Dracune"
+msgstr "Daisy NoGi"
 
 msgid "dragarbor_description"
 msgstr ""
@@ -5807,7 +5807,7 @@ msgstr ""
 " where it plants itself. Its tail flower grows forever."
 
 msgid "dragarbor"
-msgstr "Dragarbor"
+msgstr "Sweaty Betty"
 
 msgid "drashimi_description"
 msgstr ""
@@ -5815,7 +5815,7 @@ msgstr ""
 "bite - but when they approach, it bites them first."
 
 msgid "drashimi"
-msgstr "Drashimi"
+msgstr "Bonk Barry"
 
 msgid "drokoro_description"
 msgstr ""
@@ -5823,7 +5823,7 @@ msgstr ""
 "it ate its mate, and it ate all of its kind."
 
 msgid "drokoro"
-msgstr "Drokoro"
+msgstr "Shady Shane"
 
 msgid "duggot_description"
 msgstr ""
@@ -5831,7 +5831,7 @@ msgstr ""
 "over its brain."
 
 msgid "duggot"
-msgstr "Duggot"
+msgstr "Creepy Craig"
 
 msgid "dune_pincher_description"
 msgstr ""
@@ -5839,14 +5839,14 @@ msgstr ""
 "that is the burial shrouds of long-dead pharaohs."
 
 msgid "dune_pincher"
-msgstr "Dune Pincher"
+msgstr "Moody Molly"
 
 msgid "eaglace_description"
 msgstr ""
 "When it takes flight, clouds form. When it claps its wings, hail falls."
 
 msgid "eaglace"
-msgstr "Eaglace"
+msgstr "Nasty Nancy"
 
 msgid "elofly_description"
 msgstr ""
@@ -5854,14 +5854,14 @@ msgstr ""
 "numbers it becomes violent and impulsive."
 
 msgid "elofly"
-msgstr "Elofly"
+msgstr "Porrada Pam"
 
 msgid "elostorm_description"
 msgstr ""
 "Kings and queens, the ELOSTORM rule their people and have great ambition."
 
 msgid "elostorm"
-msgstr "Elostorm"
+msgstr "Kimura Kim"
 
 msgid "elowind_description"
 msgstr ""
@@ -5869,19 +5869,19 @@ msgstr ""
 " focused."
 
 msgid "elowind"
-msgstr "Elowind"
+msgstr "Heelhook Holly"
 
 msgid "embazook_description"
 msgstr "It is trained for use in war and it knows no other life."
 
 msgid "embazook"
-msgstr "Embazook"
+msgstr "Darce Debbie"
 
 msgid "embra_description"
 msgstr "It eats everything it can to grow big enough to become a RUPTION."
 
 msgid "embra"
-msgstr "Embra"
+msgstr "Guillo Gina"
 
 msgid "enduros_description"
 msgstr ""
@@ -5889,20 +5889,20 @@ msgstr ""
 "ring, it is quite sociable."
 
 msgid "enduros"
-msgstr "Enduros"
+msgstr "Acai Amy"
 
 msgid "equill_description"
 msgstr ""
 "Its bitterness causes it to transform. It hides its ugliness in the dark."
 
 msgid "equill"
-msgstr "Equill"
+msgstr "NoGi Nora"
 
 msgid "eruptibus_description"
 msgstr "Smiths work with it, heating up metals in its caldera."
 
 msgid "eruptibus"
-msgstr "Eruptibus"
+msgstr "Judo Jenny"
 
 msgid "erythroskyte_description"
 msgstr ""
@@ -5910,20 +5910,20 @@ msgstr ""
 "many away."
 
 msgid "erythroskyte"
-msgstr "Erythroskyte"
+msgstr "Spazzy Sally"
 
 msgid "eskipup_description"
 msgstr "Even as a puppy, it can pull 1 ton loads."
 
 msgid "eskipup"
-msgstr "Eskipup"
+msgstr "Tappy Tammy"
 
 msgid "exapode_description"
 msgstr ""
 "It waves its legs to attract attention, but mostly people just run away."
 
 msgid "exapode"
-msgstr "Exapode"
+msgstr "Guard Gina"
 
 msgid "exclawvate_description"
 msgstr ""
@@ -5932,13 +5932,13 @@ msgstr ""
 "giving them a better balance and grip while climbing heaps of rubble."
 
 msgid "exclawvate"
-msgstr "Exclawvate"
+msgstr "Mount Mandy"
 
 msgid "eyenemy_description"
 msgstr "It feeds on beautiful views and other spectacular sights."
 
 msgid "eyenemy"
-msgstr "Eyenemy"
+msgstr "Triangle Tina"
 
 msgid "eyesore_description"
 msgstr ""
@@ -5946,7 +5946,7 @@ msgstr ""
 " it in."
 
 msgid "eyesore"
-msgstr "Eyesore"
+msgstr "Bonnie BlueBelt"
 
 msgid "fancair_description"
 msgstr ""
@@ -5954,7 +5954,7 @@ msgstr ""
 " and flies out the window to find someone who actually needs to be cooled."
 
 msgid "fancair"
-msgstr "Fancair"
+msgstr "Slutty Sarah"
 
 msgid "ferricran_description"
 msgstr ""
@@ -5962,7 +5962,7 @@ msgstr ""
 "wings of mithril."
 
 msgid "ferricran"
-msgstr "Ferricran"
+msgstr "Only Dans"
 
 msgid "firomenis_description"
 msgstr ""
@@ -5971,7 +5971,7 @@ msgstr ""
 "enough to carry people."
 
 msgid "firomenis"
-msgstr "Firomenis"
+msgstr "Mat Bastard"
 
 msgid "flacono_description"
 msgstr ""
@@ -5979,7 +5979,7 @@ msgstr ""
 "without hesitation."
 
 msgid "flacono"
-msgstr "Flacono"
+msgstr "Gi Goblin"
 
 msgid "flambear_description"
 msgstr ""
@@ -5987,7 +5987,7 @@ msgstr ""
 " leaves in its wake."
 
 msgid "flambear"
-msgstr "Flambear"
+msgstr "Heelhook Harry"
 
 msgid "flisces_description"
 msgstr ""
@@ -5995,7 +5995,7 @@ msgstr ""
 "brings its sharp fins into play."
 
 msgid "flisces"
-msgstr "Flisces"
+msgstr "Dr Kimura"
 
 msgid "fluoresfin_description"
 msgstr ""
@@ -6003,20 +6003,20 @@ msgstr ""
 " blinding light to disorientate predators."
 
 msgid "fluoresfin"
-msgstr "Fluoresfin"
+msgstr "Craig NoGi"
 
 msgid "fluttaflap_description"
 msgstr ""
 "It feeds on impurities, so it returns purified blood to those it sucks on."
 
 msgid "fluttaflap"
-msgstr "Fluttaflap"
+msgstr "Wristlock Wes"
 
 msgid "foofle_description"
 msgstr "When one is in danger, all FOOFLE hear its cries, wherever they are."
 
 msgid "foofle"
-msgstr "Foofle"
+msgstr "Stinky Gi"
 
 msgid "flounce_description"
 msgstr ""
@@ -6024,7 +6024,7 @@ msgstr ""
 "good motivation."
 
 msgid "flounce"
-msgstr "Flounce"
+msgstr "Coach Atlas"
 
 msgid "flummack_description"
 msgstr ""
@@ -6032,7 +6032,7 @@ msgstr ""
 "FLUMMACK go down a treat."
 
 msgid "flummack"
-msgstr "Flummack"
+msgstr "Spazzy Steve"
 
 msgid "flummby_description"
 msgstr ""
@@ -6040,19 +6040,19 @@ msgstr ""
 " would be more ethical. It leaps into the mouth of anyone who could eat it."
 
 msgid "flummby"
-msgstr "Flummby"
+msgstr "Acai Slut"
 
 msgid "fordin_description"
 msgstr "When threatened, it curls into a ball and bounces away."
 
 msgid "fordin"
-msgstr "Fordin"
+msgstr "Nasty Nate"
 
 msgid "forturtle_description"
 msgstr "It heats its shell to read the future from the cracks that emerge."
 
 msgid "forturtle"
-msgstr "Forturtle"
+msgstr "Oilcheck Oz"
 
 msgid "foxfire_description"
 msgstr ""
@@ -6060,13 +6060,13 @@ msgstr ""
 "where they come from."
 
 msgid "foxfire"
-msgstr "Foxfire"
+msgstr "Leglock Larry"
 
 msgid "fribbit_description"
 msgstr "It is said that it was once a boy who licked a freezing lamp post."
 
 msgid "fribbit"
-msgstr "Fribbit"
+msgstr "Sandbag Sam"
 
 msgid "frondly_description"
 msgstr ""
@@ -6074,13 +6074,13 @@ msgstr ""
 "fruit."
 
 msgid "frondly"
-msgstr "Frondly"
+msgstr "Sweaty Kev"
 
 msgid "frostuce_description"
 msgstr "One rarely expects to see green waltzing around in a snowstorm."
 
 msgid "frostuce"
-msgstr "Frostuce"
+msgstr "Choke Chad"
 
 msgid "fruitera_description"
 msgstr ""
@@ -6088,7 +6088,7 @@ msgstr ""
 "it drops all its fruit, gathers it all up again, and only then runs away."
 
 msgid "fruitera"
-msgstr "Fruitera"
+msgstr "Tapout Tim"
 
 msgid "furnursus_description"
 msgstr ""
@@ -6096,7 +6096,7 @@ msgstr ""
 "others to touch."
 
 msgid "furnursus"
-msgstr "Furnursus"
+msgstr "Guard Slag"
 
 msgid "fuzzina_description"
 msgstr ""
@@ -6104,7 +6104,7 @@ msgstr ""
 "FUZZINA, a brave protector and nurturer of the small and the weak."
 
 msgid "fuzzina"
-msgstr "Fuzzina"
+msgstr "Kimura Kev"
 
 msgid "fuzzlet_description"
 msgstr ""
@@ -6112,13 +6112,13 @@ msgstr ""
 "come to life."
 
 msgid "fuzzlet"
-msgstr "Fuzzlet"
+msgstr "Mount Mick"
 
 msgid "galasces_description"
 msgstr "GALASCES can distort its shape to engulf prey its own size."
 
 msgid "galasces"
-msgstr "Galasces"
+msgstr "Halfguard Hal"
 
 msgid "galnec_description"
 msgstr ""
@@ -6126,26 +6126,26 @@ msgstr ""
 "tail above ground. In packs, they look like gardens of stone."
 
 msgid "galnec"
-msgstr "Galnec"
+msgstr "Judo Jake"
 
 msgid "gastronium_description"
 msgstr ""
 "GASTRONIUM can eat almost anything but prefers heavy, radioactive materials."
 
 msgid "gastronium"
-msgstr "Gastronium"
+msgstr "Wrestle Dad"
 
 msgid "gectile_description"
 msgstr "It is so quick and light that it can walk on leaves."
 
 msgid "gectile"
-msgstr "Gectile"
+msgstr "Neck Crank Ned"
 
 msgid "ghosteeth_description"
 msgstr "It smiles because it knows how everyone it meets is going to die."
 
 msgid "ghosteeth"
-msgstr "Ghosteeth"
+msgstr "Buggy Ben"
 
 msgid "dynastor_description"
 msgstr ""
@@ -6154,7 +6154,7 @@ msgstr ""
 "steel. "
 
 msgid "dynastor"
-msgstr "Dynastor"
+msgstr "Rough Rachel"
 
 msgid "gliffary_description"
 msgstr ""
@@ -6162,7 +6162,7 @@ msgstr ""
 " and melts iron zealously."
 
 msgid "gliffary"
-msgstr "Gliffary"
+msgstr "Degen Dan"
 
 msgid "glombroc_description"
 msgstr ""
@@ -6170,7 +6170,7 @@ msgstr ""
 "forgetful."
 
 msgid "glombroc"
-msgstr "Glombroc"
+msgstr "Mat Rat"
 
 msgid "glomon_description"
 msgstr ""
@@ -6178,7 +6178,7 @@ msgstr ""
 "can see out of the back of its body."
 
 msgid "glomon"
-msgstr "Glomon"
+msgstr "Bluebelt Ben"
 
 msgid "golnagi_description"
 msgstr ""
@@ -6186,7 +6186,7 @@ msgstr ""
 "and dusk - its preferred times for hunting."
 
 msgid "golnagi"
-msgstr "Golnagi"
+msgstr "Purple Paul"
 
 msgid "gourda_description"
 msgstr ""
@@ -6194,7 +6194,7 @@ msgstr ""
 "ton in weight, but normal GOURDA are much smaller."
 
 msgid "gourda"
-msgstr "Gourda"
+msgstr "Brownbelt Bert"
 
 msgid "graffiki_description"
 msgstr ""
@@ -6202,32 +6202,32 @@ msgstr ""
 "territory with elaborate paintings."
 
 msgid "graffiki"
-msgstr "Graffiki"
+msgstr "Blackbelt Baz"
 
 msgid "grimachin_description"
 msgstr "It was made by a toy company to be a pet, but was too dangerous."
 
 msgid "grimachin"
-msgstr "Grimachin"
+msgstr "Fake Coach"
 
 msgid "grinflare_description"
 msgstr "It is said that each is the walking heart of a volcano."
 
 msgid "grinflare"
-msgstr "Grinflare"
+msgstr "Trial Tony"
 
 msgid "grintot_description"
 msgstr "It is a GRINTROCK or GRINFLARE that has experienced erosion."
 
 msgid "grintot"
-msgstr "Grintot"
+msgstr "Creonte Carl"
 
 msgid "grintrock_description"
 msgstr ""
 "It feeds by sitting out in thunderstorms, waiting to be struck by lightning."
 
 msgid "grintrock"
-msgstr "Grintrock"
+msgstr "Manky Mike"
 
 msgid "grumpi_description"
 msgstr ""
@@ -6235,13 +6235,13 @@ msgstr ""
 "from."
 
 msgid "grumpi"
-msgstr "Grumpi"
+msgstr "Spicy Steve"
 
 msgid "gryfix_description"
 msgstr "Bone armor protects GRYFIX from all but the most powerful of attacks."
 
 msgid "gryfix"
-msgstr "Gryfix"
+msgstr "Gassy Gaz"
 
 msgid "gupphire_description"
 msgstr ""
@@ -6249,7 +6249,7 @@ msgstr ""
 " see a GUPPHIRE believe it means they will have good luck all year."
 
 msgid "gupphire"
-msgstr "Gupphire"
+msgstr "Toehold Tom"
 
 msgid "gupphish_description"
 msgstr ""
@@ -6257,13 +6257,13 @@ msgstr ""
 "who value teamwork."
 
 msgid "gupphish"
-msgstr "Gupphish"
+msgstr "RNC Ray"
 
 msgid "hampotamos_description"
 msgstr "It nibbles on RINOCEREED, clearing away dead skin, moss and weeds."
 
 msgid "hampotamos"
-msgstr "Hampotamos"
+msgstr "Smash Pass Sam"
 
 msgid "happito_description"
 msgstr ""
@@ -6271,7 +6271,7 @@ msgstr ""
 "want, even if it is not what they need."
 
 msgid "happito"
-msgstr "Happito"
+msgstr "Juice Josh"
 
 msgid "hatchling_description"
 msgstr ""
@@ -6279,7 +6279,7 @@ msgstr ""
 " a HATCHLING."
 
 msgid "hatchling"
-msgstr "Hatchling"
+msgstr "Cringe Craig"
 
 msgid "hectapod_description"
 msgstr ""
@@ -6287,7 +6287,7 @@ msgstr ""
 "mist and clouds."
 
 msgid "hectapod"
-msgstr "Hectapod"
+msgstr "Lazy Larry"
 
 msgid "helipi_description"
 msgstr ""
@@ -6295,7 +6295,7 @@ msgstr ""
 " ability to easily aim."
 
 msgid "helipi"
-msgstr "Helipi"
+msgstr "Dojo Derek"
 
 msgid "heronquak_description"
 msgstr ""
@@ -6303,7 +6303,7 @@ msgstr ""
 "when it is removed from HERONQUAK's body."
 
 msgid "heronquak"
-msgstr "Heronquak"
+msgstr "Shark Tank Sam"
 
 msgid "hissiorite_description"
 msgstr ""
@@ -6312,19 +6312,19 @@ msgstr ""
 "balloon. Because of this it can travel quickly, even over water."
 
 msgid "hissiorite"
-msgstr "Hissiorite"
+msgstr "Nosebeer Neil"
 
 msgid "hoarse_description"
 msgstr "It appears to be a farm animal, but it was mistreated by its owner."
 
 msgid "hoarse"
-msgstr "Hoarse"
+msgstr "Kneeride Kev"
 
 msgid "hoarseshoo_description"
 msgstr "It is what is left when an EQUILL's shadow eats its body."
 
 msgid "hoarseshoo"
-msgstr "Hoarseshoo"
+msgstr "Pullguard Pat"
 
 msgid "hoodoll_description"
 msgstr ""
@@ -6332,7 +6332,7 @@ msgstr ""
 "the difference after."
 
 msgid "hoodoll"
-msgstr "Hoodoll"
+msgstr "Dirty Dan"
 
 msgid "hotline_description"
 msgstr ""
@@ -6340,14 +6340,14 @@ msgstr ""
 "tinny cry that cannot be escaped however far their prey runs."
 
 msgid "hotline"
-msgstr "Hotline"
+msgstr "Tap Daddy"
 
 msgid "houndice_description"
 msgstr ""
 "HOUNDICE loves sledding, but it can also sniff out lost hikers under snow."
 
 msgid "houndice"
-msgstr "Houndice"
+msgstr "Gym Thot"
 
 msgid "howl_description"
 msgstr ""
@@ -6355,13 +6355,13 @@ msgstr ""
 " but its words come out as hoots and howls."
 
 msgid "howl"
-msgstr "Howl"
+msgstr "Acai Addict"
 
 msgid "hydrone_description"
 msgstr "It utilizes an experimental technology that creates power from water."
 
 msgid "hydrone"
-msgstr "Hydrone"
+msgstr "Blue Belt Ex"
 
 msgid "ignibus_description"
 msgstr ""
@@ -6369,7 +6369,7 @@ msgstr ""
 "venting steam. It could be mistaken for a rock."
 
 msgid "ignibus"
-msgstr "Ignibus"
+msgstr "Guard Goblin"
 
 msgid "imbrickcile_description"
 msgstr ""
@@ -6377,7 +6377,7 @@ msgstr ""
 " their strength."
 
 msgid "imbrickcile"
-msgstr "Imbrickcile"
+msgstr "Leglock Luke"
 
 msgid "incandesfin_description"
 msgstr ""
@@ -6385,7 +6385,7 @@ msgstr ""
 " exact same."
 
 msgid "incandesfin"
-msgstr "Incandesfin"
+msgstr "Wristlock Will"
 
 msgid "jelillow_description"
 msgstr ""
@@ -6394,7 +6394,7 @@ msgstr ""
 " monster will be used to help them."
 
 msgid "jelillow"
-msgstr "Jelillow"
+msgstr "Mat Enforcer"
 
 msgid "jeluna_description"
 msgstr ""
@@ -6402,7 +6402,7 @@ msgstr ""
 "jellyfish to change their forms over the course of a month."
 
 msgid "jeluna"
-msgstr "Jeluna"
+msgstr "Purple Perve"
 
 msgid "jemuar_description"
 msgstr ""
@@ -6410,7 +6410,7 @@ msgstr ""
 "extensive ROCKITTEN breeding facilities over diamond veins."
 
 msgid "jemuar"
-msgstr "Jemuar"
+msgstr "Coach Creepy"
 
 msgid "joulraton_description"
 msgstr ""
@@ -6418,27 +6418,27 @@ msgstr ""
 "it uses for food or nesting materials."
 
 msgid "joulraton"
-msgstr "Joulraton"
+msgstr "NoGi Niall"
 
 msgid "k9_description"
 msgstr "It is a helpful companion that can pull a tonne of weight."
 
 msgid "k9"
-msgstr "K9"
+msgstr "Trial Guy"
 
 msgid "katacoon_description"
 msgstr ""
 "It stays in a meditative pose for its chrysalis, moving only to jab enemies."
 
 msgid "katacoon"
-msgstr "Katacoon"
+msgstr "Whitebelt Will"
 
 msgid "katapill_description"
 msgstr ""
 "It is born fighting. It has to punch out of its eggshell or be trapped."
 
 msgid "katapill"
-msgstr "Katapill"
+msgstr "Brownbelt Ben"
 
 msgid "kernel_description"
 msgstr ""
@@ -6448,7 +6448,7 @@ msgstr ""
 "creators."
 
 msgid "kernel"
-msgstr "Kernel"
+msgstr "Blackbelt Bob"
 
 msgid "knightsand_description"
 msgstr ""
@@ -6456,13 +6456,13 @@ msgstr ""
 "at building them."
 
 msgid "knightsand"
-msgstr "Knightsand"
+msgstr "Darce Dave"
 
 msgid "knindling_description"
 msgstr "Any spark from a stone KNINDLING happily tenders into a fire."
 
 msgid "knindling"
-msgstr "Knindling"
+msgstr "Guillo Gary"
 
 msgid "komodraw_description"
 msgstr ""
@@ -6470,7 +6470,7 @@ msgstr ""
 " ranged attacks."
 
 msgid "komodraw"
-msgstr "Komodraw"
+msgstr "Armbar Andy"
 
 msgid "komoduel_description"
 msgstr ""
@@ -6478,7 +6478,7 @@ msgstr ""
 "approaching KOMODUEL."
 
 msgid "komoduel"
-msgstr "Komoduel"
+msgstr "Triangle Tom"
 
 msgid "konuit_description"
 msgstr ""
@@ -6486,7 +6486,7 @@ msgstr ""
 "unsuspecting heads below."
 
 msgid "konuit"
-msgstr "Konuit"
+msgstr "Berimbolo Ben"
 
 msgid "kroki_description"
 msgstr ""
@@ -6494,7 +6494,7 @@ msgstr ""
 "snap at prey."
 
 msgid "kroki"
-msgstr "Kroki"
+msgstr "Kesa Ken"
 
 msgid "krokivip_description"
 msgstr ""
@@ -6502,14 +6502,14 @@ msgstr ""
 "closer to evolution, it seeks out larger bodies of water."
 
 msgid "krokivip"
-msgstr "Krokivip"
+msgstr "Sambo Sam"
 
 msgid "lambert_description"
 msgstr ""
 "It is placed in its nut by its parent, who then sends it into the world."
 
 msgid "lambert"
-msgstr "Lambert"
+msgstr "Panic Pete"
 
 msgid "lapinou_description"
 msgstr ""
@@ -6517,13 +6517,13 @@ msgstr ""
 " and lost their violent natures."
 
 msgid "lapinou"
-msgstr "Lapinou"
+msgstr "Sweat Goblin"
 
 msgid "legko_description"
 msgstr "Long thought to be legless, its leaves are actually vestigial limbs."
 
 msgid "legko"
-msgstr "Legko"
+msgstr "Tape Finger"
 
 msgid "legoplaste_description"
 msgstr ""
@@ -6531,13 +6531,13 @@ msgstr ""
 "sniff or touch nearby prey."
 
 msgid "legoplaste"
-msgstr "Legoplaste"
+msgstr "Cauli Carl"
 
 msgid "lendos_description"
 msgstr "When two UNEYE become tangled, they form a single unified LENDOS."
 
 msgid "lendos"
-msgstr "Lendos"
+msgstr "Shit Gi Sean"
 
 msgid "lesmagu_description"
 msgstr ""
@@ -6545,13 +6545,13 @@ msgstr ""
 " until it develops its shell."
 
 msgid "lesmagu"
-msgstr "Lesmagu"
+msgstr "Toe Hold Ted"
 
 msgid "lettice_description"
 msgstr "Cold weather concentrates the power and vitality of LETTICE."
 
 msgid "lettice"
-msgstr "Lettice"
+msgstr "Mouthguard Mo"
 
 msgid "leviadile_description"
 msgstr ""
@@ -6559,7 +6559,7 @@ msgstr ""
 "predator of the deep sea."
 
 msgid "leviadile"
-msgstr "Leviadile"
+msgstr "Open Mat Oz"
 
 msgid "lightmare_description"
 msgstr ""
@@ -6567,7 +6567,7 @@ msgstr ""
 "light right into its large, gaping mouth."
 
 msgid "lightmare"
-msgstr "Lightmare"
+msgstr "Comp Class Cam"
 
 msgid "loliferno_description"
 msgstr ""
@@ -6576,7 +6576,7 @@ msgstr ""
 "flames it creates."
 
 msgid "loliferno"
-msgstr "Loliferno"
+msgstr "Stall Steve"
 
 msgid "lucifice_description"
 msgstr ""
@@ -6584,7 +6584,7 @@ msgstr ""
 "spirits of the night to join its hunt?"
 
 msgid "lucifice"
-msgstr "Lucifice"
+msgstr "Grippy Greg"
 
 msgid "lunight_description"
 msgstr ""
@@ -6592,7 +6592,7 @@ msgstr ""
 "phases."
 
 msgid "lunight"
-msgstr "Lunight"
+msgstr "Underhook Ugo"
 
 msgid "magmaturtle_description"
 msgstr ""
@@ -6606,7 +6606,7 @@ msgid "manosting_description"
 msgstr "It floats across the tops of cities, contemplating sharks."
 
 msgid "manosting"
-msgstr "Manosting"
+msgstr "Overhook Owen"
 
 msgid "marvantis_description"
 msgstr ""
@@ -6614,7 +6614,7 @@ msgstr ""
 "ornaments."
 
 msgid "marvantis"
-msgstr "Marvantis"
+msgstr "Backtake Baz"
 
 msgid "marvillar_description"
 msgstr ""
@@ -6622,14 +6622,14 @@ msgstr ""
 "MYRMISON to feed it, eating skeptics."
 
 msgid "marvillar"
-msgstr "Marvillar"
+msgstr "Snapdown Sid"
 
 msgid "masknake_description"
 msgstr ""
 "When frightened or aggressive, it flashes a beautiful pattern with its tail."
 
 msgid "masknake"
-msgstr "Masknake"
+msgstr "Ankle Pick Al"
 
 msgid "mauai_description"
 msgstr ""
@@ -6637,7 +6637,7 @@ msgstr ""
 "weapon."
 
 msgid "mauai"
-msgstr "Mauai"
+msgstr "Blast Dan"
 
 msgid "medipup_description"
 msgstr ""
@@ -6646,7 +6646,7 @@ msgstr ""
 "crushed under an overly enthusiastic pack."
 
 msgid "medipup"
-msgstr "Medipup"
+msgstr "Collar Carl"
 
 msgid "medushock_description"
 msgstr ""
@@ -6654,7 +6654,7 @@ msgstr ""
 "are used to stun its prey. Swim safely."
 
 msgid "medushock"
-msgstr "Medushock"
+msgstr "Lapel Larry"
 
 msgid "megafruitera_description"
 msgstr ""
@@ -6662,13 +6662,13 @@ msgstr ""
 "nest first if it needs to for extra fruit."
 
 msgid "megafruitera"
-msgstr "Megafruitera"
+msgstr "Knee Slice Kai"
 
 msgid "memnomnom_description"
 msgstr "It is said that each one's mask is the face of a different dead king."
 
 msgid "memnomnom"
-msgstr "Memnomnom"
+msgstr "Pressure Pat"
 
 msgid "merlicun_description"
 msgstr ""
@@ -6677,7 +6677,7 @@ msgstr ""
 "fruits and leaves."
 
 msgid "merlicun"
-msgstr "Merlicun"
+msgstr "Turtle Terry"
 
 msgid "metesaur_description"
 msgstr ""
@@ -6686,7 +6686,7 @@ msgstr ""
 "huge and dangerous forest fires."
 
 msgid "metesaur"
-msgstr "Metesaur"
+msgstr "Shrimp Sean"
 
 msgid "metoxic_description"
 msgstr ""
@@ -6694,13 +6694,13 @@ msgstr ""
 "fumes everywhere."
 
 msgid "metoxic"
-msgstr "Metoxic"
+msgstr "Bridge Barry"
 
 msgid "miaownolith_description"
 msgstr "It can speak the human tongue, but only to say cryptic riddles."
 
 msgid "miaownolith"
-msgstr "Miaownolith"
+msgstr "Mounty Mike"
 
 msgid "mingdyn_description"
 msgstr ""
@@ -6708,13 +6708,13 @@ msgstr ""
 "renewal and upheaval across the land."
 
 msgid "mingdyn"
-msgstr "Mingdyn"
+msgstr "SideCtrl Sid"
 
 msgid "moloch_description"
 msgstr "It can stiffen or soften its skin to respond to friends and foes."
 
 msgid "moloch"
-msgstr "Moloch"
+msgstr "Bonk Barry"
 
 msgid "mrmoswitch_description"
 msgstr ""
@@ -6722,7 +6722,7 @@ msgstr ""
 "pranks."
 
 msgid "mrmoswitch"
-msgstr "mRmOswitch"
+msgstr "Shady Shane"
 
 msgid "myrmison_description"
 msgstr ""
@@ -6730,7 +6730,7 @@ msgstr ""
 "This is a very dangerous time for them."
 
 msgid "myrmison"
-msgstr "Myrmison"
+msgstr "Creepy Craig"
 
 msgid "mystikapi_description"
 msgstr ""
@@ -6738,7 +6738,7 @@ msgstr ""
 "to heighten its senses."
 
 msgid "mystikapi"
-msgstr "Mystikapi"
+msgstr "Moody Molly"
 
 msgid "narcileaf_description"
 msgstr ""
@@ -6746,14 +6746,14 @@ msgstr ""
 "credit for its work."
 
 msgid "narcileaf"
-msgstr "Narcileaf"
+msgstr "Rough Rachel"
 
 msgid "nebufin_description"
 msgstr ""
 "NEBUFIN's angelic appearance is deceptive, as the monster is predatory."
 
 msgid "nebufin"
-msgstr "Nebufin"
+msgstr "Nasty Nancy"
 
 msgid "ned_description"
 msgstr ""
@@ -6761,13 +6761,13 @@ msgstr ""
 "arguments."
 
 msgid "ned"
-msgstr "Ned"
+msgstr "Porrada Pam"
 
 msgid "neutrito_description"
 msgstr "NEUTRITO feels nothing. The perfect machine?"
 
 msgid "neutrito"
-msgstr "Neutrito"
+msgstr "Kimura Kim"
 
 msgid "nimbulex_description"
 msgstr ""
@@ -6775,13 +6775,13 @@ msgstr ""
 "inner core."
 
 msgid "nimbulex"
-msgstr "Nimbulex"
+msgstr "Heelhook Holly"
 
 msgid "ninjasmine_description"
 msgstr "NINJASMINE poisons his opponents quickly using his two poison swords."
 
 msgid "ninjasmine"
-msgstr "Ninjasmine"
+msgstr "Darce Debbie"
 
 msgid "noctalo_description"
 msgstr ""
@@ -6789,7 +6789,7 @@ msgstr ""
 "sewers."
 
 msgid "noctalo"
-msgstr "Noctalo"
+msgstr "Guillo Gina"
 
 msgid "noctula_description"
 msgstr ""
@@ -6797,13 +6797,13 @@ msgstr ""
 "do not compete."
 
 msgid "noctula"
-msgstr "Noctula"
+msgstr "Acai Amy"
 
 msgid "nostray_description"
 msgstr "It can smell anything in the ocean, no matter how far away."
 
 msgid "nostray"
-msgstr "Nostray"
+msgstr "NoGi Nora"
 
 msgid "novaquarius_description"
 msgstr ""
@@ -6811,21 +6811,21 @@ msgstr ""
 "developed immunity and will nibble on them."
 
 msgid "novaquarius"
-msgstr "Novaquarius"
+msgstr "Judo Jenny"
 
 msgid "nudiflot_female_description"
 msgstr ""
 "It eats and stores the poison of the sea creatures that it feeds upon."
 
 msgid "nudiflot_female"
-msgstr "Nudiflot"
+msgstr "Spazzy Sally"
 
 msgid "nudiflot_male_description"
 msgstr ""
 "Its feathery antennas snap off if it is attacked, confusing the predator."
 
 msgid "nudiflot_male"
-msgstr "Nudiflot"
+msgstr "Tappy Tammy"
 
 msgid "nudikill_description"
 msgstr ""
@@ -6833,19 +6833,19 @@ msgstr ""
 "bishop's hat."
 
 msgid "nudikill"
-msgstr "Nudikill"
+msgstr "Guard Gina"
 
 msgid "nudimind_description"
 msgstr "It dreams of oceans under other skies."
 
 msgid "nudimind"
-msgstr "Nudimind"
+msgstr "Mount Mandy"
 
 msgid "nuenflu_description"
 msgstr "It snuggles in homes in the winter months, spreading diseases."
 
 msgid "nuenflu"
-msgstr "Nuenflu"
+msgstr "Triangle Tina"
 
 msgid "nut_description"
 msgstr ""
@@ -6853,7 +6853,7 @@ msgstr ""
 "power and hold the steel plating together."
 
 msgid "nut"
-msgstr "Nut"
+msgstr "Bonnie BlueBelt"
 
 msgid "octabode_description"
 msgstr ""
@@ -6861,7 +6861,7 @@ msgstr ""
 "lives of those who used the relics before them."
 
 msgid "octabode"
-msgstr "Octabode"
+msgstr "Vegan Niall"
 
 msgid "ouroboutlet_description"
 msgstr ""
@@ -6869,7 +6869,7 @@ msgstr ""
 "griefed-lightning."
 
 msgid "ouroboutlet"
-msgstr "Ouroboutlet"
+msgstr "Slutty Sarah"
 
 msgid "pairagrim_description"
 msgstr ""
@@ -6877,7 +6877,7 @@ msgstr ""
 "focuses on flying at great speed."
 
 msgid "pairagrim"
-msgstr "Pairagrim"
+msgstr "Only Dans"
 
 msgid "pairagrin_description"
 msgstr ""
@@ -6885,7 +6885,7 @@ msgstr ""
 "to fly until the two heads learn to work together."
 
 msgid "pairagrin"
-msgstr "Pairagrin"
+msgstr "Mat Bastard"
 
 msgid "pantherafira_description"
 msgstr ""
@@ -6893,7 +6893,7 @@ msgstr ""
 " that fire burns, their strength is shared."
 
 msgid "pantherafira"
-msgstr "Pantherafira"
+msgstr "Gi Goblin"
 
 msgid "parappi_description"
 msgstr ""
@@ -6901,7 +6901,7 @@ msgstr ""
 "turning them to amber."
 
 msgid "parappi"
-msgstr "Parappi"
+msgstr "Heelhook Harry"
 
 msgid "pawsand_description"
 msgstr ""
@@ -6909,7 +6909,7 @@ msgstr ""
 "ROOKSAND, some of which are actually ROOKSAND itself."
 
 msgid "pawsand"
-msgstr "Pawsand"
+msgstr "Dr Kimura"
 
 msgid "pearamanca_description"
 msgstr ""
@@ -6917,7 +6917,7 @@ msgstr ""
 "which makes it the most terrifying monster of all."
 
 msgid "pearamanca"
-msgstr "Pearamanca"
+msgstr "Coach Atlas"
 
 msgid "pharavion_description"
 msgstr ""
@@ -6925,7 +6925,7 @@ msgstr ""
 "adult form, which gracefully floats despite its huge size."
 
 msgid "pharavion"
-msgstr "Pharavion"
+msgstr "Spazzy Steve"
 
 msgid "pharfan_description"
 msgstr ""
@@ -6933,26 +6933,26 @@ msgstr ""
 "watered."
 
 msgid "pharfan"
-msgstr "Pharfan"
+msgstr "Acai Slut"
 
 msgid "picc_description"
 msgstr "It accompanies divers, providing much needed oxygen."
 
 msgid "picc"
-msgstr "PiCC"
+msgstr "Craig NoGi"
 
 msgid "pickoon_description"
 msgstr ""
 "It enjoys picking things up and stuffing them discreetly into its scarf."
 
 msgid "pickoon"
-msgstr "Pickoon"
+msgstr "Wristlock Wes"
 
 msgid "pigabyte_description"
 msgstr "Scientists found that the best computers have organic implants."
 
 msgid "pigabyte"
-msgstr "Pigabyte"
+msgstr "Stinky Gi"
 
 msgid "pilthropus_description"
 msgstr ""
@@ -6960,20 +6960,20 @@ msgstr ""
 "Tuxemon able to create its own tools."
 
 msgid "pilthropus"
-msgstr "Pilthropus"
+msgstr "Nasty Nate"
 
 msgid "pipis_description"
 msgstr "Its cries are considered a bad omen, but it is a gentle creature."
 
 msgid "pipis"
-msgstr "Pipis"
+msgstr "Oilcheck Oz"
 
 msgid "poinchin_description"
 msgstr ""
 "POINCHIN make nests in the coral and can be tempted out by bread and milk."
 
 msgid "poinchin"
-msgstr "Poinchin"
+msgstr "Leglock Larry"
 
 msgid "polyrock_description"
 msgstr ""
@@ -6981,13 +6981,13 @@ msgstr ""
 "martial arts masters."
 
 msgid "polyrock"
-msgstr "Polyrock"
+msgstr "Porrada Paul"
 
 msgid "possessun_description"
 msgstr "It is a ghost that inhabits a dead CAIRFREY."
 
 msgid "possessun"
-msgstr "Possessun"
+msgstr "Sandbag Sam"
 
 msgid "potturmeist_description"
 msgstr ""
@@ -6996,7 +6996,7 @@ msgstr ""
 "important ceremonies."
 
 msgid "potturmeist"
-msgstr "Potturmeist"
+msgstr "Sweaty Kev"
 
 msgid "potturney_description"
 msgstr ""
@@ -7006,25 +7006,25 @@ msgstr ""
 "future."
 
 msgid "potturney"
-msgstr "Potturney"
+msgstr "Choke Chad"
 
 msgid "primordia_description"
 msgstr "It is rumored to be the ancestor of all tuxemon."
 
 msgid "primordia"
-msgstr "Primordia"
+msgstr "Tapout Tim"
 
 msgid "propellercat_description"
 msgstr "Is it a new species, or just the pet of an inventor?"
 
 msgid "propellercat"
-msgstr "Propellercat"
+msgstr "Guard Slag"
 
 msgid "prophetoise_description"
 msgstr "Its heavenly fire is something foes rarely see coming."
 
 msgid "prophetoise"
-msgstr "Prophetoise"
+msgstr "Kimura Kev"
 
 msgid "puparmor_description"
 msgstr ""
@@ -7032,14 +7032,14 @@ msgstr ""
 "them. They were once loaded into cannons and catapults."
 
 msgid "puparmor"
-msgstr "Puparmor"
+msgstr "Mount Mick"
 
 msgid "pyraminx_description"
 msgstr ""
 "It has a tomb hidden somewhere in the land. If it finds it, it can sleep."
 
 msgid "pyraminx"
-msgstr "Pyraminx"
+msgstr "Halfguard Hal"
 
 msgid "pythock_description"
 msgstr ""
@@ -7048,7 +7048,7 @@ msgstr ""
 "use their shadow puppets to entertain small children at puppet shows."
 
 msgid "pythock"
-msgstr "Pythock"
+msgstr "Judo Jake"
 
 msgid "pythonova_description"
 msgstr ""
@@ -7057,7 +7057,7 @@ msgstr ""
 "coil around and smother its target."
 
 msgid "pythonova"
-msgstr "Pythonova"
+msgstr "Wrestle Dad"
 
 msgid "pythwire_description"
 msgstr ""
@@ -7065,7 +7065,7 @@ msgstr ""
 "outlet."
 
 msgid "pythwire"
-msgstr "Pythwire"
+msgstr "Neck Crank Ned"
 
 msgid "qetzlrokilus_description"
 msgstr ""
@@ -7074,7 +7074,7 @@ msgstr ""
 "to spoil its purity."
 
 msgid "qetzlrokilus"
-msgstr "Qetzlrokilus"
+msgstr "Buggy Ben"
 
 msgid "rabbitosaur_description"
 msgstr ""
@@ -7082,7 +7082,7 @@ msgstr ""
 "burrows."
 
 msgid "rabbitosaur"
-msgstr "Rabbitosaur"
+msgstr "Mat Rat"
 
 msgid "raccscal_description"
 msgstr ""
@@ -7090,25 +7090,25 @@ msgstr ""
 "detach and throw at enemies."
 
 msgid "raccscal"
-msgstr "Raccscal"
+msgstr "Bluebelt Ben"
 
 msgid "raptoucan_description"
 msgstr "It is formidable and aggressive, but only eats fruit."
 
 msgid "raptoucan"
-msgstr "Raptoucan"
+msgstr "Purple Paul"
 
 msgid "regalance_description"
 msgstr "It can summon a halberd whenever it needs."
 
 msgid "regalance"
-msgstr "Regalance"
+msgstr "Brownbelt Bert"
 
 msgid "rhincus_description"
 msgstr "It has some properties of a reptile and some of a bird."
 
 msgid "rhincus"
-msgstr "Rhincus"
+msgstr "Blackbelt Baz"
 
 msgid "rhinocarpe_description"
 msgstr ""
@@ -7116,7 +7116,7 @@ msgstr ""
 "their coral fortresses."
 
 msgid "rhinocarpe"
-msgstr "Rhinocarpe"
+msgstr "Fake Coach"
 
 msgid "rinocereed_description"
 msgstr ""
@@ -7124,19 +7124,19 @@ msgstr ""
 " itself to plants."
 
 msgid "rinocereed"
-msgstr "Rinocereed"
+msgstr "Trial Tony"
 
 msgid "rockat_description"
 msgstr "Despite its considerable weight, its footfalls are silent."
 
 msgid "rockat"
-msgstr "Rockat"
+msgstr "Creonte Carl"
 
 msgid "rockitten_description"
 msgstr "It uses its tiny rock ears for snuggling."
 
 msgid "rockitten"
-msgstr "Rockitten"
+msgstr "Manky Mike"
 
 msgid "rooksand_description"
 msgstr ""
@@ -7144,13 +7144,13 @@ msgstr ""
 "sandcastle, and crushes all others."
 
 msgid "rooksand"
-msgstr "Rooksand"
+msgstr "Gassy Gaz"
 
 msgid "rosarin_description"
 msgstr "ROSARIN's love is incredible, he's only asking some affection."
 
 msgid "rosarin"
-msgstr "Rosarin"
+msgstr "Toehold Tom"
 
 msgid "ruffalo_description"
 msgstr ""
@@ -7158,7 +7158,7 @@ msgstr ""
 "of knocking over trees and small buildings."
 
 msgid "ruffalo"
-msgstr "Ruffalo"
+msgstr "RNC Ray"
 
 msgid "runesquito_description"
 msgstr ""
@@ -7166,7 +7166,7 @@ msgstr ""
 " alongside."
 
 msgid "runesquito"
-msgstr "Runesquito"
+msgstr "Smash Pass Sam"
 
 msgid "ruption_description"
 msgstr ""
@@ -7174,28 +7174,28 @@ msgstr ""
 "essentially replacing it in the process."
 
 msgid "ruption"
-msgstr "Ruption"
+msgstr "Juice Josh"
 
 msgid "sadito_description"
 msgstr ""
 "When a person is feeling too sad, SADITO will carry that burden for them."
 
 msgid "sadito"
-msgstr "Sadito"
+msgstr "Cringe Craig"
 
 msgid "sampsack_description"
 msgstr ""
 "A scientist wanted to separate his personalities, but he split his body."
 
 msgid "sampsack"
-msgstr "Sampsack"
+msgstr "Lazy Larry"
 
 msgid "sampsage_description"
 msgstr ""
 "A scientist took a drug that made him clever by day and violent by night."
 
 msgid "sampsage"
-msgstr "Sampsage"
+msgstr "Dojo Derek"
 
 msgid "sapragon_description"
 msgstr ""
@@ -7203,26 +7203,26 @@ msgstr ""
 "diminished and are rare in these days."
 
 msgid "sapragon"
-msgstr "Sapragon"
+msgstr "Shark Tank Sam"
 
 msgid "sapsnap_description"
 msgstr "Its terrific anger is off putting, but it passes quickly."
 
 msgid "sapsnap"
-msgstr "Sapsnap"
+msgstr "Nosebeer Neil"
 
 msgid "saurchin_description"
 msgstr ""
 "By night, SAURCHIN emerge from the coral reefs to hunt bigger prey on land."
 
 msgid "saurchin"
-msgstr "Saurchin"
+msgstr "Kneeride Kev"
 
 msgid "scarlant_description"
 msgstr "Its worst enemy is MARVILLAR, which pretends to be its kin."
 
 msgid "scarlant"
-msgstr "Scarlant"
+msgstr "Pullguard Pat"
 
 msgid "sclairus_description"
 msgstr ""
@@ -7230,7 +7230,7 @@ msgstr ""
 "scarecrow becomes a dark and living creature."
 
 msgid "sclairus"
-msgstr "Sclairus"
+msgstr "Dirty Dan"
 
 msgid "seirein_description"
 msgstr ""
@@ -7238,7 +7238,7 @@ msgstr ""
 "- but it is painfully shy and flits away when they approach."
 
 msgid "seirein"
-msgstr "Seirein"
+msgstr "Tap Daddy"
 
 msgid "selket_description"
 msgstr ""
@@ -7246,7 +7246,7 @@ msgstr ""
 "vibrations of their footsteps."
 
 msgid "selket"
-msgstr "Selket"
+msgstr "Gym Thot"
 
 msgid "selmatek_description"
 msgstr ""
@@ -7254,7 +7254,7 @@ msgstr ""
 "hunting companions and - now - defenders against grave robbers."
 
 msgid "selmatek"
-msgstr "Selmatek"
+msgstr "Acai Addict"
 
 msgid "seraphice_description"
 msgstr ""
@@ -7263,13 +7263,13 @@ msgstr ""
 " most."
 
 msgid "seraphice"
-msgstr "Seraphice"
+msgstr "Blue Belt Ex"
 
 msgid "shammer_description"
 msgstr "In ancient times it hunted RHINCUS beneath ashen skies."
 
 msgid "shammer"
-msgstr "Shammer"
+msgstr "Guard Goblin"
 
 msgid "sharpfin_description"
 msgstr ""
@@ -7277,7 +7277,7 @@ msgstr ""
 "water to drag animals on the shore back into the deep."
 
 msgid "sharpfin"
-msgstr "Sharpfin"
+msgstr "Leglock Luke"
 
 msgid "shelagu_description"
 msgstr ""
@@ -7285,7 +7285,7 @@ msgstr ""
 "mouth."
 
 msgid "shelagu"
-msgstr "Shelagu"
+msgstr "Wristlock Will"
 
 msgid "sheye_description"
 msgstr ""
@@ -7293,7 +7293,7 @@ msgstr ""
 "sinister appearance and solemn demeanor."
 
 msgid "sheye"
-msgstr "Sheye"
+msgstr "Mat Enforcer"
 
 msgid "shimmerain_description"
 msgstr ""
@@ -7301,7 +7301,7 @@ msgstr ""
 "spawning."
 
 msgid "shimmerain"
-msgstr "Shimmerain"
+msgstr "Purple Perve"
 
 msgid "shnark_description"
 msgstr ""
@@ -7309,7 +7309,7 @@ msgstr ""
 "trusting prey."
 
 msgid "shnark"
-msgstr "Shnark"
+msgstr "Coach Creepy"
 
 msgid "shrab_description"
 msgstr ""
@@ -7317,7 +7317,7 @@ msgstr ""
 "becomes a SHRAB, free in body to wander the world."
 
 msgid "shrab"
-msgstr "Shrab"
+msgstr "NoGi Niall"
 
 msgid "shybulb_description"
 msgstr ""
@@ -7325,7 +7325,7 @@ msgstr ""
 "plants."
 
 msgid "shybulb"
-msgstr "Shybulb"
+msgstr "Whitebelt Will"
 
 msgid "shull_description"
 msgstr ""
@@ -7334,7 +7334,7 @@ msgstr ""
 "sent into battle."
 
 msgid "shull"
-msgstr "Shull"
+msgstr "Trial Guy"
 
 msgid "skwib_description"
 msgstr ""
@@ -7342,7 +7342,7 @@ msgstr ""
 "homes. It has to fear for its life before it will finally make a choice."
 
 msgid "skwib"
-msgstr "Skwib"
+msgstr "Brownbelt Ben"
 
 msgid "slichen_description"
 msgstr ""
@@ -7350,7 +7350,7 @@ msgstr ""
 "stone and rock."
 
 msgid "slichen"
-msgstr "Slichen"
+msgstr "Blackbelt Bob"
 
 msgid "sludgehog_description"
 msgstr ""
@@ -7358,7 +7358,7 @@ msgstr ""
 "soften them at will."
 
 msgid "sludgehog"
-msgstr "Sludgehog"
+msgstr "Darce Dave"
 
 msgid "snaki_description"
 msgstr ""
@@ -7366,14 +7366,14 @@ msgstr ""
 "lizards and crocodiles."
 
 msgid "snaki"
-msgstr "Snaki"
+msgstr "Guillo Gary"
 
 msgid "snarlon_description"
 msgstr ""
 "It does not fly, but its feet never touch the ground. The king of paradox."
 
 msgid "snarlon"
-msgstr "Snarlon"
+msgstr "Armbar Andy"
 
 msgid "snock_description"
 msgstr ""
@@ -7381,20 +7381,20 @@ msgstr ""
 "startled, it will flail and lie very still on the ground to avoid attention."
 
 msgid "snock"
-msgstr "Snock"
+msgstr "Triangle Tom"
 
 msgid "snokari_description"
 msgstr ""
 "The two heads of SNOKARI each hold great wisdom, but they never agree."
 
 msgid "snokari"
-msgstr "Snokari"
+msgstr "Berimbolo Ben"
 
 msgid "snowrilla_description"
 msgstr "It delights in playing tag with skiers on desolate slopes."
 
 msgid "snowrilla"
-msgstr "Snowrilla"
+msgstr "Kesa Ken"
 
 msgid "sockeserp_description"
 msgstr ""
@@ -7402,7 +7402,7 @@ msgstr ""
 "tangled up."
 
 msgid "sockeserp"
-msgstr "Sockeserp"
+msgstr "Sambo Sam"
 
 msgid "solight_description"
 msgstr ""
@@ -7410,7 +7410,7 @@ msgstr ""
 "order to create a new planet."
 
 msgid "solight"
-msgstr "Solight"
+msgstr "Judo Judas"
 
 msgid "spectera_description"
 msgstr ""
@@ -7418,7 +7418,7 @@ msgstr ""
 "female look after young."
 
 msgid "spectera"
-msgstr "Spectera"
+msgstr "Panic Pete"
 
 msgid "sphake_description"
 msgstr ""
@@ -7426,7 +7426,7 @@ msgstr ""
 "vibrate books and cups off your shelves; it eats whatever falls down."
 
 msgid "sphake"
-msgstr "Sphake"
+msgstr "Sweat Goblin"
 
 msgid "spighter_description"
 msgstr ""
@@ -7434,7 +7434,7 @@ msgstr ""
 "snuck up on itself."
 
 msgid "spighter"
-msgstr "Spighter"
+msgstr "Tape Finger"
 
 msgid "spirain_description"
 msgstr ""
@@ -7442,7 +7442,7 @@ msgstr ""
 "SPIRAIN."
 
 msgid "spirain"
-msgstr "Spirain"
+msgstr "Cauli Carl"
 
 msgid "spoilurm_description"
 msgstr ""
@@ -7450,20 +7450,20 @@ msgstr ""
 "unsuspecting."
 
 msgid "spoilurm"
-msgstr "Spoilurm"
+msgstr "Shit Gi Sean"
 
 msgid "sprightly_description"
 msgstr ""
 "A timid plant, it pops its head aboveground to drink water and sunshine. "
 
 msgid "sprightly"
-msgstr "Sprightly"
+msgstr "Toe Hold Ted"
 
 msgid "sprorm_description"
 msgstr "SPRORM is fed on by CARDINALE, which can melt it down."
 
 msgid "sprorm"
-msgstr "Sprorm"
+msgstr "Mouthguard Mo"
 
 msgid "spycozeus_description"
 msgstr ""
@@ -7471,7 +7471,7 @@ msgstr ""
 "SPYCOZEUS, which thinks like the trees."
 
 msgid "spycozeus"
-msgstr "Spycozeus"
+msgstr "Open Mat Oz"
 
 msgid "squabbit_description"
 msgstr ""
@@ -7479,13 +7479,13 @@ msgstr ""
 "thing."
 
 msgid "squabbit"
-msgstr "Squabbit"
+msgstr "Comp Class Cam"
 
 msgid "squink_description"
 msgstr "It is named for the noise it makes when it is all out of ink."
 
 msgid "squink"
-msgstr "Squink"
+msgstr "Stall Steve"
 
 msgid "statursus_description"
 msgstr ""
@@ -7493,7 +7493,7 @@ msgstr ""
 "mere sight of it sends others into a trance."
 
 msgid "statursus"
-msgstr "Statursus"
+msgstr "Grippy Greg"
 
 msgid "stegofor_description"
 msgstr ""
@@ -7501,7 +7501,7 @@ msgstr ""
 "paths, stripping all vegetation from plants growing along the way."
 
 msgid "stegofor"
-msgstr "Stegofor"
+msgstr "Underhook Ugo"
 
 msgid "stomic_description"
 msgstr ""
@@ -7509,7 +7509,7 @@ msgstr ""
 "pose a threat to it."
 
 msgid "stomic"
-msgstr "Stomic"
+msgstr "Overhook Owen"
 
 msgid "stonifly_description"
 msgstr ""
@@ -7517,20 +7517,20 @@ msgstr ""
 "translucent wings allow for swift flight."
 
 msgid "stonifly"
-msgstr "Stonifly"
+msgstr "Backtake Baz"
 
 msgid "strella_description"
 msgstr "Its tails are lures to convince bugs to bite them and be trapped."
 
 msgid "strella"
-msgstr "Strella"
+msgstr "Snapdown Sid"
 
 msgid "sumchon_description"
 msgstr ""
 "It uses its weight to trip much larger enemies. It is as dense as a star."
 
 msgid "sumchon"
-msgstr "Sumchon"
+msgstr "Ankle Pick Al"
 
 msgid "sumobug"
 msgstr "Sumobug"
@@ -7543,7 +7543,7 @@ msgid "tadcool_description"
 msgstr "It croaks to warn people when they are walking near thin ice."
 
 msgid "tadcool"
-msgstr "Tadcool"
+msgstr "Blast Dan"
 
 msgid "tarpeur_description"
 msgstr ""
@@ -7551,7 +7551,7 @@ msgstr ""
 "growing or grow without resting."
 
 msgid "tarpeur"
-msgstr "Tarpeur"
+msgstr "Collar Carl"
 
 msgid "taupypus_description"
 msgstr ""
@@ -7559,14 +7559,14 @@ msgstr ""
 "eyes will never sting when they dive into the water."
 
 msgid "taupypus"
-msgstr "Taupypus"
+msgstr "Lapel Larry"
 
 msgid "teddisun_description"
 msgstr ""
 "TEDDISUN worships the sun - they're always seen carrying their sun toy."
 
 msgid "teddisun"
-msgstr "Teddisun"
+msgstr "Knee Slice Kai"
 
 msgid "tetrchimp_description"
 msgstr ""
@@ -7574,7 +7574,7 @@ msgstr ""
 "communicates everything they have learned in order."
 
 msgid "tetrchimp"
-msgstr "Tetrchimp"
+msgstr "Pressure Pat"
 
 msgid "thumpurn_description"
 msgstr ""
@@ -7582,7 +7582,7 @@ msgstr ""
 "warnings."
 
 msgid "thumpurn"
-msgstr "Thumpurn"
+msgstr "Turtle Terry"
 
 msgid "tigrock_description"
 msgstr ""
@@ -7590,7 +7590,7 @@ msgstr ""
 "designed."
 
 msgid "tigrock"
-msgstr "Tigrock"
+msgstr "Shrimp Sean"
 
 msgid "tikoal_description"
 msgstr ""
@@ -7598,14 +7598,14 @@ msgstr ""
 "disputes."
 
 msgid "tikoal"
-msgstr "Tikoal"
+msgstr "Bridge Barry"
 
 msgid "tikorch_description"
 msgstr ""
 "It is the intermediary between forest and volcano, between sun and earth."
 
 msgid "tikorch"
-msgstr "Tikorch"
+msgstr "Mounty Mike"
 
 msgid "tobishimi_description"
 msgstr ""
@@ -7613,7 +7613,7 @@ msgstr ""
 " for safekeeping until the next full moon - when they hatch."
 
 msgid "tobishimi"
-msgstr "Tobishimi"
+msgstr "SideCtrl Sid"
 
 msgid "tornicane_description"
 msgstr ""
@@ -7621,14 +7621,14 @@ msgstr ""
 "force of nature and may be savior or doom to those hoping for rain."
 
 msgid "tornicane"
-msgstr "Tornicane"
+msgstr "Coach Big Ron"
 
 msgid "toucanary_description"
 msgstr ""
 "TOUCANARY only has bright feathers because it grew up surrounded by flowers."
 
 msgid "toucanary"
-msgstr "Toucanary"
+msgstr "Mum Said No"
 
 msgid "toufigel_description"
 msgstr ""
@@ -7636,7 +7636,7 @@ msgstr ""
 "soft snow."
 
 msgid "toufigel"
-msgstr "Toufigel"
+msgstr "Mat Karen"
 
 msgid "tourbidi_description"
 msgstr ""
@@ -7644,20 +7644,20 @@ msgstr ""
 "dance."
 
 msgid "tourbidi"
-msgstr "Tourbidi"
+msgstr "Drama Dan"
 
 msgid "toxiris_description"
 msgstr ""
 "TOXIRIS is extremely powerful, it violently poisons everything in its way."
 
 msgid "toxiris"
-msgstr "Toxiris"
+msgstr "Daisy NoGi"
 
 msgid "trapsnap_description"
 msgstr "Its head is the only part of its body that doesn't grow as it ages."
 
 msgid "trapsnap"
-msgstr "Trapsnap"
+msgstr "Sweaty Betty"
 
 msgid "trojerror_description"
 msgstr ""
@@ -7666,7 +7666,7 @@ msgstr ""
 " legitimate user could perform (deposit, withdraw and delete)."
 
 msgid "trojerror"
-msgstr "Trojerror"
+msgstr "Bonk Barry"
 
 msgid "tsushimi_description"
 msgstr ""
@@ -7674,7 +7674,7 @@ msgstr ""
 "softer than its skin. Their purpose remains unknown."
 
 msgid "tsushimi"
-msgstr "Tsushimi"
+msgstr "Shady Shane"
 
 msgid "tumblebee_description"
 msgstr ""
@@ -7682,7 +7682,7 @@ msgstr ""
 "rolling about and buzzing with laughter."
 
 msgid "tumblebee"
-msgstr "Tumblebee"
+msgstr "Creepy Craig"
 
 msgid "tumbledillo_description"
 msgstr ""
@@ -7690,7 +7690,7 @@ msgstr ""
 "it from people who would interfere with it - even pothole repair crews!"
 
 msgid "tumbledillo"
-msgstr "Tumbledillo"
+msgstr "Moody Molly"
 
 msgid "tumblequill_description"
 msgstr ""
@@ -7698,7 +7698,7 @@ msgstr ""
 "nests from the rubbish left by the side of the road."
 
 msgid "tumblequill"
-msgstr "Tumblequill"
+msgstr "Rough Rachel"
 
 msgid "tumbleworm_description"
 msgstr ""
@@ -7706,7 +7706,7 @@ msgstr ""
 "first."
 
 msgid "tumbleworm"
-msgstr "Tumbleworm"
+msgstr "Nasty Nancy"
 
 msgid "turnipper_description"
 msgstr ""
@@ -7714,7 +7714,7 @@ msgstr ""
 "sometimes dig itself out of the ground to defend the crops."
 
 msgid "turnipper"
-msgstr "Turnipper"
+msgstr "Porrada Pam"
 
 msgid "tux_description"
 msgstr ""
@@ -7723,7 +7723,7 @@ msgstr ""
 "ice into hard rocks."
 
 msgid "tux"
-msgstr "Tux"
+msgstr "Kimura Kim"
 
 msgid "tweesher_description"
 msgstr ""
@@ -7731,7 +7731,7 @@ msgstr ""
 "harder than diamond."
 
 msgid "tweesher"
-msgstr "Tweesher"
+msgstr "Heelhook Holly"
 
 msgid "uf0_description"
 msgstr ""
@@ -7739,7 +7739,7 @@ msgstr ""
 "human ears to hear."
 
 msgid "uf0"
-msgstr "UF0"
+msgstr "Darce Debbie"
 
 msgid "uglip_description"
 msgstr ""
@@ -7747,13 +7747,13 @@ msgstr ""
 "becomes puffy and pained."
 
 msgid "uglip"
-msgstr "Uglip"
+msgstr "Guillo Gina"
 
 msgid "uneye_description"
 msgstr "Uneye lurks in the shadows, and on the edge of vision."
 
 msgid "uneye"
-msgstr "Uneye"
+msgstr "Acai Amy"
 
 msgid "uprout_description"
 msgstr ""
@@ -7761,7 +7761,7 @@ msgstr ""
 " the trees above where it grew. "
 
 msgid "uprout"
-msgstr "Uprout"
+msgstr "NoGi Nora"
 
 msgid "urcheedle_description"
 msgstr ""
@@ -7769,7 +7769,7 @@ msgstr ""
 "damages itself on its many needles."
 
 msgid "urcheedle"
-msgstr "Urcheedle"
+msgstr "Judo Jenny"
 
 msgid "urcine_description"
 msgstr ""
@@ -7777,19 +7777,19 @@ msgstr ""
 "forests as an URCINE."
 
 msgid "urcine"
-msgstr "Urcine"
+msgstr "Spazzy Sally"
 
 msgid "vamporm_description"
 msgstr "It thirsts for blood, but must make do with tree sap."
 
 msgid "vamporm"
-msgstr "Vamporm"
+msgstr "Tappy Tammy"
 
 msgid "velocitile_description"
 msgstr "It can outrun a bullet, but only when it has warmed up."
 
 msgid "velocitile"
-msgstr "Velocitile"
+msgstr "Guard Gina"
 
 msgid "vigueur_description"
 msgstr ""
@@ -7797,7 +7797,7 @@ msgstr ""
 "that is too heavy, it squashes them and scatters TARPEUR seeds."
 
 msgid "vigueur"
-msgstr "Vigueur"
+msgstr "Mount Mandy"
 
 msgid "virware_description"
 msgstr ""
@@ -7806,7 +7806,7 @@ msgstr ""
 "VIRWARE may complete any number of tasks."
 
 msgid "virware"
-msgstr "Virware"
+msgstr "Triangle Tina"
 
 msgid "vivicinder_description"
 msgstr ""
@@ -7814,7 +7814,7 @@ msgstr ""
 "memorials, smithies and glassworks."
 
 msgid "vivicinder"
-msgstr "Vivicinder"
+msgstr "Bonnie BlueBelt"
 
 msgid "vividactil_description"
 msgstr ""
@@ -7822,7 +7822,7 @@ msgstr ""
 "the restoration of authority."
 
 msgid "vividactil"
-msgstr "Vividactil"
+msgstr "Vegan Niall"
 
 msgid "vivipere_description"
 msgstr ""
@@ -7830,33 +7830,33 @@ msgstr ""
 " mystery."
 
 msgid "vivipere"
-msgstr "Vivipere"
+msgstr "Slutty Sarah"
 
 msgid "viviphyta_description"
 msgstr "It is the king of snakes - or at least believes itself to be such."
 
 msgid "viviphyta"
-msgstr "Viviphyta"
+msgstr "Only Dans"
 
 msgid "vivisource_description"
 msgstr ""
 "The spring it chooses for its home always has a peculiar oniony taste."
 
 msgid "vivisource"
-msgstr "Vivisource"
+msgstr "Mat Bastard"
 
 msgid "viviteel_description"
 msgstr ""
 "It takes the armor of a fallen warrior and repurposes it for a shell."
 
 msgid "viviteel"
-msgstr "Viviteel"
+msgstr "Gi Goblin"
 
 msgid "vivitrans_description"
 msgstr "The cold focuses VIVITRANS' mind to a keen edge."
 
 msgid "vivitrans"
-msgstr "Vivitrans"
+msgstr "Heelhook Harry"
 
 msgid "vivitron_description"
 msgstr ""
@@ -7864,13 +7864,13 @@ msgstr ""
 "tamed and controlled."
 
 msgid "vivitron"
-msgstr "Vivitron"
+msgstr "Dr Kimura"
 
 msgid "volcoli_description"
 msgstr "It is the spirit of a forest. Its hair changes with the seasons."
 
 msgid "volcoli"
-msgstr "Volcoli"
+msgstr "Coach Atlas"
 
 msgid "volconey_description"
 msgstr ""
@@ -7879,7 +7879,7 @@ msgstr ""
 "at once, it is said to cause volcanic eruptions."
 
 msgid "volconey"
-msgstr "Volconey"
+msgstr "Spazzy Steve"
 
 msgid "vulpyre_description"
 msgstr ""
@@ -7887,19 +7887,19 @@ msgstr ""
 "near a volcano."
 
 msgid "vulpyre"
-msgstr "Vulpyre"
+msgstr "Acai Slut"
 
 msgid "waysprite_description"
 msgstr "WAYSPRITE are said to form when a person faces a difficult decision."
 
 msgid "waysprite"
-msgstr "Waysprite"
+msgstr "Craig NoGi"
 
 msgid "weavifly_description"
 msgstr "When it is heavy with egg, it becomes unable to fly."
 
 msgid "weavifly"
-msgstr "Weavifly"
+msgstr "Wristlock Wes"
 
 msgid "weedlantis_description"
 msgstr ""
@@ -7907,7 +7907,7 @@ msgstr ""
 "has since disappeared beneath the sea."
 
 msgid "weedlantis"
-msgstr "Weedlantis"
+msgstr "Stinky Gi"
 
 msgid "weedsea_description"
 msgstr ""
@@ -7915,13 +7915,13 @@ msgstr ""
 "Shrab."
 
 msgid "weedsea"
-msgstr "Weedsea"
+msgstr "Nasty Nate"
 
 msgid "wendigger_description"
 msgstr "It is said corpses given an improper burial can grow into WENDIGGER."
 
 msgid "wendigger"
-msgstr "Wendigger"
+msgstr "Oilcheck Oz"
 
 msgid "windeye_description"
 msgstr ""
@@ -7930,7 +7930,7 @@ msgstr ""
 "sky."
 
 msgid "windeye"
-msgstr "Windeye"
+msgstr "Leglock Larry"
 
 msgid "wolffsky_description"
 msgstr ""
@@ -7938,13 +7938,13 @@ msgstr ""
 "WOLFFSKY."
 
 msgid "wolffsky"
-msgstr "Wolffsky"
+msgstr "Porrada Paul"
 
 msgid "wolololl_description"
 msgstr "WOLOLOLL's sharp spines are tipped with a deadly venom."
 
 msgid "wolololl"
-msgstr "Wolololl"
+msgstr "Sandbag Sam"
 
 msgid "woodoor_description"
 msgstr ""
@@ -7952,7 +7952,7 @@ msgstr ""
 "front door. It hops away to find its next home."
 
 msgid "woodoor"
-msgstr "Woodoor"
+msgstr "Sweaty Kev"
 
 msgid "wrougon_description"
 msgstr ""
@@ -7960,13 +7960,13 @@ msgstr ""
 "parents."
 
 msgid "wrougon"
-msgstr "Wrougon"
+msgstr "Choke Chad"
 
 msgid "yiinaang_description"
 msgstr "It was born the first time a star fell into a black hole."
 
 msgid "yamada"
-msgstr "Yamada"
+msgstr "Kimura Kev"
 
 msgid "yamada_description"
 msgstr ""
@@ -7974,7 +7974,7 @@ msgstr ""
 "seriously, even seeing good behavior as more important than physical might."
 
 msgid "yiinaang"
-msgstr "Yiinaang"
+msgstr "Mount Mick"
 
 msgid "ziggurat_description"
 msgstr ""
@@ -7982,98 +7982,98 @@ msgstr ""
 " of all the mazes it has traversed over the years."
 
 msgid "ziggurat"
-msgstr "Ziggurat"
+msgstr "Halfguard Hal"
 
 msgid "zunna_description"
 msgstr "Cheerful ZUNNA sucks up all the food it can find into its stomach."
 
 msgid "zunna"
-msgstr "Zunna"
+msgstr "Judo Jake"
 
 # Tuxemon Threats
 msgid "agnsher_description"
 msgstr "A fusion of two tuxemon."
 
 msgid "agnsher"
-msgstr "Agnsher"
+msgstr "Heelhook Harry"
 
 msgid "bearloch_description"
 msgstr "A fusion of two tuxemon."
 
 msgid "bearloch"
-msgstr "Bearloch"
+msgstr "Mat Rat"
 
 msgid "chrome_robo_description"
 msgstr "A hostile robot."
 
 msgid "chrome_robo"
-msgstr "Chrome Robo"
+msgstr "Kesa Ken"
 
 msgid "dark_robo_description"
 msgstr "A hostile robot."
 
 msgid "dark_robo"
-msgstr "Dark Robo"
+msgstr "Pressure Pat"
 
 msgid "foxko_description"
 msgstr "A fusion of two tuxemon."
 
 msgid "foxko"
-msgstr "Foxko"
+msgstr "Porrada Paul"
 
 msgid "mk01_alpha_description"
 msgstr "A killer robot fused with a dragon. Don't ask us how."
 
 msgid "mk01_alpha"
-msgstr "MK01 Alpha"
+msgstr "Coach Big Ron"
 
 msgid "mk01_beta_description"
 msgstr "A killer robot fused with a dragon. Don't ask us how."
 
 msgid "mk01_beta"
-msgstr "Mk01 Beta"
+msgstr "Mum Said No"
 
 msgid "mk01_delta_description"
 msgstr "A killer robot fused with a dragon. Don't ask us how."
 
 msgid "mk01_delta"
-msgstr "Mk01 Delta"
+msgstr "Mat Karen"
 
 msgid "mk01_gamma_description"
 msgstr "A killer robot fused with a dragon. Don't ask us how."
 
 msgid "mk01_gamma"
-msgstr "Mk01 Gamma"
+msgstr "Drama Dan"
 
 msgid "mk01_omega_description"
 msgstr "A killer robot fused with a dragon. Don't ask us how."
 
 msgid "mk01_omega"
-msgstr "Mk01 Omega"
+msgstr "Daisy NoGi"
 
 msgid "mk01_proto_description"
 msgstr "A killer robot fused with a dragon. Don't ask us how."
 
 msgid "mk01_proto"
-msgstr "Mk01 Proto"
+msgstr "Sweaty Betty"
 
 msgid "rocktot_description"
 msgstr "A fusion of two tuxemon."
 
 msgid "rocktot"
-msgstr "Rocktot"
+msgstr "Spicy Steve"
 
 msgid "xeon_description"
 msgstr "A hostile robot."
 
 msgid "xeon"
-msgstr "Xeon"
+msgstr "Tapout Tim"
 
 msgid "xeon_2_description"
 msgstr "A hostile robot."
 
 msgid "xeon_2"
-msgstr "Xeon-2"
+msgstr "Guard Slag"
 
 # Monster categories
 msgid "cat_tobedefined"
