@@ -4700,7 +4700,7 @@ msgid "menu_load"
 msgstr "Load"
 
 msgid "menu_monster"
-msgstr "JiuJitsuIsland"
+msgstr "Opponent"
 
 msgid "menu_storage"
 msgstr "Pick Up Tuxemon"
@@ -4763,7 +4763,7 @@ msgid "menu_run"
 msgstr "Run"
 
 msgid "menu_forfeit"
-msgstr "Forfeit"
+msgstr "Tap Out"
 
 msgid "menu_ball"
 msgstr "Ball"
