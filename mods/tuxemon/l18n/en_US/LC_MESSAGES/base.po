@@ -2177,115 +2177,115 @@ msgstr "Slot"
 
 # STATUSES
 msgid "blinded"
-msgstr "Blinded"
+msgstr "Sweat Eyes"
 
 msgid "burn"
-msgstr "Burn"
+msgstr "Mat Burn"
 
 msgid "chargedup"
-msgstr "Charged Up"
+msgstr "Hyped Up"
 
 msgid "charging"
-msgstr "Charging"
+msgstr "Loading Shot"
 
 msgid "charmed"
-msgstr "Charmed"
+msgstr "Gym Crush"
 
 msgid "confused"
-msgstr "Confused"
+msgstr "Whitebelt Brain"
 
 msgid "diehard"
-msgstr "Die Hard"
+msgstr "Too Dumb To Tap"
 
 msgid "dozing"
-msgstr "Dozing"
+msgstr "Gassed"
 
 msgid "elementalshield"
-msgstr "Elemental Shield"
+msgstr "Defensive Shell"
 
 msgid "eliminated"
-msgstr "Eliminated"
+msgstr "Tapped"
 
 msgid "enraged"
-msgstr "Berserk"
+msgstr "Seeing Red"
 
 msgid "exhausted"
-msgstr "Exhausted"
+msgstr "Cardio Death"
 
 msgid "faint"
-msgstr "Faint"
+msgstr "Tapped Out"
 
 msgid "feedback"
-msgstr "Feedback"
+msgstr "Coach Feedback"
 
 msgid "festering"
-msgstr "Festering"
+msgstr "Mat Funk"
 
 msgid "flinching"
-msgstr "Flinching"
+msgstr "Pressure Shock"
 
 msgid "focused"
-msgstr "Focused"
+msgstr "Locked In"
 
 msgid "grabbed"
-msgstr "Grabbed"
+msgstr "Pinned"
 
 msgid "hardshell"
-msgstr "Hard Shell"
+msgstr "Heavy Base"
 
 msgid "harpooned"
-msgstr "Harpooned"
+msgstr "Heel Hooked"
 
 msgid "lifeleech"
-msgstr "Lifeleech"
+msgstr "Energy Vampire"
 
 msgid "lifegift"
-msgstr "Life Gift"
+msgstr "Second Wind"
 
 msgid "lockdown"
-msgstr "Lockdown"
+msgstr "Smashed"
 
 msgid "noddingoff"
-msgstr "Nodding Off"
+msgstr "Half Asleep"
 
 msgid "poison"
-msgstr "Poison"
+msgstr "Mat Funk"
 
 msgid "prickly"
-msgstr "Prickly"
+msgstr "Sharp Frames"
 
 msgid "recover"
-msgstr "Recover"
+msgstr "Recovering"
 
 msgid "retaliate"
-msgstr "Retaliate"
+msgstr "Receipts"
 
 msgid "revenge"
-msgstr "Revenge"
+msgstr "Payback Mode"
 
 msgid "slow"
-msgstr "Slow"
+msgstr "Heavy Legs"
 
 msgid "sniping"
-msgstr "Sniping"
+msgstr "Sniper Grips"
 
 msgid "softened"
-msgstr "Softened"
+msgstr "Broken Posture"
 
 msgid "spiky"
-msgstr "Spiky"
+msgstr "Pain Frames"
 
 msgid "spyderbite"
-msgstr "Spyder Bite"
+msgstr "Nasty Bite"
 
 msgid "stuck"
-msgstr "Stuck"
+msgstr "Stuck Flat"
 
 msgid "wasting"
-msgstr "Wasting"
+msgstr "Gassing Out"
 
 msgid "wild"
-msgstr "Wild"
+msgstr "Spazzing"
 
 # TECHNIQUE TRANSLATIONS ##
 msgid "acid_description"
@@ -9090,49 +9090,49 @@ msgstr "End of Report"
 
 # Monster types
 msgid "aether"
-msgstr "Oldschool"
+msgstr "Aether"
 
 msgid "wood"
-msgstr "Guardplayer"
+msgstr "Wood"
 
 msgid "fire"
-msgstr "Wrestler"
+msgstr "Fire"
 
 msgid "earth"
-msgstr "Pressure"
+msgstr "Earth"
 
 msgid "metal"
-msgstr "Judoka"
+msgstr "Metal"
 
 msgid "water"
-msgstr "Flowroller"
+msgstr "Water"
 
 msgid "glitch"
-msgstr "Sandbagger"
+msgstr "Glitch"
 
 msgid "normal"
-msgstr "Hobbyist"
+msgstr "Normal"
 
 msgid "lightning"
-msgstr "Explosive"
+msgstr "Lightning"
 
 msgid "frost"
-msgstr "Pressurefreak"
+msgstr "Frost"
 
 msgid "heroic"
-msgstr "Matenforcer"
+msgstr "Heroic"
 
 msgid "cosmic"
-msgstr "Technician"
+msgstr "Cosmic"
 
 msgid "shadow"
-msgstr "Subhunter"
+msgstr "Shadow"
 
 msgid "sky"
-msgstr "Scrambler"
+msgstr "Sky"
 
 msgid "venom"
-msgstr "Leglocker"
+msgstr "Venom"
 
 # Monster tastes
 msgid "taste"
