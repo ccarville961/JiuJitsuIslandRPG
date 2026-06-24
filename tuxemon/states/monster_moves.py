@@ -262,7 +262,7 @@ class MonsterMovesState(PygameMenuState):
             existing = menu.get_widget(slot_id)
             if i < len(technique.types.current):
                 t = technique.types.current[i]
-                path = f"gfx/ui/icons/element/{t.name.lower()}_type_small.png"
+                path = f"gfx/ui/icons/element/{t.slug}_type_small.png"
                 img = self._create_image(path)
                 img.scale(self.factor, self.factor)
                 if existing is None:
