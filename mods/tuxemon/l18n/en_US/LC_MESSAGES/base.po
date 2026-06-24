@@ -9090,49 +9090,49 @@ msgstr "End of Report"
 
 # Monster types
 msgid "aether"
-msgstr "Aether"
+msgstr "Oldschool"
 
 msgid "wood"
-msgstr "Wood"
+msgstr "Guardplayer"
 
 msgid "fire"
-msgstr "Fire"
+msgstr "Wrestler"
 
 msgid "earth"
-msgstr "Earth"
+msgstr "Pressure"
 
 msgid "metal"
-msgstr "Metal"
+msgstr "Judoka"
 
 msgid "water"
-msgstr "Water"
+msgstr "Flowroller"
 
 msgid "glitch"
-msgstr "Glitch"
+msgstr "Sandbagger"
 
 msgid "normal"
-msgstr "Normal"
+msgstr "Hobbyist"
 
 msgid "lightning"
-msgstr "Lightning"
+msgstr "Explosive"
 
 msgid "frost"
-msgstr "Frost"
+msgstr "Pressurefreak"
 
 msgid "heroic"
-msgstr "Heroic"
+msgstr "Matenforcer"
 
 msgid "cosmic"
-msgstr "Cosmic"
+msgstr "Technician"
 
 msgid "shadow"
-msgstr "Shadow"
+msgstr "Subhunter"
 
 msgid "sky"
-msgstr "Sky"
+msgstr "Scrambler"
 
 msgid "venom"
-msgstr "Venom"
+msgstr "Leglocker"
 
 # Monster tastes
 msgid "taste"
