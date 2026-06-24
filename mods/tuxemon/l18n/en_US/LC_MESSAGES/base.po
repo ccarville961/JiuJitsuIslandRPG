@@ -1848,196 +1848,196 @@ msgstr "I've seen warm-ups do more damage."
 
 # COMBAT STATE STATUSES
 msgid "combat_state_blinded_get"
-msgstr "{target} is blinded."
+msgstr "{target} has sweat in their eyes."
 
 msgid "combat_state_burn_end"
-msgstr "{target} takes damage from burns."
+msgstr "{target} shook off the mat burn."
 
 msgid "combat_state_burn_get"
-msgstr "{target} is burned."
+msgstr "{target} got cooked by the grind."
 
 msgid "combat_state_chargedup_get"
-msgstr "{target} is fully charged."
+msgstr "{target} is hyped up and making poor choices."
 
 msgid "combat_state_charging_get"
-msgstr "{target} is charging power."
+msgstr "{target} is loading up a dodgy shot."
 
 msgid "combat_state_confused_get"
-msgstr "{target} is confused."
+msgstr "{target} has White Belt Brain."
 
 msgid "combat_state_confused_tech"
-msgstr "{target} gets muddled and does not use {name}!"
+msgstr "{target} forgot the technique halfway through. Classic."
 
 msgid "combat_state_gold"
-msgstr "{name} gets {gold}!"
+msgstr "{target} is sandbagging like a prick."
 
 msgid "combat_state_switch"
-msgstr "{target} is {types} type!"
+msgstr "{user} tries to tag out."
 
 msgid "combat_state_switch_fail"
-msgstr "{target} is already {type}!"
+msgstr "{user} is stuck with this bad decision."
 
 msgid "combat_state_switch_both"
-msgstr "{user} is {type1} type, while {target} is {type2} type!"
+msgstr "Both sides are panic-tagging like open mat weirdos."
 
 msgid "combat_state_diehard_get"
-msgstr "{target} will keep fighting."
+msgstr "{target} is too dumb to tap."
 
 msgid "combat_state_diehard_tech"
-msgstr "{target} fights through the pain."
+msgstr "{target} survives through pure stupidity."
 
 msgid "combat_state_diehard_end"
-msgstr "{target} is too injured to gain Diehard."
+msgstr "{target} finally remembered pain is real."
 
 msgid "combat_state_dozing_get"
-msgstr "{target} is asleep."
+msgstr "{target} is gassed and seeing stars."
 
 msgid "combat_state_dozing_end"
-msgstr "{target} wakes up!"
+msgstr "{target} woke up embarrassed."
 
 msgid "combat_state_enraged_get"
-msgstr "{target} is enraged."
+msgstr "{target} is seeing red."
 
 msgid "combat_state_exhausted_get"
-msgstr "{target} is exhausted."
+msgstr "{target} has cardio death."
 
 msgid "combat_state_festering_get"
-msgstr "{target}'s wounds fester."
+msgstr "{target} caught serious mat funk."
 
 msgid "combat_state_festering_item"
-msgstr "The healing fails. The wound festers."
+msgstr "{target} needs disinfectant and life choices."
 
 msgid "combat_state_focused_get"
-msgstr "{target} is focused."
+msgstr "{target} is locked in."
 
 msgid "combat_state_grabbed_get"
-msgstr "{target} is held tight."
+msgstr "{target} is pinned and hating life."
 
 msgid "combat_state_hardshell_get"
-msgstr "{target} is covered in hard shell."
+msgstr "{target} found a heavy base."
 
 msgid "combat_state_lifeleech_get"
-msgstr "{target}'s lifeforce is being leeched."
+msgstr "{target} is draining energy like a sweaty heavyweight."
 
 msgid "combat_state_lifeleech_end"
-msgstr "{target} is having their lifeforce stolen."
+msgstr "{target} stopped being an energy vampire."
 
 msgid "combat_state_lifegift_get"
-msgstr "{target}'s energy is being restored."
+msgstr "{target} caught a second wind."
 
 msgid "combat_state_lifegift_end"
-msgstr "{target} has been infused with lifeforce."
+msgstr "{target}'s second wind is gone."
 
 msgid "combat_state_noddingoff_get"
-msgstr "{target} is nodding off to sleep."
+msgstr "{target} is half asleep in closed guard."
 
 msgid "combat_state_slow_get"
-msgstr "{target} has been slowed down."
+msgstr "{target} has heavy legs."
 
 msgid "combat_state_poison_get"
-msgstr "{target} is poisoned."
+msgstr "{target} caught mat funk."
 
 msgid "combat_state_poison_end"
-msgstr "{target} takes damage from the poison."
+msgstr "{target} escaped the mat funk."
 
 msgid "combat_state_recover_failure"
-msgstr "{target} can't heal any further."
+msgstr "{target} tried to recover, but nah."
 
 msgid "combat_state_recover_get"
-msgstr "{target} is regenerating."
+msgstr "{target} is recovering guard."
 
 msgid "combat_state_recover_end"
-msgstr "{target} recovers its lifeforce."
+msgstr "{target} lost the recovery window."
 
 msgid "combat_state_retaliate_get"
-msgstr "{target} will retaliate on its next attack."
+msgstr "{target} is handing out receipts."
 
 msgid "combat_state_revenge_get"
-msgstr "When attacked,{target} will take revenge."
+msgstr "{target} entered payback mode."
 
 msgid "combat_state_sniping_get"
-msgstr "{target} backs away."
+msgstr "{target} is hunting sniper grips."
 
 msgid "combat_state_softened_get"
-msgstr "{target}'s armor softens."
+msgstr "{target}'s posture is broken."
 
 msgid "combat_state_stuck_get"
-msgstr "{target} is stuck in place."
+msgstr "{target} is stuck flat and suffering."
 
 msgid "combat_state_plague1"
-msgstr "Ah ... Ah. {target} held in a sneeze."
+msgstr "{target} smells like unwashed rashguard."
 
 msgid "combat_state_plague2"
-msgstr "Ah ... Ahchoo! {user} sneezed on {target}."
+msgstr "{target} is spreading gym plague."
 
 msgid "combat_state_plague3"
-msgstr "{target} wiped it off."
+msgstr "{target}'s gi has become sentient."
 
 msgid "combat_state_plague4"
-msgstr "{target} begins to sniffle."
+msgstr "{target} needs bleach, not coaching."
 
 msgid "combat_state_plague5"
-msgstr "{target} looks healthier."
+msgstr "{target} is banned from drilling partners."
 
 msgid "combat_state_plague6"
-msgstr "{target} was unknowingly cured."
+msgstr "{target} has weaponised body odour."
 
 msgid "combat_state_plague7"
-msgstr "{user} stifled a sneeze."
+msgstr "{target} is a walking biohazard."
 
 msgid "combat_state_plague8"
-msgstr "{target} suddenly sneezes!"
+msgstr "{target} has achieved final-form mat funk."
 
 msgid "combat_state_lockdown_get"
-msgstr "Items will not affect {target}."
+msgstr "{target} is smashed in lockdown."
 
 msgid "combat_state_lockdown_item"
-msgstr "Items cannot be used on {target} while it is locked down."
+msgstr "{target} cannot use that while flattened."
 
 msgid "combat_state_wasting_get"
-msgstr "{target} is afflicted by a wasting condition."
+msgstr "{target} is gassing out."
 
 msgid "combat_state_wasting_end"
-msgstr "{target} is wasting away."
+msgstr "{target} found a tiny bit of cardio."
 
 msgid "combat_state_flinching_get"
-msgstr "{target} flinches and may not act."
+msgstr "{target} felt the pressure and froze."
 
 msgid "combat_state_charmed_get"
-msgstr "{target} is charmed and might hesitate to act."
+msgstr "{target} has a gym crush. Tragic."
 
 msgid "combat_state_charmed_miss"
-msgstr "{user} is too smitten!"
+msgstr "{target} got distracted by bad life choices."
 
 msgid "combat_state_wild_get"
-msgstr "{target} has gone wild."
+msgstr "{target} is spazzing like a day-one trial guy."
 
 msgid "combat_state_wild_end"
-msgstr "{target} is still wild."
+msgstr "{target} stopped spazzing. For now."
 
 msgid "combat_state_harpooned_get"
-msgstr "{target} risks injury if it backs away."
+msgstr "{target} got heel hooked."
 
 msgid "combat_state_spiky_get"
-msgstr "{target} risks injury if it steps in."
+msgstr "{target} has painful frames."
 
 msgid "combat_state_elemental_shield_get"
-msgstr "{target} puts up a flame shield."
+msgstr "{target} built a defensive shell."
 
 msgid "combat_state_prickly_get"
-msgstr "{target} is harmful to make contact with."
+msgstr "{target} is all elbows and knees."
 
 msgid "combat_state_feedback_get"
-msgstr "{target} is turning ranged attacks back on the attacker."
+msgstr "{target} received unwanted coach feedback."
 
 msgid "combat_state_immune"
-msgstr "{target} is immune to {method}"
+msgstr "{target} no-sold it like a smug black belt."
 
 msgid "combat_state_prevented"
-msgstr "{method} prevents {target} from gaining {condition}"
+msgstr "{target} shut that nonsense down."
 
 msgid "combat_state_immune_multiple"
-msgstr "{target} are immune to {method}"
+msgstr "{target} is immune to that bullshit."
 
 msgid "combat_multiattack"
 msgstr "Hit {hit_count} time(s)!"
