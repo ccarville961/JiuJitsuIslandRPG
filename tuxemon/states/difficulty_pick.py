@@ -17,6 +17,14 @@ if TYPE_CHECKING:
 
 DIFFICULTIES = ["beginner", "easy", "normal", "hard", "expert"]
 
+BELT_DIFFICULTY_LABELS = {
+    "beginner": "match_difficulty_white_belt",
+    "easy": "match_difficulty_blue_belt",
+    "normal": "match_difficulty_purple_belt",
+    "hard": "match_difficulty_brown_belt",
+    "expert": "match_difficulty_black_belt",
+}
+
 
 class DifficultyPickState(PygameMenuState):
     """Generic difficulty selection state."""
@@ -28,6 +36,7 @@ class DifficultyPickState(PygameMenuState):
         client: BaseClient,
         on_pick: Callable[[str], None],
         difficulties: list[str] = DIFFICULTIES,
+        use_belt_labels: bool = False,
         **kwargs: Any,
     ) -> None:
         width, height = client.context.resolution
@@ -45,8 +54,15 @@ class DifficultyPickState(PygameMenuState):
 
         self.on_pick = on_pick
         self.difficulties = difficulties
+        self.use_belt_labels = use_belt_labels
         self._build_menu()
         self.reset_theme()
+
+    def _get_label_key(self, level: str) -> str:
+        if self.use_belt_labels:
+            return BELT_DIFFICULTY_LABELS.get(level, f"level_{level}")
+
+        return f"level_{level}"
 
     def _build_menu(self) -> None:
         self.menu.add.label(
@@ -58,7 +74,7 @@ class DifficultyPickState(PygameMenuState):
 
         for level in self.difficulties:
             self.menu.add.button(
-                title=T.translate(f"level_{level}"),
+                title=T.translate(self._get_label_key(level)),
                 action=partial(self._handle_pick, level),
                 button_id=f"diff_{level}",
                 font_size=self.font_type.medium,

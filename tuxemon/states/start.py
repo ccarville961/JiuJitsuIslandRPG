@@ -113,6 +113,7 @@ class StartState(PygameMenuState):
             action=change_state(
                 "DifficultyPickState",
                 on_pick=self.start_battle,
+                use_belt_labels=True,
             ),
             font_size=self.font_type.big,
             button_id="menu_battle",

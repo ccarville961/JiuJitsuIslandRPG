@@ -2097,6 +2097,21 @@ msgstr "NERD"
 msgid "level_expert"
 msgstr "Expert"
 
+msgid "match_difficulty_white_belt"
+msgstr "White Belt"
+
+msgid "match_difficulty_blue_belt"
+msgstr "Blue Belt"
+
+msgid "match_difficulty_purple_belt"
+msgstr "Purple Belt"
+
+msgid "match_difficulty_brown_belt"
+msgstr "Brown Belt"
+
+msgid "match_difficulty_black_belt"
+msgstr "Black Belt"
+
 msgid "generic_right"
 msgstr "Correct!"
 
