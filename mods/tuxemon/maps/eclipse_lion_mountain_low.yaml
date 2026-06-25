@@ -94,8 +94,6 @@ events:
     - char_talk eclipse_lionmountain_emilio,pre_battle
     - unlock_controls
     - add_monster bumbulus,50,eclipse_lionmountain_emilio,5,10
-    - add_monster glombroc,50,eclipse_lionmountain_emilio,5,10
-    - add_monster tikorch,30,eclipse_lionmountain_emilio,5,10
     - start_battle player,eclipse_lionmountain_emilio
     - char_talk eclipse_lionmountain_emilio,post_battle_lose
     conditions:

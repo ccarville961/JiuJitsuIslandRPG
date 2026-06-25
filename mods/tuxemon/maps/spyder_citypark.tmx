@@ -232,7 +232,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_citypark_frances,pre_battle"/>
     <property name="act2" value="add_monster shybulb,8,spyder_citypark_frances,5,10"/>
-    <property name="act3" value="add_monster shybulb,8,spyder_citypark_frances,5,10"/>
     <property name="act4" value="start_battle player,spyder_citypark_frances"/>
     <property name="act5" value="char_talk spyder_citypark_frances,post_battle_lose"/>
     <property name="behav1" value="talk spyder_citypark_frances"/>
@@ -267,7 +266,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_citypark_edith,pre_battle"/>
     <property name="act2" value="add_monster squabbit,8,spyder_citypark_edith,5,10"/>
-    <property name="act3" value="add_monster squabbit,8,spyder_citypark_edith,5,10"/>
     <property name="act4" value="start_battle player,spyder_citypark_edith"/>
     <property name="act5" value="char_talk spyder_citypark_edith,post_battle_lose"/>
     <property name="behav1" value="talk spyder_citypark_edith"/>

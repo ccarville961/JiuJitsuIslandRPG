@@ -198,7 +198,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_dragonscave_benden,pre_battle"/>
     <property name="act2" value="add_monster dragarbor,41,spyder_dragonscave_benden,5,10"/>
-    <property name="act3" value="add_monster sapragon,43,spyder_dragonscave_benden,5,10"/>
     <property name="act4" value="start_battle player,spyder_dragonscave_benden"/>
     <property name="act5" value="char_talk spyder_dragonscave_benden,post_battle_lose"/>
     <property name="act6" value="set_monster_health"/>
@@ -369,7 +368,6 @@
     <property name="act04" value="char_talk spyder_dragonscave_benden,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster dragarbor,41,spyder_dragonscave_benden,5,10"/>
-    <property name="act07" value="add_monster sapragon,43,spyder_dragonscave_benden,5,10"/>
     <property name="act08" value="start_battle player,spyder_dragonscave_benden"/>
     <property name="act09" value="char_talk spyder_dragonscave_benden,post_battle_lose"/>
     <property name="act10" value="set_monster_health"/>
@@ -402,8 +400,6 @@
     <property name="act04" value="translated_dialog spyder_dragonscave_tru1"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster embazook,45,spyder_nimrod_tru,5,10"/>
-    <property name="act07" value="add_monster arthrobolt,45,spyder_nimrod_tru,5,10"/>
-    <property name="act08" value="add_monster hydrone,45,spyder_nimrod_tru,5,10"/>
     <property name="act09" value="start_battle player,spyder_nimrod_tru"/>
     <property name="act10" value="translated_dialog spyder_dragonscave_tru2"/>
     <property name="cond1" value="is battle_outcome_count player,won,spyder_nimrod_tru,1"/>

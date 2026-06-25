@@ -152,7 +152,6 @@
     <property name="act4" value="char_talk spyder_basement_coralli,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster tumbleworm,22,spyder_basement_coralli,5,10"/>
-    <property name="act7" value="add_monster elofly,22,spyder_basement_coralli,5,10"/>
     <property name="act8" value="start_battle player,spyder_basement_coralli"/>
     <property name="act9" value="char_talk spyder_basement_coralli,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_basement_coralli"/>
@@ -198,7 +197,6 @@
     <property name="act4" value="char_talk spyder_basement_catholi,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster foofle,20,spyder_basement_catholi,5,10"/>
-    <property name="act7" value="add_monster rosarin,24,spyder_basement_catholi,5,10"/>
     <property name="act8" value="start_battle player,spyder_basement_catholi"/>
     <property name="act9" value="char_talk spyder_basement_catholi,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_basement_catholi"/>

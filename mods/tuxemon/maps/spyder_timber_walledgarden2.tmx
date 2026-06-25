@@ -109,7 +109,6 @@
     <property name="act04" value="char_talk spyder_walled_osman,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster miaownolith,50,spyder_walled_osman,5,10"/>
-    <property name="act07" value="add_monster pyraminx,50,spyder_walled_osman,5,10"/>
     <property name="act08" value="start_battle player,spyder_walled_osman"/>
     <property name="act09" value="char_talk spyder_walled_osman,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_walled_osman"/>
@@ -132,7 +131,6 @@
     <property name="act04" value="char_talk spyder_walled_alexander,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster embazook,50,spyder_walled_alexander,5,10"/>
-    <property name="act07" value="add_monster eruptibus,50,spyder_walled_alexander,5,10"/>
     <property name="act08" value="start_battle player,spyder_walled_alexander"/>
     <property name="act09" value="char_talk spyder_walled_alexander,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_walled_alexander"/>
@@ -162,7 +160,6 @@
     <property name="act04" value="char_talk spyder_walled_musa,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster grintrock,50,spyder_walled_musa,5,10"/>
-    <property name="act07" value="add_monster grinflare,50,spyder_walled_musa,5,10"/>
     <property name="act08" value="start_battle player,spyder_walled_musa"/>
     <property name="act09" value="char_talk spyder_walled_musa,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_walled_musa"/>
@@ -178,7 +175,6 @@
     <property name="act04" value="char_talk spyder_walled_augustus,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster statursus,50,spyder_walled_augustus,5,10"/>
-    <property name="act07" value="add_monster spycozeus,50,spyder_walled_augustus,5,10"/>
     <property name="act08" value="start_battle player,spyder_walled_augustus"/>
     <property name="act09" value="char_talk spyder_walled_augustus,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_walled_augustus"/>
@@ -201,7 +197,6 @@
     <property name="act04" value="char_talk spyder_walled_rufus,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster bamboon,50,spyder_walled_rufus,5,10"/>
-    <property name="act07" value="add_monster frondly,50,spyder_walled_rufus,5,10"/>
     <property name="act08" value="start_battle player,spyder_walled_rufus"/>
     <property name="act09" value="char_talk spyder_walled_rufus,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_walled_rufus"/>
@@ -224,7 +219,6 @@
     <property name="act04" value="char_talk spyder_walled_crassus,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster bigfin,50,spyder_walled_crassus,5,10"/>
-    <property name="act07" value="add_monster sharpfin,50,spyder_walled_crassus,5,10"/>
     <property name="act08" value="start_battle player,spyder_walled_crassus"/>
     <property name="act09" value="char_talk spyder_walled_crassus,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_walled_crassus"/>
@@ -242,8 +236,6 @@
     <property name="act06" value="unlock_controls"/>
     <property name="act10" value="char_talk spyder_walled_midas,pre_battle"/>
     <property name="act20" value="add_monster apeoro,55,spyder_walled_midas,5,10"/>
-    <property name="act21" value="add_monster brewdin,55,spyder_walled_midas,5,10"/>
-    <property name="act22" value="add_monster narcileaf,50,spyder_walled_midas,5,10"/>
     <property name="act30" value="start_battle player,spyder_walled_midas"/>
     <property name="act40" value="char_talk spyder_walled_midas,post_battle_lose"/>
     <property name="act50" value="pathfind spyder_walled_midas,9,19"/>

@@ -160,9 +160,6 @@
     <property name="act04" value="char_talk spyder_tunnelb_lute,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster noctula,21,spyder_tunnelb_lute,5,10"/>
-    <property name="act07" value="add_monster noctalo,23,spyder_tunnelb_lute,5,10"/>
-    <property name="act08" value="add_monster pipis,21,spyder_tunnelb_lute,5,10"/>
-    <property name="act09" value="add_monster strella,25,spyder_tunnelb_lute,5,10"/>
     <property name="act10" value="start_battle player,spyder_tunnelb_lute"/>
     <property name="act11" value="char_talk spyder_tunnelb_lute,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_tunnelb_lute"/>
@@ -178,8 +175,6 @@
     <property name="act04" value="char_talk spyder_tunnelb_beryll,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster rockat,25,spyder_tunnelb_beryll,5,10"/>
-    <property name="act07" value="add_monster ignibus,25,spyder_tunnelb_beryll,5,10"/>
-    <property name="act08" value="add_monster grintot,25,spyder_tunnelb_beryll,5,10"/>
     <property name="act09" value="start_battle player,spyder_tunnelb_beryll"/>
     <property name="act10" value="char_talk spyder_tunnelb_beryll,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_tunnelb_beryll"/>

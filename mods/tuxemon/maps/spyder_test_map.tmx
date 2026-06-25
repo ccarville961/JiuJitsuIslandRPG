@@ -94,7 +94,6 @@
     <property name="act09" value="set_bubble spyder_route5_cleo,exclamation"/>
     <property name="act10" value="char_talk spyder_route5_cleo,pre_battle"/>
     <property name="act20" value="add_monster memnomnom,5,spyder_route5_cleo,99,99"/>
-    <property name="act30" value="add_monster memnomnom,5,spyder_route5_cleo,99,99"/>
     <property name="act40" value="start_battle player,spyder_route5_cleo"/>
     <property name="act41" value="set_bubble spyder_route5_cleo"/>
     <property name="act50" value="char_talk spyder_route5_cleo,post_battle_lose"/>
@@ -112,7 +111,6 @@
     <property name="act30" value="char_talk spyder_route5_cleo,pre_battle"/>
     <property name="act40" value="unlock_controls"/>
     <property name="act50" value="add_monster memnomnom,5,spyder_route5_cleo,99,99"/>
-    <property name="act60" value="add_monster memnomnom,5,spyder_route5_cleo,99,99"/>
     <property name="act70" value="start_battle player,spyder_route5_cleo"/>
     <property name="act71" value="set_bubble spyder_route5_cleo"/>
     <property name="act80" value="char_talk spyder_route5_cleo,post_battle_lose"/>

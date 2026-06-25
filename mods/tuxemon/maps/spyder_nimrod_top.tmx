@@ -111,7 +111,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_nimrod_justice,pre_battle"/>
     <property name="act2" value="add_monster ghosteeth,21,spyder_nimrod_justice,5,10"/>
-    <property name="act3" value="add_monster ghosteeth,21,spyder_nimrod_justice,5,10"/>
     <property name="act4" value="start_battle player,spyder_nimrod_justice"/>
     <property name="act5" value="char_talk spyder_nimrod_justice,post_battle_lose"/>
     <property name="behav1" value="talk spyder_nimrod_justice"/>
@@ -148,7 +147,6 @@
     <property name="act4" value="char_talk spyder_nimrod_justice,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster ghosteeth,21,spyder_nimrod_justice,5,10"/>
-    <property name="act7" value="add_monster ghosteeth,21,spyder_nimrod_justice,5,10"/>
     <property name="act8" value="start_battle player,spyder_nimrod_justice"/>
     <property name="act9" value="char_talk spyder_nimrod_justice,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_nimrod_justice"/>
@@ -201,8 +199,6 @@
     <property name="act04" value="char_talk spyder_nimrod_mace,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster embazook,25,spyder_nimrod_mace,5,10"/>
-    <property name="act07" value="add_monster av8r,25,spyder_nimrod_mace,5,10"/>
-    <property name="act08" value="add_monster komodraw,30,spyder_nimrod_mace,5,10"/>
     <property name="act09" value="start_battle player,spyder_nimrod_mace"/>
     <property name="act10" value="char_talk spyder_nimrod_mace,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_nimrod_mace"/>
@@ -214,8 +210,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_nimrod_mace,pre_battle"/>
     <property name="act2" value="add_monster embazook,25,spyder_nimrod_mace,5,10"/>
-    <property name="act3" value="add_monster av8r,25,spyder_nimrod_mace,5,10"/>
-    <property name="act4" value="add_monster komodraw,30,spyder_nimrod_mace,5,10"/>
     <property name="act5" value="start_battle player,spyder_nimrod_mace"/>
     <property name="act6" value="char_talk spyder_nimrod_mace,post_battle_lose"/>
     <property name="behav1" value="talk spyder_nimrod_mace"/>

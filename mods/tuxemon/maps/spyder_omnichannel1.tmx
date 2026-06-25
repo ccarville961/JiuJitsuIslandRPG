@@ -100,7 +100,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_omnichannel_william,pre_battle"/>
     <property name="act2" value="add_monster elowind,41,spyder_omnichannel_william,5,10"/>
-    <property name="act3" value="add_monster cardiwing,41,spyder_omnichannel_william,5,10"/>
     <property name="act4" value="start_battle player,spyder_omnichannel_william"/>
     <property name="act5" value="char_talk spyder_omnichannel_william,post_battle_lose"/>
     <property name="behav1" value="talk spyder_omnichannel_william"/>

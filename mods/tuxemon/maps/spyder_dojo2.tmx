@@ -135,10 +135,6 @@
    <properties>
     <property name="act11" value="char_talk spyder_dojo_iroh,pre_battle"/>
     <property name="act12" value="add_monster cardiwing,25,spyder_dojo_iroh,5,10"/>
-    <property name="act13" value="add_monster djinnbo,25,spyder_dojo_iroh,5,10"/>
-    <property name="act14" value="add_monster flounce,25,spyder_dojo_iroh,5,10"/>
-    <property name="act15" value="add_monster volconey,25,spyder_dojo_iroh,5,10"/>
-    <property name="act16" value="add_monster prophetoise,25,spyder_dojo_iroh,5,10"/>
     <property name="act20" value="get_party_monster spyder_dojo_iroh"/>
     <property name="act21" value="add_tech iid_slot_0,peregrine"/>
     <property name="act22" value="add_tech iid_slot_1,shapechange"/>
@@ -163,11 +159,8 @@
     <property name="act11" value="char_talk spyder_dojo_yangchen,pre_battle"/>
     <property name="act12" value="add_monster duggot,25,spyder_dojo_yangchen,5,10"/>
     <property name="act13" value="add_tech iid_slot_0,salamander"/>
-    <property name="act14" value="add_monster drashimi,25,spyder_dojo_yangchen,5,10"/>
     <property name="act15" value="add_tech iid_slot_1,sunburst"/>
-    <property name="act16" value="add_monster coppi,25,spyder_dojo_yangchen,5,10"/>
     <property name="act17" value="add_tech iid_slot_2,oven"/>
-    <property name="act18" value="add_monster vigueur,25,spyder_dojo_yangchen,5,10"/>
     <property name="act19" value="add_tech iid_slot_3,magma"/>
     <property name="act20" value="start_battle player,spyder_dojo_yangchen"/>
     <property name="act21" value="char_talk spyder_dojo_yangchen,post_battle_lose"/>
@@ -186,7 +179,6 @@
    <properties>
     <property name="act11" value="char_talk spyder_dojo_kataro,pre_battle"/>
     <property name="act12" value="add_monster hydrone,25,spyder_dojo_kataro,5,10"/>
-    <property name="act13" value="add_monster nudikill,25,spyder_dojo_kataro,5,10"/>
     <property name="act14" value="get_party_monster spyder_dojo_kataro"/>
     <property name="act15" value="add_tech iid_slot_0,panjandrum"/>
     <property name="act16" value="add_item wood_berry,1,spyder_dojo_kataro"/>
@@ -207,9 +199,6 @@
    <properties>
     <property name="act11" value="char_talk spyder_dojo_sokka,pre_battle"/>
     <property name="act12" value="add_monster hydrone,25,spyder_dojo_sokka,5,10"/>
-    <property name="act13" value="add_monster pythwire,25,spyder_dojo_sokka,5,10"/>
-    <property name="act14" value="add_monster embazook,25,spyder_dojo_sokka,5,10"/>
-    <property name="act15" value="add_monster pigabyte,25,spyder_dojo_sokka,5,10"/>
     <property name="act16" value="start_battle player,spyder_dojo_sokka"/>
     <property name="act17" value="char_talk spyder_dojo_sokka,post_battle_lose"/>
     <property name="act35" value="char_stop player"/>
@@ -227,11 +216,6 @@
    <properties>
     <property name="act01" value="char_talk spyder_dojo_toph,pre_battle"/>
     <property name="act02" value="add_monster rockat,25,spyder_dojo_toph,5,10"/>
-    <property name="act03" value="add_monster rhincus,25,spyder_dojo_toph,5,10"/>
-    <property name="act04" value="add_monster galnec,25,spyder_dojo_toph,5,10"/>
-    <property name="act05" value="add_monster sludgehog,25,spyder_dojo_toph,5,10"/>
-    <property name="act06" value="add_monster eruptibus,25,spyder_dojo_toph,5,10"/>
-    <property name="act07" value="add_monster vividactil,25,spyder_dojo_toph,5,10"/>
     <property name="act08" value="start_battle player,spyder_dojo_toph"/>
     <property name="act09" value="char_talk spyder_dojo_toph,post_battle_lose"/>
     <property name="act35" value="char_stop player"/>
@@ -266,10 +250,6 @@
    <properties>
     <property name="act11" value="translated_dialog spyder_dojo_wan4"/>
     <property name="act12" value="add_monster galnec,25,spyder_dojo_wan,5,10"/>
-    <property name="act13" value="add_monster embazook,25,spyder_dojo_wan,5,10"/>
-    <property name="act14" value="add_monster vigueur,25,spyder_dojo_wan,5,10"/>
-    <property name="act15" value="add_monster hydrone,25,spyder_dojo_wan,5,10"/>
-    <property name="act16" value="add_monster djinnbo,25,spyder_dojo_wan,5,10"/>
     <property name="act20" value="get_party_monster spyder_dojo_wan"/>
     <property name="act21" value="add_tech iid_slot_2,magma"/>
     <property name="act22" value="add_tech iid_slot_4,shapechange"/>

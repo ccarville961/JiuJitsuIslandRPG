@@ -68,9 +68,6 @@
    <properties>
     <property name="act10" value="char_talk spyder_greenwash_looten,pre_battle"/>
     <property name="act11" value="add_monster bearloch,35,spyder_greenwash_looten,5,10"/>
-    <property name="act12" value="add_monster rocktot,35,spyder_greenwash_looten,5,10"/>
-    <property name="act13" value="add_monster foxko,35,spyder_greenwash_looten,5,10"/>
-    <property name="act14" value="add_monster agnsher,35,spyder_greenwash_looten,5,10"/>
     <property name="act20" value="start_battle player,spyder_greenwash_looten"/>
     <property name="act21" value="char_talk spyder_greenwash_looten,post_battle_lose"/>
     <property name="act22" value="translated_dialog spyder_greenwash_looten3"/>
@@ -135,8 +132,6 @@
     <property name="act04" value="char_talk spyder_greenwash_chip,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster av8r,27,spyder_greenwash_chip,5,10"/>
-    <property name="act07" value="add_monster criniotherme,27,spyder_greenwash_chip,5,10"/>
-    <property name="act08" value="add_monster tikorch,27,spyder_greenwash_chip,5,10"/>
     <property name="act09" value="start_battle player,spyder_greenwash_chip"/>
     <property name="act10" value="char_talk spyder_greenwash_chip,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_greenwash_chip"/>
@@ -152,7 +147,6 @@
     <property name="act4" value="char_talk spyder_greenwash_clarence,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster pigabyte,30,spyder_greenwash_clarence,5,10"/>
-    <property name="act7" value="add_monster cochini,28,spyder_greenwash_clarence,5,10"/>
     <property name="act8" value="start_battle player,spyder_greenwash_clarence"/>
     <property name="act9" value="char_talk spyder_greenwash_clarence,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_greenwash_clarence"/>
@@ -227,7 +221,6 @@
     <property name="act4" value="char_talk spyder_greenwash_morehouse,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster eyenemy,25,spyder_greenwash_morehouse,5,10"/>
-    <property name="act7" value="add_monster eyesore,25,spyder_greenwash_morehouse,5,10"/>
     <property name="act8" value="start_battle player,spyder_greenwash_morehouse"/>
     <property name="act9" value="char_talk spyder_greenwash_morehouse,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_greenwash_morehouse"/>

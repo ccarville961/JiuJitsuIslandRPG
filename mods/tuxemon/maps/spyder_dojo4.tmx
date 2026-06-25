@@ -73,7 +73,6 @@
    <properties>
     <property name="act11" value="translated_dialog spyder_dojo_thri1"/>
     <property name="act12" value="add_monster sampsage,35,spyder_dojo_thri,5,10"/>
-    <property name="act13" value="add_monster sampsack,35,spyder_dojo_thri,5,10"/>
     <property name="act14" value="start_battle player,spyder_dojo_thri"/>
     <property name="act31" value="translated_dialog spyder_dojo_thri2"/>
     <property name="act32" value="translated_dialog_choice strength:strategy,thriquestion"/>
@@ -115,12 +114,6 @@
     <property name="act08" value="translated_dialog spyder_dojo_billie1"/>
     <property name="act20" value="add_monster billie_choice,34,spyder_billie,5,10"/>
     <property name="act21" value="set_monster_attribute add_monster,gender,male"/>
-    <property name="act22" value="add_monster eyesore,30,spyder_billie,5,10"/>
-    <property name="act23" value="set_monster_attribute add_monster,gender,female"/>
-    <property name="act24" value="add_monster cardiwing,30,spyder_billie,5,10"/>
-    <property name="act25" value="set_monster_attribute add_monster,gender,female"/>
-    <property name="act26" value="add_monster viviphyta,30,spyder_billie,5,10"/>
-    <property name="act27" value="set_monster_attribute add_monster,gender,male"/>
     <property name="act30" value="start_battle player,spyder_billie"/>
     <property name="act40" value="translated_dialog spyder_dojo_billie2"/>
     <property name="act45" value="translated_dialog spyder_dojo_billie3"/>

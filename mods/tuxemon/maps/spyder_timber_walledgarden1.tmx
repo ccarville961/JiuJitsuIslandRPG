@@ -123,8 +123,6 @@
     <property name="act04" value="char_talk spyder_walled_fugger,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster polyrock,50,spyder_walled_fugger,5,10"/>
-    <property name="act07" value="add_monster sampsage,50,spyder_walled_fugger,5,10"/>
-    <property name="act08" value="add_monster sampsack,50,spyder_walled_fugger,5,10"/>
     <property name="act09" value="start_battle player,spyder_walled_fugger"/>
     <property name="act10" value="char_talk spyder_walled_fugger,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_walled_fugger"/>
@@ -147,7 +145,6 @@
     <property name="act04" value="char_talk spyder_walled_carnegie,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster tetrchimp,45,spyder_walled_carnegie,5,10"/>
-    <property name="act07" value="add_monster apeoro,55,spyder_walled_carnegie,5,10"/>
     <property name="act08" value="start_battle player,spyder_walled_carnegie"/>
     <property name="act09" value="char_talk spyder_walled_carnegie,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_walled_carnegie"/>
@@ -170,8 +167,6 @@
     <property name="act04" value="char_talk spyder_walled_ford,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster drashimi,50,spyder_walled_ford,5,10"/>
-    <property name="act07" value="add_monster mingdyn,50,spyder_walled_ford,5,10"/>
-    <property name="act08" value="add_monster firomenis,50,spyder_walled_ford,5,10"/>
     <property name="act09" value="start_battle player,spyder_walled_ford"/>
     <property name="act10" value="char_talk spyder_walled_ford,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_walled_ford"/>
@@ -194,8 +189,6 @@
     <property name="act04" value="char_talk spyder_walled_girard,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster tigrock,50,spyder_walled_girard,5,10"/>
-    <property name="act07" value="add_monster anu,50,spyder_walled_girard,5,10"/>
-    <property name="act08" value="add_monster komoduel,50,spyder_walled_girard,5,10"/>
     <property name="act09" value="start_battle player,spyder_walled_girard"/>
     <property name="act10" value="char_talk spyder_walled_girard,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_walled_girard"/>
@@ -218,8 +211,6 @@
     <property name="act04" value="char_talk spyder_walled_vanderbilt,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster angesnow,50,spyder_walled_vanderbilt,5,10"/>
-    <property name="act07" value="add_monster cowpignon,50,spyder_walled_vanderbilt,5,10"/>
-    <property name="act08" value="add_monster narcileaf,50,spyder_walled_vanderbilt,5,10"/>
     <property name="act09" value="start_battle player,spyder_walled_vanderbilt"/>
     <property name="act10" value="char_talk spyder_walled_vanderbilt,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_walled_vanderbilt"/>
@@ -235,8 +226,6 @@
     <property name="act04" value="char_talk spyder_walled_ford,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster drashimi,50,spyder_walled_ford,5,10"/>
-    <property name="act07" value="add_monster mingdyn,50,spyder_walled_ford,5,10"/>
-    <property name="act08" value="add_monster firomenis,50,spyder_walled_ford,5,10"/>
     <property name="act09" value="start_battle player,spyder_walled_ford"/>
     <property name="act10" value="char_talk spyder_walled_ford,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_walled_ford"/>
@@ -252,8 +241,6 @@
     <property name="act04" value="char_talk spyder_walled_vanderbilt,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster angesnow,50,spyder_walled_vanderbilt,5,10"/>
-    <property name="act07" value="add_monster cowpignon,50,spyder_walled_vanderbilt,5,10"/>
-    <property name="act08" value="add_monster narcileaf,50,spyder_walled_vanderbilt,5,10"/>
     <property name="act09" value="start_battle player,spyder_walled_vanderbilt"/>
     <property name="act10" value="char_talk spyder_walled_vanderbilt,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_walled_vanderbilt"/>
@@ -276,8 +263,6 @@
     <property name="act04" value="char_talk spyder_walled_astor,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster araignee,50,spyder_walled_astor,5,10"/>
-    <property name="act07" value="add_monster spighter,50,spyder_walled_astor,5,10"/>
-    <property name="act08" value="add_monster selket,50,spyder_walled_astor,5,10"/>
     <property name="act09" value="start_battle player,spyder_walled_astor"/>
     <property name="act10" value="char_talk spyder_walled_astor,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_walled_astor"/>

@@ -232,7 +232,6 @@
     <property name="act4" value="char_talk spyder_mansion_gillette,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster djinnbo,22,spyder_mansion_gillette,5,10"/>
-    <property name="act7" value="add_monster ghosteeth,22,spyder_mansion_gillette,5,10"/>
     <property name="act8" value="start_battle player,spyder_mansion_gillette"/>
     <property name="act9" value="char_talk spyder_mansion_gillette,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_mansion_gillette"/>
@@ -248,7 +247,6 @@
     <property name="act4" value="char_talk spyder_mansion_lucy,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster elofly,15,spyder_mansion_lucy,5,10"/>
-    <property name="act7" value="add_monster budaye,15,spyder_mansion_lucy,5,10"/>
     <property name="act8" value="start_battle player,spyder_mansion_lucy"/>
     <property name="act9" value="char_talk spyder_mansion_lucy,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_mansion_lucy"/>
@@ -264,7 +262,6 @@
     <property name="act4" value="char_talk spyder_mansion_lyle,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster foofle,20,spyder_mansion_lyle,5,10"/>
-    <property name="act7" value="add_monster shybulb,20,spyder_mansion_lyle,5,10"/>
     <property name="act8" value="start_battle player,spyder_mansion_lyle"/>
     <property name="act9" value="char_talk spyder_mansion_lyle,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_mansion_lyle"/>

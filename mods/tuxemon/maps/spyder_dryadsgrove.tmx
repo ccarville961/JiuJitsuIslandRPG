@@ -573,8 +573,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_dryadsgrove_aquemini,pre_battle"/>
     <property name="act2" value="add_monster vivitrans,50,spyder_dryadsgrove_aquemini,5,10"/>
-    <property name="act3" value="add_monster nudimind,50,spyder_dryadsgrove_aquemini,5,10"/>
-    <property name="act4" value="add_monster noctalo,50,spyder_dryadsgrove_aquemini,5,10"/>
     <property name="act5" value="start_battle player,spyder_dryadsgrove_aquemini"/>
     <property name="act6" value="char_talk spyder_dryadsgrove_aquemini,post_battle_lose"/>
     <property name="behav1" value="talk spyder_dryadsgrove_aquemini"/>
@@ -604,8 +602,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_dryadsgrove_ignatia,pre_battle"/>
     <property name="act2" value="add_monster vivicinder,50,spyder_dryadsgrove_ignatia,5,10"/>
-    <property name="act3" value="add_monster masknake,50,spyder_dryadsgrove_ignatia,5,10"/>
-    <property name="act4" value="add_monster criniotherme,50,spyder_dryadsgrove_ignatia,5,10"/>
     <property name="act5" value="start_battle player,spyder_dryadsgrove_ignatia"/>
     <property name="act6" value="char_talk spyder_dryadsgrove_ignatia,post_battle_lose"/>
     <property name="behav1" value="talk spyder_dryadsgrove_ignatia"/>
@@ -623,8 +619,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_dryadsgrove_petra,pre_battle"/>
     <property name="act2" value="add_monster vivitron,50,spyder_dryadsgrove_petra,5,10"/>
-    <property name="act3" value="add_monster sumchon,50,spyder_dryadsgrove_petra,5,10"/>
-    <property name="act4" value="add_monster exapode,50,spyder_dryadsgrove_petra,5,10"/>
     <property name="act5" value="start_battle player,spyder_dryadsgrove_petra"/>
     <property name="act6" value="char_talk spyder_dryadsgrove_petra,post_battle_lose"/>
     <property name="behav1" value="talk spyder_dryadsgrove_petra"/>
@@ -642,8 +636,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_dryadsgrove_sylvia,pre_battle"/>
     <property name="act2" value="add_monster viviphyta,50,spyder_dryadsgrove_sylvia,5,10"/>
-    <property name="act3" value="add_monster dandylion,50,spyder_dryadsgrove_sylvia,5,10"/>
-    <property name="act4" value="add_monster narcileaf,50,spyder_dryadsgrove_sylvia,5,10"/>
     <property name="act5" value="start_battle player,spyder_dryadsgrove_sylvia"/>
     <property name="act6" value="char_talk spyder_dryadsgrove_sylvia,post_battle_lose"/>
     <property name="behav1" value="talk spyder_dryadsgrove_sylvia"/>
@@ -672,8 +664,6 @@
     <property name="act04" value="char_talk spyder_dryadsgrove_aquemini,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster vivitrans,50,spyder_dryadsgrove_aquemini,5,10"/>
-    <property name="act07" value="add_monster nudimind,50,spyder_dryadsgrove_aquemini,5,10"/>
-    <property name="act08" value="add_monster noctalo,50,spyder_dryadsgrove_aquemini,5,10"/>
     <property name="act09" value="start_battle player,spyder_dryadsgrove_aquemini"/>
     <property name="act10" value="char_talk spyder_dryadsgrove_aquemini,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_dryadsgrove_aquemini"/>
@@ -689,8 +679,6 @@
     <property name="act04" value="char_talk spyder_dryadsgrove_ignatia,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster vivicinder,50,spyder_dryadsgrove_ignatia,5,10"/>
-    <property name="act07" value="add_monster masknake,50,spyder_dryadsgrove_ignatia,5,10"/>
-    <property name="act08" value="add_monster criniotherme,50,spyder_dryadsgrove_ignatia,5,10"/>
     <property name="act09" value="start_battle player,spyder_dryadsgrove_ignatia"/>
     <property name="act10" value="char_talk spyder_dryadsgrove_ignatia,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_dryadsgrove_ignatia"/>
@@ -706,8 +694,6 @@
     <property name="act04" value="char_talk spyder_dryadsgrove_petra,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster vivitron,50,spyder_dryadsgrove_petra,5,10"/>
-    <property name="act07" value="add_monster sumchon,50,spyder_dryadsgrove_petra,5,10"/>
-    <property name="act08" value="add_monster exapode,50,spyder_dryadsgrove_petra,5,10"/>
     <property name="act09" value="start_battle player,spyder_dryadsgrove_petra"/>
     <property name="act10" value="char_talk spyder_dryadsgrove_petra,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_dryadsgrove_petra"/>
@@ -726,8 +712,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_dryadsgrove_ferris,pre_battle"/>
     <property name="act2" value="add_monster viviteel,50,spyder_dryadsgrove_ferris,5,10"/>
-    <property name="act3" value="add_monster allagon,50,spyder_dryadsgrove_ferris,5,10"/>
-    <property name="act4" value="add_monster araignee,50,spyder_dryadsgrove_ferris,5,10"/>
     <property name="act5" value="start_battle player,spyder_dryadsgrove_ferris"/>
     <property name="act6" value="char_talk spyder_dryadsgrove_ferris,post_battle_lose"/>
     <property name="behav1" value="talk spyder_dryadsgrove_ferris"/>
@@ -742,8 +726,6 @@
     <property name="act04" value="char_talk spyder_dryadsgrove_ferris,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster viviteel,50,spyder_dryadsgrove_ferris,5,10"/>
-    <property name="act07" value="add_monster allagon,50,spyder_dryadsgrove_ferris,5,10"/>
-    <property name="act08" value="add_monster araignee,50,spyder_dryadsgrove_ferris,5,10"/>
     <property name="act09" value="start_battle player,spyder_dryadsgrove_ferris"/>
     <property name="act10" value="char_talk spyder_dryadsgrove_ferris,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_dryadsgrove_ferris"/>

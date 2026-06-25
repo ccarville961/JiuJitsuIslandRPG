@@ -391,8 +391,6 @@ events:
     - char_talk eclipse_route7_arnaut,pre_battle
     - unlock_controls
     - add_monster fluttaflap,20,eclipse_route7_arnaut,5,10
-    - add_monster metesaur,10,eclipse_route7_arnaut,5,10
-    - add_monster heronquak,10,eclipse_route7_arnaut,5,10
     - start_battle player,eclipse_route7_arnaut
     - char_talk eclipse_route7_arnaut,post_battle_lose
     conditions:
@@ -415,8 +413,6 @@ events:
     - char_talk eclipse_route7_conrad,pre_battle
     - unlock_controls
     - add_monster tux,20,eclipse_route7_conrad,5,10
-    - add_monster snowrilla,20,eclipse_route7_conrad,5,10
-    - add_monster chillimp,10,eclipse_route7_conrad,5,10
     - start_battle player,eclipse_route7_conrad
     - char_talk eclipse_route7_conrad,post_battle_lose
     conditions:
@@ -435,7 +431,6 @@ events:
     - char_talk eclipse_route7_hugh,pre_battle
     - unlock_controls
     - add_monster qetzlrokilus,20,eclipse_route7_hugh,5,10
-    - add_monster velocitile,20,eclipse_route7_hugh,5,10
     - start_battle player,eclipse_route7_hugh
     - char_talk eclipse_route7_hugh,post_battle_lose
     conditions:
@@ -452,9 +447,6 @@ events:
     - char_talk eclipse_route7_jacopo,pre_battle
     - unlock_controls
     - add_monster shelagu,10,eclipse_route7_jacopo,5,10
-    - add_monster vivisource,10,eclipse_route7_jacopo,5,10
-    - add_monster statursus,10,eclipse_route7_jacopo,5,10
-    - add_monster statursus,15,eclipse_route7_jacopo,5,10
     - start_battle player,eclipse_route7_jacopo
     - char_talk eclipse_route7_jacopo,post_battle_lose
     conditions:
@@ -471,8 +463,6 @@ events:
     - char_talk eclipse_route7_manfred,pre_battle
     - unlock_controls
     - add_monster chenipode,10,eclipse_route7_manfred,5,10
-    - add_monster chenipode,10,eclipse_route7_manfred,5,10
-    - add_monster exapode,20,eclipse_route7_manfred,5,10
     - start_battle player,eclipse_route7_manfred
     - char_talk eclipse_route7_manfred,post_battle_lose
     conditions:
@@ -495,8 +485,6 @@ events:
     - char_talk eclipse_route7_nino,pre_battle
     - unlock_controls
     - add_monster vividactil,20,eclipse_route7_nino,5,10
-    - add_monster fluttaflap,20,eclipse_route7_nino,5,10
-    - add_monster statursus,20,eclipse_route7_nino,5,10
     - start_battle player,eclipse_route7_nino
     - char_talk eclipse_route7_nino,post_battle_lose
     conditions:
@@ -522,8 +510,6 @@ events:
     - char_talk eclipse_route7_penitent,pre_battle
     - unlock_controls
     - add_monster rhinocarpe,20,eclipse_route7_penitent,5,10
-    - add_monster bursa,10,eclipse_route7_penitent,5,10
-    - add_monster dandicub,10,eclipse_route7_penitent,5,10
     - start_battle player,eclipse_route7_penitent
     - char_talk eclipse_route7_penitent,post_battle_lose
     conditions:
@@ -540,8 +526,6 @@ events:
     - char_talk eclipse_route7_pia,pre_battle
     - unlock_controls
     - add_monster anoleaf,15,eclipse_route7_pia,5,10
-    - add_monster gectile,20,eclipse_route7_pia,5,10
-    - add_monster velocitile,25,eclipse_route7_pia,5,10
     - start_battle player,eclipse_route7_pia
     - char_talk eclipse_route7_pia,post_battle_lose
     conditions:
@@ -564,10 +548,6 @@ events:
     - char_talk eclipse_route7_sordello,pre_battle
     - unlock_controls
     - add_monster fuzzlet,10,eclipse_route7_sordello,5,10
-    - add_monster ziggurat,10,eclipse_route7_sordello,5,10
-    - add_monster woodoor,10,eclipse_route7_sordello,5,10
-    - add_monster potturmeist,10,eclipse_route7_sordello,5,10
-    - add_monster squink,10,eclipse_route7_sordello,5,10
     - start_battle player,eclipse_route7_sordello
     - char_talk eclipse_route7_sordello,post_battle_lose
     conditions:
@@ -584,9 +564,6 @@ events:
     - char_talk eclipse_route7_statius,pre_battle
     - unlock_controls
     - add_monster aardart,10,eclipse_route7_statius,5,10
-    - add_monster pairagrim,10,eclipse_route7_statius,5,10
-    - add_monster bolt,10,eclipse_route7_statius,5,10
-    - add_monster fribbit,10,eclipse_route7_statius,5,10
     - start_battle player,eclipse_route7_statius
     - char_talk eclipse_route7_statius,post_battle_lose
     conditions:

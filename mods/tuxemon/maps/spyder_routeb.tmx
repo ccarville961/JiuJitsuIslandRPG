@@ -92,8 +92,6 @@
     <property name="act04" value="char_talk spyder_routeb_electra,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster dracune,35,spyder_routeb_electra,5,10"/>
-    <property name="act07" value="add_monster pantherafira,45,spyder_routeb_electra,5,10"/>
-    <property name="act08" value="add_monster tumbleworm,40,spyder_routeb_electra,5,10"/>
     <property name="act09" value="start_battle player,spyder_routeb_electra"/>
     <property name="act10" value="char_talk spyder_routeb_electra,post_battle_lose"/>
     <property name="act11" value="set_variable routebelectra:yes"/>
@@ -116,8 +114,6 @@
     <property name="act04" value="char_talk spyder_routeb_cytherea,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster fluttaflap,35,spyder_routeb_cytherea,5,10"/>
-    <property name="act07" value="add_monster criniotherme,35,spyder_routeb_cytherea,5,10"/>
-    <property name="act08" value="add_monster tumblebee,40,spyder_routeb_cytherea,5,10"/>
     <property name="act09" value="start_battle player,spyder_routeb_cytherea"/>
     <property name="act10" value="char_talk spyder_routeb_cytherea,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_routeb_cytherea"/>
@@ -139,7 +135,6 @@
     <property name="act4" value="char_talk spyder_routeb_nephthys,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster conifrost,45,spyder_routeb_nephthys,5,10"/>
-    <property name="act7" value="add_monster djinnbo,45,spyder_routeb_nephthys,5,10"/>
     <property name="act8" value="start_battle player,spyder_routeb_nephthys"/>
     <property name="act9" value="char_talk spyder_routeb_nephthys,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_routeb_nephthys"/>
@@ -183,8 +178,6 @@
     <property name="act04" value="char_talk spyder_routeb_calypso,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster ruption,40,spyder_routeb_calypso,5,10"/>
-    <property name="act07" value="add_monster puparmor,35,spyder_routeb_calypso,5,10"/>
-    <property name="act08" value="add_monster sumchon,40,spyder_routeb_calypso,5,10"/>
     <property name="act09" value="start_battle player,spyder_routeb_calypso"/>
     <property name="act10" value="char_talk spyder_routeb_calypso,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_routeb_calypso"/>

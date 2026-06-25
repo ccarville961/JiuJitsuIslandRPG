@@ -230,7 +230,6 @@
    <properties>
     <property name="act10" value="char_talk spyder_wayfarer1_jessie,pre_battle"/>
     <property name="act11" value="add_monster lapinou,12,spyder_wayfarer1_jessie,5,10"/>
-    <property name="act12" value="add_monster cairfrey,12,spyder_wayfarer1_jessie,5,10"/>
     <property name="act13" value="char_plague spyderbite,infected,spyder_wayfarer1_jessie"/>
     <property name="act14" value="start_battle player,spyder_wayfarer1_jessie"/>
     <property name="act15" value="char_talk spyder_wayfarer1_jessie,post_battle_lose"/>
@@ -248,7 +247,6 @@
    <properties>
     <property name="act10" value="char_talk spyder_wayfarer1_nightshade,pre_battle"/>
     <property name="act11" value="add_monster lapinou,12,spyder_wayfarer1_nightshade,5,10"/>
-    <property name="act12" value="add_monster elofly,12,spyder_wayfarer1_nightshade,5,10"/>
     <property name="act13" value="char_plague spyderbite,infected,spyder_wayfarer1_nightshade"/>
     <property name="act14" value="start_battle player,spyder_wayfarer1_nightshade"/>
     <property name="act15" value="char_talk spyder_wayfarer1_nightshade,post_battle_lose"/>
@@ -282,7 +280,6 @@
    <properties>
     <property name="act10" value="char_talk spyder_wayfarer1_morningstar,pre_battle"/>
     <property name="act11" value="add_monster cairfrey,12,spyder_wayfarer1_morningstar,5,10"/>
-    <property name="act12" value="add_monster cairfrey,12,spyder_wayfarer1_morningstar,5,10"/>
     <property name="act13" value="char_plague spyderbite,infected,spyder_wayfarer1_morningstar"/>
     <property name="act14" value="start_battle player,spyder_wayfarer1_morningstar"/>
     <property name="act15" value="char_talk spyder_wayfarer1_morningstar,post_battle_lose"/>
@@ -298,7 +295,6 @@
     <property name="act04" value="char_talk spyder_wayfarer1_morningstar,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster cairfrey,12,spyder_wayfarer1_morningstar,5,10"/>
-    <property name="act07" value="add_monster cairfrey,12,spyder_wayfarer1_morningstar,5,10"/>
     <property name="act08" value="char_plague spyderbite,infected,spyder_wayfarer1_morningstar"/>
     <property name="act09" value="start_battle player,spyder_wayfarer1_morningstar"/>
     <property name="act10" value="char_talk spyder_wayfarer1_morningstar,post_battle_lose"/>

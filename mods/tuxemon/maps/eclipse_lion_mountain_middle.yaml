@@ -130,8 +130,6 @@ events:
     - char_talk eclipse_lionmountain_adam,pre_battle
     - unlock_controls
     - add_monster tikoal,50,eclipse_lionmountain_adam,5,10
-    - add_monster tikorch,55,eclipse_lionmountain_adam,5,10
-    - add_monster loliferno,55,eclipse_lionmountain_adam,5,10
     - start_battle player,eclipse_lionmountain_adam
     - char_talk eclipse_lionmountain_adam,post_battle_lose
     conditions:
@@ -148,8 +146,6 @@ events:
     - char_talk eclipse_lionmountain_chhurim,pre_battle
     - unlock_controls
     - add_monster fribbit,50,eclipse_lionmountain_chhurim,5,10
-    - add_monster propellercat,50,eclipse_lionmountain_chhurim,5,10
-    - add_monster agnigon,50,eclipse_lionmountain_chhurim,5,10
     - start_battle player,eclipse_lionmountain_chhurim
     - char_talk eclipse_lionmountain_chhurim,post_battle_lose
     conditions:
@@ -188,7 +184,6 @@ events:
     - char_talk eclipse_lionmountain_jacques,pre_battle
     - unlock_controls
     - add_monster jemuar,60,eclipse_lionmountain_jacques,5,10
-    - add_monster heronquak,55,eclipse_lionmountain_jacques,5,10
     - start_battle player,eclipse_lionmountain_jacques
     - char_talk eclipse_lionmountain_jacques,post_battle_lose
     conditions:

@@ -135,9 +135,6 @@
    <properties>
     <property name="act11" value="char_talk spyder_dojo_saturn,pre_battle"/>
     <property name="act12" value="add_monster hampotamos,30,spyder_dojo_saturn,5,10"/>
-    <property name="act13" value="add_monster baobaraffe,30,spyder_dojo_saturn,5,10"/>
-    <property name="act14" value="add_monster shnark,30,spyder_dojo_saturn,5,10"/>
-    <property name="act15" value="add_monster sludgehog,30,spyder_dojo_saturn,5,10"/>
     <property name="act16" value="start_battle player,spyder_dojo_saturn"/>
     <property name="act17" value="char_talk spyder_dojo_saturn,post_battle_lose"/>
     <property name="act20" value="set_monster_health"/>
@@ -152,9 +149,6 @@
    <properties>
     <property name="act11" value="char_talk spyder_dojo_hephastus,pre_battle"/>
     <property name="act12" value="add_monster mystikapi,30,spyder_dojo_hephastus,5,10"/>
-    <property name="act13" value="add_monster lightmare,30,spyder_dojo_hephastus,5,10"/>
-    <property name="act14" value="add_monster cocrune,30,spyder_dojo_hephastus,5,10"/>
-    <property name="act15" value="add_monster embra,30,spyder_dojo_hephastus,5,10"/>
     <property name="act16" value="start_battle player,spyder_dojo_hephastus"/>
     <property name="act17" value="char_talk spyder_dojo_hephastus,post_battle_lose"/>
     <property name="act20" value="set_monster_health"/>
@@ -169,9 +163,6 @@
    <properties>
     <property name="act11" value="char_talk spyder_dojo_hermes,pre_battle"/>
     <property name="act12" value="add_monster capiti,30,spyder_dojo_hermes,5,10"/>
-    <property name="act13" value="add_monster graffiki,30,spyder_dojo_hermes,5,10"/>
-    <property name="act14" value="add_monster volcoli,30,spyder_dojo_hermes,5,10"/>
-    <property name="act15" value="add_monster eaglace,30,spyder_dojo_hermes,5,10"/>
     <property name="act16" value="start_battle player,spyder_dojo_hermes"/>
     <property name="act17" value="char_talk spyder_dojo_hermes,post_battle_lose"/>
     <property name="act20" value="set_monster_health"/>
@@ -186,9 +177,6 @@
    <properties>
     <property name="act11" value="char_talk spyder_dojo_orion,pre_battle"/>
     <property name="act12" value="add_monster skwib,30,spyder_dojo_orion,5,10"/>
-    <property name="act13" value="add_monster miaownolith,30,spyder_dojo_orion,5,10"/>
-    <property name="act14" value="add_monster grimachin,30,spyder_dojo_orion,5,10"/>
-    <property name="act15" value="add_monster drashimi,30,spyder_dojo_orion,5,10"/>
     <property name="act16" value="start_battle player,spyder_dojo_orion"/>
     <property name="act17" value="char_talk spyder_dojo_orion,post_battle_lose"/>
     <property name="act20" value="set_monster_health"/>
@@ -203,9 +191,6 @@
    <properties>
     <property name="act01" value="char_talk spyder_dojo_ares,pre_battle"/>
     <property name="act02" value="add_monster urcine,30,spyder_dojo_ares,5,10"/>
-    <property name="act03" value="add_monster flambear,30,spyder_dojo_ares,5,10"/>
-    <property name="act04" value="add_monster boltnu,30,spyder_dojo_ares,5,10"/>
-    <property name="act05" value="add_monster tourbidi,30,spyder_dojo_ares,5,10"/>
     <property name="act08" value="start_battle player,spyder_dojo_ares"/>
     <property name="act09" value="char_talk spyder_dojo_ares,post_battle_lose"/>
     <property name="act20" value="set_monster_health"/>
@@ -237,10 +222,6 @@
    <properties>
     <property name="act11" value="translated_dialog spyder_dojo_tu4"/>
     <property name="act12" value="add_monster urcine,30,spyder_dojo_tu,5,10"/>
-    <property name="act13" value="add_monster skwib,30,spyder_dojo_tu,5,10"/>
-    <property name="act14" value="add_monster mystikapi,30,spyder_dojo_tu,5,10"/>
-    <property name="act15" value="add_monster graffiki,30,spyder_dojo_tu,5,10"/>
-    <property name="act16" value="add_monster sludgehog,30,spyder_dojo_tu,5,10"/>
     <property name="act17" value="start_battle player,spyder_dojo_tu"/>
     <property name="act20" value="set_monster_health"/>
     <property name="act30" value="set_monster_status"/>

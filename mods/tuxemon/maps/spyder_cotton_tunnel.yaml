@@ -223,7 +223,6 @@ events:
     - char_talk spyder_cottontunnel_carlos,pre_battle
     - unlock_controls
     - add_monster agnidon,40,spyder_cottontunnel_carlos,5,10
-    - add_monster legko,40,spyder_cottontunnel_carlos,5,10
     - start_battle player,spyder_cottontunnel_carlos
     - char_talk spyder_cottontunnel_carlos,post_battle_lose
     conditions:

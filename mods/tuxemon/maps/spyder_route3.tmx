@@ -210,9 +210,6 @@
    <properties>
     <property name="act01" value="char_talk spyder_route3_zoolander,pre_battle"/>
     <property name="act02" value="add_monster eruptibus,14,spyder_route3_zoolander,5,10"/>
-    <property name="act03" value="add_monster rockat,14,spyder_route3_zoolander,5,10"/>
-    <property name="act04" value="add_monster forturtle,16,spyder_route3_zoolander,5,10"/>
-    <property name="act05" value="add_monster grinflare,16,spyder_route3_zoolander,5,10"/>
     <property name="act06" value="start_battle player,spyder_route3_zoolander"/>
     <property name="act07" value="char_talk spyder_route3_zoolander,post_battle_lose"/>
     <property name="act08" value="add_item sledgehammer"/>
@@ -252,7 +249,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_route3_weaver,pre_battle"/>
     <property name="act2" value="add_monster pythwire,12,spyder_route3_weaver,5,10"/>
-    <property name="act3" value="add_monster squabbit,12,spyder_route3_weaver,5,10"/>
     <property name="act4" value="start_battle player,spyder_route3_weaver"/>
     <property name="act5" value="char_talk spyder_route3_weaver,post_battle_lose"/>
     <property name="behav1" value="talk spyder_route3_weaver"/>
@@ -405,11 +401,6 @@
    <properties>
     <property name="act00" value="char_talk spyder_route3_connor,pre_battle"/>
     <property name="act01" value="add_monster weavifly,12,spyder_route3_connor,5,10"/>
-    <property name="act02" value="add_monster cataspike,8,spyder_route3_connor,5,10"/>
-    <property name="act03" value="add_monster cataspike,8,spyder_route3_connor,5,10"/>
-    <property name="act04" value="add_monster cataspike,8,spyder_route3_connor,5,10"/>
-    <property name="act05" value="add_monster cataspike,8,spyder_route3_connor,5,10"/>
-    <property name="act06" value="add_monster cataspike,8,spyder_route3_connor,5,10"/>
     <property name="act07" value="start_battle player,spyder_route3_connor"/>
     <property name="act08" value="char_talk spyder_route3_connor,post_battle_lose"/>
     <property name="behav1" value="talk spyder_route3_connor"/>
@@ -426,11 +417,6 @@
    <properties>
     <property name="act01" value="char_talk spyder_route3_wanda,pre_battle"/>
     <property name="act02" value="add_monster nudiflot_male,8,spyder_route3_wanda,5,10"/>
-    <property name="act03" value="add_monster nudiflot_female,8,spyder_route3_wanda,5,10"/>
-    <property name="act04" value="add_monster nudiflot_male,8,spyder_route3_wanda,5,10"/>
-    <property name="act05" value="add_monster nudiflot_female,8,spyder_route3_wanda,5,10"/>
-    <property name="act06" value="add_monster nudiflot_male,8,spyder_route3_wanda,5,10"/>
-    <property name="act07" value="add_monster nudiflot_female,8,spyder_route3_wanda,5,10"/>
     <property name="act08" value="start_battle player,spyder_route3_wanda"/>
     <property name="act09" value="char_talk spyder_route3_wanda,post_battle_lose"/>
     <property name="act10" value="add_item fishing_rod"/>
@@ -457,7 +443,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_route3_twig,pre_battle"/>
     <property name="act2" value="add_monster aardorn,11,spyder_route3_twig,5,10"/>
-    <property name="act3" value="add_monster foofle,11,spyder_route3_twig,5,10"/>
     <property name="act4" value="start_battle player,spyder_route3_twig"/>
     <property name="act5" value="char_talk spyder_route3_twig,post_battle_lose"/>
     <property name="behav1" value="talk spyder_route3_twig"/>
@@ -482,7 +467,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_route3_surat,pre_battle"/>
     <property name="act2" value="add_monster rockat,12,spyder_route3_surat,5,10"/>
-    <property name="act3" value="add_monster foofle,12,spyder_route3_surat,5,10"/>
     <property name="act4" value="start_battle player,spyder_route3_surat"/>
     <property name="act5" value="char_talk spyder_route3_surat,post_battle_lose"/>
     <property name="behav1" value="talk spyder_route3_surat"/>
@@ -506,7 +490,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_route3_roxby,pre_battle"/>
     <property name="act2" value="add_monster rockitten,13,spyder_route3_roxby,5,10"/>
-    <property name="act3" value="add_monster ignibus,13,spyder_route3_roxby,5,10"/>
     <property name="act4" value="start_battle player,spyder_route3_roxby"/>
     <property name="act5" value="char_talk spyder_route3_roxby,post_battle_lose"/>
     <property name="behav1" value="talk spyder_route3_roxby"/>
@@ -555,7 +538,6 @@
     <property name="act4" value="char_talk spyder_route3_weaver,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster pythwire,12,spyder_route3_weaver,5,10"/>
-    <property name="act7" value="add_monster squabbit,12,spyder_route3_weaver,5,10"/>
     <property name="act8" value="start_battle player,spyder_route3_weaver"/>
     <property name="act9" value="char_talk spyder_route3_weaver,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_route3_weaver"/>
@@ -571,7 +553,6 @@
     <property name="act4" value="char_talk spyder_route3_twig,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster aardorn,11,spyder_route3_twig,5,10"/>
-    <property name="act7" value="add_monster foofle,11,spyder_route3_twig,5,10"/>
     <property name="act8" value="start_battle player,spyder_route3_twig"/>
     <property name="act9" value="char_talk spyder_route3_twig,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_route3_twig"/>
@@ -587,11 +568,6 @@
     <property name="act04" value="char_talk spyder_route3_wanda,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster nudiflot_male,8,spyder_route3_wanda,5,10"/>
-    <property name="act07" value="add_monster nudiflot_female,8,spyder_route3_wanda,5,10"/>
-    <property name="act08" value="add_monster nudiflot_male,8,spyder_route3_wanda,5,10"/>
-    <property name="act09" value="add_monster nudiflot_female,8,spyder_route3_wanda,5,10"/>
-    <property name="act10" value="add_monster nudiflot_male,8,spyder_route3_wanda,5,10"/>
-    <property name="act11" value="add_monster nudiflot_female,8,spyder_route3_wanda,5,10"/>
     <property name="act12" value="start_battle player,spyder_route3_wanda"/>
     <property name="act13" value="char_talk spyder_route3_wanda,post_battle_lose"/>
     <property name="act14" value="add_item fishing_rod"/>

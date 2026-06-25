@@ -77,11 +77,6 @@
    <properties>
     <property name="act01" value="char_talk spyder_searoutec_wade,pre_battle"/>
     <property name="act02" value="add_monster picc,25,spyder_searoutec_wade,5,10"/>
-    <property name="act03" value="add_monster picc,25,spyder_searoutec_wade,5,10"/>
-    <property name="act04" value="add_monster picc,25,spyder_searoutec_wade,5,10"/>
-    <property name="act05" value="add_monster picc,25,spyder_searoutec_wade,5,10"/>
-    <property name="act06" value="add_monster picc,25,spyder_searoutec_wade,5,10"/>
-    <property name="act07" value="add_monster picc,25,spyder_searoutec_wade,5,10"/>
     <property name="act08" value="start_battle player,spyder_searoutec_wade"/>
     <property name="act09" value="char_talk spyder_searoutec_wade,post_battle_lose"/>
     <property name="behav1" value="talk spyder_searoutec_wade"/>
@@ -98,8 +93,6 @@
    <properties>
     <property name="act2" value="char_talk spyder_searoutec_gil,pre_battle"/>
     <property name="act3" value="add_monster nudiflot_female,27,spyder_searoutec_gil,5,10"/>
-    <property name="act4" value="add_monster nudiflot_female,27,spyder_searoutec_gil,5,10"/>
-    <property name="act5" value="add_monster nudimind,29,spyder_searoutec_gil,5,10"/>
     <property name="act6" value="start_battle player,spyder_searoutec_gil"/>
     <property name="act7" value="char_talk spyder_searoutec_gil,post_battle_lose"/>
     <property name="behav1" value="talk spyder_searoutec_gil"/>
@@ -183,8 +176,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_searoutec_sandy,pre_battle"/>
     <property name="act2" value="add_monster sharpfin,27,spyder_searoutec_sandy,5,10"/>
-    <property name="act3" value="add_monster sharpfin,27,spyder_searoutec_sandy,5,10"/>
-    <property name="act4" value="add_monster bigfin,27,spyder_searoutec_sandy,5,10"/>
     <property name="act5" value="start_battle player,spyder_searoutec_sandy"/>
     <property name="act6" value="char_talk spyder_searoutec_sandy,post_battle_lose"/>
     <property name="behav1" value="talk spyder_searoutec_sandy"/>
@@ -228,8 +219,6 @@
     <property name="act04" value="char_talk spyder_searoutec_gil,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster nudiflot_female,27,spyder_searoutec_gil,5,10"/>
-    <property name="act07" value="add_monster nudiflot_female,27,spyder_searoutec_gil,5,10"/>
-    <property name="act08" value="add_monster nudimind,29,spyder_searoutec_gil,5,10"/>
     <property name="act09" value="start_battle player,spyder_searoutec_gil"/>
     <property name="act10" value="char_talk spyder_searoutec_gil,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_searoutec_gil"/>
@@ -245,8 +234,6 @@
     <property name="act04" value="char_talk spyder_searoutec_sandy,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster sharpfin,27,spyder_searoutec_sandy,5,10"/>
-    <property name="act07" value="add_monster sharpfin,27,spyder_searoutec_sandy,5,10"/>
-    <property name="act08" value="add_monster bigfin,27,spyder_searoutec_sandy,5,10"/>
     <property name="act09" value="start_battle player,spyder_searoutec_sandy"/>
     <property name="act10" value="char_talk spyder_searoutec_sandy,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_searoutec_sandy"/>
@@ -258,10 +245,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_searoutec_more,pre_battle"/>
     <property name="act2" value="add_monster picc,31,spyder_searoutec_more,5,10"/>
-    <property name="act3" value="add_monster incandesfin,30,spyder_searoutec_more,5,10"/>
-    <property name="act4" value="add_monster nudimind,29,spyder_searoutec_more,5,10"/>
-    <property name="act5" value="add_monster nudikill,28,spyder_searoutec_more,5,10"/>
-    <property name="act6" value="add_monster bigfin,24,spyder_searoutec_more,5,10"/>
     <property name="act7" value="start_battle player,spyder_searoutec_more"/>
     <property name="act8" value="char_talk spyder_searoutec_more,post_battle_lose"/>
     <property name="behav1" value="talk spyder_searoutec_more"/>
@@ -276,10 +259,6 @@
     <property name="act04" value="char_talk spyder_searoutec_more,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster picc,31,spyder_searoutec_more,5,10"/>
-    <property name="act07" value="add_monster incandesfin,30,spyder_searoutec_more,5,10"/>
-    <property name="act08" value="add_monster nudimind,29,spyder_searoutec_more,5,10"/>
-    <property name="act09" value="add_monster nudikill,28,spyder_searoutec_more,5,10"/>
-    <property name="act10" value="add_monster bigfin,24,spyder_searoutec_more,5,10"/>
     <property name="act11" value="start_battle player,spyder_searoutec_more"/>
     <property name="act12" value="char_talk spyder_searoutec_more,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_searoutec_more"/>
@@ -388,7 +367,6 @@
    <properties>
     <property name="act1" value="char_talk spyder_searoutec_maurice,pre_battle"/>
     <property name="act2" value="add_monster brewdin,27,spyder_searoutec_maurice,5,10"/>
-    <property name="act3" value="add_monster fancair,27,spyder_searoutec_maurice,5,10"/>
     <property name="act4" value="start_battle player,spyder_searoutec_maurice"/>
     <property name="act5" value="char_talk spyder_searoutec_maurice,post_battle_lose"/>
     <property name="behav1" value="talk spyder_searoutec_maurice"/>

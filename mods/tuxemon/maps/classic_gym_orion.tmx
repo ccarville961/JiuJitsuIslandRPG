@@ -49,7 +49,6 @@
    <properties>
     <property name="act11" value="char_talk classic_gym_leader_orion,pre_battle"/>
     <property name="act12" value="add_monster hydrone,20,classic_gym_leader_orion,5,10"/>
-    <property name="act13" value="add_monster nudikill,20,classic_gym_leader_orion,5,10"/>
     <property name="act17" value="start_battle player,classic_gym_leader_orion"/>
     <property name="act18" value="char_talk classic_gym_leader_orion,post_battle_lose"/>
     <property name="behav1" value="talk classic_gym_leader_orion"/>

@@ -144,8 +144,6 @@ events:
     - char_talk eclipse_lionmountain_alexander,pre_battle
     - unlock_controls
     - add_monster weavifly,50,eclipse_lionmountain_alexander,5,10
-    - add_monster bumbulus,50,eclipse_lionmountain_alexander,5,10
-    - add_monster nimbulex,55,eclipse_lionmountain_alexander,5,10
     - start_battle player,eclipse_lionmountain_alexander
     - char_talk eclipse_lionmountain_alexander,post_battle_lose
     conditions:
@@ -162,8 +160,6 @@ events:
     - char_talk eclipse_lionmountain_arlene,pre_battle
     - unlock_controls
     - add_monster tadcool,45,eclipse_lionmountain_arlene,5,10
-    - add_monster fribbit,55,eclipse_lionmountain_arlene,5,10
-    - add_monster fribbit,55,eclipse_lionmountain_arlene,5,10
     - start_battle player,eclipse_lionmountain_arlene
     - char_talk eclipse_lionmountain_arlene,post_battle_lose
     conditions:
@@ -180,8 +176,6 @@ events:
     - char_talk eclipse_lionmountain_conrad,pre_battle
     - unlock_controls
     - add_monster cardinale,50,eclipse_lionmountain_conrad,5,10
-    - add_monster snaki,50,eclipse_lionmountain_conrad,5,10
-    - add_monster slichen,50,eclipse_lionmountain_conrad,5,10
     - start_battle player,eclipse_lionmountain_conrad
     - char_talk eclipse_lionmountain_conrad,post_battle_lose
     conditions:
@@ -198,8 +192,6 @@ events:
     - char_talk eclipse_lionmountain_david,pre_battle
     - unlock_controls
     - add_monster polyrock,55,eclipse_lionmountain_david,5,10
-    - add_monster slichen,50,eclipse_lionmountain_david,5,10
-    - add_monster glombroc,55,eclipse_lionmountain_david,5,10
     - start_battle player,eclipse_lionmountain_david
     - char_talk eclipse_lionmountain_david,post_battle_lose
     conditions:
@@ -216,8 +208,6 @@ events:
     - char_talk eclipse_lionmountain_kurt,pre_battle
     - unlock_controls
     - add_monster rosarin,50,eclipse_lionmountain_kurt,5,10
-    - add_monster anu,50,eclipse_lionmountain_kurt,5,10
-    - add_monster cardinale,50,eclipse_lionmountain_kurt,5,10
     - start_battle player,eclipse_lionmountain_kurt
     - char_talk eclipse_lionmountain_kurt,post_battle_lose
     conditions:

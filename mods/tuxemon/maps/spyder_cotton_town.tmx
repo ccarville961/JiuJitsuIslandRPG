@@ -521,7 +521,6 @@
   <object id="599" name="Battle confused" type="event" x="128" y="576" width="16" height="16">
    <properties>
     <property name="act2" value="add_monster pairagrin,2,spyder_confusedperson,5,10"/>
-    <property name="act3" value="add_monster capiti,2,spyder_confusedperson,5,10"/>
     <property name="act4" value="start_battle player,spyder_confusedperson"/>
     <property name="act5" value="translated_dialog spyder_confused2"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_confusedperson"/>

@@ -139,8 +139,6 @@
     <property name="act04" value="char_talk spyder_scoop_taggart,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster elofly,35,spyder_scoop_taggart,5,10"/>
-    <property name="act07" value="add_monster elowind,40,spyder_scoop_taggart,5,10"/>
-    <property name="act08" value="add_monster lapinou,35,spyder_scoop_taggart,5,10"/>
     <property name="act09" value="start_battle player,spyder_scoop_taggart"/>
     <property name="act10" value="translated_dialog spyder_scoop_taggart2"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_scoop_taggart"/>
@@ -156,8 +154,6 @@
     <property name="act04" value="char_talk spyder_scoop_donald,pre_battle"/>
     <property name="act05" value="unlock_controls"/>
     <property name="act06" value="add_monster birdling,40,spyder_scoop_donald,5,10"/>
-    <property name="act07" value="add_monster pigabyte,40,spyder_scoop_donald,5,10"/>
-    <property name="act08" value="add_monster zunna,40,spyder_scoop_donald,5,10"/>
     <property name="act09" value="start_battle player,spyder_scoop_donald"/>
     <property name="act10" value="translated_dialog spyder_scoop_donald2"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_scoop_donald"/>
@@ -196,8 +192,6 @@
     <property name="act30" value="translated_dialog spyder_scoop_arachne_flashback7,,bottomright"/>
     <property name="act31" value="translated_dialog spyder_scoop_arachne_flashback8"/>
     <property name="act32" value="add_monster cardiwing,40,spyder_scoop_arachne,5,10"/>
-    <property name="act33" value="add_monster spighter,40,spyder_scoop_arachne,5,10"/>
-    <property name="act34" value="add_monster abesnaki,40,spyder_scoop_arachne,5,10"/>
     <property name="act35" value="add_monster rockat,40,spyder_scoop_reese,5,10"/>
     <property name="act37" value="start_battle spyder_scoop_reese,spyder_scoop_arachne"/>
     <property name="act38" value="char_face spyder_scoop_arachne,up"/>

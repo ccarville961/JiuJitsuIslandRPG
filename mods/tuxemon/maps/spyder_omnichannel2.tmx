@@ -108,7 +108,6 @@
     <property name="act4" value="char_talk spyder_omnichannel_schwartz,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster grinflare,40,spyder_omnichannel_schwartz,5,10"/>
-    <property name="act7" value="add_monster strella,40,spyder_omnichannel_schwartz,5,10"/>
     <property name="act8" value="start_battle player,spyder_omnichannel_schwartz"/>
     <property name="act9" value="char_talk spyder_omnichannel_schwartz,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_omnichannel_schwartz"/>
@@ -132,7 +131,6 @@
     <property name="act4" value="char_talk spyder_omnichannel_bettger,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster grintrock,40,spyder_omnichannel_bettger,5,10"/>
-    <property name="act7" value="add_monster rabbitosaur,40,spyder_omnichannel_bettger,5,10"/>
     <property name="act8" value="start_battle player,spyder_omnichannel_bettger"/>
     <property name="act9" value="char_talk spyder_omnichannel_bettger,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_omnichannel_bettger"/>
@@ -179,7 +177,6 @@
     <property name="act4" value="char_talk spyder_omnichannel_crane,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster cochini,40,spyder_omnichannel_crane,5,10"/>
-    <property name="act7" value="add_monster sharpfin,40,spyder_omnichannel_crane,5,10"/>
     <property name="act8" value="start_battle player,spyder_omnichannel_crane"/>
     <property name="act9" value="char_talk spyder_omnichannel_crane,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_omnichannel_crane"/>
@@ -203,7 +200,6 @@
     <property name="act4" value="char_talk spyder_omnichannel_dempsey,pre_battle"/>
     <property name="act5" value="unlock_controls"/>
     <property name="act6" value="add_monster squabbit,25,spyder_omnichannel_dempsey,5,10"/>
-    <property name="act7" value="add_monster squabbit,25,spyder_omnichannel_dempsey,5,10"/>
     <property name="act8" value="start_battle player,spyder_omnichannel_dempsey"/>
     <property name="act9" value="char_talk spyder_omnichannel_dempsey,post_battle_lose"/>
     <property name="cond1" value="not battle_outcome player,won,spyder_omnichannel_dempsey"/>
