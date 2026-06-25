@@ -868,6 +868,16 @@ class CombatState(CombatAnimations):
                 result = data.winner.consume_levelup_summary()
                 if result:
                     start, end, diff = result
+
+                    for milestone in (5, 10, 15, 20):
+                        if start < milestone <= end:
+                            self.text_anim.add_xp_message(
+                                "BELT PROMOTION!\\n\\n"
+                                "Coach Atlas calls everyone to line up.\\n\\n"
+                                f"{data.winner.name} has hit a new belt milestone.\\n\\n"
+                                "The mats are proud. The lads are jealous."
+                            )
+
                     self.task(
                         partial(
                             self.client.push_state,

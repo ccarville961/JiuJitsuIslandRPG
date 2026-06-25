@@ -4510,22 +4510,44 @@ msgstr ""
 "Which technique do you want to delete?"
 
 msgid "evolution_confirmation"
-msgstr "{name} is trying to evolve into {target}."
+msgstr "{name} is eligible for a belt promotion."
 
 msgid "allow_evolution"
-msgstr "Allow evolution?"
+msgstr "Attend promotion ceremony?"
 
 msgid "devolution_confirmation"
-msgstr "{name} is trying to devolve into {evolve}."
+msgstr "{name} could be demoted. Absolutely tragic."
 
 msgid "allow_devolution"
-msgstr "Allow devolution?"
+msgstr "Allow demotion?"
 
 msgid "evolution_ended"
-msgstr "{name} evolves into {evolve}!"
+msgstr ""
+"BELT PROMOTION!
+"
+"
+"
+"Coach Atlas calls everyone to line up.
+"
+"
+"
+"{name} has earned a new belt.
+"
+"
+"
+"The mats are proud. The lads are jealous."
 
 msgid "devolution_ended"
-msgstr "{name} devolves into {evolve}!"
+msgstr ""
+"BELT DEMOTION!
+"
+"
+"
+"{name} has been demoted.
+"
+"
+"
+"Absolutely tragic scenes at the academy."
 
 msgid "trade_completed"
 msgstr "You traded {sent} and received {received}!"
@@ -4600,13 +4622,13 @@ msgid "journal_badge_missing"
 msgstr "missing"
 
 msgid "no_evolution"
-msgstr "No evolution"
+msgstr "No promotion available"
 
 msgid "yes_evolution"
-msgstr "Evolution"
+msgstr "Promotion available"
 
 msgid "yes_evolutions"
-msgstr "Evolutions"
+msgstr "Promotions available"
 
 msgid "tuxepedia_acquisition_unknown"
 msgstr "Acquired {doc}"
