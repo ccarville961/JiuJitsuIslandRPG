@@ -11805,7 +11805,7 @@ msgstr ""
 "Sorry about the sales pitch, it's my job."
 
 msgid "gotfivetuxeballs"
-msgstr "You got 5 Tuxeballs!"
+msgstr "You got some training supplies."
 
 msgid "got_new_tuxemon"
 msgstr "A new fighter joined the team!"
@@ -15042,7 +15042,7 @@ msgstr ""
 " Can you imagine owning so many homes you forget about one?"
 
 msgid "spyder_mansion_pirate1"
-msgstr "Arrr, hand over ye money and ye tuxeballs."
+msgstr "Arrr, hand over ye money and ye gym gear."
 
 msgid "spyder_mansion_pirate2"
 msgstr "Don't be alarmed! I'm not a real pirate, just a fan of piracy."
