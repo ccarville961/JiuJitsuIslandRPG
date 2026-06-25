@@ -1694,7 +1694,7 @@ msgid "combat_gain_exp"
 msgstr "{name} gains {xp}xp"
 
 msgid "tuxemon_new_tech"
-msgstr "{name} learned technique {tech}!"
+msgstr "{name} learned a new technique!"
 
 msgid "combat_none"
 msgstr " "
@@ -1733,16 +1733,16 @@ msgstr ""
 "{monster} is {status}!"
 
 msgid "cannot_use_tech_monster"
-msgstr "{name} can't be used."
+msgstr "{name} can't use that technique."
 
 msgid "tech_cannot_forget"
 msgstr "This technique cannot be removed."
 
 msgid "tech_no_learn"
-msgstr "Decided not to learn {tech}."
+msgstr "{name} can't learn that technique."
 
 msgid "tech_replaced"
-msgstr "{old} replaced with {new}."
+msgstr "{old} was replaced with {new}."
 
 msgid "combat_used_x"
 msgstr "{user} attempts {name}!"
@@ -4414,40 +4414,40 @@ msgstr "Random"
 
 # Monster Menu notifications
 msgid "monster_menu_info"
-msgstr "Info"
+msgstr "Fighter Info"
 
 msgid "monster_menu_move"
-msgstr "Move"
+msgstr "Move Fighter"
 
 msgid "monster_menu_tech"
 msgstr "Techniques"
 
 msgid "monster_menu_item"
-msgstr "Held Item"
+msgstr "Gear"
 
 msgid "monster_menu_pick"
-msgstr "Pick"
+msgstr "Choose Fighter"
 
 msgid "monster_menu_desc"
-msgstr "Description"
+msgstr "Fighter Details"
 
 msgid "monster_menu_type_suffix"
-msgstr "-Type"
+msgstr "Archetype"
 
 msgid "monster_menu_type"
-msgstr "Type(s)"
+msgstr "Archetype"
 
 msgid "monster_menu_species"
-msgstr "Species"
+msgstr "Style"
 
 msgid "monster_menu_shape"
-msgstr "Body Shape"
+msgstr "Build"
 
 msgid "monster_menu_shape_short"
-msgstr "Shape"
+msgstr "Build"
 
 msgid "monster_menu_release"
-msgstr "Release"
+msgstr "Kick From Team"
 
 msgid "unequip_item"
 msgstr "Unequip"
@@ -4540,18 +4540,16 @@ msgid "nu_map_missing"
 msgstr "GPS tracker not updating."
 
 msgid "max_moves_alert"
-msgstr ""
-"{name} has too many techniques.\n"
-"Which do you want to overwrite for learning {tech}?"
+msgstr "{name} already knows enough nonsense."
 
 msgid "uninstall_app"
 msgstr "Unable to uninstall the app."
 
 msgid "menu_storage_swap_monster"
-msgstr "The drone completed the transfer: {from} is now in storage, and {to} has joined your party."
+msgstr "Swap Fighter"
 
 msgid "menu_storage_swap_monster_fail"
-msgstr "The drone could not complete the transfer: no monsters are available in the kennel."
+msgstr "Cannot swap fighter."
 
 # Missions
 msgid "mission_deletion"
@@ -4655,7 +4653,7 @@ msgid "menu_items"
 msgstr "Items"
 
 msgid "menu_party"
-msgstr "Party"
+msgstr "Team"
 
 msgid "menu_bond"
 msgstr "Bond"
@@ -4706,7 +4704,7 @@ msgid "menu_monster"
 msgstr "Opponent"
 
 msgid "menu_storage"
-msgstr "Pick Up Tuxemon"
+msgstr "Locker Room"
 
 msgid "menu_dropoff"
 msgstr "Drop Off Tuxemon"
@@ -4901,12 +4899,10 @@ msgid "options_new_input_key1"
 msgstr "Restart your game for changes to take effect!"
 
 msgid "menu_storage_infected_monster"
-msgstr ""
-"Virus detected. For the safety of all tuxemon in our system, you cannot "
-"store an infected tuxemon."
+msgstr "Quarantined Fighter"
 
 msgid "menu_storage_take_monster"
-msgstr "You added {name} into your party!"
+msgstr "Take Fighter"
 
 msgid "menu_storage_take_item"
 msgstr "You added {nr} {name} into your bag!"
@@ -4915,10 +4911,10 @@ msgid "menu_storage_items_full"
 msgstr "Your bag is full, you cannot take any more from storage."
 
 msgid "menu_storage_empty_kennel"
-msgstr "This shelter is empty, there are no monsters to take."
+msgstr "No fighters here."
 
 msgid "menu_storage_full_kennel"
-msgstr "This shelter is full."
+msgstr "Locker room is full."
 
 msgid "menu_storage_empty_locker"
 msgstr "This locker is empty, there are no items to take."
@@ -11530,7 +11526,7 @@ msgid "input_name"
 msgstr "Name?"
 
 msgid "input_monster_name"
-msgstr "Name your Tuxemon?"
+msgstr "Name your fighter"
 
 msgid "happy_guy_dialog"
 msgstr ""
@@ -11790,7 +11786,7 @@ msgid "gotfivetuxeballs"
 msgstr "You got 5 Tuxeballs!"
 
 msgid "got_new_tuxemon"
-msgstr "A new Tuxemon is born! Welcome {monster_name}!"
+msgstr "A new fighter joined the team!"
 
 msgid "xero_omnichannel_sign"
 msgstr "Omnichannel HQ: We are Safety, We are Order, We are Omnichannel"
