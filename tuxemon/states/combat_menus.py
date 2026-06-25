@@ -143,9 +143,9 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
         if not items_filtered.items:
             visibility_map["menu_item"] = False
 
-        # Hide Swap if no valid swap targets
-        if not self.can_swap_any(self.character):
-            visibility_map["menu_monster"] = False
+        # JiuJitsu Island: keep the 2x2 combat menu layout,
+        # but hide the swap/opponent option because battles are 1v1.
+        visibility_map["menu_monster"] = False
 
         # Yield menu items
         for key, method_name in menu_map.items():
