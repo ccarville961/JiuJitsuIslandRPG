@@ -127,7 +127,6 @@ events:
   Level Beginner:
     actions:
     - add_monster apeoro,20
-    - add_item tuxeball_noble,2
     - set_variable eclipse_first:first_mon
     conditions:
     - is variable_set eclipse_difficulty:level_beginner
@@ -136,7 +135,6 @@ events:
   Level Easy:
     actions:
     - add_monster apeoro,18
-    - add_item tuxeball_noble,4
     - set_variable eclipse_first:first_mon
     conditions:
     - is variable_set eclipse_difficulty:level_easy
@@ -145,7 +143,6 @@ events:
   Level Normal:
     actions:
     - add_monster tetrchimp,15
-    - add_item tuxeball_noble,6
     - set_variable eclipse_first:first_mon
     conditions:
     - is variable_set eclipse_difficulty:level_normal
@@ -154,7 +151,6 @@ events:
   Level Hard:
     actions:
     - add_monster tetrchimp,12
-    - add_item tuxeball_noble,8
     - set_variable eclipse_first:first_mon
     conditions:
     - is variable_set eclipse_difficulty:level_hard
@@ -163,7 +159,6 @@ events:
   Level Expert:
     actions:
     - add_monster tetrchimp,10
-    - add_item tuxeball_noble,10
     - set_variable eclipse_first:first_mon
     conditions:
     - is variable_set eclipse_difficulty:level_expert

@@ -313,7 +313,6 @@
   <object id="73" name="Grand Tuxeball" type="event" x="144" y="32" width="16" height="16">
    <properties>
     <property name="act1" value="translated_dialog tuxeball_grand,,center,center,center"/>
-    <property name="act2" value="add_item tuxeball_grand"/>
     <property name="act3" value="remove_npc spyder_mansion_grandtux"/>
     <property name="act4" value="set_variable mansion_grandtux:yes"/>
     <property name="behav1" value="talk spyder_mansion_grandtux"/>

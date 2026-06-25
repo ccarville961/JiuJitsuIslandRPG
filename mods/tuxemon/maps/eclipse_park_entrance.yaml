@@ -54,7 +54,6 @@ events:
     - translated_dialog eclipse_park_yesmoney
     - lock_controls
     - modify_money player,-500
-    - add_item tuxeball_park,25
     - pathfind player,4,9
     - char_face player,down
     - set_variable paypark:null

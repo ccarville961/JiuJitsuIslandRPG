@@ -241,7 +241,6 @@
   <object id="621" name="Box1" type="event" x="304" y="224" width="16" height="16">
    <properties>
     <property name="act1" value="translated_dialog tuxeball_ancient,,center,center,center"/>
-    <property name="act2" value="add_item tuxeball_ancient,10"/>
     <property name="act3" value="remove_npc spyder_citypark_potion1"/>
     <property name="act4" value="set_variable testmap_potion1:yes"/>
     <property name="behav1" value="talk spyder_citypark_potion1"/>

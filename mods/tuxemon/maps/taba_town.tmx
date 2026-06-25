@@ -736,7 +736,6 @@
     <property name="act10" value="char_face taba_greeter,left"/>
     <property name="act20" value="translated_dialog taba_greeting1"/>
     <property name="act25" value="translated_dialog taba_greeting2a"/>
-    <property name="act30" value="add_item tuxeball,5"/>
     <property name="act40" value="translated_dialog gotfivetuxeballs"/>
     <property name="act60" value="char_face taba_greeter,down"/>
     <property name="cond10" value="not has_item player,tuxeball"/>
@@ -769,7 +768,6 @@
   <object id="135" name="secret_tuxeball" type="event" x="624" y="240" width="16" height="16">
    <properties>
     <property name="act10" value="set_variable secret_ball:found"/>
-    <property name="act20" value="add_item tuxeball,5"/>
     <property name="act25" value="translated_dialog gotfivetuxeballs"/>
     <property name="cond10" value="is char_at player"/>
     <property name="cond20" value="is char_facing player,right"/>
