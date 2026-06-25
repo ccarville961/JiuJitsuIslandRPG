@@ -530,6 +530,10 @@ class CombatAnimations(Menu[None], ABC):
             player: The player whose HUD is being animated.
             home: Location and size of the HUD.
         """
+        # JiuJitsu Island:
+        # Always a single 1v1 fighter.
+        # Hide the Pokémon-style party HUD completely.
+        return
         _, h_align = self.combat_zone.get_zone(home)
 
         is_opponent_horde = (
@@ -596,17 +600,8 @@ class CombatAnimations(Menu[None], ABC):
             capdev.animate_capture(animate)
 
     def animate_update_party_hud(self) -> None:
-        """
-        Update the balls in the party HUD to reflect fainted Tuxemon.
-
-        Note:
-            Party HUD is the arrow thing with balls.  Yes, that one.
-        """
-        for dev in self.capdevs:
-            prev = dev.state
-            if prev != dev.update_state():
-                animate = partial(self.animate, duration=0.1, delay=0.1)
-                dev.animate_capture(animate)
+        """Unused in JiuJitsu Island."""
+        return
 
     def animate_update_horde_hud(self) -> None:
         """
