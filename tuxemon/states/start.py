@@ -109,6 +109,13 @@ class StartState(PygameMenuState):
         )
 
         menu.add.button(
+            title="Prologue",
+            action=self.start_prologue,
+            font_size=self.font_type.big,
+            button_id="menu_prologue",
+        )
+
+        menu.add.button(
             title=T.translate("menu_battle"),
             action=change_state(
                 "DifficultyPickState",
@@ -177,6 +184,25 @@ class StartState(PygameMenuState):
     def shutdown(self) -> None:
         self.unsubscribe("afk.threshold_reached", self._on_afk_threshold)
         super().shutdown()
+
+
+    def start_prologue(self) -> None:
+        NPC.create_player(local_session, slug=PLAYER_NPC)
+
+        # JiuJitsu Island scripted Atlas prologue mode.
+        local_session.jji_story_battle = "atlas_prologue"
+        local_session.jji_story_step = 0
+
+        self.client.push_state(
+            "WorldState",
+            session=local_session,
+            map_name=None,
+        )
+
+        self.client.event_engine.execute_action(
+            "load_yaml",
+            ["jji_atlas_battle"],
+        )
 
     def start_battle(self, difficulty: str) -> None:
         NPC.create_player(local_session, slug=PLAYER_NPC)

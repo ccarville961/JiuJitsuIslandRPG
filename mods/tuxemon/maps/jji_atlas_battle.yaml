@@ -1,0 +1,35 @@
+events:
+  Environment:
+    actions:
+    - set_environment interior
+    conditions:
+    - not environment_is interior
+    type: event
+
+  Create Atlas:
+    actions:
+    - create_npc professor,1,1
+    conditions:
+    - not char_exists professor
+    type: event
+
+  Setup Fighters:
+    actions:
+    - add_monster bamboon,5
+    - add_monster bamboon,50,professor,5,10
+    - set_variable jji_atlas:fighters_ready
+    conditions:
+    - is char_exists professor
+    - not variable_set jji_atlas:fighters_ready
+    type: event
+
+  Start Battle:
+    actions:
+    - start_battle player,professor
+    conditions:
+    - is char_exists professor
+    - is variable_set jji_atlas:fighters_ready
+    - is party_size player,greater_than,0
+    - is party_size professor,greater_than,0
+    - not variable_set jji_atlas:battle_started
+    type: event

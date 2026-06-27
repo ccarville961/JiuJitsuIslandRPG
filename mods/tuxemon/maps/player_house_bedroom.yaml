@@ -1,4 +1,39 @@
 events:
+
+  JJI Prologue Battle:
+    actions:
+      - start_battle player,professor
+    conditions:
+      - is current_state WorldState
+      - is variable_set jji_prologue:ready
+      - is party_size player,greater_than,0
+      - is party_size professor,greater_than,0
+      - not variable_set jji_prologue:battle_started
+    type: event
+
+  JJI Prologue Lost:
+    actions:
+      - set_variable jji_prologue:battle_started
+      - set_variable jji_prologue:lost
+      - translated_dialog jji_opening_atlas_win
+      - transition_teleport player,healing_center.tmx,6,7,1
+    conditions:
+      - is current_state WorldState
+      - is battle_outcome player,lost,professor
+      - not variable_set jji_prologue:lost
+    type: event
+
+  JJI Prologue Win Safety:
+    actions:
+      - set_variable jji_prologue:battle_started
+      - set_variable jji_prologue:lost
+      - transition_teleport player,healing_center.tmx,6,7,1
+    conditions:
+      - is current_state WorldState
+      - is battle_outcome player,won,professor
+      - not variable_set jji_prologue:lost
+    type: event
+
   Auto Healing Teleported:
     actions:
       - set_monster_health

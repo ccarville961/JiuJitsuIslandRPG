@@ -47,6 +47,7 @@ class TransitionTeleportAction(EventAction):
 
     def start(self, session: Session) -> None:
 
+
         char = session.client.get_npc(self.character)
         if char is None:
             self.stop()

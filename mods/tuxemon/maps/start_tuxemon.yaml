@@ -106,12 +106,3 @@ events:
       - is variable_set gender_choice
       - is variable_set race_choice
     type: event
-  Water:
-    actions:
-      - change_bg start_menu_bg
-      - transition_teleport player,water_end_of_desert.tmx,11,32,0.5
-    conditions:
-      - is variable_set scenario_choice:water_campaign
-      - is variable_set gender_choice
-      - is variable_set race_choice
-    type: event

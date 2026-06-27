@@ -9549,7 +9549,7 @@ msgid "timmy"
 msgstr "Timmy"
 
 msgid "professor"
-msgstr "Professor"
+msgstr "Coach Atlas"
 
 msgid "npc_red"
 msgstr "Red"
@@ -19098,3 +19098,15 @@ msgstr "Town Hall"
 msgid "flower_lady"
 msgstr "Flower Lady"
 
+
+
+msgid "jji_opening_atlas_intro_1"
+msgstr "The mats are silent. Coach Atlas steps forward."
+
+
+msgid "jji_opening_atlas_intro_2"
+msgstr "Coach Atlas: So you're the new white belt? This won't take long."
+
+
+msgid "jji_opening_atlas_win"
+msgstr "Coach Atlas: Night night. Come back when you've learned the basics."
