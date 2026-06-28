@@ -19110,3 +19110,39 @@ msgstr "Coach Atlas: So you're the new white belt? This won't take long."
 
 msgid "jji_opening_atlas_win"
 msgstr "Coach Atlas: Night night. Come back when you've learned the basics."
+
+
+msgid "blast_double"
+msgstr "Blast Double"
+
+
+msgid "spaz"
+msgstr "Spaz"
+
+
+msgid "triangle"
+msgstr "Triangle"
+
+msgid "blast_double"
+msgstr "Blast Double"
+
+msgid "spaz"
+msgstr "Spaz"
+
+msgid "triangle"
+msgstr "Triangle"
+
+msgid "blast_double"
+msgstr "Blast Double"
+
+msgid "spaz"
+msgstr "Spaz"
+
+msgid "triangle"
+msgstr "Triangle"
+
+msgid "coach_atlas"
+msgstr "Coach Atlas"
+
+msgid "you"
+msgstr "You"

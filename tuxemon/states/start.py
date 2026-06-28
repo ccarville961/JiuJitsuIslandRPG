@@ -189,7 +189,6 @@ class StartState(PygameMenuState):
     def start_prologue(self) -> None:
         NPC.create_player(local_session, slug=PLAYER_NPC)
 
-        # JiuJitsu Island scripted Atlas prologue mode.
         local_session.jji_story_battle = "atlas_prologue"
         local_session.jji_story_step = 0
 

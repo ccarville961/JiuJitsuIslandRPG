@@ -82,8 +82,23 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
             self.opponents = self.combat_session.field_monsters.get_monsters(
                 self.enemy
             )
-        params = {"name": monster.name}
-        message = T.format("combat_monster_choice", params)
+        if (
+            getattr(self.session, "jji_story_battle", None) == "atlas_prologue"
+            and self.character == self.combat_session.left_player
+        ):
+            step = getattr(self.session, "jji_story_step", 0)
+            if step == 0:
+                message = "Coach Atlas: Alright\nwee White Belt Spastic."
+            elif step == 1:
+                message = "Coach Atlas throws up\na Triangle."
+            elif step == 2:
+                message = "Coach Atlas: Haha...\nyou're shite."
+            else:
+                message = "Choose your next attack."
+        else:
+            params = {"name": monster.name}
+            message = T.format("combat_monster_choice", params)
+
         self.event_bus.publish("combat_dialog", message=message)
 
         self.type_icon_sprites: list[Sprite] = []
@@ -369,7 +384,17 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
 
             # Normal case → show all moves with enabled/disabled state
             else:
-                for tech in self.monster.moves.get_moves():
+                moves_to_show = self.monster.moves.get_moves()
+
+                if (
+                    getattr(self.session, "jji_story_battle", None) == "atlas_prologue"
+                    and self.character == self.combat_session.left_player
+                ):
+                    step = getattr(self.session, "jji_story_step", 0)
+                    allowed = "blast_double" if step == 0 else "spaz"
+                    moves_to_show = [tech for tech in moves_to_show if tech.slug == allowed]
+
+                for tech in moves_to_show:
                     usable = any(
                         tech.can_use(self.session, opponent)
                         for opponent in self.opponents
@@ -618,6 +643,15 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
 
             # Enqueue the action
             self.combat_session.enqueue_action(self.monster, technique, target)
+
+            if (
+                getattr(self.session, "jji_story_battle", None) == "atlas_prologue"
+                and self.character == self.combat_session.left_player
+            ):
+                if technique.slug == "blast_double":
+                    self.session.jji_story_step = 1
+                elif technique.slug == "spaz":
+                    self.session.jji_story_step = 2
 
             # close all the open menus
             if len(self.opponents) > 1:

@@ -1,0 +1,64 @@
+slug: you
+name: "You"
+species: prehensile
+moveset:
+- level_learned: 1
+  technique: struggle
+  learning_method: fallback
+- level_learned: 1
+  technique: blast_double
+- level_learned: 1
+  technique: spaz
+evolutions: []
+history:
+- slug: bamboon
+  stage: stage1
+  evolves_from:
+  - budaye
+  - budaye
+  evolves_into: []
+- slug: budaye
+  stage: basic
+  evolves_from: []
+  evolves_into:
+  - bamboon
+  - bamboon
+  - frondly
+  - frondly
+terrains:
+- grassland
+- jungle
+tags:
+- plant
+- leadership
+- food
+- soldier
+- tail
+- staff
+shape: sprite
+stage: stage1
+types:
+- wood
+- heroic
+gender_weights:
+  male: 1.0
+txmn_id: 9001
+height: 120
+weight: 40
+sounds:
+  combat_call:
+    sfx: sound_woosh_1
+    volume: 1.5
+  faint_call:
+    sfx: sound_woosh_1_faint
+    volume: 1.5
+catch_rate: 70.0
+lower_catch_resistance: 0.95
+upper_catch_resistance: 1.05
+
+sprites:
+  sheet: gfx/sprites/battle/bamboon-sheet
+  menu: gfx/sprites/menu/bamboon-menu
+
+
+speed: 200

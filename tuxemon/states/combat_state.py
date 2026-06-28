@@ -290,16 +290,19 @@ class CombatState(CombatAnimations):
                 self.process_combat_message(message)
 
         elif phase == CombatPhase.HAS_WINNER:
-            message = self.track_battle_results(
-                OutputBattle.WON,
-                c_session.remaining_players,
-                c_session.defeated_players,
-            )
-            message += "\n" + self.track_battle_results(
-                OutputBattle.LOST,
-                c_session.defeated_players,
-                c_session.remaining_players,
-            )
+            if getattr(self.session, "jji_story_battle", None) == "atlas_prologue":
+                message = ""
+            else:
+                message = self.track_battle_results(
+                    OutputBattle.WON,
+                    c_session.remaining_players,
+                    c_session.defeated_players,
+                )
+                message += "\n" + self.track_battle_results(
+                    OutputBattle.LOST,
+                    c_session.defeated_players,
+                    c_session.remaining_players,
+                )
             if message:
                 self.process_combat_message(message)
 
@@ -584,6 +587,9 @@ class CombatState(CombatAnimations):
         target: Monster,
     ) -> None:
         action_time = 0.0
+        jji_user_hp_before = getattr(user, "current_hp", None)
+        jji_target_hp_before = getattr(target, "current_hp", None)
+
         # animate action; target sprite is None if off-screen
         target_sprite = self.sprite_map.get_sprite(target)
         # slightly delay the monster shake, so technique animation
@@ -599,7 +605,36 @@ class CombatState(CombatAnimations):
             "target": target.name,
         }
         message: str = ""
-        message += "\n" + T.format(method.use_tech, context)
+
+        if getattr(self.session, "jji_story_battle", None) == "atlas_prologue":
+            step = getattr(self.session, "jji_story_step", 0)
+
+            if method.slug == "blast_double":
+                target.current_hp = max(1, int(target.hp * 0.92))
+                message = "\nWhite Belt used\nBlast Double."
+                self.session.jji_story_step = 2
+
+            elif method.slug == "spaz":
+                if jji_target_hp_before is not None:
+                    target.current_hp = jji_target_hp_before
+                user.current_hp = max(1, int(user.hp * 0.35))
+                message = "\nWhite Belt used\nSpaz.\nIt backfires."
+                self.session.jji_story_step = 5
+
+            elif method.slug == "triangle":
+                if step <= 2:
+                    target.current_hp = max(1, int(target.hp * 0.55))
+                    message = "\nCoach Atlas throws up\na Triangle."
+                    self.session.jji_story_step = 3
+                else:
+                    target.current_hp = 0
+                    message = "\nCoach Atlas uses Triangle!\n\nThe choke is locked in tight..."
+                    self.session.jji_story_step = 9
+
+            else:
+                message += "\n" + T.format(method.use_tech, context)
+        else:
+            message += "\n" + T.format(method.use_tech, context)
         # swapping monster
         if method.slug == "swap":
             params = {"name": target.name}
@@ -936,12 +971,13 @@ class CombatState(CombatAnimations):
         ) in self.combat_session.field_monsters.get_all_monsters().items():
             for monster in party:
                 if monster.is_fainted:
-                    params = {"name": monster.name}
-                    msg = T.format("combat_fainted", params)
-                    self.text_anim.add_text_animation(
-                        partial(self.dialog.alert, msg, self.text_area),
-                        config_combat.action_time,
-                    )
+                    if getattr(self.session, "jji_story_battle", None) != "atlas_prologue":
+                        params = {"name": monster.name}
+                        msg = T.format("combat_fainted", params)
+                        self.text_anim.add_text_animation(
+                            partial(self.dialog.alert, msg, self.text_area),
+                            config_combat.action_time,
+                        )
                     self.animate_monster_faint(monster)
 
     def check_party_hp(self) -> None:
@@ -966,6 +1002,48 @@ class CombatState(CombatAnimations):
                 self.animate_hp(monster)
                 self.apply_status_effects(monster)
                 if monster.is_fainted:
+                    if getattr(self.session, "jji_story_battle", None) == "atlas_prologue":
+                        if getattr(self.session, "jji_prologue_ending_started", False):
+                            return
+
+                        self.session.jji_prologue_ending_started = True
+
+                        try:
+                            self.client.event_engine.execute_action(
+                                "set_variable",
+                                ["jji_atlas:complete"],
+                            )
+                        except Exception:
+                            pass
+
+                        self.text_anim.add_text_animation(
+                            partial(
+                                self.dialog.alert,
+                                "You struggle to breathe...",
+                                self.text_area,
+                            ),
+                            1.5,
+                        )
+                        self.text_anim.add_text_animation(
+                            partial(
+                                self.dialog.alert,
+                                "Your vision begins to fade...\n\nZzz...",
+                                self.text_area,
+                            ),
+                            3.5,
+                        )
+                        self.text_anim.add_text_animation(
+                            partial(
+                                self.dialog.alert,
+                                "Coach Atlas:\nNight night dickhead.",
+                                self.text_area,
+                            ),
+                            5.5,
+                        )
+
+                        self.task(self.end_combat, interval=8.0)
+                        return
+
                     self.handle_monster_defeat(monster)
 
     def apply_status_effects(self, monster: Monster) -> None:
