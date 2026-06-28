@@ -1,0 +1,15 @@
+events:
+  Environment:
+    actions:
+    - set_environment interior
+    conditions:
+    - not environment_is interior
+    type: event
+
+  Start Atlas Prologue:
+    actions:
+    - load_yaml jji_atlas_battle
+    conditions:
+    - is current_state WorldState
+    - not variable_set jji_atlas:complete
+    type: event

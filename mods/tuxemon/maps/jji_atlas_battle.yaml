@@ -43,7 +43,7 @@ events:
   Prologue Lost:
     actions:
     - set_variable jji_atlas:complete
-    - quit_world
+    - transition_teleport player,player_house_bedroom.tmx,4,4,1,0:0:0
     conditions:
     - is current_state WorldState
     - is battle_outcome player,lost,professor
@@ -53,7 +53,7 @@ events:
   Prologue Win Safety:
     actions:
     - set_variable jji_atlas:complete
-    - quit_world
+    - transition_teleport player,player_house_bedroom.tmx,4,4,1,0:0:0
     conditions:
     - is current_state WorldState
     - is battle_outcome player,won,professor
@@ -63,7 +63,7 @@ events:
   Prologue Draw Safety:
     actions:
     - set_variable jji_atlas:complete
-    - quit_world
+    - transition_teleport player,player_house_bedroom.tmx,4,4,1,0:0:0
     conditions:
     - is current_state WorldState
     - is battle_outcome player,draw,professor
