@@ -131,3 +131,13 @@ events:
     type: event
     x: 3
     y: 2
+
+  JJI Launch Atlas Prologue:
+    actions:
+    - set_variable jji_atlas:launched
+    - load_yaml jji_atlas_battle
+    conditions:
+    - is current_state WorldState
+    - not variable_set jji_atlas:launched
+    - not variable_set jji_atlas:complete
+    type: event

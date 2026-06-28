@@ -16,6 +16,7 @@ events:
 
   Setup Prologue Fighters:
     actions:
+    - jji_start_atlas_story
     - jji_clear_party player
     - jji_clear_party professor
     - add_monster you,5
