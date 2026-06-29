@@ -161,10 +161,48 @@ class CombatAnimations(Menu[None], ABC):
         )
         feet = self.hud_manager.get_feet_position(npc, monster)
 
+        # JJI Atlas prologue: no ball/release animation.
+        # Show the fighter sprite directly and let the normal HUD update continue.
+        if getattr(self.session, "jji_story_battle", None) == "atlas_prologue":
+            renderer = MonsterRenderer(monster, scale=self.factor)
+            monster_sprite = renderer.get_sprite(
+                "back" if npc == self.combat_session.left_player else "front"
+            )
+            monster_sprite.rect.midbottom = feet
+
+            final_x = monster_sprite.rect.x
+            screen_w = self.client.context.rect.w
+
+            if npc == self.combat_session.left_player:
+                monster_sprite.rect.x = -monster_sprite.rect.w
+            else:
+                monster_sprite.rect.x = screen_w + monster_sprite.rect.w
+
+            self.sprites.add(monster_sprite)
+            self.sprite_map.add_sprite(monster, monster_sprite)
+
+            self.animate(
+                monster_sprite.rect,
+                x=final_x,
+                duration=0.75,
+                transition="out_quad",
+            )
+
+            sound, volume = renderer.get_combat_sound()
+            self.event_bus.publish(
+                "play_sound_combat",
+                sound=sound,
+                value=volume,
+            )
+            return
+
         # Load and scale capture device sprite
         capdev = self.load_sprite(f"gfx/items/{monster.capture_device}.png")
         graphics.scale_sprite(capdev, 0.4)
         capdev.rect.center = (feet[0], feet[1] - self.scale_int(60))
+
+        if getattr(self.session, "jji_story_battle", None) == "atlas_prologue":
+            capdev.image.set_alpha(0)
 
         # Animate capture device falling
         fall_time = 0.7
@@ -222,7 +260,8 @@ class CombatAnimations(Menu[None], ABC):
         assert sprite.animation
         sprite.rect.midbottom = feet
         self.task(sprite.animation.play, interval=1.3)
-        self.task(partial(self.sprites.add, sprite), interval=1.3)
+        if getattr(self.session, "jji_story_battle", None) != "atlas_prologue":
+            self.task(partial(self.sprites.add, sprite), interval=1.3)
 
         # Load and play combat call sound
         sound, volume = renderer.get_combat_sound()
@@ -682,7 +721,15 @@ class CombatAnimations(Menu[None], ABC):
 
         self.sprites.add(enemy, player_back)
         self.sprite_map.add_sprite(player, player_back)
-        self.flip_sprites(enemy, player_back)
+
+        if getattr(self.session, "jji_story_battle", None) == "atlas_prologue":
+            enemy.image.set_alpha(0)
+            player_back.image.set_alpha(0)
+            back_island.image.set_alpha(0)
+            front_island.image.set_alpha(0)
+        else:
+            self.flip_sprites(enemy, player_back)
+
         self.animate_sprites(
             layout, enemy, back_island, front_island, player_back
         )
