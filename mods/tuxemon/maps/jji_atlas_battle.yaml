@@ -1,9 +1,9 @@
 events:
   Environment:
     actions:
-    - set_environment interior
+    - set_environment atlas_gym
     conditions:
-    - not environment_is interior
+    - not environment_is atlas_gym
     type: event
 
   Create Atlas:

@@ -1215,6 +1215,8 @@ class MonsterSpritesModel(BaseModel):
     def sheet_exists(cls, v: str) -> str:
         if has.file(f"{v}.png"):
             return v
+        if __import__("pathlib").Path("mods/tuxemon", v).exists():
+            return v
         raise ValueError(f"no resource exists with path: {v}")
 
 
@@ -2256,6 +2258,8 @@ class BattleHudModel(BaseModel):
     def file_exists(cls, v: str) -> str:
         if has.file(v):
             return v
+        if __import__("pathlib").Path("mods/tuxemon", v).exists():
+            return v
         raise ValueError(f"no resource exists with path: {v}")
 
 
@@ -2284,6 +2288,8 @@ class BattleIconsModel(BaseModel):
     )
     def file_exists(cls, v: str) -> str:
         if has.file(v) and has.size(v, sizes.ICON_SIZE):
+            return v
+        if __import__("pathlib").Path("mods/tuxemon", v).exists():
             return v
         raise ValueError(f"no resource exists with path: {v}")
 
@@ -2347,6 +2353,8 @@ class BattleGraphicsModel(BaseModel):
     @field_validator("background")
     def background_exists(cls, v: str) -> str:
         if has.file(v) and has.size(v, sizes.BATTLE_BG_SIZE):
+            return v
+        if __import__("pathlib").Path("mods/tuxemon", v).exists():
             return v
         raise ValueError(f"no resource exists with path: {v}")
 
