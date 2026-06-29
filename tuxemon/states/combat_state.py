@@ -674,7 +674,12 @@ class CombatState(CombatAnimations):
         if method.target["own_monster"]:
             target_sprite = self.sprite_map.get_sprite(user)
 
-        if result_tech.should_tackle:
+        force_jji_blast_double_tackle = (
+            getattr(self.session, "jji_story_battle", None) == "atlas_prologue"
+            and method.slug == "blast_double"
+        )
+
+        if result_tech.should_tackle or force_jji_blast_double_tackle:
             user_sprite = self.sprite_map.get_sprite(user)
 
             if user_sprite:
