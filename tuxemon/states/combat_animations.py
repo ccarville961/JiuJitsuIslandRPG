@@ -120,10 +120,8 @@ class CombatAnimations(Menu[None], ABC):
         for player, layout in self.hud_manager.layout.items():
             self.animate_party_hud_in(player, layout["party"][0])
 
-        for player in self.combat_session.players[
-            : 2 if self.combat_session.is_trainer_battle else 1
-        ]:
-            self.task(partial(self.animate_trainer_leave, player), interval=3)
+        # Jiu Jitsu Island: no trainer/character intro sprites.
+        # Fighters are the combatants, so nothing needs to leave the screen.
 
     def blink(self, sprite: Sprite) -> None:
         self.task(partial(toggle_visible, sprite), interval=0.20, times=8)
@@ -564,10 +562,11 @@ class CombatAnimations(Menu[None], ABC):
         self.background_sprite = spr
 
     def animate_parties_in(self) -> None:
-        """Animate the parties entering the battle scene."""
+        """Animate fighters entering the battle scene."""
         self.render_background()
 
         player, opponent = self.combat_session.players
+        player_mon = player.monsters[0]
         opp_mon = opponent.monsters[0]
 
         # Setup Layout
@@ -577,13 +576,20 @@ class CombatAnimations(Menu[None], ABC):
             opp_mon,
             self.combat_session.is_double,
         )
+        self.hud_manager.assign(
+            self.combat_session.count_players,
+            player,
+            player_mon,
+            self.combat_session.is_double,
+        )
+
         player_home = self.hud_manager.get_rect(player, "home")
         opp_home = self.hud_manager.get_rect(opponent, "home")
         layout = self.env.get_battle_layout(
             self.client.context.rect.size, player_home, opp_home
         )
 
-        # Spawn Islands
+        # Spawn Islands / battle platforms for now.
         assets = self.env.get_battle_assets()
         back_island = self.load_surface(
             assets["island_back"], **layout.back_island_pos
@@ -592,54 +598,45 @@ class CombatAnimations(Menu[None], ABC):
             assets["island_front"], **layout.front_island_pos
         )
 
-        # Spawn Entities
-        if self.combat_session.is_trainer_battle:
-            enemy_pos = layout.get_combatant_pos("enemy", back_island.rect)
-            enemy_surface = opponent.combat_sheet.front()
-            enemy_surface = graphics.scale_surface(enemy_surface, self.factor)
-            enemy = self.load_surface(enemy_surface, **enemy_pos)
-            self.sprite_map.add_sprite(opponent, enemy)
-        else:
-            monster_pos = layout.get_combatant_pos("monster", back_island.rect)
-            renderer = MonsterRenderer(opp_mon, scale=self.factor)
-            enemy = renderer.get_sprite("front")
-            enemy.rect.midbottom = (
-                monster_pos["centerx"],
-                monster_pos["bottom"],
-            )
-            self.sprite_map.add_sprite(opp_mon, enemy)
-            self.combat_session.field_monsters.add_monster(opponent, opp_mon)
-            self.update_hud(opponent, True, True)
+        # Spawn opponent fighter directly.
+        enemy_pos = layout.get_combatant_pos("monster", back_island.rect)
+        enemy_renderer = MonsterRenderer(opp_mon, scale=self.factor)
+        enemy = enemy_renderer.get_sprite("front")
+        enemy.rect.midbottom = (
+            enemy_pos["centerx"],
+            enemy_pos["bottom"],
+        )
 
+        # Spawn player fighter directly.
         player_pos = layout.get_combatant_pos("player", front_island.rect)
-        player_surface = player.combat_sheet.back()
-        player_surface = graphics.scale_surface(player_surface, self.factor)
-        player_back = self.load_surface(player_surface, **player_pos)
+        player_renderer = MonsterRenderer(player_mon, scale=self.factor)
+        player_back = player_renderer.get_sprite("back")
+        player_back.rect.midbottom = (
+            player_pos["centerx"],
+            player_pos["bottom"],
+        )
+
+        self.combat_session.field_monsters.add_monster(opponent, opp_mon)
+        self.combat_session.field_monsters.add_monster(player, player_mon)
+
+        self.update_hud(opponent, True, True)
+        self.update_hud(player, True, True)
 
         self.sprites.add(enemy, player_back)
-        self.sprite_map.add_sprite(player, player_back)
+        self.sprite_map.add_sprite(opp_mon, enemy)
+        self.sprite_map.add_sprite(player_mon, player_back)
 
-        if getattr(self.session, "jji_story_battle", None) == "atlas_prologue":
-            enemy.image.set_alpha(0)
-            player_back.image.set_alpha(0)
-            back_island.image.set_alpha(0)
-            front_island.image.set_alpha(0)
-        else:
-            self.flip_sprites(enemy, player_back)
-
+        self.flip_sprites(enemy, player_back)
         self.animate_sprites(
             layout, enemy, back_island, front_island, player_back
         )
 
-        if not self.combat_session.is_trainer_battle:
-            renderer = MonsterRenderer(opp_mon)
-            sound, volume = renderer.get_combat_sound()
-
-            self.event_bus.publish(
-                "play_sound_combat",
-                sound=sound,
-                value=volume,
-            )
+        sound, volume = enemy_renderer.get_combat_sound()
+        self.event_bus.publish(
+            "play_sound_combat",
+            sound=sound,
+            value=volume,
+        )
 
         self.event_bus.publish(
             "combat_dialog", message=self.combat_session.get_start_message()
