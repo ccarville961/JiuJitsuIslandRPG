@@ -84,7 +84,7 @@ class StartState(PygameMenuState):
 
         if index is not None:
             menu.add.button(
-                title=T.translate("menu_load"),
+                title="Continue",
                 action=change_state("LoadMenuState"),
                 font_size=self.font_type.big,
                 button_id="menu_load",
