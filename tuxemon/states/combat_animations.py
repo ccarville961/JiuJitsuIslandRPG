@@ -627,6 +627,10 @@ class CombatAnimations(Menu[None], ABC):
         self.sprite_map.add_sprite(player_mon, player_back)
 
         self.flip_sprites(enemy, player_back)
+        # Jiu Jitsu Island: no floating battle islands/platforms.
+        back_island.kill()
+        front_island.kill()
+
         self.animate_sprites(
             layout, enemy, back_island, front_island, player_back
         )
