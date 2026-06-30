@@ -209,6 +209,28 @@ class CombatAnimations(Menu[None], ABC):
         # Update the party HUD to reflect the fainted tuxemon
         self.animate_update_party_hud()
 
+    def animate_sprite_tackle(self, sprite) -> None:
+        """Simple Jiu Jitsu Island attack lunge animation."""
+        original_x = sprite.rect.x
+
+        direction = 1
+        if sprite.rect.centerx > self.client.context.rect.centerx:
+            direction = -1
+
+        self.animate(
+            sprite.rect,
+            x=original_x + self.scale_int(24 * direction),
+            duration=0.12,
+            transition="out_quad",
+        )
+        self.animate(
+            sprite.rect,
+            x=original_x,
+            duration=0.16,
+            delay=0.12,
+            transition="out_quad",
+        )
+
     def animate_sprite_take_damage(self, sprite: Sprite) -> None:
         original_x, original_y = sprite.rect.topleft
         animate = partial(
@@ -615,6 +637,10 @@ class CombatAnimations(Menu[None], ABC):
             player_pos["centerx"],
             player_pos["bottom"],
         )
+
+        # Link monsters back to their owners. Combat AI depends on this.
+        opp_mon.set_owner(opponent)
+        player_mon.set_owner(player)
 
         self.combat_session.field_monsters.add_monster(opponent, opp_mon)
         self.combat_session.field_monsters.add_monster(player, player_mon)

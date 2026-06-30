@@ -1,9 +1,9 @@
 events:
   Environment:
     actions:
-    - set_environment interior
+    - set_environment match
     conditions:
-    - not environment_is interior
+    - not environment_is match
     type: event
   Update Time Variables:
     actions:

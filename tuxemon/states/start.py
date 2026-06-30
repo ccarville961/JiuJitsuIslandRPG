@@ -205,10 +205,18 @@ class StartState(PygameMenuState):
 
     def start_battle(self, difficulty: str) -> None:
         NPC.create_player(local_session, slug=PLAYER_NPC)
+
         self.client.push_state(
             "WorldState",
             session=local_session,
             map_name=None,
+        )
+
+        # Match Mode is separate from campaign/story.
+        # Use the match battle background only for this menu battle mode.
+        self.client.event_engine.execute_action(
+            "set_environment",
+            ["match"],
         )
         self.client.event_engine.execute_action(
             "set_variable",

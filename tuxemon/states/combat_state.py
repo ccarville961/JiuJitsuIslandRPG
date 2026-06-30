@@ -454,6 +454,20 @@ class CombatState(CombatAnimations):
         Parameters:
             monster: Monster to choose an action for.
         """
+        # Jiu Jitsu Island: after removing trainer intro sprites, some
+        # combat monsters can enter the menu/AI flow before owner is linked.
+        if getattr(monster, "owner", None) is None:
+            for character in self.combat_session.players:
+                if monster in character.monsters:
+                    monster.set_owner(character)
+                    break
+                try:
+                    if monster in self.combat_session.field_monsters.get_monsters(character):
+                        monster.set_owner(character)
+                        break
+                except Exception:
+                    pass
+
         owner = monster.get_owner()
         self.client.push_state(
             self.env.get_battle_graphics().menu,
@@ -500,6 +514,14 @@ class CombatState(CombatAnimations):
         return message
 
     def process_player_decisions(self) -> None:
+        # Jiu Jitsu Island combat intro skips trainer sprites, so make sure
+        # all party monsters are still linked to their owning character before
+        # AI tries to choose a move.
+        for character in self.combat_session.players:
+            for monster in character.monsters:
+                if getattr(monster, "owner", None) is None:
+                    monster.set_owner(character)
+
         """
         Updates HUD and assigns monsters to the decision queue for players,
         while recharging moves and triggering AI actions for NPCs.
@@ -523,6 +545,11 @@ class CombatState(CombatAnimations):
                 self._decision_queue.append(monster)
             else:
                 # Ask AIManager to handle the decision for this monster
+                # Jiu Jitsu Island: trainer intro removal can leave combat
+                # monsters without owners. AI requires owner for move choice.
+                if getattr(monster, "owner", None) is None:
+                    monster.set_owner(char)
+
                 self.ai_manager.process_ai_turn(monster, char)
 
         # Start the menu flow for human players
