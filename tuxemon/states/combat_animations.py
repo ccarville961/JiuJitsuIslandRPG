@@ -147,11 +147,8 @@ class CombatAnimations(Menu[None], ABC):
         sprite: Sprite,
     ) -> None:
         """
-        Animates the release of a monster from a capture device.
-
-        This function coordinates the animation of the capture device falling, the
-        monster sprite moving into position, and the capture device opening animation.
-        It also plays the combat call sound.
+        Jiu Jitsu Island: fighters enter directly.
+        Removes the Pokémon-style capture device / ball release animation.
         """
         self.hud_manager.assign(
             self.combat_session.count_players,
@@ -161,135 +158,35 @@ class CombatAnimations(Menu[None], ABC):
         )
         feet = self.hud_manager.get_feet_position(npc, monster)
 
-        # JJI Atlas prologue: no ball/release animation.
-        # Show the fighter sprite directly and let the normal HUD update continue.
-        if getattr(self.session, "jji_story_battle", None) == "atlas_prologue":
-            renderer = MonsterRenderer(monster, scale=self.factor)
-            monster_sprite = renderer.get_sprite(
-                "back" if npc == self.combat_session.left_player else "front"
-            )
-            monster_sprite.rect.midbottom = feet
-
-            final_x = monster_sprite.rect.x
-            screen_w = self.client.context.rect.w
-
-            if npc == self.combat_session.left_player:
-                monster_sprite.rect.x = -monster_sprite.rect.w
-            else:
-                monster_sprite.rect.x = screen_w + monster_sprite.rect.w
-
-            self.sprites.add(monster_sprite)
-            self.sprite_map.add_sprite(monster, monster_sprite)
-
-            self.animate(
-                monster_sprite.rect,
-                x=final_x,
-                duration=0.75,
-                transition="out_quad",
-            )
-
-            sound, volume = renderer.get_combat_sound()
-            self.event_bus.publish(
-                "play_sound_combat",
-                sound=sound,
-                value=volume,
-            )
-            return
-
-        # Load and scale capture device sprite
-        capdev = self.load_sprite(f"gfx/items/{monster.capture_device}.png")
-        graphics.scale_sprite(capdev, 0.4)
-        capdev.rect.center = (feet[0], feet[1] - self.scale_int(60))
-
-        if getattr(self.session, "jji_story_battle", None) == "atlas_prologue":
-            capdev.image.set_alpha(0)
-
-        # Animate capture device falling
-        fall_time = 0.7
-        animate_fall = partial(
-            self.animate,
-            duration=fall_time,
-            transition="out_quad",
-        )
-        animate_fall(capdev.rect, bottom=feet[1], transition="in_back")
-        animate_fall(capdev, rotation=720, initial=0)
-
-        # Animate capture device fading away
-        delay = fall_time + 0.6
-        fade_duration = 0.9
-        h = capdev.rect.height
-        animate_fade = partial(
-            self.animate, duration=fade_duration, delay=delay
-        )
-        animate_fade(capdev, width=1, height=h * 1.5)
-        animate_fade(capdev.rect, y=-self.scale_int(14), relative=True)
-
-        # Convert capture device sprite for easy fading
-        def convert_sprite() -> None:
-            capdev.image = graphics.convert_alpha_to_colorkey(capdev.image)
-            self.animate(
-                capdev.image,
-                set_alpha=0,
-                initial=255,
-                duration=fade_duration,
-            )
-
-        self.task(convert_sprite, interval=delay)
-        self.task(capdev.kill, interval=fall_time + delay + fade_duration)
-
-        # Load monster sprite and set final position
         renderer = MonsterRenderer(monster, scale=self.factor)
         monster_sprite = renderer.get_sprite(
             "back" if npc == self.combat_session.left_player else "front"
         )
         monster_sprite.rect.midbottom = feet
+
+        final_x = monster_sprite.rect.x
+        screen_w = self.client.context.rect.w
+
+        if npc == self.combat_session.left_player:
+            monster_sprite.rect.x = -monster_sprite.rect.w
+        else:
+            monster_sprite.rect.x = screen_w + monster_sprite.rect.w
+
         self.sprites.add(monster_sprite)
         self.sprite_map.add_sprite(monster, monster_sprite)
 
-        # Position monster sprite off screen and animate it to final spot
-        monster_sprite.rect.top = self.client.context.screen.get_height()
         self.animate(
             monster_sprite.rect,
-            bottom=feet[1],
+            x=final_x,
+            duration=0.75,
             transition="out_quad",
-            duration=0.9,
-            delay=fall_time + 0.5,
         )
 
-        # Play capture device opening animation
-        assert sprite.animation
-        sprite.rect.midbottom = feet
-        self.task(sprite.animation.play, interval=1.3)
-        if getattr(self.session, "jji_story_battle", None) != "atlas_prologue":
-            self.task(partial(self.sprites.add, sprite), interval=1.3)
-
-        # Load and play combat call sound
         sound, volume = renderer.get_combat_sound()
-
         self.event_bus.publish(
             "play_sound_combat",
             sound=sound,
             value=volume,
-        )
-
-    def animate_sprite_tackle(self, attacker: Sprite) -> None:
-        duration = 0.3
-        original_x = attacker.rect.x
-        _, horizontal = self.combat_zone.get_zone(attacker.rect)
-
-        delta = (
-            self.scale_int(14)
-            if horizontal is HorizontalAlignment.LEFT
-            else -self.scale_int(14)
-        )
-
-        self.animate(
-            attacker.rect,
-            x=original_x + delta,
-            duration=duration,
-            transition="out_circ",
-            yoyo=True,
-            yoyo_loops=1,
         )
 
     def animate_monster_faint(self, monster: Monster) -> None:
