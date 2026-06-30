@@ -5,6 +5,7 @@
 from __future__ import annotations
 
 import logging
+import random
 from collections.abc import Callable
 from functools import partial
 from typing import TYPE_CHECKING, Any, ClassVar
@@ -213,11 +214,22 @@ class StartState(PygameMenuState):
         )
 
         # Match Mode is separate from campaign/story.
-        # Use the match battle background only for this menu battle mode.
+        # Randomise the match-only battle background before loading battle_menu.
+        match_backgrounds = [
+            "prologue",
+            "match",
+            "sensai_gym",
+            "muscle_gym",
+            "tropical_gym",
+            "wrestling_gym",
+            "hardcore_gym",
+        ]
+
         self.client.event_engine.execute_action(
             "set_environment",
-            ["match"],
+            [random.choice(match_backgrounds)],
         )
+
         self.client.event_engine.execute_action(
             "set_variable",
             [f"difficulty:{difficulty}"],
