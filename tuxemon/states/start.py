@@ -223,6 +223,10 @@ class StartState(PygameMenuState):
             "tropical_gym",
             "wrestling_gym",
             "hardcore_gym",
+            "fai_gym",
+            "icon_gym",
+            "talos_gym",
+            "trickster_gym",
         ]
 
         self.client.event_engine.execute_action(
