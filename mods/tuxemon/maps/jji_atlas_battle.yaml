@@ -44,7 +44,8 @@ events:
   Prologue Lost:
     actions:
     - set_variable jji_atlas:complete
-    - transition_teleport player,player_house_bedroom.tmx,4,4,1,0:0:0
+    - set_variable jji_kimura:intro_pending
+    - transition_teleport player,spyder_candy_center.tmx,6,7,1,0:0:0
     conditions:
     - is current_state WorldState
     - is battle_outcome player,lost,professor
@@ -54,7 +55,8 @@ events:
   Prologue Win Safety:
     actions:
     - set_variable jji_atlas:complete
-    - transition_teleport player,player_house_bedroom.tmx,4,4,1,0:0:0
+    - set_variable jji_kimura:intro_pending
+    - transition_teleport player,spyder_candy_center.tmx,6,7,1,0:0:0
     conditions:
     - is current_state WorldState
     - is battle_outcome player,won,professor
@@ -64,7 +66,8 @@ events:
   Prologue Draw Safety:
     actions:
     - set_variable jji_atlas:complete
-    - transition_teleport player,player_house_bedroom.tmx,4,4,1,0:0:0
+    - set_variable jji_kimura:intro_pending
+    - transition_teleport player,spyder_candy_center.tmx,6,7,1,0:0:0
     conditions:
     - is current_state WorldState
     - is battle_outcome player,draw,professor

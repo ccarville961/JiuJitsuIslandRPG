@@ -6,6 +6,7 @@ events:
     conditions:
     - is variable_set choice_floor:1floor
     type: event
+
   Choice Floor 2nd:
     actions:
     - transition_teleport player,spyder_candy_hospital2.tmx,11,15,0.3
@@ -13,6 +14,7 @@ events:
     conditions:
     - is variable_set choice_floor:2floor
     type: event
+
   Create Nurse:
     actions:
     - create_npc spyder_cathedral_nurse,5,4
@@ -21,6 +23,7 @@ events:
     conditions:
     - not char_exists spyder_cathedral_nurse
     type: event
+
   Elevator1:
     actions:
     - translated_dialog_choice 1floor:2floor:no,choice_floor
@@ -32,6 +35,7 @@ events:
     width: 2
     x: 13
     y: 4
+
   Elevator2:
     actions:
     - translated_dialog_choice 1floor:2floor:no,choice_floor
@@ -43,6 +47,7 @@ events:
     width: 2
     x: 17
     y: 4
+
   Go Outside:
     actions:
     - transition_teleport player,spyder_candy_town.tmx,14,35,0.3
@@ -53,9 +58,38 @@ events:
     type: event
     x: 6
     y: 10
+
   Route Music:
     actions:
     - play_music music_cathedral_theme
     conditions:
     - not music_playing music_cathedral_theme
+    type: event
+
+  JJI Start Atlas From Center:
+    actions:
+    - set_variable jji_atlas:center_loaded
+    - load_yaml jji_atlas_battle
+    conditions:
+    - is variable_set jji_atlas:launched
+    - not variable_set jji_atlas:center_loaded
+    - not variable_set jji_atlas:complete
+    type: event
+
+  JJI Dr Kimura Intro Lost:
+    actions:
+    - 'dialog "Dr Kimura: Easy there. Do not try to sit up too quickly."'
+    - 'dialog "You: Where am I?"'
+    - 'dialog "Dr Kimura: Spyder Candy Medical Centre. Coach Atlas brought you here after your match."'
+    - 'dialog "Dr Kimura: You were caught in a triangle choke and lost consciousness."'
+    - 'dialog "You: I want to get him back."'
+    - 'dialog "Dr Kimura: Then train first. Learn techniques. Get experience."'
+    - 'dialog "Dr Kimura: Rest up. I will get you home."'
+    - set_variable jji_kimura:intro_complete
+    - transition_teleport player,player_house_bedroom.tmx,4,4,1,0:0:0
+    conditions:
+    - is current_state WorldState
+    - is variable_set jji_kimura:intro_pending
+    - is variable_set jji_atlas:complete
+    - not variable_set jji_kimura:intro_complete
     type: event

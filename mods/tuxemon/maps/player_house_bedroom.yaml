@@ -135,9 +135,12 @@ events:
   JJI Launch Atlas Prologue:
     actions:
     - set_variable jji_atlas:launched
-    - load_yaml jji_atlas_battle
+    - set_variable jji_kimura:intro_pending
+    - transition_teleport player,spyder_candy_center.tmx,6,7,0.3
     conditions:
     - is current_state WorldState
     - not variable_set jji_atlas:launched
     - not variable_set jji_atlas:complete
     type: event
+
+
