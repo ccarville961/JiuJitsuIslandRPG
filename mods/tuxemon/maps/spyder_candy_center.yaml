@@ -78,13 +78,12 @@ events:
 
   JJI Dr Kimura Intro Lost:
     actions:
-    - 'dialog "Dr Kimura: Easy there. Do not try to sit up too quickly."'
-    - 'dialog "You: Where am I?"'
-    - 'dialog "Dr Kimura: Spyder Candy Medical Centre. Coach Atlas brought you here after your match."'
-    - 'dialog "Dr Kimura: You were caught in a triangle choke and lost consciousness."'
-    - 'dialog "You: I want to get him back."'
-    - 'dialog "Dr Kimura: Then train first. Learn techniques. Get experience."'
-    - 'dialog "Dr Kimura: Rest up. I will get you home."'
+    - translated_dialog jji_kimura_intro_1
+    - translated_dialog jji_kimura_intro_2
+    - translated_dialog jji_kimura_intro_3
+    - translated_dialog jji_kimura_intro_4
+    - translated_dialog jji_kimura_intro_5
+    - translated_dialog jji_kimura_intro_6
     - set_variable jji_kimura:intro_complete
     - transition_teleport player,player_house_bedroom.tmx,4,4,1,0:0:0
     conditions:

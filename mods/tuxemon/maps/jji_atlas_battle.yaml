@@ -45,7 +45,8 @@ events:
     actions:
     - set_variable jji_atlas:complete
     - set_variable jji_kimura:intro_pending
-    - transition_teleport player,spyder_candy_center.tmx,6,7,1,0:0:0
+    - set_variable jji_kimura:intro_ready
+    - transition_teleport player,healing_center.tmx,6,10,1,0:0:0
     conditions:
     - is current_state WorldState
     - is battle_outcome player,lost,professor
@@ -56,7 +57,8 @@ events:
     actions:
     - set_variable jji_atlas:complete
     - set_variable jji_kimura:intro_pending
-    - transition_teleport player,spyder_candy_center.tmx,6,7,1,0:0:0
+    - set_variable jji_kimura:intro_ready
+    - transition_teleport player,healing_center.tmx,6,10,1,0:0:0
     conditions:
     - is current_state WorldState
     - is battle_outcome player,won,professor
@@ -67,7 +69,8 @@ events:
     actions:
     - set_variable jji_atlas:complete
     - set_variable jji_kimura:intro_pending
-    - transition_teleport player,spyder_candy_center.tmx,6,7,1,0:0:0
+    - set_variable jji_kimura:intro_ready
+    - transition_teleport player,healing_center.tmx,6,10,1,0:0:0
     conditions:
     - is current_state WorldState
     - is battle_outcome player,draw,professor

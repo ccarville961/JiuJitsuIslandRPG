@@ -19146,3 +19146,21 @@ msgstr "Coach Atlas"
 
 msgid "you"
 msgstr "You"
+
+msgid "jji_kimura_intro_1"
+msgstr "You: My neck really hurts... what happened?"
+
+msgid "jji_kimura_intro_2"
+msgstr "Dr Kimura: Easy. Coach Atlas caught you in a triangle choke and choked you unconscious."
+
+msgid "jji_kimura_intro_3"
+msgstr "Dr Kimura: He did not let go when you went limp. Passers-by had to pull him off you."
+
+msgid "jji_kimura_intro_4"
+msgstr "Dr Kimura: When the police came looking for him, Atlas ran. He is on the run now."
+
+msgid "jji_kimura_intro_5"
+msgstr "Dr Kimura: The defence is POSTURE UP. It is a strong triangle defence, and you need to learn it."
+
+msgid "jji_kimura_intro_6"
+msgstr "Dr Kimura: Rest and recover. We will return you home."
