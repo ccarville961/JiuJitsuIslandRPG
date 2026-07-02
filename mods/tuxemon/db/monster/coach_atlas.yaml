@@ -55,7 +55,7 @@ lower_catch_resistance: 0.9
 upper_catch_resistance: 1.15
 
 sprites:
-  sheet: gfx/sprites/battle/embazook-sheet
+  sheet: gfx/sprites/battle/coach_atlas-sheet
   menu: gfx/sprites/menu/embazook-menu
 
 

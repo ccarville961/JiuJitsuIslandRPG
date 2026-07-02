@@ -57,7 +57,7 @@ lower_catch_resistance: 0.95
 upper_catch_resistance: 1.05
 
 sprites:
-  sheet: gfx/sprites/battle/bamboon-sheet
+  sheet: gfx/sprites/battle/you-sheet
   menu: gfx/sprites/menu/bamboon-menu
 
 
