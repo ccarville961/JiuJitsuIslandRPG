@@ -12094,154 +12094,161 @@ msgstr "Do you want to skip the intro?"
 
 msgid "spyder_intro00"
 msgstr ""
-"Hello, I am the CEO of Omnichannel. We run the newspapers, TV channels and radio stations for this region.\n"
-"It is my duty to inform you."
+"Hello, I am KOTH, founder of King Of The Hill and CEO of KOTHchannel.
+"
+"It is my duty to welcome you to the future of competitive jiu jitsu."
 
 msgid "spyder_intro01"
 msgstr ""
-"Tuxemon are the animals that inhabit this world.\n"
-"They love to be captured so their masters can battle them for fun and profit.\n"
-"The strongest win, just like in the world of business.\n"
-"Most monsters are found in the wild. They morph into more advanced forms when they gain experience.\n"
-"But the five Pillars that make up the Cathedral, that is, the five allied companies that operate in this region,\n"
-"have improved on nature. This season, we offer five deluxe Tuxemon!"
+"Across this region, competitors train every day to improve their skills, earn rankings, and represent their academies.
+"
+"Some are white belts taking their first steps. Others are elite grapplers chasing greatness.
+"
+"But every journey starts on the mats."
 
 msgid "spyder_intro02"
 msgstr ""
-"These tuxemon morph immediately when exposed to a token - that's instant gratification!\n"
-"What's more, they let you choose which form they morph into."
+"Through the KOTHchannel Academy Network, athletes can compete, earn ranking points, and work their way toward official qualifiers.
+"
+"The very best may one day reach the biggest stage in the sport: King Of The Hill."
 
 msgid "spyder_intro03"
 msgstr ""
-"Tokens are available for a modest fee from all Pillars!\n"
-"Ahem, what was I talking about?\n"
-"Oh yes, each Pillar offers one of these exclusive Tuxemon."
+"Train hard. Compete clean. Respect your opponents.
+"
+"And remember: talent matters, but discipline carries you further."
 
 msgid "spyder_intro_shopkeeper1"
 msgstr ""
-"What a great presentation from our CEO! All Gold members are being offered a"
-" free tuxemon."
+"What a presentation! New Academy Network members are being offered starter training supplies."
 
 msgid "spyder_intro_shopkeeper2"
-msgstr "Just fill in this form."
+msgstr "Just fill in this registration form."
 
 msgid "spyder_intro_question_name"
 msgstr "What is your name?"
 
 msgid "spyder_intro_shopkeeper3"
 msgstr ""
-"Please, now return the form to the Shop Assistant, so we can give you the "
-"tuxemon."
+"Please return the form to the Academy Supply Assistant, so we can finish your registration."
 
 msgid "spyder_intro_shopkeeper4"
 msgstr ""
-"I'm sorry, you are not a Gold member. This offer is for Gold members only.\n"
-"Please go home now."
+"Sorry, this offer is only for registered Academy Network members.
+"
+"Please come back once your paperwork is complete."
 
 msgid "spyder_preintro00"
 msgstr ""
-"Alright, let's get this over with. This is the tenth take. Can we please "
-"just nail this already?"
+"Alright, let's get this over with. This is the tenth take. Can we please sound like actual martial artists this time?"
 
 msgid "spyder_preintro01"
 msgstr ""
-"I swear, if I have to say 'deluxe Tuxemon' one more time, I'm going to lose "
-"it. Can't we come up with something more original?"
+"I swear, if I have to say 'elite pathway to greatness' one more time, I'm going to pull guard and refuse to stand up."
 
 msgid "spyder_preintro02"
 msgstr ""
-"We're just going to end up with a bunch of cheesy, over-the-top marketing "
-"nonsense. Can't we aim higher than that?"
+"We're going to sound like a bad motivational poster. Can't we just say: train hard, compete, get better?"
 
 msgid "spyder_preintro03"
 msgstr ""
-"I'm starting to think that our marketing team has no idea what they're "
-"doing. 'Deluxe Tuxemon'? That's the best we can come up with?"
+"I'm starting to think the marketing team has never actually rolled before."
 
 msgid "spyder_preintro04"
 msgstr ""
-"Okay, fine. Let's just get this done. But can we please, for the love of all"
-" things, try to sound at least somewhat sincere?"
+"Fine. Let's just do it. But please, for the love of jiu jitsu, sound sincere."
 
 msgid "spyder_postintro00"
 msgstr ""
-"Well, that's a wrap. I hope that spot will bring in the sales we need.\n"
-" To be honest, I'm not entirely convinced that this 'deluxe Tuxemon' angle is going to fly.\n"
-" I mean, are people really going to pay a premium for a creature that can evolve instantly?\n"
-" And what's to stop them from just buying the tokens and evolving their own Tuxemon?"
+"Well, that's a wrap. I hope the broadcast gets athletes excited.
+"
+"Honestly, the Academy Network might actually work if people take it seriously."
 
 msgid "spyder_postintro01"
 msgstr ""
-"And, the Tuxemon themselves are just a bunch of cute, marketable creatures designed to separate kids from their parents' money.\n"
-" I mean, we're creating a whole ecosystem around these things, and it's all just a big cash grab.\n"
-" We're exploiting people's desire for novelty and their willingness to spend money on anything that's trendy."
+"Still, selling dreams is easy.
+"
+"Building real competitors takes years of hard rounds, injuries, losses, and showing up when nobody is watching."
 
 msgid "spyder_postintro02"
 msgstr ""
-"But hey, it's a lucrative business, and we're just giving people what they "
-"want."
+"But hey... every champion starts somewhere.
+"
+"Maybe this region is about to find its next one."
 
 # spyder dialogs
 msgid "spyder_papertown_stopthere"
 msgstr ""
-"Hey! What do you think you're doing?\n"
-" It's not safe to go into the wilds unless you have a tuxemon.\n"
-" Come buy one from our shop."
+"Hey! What do you think you're doing?
+"
+"It's not safe to enter the open routes without academy registration.
+"
+"Go get signed up before you wander into trouble."
 
 msgid "spyder_papertown_homemaker1"
 msgstr ""
-"How are you, ${{name}}? \n"
-" Quiet and solemn as always, I see."
+"How are you, ${{name}}?
+"
+"Quiet and focused as always, I see."
 
 msgid "spyder_papertown_mom1"
 msgstr ""
-"Good morning sunshine! Rest here any time you like. \n"
-" Why am I saying that? You live here!"
+"Good morning, sunshine! Rest here any time you like.
+"
+"Why am I saying that? You live here!"
 
 msgid "spyder_papertown_mom2"
 msgstr ""
-"Hello dear. I should get on with my inventing. \n"
-" Can't you occupy yourself? \n"
-" Back in my day, we could amuse ourselves with anything - a stick, a rock, rubbish we found in bins ... "
+"Hello dear. I should get back to my projects.
+"
+"Can you occupy yourself for a bit?
+"
+"Back in my day, we trained with anything we could find: towels, chairs, heavy bags, stubborn siblings..."
 
 msgid "spyder_papertown_mom3"
 msgstr ""
-"Oh, you found yourself a tuxemon. Congratulations! \n"
-" Why don't you head over to the next town and explore?"
+"Oh, you've registered with an academy. Congratulations!
+"
+"Why don't you head toward the next town and see where training takes you?"
 
 msgid "spyder_papertown_mom4"
 msgstr "Welcome back! Look at you, growing up so fast."
 
 msgid "spyder_papertown_mom5"
 msgstr ""
-"You know, Granny Piper next door has opened up her Daycare Center. \n"
-" Well, not everyone can be an inventor, I guess. "
+"You know, Granny Piper next door has opened an Academy Training Centre.
+"
+"Not everyone can be an inventor, I suppose."
 
 msgid "spyder_papertown_mom6"
 msgstr ""
-"Congratulations! You took down the corporations! \n"
-" Of course, now lots of people don't have a job ... but you did the right thing. I think."
+"Congratulations! You helped clean up the regional circuit.
+"
+"Of course, now lots of people have to find honest work... but you did the right thing. I think."
 
 msgid "spyder_papertown_grannypiper1"
 msgstr ""
-"Oh hello ${{name}}, I didn't see you there among all this hustle and debris! \n"
-" I can't wait till the Daycare Center is installed!"
+"Oh hello, ${{name}}! I didn't see you there among all this hustle and equipment.
+"
+"I can't wait until the Academy Training Centre is ready!"
 
 msgid "spyder_papertown_grannypiper2"
 msgstr ""
-"You know, the Pipers made our fortune in the daycare business! \n"
-" I've been retired for ten years and I'm getting bored. I want to get back into it!"
+"You know, the Pipers made our fortune running training centres.
+"
+"I've been retired for ten years and I'm bored. I want to get back on the mats!"
 
 msgid "spyder_papertown_grannypiper3"
 msgstr ""
-"Good morning! Oh, ${{name}}, it's you! You must have heard that my Daycare Center is open.\n"
-" Do you want me to tell you how it works? Okay. You give me a tuxemon, and I look after it while you travel.\n"
-" When you return, pay me a small fee and I'll return it to you. ... Huh? What's in it for you?\n"
-" Well, tuxemon under my care grow up, increasing in levels."
+"Good morning! Oh, ${{name}}, it's you! You must have heard my Academy Training Centre is open.
+"
+"Want to know how it works? You leave a teammate here, and I keep them training while you travel.
+"
+"When you return, pay a small fee and they'll be stronger than when you left."
 
 msgid "spyder_papertown_grannypiper4"
 msgstr ""
-"Hello ${{name}}. Would you like to put a tuxemon into my Daycare Center?"
+"Hello, ${{name}}. Would you like to leave a teammate at my Academy Training Centre?"
 
 msgid "spyder_papertown_grannypiper8"
 msgstr ""
@@ -12257,98 +12264,117 @@ msgstr "It looks like a business plan."
 
 msgid "spyder_papertown_myfirstmon"
 msgstr ""
-"Hey, you came! That's great.\n"
-" When the fancy new tuxemon come through from the Cathedral, we just threw all our old ones in the bin!\n"
-" It seems like such a waste, especially when kids like you don't have any!"
+"Hey, you came! Perfect.
+"
+"A few local academies donated equipment and uniforms for new competitors.
+"
+"They also asked a handful of beginners to volunteer for the Academy Network.
+"
+"Maybe one of them would like to train with you."
 
 msgid "spyder_papertown_myfirstmon_notmet"
 msgstr ""
-"I recognize you, you're the kid who hasn't got a Gold Pass. \n"
-" You know, I might be able to help you out. \n"
-" When the fancy new tuxemon come through from the Cathedral, we just threw all our old ones in the bin!\n"
-" It seems like such a waste, especially when kids like you don't have any!"
+"I've been expecting you.
+"
+"If you're looking to start your journey, I might be able to help.
+"
+"Some new competitors are waiting for an academy to call home."
 
 msgid "spyder_papertown_myfirstmon1"
-msgstr "*rummages* *rumages* "
+msgstr "*looks through the registration forms*"
 
 msgid "spyder_papertown_myfirstmon2"
 msgstr ""
-"Here we go, looks like there's monsters in most of these bins. \n"
-" Sounds like my boss is calling. Good luck!"
+"Here we are!
+"
+"Take your time and choose carefully.
+"
+"Every great competitor starts somewhere."
 
 msgid "spyder_papertown_thereis"
-msgstr "There is something here..."
+msgstr "There is a registration form here..."
 
 msgid "spyder_papertown_rockitten"
-msgstr "Do you want ROCKITTEN?"
+msgstr "Do you want the pressure passer?"
 
 msgid "spyder_papertown_lambert"
-msgstr "Do you want LAMBERT?"
+msgstr "Do you want the defensive white belt?"
 
 msgid "spyder_papertown_nut"
-msgstr "Do you want NUT?"
+msgstr "Do you want the explosive wrestler?"
 
 msgid "spyder_papertown_tweesher"
-msgstr "Do you want TWEESHER?"
+msgstr "Do you want the technical guard player?"
 
 msgid "spyder_papertown_agnite"
-msgstr "Do you want AGNITE?"
+msgstr "Do you want the aggressive striker?"
 
 msgid "spyder_papertown_firstfight"
 msgstr ""
-"Hey, what are you doing rummaging in bins? That's gross - and it's against the rules! \n"
-" ... \n"
-" What, they were throwing out perfectly good tuxemon? \n"
-" ... \n"
-" Well, if they were perfectly good, they wouldn't throw them out, would they? \n"
-" They must be inferior to the new models. Here, I'll show you! "
+"Hey! What are you doing over there?
+"
+"...
+"
+"So you've already found someone willing to train with you?
+"
+"Let's see if they're actually ready for competition!"
 
 msgid "spyder_papertown_firstfight_win"
 msgstr ""
-"Huh, must be a fluke. There's no way the new model would be worse than the "
-"old!"
+"Huh... not bad.
+"
+"Looks like you've got potential after all."
 
 msgid "spyder_papertown_firstfight_pause"
 msgstr "..."
 
 msgid "spyder_papertown_firstfight_lose"
-msgstr "As expected! Old models can't compare to new ones!"
+msgstr "Looks like both you and your teammate need more training!"
 
 msgid "spyder_papertown_firstfight_after"
 msgstr ""
-"I'll heal you up this time, but I'm not a charity. Rest up at home next time"
-" your monsters get worn out."
+"I'll patch you up this time.
+"
+"Next time, make sure you recover properly before stepping back onto the mats."
 
 msgid "spyder_cottontown_monk"
 msgstr ""
-"I am assigned by the Dojo of the Elements to tend the statues here. \n"
-" But Omnichannel is planning to expand its offices into this space. \n"
-" I don't know what will happen to the statues when they do."
+"I am assigned by the Dojo of the Elements to maintain the statues here.
+"
+"KOTHchannel is helping preserve the old academy grounds while the circuit expands.
+"
+"I hope the next generation remembers what these places meant."
 
 msgid "spyder_cottontown_hackerintro"
 msgstr ""
-"Hey, cool tuxemon! Can I see the receipt? \n"
-" ... \n"
-" Just kidding, I had a feeling you hadn't picked it up using, ah, official channels. \n"
-" For years, the Five Pillars have controlled the strongest tuxemon. \n"
-" Do you think it'd be cool to poke them in the eye? \n"
-" ... \n"
-" Good! I have a project for you. Meet me in the Cafe!"
+"Hey, nice academy registration. Mind if I see your ranking profile?
+"
+"...
+"
+"Just kidding. I had a feeling you were new to the circuit.
+"
+"For years, the strongest academies have kept their training data private.
+"
+"Want to help make rankings and technique records more open to everyone?
+"
+"...
+"
+"Good. I have a project for you. Meet me in the Cafe."
 
 msgid "spyder_cotton_cafegranny"
 msgstr "Hmm, I'm not sure I fancy this coffee."
 
 msgid "spyder_cotton_cafeassistant"
-msgstr ""
-"Do you collect tuxemon? I'd like to start but I'm afraid to leave the city."
+msgstr "Do you compete? I want to start training, but leaving the city makes me nervous."
 
 msgid "spyder_cotton_homemaker1"
 msgstr "Are you here for the talk? I'm so excited for the launch."
 
 msgid "spyder_cotton_homemaker2"
 msgstr ""
-"Tuxepedia is great, isn't it? I'm one of the programmers. Tell me if you "
-"find any bugs."
+"Competitor Database is great, isn't it? I'm one of the programmers.
+"
+"Tell me if you find any bugs."
 
 msgid "spyder_cottontown_stopthere"
 msgstr ""
@@ -12369,14 +12395,17 @@ msgstr ""
 
 msgid "spyder_cottontown_mom1"
 msgstr ""
-"Talk about a parting shot!\n"
-" Omnichannel seems to have pulled the plug on the region's computer network.\n"
-" At least, I hope it's nothing more serious than that."
+"Talk about a parting shot!
+"
+"The regional ranking network seems to have gone down.
+"
+"At least, I hope it's nothing more serious than that."
 
 msgid "spyder_cottontown_hacker1"
 msgstr ""
-"Great work on Tuxepedia, my friend.\n"
-" You're our top contributor."
+"Great work on the Competitor Database, my friend.
+"
+"You're our top contributor."
 
 msgid "spyder_cottontown_mom2"
 msgstr "!!!"
@@ -12398,9 +12427,11 @@ msgstr ""
 
 msgid "spyder_cottontown_hacker2"
 msgstr ""
-"Right, right!\n"
-" There's a data center along the river to the north-east of Timber Town.\n"
-" If Omnichannel's done anything to the computer network, they would have done it there."
+"Right, right!
+"
+"There's a data center along the river to the north-east of Timber Town.
+"
+"If anyone tampered with the ranking network, that's where we'd find the trail."
 
 msgid "spyder_pc_alert"
 msgstr "Kernel panic - not syncing: Fatal Machine check"
@@ -12453,27 +12484,36 @@ msgstr ""
 
 msgid "spyder_cottoncafe_hackerchat"
 msgstr ""
-"It's so cool that you're helping with Tuxepedia.\n"
-"  ... \n"
-" Is there a prize for adding all the tuxemon? \n"
-" Only the satisfaction of helping the human race, buddy."
+"It's so cool that you're helping with the Competitor Database.
+"
+"  ...
+"
+" Is there a prize for adding every athlete profile?
+"
+" Only the satisfaction of helping the sport grow, buddy."
 
 msgid "spyder_cottoncafe_barmaidintro"
 msgstr ""
-"We call ourselves Team Bazaar. Maybe that's a little pretentious. \n"
-" We're a group of rogues and scoundrels who like to get together to drink coffee, discuss philosophy and defy our corporate overlords! \n"
-" We try to look out for each other. For example, unlike the Cathedral we don't charge for you to heal your tuxemon! \n"
-" Would you like me to heal them now?"
+"We call ourselves Team Bazaar. Maybe that's a little pretentious.
+"
+"We're a group of rogues, coaches, and coffee addicts who discuss philosophy and support local competitors.
+"
+"We try to look out for each other. Unlike the expensive recovery centres, we don't charge to patch you up.
+"
+"Would you like to recover now?"
 
 msgid "spyder_cottoncafe_barmaid"
-msgstr "Welcome back. Shall I chuck your tuxemon in the healing unit?"
+msgstr "Welcome back. Want me to help you recover?"
 
 msgid "spyder_cottonart_barmaid"
 msgstr ""
-"Do you like my set? \n"
-" They capture my early days as a professional tuxemon trainer, before I retired on my winnings. \n"
-"  I call them: 'Monsters' Eyes Meet', 'Starry, Starry, Starry Night' and 'Trepidation'. They're for sale! \n"
-" Get them while they're hot! Just 1,000 each."
+"Do you like my set?
+"
+"They capture my early days as a professional grappler, before I retired on my winnings.
+"
+"I call them: 'Grip Fight', 'Starry Open Mat Night' and 'Trepidation'. They're for sale!
+"
+"Get them while they're hot! Just 1,000 each."
 
 msgid "spyder_cottonart_barmaid_bundle"
 msgstr "Do you want to buy all three paintings for ${{currency}}3,000?"
@@ -12520,28 +12560,36 @@ msgstr ""
 
 msgid "spyder_cottonscoop_shopassistant"
 msgstr ""
-"Tuxeballs allow you to capture tuxemon and keep them as servants. \n"
-" They're most effective when used on injured and low-level tuxemon. \n"
-" Select them during battle from your Item menu."
+"Recruitment invites allow you to add new competitors to your academy team.
+"
+"They work best after you've proven yourself in a match.
+"
+"Select them during competition from your Item menu."
 
 msgid "spyder_cottonscoop_deviceoffer"
 msgstr ""
-"Welcome customer. Today, we're promoting Tuxeballs. Do you know what those "
-"are?"
+"Recruitment invites let you bring new competitors into your academy team.
+"
+"They work best after you've proven yourself in a match.
+"
+"Use them from your Item menu."
 
 msgid "spyder_cottonscoop_devicenoexplan"
 msgstr ""
-"     Okay, well here's five as a free sample. \n"
-" If you have any questions about how Tuxeballs work, just ask my assistant!"
+"Okay, well here's five as a free sample.
+"
+"If you have any questions about how recruitment invites work, just ask my assistant!"
 
 msgid "spyder_cottonscoop_deviceexplan"
 msgstr "Let my assistant introduce you."
 
 msgid "spyder_cottonscoop_deviceexplan2"
 msgstr ""
-"Tuxeballs allow you to capture tuxemon and keep them as servants. \n"
-" They're most effective when used on injured and low-level tuxemon. Select them during battle from your Item menu. \n"
-" Thank you for listening. Here's five Tuxeballs as a free sample. "
+"Recruitment invites allow you to add new competitors to your academy team.
+"
+"They work best after you've proven yourself in a match. Select them during competition from your Item menu.
+"
+"Thank you for listening. Here's five invites as a free sample."
 
 msgid "spyder_cotton_tuxepediawelcome"
 msgstr "Good to see you. You're just in time."
@@ -12551,15 +12599,16 @@ msgstr "Ahem."
 
 msgid "spyder_cotton_tuxepediaintro"
 msgstr ""
-"Currently, the only reliable information about tuxemon is from the expensive and incomplete Encyclopaedia Tuxemon! \n"
-" That's not cool; information should be freely available. That's why we're introducing Tuxepedia. \n"
-" It's open source, it's free, it's available for everyone to read, write and edit. How cool is that? \n"
-" You can open Tuxepedia from the menu. "
+"Currently, reliable information about competitors is scattered across expensive private databases.
+"
+"That's not cool; information should be freely available. That's why we're introducing the Competitor Database.
+"
+"It's open source, free, and available for everyone to read, write, and edit.
+"
+"You can open it from the menu."
 
 msgid "spyder_cotton_tuxepediaintro2"
-msgstr ""
-"All it takes to add information is for you to catch that particular tuxemon."
-" It's so cool."
+msgstr "All it takes to add information is to meet that competitor in the circuit. It is so cool."
 
 msgid "spyder_cotton_tuxepediaintro3"
 msgstr ""
@@ -12568,8 +12617,9 @@ msgstr ""
 
 msgid "spyder_cotton_tuxepediaintro4"
 msgstr ""
-"It's so cool that you came. There's still so many tuxemon to be added - over a hundred, I think. \n"
-" You could really get into it, and make a difference to the world. "
+"It's so cool that you came. There are still so many competitors to be added.
+"
+"You could really get into it, and make a difference to the sport."
 
 msgid "spyder_request_fight"
 msgstr "Do you want a quick battle?"
@@ -12586,12 +12636,11 @@ msgstr ""
 " You better make sure you have good sources!"
 
 msgid "spyder_route2_billie1"
-msgstr "Hey cheapskate! Still got your stolen tuxemon?"
+msgstr "Hey cheapskate! Still training with that bargain-bin competitor?"
 
 msgid "spyder_route2_billie2"
 msgstr ""
-"This was a fluke. My tuxemon were expensive, and that means that they're "
-"high quality."
+"This was a fluke. My academy gear was expensive, and that means it's high quality."
 
 msgid "spyder_route2_graf1"
 msgstr "I'm an ace - in battling and tennis!"
@@ -12674,7 +12723,7 @@ msgid "spyder_citypark_bobette2"
 msgstr " A cat would have won â€¦"
 
 msgid "spyder_citypark_edith1"
-msgstr "Hey, did you say I'm like my tuxemon? I'll fight you for that!"
+msgstr "Hey, did you say I fight like my teammate? I'll roll with you for that!"
 
 msgid "spyder_citypark_edith2"
 msgstr "Hmm, you may have a point."
@@ -12815,7 +12864,9 @@ msgstr ""
 
 msgid "spyder_route3_surat1"
 msgstr ""
-" They call it the \"dark artery\" - the fossilized blood and bone of ancient tuxemon beneath the soil. \n"
+"They call it the dark artery: the old underground training route beneath the city.
+"
+"And we get to dig it up!"dark artery\" - the fossilized blood and bone of ancient tuxemon beneath the soil. \n"
 " And we get to dig it up!"
 
 msgid "spyder_route3_surat2"
@@ -12873,9 +12924,11 @@ msgstr ""
 
 msgid "spyder_papertown_dante2"
 msgstr ""
-"Guess what? Granny Piper finally decided to go big - she opened a daycare!\n"
-" Gotta respect the hustle. Not everyone's cut out to train tuxemon; some folks just take care of them instead.\n"
-" Me? I stick to selling stuff and making sarcastic comments."
+"Guess what? Granny Piper finally decided to go big — she opened an Academy Training Centre!
+"
+"Gotta respect the hustle. Not everyone's cut out to compete; some folks help others improve instead.
+"
+"Me? I stick to selling stuff and making sarcastic comments."
 
 msgid "spyder_papertown_dante3"
 msgstr ""
@@ -12893,28 +12946,37 @@ msgstr ""
 
 msgid "spyder_wayfarer_shopkeeper"
 msgstr ""
-"Sorry mate, no rooms available. \n"
-" The Enforcers say a rare disease has broken out among some guests' tuxemon, so we're under quarantine. \n"
-" I can heal your tuxemon for you, though?"
+"Sorry mate, no rooms available.
+"
+"The Officers say a nasty mat infection has broken out among some guests, so we're under quarantine.
+"
+"I can help you recover, though?"
 
 msgid "spyder_wayfarer_nurse"
 msgstr ""
-"There are sick tuxemon in this building. Best to leave it to the Enforcers to sort everything out. \n"
-" If you keep going, I can't make any promises about how they'll respond. "
+"There are injured and infected competitors in this building. Best to leave it to the Officers and medical staff.
+"
+"If you keep going, I can't make any promises about how they'll respond."
 
 msgid "spyder_wayfarer_granny"
 msgstr ""
-"I can't explain it ... one moment my Cairfrey was healthy, the next it was sick! \n"
-" At least the Enforcers arrived so soon. "
+"I can't explain it... one moment my teammate was fine, the next he could barely train.
+"
+"At least the Officers arrived quickly."
 
 msgid "spyder_wayfarer_maniac"
 msgstr ""
-"My tuxemon aren't sick! This is just an excuse to sell us medicine we don't need. \n"
-" When I was your age, we didn't have medicine. We swam in mountain streams and if you got a sniffle, well, tough! \n"
-" And anyway, I saw the Enforcers coming down Route 4 before anyone so much as sniffled, so how could ... \n"
-" ah ah achoo! \n"
-" ... \n"
-" That doesn't mean anything. I have an itchy nose."
+"My teammates aren't sick! This is just an excuse to sell us recovery treatments we don't need.
+"
+"When I was your age, we trained through everything. Bruises, colds, bad knees, worse ideas...
+"
+"And anyway, I saw the Officers coming down Route 4 before anyone so much as sneezed, so how could...
+"
+"ah ah achoo!
+"
+"...
+"
+"That doesn't mean anything. I have an itchy nose."
 
 msgid "spyder_wayfarer1_maniac"
 msgstr "Hey, buddy, do you want my Botbot?"
@@ -12929,8 +12991,7 @@ msgstr "A little privacy, please! "
 
 msgid "spyder_wayfarer1_morton1"
 msgstr ""
-"I'm stuck in this room until my tuxemon got better, so there's nothing to do"
-" but battle!"
+"I'm stuck in this room until my teammate gets cleared, so there's nothing to do but compete!"
 
 msgid "spyder_wayfarer1_morton2"
 msgstr "Now there's nothing to do!"
@@ -12945,14 +13006,13 @@ msgstr "You're not as helpful as an Enforcer. Or as handsome. "
 
 msgid "spyder_wayfarer1_nightshade1"
 msgstr ""
-"It's embarrassing. All the Nurses' tuxemon got sick, but the Enforcers' "
-"tuxemon are fighting fit!"
+"It's embarrassing. All the nurses' competitors got sidelined, but the Officers' team looks perfectly healthy!"
 
 msgid "spyder_wayfarer1_nightshade2"
-msgstr "I guess we have a lot to learn about tuxemon care."
+msgstr "I guess we have a lot to learn about athlete care."
 
 msgid "spyder_wayfarer1_victor1"
-msgstr "Hey, you're not leaving with potentially infected tuxemon!"
+msgstr "Hey, you are not leaving with potentially infected competitors!"
 
 msgid "spyder_wayfarer1_victor2"
 msgstr "Stop right there! Or, um ..."
@@ -12965,13 +13025,11 @@ msgstr "Come back and see me later - next patient please!"
 
 msgid "spyder_wayfarer1_bravo1"
 msgstr ""
-"This enforcement action is sponsored by Omnichannel: The Only News You Need."
-" "
+"This enforcement action is sponsored by KOTHchannel: The Official Home of King Of The Hill."
 
 msgid "spyder_wayfarer1_bravo2"
 msgstr ""
-"Please do not let my battling performance affect your opinion of "
-"Omnichannel: The Only News You Need. "
+"Please do not let my poor match performance affect your opinion of KOTHchannel: The Official Home of King Of The Hill."
 
 msgid "spyder_wayfarer1_james1"
 msgstr ""
@@ -12982,7 +13040,7 @@ msgid "spyder_wayfarer1_james2"
 msgstr "I'm glad Jessie didn't see my lose like that!"
 
 msgid "spyder_wayfarer1_bismuth1"
-msgstr "I hope this isn't related to those sick tuxemon at Scoop Farms!"
+msgstr "I hope this is not related to that outbreak at Scoop Farms!"
 
 msgid "spyder_wayfarer1_bismuth2"
 msgstr "Bummer!"
@@ -13000,7 +13058,7 @@ msgid "spyder_route4_marshall2"
 msgstr "It might need some work."
 
 msgid "spyder_route4_roger1"
-msgstr "We can learn a lot about strategy from tuxemon."
+msgstr "We can learn a lot about strategy from great grapplers."
 
 msgid "spyder_route4_roger2"
 msgstr "I could learn a lot about strategy from you!"
@@ -13091,46 +13149,55 @@ msgstr ""
 
 msgid "spyder_barmaid_cafe1"
 msgstr ""
-"Are you okay?\n"
-" I guess all your tuxemon were infected, so the Enforcers took them to the Hospital!"
+"Are you okay?
+"
+"I guess your team was flagged for infection, so the Officers took them to the Hospital!"
 
 msgid "spyder_barmaid_cafe2"
-msgstr "You can use the PC to get out some non-infected tuxemon."
+msgstr "You can use the PC to call in cleared teammates."
 
 msgid "spyder_barmaid_cafe2a"
 msgstr ""
-"Hold on, I'll lock the cafÃ© door for a sec while you access the PC, don't want any unwanted Enforcers crashing the party.\n"
-" Once you've got your Tuxemon, I'll let the regulars back in."
+"Hold on, I'll lock the cafe door while you access the PC.
+"
+"Once you've got your cleared team, I'll let the regulars back in."
 
 msgid "spyder_barmaid_cafe3"
 msgstr ""
-"Oh dear, you're totally out of tuxemon.\n"
-" Well, I have this Nudiflot I don't really want."
+"Oh dear, you're completely out of cleared teammates.
+"
+"Well, I know one beginner who needs a training partner."
 
 msgid "spyder_enforcer_candy1"
 msgstr ""
-"Stop right there!\n"
-" We are taking all infected tuxemon to the Hospital to be quarantined\n"
-" until Greenwash develops a cure for the virus."
+"Stop right there!
+"
+"We are taking all infected competitors to the Hospital for quarantine
+"
+"until Greenwash develops a treatment."
 
 msgid "spyder_enforcer_candy2"
 msgstr ""
-"Wow! I guess you get to keep them all\n"
-" ... Uh ... I mean, good job keeping your tuxemon free from disease.\n"
-" You may go."
+"Wow! I guess your whole team is cleared.
+"
+"... Uh ... I mean, good job keeping your teammates healthy.
+"
+"You may go."
 
 msgid "spyder_enforcer_candy3"
 msgstr ""
-"Ha! I mean, oh dear, your tuxemon are infected and must be quarantined.\n"
-" Hand them over now ..."
+"Ha! I mean, oh dear, your teammates are infected and must be quarantined.
+"
+"Hand over their registration cards now..."
 
 msgid "spyder_enforcer_candy4"
 msgstr ""
-"Don't you even think of trying to steal your tuxemon back from the Hospital.\n"
-" The scanners are set up to reject all known tuxemon and human DNA!"
+"Don't even think about trying to sneak your teammates back from the Hospital.
+"
+"The scanners are set to reject all quarantined competitor IDs!"
 
 msgid "spyder_route4_billie1"
-msgstr "I've got all the latest gear and the best tuxemon. What have you got?"
+msgstr "I have the latest gear and the best coaches. What have you got?"
 
 msgid "spyder_route4_billie2"
 msgstr "I guess money can't buy everything, after all."
@@ -13187,10 +13254,10 @@ msgid "spyder_routea_connie1"
 msgstr "A morning run's just the thing to clear the head."
 
 msgid "spyder_routea_connie2"
-msgstr "A tuxemon battle, that's the tonic!"
+msgstr "A hard sparring round, that is the tonic!"
 
 msgid "spyder_routea_lexi1"
-msgstr "There's some great tuxemon on this route!"
+msgstr "There are some great competitors on this route!"
 
 msgid "spyder_routea_lexi2"
 msgstr "I simply love bugs, don't you?"
@@ -13322,7 +13389,7 @@ msgstr ""
 "kind of thing."
 
 msgid "spyder_candy_catgirl2"
-msgstr "Do you have a fossil tuxemon?"
+msgstr "Do you have a fossil-style grappler?"
 
 msgid "spyder_candy_catgirl_nofossil"
 msgstr "No? Well, you know where you can find me."
@@ -13331,10 +13398,10 @@ msgid "spyder_candy_catgirl_willtrade"
 msgstr "You do? Want to trade it for a PROPELLERCAT?"
 
 msgid "spyder_candy_prof1"
-msgstr "ZUNNA! This darn tuxemon is eating me out of house and home."
+msgstr "ZUNNA! This athlete is eating me out of house and home."
 
 msgid "spyder_candy_prof_nocateye"
-msgstr "I wish I could trade it for a nice quite tuxemon, like a CATEYE."
+msgstr "I wish I could trade them for a quieter training partner."
 
 msgid "spyder_candy_prof_willtrade"
 msgstr "I'm the luckiest professor in the region of Fondent."
@@ -13444,9 +13511,11 @@ msgstr ""
 
 msgid "spyder_timber_firefighter1"
 msgstr ""
-"Hey, do you treat your tuxemon with proper respect?! \n"
-" Sorry, I can be very blunt. \n"
-" But you wouldn't believe the damage that tuxemon can do if they aren't taken proper care of."
+"Hey, do you treat your teammates with proper respect?!
+"
+"Sorry, I can be very blunt.
+"
+"But you wouldn't believe the damage bad coaching can do if athletes aren't cared for properly."
 
 msgid "spyder_timber_firefighter_nochillimp"
 msgstr "Last week a Tikoal almost burnt down its owner's house!"
@@ -13595,7 +13664,7 @@ msgid "spyder_flower_petshopassistant_welcome"
 msgstr "Hello - we are the Pet Shop Boys."
 
 msgid "spyder_flower_petshopassistant"
-msgstr "Are you interested in buying a tuxemon?"
+msgstr "Are you interested in recruiting a competitor?"
 
 msgid "spyder_flower_petshopkeeper1"
 msgstr ""
