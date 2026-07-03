@@ -10067,41 +10067,41 @@ msgstr "Ma'am..."
 
 msgid "maamnothing2"
 msgstr ""
-"Darn it John! We were having a moment!\n"
-"What do you want?"
+"John. I was in the middle of something.\n"
+"Report."
 
 msgid "maamnothing3"
-msgstr "I... I... Didn't find anything."
+msgstr "I... I couldn't find Coach Atlas anywhere."
 
 msgid "maamnothing4"
-msgstr "Great. Thanks for the notice."
+msgstr "Wonderful. A manhunt powered by incompetence."
 
 msgid "maamnothing5"
-msgstr "Ma'am, I haven't found him either."
+msgstr "Ma'am, no sign of Atlas at the academy either."
 
 msgid "maamnothing6"
 msgstr ""
 "... ... ... ...\n"
-"... Fine. We should probably head back to HQ and report."
+"Fine. We return to HQ and widen the search."
 
 msgid "solongjohn"
 msgstr ""
-"John, you should stay here to keep the peace.\n"
-"I don't want you around anyways."
+"John, stay here and keep watch.\n"
+"If Coach Atlas returns, contact KOTHchannel immediately."
 
 msgid "solongjohn2"
-msgstr "Come on Grant, we have a schedule to keep."
+msgstr "Come on Grant. We have academies to inspect."
 
 msgid "seeme"
-msgstr "Make sure you come see me..."
+msgstr "Come see me in Tren Town when you're ready."
 
 msgid "knight4ispoor"
-msgstr "She's really not a bad person."
+msgstr "She's harsh, but she really believes she's protecting the region."
 
 msgid "frowntime"
 msgstr ""
-"I don't mind being here...\n"
-"It's just lonely sometimes..."
+"I don't mind being stationed here...\n"
+"I just wish I knew what Coach Atlas actually did..."
 
 msgid "wherewasshe"
 msgstr "She didn't tell us the bad news..."
@@ -10143,18 +10143,22 @@ msgstr "Those KOTHchannel people are cheering a lot for him. I wonder why?"
 
 msgid "announcement5"
 msgstr ""
-"It has been a long, hard road to the peace and prosperity that now reigns in the Trial Class Region.\n"
-"However, it is my pleasure to announce, on this day, another milestone in the history of KOTHchannel...\n"
-"FIGHTERS ARE SORTED!\n"
-"*deafening screaming*\n"
-"Quiet Down! Quiet Down! Your enthusiasm is infectious I must say!\n"
-"In conjunction with the Xero institute, we have stripped away their will to attack!\n"
-"Due to this, we are confident that releasing Tuxemon into the wild is safe.\n"
-"However, curfews must still be enforced, we are not a lawless region after all.\n"
-"After all... WE ARE SAFETY, WE ARE ORDER, WE ARE OMNICHANNEL!"
+"It has been a long road building the future of competitive jiu jitsu in the Trial Class Region.
+"
+"Today, KOTHchannel is proud to announce the official Academy Network.
+"
+"Every recognised academy will now feed into regional rankings, qualifiers, and eventually...
+"
+"KING OF THE HILL!
+"
+"*deafening screaming*
+"
+"Quiet down! Quiet down! Your enthusiasm is infectious, I must say!
+"
+"Train hard. Compete often. The road to KOTH starts today!"
 
 msgid "ohnoes"
-msgstr "Well... I don't know how to feel about this..."
+msgstr "Well... I don't know how to feel about this Academy Network..."
 
 msgid "ohnoes2"
 msgstr ""
@@ -10162,95 +10166,103 @@ msgstr ""
 "Make sure you're back before curfew though!"
 
 msgid "depressedmom"
-msgstr "Why would he do something like that... I thought he cared..."
+msgstr ""
+"So Coach Atlas really is missing...\n"
+"I just hope they're wrong about him."
 
 msgid "waterwater"
-msgstr "The water is ice cold and delicious!"
+msgstr "Ice cold. Just what you need before a hard training session."
 
 msgid "watchmewatchme"
 msgstr ""
-"What are you doing? Don't you know there's an early curfew?\n"
+"What are you doing out here? KOTHchannel officers are still searching the area.\n"
 "... ... ... ...\n"
 "... ... ... ...\n"
-"You don't seem like a threat, so you can head on to town...\n"
-"Just don't tell any of those Omnichannel thugs I let you past, M'kay?"
+"You don't look like trouble, so you can head into town.\n"
+"Just don't get in the way of the Atlas investigation, okay?"
 
 msgid "grumble"
 msgstr ""
-"Omnichannel are a bunch of thugs, but we don't have a choice...\n"
-"As she always says, guess we have to work with them..."
+"KOTHchannel has everyone on edge with this Coach Atlas manhunt...\n"
+"I just hope they actually know what they're doing."
 
 msgid "bobtalk"
 msgstr ""
-"It would be nice if more people like you came around to say Hi...\n"
-"By the way, Hello! Have a good day! Today or Tomorrow or any day will be great!"
+"Bit strange today, isn't it?\n"
+"Officers everywhere, KOTHchannel on every screen, and everyone whispering about Coach Atlas."
 
 msgid "professorexists"
-msgstr "I'll take 12 potions please."
+msgstr "I'll take a White Monster and some finger tape, please."
 
 msgid "professorexists1"
-msgstr "Thanks Ben."
+msgstr "Cheers, Ben."
 
 msgid "professorexists1.5"
-msgstr "Why hello there!"
+msgstr "Well, hello there."
 
 msgid "professorexists2"
 msgstr ""
-"You must be Callie's kid! I've heard so much about you from your mom.\n"
-"What brings you in here for?\n"
-".... .... ....\n"
-"Potions? Of course, you always need those!\n"
-"Here, have a few on the house, courtesy of me."
+"You must be Callie's kid. I've heard plenty about you from your mum.
+"
+"What brings you into JitsMart?
+"
+".... .... ....
+"
+"A White Monster? Good choice. Essential fuel for nervous white belts.
+"
+"Here, take a couple on me."
 
 msgid "potions2"
-msgstr "Received 2 potions!"
+msgstr "Received 2 White Monsters!"
 
 msgid "professorexists3"
 msgstr ""
-"Oh! Excuse my manners, I can't believe I never introduced myself!\n"
-"My name is Kay Wren, better known as the Tuxemon Professor.\n"
-"For years now I've been the only person in the Fondent Region allowed to research Tuxemon."
+"Where are my manners? I should introduce myself.
+"
+"I'm Sensei Duncan.
+"
+"I run the local academy here in the Trial Class Region."
 
 msgid "professorexists4"
 msgstr ""
-"Now, I know what you are thinking, why would they allow me?\n"
-"Unfortunately for you, That secret is for me and me alone!\n"
-"However, Omnichannel should be making a new announcement soon and I think you'll like it.\n"
-"We'd better get you back home and watch the second announcement, Come on!"
+"If you're curious about the KOTHchannel Academy Network, come by the mats sometime.
+"
+"Announcements are one thing. Training is another.
+"
+"For now, get back home and watch the second broadcast with your mum."
 
 msgid "theenergy"
 msgstr "The energy of that man is boundless..."
 
 msgid "hmmm"
-msgstr "I wonder what they're doing over there?"
+msgstr "I wonder what they're setting up over there?"
 
 msgid "hmmm2"
-msgstr "I heard they were making a new park. To \"Greenify the Area\""
+msgstr "I heard KOTHchannel is building an official route to the academy."Greenify the Area\""
 
 msgid "hmmm3"
-msgstr "What's the point? The Route is nearly all grass anyways."
+msgstr "What's the point? Everyone already knows where the mats are."
 
 msgid "hmmm4"
-msgstr "Maybe they're making a water park!"
+msgstr "Maybe they're building a warm-up zone!"
 
 msgid "hmmm5"
 msgstr ""
-"Max, as much as you may want one, we've established this. They are not "
-"making, and will not make, a water park."
+"Max, as much as you want one, they're not building a warm-up zone in the middle of the road."
 
 msgid "hmmm6"
-msgstr ".... .... Okay... But it could be..."
+msgstr ".... .... Okay... But they could be..."
 
 msgid "hmmm7"
-msgstr "The Weather is nice though, isn't it?"
+msgstr "The weather is nice though, isn't it?"
 
 msgid "timeforround2"
 msgstr ""
-"${{name}}! Finally! You're back! I was afraid you would miss the "
-"announcement!"
+"${{name}}! Finally! You're back! I was afraid you were going to miss the announcement!"
 
 msgid "timeforround22"
-msgstr "Oh! You did get the potions! Good! Now we really need to get back."
+msgstr ""
+"Oh! You got the White Monsters! Perfect! Now hurry, the broadcast is about to continue."
 
 msgid "theanthemishere"
 msgstr ""
@@ -10262,31 +10274,15 @@ msgstr "ATTENTION, ALL CITIZENS OF THE TRIAL CLASS REGION!"
 
 msgid "moreannouncement2"
 msgstr ""
-"I apologise for the short notice, but today's announcement couldn't wait.\n"
-"After months of planning with the world's leading academies, we are proud to unveil the future of competitive jiu jitsu.\n"
-"The KOTHchannel Academy Network is officially open!"
-"Now, it will be some time before we can integrate them into the workforce, but in the meantime, as I said before, we will be releasing them into the wild.\n"
-"I realize this is a shock for everyone, plus I understand that some of you may even be afraid. We all know what happened before...\n"
-"This is not the time to be afraid though, as Omnichannel will be sponsoring the revival of the ancient tradition known as The Trial!\n"
-"Now, for you who are less versed in Fondent region history, a hundred years ago there was a tradition where young men and women would catch and raise Tuxemon.\n"
-"They would then use these Tuxemon to battle others and ascend rank in their town, with the best Tuxemon Trainers gaining status and power.\n"
-"We will be creating a version of this for the modern day. We will be forming battle areas in multiple cities across Fondent.\n"
-"Each Battle Area will need to be completed in order and the most promising trainer, or trainers, will be able to attempt the Championship.\n"
-"The Championship will be held on top of Omnichannel Tower in Cotton Town, but only once a Tuxemon Trainer has made it through every Battle Area.\n"
-"The Trial is designed as a way to slowly introduce public life to Tuxemon and to encourage travel throughout the region.\n"
-"Who better to demonstrate this than our youth?\n"
-"Each Match will be broadcast live on Omnichannel-T, the newest television station devoted exclusively to Tuxemon-related programming!\n"
-"Don't worry, the addition will be reflected in your bill.\n"
-"Oh, and one more thing, all Tuxemon Trainers will be exempt from the curfew.\n"
-"Before this of course, you will need a Tuxemon! Now, not everyone can be allowed to become a Tuxemon Trainer. That would be pure chaos!\n"
-"First, you'll have to register your name with your local Omnichannel representative and if you're selected, you'll be sent to Omnichannel training.\n"
-"After successful completion of your training, you will be provided with a Tuxemon and can start participating in The Trial!\n"
-"I look forward to meeting you all! Let's create a new world together!\n"
-"After all... WE ARE SAFETY, WE ARE ORDER, WE ARE OMNICHANNEL! And now,\n"
-"WE \n"
-"ARE \n"
-"THE \n"
-"FUTURE!"
+"I apologise for the short notice, but today's announcement couldn't wait.
+"
+"After months of planning with the world's leading academies, we are proud to unveil the future of competitive jiu jitsu.
+"
+"The KOTHchannel Academy Network is officially open!
+"
+"Every recognised academy will now feed into regional rankings, official qualifiers, and ultimately...
+"
+"King Of The Hill."
 
 msgid "youneedtodothis"
 msgstr ""
@@ -10311,60 +10307,66 @@ msgstr "Well... maybe I can help with that."
 
 msgid "iknowyou"
 msgstr ""
-"Hello Callie, hello ${{name}}, just stopped by to say hi when I overheard "
-"you talking about the announcement."
+"Hello Callie, hello ${{name}}. I stopped by after hearing the KOTHchannel announcement."
 
 msgid "ihaveyourmoney2"
 msgstr ""
-"I have a little stored away that needs to be put to good use and Omnichannel owes me a favor.\n"
-"I'm positive something could be arranged.Getting the qualification papers is the easy part. Getting your first Tuxemon is a little more difficult...\n"
-"Luckily, I happen to know someone who has access to multiple different Tuxemon...\n"
-"Me!\n"
-"Now, I know it's a lot to process, so I'll be in my lab waiting for your decision."
+"I've got some academy credit saved that should cover your first month.
+"
+"Getting registered is the easy part. Becoming ready for competition is harder.
+"
+"Luckily, I happen to know someone who runs a proper academy...
+"
+"Me.
+"
+"Take your time. I'll be at the academy when you're ready."
 
 msgid "hebenice"
-msgstr "He's a nice man, maybe you should at least see what he has to say."
+msgstr "Sensei Duncan is a good man. You should at least hear what he has to say."
 
 msgid "moverocky"
-msgstr "C'mon Rocky! You can move! I believe!"
+msgstr "Come on, Rocky! Open mat is this way!"
 
 msgid "moverocky2"
-msgstr "Well, you move when you're ready, I'll be here waiting."
+msgstr "Take your time. The mats aren't going anywhere."
 
 msgid "tuxemontime"
-msgstr "Ah, you came! Great!"
+msgstr "Ah, you came. Good."
 
 msgid "tuxemontime1.5"
-msgstr "I take it this means you've decided to join the Trial?"
+msgstr "I take it this means you're ready to join the academy?"
 
 msgid "tuxemontimechoiceyes"
-msgstr "Splendid!"
+msgstr "Good. Then your training starts now."
 
 msgid "tuxemontimechoiceno"
-msgstr "Oh... Okay... I'll be here if you change your mind..."
+msgstr "That's alright. The mats will still be here when you're ready."
 
 msgid "tuxemontime2"
-msgstr "Now, the first thing to do is get your papers all set..."
+msgstr "First, we need to get your academy registration sorted."
 
 msgid "tuxemontime3"
-msgstr "There we go!"
+msgstr "There we go."
 
 msgid "tuxemontime3.1"
 msgstr ""
-"Here are your registration papers, the first Battle Area will require you to present them in exchange for a Trainer badge.\n"
-"You won't need the papers after that."
+"Here are your academy registration papers. You will need them to enter official KOTHchannel events.
+"
+"Do not lose them."
 
 msgid "obtainedpapers"
-msgstr "Received Registration Papers!"
+msgstr "Received Academy Registration Papers!"
 
 msgid "tuxemontime4"
 msgstr ""
-"Now for the most important part! Choosing your Tuxemon!\n"
-"Unfortunately, my source of funding has become... hesitant as of late. This leaves you with only three choices of Tuxemon, sorry about that.\n"
-"The three choices are Rockitten, Cardiling, and Tweesher."
+"Now for the important part. Every beginner needs a starting style.
+"
+"I can help you begin with pressure, speed, or control.
+"
+"Choose carefully. Your first style says a lot about how you fight."
 
 msgid "chooseyerfate"
-msgstr "Which Tuxemon do you want?"
+msgstr "Which starting style do you want?"
 
 msgid "chooseyerfateRockitten"
 msgstr ""
@@ -10476,73 +10478,78 @@ msgid "goodbye2"
 msgstr "So long ${{name}}! And good luck in the Trial, you'll need it."
 
 msgid "tabatownbattlearea"
-msgstr "Omnichannel Certified Battle Area - Taba Town"
+msgstr "KOTHchannel Academy - Taba Training Area"
 
 msgid "rockywhy"
 msgstr ""
-"Wait, Rocky, don't stop here! We made it so far already!\n"
-"I know you like the grass, but we need to make it to Cotton Town!"
+"Come on Rocky, the beginners' class starts soon!
+"
+"We'll be late for warm-ups!"
 
 msgid "heystop"
-msgstr "WHY ARE YOU DOING THIS?"
+msgstr "Why is the road closed?"
 
 msgid "heystop2"
 msgstr ""
-"Miss, we already told you. Under section 2 of article 3, Omnichannel "
-"reserves the right to close down and maintain areas as needed."
+"Sorry folks. KOTHchannel inspectors are upgrading the training facilities.
+"
+"The route will reopen once the safety checks are complete."
 
 msgid "heystop3"
-msgstr "I KNOW THAT, BUT WHY? YOU JUST KICKED US OUT!"
+msgstr "But this is the quickest way to the academy!"
 
 msgid "heystop4"
-msgstr "Marissa, maybe we should leave for now, we'll come back another day."
+msgstr "Marissa, maybe we should leave for now. We can come back after the inspection."
 
 msgid "heystop5"
 msgstr ""
-"But... But... they dug up our flowers. Without a second thought, without "
-"asking."
+"But... but they shut down our open mat without even asking.
+"
+"We were supposed to be training here today."
 
 msgid "heystop6"
 msgstr ""
-"I know, but we can plant new flowers somewhere else. They'll still be "
-"special, because we'll plant them together."
+"I know, but we'll find somewhere else to drill.
+"
+"It'll still be a great session if we're together."
 
 msgid "heystop7"
 msgstr ""
-"If they weren't so intent on bringing back Tuxemon, we'd still have our "
-"special flower patch..."
+"If the Atlas investigation wasn't still ongoing, we'd probably still have our training area..."
 
 msgid "soiwashearing"
-msgstr "Well it looks like we finally found a florist everyone."
+msgstr "Looks like we found the source of the complaint."
 
 msgid "soiwashearing2"
-msgstr "You, the florist, who are you?"
+msgstr "You there. What is your name?"
 
 msgid "soiwashearing3"
 msgstr ""
-"My name is Marissa, and these... these... THUGS! Destroyed my flower patch."
+"My name is Marissa, and these officers shut down our training area!"
 
 msgid "soiwashearing4"
 msgstr ""
-"How dare you...\n"
-"This is the Premier you're talking to! Have some respect!"
+"Easy now. These are KOTHchannel Officers.
+"
+"They're here to keep everyone safe."
 
 msgid "soiwashearing5"
-msgstr "Ma'am, should I arrest her for addressing you so insolently?"
+msgstr "Ma'am, would you like me to escort her away from the inspection area?"
 
 msgid "soiwashearing6"
-msgstr "No Julius, I don't think that's necessary."
+msgstr "No, Officer Julius. That won't be necessary."
 
 msgid "soiwashearing7"
-msgstr "She looks scared, the poor thing."
+msgstr "She's clearly upset. I understand why."
 
 msgid "soiwashearing7.5"
-msgstr "But anyone who hates omnichannel is a friend of mine."
+msgstr "Anyone who cares this much about training deserves to be heard."
 
 msgid "soiwashearing8"
 msgstr ""
-"Not to mention that the prisons are already overflowing with the... Flower "
-"City incident."
+"Unfortunately, until the Coach Atlas investigation is complete,
+"
+"every academy and training area must pass additional safety inspections."
 
 msgid "soiwashearing9"
 msgstr "However, in the future..."
