@@ -10555,238 +10555,264 @@ msgid "soiwashearing9"
 msgstr "However, in the future..."
 
 msgid "soiwashearing10"
-msgstr "I expect to be addressed CORRECTLY."
+msgstr "Bring complaints through the proper academy channels."
 
 msgid "y-yes"
-msgstr "Y-yes... Ma'am."
+msgstr "Y-yes... understood."
 
 msgid "soiwashearing11"
-msgstr "Good, now move so I can talk to these so called \"knights.\""
+msgstr "Good. Now move aside so I can speak with these so-called officers."knights.\""
 
 msgid "allofyounow"
-msgstr "Anyone without a Tuxemon needs to leave. This could get messy."
+msgstr "Anyone not cleared for academy combat needs to step back. This could get messy."
 
 msgid "waityouhaveone"
 msgstr ""
-"You have a Tuxemon?\n"
-"Why is that?\n"
-"... .... ... ... \n"
-"... ... .... ... \n"
-"Trial eh? Well, hopefully you're good in a fight! I'll heal your Tuxemon real quick and then we'll see how good you really are."
+"You are registered with the Academy Network?
+"
+"Interesting.
+"
+"... .... ... ...
+"
+"... ... .... ...
+"
+"Then let's see if you can handle yourself. I'll patch you up first, then we test your basics."
 
 msgid "taketheleft"
-msgstr "You take the one on the left and I'll take the other three."
+msgstr "You take the one on the left. I'll handle the other three."
 
 msgid "taketheleft2"
 msgstr "Take the one on the left! Don't worry, I've got these three!"
 
 msgid "nobodygetsthrough"
-msgstr "No matter who you bring with you, I won't let anyone through!"
+msgstr "No matter who you bring with you, this inspection zone stays closed!"
 
 msgid "staples"
 msgstr "Well, that was easy."
 
 msgid "higrunts"
 msgstr ""
-"These grunts don't even get proper training, so they were no match for me. "
-"You didn't do too bad either it looks like."
+"Those unhinged grapplers don't even get proper training, so they were no match for me.
+"
+"You didn't do too badly either."
 
 msgid "higrunts2"
-msgstr "Here, I'll heal your Tuxemon."
+msgstr "Here, I'll help you recover."
 
 msgid "ohaimisa"
-msgstr "Well look who it is!"
+msgstr "Well, look who it is."
 
 msgid "ohaimisa2"
 msgstr ""
-"I heard that some Xero thug was beating up my men, but I didn't think it'd "
-"be you Misa!"
+"I heard some rogue athlete was giving my officers trouble,
+"
+"but I didn't expect it to be you."
 
 msgid "ohaimisa3"
-msgstr "Hi Kyle, why are you here?"
+msgstr "Kyle. Why are you here?"
 
 msgid "ohaimisa4"
 msgstr ""
-"Why am I here? Why, I'm the head of this project! Building the model Battle Area for the entire region is an honor!\n"
-"Although, I can see why you wouldn't have heard the news, frolicking about with your new plaything and all"
+"Why am I here? I'm overseeing the first official KOTHchannel training area in the region.
+"
+"Although I can see why you missed the memo, running around with your new prospect and all."
 
 msgid "ohaimisa5"
 msgstr "Wait, they aren't my-"
 
 msgid "ohaimisa6"
 msgstr ""
-"Ah, doesn't matter. I have more important things to attend to anyways. Have fun you two, AND STOP HURTING MY MEN!\n"
-"Toodles!"
+"Doesn't matter. I have inspections to finish.
+"
+"Have fun, and stop flattening my officers. Toodles."
 
 msgid "ohaimisa7"
 msgstr "Jack, Rick, Eddy, come with me. Jon, you stay here."
 
 msgid "kylekindasucks"
 msgstr ""
-"Sorry about that, Kyle is one of my least favorite people at Omnichannel. And that's saying something!\n"
-"We were in the same cohort at The Academy and he's been nothing but trouble since. That's probably why Omnichannel recruited him actually.\n"
-"Luckily, I don't have to listen to his grating voice every day like some poor souls have to."
+"Sorry about that. Kyle is one of the most irritating people in KOTHchannel.
+"
+"We trained in the same cohort, and somehow he turned clipboard power into a personality."
 
 msgid "kylekindasucks2"
 msgstr ""
-"On a different note, it looks like Kyle was here to open the path. It seems "
-"like the Battle Area is open now."
+"On a better note, it looks like Kyle was here to reopen the path.
+"
+"The training area should be accessible now."
 
 msgid "kylekindasucks3"
 msgstr ""
-"I know you're going through the Trial and all, but watch your back. Omnichannel is everywhere, watching everything.\n"
-"They have no issue... disposing of troublesome individuals."
+"I know you're entering the Academy Network, but be careful.
+"
+"With the Atlas investigation ongoing, everyone is watching everyone."
 
 msgid "kylekindasucks4"
 msgstr ""
-"I don't want to see another person disappear. Especially one as promising as"
-" you."
+"I don't want to see another promising student get caught in something they don't understand."
 
 msgid "kylekindasucks5"
-msgstr ""
-"Alright, I've probably been here long enough. Time for me to head back."
+msgstr "Alright, I've probably been here long enough. Time for me to head back."
 
 msgid "kylekindasucks6"
 msgstr "Oh, and ${{name}}?"
 
 msgid "kylekindasucks7"
 msgstr ""
-"I'll be watching you. In fact, I may even root for you.\n"
-"Don't let me down okay?"
+"I'll be watching your progress.
+"
+"Maybe I'll even root for you. Don't let me down, okay?"
 
 msgid "kylekindasucks8"
 msgstr ""
-"You four, head home. Remember, YOU. SAW. NOTHING.\n"
-"Understand?\n"
-"Oh, and florist? Come find me at some point. My address is on the card I gave you. "
+"You four, head home. Remember, this was an official inspection.
+"
+"Understood?
+"
+"Oh, and Marissa? Come find me sometime. My contact is on the card I gave you."
 
 msgid "misaisleavingfornow"
-msgstr "Matt, Julius, let's head out. "
+msgstr "Matt, Julius, let's head out."
 
 msgid "misaisleavingfornow2"
-msgstr "Good Luck ${{name}}. I'm sure we'll see each other again. "
+msgstr "Good luck, ${{name}}. I'm sure we'll see each other again."
 
 msgid "imherenow"
 msgstr ""
-"I'm here to make sure nobody disrespects Omnichannel!\n"
-"... .... ... ...\n"
-"How do I do that? Well... Uh... Maybe I'll ask them nicely?"
+"I'm here to make sure nobody causes trouble near the academy.
+"
+"... .... ... ...
+"
+"How do I do that? Well... politely, I hope."
 
 msgid "oimate"
-msgstr "Hey! This is a restricted area! No one without a badge is allowed in!"
+msgstr "Hey! This is a restricted training area. No one without registration papers is allowed in!"
 
 msgid "welcometotaba"
-msgstr "Hello, aspiring Tuxemon Trainers!"
+msgstr "Hello, aspiring competitors!"
 
 msgid "welcometotaba2"
 msgstr ""
-"Congratulations on passing the strict Omnichannel evaluation!\n"
-"Your lucky group has been designated by Omnichannel to be the first contestants in the Trial!"
+"Congratulations on completing your KOTHchannel academy registration.
+"
+"Your group has been selected as the first competitors in the Trial Class Region Academy Network."
 
 msgid "welcometotaba3"
 msgstr ""
-"Aren't there only three of us? Seems like we barely qualify as a \"group\"."
+"Aren't there only three of us?
+"
+"That barely feels like a group."group\"."
 
 msgid "welcometotaba4"
-msgstr "To be honest, I thought more would pass the evaluation..."
+msgstr "To be honest, I expected more people to register..."
 
 msgid "welcometotaba5"
 msgstr ""
-"Regardless, my name is Kyle and I am the lead architect behind the Battle Areas.\n"
-"I am here to inaugurate the first Fondent Region Battle Area and declare that...\n"
-"THE TRIAL HAS BEGUN!"
+"Regardless, my name is Kyle, and I am the lead organiser for this training area.
+"
+"I am here to inaugurate the first official Trial Class Region competition arena and declare that...
+"
+"THE ACADEMY NETWORK HAS BEGUN!"
 
 msgid "welcometotaba6"
 msgstr "... .... ..."
 
 msgid "welcometotaba7"
 msgstr ""
-"I'm not going to lie, I expected more enthusiasm from the first Trial "
-"Members."
+"I'm not going to lie, I expected more enthusiasm from the first registered athletes."
 
 msgid "welcometotaba8"
 msgstr ""
-"You're that thing that Misa was attached to. How'd you even get here? Did she falsify your papers to get you in?\n"
-"... .... ... ...\n"
-"Allie signed off on your papers? Interesting..."
+"You're the student Sensei Duncan registered.
+"
+"Let's see...
+"
+"Your papers were signed off properly. Interesting."
 
 msgid "welcometotaba9"
-msgstr "Your papers seem to be in order. For now."
+msgstr "Your registration appears to be in order. For now."
 
 msgid "welcometotaba10"
 msgstr ""
-"However, this still doesn't explain the lack of enthusiasm. This is a big honor!\n"
-"Both of you and Misa's plaything over there represent the best and brightest of the Fondent Region's youth!"
+"Still, the lack of enthusiasm is disappointing. This is a major honour.
+"
+"You three represent the first official competitors of the Trial Class Region Academy Network."
 
 msgid "welcometotaba11"
 msgstr ""
-"Sorry sir, but how is this an honor? I was forced into this. I didn't choose"
-" to be a part of the Trial."
+"Sorry, sir... but what happens if we actually do well?"
 
 msgid "welcometotaba12"
 msgstr ""
-"Admittedly, we did take some promising Omnichannel recruits and sent them "
-"into Trial training, so I apologize if that's the case."
+"Good question. Win matches, earn ranking points, and climb through official academy events.
+"
+"The best competitors may one day qualify for King Of The Hill."
 
 msgid "welcometotaba13"
 msgstr ""
-"No sir, you imprisoned my family and forced me and my brother to join the Trial.\n"
-"So forgive me if I \"lack enthusiasm\" when you're talking about the Trial."
+"Then that's where I'm going.
+"
+"If Coach Atlas is hiding in the competition circuit, I'll find him."lack enthusiasm\" when you're talking about the Trial."
 
 msgid "welcometotaba14"
 msgstr ""
-"Ahh, you're the Flower City kid I've heard so much about. \"The Future of "
+"Ambitious.
+"
+"What's your name?"The Future of "
 "Omnichannel.\" What's your name?"
 
 msgid "welcometotaba15"
-msgstr "My name is Speck, sir."
+msgstr "Speck, sir."
 
 msgid "kylereallysucks"
 msgstr ""
-"Well, Speck, if it's any consolation, I was the one that gave the order to "
-"attack."
+"Well then, Speck... ambition is good.
+"
+"But revenge without discipline gets athletes hurt."
 
 msgid "kylereallysucks2"
-msgstr "Good Luck everyone! I fully expect none of you to make it!"
+msgstr "Good luck, everyone. Train properly, compete clean, and represent your academies well."
 
 msgid "kylereallysucks3"
-msgstr "Oh, and Speck? I enjoyed the screams"
+msgstr "Coach Atlas is dangerous. Do not chase him before you're ready."
 
 msgid "toodles"
-msgstr "Toodles!"
+msgstr "See you at the next event."
 
 msgid "dowehavetogoin"
 msgstr ""
-"You know, you don't have to go in. Just go through the standard training "
-"program, skip the Trial."
+"You know... you don't have to rush into this."
 
 msgid "dowehavetogoin2"
 msgstr ""
-"No, you don't understand. The only way I can get my family out of prison is if I reach a high enough rank in Omnichannel.\n"
-"Finishing the Trial would set me up in a position just below the CEO. I'd be able to change things.\n"
-"If I finish this, I can save my family..."
+"I know.
+"
+"But if KOTH is the path to Atlas, then I need to start walking it."
 
 msgid "dowehavetogoin3"
 msgstr ""
-"I have to go in, no matter how much I don't want to, I have to help the "
-"people I love."
+"I have to get stronger.
+"
+"Not someday. Starting now."
+Not someday. Starting now."
 
 msgid "dowehavetogoin4"
-msgstr "Who knows, maybe I'll be able to fight him myself!"
+msgstr "Maybe one day... I'll face Coach Atlas myself."
 
 msgid "dowehavetogoin5"
-msgstr "By the way, what's your name? Kyle didn't seem to address you at all."
+msgstr "By the way... what's your name?"
 
 msgid "hichristie"
-msgstr "Oh, my name is Christie! Sorry, I should have mentioned that before."
+msgstr "I'm Christie! Sorry, I should've introduced myself sooner."
 
 msgid "hichristie2"
 msgstr ""
-"Hi Christie. As you know, I'm Speck. It's nice to meet you.\n"
-"Now..."
+"Nice to meet you, Christie.
+"
+"Looks like we're all starting this journey together."
 
 msgid "hiperson"
-msgstr "Who are you, who's Misa, and who's Allie? Give us the deets!"
+msgstr "Who are you, who registered you, and which academy are you from? Give us the deets!"
 
 msgid "hiperson2"
 msgstr "Whoa there Christie, don't overwhelm them."
@@ -10801,109 +10827,127 @@ msgid "hiperson5"
 msgstr "Oh, so you're from Taba Town! Neat!"
 
 msgid "hiperson6"
-msgstr "Now, who are Misa and Allie?"
+msgstr "Now, who signed your academy papers?"
 
 msgid "nobody"
 msgstr "I don't actually know"
 
 msgid "somebody"
-msgstr "I'd rather not talk about them"
+msgstr "I'd rather not talk about it"
 
 msgid "nobody2"
 msgstr "Fine! Keep your secrets!"
 
 msgid "somebody2"
 msgstr ""
-"Oooh. Are they special to you then? Is there a love triangle going around? "
+"Oooh. Mysterious academy paperwork?
+"
 "C'mon! We need to know!"
 
 msgid "stahp"
 msgstr ""
-"Hey Christie, don't interrogate them. We just met after all. \n"
-"Maybe we should head in anyways. We don't want to make Kyle angry."
+"Easy there, Christie. We only just met them.
+"
+"Let's get checked in before we miss the briefing."
 
 msgid "stahp2"
-msgstr ".... Fine."
+msgstr "...Fine."
 
 msgid "stahp3"
 msgstr ""
-"But don't think you're avoiding this conversation! I'll get the deets out of"
-" you soon enough!"
+"But don't think you're getting away that easily!
+"
+"I'll hear your whole story eventually!"
 
 msgid "stahp4"
-msgstr "She means well..."
+msgstr "She gets excited whenever she meets new competitors."
 
 msgid "stahp5"
-msgstr "... I think."
+msgstr "You'll get used to it... probably."
 
 msgid "mydadiscool"
 msgstr ""
-"My dad works in the Battle Area! He's pretty cool right?\n"
-"I have to wait out here while he works though because Tuxemon are dangerous..."
+"My dad works here at the competition arena!
+"
+"He helps keep everything running smoothly."
 
 msgid "mydadiscool2"
 msgstr ""
-"But... But that doesn't make him any less cool! He's brave and I'll be brave"
-" like him one day too!"
+"I have to wait out here until he's finished working.
+"
+"One day I'll compete here too!"
 
 msgid "welcomecontestants"
-msgstr "Welcome, Trial contestants!"
+msgstr "Welcome, Academy Network competitors!"
 
 msgid "itsforthefans"
 msgstr ""
-"And a huge welcome to everyone watching from home! My name is Aeble and I am"
-" the CEO of Omnichannel."
+"And a huge welcome to everyone watching from home!
+"
+"My name is KOTH, and this is the first official Academy Network broadcast."
 
 msgid "itsforthefans2"
 msgstr ""
-"You've all probably been on the edge of your seat waiting to see our first "
-"Trial contestants. Well, today you get to meet them!"
+"You've all been waiting to see the first registered competitors.
+"
+"Today, you get to meet them."
 
 msgid "itsforthefans3"
 msgstr ""
-"From Flower City! The one who fought Tuxemon with his bare hands! Speck!"
+"From Flower City!
+"
+"The wrestler who never backs up... Speck!"
 
 msgid "itsforthefans4"
 msgstr "... .... ..."
 
 msgid "itsforthefans5"
-msgstr "DARNIT! CUT!"
+msgstr "Cut. Reset that."
 
 msgid "itsforthefans6"
-msgstr "The recording has been stopped, sir."
+msgstr "The recording has stopped, sir."
 
 msgid "itsforthefans7"
-msgstr "Good"
+msgstr "Good."
 
 msgid "itsforthefans8"
 msgstr "AS FOR YOU THREE!"
 
 msgid "itsforthefans9"
 msgstr ""
-"Each of you should be stepping forward when your name is called. I won't have a bunch of insignificant kids destroying this for me.\n"
-"Alright?"
+"When your name is called, step forward like competitors.
+"
+"This is your first official KOTHchannel appearance. Treat it that way."
 
 msgid "itsforthefans10"
-msgstr "START THE RECORDING! We'll pick it up at the introductions."
+msgstr "Start the recording. We'll pick it up at the introductions."
 
 msgid "yessir"
-msgstr "Yes, Sir"
+msgstr "Yes, sir."
 
 msgid "itsforthefans11"
-msgstr "From Paper Town! The one and only Flower Demon, Christie!"
+msgstr ""
+"From Paper Town!
+"
+"The fast-moving guard player, Christie!"
 
 msgid "itsforthefans12"
 msgstr ""
-"And finally, the one you've all been hearing about. The one you've been talking about!\n"
-"From Taba Town! The Grunt subduer themselves!\n"
+"And finally, the one everyone in Taba Town is talking about!
+"
+"Newly registered under Sensei Duncan's academy...
+"
 "${{name}}!"
 
 msgid "abouttababa"
 msgstr ""
-"Now, you are probably all wondering what this Battle Area will entail. I know our Trial contestants definitely do!\n"
-"The Taba Battle Area is the first of seven Battle Areas, culminating in the Championship battle in Cotton Town.\n"
-"Each Battle Area will have a different requirement. Some will be mind challenges, others more physical.\n"
-"This is all so that we can find the best of the best. The future of the Fondent Region and Omnichannel itself."
+"Now, you are probably wondering what this first arena will involve.
+"
+"The Taba Competition Arena is the first official stop in the Trial Class Region Academy Network.
+"
+"Each arena will test a different part of your game: technique, toughness, decision-making, and composure.
+"
+"This is how we find the athletes ready to chase King Of The Hill."
 
 msgid "abouttababa2"
 msgstr "Christie."
@@ -10915,306 +10959,355 @@ msgid "abouttababa4"
 msgstr "${{name}}"
 
 msgid "abouttababa5"
-msgstr "The Requirement for the Taba Battle Area is..."
+msgstr "The requirement for the Taba Competition Arena is..."
 
 msgid "abouttababa6"
-msgstr "Tuxemon Battles!"
+msgstr "Grappling matches!"
 
 msgid "abouttababa7"
 msgstr ""
-"Now, you will have to defeat all 4 Trial acolytes before being able to face the Battle Area Master.\n"
-"Once you've defeated the Battle Area Master, you will receive your Trial medal for the Battle Area.\n"
-"Good luck to all three of you, and remember...\n"
-"WE ARE SAFETY, WE ARE ORDER, WE ARE OMNICHANNEL!"
+"You must defeat all four academy competitors before facing the Arena Coach.
+"
+"Beat the Arena Coach, and you will earn your first official ranking medal.
+"
+"Good luck to all three of you, and remember...
+"
+"Train hard. Compete clean. Respect the mats."
 
 msgid "abouttababa8"
 msgstr ""
-"Oh, and one more thing you three, no matter what you might think...\n"
-"WE are Fondent. Omnichannel is Fondent. Stay in line and don't muck anything up, otherwise there could be... issues"
+"Oh, and one more thing.
+"
+"KOTHchannel will be monitoring every official result.
+"
+"Your road to King Of The Hill starts here, so represent your academy properly."
 
 msgid "abouttababa9"
-msgstr "Alright guys, CUT! That was great! I think we're good!"
+msgstr "Alright competitors, you're free to begin. Good luck to all of you!"
 
 msgid "abouttababa10"
-msgstr "Just cut out the last section and it will be perfect!"
+msgstr "Officials, prepare the arena for the opening matches."
 
 msgid "buh-bye"
-msgstr "I'm heading out, but great work everyone! See you all later!"
+msgstr "I'll be checking in throughout the season. See you all soon!"
 
 msgid "weneedhelp"
-msgstr "Uhh... are we meant to just battle each other then?"
+msgstr "...So, do we just start competing?"
 
 msgid "weneedhelp2"
-msgstr "I guess we'll just battle here?"
+msgstr "I guess our first matches begin here?"
 
 msgid "weneedhelp3"
-msgstr "I guess that works, this room doesn't seem like a battle room though."
+msgstr "This doesn't really look like a competition arena..."
 
 msgid "weneedhelp4"
-msgstr "No, you're right, but it's not like we were given any instructions..."
+msgstr ""
+"Maybe this is just the warm-up area.
+"
+"I'm sure one of the officials will explain everything."
 
 msgid "explainthyselfchristie"
 msgstr ""
-"By the way, why did Aeble call you the \"Flower Demon\"?\n"
+"By the way... why did the announcer call you 'The Flower Demon'?
+"
+"My nickname makes sense, but yours sounds like there's a story behind it."Flower Demon\"?\n"
 "His nicknames for ${{name}} and I at least make sense"
 
 msgid "explainthyselfchristie2"
-msgstr "Although yours, ${{name}}, sounds more interesting than mine."
+msgstr "Although yours, ${{name}}, was pretty cool too."
 
 msgid "explainthyselfchristie3"
-msgstr "\"Flower Demon\" on the other hand sounds like more than a nickname."
+msgstr "'Flower Demon' sounds like a title you earned."Flower Demon\" on the other hand sounds like more than a nickname."
 
 msgid "explainthyselfchristie4"
 msgstr "... .... ..."
 
 msgid "explainthyselfchristie5"
-msgstr ""
-"Come on, Christie. Give us something! We're all stuck here together anyways!"
+msgstr "Come on, Christie. You can't leave us hanging now!"
 
 msgid "explainthyselfchristie6"
-msgstr "... Just like you... I have a past I'm running from..."
+msgstr ""
+"...Let's just say...
+"
+"Everyone steps onto the mats carrying something."
 
 msgid "explainthyselfchristie7"
 msgstr "Christie..."
 
 msgid "maybeabattle"
-msgstr "ENOUGH!"
+msgstr "Enough talking!"
 
 msgid "maybeabattle2"
-msgstr "Speck! I CHALLENGE YOU TO A BATTLE! PREPARE YOURSELF!"
+msgstr ""
+"Speck!
+"
+"First one to prove themselves in the arena wins!"
 
 msgid "maybeabattle3"
-msgstr "Christie, are you sure..."
+msgstr "Christie... maybe we should wait for the officials..."
 
 msgid "maybeabattle4"
 msgstr ""
-"Oh, I see, you're just afraid to fight me huh? Maybe ${{name}} will have the"
-" guts, unlike you."
+"Oh? Afraid you'll lose before the tournament even starts?
+"
+"Maybe ${{name}} has more confidence than you."
 
 msgid "maybeabattle5"
-msgstr "ARGH!"
+msgstr "Alright... that's enough."
 
 msgid "maybeabattle6"
-msgstr "If it's a battle you want, THEN FINE!"
+msgstr "Fine! You're on!"
 
 msgid "maybeabattle7"
-msgstr "Ha! That's more like it!"
+msgstr "Now that's the spirit!"
 
 msgid "maybeabattle8"
-msgstr "READY YOURSELF CHRISTIE! AND... FI.."
+msgstr "Alright then... let's ro-"
 
 msgid "haltyourbickering"
-msgstr "HALT!"
+msgstr "STOP!"
 
 msgid "haltyourbickering2"
 msgstr ""
-"While I admire your enthusiasm, this isn't the place for battling each other.\n"
-"It's also not the point of this Battle Area."
+"I appreciate the competitive spirit, but this isn't the place.
+"
+"The purpose of this arena is to test your skill, not settle personal rivalries."
 
 msgid "haltyourbickering3"
-msgstr "Now, gather together again like the good children you are."
+msgstr "Now gather up like proper competitors."
 
 msgid "haltyourbickering4"
-msgstr "If we're not supposed to fight each other, then who will we fight?"
+msgstr "If we're not supposed to compete against each other yet, then who are we facing?"
 
 msgid "haltyourbickering5"
 msgstr ""
-"Were you not listening? The acolytes of course. All 4 and then you can face the Battle Area Master.\n"
-"Honestly, I expected more from you two. I'm sure this is par for the course for the third wheel over there though."
+"The four academy competitors, obviously.
+"
+"Defeat them, then you can challenge the Arena Coach."
 
 msgid "dontbemean"
-msgstr "Hey! Why are you so mean to ${{name}}? What did they do to you?"
+msgstr "Hey! Why are you singling out ${{name}}?"
 
 msgid "dontbemean2"
-msgstr "I don't need a reason to do my job. But in this case..."
+msgstr "I'm not singling anyone out. I'm enforcing the format."
 
 msgid "dontbemean3"
-msgstr "... I actually do have reasons."
+msgstr "And some competitors need clearer instructions than others."
 
 msgid "seeyalater"
 msgstr ""
-"Regardless, the 4 hallways lead to the 4 acolytes. Go and fight them or "
-"whatever."
+"The four hallways lead to four official academy competitors.
+"
+"Win your matches, then report back."
 
 msgid "seeyalater2"
-msgstr "HEY! Aren't you going to give us that reason?"
+msgstr "That's it? No more explanation?"
 
 msgid "seeyalater3"
-msgstr "Ha!"
+msgstr "Correct."
 
 msgid "seeyalater4"
 msgstr ""
-"I don't have to explain ANYTHING to you. That's what makes my job so GREAT!\n"
-"Hopefully you lot don't die. It would be bad for ratings."
+"This is a competition arena, not story time.
+"
+"Try not to embarrass your academies."
 
 msgid "sorryabouthim"
-msgstr "I'm sorry he's so mean to you ${{name}}"
+msgstr "Sorry he's being like that, ${{name}}."
 
 msgid "sorryabouthim2"
 msgstr ""
-"Yeah! Just ignore him! After all, you have your girlfriends Misa and Allie "
-"watching from home! He probably has nobody!"
+"Yeah! Ignore him.
+"
+"You've got us now, and that's basically a team."
 
 msgid "sorryabouthim3"
-msgstr ""
-"So? When you going to introduce us to 'em? We're practically family at this "
-"point!"
+msgstr "So, when are you telling us more about yourself?"
 
 msgid "sorryabouthim4"
-msgstr "Christie, this is most definitely NOT the time."
+msgstr "Christie, not now."
 
 msgid "sorryabouthim5"
-msgstr "Oh, you're no fun!"
+msgstr "Fine, fine."
 
 msgid "doorchosen"
 msgstr ""
-"But I guess we better focus on the Battle Area, since we're here and all."
+"But Speck is right.
+"
+"We should focus on clearing the arena."
 
 msgid "doorchosen2"
 msgstr "I'll start with door 3! Lucky number 3 after all!"
 
 msgid "doorchosen3"
-msgstr "That girl will be the death of us."
+msgstr "That girl is going to make this tournament interesting."
 
 msgid "doorchosen4"
-msgstr "I'll start with door 2. Good Luck."
+msgstr "I'll start with door 2. Good luck."
 
 msgid "notyettababa"
 msgstr ""
-"Only one person can challenge an Acolyte at a time. Please challenge another"
-" one."
+"Only one competitor can challenge this match at a time.
+"
+"Please choose another lane."
 
 msgid "notyettababafourth"
 msgstr ""
-"This is the most powerful Acolyte before the Master, please finish "
-"challenging the others first."
+"This is the strongest competitor before the Arena Coach.
+"
+"Please clear the other matches first."
 
 msgid "itslocked"
 msgstr ""
-"The doors are locked, maybe you should try defeating all 4 Acolytes first?"
+"The door is locked.
+"
+"Try defeating all four academy competitors first."
 
 msgid "healspls"
-msgstr "Give me your Tuxemon."
+msgstr "Let me help you recover."
 
 msgid "healsdone"
-msgstr "Your Tuxemon have been healed."
+msgstr "You're recovered and ready to continue."
 
 msgid "areyoureadytorumble"
-msgstr "Are you ready to battle the Acolyte?"
+msgstr "Are you ready for your next academy match?"
 
 msgid "areyoureadytorumbleno"
-msgstr "Very well, come back once you're prepared."
+msgstr "Very well. Come back once you're prepared."
 
 msgid "areyoureadytorumbleyes"
-msgstr "Very well, before we fetch the Acolyte, we'll heal your Tuxemon."
+msgstr "Very well. Before we call your opponent, we'll make sure you're recovered."
 
 msgid "areyoureadytorumbleyes2"
 msgstr ""
-"There, now that you actually stand a chance, we will fetch the Acolyte."
+"There. Now you're ready.
+"
+"We'll bring in the competitor."
 
 msgid "uhhjason"
 msgstr "Uhh... Jason?"
 
 msgid "uhhjason2"
-msgstr "Shoot! He always does this..."
+msgstr "Not again... he always misses his cue."
 
 msgid "uhhjason3"
-msgstr "JASON!"
+msgstr "JASON! Your match is up!"
 
 msgid "challenger"
 msgstr ""
-"Challenger!\n"
-"Step to the center and face me!"
+"Competitor!
+"
+"Step onto the mats and face me!"
 
 msgid "challenger2"
-msgstr "You have done well to make it this far!"
+msgstr "You've done well to reach this lane."
 
 msgid "challenger3"
 msgstr "... .... ..."
 
 msgid "challenger4"
 msgstr ""
-"Wait, this is your first battle?\n"
-"I was told I would be the third battle..."
+"Wait, this is your first official match?
+"
+"I thought I was supposed to be third..."
 
 msgid "challenger5"
-msgstr "No matter!"
+msgstr "No matter."
 
 msgid "challenger6"
-msgstr "This just means it will be easier to crush you!"
+msgstr "That just means I get to test your basics first."
 
 msgid "challenger7"
-msgstr "Ready yourself Challenger! It's time... TO FIGHT!"
+msgstr "Ready yourself, competitor. It's time to roll!"
 
 msgid "tabacongratsfirst"
-msgstr "... ... Congrats on the win..."
+msgstr "... ... Good match."
 
 msgid "tabacongratsfirst2"
 msgstr ""
-"I definitely wasn't expecting a performance like that. Kyle told us all that you would be an easy win.\n"
-"I guess he meant for you and not us!"
+"I wasn't expecting that level of composure.
+"
+"Kyle told us you were an easy first-round win.
+"
+"Guess he meant easy for you."
 
 msgid "tabacongratsfirst3"
 msgstr ""
-"The other three acolytes are more powerful than me, so you may want to try and fight the wild Tuxemon in the passageways a bit.\n"
-"Other than that, Good Luck!\n"
-"If you walk through the entrance behind me, you'll be teleported back to the main room."
+"The other academy competitors are much tougher than I am.
+"
+"You might want to spend some time drilling and sharpening your techniques before taking them on.
+"
+"When you're ready, head through the exit behind me to return to the central arena."
 
 msgid "acolyte1loss"
 msgstr ""
-"Ha! Some Challenger you are. You'll have to do better than that to beat me!\n"
-"Try and level up your Tuxemon before facing me again!"
+"Not bad... but not enough.
+"
+"Spend some time training and come back when you've improved."
 
 msgid "acolyte1redo"
-msgstr ""
-"So, you actually crawled back... Let's see how powerful you really are!"
+msgstr "Back for another round? Good. Let's see what you've learned."
 
 msgid "healspls2"
 msgstr ""
-"So, you actually made it past the first Acolyte? Good Job.\n"
-"I'll take your Tuxemon real quick and heal them for you."
+"You cleared the first match? Nicely done.
+"
+"Take a minute to recover before your next opponent."
 
 msgid "healsdone2"
-msgstr "And... There you go. Good Luck with the next one."
+msgstr "There you go. You're ready for the next match."
 
 msgid "acolyte2challenger"
-msgstr "Why hello there Challenger..."
+msgstr "Well, hello there, competitor..."
 
 msgid "acolyte2challenger2"
 msgstr ""
-"No, no, no. I'm down here... Or am I?\n"
-"Meet me in the center and we'll see... Or maybe we won't! Ha!"
+"No, no, no. I'm over here... or am I?
+"
+"Meet me in the center and we'll find out."
 
 msgid "acolyte2challenger3"
 msgstr ""
-"Still wondering where I am? I thought you might!\n"
-"I'm unlike any Acolyte you've faced before. I'm a shadow, unseen to anything and everyone.\n"
-"Soon enough you will fear the true power of ME!\n"
-"I am the second Acolyte! Garth!"
+"Still trying to read my movement? Good.
+"
+"I'm not like the last competitor you faced.
+"
+"My whole game is angles, feints, and making you reach.
+"
+"I'm Garth, your second academy match."
 
 msgid "acolyte2challenger4"
 msgstr ""
-"Ahem. I SAID\n"
-"I am the second Acolyte! Garth!"
+"Ahem.
+"
+"I'm Garth, your second academy match."
 
 msgid "acolyte2challenger5"
-msgstr "Darnit Chris! You ruined it!"
+msgstr "Chris! You ruined the entrance!"
 
 msgid "acolyte2challenger6"
-msgstr "Hi, sorry about that. I'm Garth."
+msgstr "Hi. Sorry about that. I'm Garth."
 
 msgid "acolyte2challenger7"
-msgstr "NO CHRIS, IT'S TOO LATE! TURN THE LIGHTS BACK ON!!!"
+msgstr "NO, CHRIS, IT'S TOO LATE! TURN THE LIGHTS BACK ON!"
 
 msgid "acolyte2challenger8"
 msgstr ""
-"YOU HAD ONE JOB!\n"
-"ARGH!"
+"YOU HAD ONE JOB!
+"
+"Never mind. We're rolling anyway."
 
 msgid "acolyte2challenger9"
 msgstr ""
-"Sorry again, some of these grunts are just completely incompetent.\n"
-"I had this whole thing all planned out where I'd be the \"unhinged\" Acolyte and scare everyone.\n"
+"Sorry again. Some officials have no sense of dramatic timing.
+"
+"I had this whole elusive grappler entrance planned.
+"
+"Anyway, I'm Garth, the second academy competitor.
+"
+"Let's see if you can deal with movement.
+"
+"Ready? Let's roll!"unhinged\" Acolyte and scare everyone.\n"
 "Obviously that didn't happen, no thanks to Chris missing his mark.\n"
 "As I was saying, my name is Garth and I'm the second Acolyte.\n"
 "Presumably you're here to battle right? Well, let's get to it.\n"
@@ -11222,317 +11315,369 @@ msgstr ""
 
 msgid "acolyte2challengerloss"
 msgstr ""
-"Ha! You put up a good fight, but as always, no one can defeat the MIGHTY GARTH!\n"
-"Feel free to try again when you think you actually have a chance!"
+"Good effort, but you chased too much.
+"
+"Control the distance, then try again."
 
 msgid "acolyte2challengerwin"
 msgstr ""
-"... Well done. I put the blame of this loss entirely on Chris though.\n"
-"If he hadn't missed his mark, I'm positive I could have won...\n"
-"If you exit out the entrance behind me, you'll teleport back to the main room."
+"...Well done.
+"
+"I blame Chris for ruining my rhythm, obviously.
+"
+"Head through the exit behind me to return to the central arena."
 
 msgid "acolyte2challengerredo"
-msgstr "Oh ho, back so quick? Well, let's get to it then!"
+msgstr "Back already? Good. Let's see if you've learned to cut angles."
 
 msgid "healertabapassageway3"
 msgstr ""
-"Y'know, that Christie girl is a real piece of work. She would not stop talking about how cute Lamberts are...\n"
-"Oh, sorry. Give me your Tuxemon and I'll heal them."
+"That Christie girl is intense. She would not stop talking about guard retention.
+"
+"Anyway, take a second to recover."
 
 msgid "healertabapassageway3-2"
-msgstr "There! You should be all set now! Good luck on the next acolyte!"
+msgstr "There. You're ready for the next match. Good luck."
 
 msgid "acolyte3challenger1"
-msgstr "Wait... the next challenger? Already?"
+msgstr "Wait... next competitor already?"
 
 msgid "acolyte3challenger2"
-msgstr "No... No, no, no."
+msgstr "No... no, no, no."
 
 msgid "acolyte3challenger3"
-msgstr "I'm not ready yet. My Tuxemon aren't healed. This is bad."
+msgstr "I'm not warmed up yet. This is bad."
 
 msgid "acolyte3challenger4"
-msgstr "Bad, oh so very bad...."
+msgstr "Bad. Very, very bad..."
 
 msgid "acolyte3challenger5"
 msgstr ""
-"Wait, yes, I can get one from the passageway. Yes, I think that would work. "
-"Yes... Yes indeed."
+"Wait... yes. I can make this work.
+"
+"Pressure first. Panic later."
 
 msgid "acolyte3challenger6"
-msgstr "Ohhh, this will be GOOD!"
+msgstr "Ohhh, this will be interesting."
 
 msgid "acolyte3challenger7"
-msgstr "You just stay right here. I'll be back soon enough!"
+msgstr "Stay right there. I need thirty seconds and a dangerous amount of caffeine."
 
 msgid "acolyte3challenger8"
-msgstr "Hahaha! I've returned successful!"
+msgstr "I'm back. Mostly ready. Probably."
 
 msgid "acolyte3challenger9"
 msgstr ""
-"Catching tuxemon with your bare hands is always exhilarating, isn't it?\n"
-"The fight, the struggle, there's nothing like it!"
+"There's nothing like grappling under pressure, is there?
+"
+"The nerves, the scramble, the moment everything goes wrong..."
 
 msgid "acolyte3challenger10"
 msgstr ""
-"To feel them squirm and shake as you physically submit them to your will...\n"
-"...It's a glorious experience. Knowing that for once, you control the weapon, not the other way around."
+"And then you either break...
+"
+"or you find out what kind of competitor you really are."
 
 msgid "acolyte3challenger11"
-msgstr ""
-"In all my years of research, that feeling has always brought me the most "
-"satisfaction..."
+msgstr "I've spent years chasing that feeling."
 
 msgid "acolyte3challenger12"
 msgstr ""
-"Well... up until last year when I learned the Truth. When I lost my job "
-"because THEY COULDN'T SEE!"
+"Some people call it obsession.
+"
+"I call it preparation."
 
 msgid "acolyte3challenger13"
-msgstr "THOSE COWARDS!!"
+msgstr "Cowards call it madness."
 
 msgid "acolyte3challenger14"
 msgstr ""
-"Hmm, wait. Have you seen the Truth as well? Is there actually another like me?\n"
-"Hmm... Yes! Well... Maybe. Wait, no. Wait. Wait wait wait..."
+"Wait... you understand, don't you?
+"
+"You have that same look.
+"
+"Someone gave you a reason to fight."
 
 msgid "acolyte3challenger15"
 msgstr ""
-"Did you know that Tuxemon can become a part of you? An extension of your "
-"mind, specifically?"
+"Have you ever heard the name... Coach Atlas?"
 
 msgid "acolyte3challenger16"
 msgstr ""
-"If you enforce your will on your Tuxemon enough, soon your psyches start to "
-"merge!"
+"They all say the same thing.
+"
+"Greatest coach of his generation.
+"
+"Changed martial arts forever."
 
 msgid "acolyte3challenger17"
 msgstr ""
-"They called me crazy, they called me a fool. I was fired from the research division because they feared me. They feared what I could do!\n"
-"Humans and Tuxemon, merged together as one. So in sync that one can't be separated from the other... unless they burn out entirely."
+"I believed that too.
+"
+"I trained the way he trained.
+"
+"I pushed people the way he pushed people."
 
 msgid "acolyte3challenger18"
 msgstr ""
-"Hee hee hee, but that will come back to bite them in the end, now won't it?\n"
-"For only I know how to withstand a burnout!"
+"But somewhere along the way...
+"
+"I forgot why I loved jiu jitsu in the first place."
 
 msgid "acolyte3challenger19"
-msgstr "Sure, it results in a little madness..."
+msgstr "Winning became everything."
 
 msgid "acolyte3challenger20"
-msgstr "But that's the price anyone pays to see the Truth..."
+msgstr "People stopped being teammates... they became obstacles."
 
 msgid "acolyte3challenger21"
-msgstr "Hahahahaha, and after 30 merges and splits, I gladly pay it!"
+msgstr "I lost my academy. My students. Everything."
 
 msgid "acolyte3challenger22"
 msgstr ""
-"For to be enlightened like I have... No, to see the TRUTH like I have, "
-"there's nothing like it!"
+"And Atlas?
+"
+"He just kept moving on to the next generation."
 
 msgid "acolyte3challenger23"
 msgstr ""
-"Tuxemon aren't here to better our lives, no no no, they're here to DESTROY them. It's why we MUST end this all.\n"
-"I'd do it myself if I could, but unfortunately, the only way to ensure the destruction of them is with their own kind.\n"
-"Hence, Merging.\n"
-"It's also rather intoxicating, knowing how much power you can wield..."
+"So if you're chasing him too...
+"
+"Be careful what you're willing to sacrifice."
 
 msgid "acolyte3challenger24"
-msgstr ""
-"Wait...\n"
-"Wait wait wait wait wait... Why am I telling you this? You're not enlightened, you haven't seen the Truth."
+msgstr "...Enough talking."
 
 msgid "acolyte3challenger25"
 msgstr ""
-"YOU'RE JUST AN OMNICHANNEL PAWN! How DARE you come in here, interrogating me about the Truth, when you haven't even learned it.\n"
-"You can't even BEGIN to understand, you filthy Omni scum.\n"
-"For that, you and your Tuxemon must be... Annihilated..."
+"Show me you're stronger than the obsession.
+"
+"Let's roll!"
 
 msgid "acolyteiskayrazy"
-msgstr "HALT!"
+msgstr "TIME!"
 
 msgid "acolyteiskayrazy2"
 msgstr ""
-"Darnit Cam, we thought this would be a good way to bring you back into "
-"society."
+"Cam, that's enough.
+"
+"We cleared you for a controlled match, not a sermon about Atlas."
 
 msgid "acolyteiskayrazy3"
-msgstr "SILENCE! You dare speak to me, you insignificant piece of-"
+msgstr "Don't lecture me! You don't know what he took from-"
 
 msgid "acolyteiskayrazy4"
-msgstr "Alright, enough's enough."
+msgstr "Enough. Step away from the mat."
 
 msgid "acolytewasdefeated"
-msgstr "Okay, Mack? Take him out of here."
+msgstr "Mack, escort him out and get him checked over."
 
 msgid "thisisntthelastofme"
-msgstr "Mark my words, this isn't the last you'll see of me!!"
+msgstr "This isn't over. Atlas ruins everyone eventually!"
 
 msgid "thisisntthelastofme2"
-msgstr "Yeah, sure bud. Just start moving."
+msgstr "Yeah, okay. Walk first, dramatic warning later."
 
 msgid "acolytewasdefeated2"
 msgstr ""
-"Hey, sorry about that. I guess that Christie girl really did a number on "
-"him..."
+"Sorry about that.
+"
+"Cam used to be a solid competitor before he got wrapped up in Atlas's methods."
 
 msgid "acolytewasdefeated3"
 msgstr ""
-"He's been in therapy for the past year, ever since his Tuxemon experiments went haywire. We shut down everything after that.\n"
-"Obviously he needs more time..."
+"He's been trying to come back for a while.
+"
+"Clearly, he still needs more time before competing again."
 
 msgid "acolytewasdefeated4"
 msgstr ""
-"Since there isn't a third acolyte anymore, you can just move on to the next "
-"one. I'll be sure to let everyone know."
+"Since the third competitor has been pulled, you can move on to the next lane.
+"
+"I'll notify the officials."
 
 msgid "acolytewasdefeated5"
-msgstr "Good luck on the next one."
+msgstr "Good luck in the next match."
 
 msgid "tabapassageway4heal"
 msgstr ""
-"You've done well to make it this far, but he who lies ahead is more powerful than you expect.\n"
-"There's no Tuxemon in this passageway, but that doesn't mean it's any easier than before...\n"
-"Let me heal your Tuxemon."
+"You've done well to make it this far, but the competitor ahead is stronger than you expect.
+"
+"No gimmicks this time. Just pressure, timing, and composure.
+"
+"Take a moment to recover."
 
 msgid "tabapassageway4heal2"
-msgstr "Good luck on the path ahead..."
+msgstr "Good luck on the mats ahead."
 
 msgid "tabaacolyte4talk"
 msgstr ""
-"Oh, hello there. I was beginning to think none of you would make it.\n"
-"Come on in, don't be shy."
+"Oh, hello there. I was beginning to think nobody would make it this far.
+"
+"Come on in. Don't be shy."
 
 msgid "tabaacolyte4talk2"
 msgstr ""
-"That's better! As you might have guessed, I'm the fourth Acolyte.\n"
-"I'm the last one before you reach the Battle Area Master, and believe me, there's absolutely no way I'll let you past.\n"
-"FOR THE GLORY OF OMNICHANNEL... YOU SHALL NOT PASS!!"
+"I'm the fourth academy competitor.
+"
+"The last test before you face the Arena Coach.
+"
+"If you want that ranking medal, you'll have to get through me first."
 
 msgid "tabaacolyte4talk3"
 msgstr ""
-"Heh. You've got spirit, I'll give you that.\n"
-"But that's not even half of my power!\n"
-"FOR THE GLORY OF OMNICHANNEL... YOU SHALL NOT PASS!!"
+"Heh. You've got spirit, I'll give you that.
+"
+"But spirit alone won't pass a guard."
 
 msgid "tabaacolyte4talk4"
 msgstr ""
-"Hahaha! Is that really all you got?\n"
-"You'll have no chance of beating the Battle Area Master if this is your limit. Let's test it more!\n"
-"FOR THE GLORY OF OMNICHANNEL... YOU SHALL NOT PASS!!"
+"Is that your limit?
+"
+"If you want to chase King Of The Hill, you'll need more than that.
+"
+"Show me your real game."
 
 msgid "tabaacolyte4talkwon"
 msgstr ""
-"Heh. Guess I was wrong. Looks like your limit is higher than mine...\n"
-"The exit is behind me, it will take you back to the main room.\n"
-"Good luck against the Master."
+"Heh. I was wrong. Your ceiling is higher than mine today.
+"
+"The exit is behind me. It'll take you back to the central arena.
+"
+"Good luck against the Arena Coach."
 
 msgid "tabaacolyte4talklost"
-msgstr "FOR THE GLORY OF OMNICHANNEL!"
+msgstr "Respect the mats. Reset, recover, and try again."
 
 msgid "headupstairstababa"
 msgstr ""
-"Huh. Well I definitely didn't expect you'd be the first to defeat all of "
-"them..."
+"Well... I definitely didn't expect you'd be the first competitor to clear every match."
 
 msgid "headupstairstababa2"
-msgstr "Let me take one more look at your papers."
+msgstr "Let me verify your Academy registration one last time."
 
 msgid "headsupstairstababa3"
-msgstr "Handed over the papers"
+msgstr "Handed over your Academy Registration."
 
 msgid "headupstairstababa4"
 msgstr ""
-"This is all standard procedure, of course. We wouldn't want a cheater to "
-"make a mockery of the Trial after all."
+"Standard procedure.
+"
+"We verify every competitor before allowing them to challenge the Arena Coach."
 
 msgid "headupstairstababa5"
 msgstr "I'm sure you understand."
 
 msgid "headupstairstababa6"
-msgstr "Received the papers back from Kyle"
+msgstr "Received your Academy Registration back."
 
 msgid "headupstairstababa7"
 msgstr ""
-"The Battle Area Master is up those stairs on the far side.\n"
-"I'd wish you luck, but, y'know? I don't actually want you to win!"
+"The Arena Coach is waiting upstairs.
+"
+"This is your biggest test yet.
+"
+"Good luck... even if I'm technically supposed to be rooting against you."
 
 msgid "finaltabahealer"
 msgstr ""
-"You'll find the Battle Area Master upstairs. I'm actually excited for you!\n"
-"It's a bit bittersweet though. This may be the final time I get to heal your Tuxemon..."
+"You'll find the Arena Coach upstairs.
+"
+"I've got a feeling this one's going to be special.
+"
+"Let's get you recovered first."
 
 msgid "finaltabahealer2"
 msgstr ""
-"What? You thought Omnichannel would pay for more than a single grunt to heal Tuxemon?\n"
-"Nope, it's been me the whole time!"
+"Believe it or not, I've been the one patching everyone up all day.
+"
+"Now get out there and make all those recovery breaks worthwhile."
 
 msgid "tabawaitup"
-msgstr "Hey! ${{name}}! Wait up!"
+msgstr "Hey, ${{name}}! Wait up!"
 
 msgid "tabawaitup2"
 msgstr ""
-"Phew, looks like I caught you. Looks like you're about to face the Master. "
-"That's good, I-"
+"Phew... caught you.
+"
+"Looks like you're about to face the Arena Coach."
 
 msgid "tabawaitup3"
-msgstr "You didn't have to run up the stairs, Speck!"
+msgstr "You didn't have to sprint up the stairs, Speck!"
 
 msgid "tabawaitup4"
-msgstr "Oh, come on Christie, I wasn't running. You're just slow."
+msgstr "Sprint? That was barely a warm-up."
 
 msgid "tabawaitup5"
-msgstr "UGGGH. You are UN. BE. LIEVABLE."
+msgstr "One day I'm actually going to arm drag you down those stairs."
 
 msgid "tabawaitup6"
 msgstr ""
-"Hey, ${{name}}, is it alright if I punch him? A good whack to his face would"
-" probably do him some good."
+"Hey, ${{name}}, back me up here.
+"
+"That would be completely justified... right?"
 
 msgid "tabawaitup7"
-msgstr "Hey, hey, hey. We don't need to go that far."
+msgstr "Easy, you two. Save the competition for the mats."
 
 msgid "tabawaitup8"
 msgstr ""
-"Anyway... I was thinking, what's the point of making us go through all this?"
+"Seriously though...
+"
+"Have either of you thought about why they're running this Academy Network now?"
 
 msgid "tabawaitup9"
-msgstr "Through what, exactly?"
+msgstr "You mean the rankings?"
 
 msgid "tabawaitup10"
-msgstr "Training, The Trial, Life in this cursed land. Y'know, all the hits."
+msgstr ""
+"The rankings... the academies... King Of The Hill...
+"
+"It all happened so suddenly."
 
 msgid "tabawaitup11"
 msgstr ""
-"Seriously though, why even have The Trial? Omnichannel hasn't felt the need "
-"to do this in the past. Why now?"
+"Sensei Duncan believes it's giving young competitors a chance to grow.
+"
+"But after everything we've seen today... I can't help wondering if there's something bigger going on.
+"
+"Either way, the Arena Coach is waiting. Let's give it everything we've got."
 
 msgid "ripjimmy"
 msgstr ""
-"The grave says:\n"
-"Here lies Jimmy. A friend, a knight, and ... bad person overall. However, ... never ... ... Help! ...\n"
-"The rest is weathered away."
+"The plaque reads:
+"
+"Jimmy
+"
+"A loyal Academy Officer.
+"
+"He always put others before himself.
+"
+"The rest has weathered away."
 
 msgid "tabanurse_dialog_welcome"
-msgstr "Welcome to the Taba Town Tuxecenter!"
+msgstr "Welcome to the Taba Town Recovery Centre!"
 
 msgid "tabanurse_dialog_taba"
 msgstr ""
-"Welcome to the Taba Town Tuxecenter!\n"
-"Do you want to heal your Tuxemon?"
+"Welcome to the Taba Town Recovery Centre!
+"
+"Would you like me to patch you up before your next match?"
 
 msgid "tabanurse_dialog_cotton"
 msgstr ""
-"Welcome to the Cotton Town Tuxecenter!\n"
-"Do you want to heal your Tuxemon?"
+"Welcome to the Cotton Town Recovery Centre!
+"
+"Need to recover before getting back on the mats?"
 
 msgid "okaythen"
-msgstr "Okay! Just give me a second and I'll heal your Tuxemon!"
+msgstr "Perfect! Give me just a moment."
 
 msgid "okaythen2"
 msgstr ""
-"Well, it looks like your Tuxemon are all better now!\n"
-"Have a wonderful day!"
+"You're all set!
+"
+"Good luck in your next match!"
 
 msgid "waithere"
 msgstr "We have to wait here for now. Apparently a tree fell up ahead."
@@ -11566,15 +11711,18 @@ msgid "input_name"
 msgstr "Name?"
 
 msgid "input_monster_name"
-msgstr "Name your fighter"
+msgstr "Name your competitor"
 
 msgid "happy_guy_dialog"
 msgstr ""
-"Happy: Hi! I love giving Tuxemon nicknames, do you wanna give yours a "
-"nickname?"
+"Hi there!
+"
+"Lots of competitors earn nicknames.
+"
+"Want to choose one?"
 
 msgid "happy_rename"
-msgstr "Happy: That's a great name! I'm sure your Tuxemon loves it :)"
+msgstr "Nice! That nickname has a champion's ring to it."
 
 msgid "shady_guy_dialog"
 msgstr ""
@@ -11643,16 +11791,16 @@ msgid "taba_house1_calendar_sep30"
 msgstr "It's ${{today}}, one of the dates marked in red. Someone here clearly finds this day important."
 
 msgid "taba_house1_husband1"
-msgstr "Tuxemon! I was among the most skilled trainer!"
+msgstr "Back in my day I was one of the toughest competitors in the region!"
 
 msgid "taba_house1_husband_extra"
-msgstr "One day I'll prove I really was a top trainer. The world just wasn't ready for my talent."
+msgstr "One day people will finally appreciate my competition footage."
 
 msgid "taba_house1_husband_feb12"
-msgstr "${{today}}â€¦ the day I almost caught a mythical Tuxemon! My wife insists it was just a stray cat."
+msgstr "${{today}}... the day I almost qualified for King Of The Hill. At least that's how I remember it."
 
 msgid "taba_house1_husband_sep30"
-msgstr "${{today}}â€¦ a legendary day in my career! Or it would've been, if anyone believed me."
+msgstr "${{today}}... another glorious anniversary of almost becoming champion."
 
 msgid "taba_house1_wife1"
 msgstr "Trainer? My husband is delusional."
@@ -11676,7 +11824,9 @@ msgstr ""
 
 msgid "taba_house2_owner1"
 msgstr ""
-"Welcome to the Legacy Library! Feel free to look around, but quiet please."
+"It's a documentary about the strangest and most exciting competitors in the region.
+"
+"Every athlete seems to have their own style, habits, and rituals."
 
 msgid "taba_house2_reading1"
 msgstr "The book is Visiting The King by Manolo Qai."
@@ -11791,36 +11941,44 @@ msgid "cotton_underground_stop"
 msgstr "Sorry, I'm under orders to let no one pass."
 
 msgid "cotton_breeder0"
-msgstr ""
-"Hi there, welcome to the Daycare! I look after Tuxemon here.\n"
-"If you leave your partners with me, I can train them while you explore â€” as long as you've got some money on hand.\n"
-"And if you leave a male and a female who are fully evolved enough, they might even produce a newborn!\n"
-"Just tell me what you'd like to do."
+""
+"Hi there! Welcome to the Academy Training Centre!
+"
+"If you're taking a break from competing, I can keep one of your academy teammates training while you explore.
+"
+"They'll continue improving until you return.
+"
+"What can I do for you today?"
 
 msgid "cotton_breeder1"
-msgstr ""
-"Would you like to leave a Tuxemon with me? I can train one, or look after a pair if you want them to try breeding."
+""
+"Would you like to leave one of your teammates here to continue training?"
 
 msgid "taba_greeting1"
 msgstr ""
-"Greeter Jaime: Hey there ${{name}}! Heard you got a Tuxemon, congrats! If "
-"you wanna grow your party, you'll need Tuxeballs."
+"Greeter Jaime: Hey ${{name}}! Heard you joined the Academy Network!
+"
+"Best of luck climbing the rankings."
 
 msgid "taba_greeting2a"
 msgstr ""
-"The shop is doing a promo, here's some to get you started. You use them to "
-"capture Tuxemon. It's easier if they're weakend first though!"
+"The shop is doing a promo, so here are some supplies to get you started.
+"
+"They should help during your first few academy matches."
 
 msgid "taba_greeting2b"
 msgstr ""
-"Ah! I see you've already got some. You've got a good head on your shoulders "
-"${{name}}, I'm sure you'll be a champ in no time."
+"Ah! I see you've already got some. You've got a good head on your shoulders, ${{name}}.
+"
+"I'm sure you'll be a serious competitor in no time."
 
 msgid "taba_greeting3"
 msgstr ""
-"Good luck in your adventures ${{name}}, and remember to shop at Tuxemart for all your adventuring needs!\n"
-"...\n"
-"Sorry about the sales pitch, it's my job."
+"Good luck on your journey, ${{name}}, and remember to shop at the Academy Supply Store for all your training needs!
+"
+"...
+"
+"Sorry about the sales pitch. It's my job."
 
 msgid "gotfivetuxeballs"
 msgstr "You got some training supplies."
@@ -11829,22 +11987,22 @@ msgid "got_new_tuxemon"
 msgstr "A new fighter joined the team!"
 
 msgid "xero_omnichannel_sign"
-msgstr "Omnichannel HQ: We are Safety, We are Order, We are Omnichannel"
+msgstr "KOTHchannel Regional Broadcasting Headquarters"
 
 msgid "taba_town_homeplace"
 msgstr "${{name}}'s house"
 
 msgid "taba_town_sign_profhouse"
-msgstr "Tuxemon Professor's House"
+msgstr "Sensei Duncan's House"
 
 msgid "taba_town_sign_proflab"
-msgstr "Tuxemon Professor's Lab"
+msgstr "Sensei Duncan's Academy Office"
 
 msgid "taba_town_sign_tuxemart"
-msgstr "Tuxemart - A place to buy and sell items"
+msgstr "Academy Supply Store"
 
 msgid "taba_town_sign_tuxecenter"
-msgstr "Tuxecenter - A place to heal your tuxemon"
+msgstr "Recovery Centre"
 
 msgid "leather_town_open_air"
 msgstr "Open Air Cafe and Marketplace"
@@ -11860,14 +12018,15 @@ msgstr "Shaft Headquarters: Public Relations Division"
 
 msgid "xero_taba_tvwatch"
 msgstr ""
-"What's on TV? A prom queen is breaking her tiara into pieces and handing it "
-"out."
+"What's on TV? The story of how KOTH became a global jiu jitsu phenomenon,
+"
+"inspiring competitors across every academy in the region."
 
 msgid "xero_taba_poster"
 msgstr "Home sweet home!"
 
 msgid "xero_taba_restinbed"
-msgstr "You awake fully rested!"
+msgstr "You wake up fully rested and ready to train!"
 
 msgid "xero_skip_question"
 msgstr "Do you want to skip the intro?"
@@ -11926,8 +12085,9 @@ msgstr "Let me know if you change your mind!"
 
 msgid "spyder_scoop_tuxemon5"
 msgstr ""
-"What, you thought you'd get cash back? Tuxemon are pets, not things to be "
-"bought and sold. I'm just helping you out with your debt."
+"What, you thought you'd get cash back? Academy gear isn't cheap.
+"
+"I'm helping you out with your tab, not handing out prize money."
 
 msgid "spyder_intro_question"
 msgstr "Do you want to skip the intro?"
