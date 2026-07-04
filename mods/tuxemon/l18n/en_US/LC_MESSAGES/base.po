@@ -19,305 +19,286 @@ msgid "cosmic_berry"
 msgstr "Cosmic Berry"
 
 msgid "cosmic_berry_description"
-msgstr "It changes monster type to Cosmic."
+msgstr "Changes competitor style to Cosmic."
 
 msgid "earth_berry"
 msgstr "Earth Berry"
 
 msgid "earth_berry_description"
-msgstr "It changes monster type to Earth."
+msgstr "Changes competitor style to Wrestling."
 
 msgid "fire_berry"
 msgstr "Fire Berry"
 
 msgid "fire_berry_description"
-msgstr "It changes monster type to Fire."
+msgstr "Changes competitor style to Striking."
 
 msgid "frost_berry"
 msgstr "Frost Berry"
 
 msgid "frost_berry_description"
-msgstr "It changes monster type to Frost."
+msgstr "Changes competitor style to Frost."
 
 msgid "heroic_berry"
 msgstr "Heroic Berry"
 
 msgid "heroic_berry_description"
-msgstr "It changes monster type to Heroic."
+msgstr "Changes competitor style to Heroic."
 
 msgid "metal_berry"
 msgstr "Metal Berry"
 
 msgid "metal_berry_description"
-msgstr "It changes monster type to Metal."
+msgstr "Changes competitor style to Pressure."
 
 msgid "lightning_berry"
 msgstr "Lightning Berry"
 
 msgid "lightning_berry_description"
-msgstr "It changes monster type to Lightning."
+msgstr "Changes competitor style to Lightning."
 
 msgid "normal_berry"
 msgstr "Normal Berry"
 
 msgid "normal_berry_description"
-msgstr "It changes monster type to Normal."
+msgstr "Changes competitor style to Balanced."
 
 msgid "shadow_berry"
 msgstr "Shadow Berry"
 
 msgid "shadow_berry_description"
-msgstr "It changes monster type to Shadow."
+msgstr "Changes competitor style to Shadow."
 
 msgid "sky_berry"
 msgstr "Sky Berry"
 
 msgid "sky_berry_description"
-msgstr "It changes monster type to Sky."
+msgstr "Changes competitor style to Aerial."
 
 msgid "venom_berry"
 msgstr "Venom Berry"
 
 msgid "venom_berry_description"
-msgstr "It changes monster type to Venom."
+msgstr "Changes competitor style to Venom."
 
 msgid "water_berry"
 msgstr "Water Berry"
 
 msgid "water_berry_description"
-msgstr "It changes monster type to Water."
+msgstr "Changes competitor style to Guard."
 
 msgid "wood_berry"
 msgstr "Wood Berry"
 
 msgid "wood_berry_description"
-msgstr "It changes monster type to Wood."
+msgstr "Changes competitor style to Movement."
 
 msgid "potion"
 msgstr "Potion"
 
 msgid "potion_description"
-msgstr "Heals a monster by 50 HP."
+msgstr "Heals a teammate by 50 HP."
 
 msgid "super_potion"
 msgstr "Super Potion"
 
 msgid "super_potion_description"
-msgstr "Heals a monster by 100 HP."
+msgstr "Heals a teammate by 100 HP."
 
 msgid "imperial_potion"
 msgstr "Imperial Potion"
 
 msgid "imperial_potion_description"
-msgstr "Heals a monster by 500 HP."
+msgstr "Heals a teammate by 500 HP."
 
 msgid "mega_potion"
 msgstr "Mega Potion"
 
 msgid "mega_potion_description"
-msgstr "Heals a monster by 200 HP."
+msgstr "Heals a teammate by 200 HP."
 
 msgid "ancient_tea"
 msgstr "Ancient Tea"
 
 msgid "ancient_tea_description"
-msgstr "Adds 4,500 to a monster's XP."
+msgstr "Adds 4,500 XP to a teammate."
 
 msgid "imperial_tea"
 msgstr "Imperial Tea"
 
 msgid "imperial_tea_description"
-msgstr "Adds 10,000 to a monster's XP."
+msgstr "Adds 10,000 XP to a teammate."
 
 msgid "mystery_tea"
 msgstr "Mystery Tea"
 
 msgid "mystery_tea_description"
-msgstr "Adds 1,500 to a monster's XP."
+msgstr "Adds 1,500 XP to a teammate."
 
 msgid "tea"
 msgstr "Tea"
 
 msgid "tea_description"
-msgstr "Adds 500 to a monster's XP."
+msgstr "Adds 500 XP to a teammate."
 
 msgid "revive"
 msgstr "Revive"
 
 msgid "revive_description"
-msgstr "Revives knocked out Tuxemon and restores 20 HP."
+msgstr "Revives a knocked-out teammate and restores 20 HP."
 
 msgid "tuxeball"
-msgstr "Tuxeball"
+msgstr "Recruitment Invite"
 
 msgid "tuxeball_description"
-msgstr "Captures a monster."
+msgstr "Recruits a competitor."
 
 msgid "tuxeball_earth"
-msgstr "Earth Tuxeball"
+msgstr "Wrestler Invite"
 
 msgid "tuxeball_earth_description"
-msgstr "Captures more easily an Earth Tuxemon."
+msgstr "Works better on wrestling-style competitors."
 
 msgid "tuxeball_fire"
-msgstr "Fire Tuxeball"
+msgstr "Striker Invite"
 
 msgid "tuxeball_fire_description"
-msgstr "Captures more easily a Fire Tuxemon."
+msgstr "Works better on striking-style competitors."
 
 msgid "tuxeball_metal"
-msgstr "Metal Tuxeball"
+msgstr "Pressure Invite"
 
 msgid "tuxeball_metal_description"
-msgstr "Captures more easily a Metal Tuxemon."
+msgstr "Works better on pressure-heavy competitors."
 
 msgid "tuxeball_water"
-msgstr "Water Tuxeball"
+msgstr "Guard Player Invite"
 
 msgid "tuxeball_water_description"
-msgstr "Captures more easily a Water Tuxemon."
+msgstr "Works better on guard-based competitors."
 
 msgid "tuxeball_wood"
-msgstr "Wood Tuxeball"
+msgstr "Scrambler Invite"
 
 msgid "tuxeball_wood_description"
-msgstr "Captures more easily a Wood Tuxemon."
+msgstr "Works better on movement-based competitors."
 
 msgid "tuxeball_male"
-msgstr "Male Tuxeball"
+msgstr "Male Competitor Invite"
 
 msgid "tuxeball_male_description"
-msgstr "Captures more easily a Male Tuxemon."
+msgstr "Works better on male competitors."
 
 msgid "tuxeball_female"
-msgstr "Female Tuxeball"
+msgstr "Female Competitor Invite"
 
 msgid "tuxeball_female_description"
-msgstr "Captures more easily a Female Tuxemon."
+msgstr "Works better on female competitors."
 
 msgid "tuxeball_park"
-msgstr "Park Tuxeball"
+msgstr "Park Invite"
 
 msgid "tuxeball_park_description"
-msgstr "The official Park capture device. It only works inside the Park."
+msgstr "The official Park recruitment invite. It only works inside the Park."
 
 msgid "tuxeball_neuter"
-msgstr "Neuter Tuxeball"
+msgstr "Open Division Invite"
 
 msgid "tuxeball_neuter_description"
-msgstr "Captures more easily a Neuter Tuxemon."
+msgstr "Works better on neutral/open-division competitors."
 
 msgid "tuxeball_candy"
-msgstr "Candy Tuxeball"
+msgstr "Development Invite"
 
 msgid "tuxeball_candy_description"
-msgstr "Captures Tuxemon and increases its level (+1) upon capture."
+msgstr "Recruit a competitor and boost their level by 1."
 
 msgid "tuxeball_lavish"
-msgstr "Lavish Tuxeball"
+msgstr "Premium Invite"
 
 msgid "tuxeball_lavish_description"
-msgstr ""
-"The ultimate capture tool, boasting a significantly higher capture rate than"
-" the Noble Tuxeball."
+msgstr "The ultimate recruitment tool, with a much higher success rate than the Noble Invite."
 
 msgid "tuxeball_ancient"
-msgstr "Ancient Tuxeball"
+msgstr "Ancient Invite"
 
 msgid "tuxeball_ancient_description"
-msgstr ""
-"This Tuxeball was made a long time ago and is capable of catching any "
-"Tuxemon without fail."
+msgstr "This invite was made long ago and can recruit any competitor without fail."
 
 msgid "tuxeball_crusher"
-msgstr "Crusher Tuxeball"
+msgstr "Pressure Invite Plus"
 
 msgid "tuxeball_crusher_description"
-msgstr ""
-"This Tuxeball breaks through defenses and increases the catch rate the "
-"higher the opposing Tuxemon's defense is. It will fail to catch if a "
-"protective condition is in place."
+msgstr "This invite breaks through defenses and works better against high-defense competitors. It fails if a protective condition is active."
 
 msgid "tuxeball_xero"
-msgstr "Xero Tuxeball"
+msgstr "Outsider Invite"
 
 msgid "tuxeball_xero_description"
-msgstr ""
-"This odd Tuxeball increases the chance of succeeding if the opposing Tuxemon"
-" is a different type than yours, but has a decreased chance if they are the "
-"same type."
+msgstr "This odd invite works better if the opposing competitor is a different style than yours, but worse if they share your style."
 
 msgid "tuxeball_omni"
-msgstr "Omni Tuxeball"
+msgstr "Mirror Invite"
 
 msgid "tuxeball_omni_description"
-msgstr ""
-"This odd Tuxeball increases the chance of succeeding if the opposing Tuxemon"
-" is the same type as yours, but has a decreased chance if they are different"
-" types."
+msgstr "This odd invite works better if the opposing competitor shares your style, but worse if they are different."
 
 msgid "tuxeball_hardened"
-msgstr "Hardened Tuxeball"
+msgstr "Durable Invite"
 
 msgid "tuxeball_hardened_description"
-msgstr "Captures Tuxemon and it doesn't break when it fails."
+msgstr "Recruits a competitor and does not break when it fails."
 
 msgid "tuxeball_hearty"
-msgstr "Hearty Tuxeball"
+msgstr "Hearty Invite"
 
 msgid "tuxeball_hearty_description"
-msgstr "Upon capture, the tuxemon's positive taste changes to hearty."
+msgstr "Upon recruitment, the competitor's positive focus changes to hearty."
 
 msgid "tuxeball_peppy"
-msgstr "Peppy Tuxeball"
+msgstr "Peppy Invite"
 
 msgid "tuxeball_peppy_description"
-msgstr "Upon capture, the tuxemon's positive taste changes to peppy."
+msgstr "Upon recruitment, the competitor's positive focus changes to peppy."
 
 msgid "tuxeball_refined"
-msgstr "Refined Tuxeball"
+msgstr "Refined Invite"
 
 msgid "tuxeball_refined_description"
-msgstr "Upon capture, the tuxemon's positive taste changes to refined."
+msgstr "Upon recruitment, the competitor's positive focus changes to refined."
 
 msgid "tuxeball_salty"
-msgstr "Salty Tuxeball"
+msgstr "Salty Invite"
 
 msgid "tuxeball_salty_description"
-msgstr "Upon capture, the tuxemon's positive taste changes to salty."
+msgstr "Upon recruitment, the competitor's positive focus changes to salty."
 
 msgid "tuxeball_zesty"
-msgstr "Zesty Tuxeball"
+msgstr "Zesty Invite"
 
 msgid "tuxeball_zesty_description"
-msgstr "Upon capture, the tuxemon's positive taste changes to zesty."
+msgstr "Upon recruitment, the competitor's positive focus changes to zesty."
 
 msgid "tuxeball_grand"
-msgstr "Grand Tuxeball"
+msgstr "Grand Invite"
 
 msgid "tuxeball_grand_description"
-msgstr ""
-"Offers an even higher capture rate than the Lavish Tuxeball, increasing the "
-"chances of a successful catch."
+msgstr "Offers an even higher recruitment rate than the Premium Invite."
 
 msgid "tuxeball_majestic"
-msgstr "Majestic Tuxeball"
+msgstr "Majestic Invite"
 
 msgid "tuxeball_majestic_description"
-msgstr ""
-"Boasts the highest capture rate of all, making it the ultimate choice for "
-"catching even the most elusive tuxemon."
+msgstr "The highest recruitment rate of all, best for elusive competitors."
 
 msgid "tuxeball_noble"
-msgstr "Noble Tuxeball"
+msgstr "Noble Invite"
 
 msgid "tuxeball_noble_description"
-msgstr ""
-"A moderate upgrade to the standard Tuxeball, offering a reliable capture "
-"rate."
+msgstr "A moderate upgrade to the standard Recruitment Invite, offering a reliable recruitment rate."
 
 msgid "tuxeball_diurnal"
-msgstr "Diurnal Tuxeball"
+msgstr "Daytime Invite"
 
 msgid "tuxeball_diurnal_description"
 msgstr ""
@@ -325,7 +306,7 @@ msgstr ""
 "reduced during the night."
 
 msgid "tuxeball_nocturnal"
-msgstr "Nocturnal Tuxeball"
+msgstr "Night Invite"
 
 msgid "tuxeball_nocturnal_description"
 msgstr ""
@@ -333,13 +314,10 @@ msgstr ""
 "significantly reduced during the day."
 
 msgid "tuxeball_gambler"
-msgstr "Gambler Tuxeball"
+msgstr "Wildcard Invite"
 
 msgid "tuxeball_gambler_description"
-msgstr ""
-"This tuxeball is known for its unpredictable nature. Its catch rate "
-"fluctuates wildly, with the chance of capturing a tuxemon ranging from "
-"extremely low to exceptionally high."
+msgstr "This invite is unpredictable. Its recruitment rate fluctuates wildly, from extremely low to exceptionally high."
 
 msgid "boost_armour"
 msgstr "Boost Armor"
@@ -503,7 +481,7 @@ msgid "drone"
 msgstr "Drone"
 
 msgid "drone_description"
-msgstr "Switch out one tuxemon on your team for one in storage."
+msgstr "Switch one teammate on your active squad with one in storage."
 
 msgid "spyder_pass"
 msgstr "Spyder Pass"
@@ -540,14 +518,13 @@ msgid "app_renaming"
 msgstr "Renaming App"
 
 msgid "app_renaming_description"
-msgstr "Give your Tuxemon a fresh identity with a new nameâ€”make it truly yours!"
+msgstr "Give your competitor a fresh identity with a new name — make it truly yours!"
 
 msgid "app_tuxepedia"
-msgstr "Tuxepedia App"
+msgstr "Competitor Database App"
 
 msgid "app_tuxepedia_description"
-msgstr ""
-"Keep track of information about Tuxemon here, and share it with the world."
+msgstr "Keep track of competitor information here, and share it with the world."
 
 msgid "p_trepidation"
 msgstr "Trepidation"
@@ -568,9 +545,7 @@ msgid "p_monsters_eyes"
 msgstr "Eyes Meet"
 
 msgid "p_monsters_eyes_description"
-msgstr ""
-"Painting 'Monsters' Eyes Meet', medium: oil on canvas. Hand-signed by the "
-"artist."
+msgstr "Painting 'Eyes Meet', medium: oil on canvas. Hand-signed by the artist."
 
 msgid "ancient_egg"
 msgstr "Ancient Egg"
@@ -588,7 +563,7 @@ msgid "cureall"
 msgstr "Cureall"
 
 msgid "cureall_description"
-msgstr "Heals your tuxemon to full health and removes any conditions."
+msgstr "Restores your team to full health and removes any conditions."
 
 msgid "escape_key"
 msgstr "Escape Key"
@@ -976,13 +951,13 @@ msgid "buzz_resonator"
 msgstr "Buzz Resonator"
 
 msgid "buzz_resonator_description"
-msgstr "Detects insect-like tuxemon vibrations and hive signals."
+msgstr "Detects movement patterns from insect-style competitors and hive-like formations."
 
 msgid "pollen_decoder"
 msgstr "Pollen Decoder"
 
 msgid "pollen_decoder_description"
-msgstr "Reads biological residue and pollen from nature-bound tuxemon."
+msgstr "Reads biological residue and pollen from nature-bound training areas."
 
 msgid "researcher_stylus"
 msgstr "Researcher's Stylus"
@@ -1013,7 +988,7 @@ msgid "starlight_lens"
 msgstr "Starlight Lens"
 
 msgid "starlight_lens_description"
-msgstr "Captures celestial patterns linked to cosmic tuxemon."
+msgstr "Captures celestial patterns linked to rare training phenomena."
 
 msgid "echo_wand"
 msgstr "Echo Wand"
@@ -1062,7 +1037,7 @@ msgid "bio_sample"
 msgstr "Bio-Sample"
 
 msgid "bio_sample_description"
-msgstr "Organic particles from tuxemon habitats; reactive and unstable."
+msgstr "Organic particles from training habitats; reactive and unstable."
 
 msgid "signal_node"
 msgstr "Signal Node"
@@ -1274,51 +1249,49 @@ msgid "greenwash_badge"
 msgstr "Badge: Greenwash"
 
 msgid "greenwash_badge_description"
-msgstr "Tuxemon purchased from Greenwash require this badge to morph."
+msgstr "Competitors registered through Greenwash require this badge for belt progression."
 
 msgid "nimrod_badge"
 msgstr "Badge: Nimrod"
 
 msgid "nimrod_badge_description"
-msgstr "Tuxemon purchased from Nimrod require this badge to morph."
+msgstr "Competitors registered through Nimrod require this badge for belt progression."
 
 msgid "omnichannel_badge"
-msgstr "Badge: Omnichannel"
+msgstr "Badge: KOTHchannel"
 
 msgid "omnichannel_badge_description"
-msgstr "Tuxemon purchased from Omnichannel require this badge to morph."
+msgstr "Competitors registered through KOTHchannel require this badge for belt progression."
 
 msgid "scoop_badge"
 msgstr "Badge: Scoop"
 
 msgid "scoop_badge_description"
-msgstr "Tuxemon purchased from Scoop require this badge to morph."
+msgstr "Competitors registered through Scoop require this badge for belt progression."
 
 msgid "shaft_badge"
 msgstr "Badge: Shaft"
 
 msgid "shaft_badge_description"
-msgstr "Tuxemon purchased from Shaft require this badge to morph."
+msgstr "Competitors registered through Shaft require this badge for belt progression."
 
 msgid "booster_tech"
 msgstr "Tech Booster"
 
 msgid "booster_tech_description"
-msgstr ""
-"An open source technology that allows to morph tuxemon into a different "
-"form."
+msgstr "Open-source training technology that helps competitors reach a new belt milestone."
 
 msgid "earth_booster"
 msgstr "Earth Booster"
 
 msgid "earth_booster_description"
-msgstr "It allows to morph an Earth type tuxemon into a different form."
+msgstr "Helps a wrestling-style competitor reach a new belt milestone."
 
 msgid "fire_booster"
 msgstr "Fire Booster"
 
 msgid "fire_booster_description"
-msgstr "It allows to morph a Fire type tuxemon into a different form."
+msgstr "Helps a striking-style competitor reach a new belt milestone."
 
 msgid "flintstone"
 msgstr "Flintstone"
@@ -1332,7 +1305,7 @@ msgid "friendship_scroll"
 msgstr "Friendship Scroll"
 
 msgid "friendship_scroll_description"
-msgstr "It allows to deepen your relationship with the monsters."
+msgstr "Deepens your relationship with your teammates."
 
 msgid "lucky_bamboo"
 msgstr "Lucky Bamboo"
@@ -1346,7 +1319,7 @@ msgid "metal_booster"
 msgstr "Metal Booster"
 
 msgid "metal_booster_description"
-msgstr "It allows to morph a Metal type tuxemon into a different form."
+msgstr "Helps a pressure-style competitor reach a new belt milestone."
 
 msgid "miaow_milk"
 msgstr "Miaow Milk"
@@ -1358,7 +1331,7 @@ msgid "ox_stick"
 msgstr "Ox Stick"
 
 msgid "ox_stick_description"
-msgstr "An inspiring weapon for an ancient tuxemon."
+msgstr "An inspiring training weapon for an ancient competitor."
 
 msgid "peace_lily"
 msgstr "Peace Lily"
@@ -1420,22 +1393,19 @@ msgid "water_booster"
 msgstr "Water Booster"
 
 msgid "water_booster_description"
-msgstr "It allows to morph a Water type tuxemon into a different form."
+msgstr "Helps a guard-style competitor reach a new belt milestone."
 
 msgid "wood_booster"
 msgstr "Wood Booster"
 
 msgid "wood_booster_description"
-msgstr "It allows to morph a Wood type tuxemon into a different form."
+msgstr "Helps a movement-style competitor reach a new belt milestone."
 
 msgid "xp_transmitter"
 msgstr "XP Transmitter"
 
 msgid "xp_transmitter_description"
-msgstr ""
-"When this item is in your possession, all monsters that did not participate "
-"in defeating a monster get half of the XP. The remainder goes to the "
-"monsters that did participate."
+msgstr "When this item is in your possession, teammates who did not participate receive half XP. The remainder is shared between those who did participate."
 
 # Held Items
 msgid "antidote_grapes"
@@ -1488,9 +1458,7 @@ msgid "open_hand"
 msgstr "Open Hand"
 
 msgid "open_hand_description"
-msgstr ""
-"Attacks made by a tuxemon holding this item will never reduce a foe below 1 "
-"HP."
+msgstr "Attacks made by a teammate holding this item will never reduce an opponent below 1 HP."
 
 msgid "refreshing_slice"
 msgstr "Refreshing Slice"
@@ -1511,9 +1479,7 @@ msgid "xp_feeder"
 msgstr "XP Feeder"
 
 msgid "xp_feeder_description"
-msgstr ""
-"A tuxemon that holds this item receives half of all XP gained by your party, regardless of whether it participated in battle.\n"
-" The remainder of the XP is split between monsters that did participate."
+msgstr "A teammate holding this item receives half of all XP earned by your academy, even if they didn't compete. The remainder is split among participating teammates."
 
 # Map Types:
 msgid "no_type"
@@ -1550,7 +1516,7 @@ msgid "item_used_wrong_location_type"
 msgstr "{name} can only be used in a {here}!"
 
 msgid "item_no_available_target"
-msgstr "{name} cannot be used on any of your Tuxemon right now."
+msgstr "{name} cannot be used on any of your teammates right now."
 
 msgid "technique_description"
 msgstr ""
@@ -2068,7 +2034,7 @@ msgid "generic_failure"
 msgstr "It failed!"
 
 msgid "who_is_that"
-msgstr "Name That Tuxemon"
+msgstr "Name That Competitor"
 
 msgid "score_label"
 msgstr "Score"
@@ -2152,7 +2118,7 @@ msgid "alert_text"
 msgstr "Text too long!"
 
 msgid "receive_happiness"
-msgstr "Received 5 Tuxeballs!"
+msgstr "Received 5 Recruitment Invites!"
 
 msgid "received_x"
 msgstr "Received {name}!"
@@ -3187,9 +3153,7 @@ msgid "lick_lash"
 msgstr "Snap Down"
 
 msgid "life_surge_description"
-msgstr ""
-"An eruption of life charges the monster, but at the expense of healing its "
-"opponent."
+msgstr "An eruption of life empowers the competitor, but heals the opponent."
 
 msgid "life_surge"
 msgstr "Second Wind"
@@ -3382,7 +3346,7 @@ msgid "overgrowth"
 msgstr "Leg Entanglement"
 
 msgid "panjandrum_description"
-msgstr "A reliable technique that hurts any monster in proportion to its HP."
+msgstr "A reliable technique that deals damage based on the opponent's HP."
 
 msgid "panjandrum"
 msgstr "Big Boy Pressure"
@@ -4375,7 +4339,7 @@ msgid "tunnel_description"
 msgstr "The dark expanse - watch your step!"
 
 msgid "park_description"
-msgstr "See exotic monsters and take them home!"
+msgstr "Meet talented competitors and recruit them!"
 
 # MAP SIGNS ##
 msgid "welcome_location_city"
@@ -4496,18 +4460,19 @@ msgstr "Sort by ID"
 
 # Release notifications
 msgid "cant_release"
-msgstr "Can't release only Tuxemon in party."
+msgstr "Can't remove your only teammate from the party."
 
 msgid "release_confirmation"
-msgstr "Are you sure you would like to release {name}?"
+msgstr "Are you sure you want to remove {name} from your team?"
 
 msgid "tuxemon_released"
-msgstr "{name} has been released."
+msgstr "{name} has left the team."
 
 msgid "new_tech_delete"
 msgstr ""
-"Tuxemon has too many techniques.\n"
-"Which technique do you want to delete?"
+"Your teammate has too many techniques.
+"
+"Which technique do you want to replace?"
 
 msgid "evolution_confirmation"
 msgstr "{name} is eligible for a belt promotion."
@@ -4729,7 +4694,7 @@ msgid "menu_storage"
 msgstr "Locker Room"
 
 msgid "menu_dropoff"
-msgstr "Drop Off Tuxemon"
+msgstr "Drop Off Teammate"
 
 msgid "menu_item_storage"
 msgstr "Pick Up Item"
@@ -4991,10 +4956,10 @@ msgid "xero_campaign"
 msgstr "JiuJitsuIsland"
 
 msgid "spyder_campaign"
-msgstr "Tuxemon: Spyder and the Cathedral"
+msgstr "Jiu Jitsu Island: Spyder Arc"
 
 msgid "water_campaign"
-msgstr "Tuxemon: Waves of Chaos"
+msgstr "Jiu Jitsu Island: Waves of Chaos"
 
 # Multiplayer notifications
 msgid "multiplayer_accept"
@@ -12946,23 +12911,23 @@ msgstr ""
 
 msgid "spyder_wayfarer_shopkeeper"
 msgstr ""
-"Sorry mate, no rooms available.
+"Sorry, we're not taking any overnight guests right now.
 "
-"The Officers say a nasty mat infection has broken out among some guests, so we're under quarantine.
+"Academy Security has quarantined the building because of a contagious skin infection.
 "
-"I can help you recover, though?"
+"I can still patch you up before your next match, though."
 
 msgid "spyder_wayfarer_nurse"
 msgstr ""
-"There are injured and infected competitors in this building. Best to leave it to the Officers and medical staff.
+"There are infected athletes inside this building.
 "
-"If you keep going, I can't make any promises about how they'll respond."
+"Please leave their treatment to the medical team."
 
 msgid "spyder_wayfarer_granny"
 msgstr ""
-"I can't explain it... one moment my teammate was fine, the next he could barely train.
+"I still don't understand it... one moment my grandson was healthy, the next he had the infection.
 "
-"At least the Officers arrived quickly."
+"At least the medical staff responded quickly."
 
 msgid "spyder_wayfarer_maniac"
 msgstr ""
@@ -12991,10 +12956,12 @@ msgstr "A little privacy, please! "
 
 msgid "spyder_wayfarer1_morton1"
 msgstr ""
-"I'm stuck in this room until my teammate gets cleared, so there's nothing to do but compete!"
+"I'm stuck in isolation until I'm cleared to train again.
+"
+"Want to help pass the time with a match?"
 
 msgid "spyder_wayfarer1_morton2"
-msgstr "Now there's nothing to do!"
+msgstr "Well... now I have to wait until the doctors clear me."
 
 msgid "spyder_wayfarer1_jessie1"
 msgstr ""
@@ -13006,16 +12973,18 @@ msgstr "You're not as helpful as an Enforcer. Or as handsome. "
 
 msgid "spyder_wayfarer1_nightshade1"
 msgstr ""
-"It's embarrassing. All the nurses' competitors got sidelined, but the Officers' team looks perfectly healthy!"
+"It's embarrassing.
+"
+"All of our athletes got infected while Academy Security somehow stayed perfectly healthy."
 
 msgid "spyder_wayfarer1_nightshade2"
-msgstr "I guess we have a lot to learn about athlete care."
+msgstr "I guess we still have a lot to learn about preventing infections."
 
 msgid "spyder_wayfarer1_victor1"
-msgstr "Hey, you are not leaving with potentially infected competitors!"
+msgstr "Hold it! Nobody leaves quarantine until they've been medically cleared!"
 
 msgid "spyder_wayfarer1_victor2"
-msgstr "Stop right there! Or, um ..."
+msgstr "Sorry... just following protocol."
 
 msgid "spyder_wayfarer1_morningstar1"
 msgstr "I'm not surprised to see you here. "
@@ -13024,12 +12993,10 @@ msgid "spyder_wayfarer1_morningstar2"
 msgstr "Come back and see me later - next patient please!"
 
 msgid "spyder_wayfarer1_bravo1"
-msgstr ""
-"This enforcement action is sponsored by KOTHchannel: The Official Home of King Of The Hill."
+msgstr "This safety announcement is brought to you by KOTHchannel — Your Home of Competitive Jiu Jitsu."
 
 msgid "spyder_wayfarer1_bravo2"
-msgstr ""
-"Please do not let my poor match performance affect your opinion of KOTHchannel: The Official Home of King Of The Hill."
+msgstr "Please don't judge KOTHchannel based on my performance."
 
 msgid "spyder_wayfarer1_james1"
 msgstr ""
@@ -13040,7 +13007,7 @@ msgid "spyder_wayfarer1_james2"
 msgstr "I'm glad Jessie didn't see my lose like that!"
 
 msgid "spyder_wayfarer1_bismuth1"
-msgstr "I hope this is not related to that outbreak at Scoop Farms!"
+msgstr "I hope this isn't connected to the outbreak at the Academy Training Centre!"
 
 msgid "spyder_wayfarer1_bismuth2"
 msgstr "Bummer!"
@@ -13058,7 +13025,7 @@ msgid "spyder_route4_marshall2"
 msgstr "It might need some work."
 
 msgid "spyder_route4_roger1"
-msgstr "We can learn a lot about strategy from great grapplers."
+msgstr "You can learn a lot about strategy from watching great competitors."
 
 msgid "spyder_route4_roger2"
 msgstr "I could learn a lot about strategy from you!"
@@ -13154,50 +13121,48 @@ msgstr ""
 "I guess your team was flagged for infection, so the Officers took them to the Hospital!"
 
 msgid "spyder_barmaid_cafe2"
-msgstr "You can use the PC to call in cleared teammates."
+msgstr "You can use the PC to retrieve teammates who aren't in quarantine."
 
 msgid "spyder_barmaid_cafe2a"
 msgstr ""
-"Hold on, I'll lock the cafe door while you access the PC.
+"Hang on while I lock the cafe door.
 "
-"Once you've got your cleared team, I'll let the regulars back in."
+"Once you've collected your healthy teammates, I'll let everyone back inside."
 
 msgid "spyder_barmaid_cafe3"
 msgstr ""
-"Oh dear, you're completely out of cleared teammates.
+"Oh dear... you're completely out of healthy teammates.
 "
-"Well, I know one beginner who needs a training partner."
+"I know someone who might be willing to train with you."
 
 msgid "spyder_enforcer_candy1"
 msgstr ""
 "Stop right there!
 "
-"We are taking all infected competitors to the Hospital for quarantine
-"
-"until Greenwash develops a treatment."
+"Everyone showing symptoms must remain in quarantine until they're medically cleared."
 
 msgid "spyder_enforcer_candy2"
 msgstr ""
-"Wow! I guess your whole team is cleared.
+"Excellent.
 "
-"... Uh ... I mean, good job keeping your teammates healthy.
+"It looks like your team is healthy.
 "
-"You may go."
+"You're free to continue your journey."
 
 msgid "spyder_enforcer_candy3"
 msgstr ""
-"Ha! I mean, oh dear, your teammates are infected and must be quarantined.
+"I'm sorry, but your teammates are showing symptoms.
 "
-"Hand over their registration cards now..."
+"They'll need to remain under medical observation."
 
 msgid "spyder_enforcer_candy4"
 msgstr ""
-"Don't even think about trying to sneak your teammates back from the Hospital.
+"Don't even think about sneaking into the quarantine wing.
 "
-"The scanners are set to reject all quarantined competitor IDs!"
+"Only authorized medical staff are allowed inside."
 
 msgid "spyder_route4_billie1"
-msgstr "I have the latest gear and the best coaches. What have you got?"
+msgstr "I've got the best coaches, the best gear and the strongest academy team. What have you got?"
 
 msgid "spyder_route4_billie2"
 msgstr "I guess money can't buy everything, after all."
@@ -13254,10 +13219,10 @@ msgid "spyder_routea_connie1"
 msgstr "A morning run's just the thing to clear the head."
 
 msgid "spyder_routea_connie2"
-msgstr "A hard sparring round, that is the tonic!"
+msgstr "A good training session is the best medicine!"
 
 msgid "spyder_routea_lexi1"
-msgstr "There are some great competitors on this route!"
+msgstr "There are some incredible competitors training along this route!"
 
 msgid "spyder_routea_lexi2"
 msgstr "I simply love bugs, don't you?"
@@ -13389,7 +13354,7 @@ msgstr ""
 "kind of thing."
 
 msgid "spyder_candy_catgirl2"
-msgstr "Do you have a fossil-style grappler?"
+msgstr "Have you discovered any ancient martial arts scrolls?"
 
 msgid "spyder_candy_catgirl_nofossil"
 msgstr "No? Well, you know where you can find me."
@@ -13398,13 +13363,13 @@ msgid "spyder_candy_catgirl_willtrade"
 msgstr "You do? Want to trade it for a PROPELLERCAT?"
 
 msgid "spyder_candy_prof1"
-msgstr "ZUNNA! This athlete is eating me out of house and home."
+msgstr "ZUNNA! My students are eating me out of house and home!"
 
 msgid "spyder_candy_prof_nocateye"
-msgstr "I wish I could trade them for a quieter training partner."
+msgstr "I wish I could swap one for a quieter student."
 
 msgid "spyder_candy_prof_willtrade"
-msgstr "I'm the luckiest professor in the region of Fondent."
+msgstr "I'm the luckiest coach in the whole region."
 
 msgid "spyder_candyinn_cott1"
 msgstr "Welcome to Cott's Candy Inn. My name is Cott."
@@ -13510,12 +13475,12 @@ msgstr ""
 "officials decided to confiscate it all."
 
 msgid "spyder_timber_firefighter1"
-msgstr ""
-"Hey, do you treat your teammates with proper respect?!
+msgstr "" 
+"Do you treat your training partners with proper respect?
 "
-"Sorry, I can be very blunt.
+"Sorry, I can be a little blunt.
 "
-"But you wouldn't believe the damage bad coaching can do if athletes aren't cared for properly."
+"But poor discipline can hurt everyone around you."
 
 msgid "spyder_timber_firefighter_nochillimp"
 msgstr "Last week a Tikoal almost burnt down its owner's house!"
@@ -13533,10 +13498,12 @@ msgid "spyder_flower_fisher2"
 msgstr "Get yourself a Fishing Rod so you can enjoy the water as I do." 
 
 msgid "spyder_flower_mieke1"
-msgstr ""
-"It's exciting for us to visit the region of Fondant! You have such unique tuxemon here ... \n"
-" Hey, do you want to trade? My Conileaf for a creature that we don't have back home ... \n"
-" How about Budaye?"
+msgstr "" 
+"It's exciting visiting your region!
+"
+"Would you like to exchange academy students?
+"
+"My student for one of yours?"
 
 msgid "spyder_flower_mieke_nobudaye"
 msgstr "Oh it doesn't matter - I can see you don't have a Budaye."
@@ -13545,10 +13512,10 @@ msgid "spyder_flower_mieke_willtrade"
 msgstr "Well, great! Here you go."
 
 msgid "spyder_flower_fez1"
-msgstr ""
-"Everyone in our region has to pick from one of the same five boring tuxemon. \n"
-" I know like a hundred people with a Foxfire ... \n"
-" Hey, do you want to trade? My Foxfire for an Ignibus?"
+msgstr "" 
+"Back home everyone trains the same style.
+"
+"I'm looking for someone with a completely different game."
 
 msgid "spyder_flower_fez_noignibus"
 msgstr "Oh it doesn't matter - I can see you don't have an Ignibus."
@@ -13664,18 +13631,19 @@ msgid "spyder_flower_petshopassistant_welcome"
 msgstr "Hello - we are the Pet Shop Boys."
 
 msgid "spyder_flower_petshopassistant"
-msgstr "Are you interested in recruiting a competitor?"
+msgstr "Interested in recruiting a new academy student?"
 
 msgid "spyder_flower_petshopkeeper1"
-msgstr ""
-"I found these eggs in the bough of a tree, and hatched them! \n"
-" They appear to be a previously unknown tuxemon. \n"
-" I call them Vivipere! I wonder what they morph into."
+msgstr "" 
+"I found these talented youngsters training in a remote village.
+"
+"They've got incredible potential.
+"
+"I wonder how far they'll go."
 
 msgid "spyder_flower_petshopkeeper2"
-msgstr ""
-"Tell you what, why don't I give you one and you can come back and tell me "
-"what it morphs into!"
+msgstr "" 
+"If you can give one of them a good academy, I'm sure they'll become champions someday."
 
 msgid "spyder_flower_petshopkeeper3"
 msgstr "Did you get Vivipere to morph yet?"
@@ -13705,8 +13673,12 @@ msgstr ""
 
 msgid "spyder_cottonhouse2_magician"
 msgstr ""
-"Some conditions replace one another. \n"
-" Learning how conditions interact is key to becoming a master of tuxemon fighting."
+"Did you know some competitors blend multiple styles?
+"
+"Even a technique can serve more than one purpose." 
+"Different techniques flow together in interesting ways.
+"
+"Understanding those combinations is the key to mastering Jiu Jitsu."
 
 msgid "spyder_cottonhouse2_catgirl"
 msgstr ""
@@ -13728,7 +13700,10 @@ msgstr ""
 " Now we don't have to worry about different journalists contradicting each other."
 
 msgid "spyder_leatherhouse2_tv"
-msgstr "A little green mon is lifting a ship out of a swamp."
+msgstr ""
+"There used to be several independent combat channels, but KOTHchannel became the standard.
+"
+"At least now everyone follows the same official rankings."
 
 msgid "spyder_leatherhouse2_scientist"
 msgstr ""
@@ -13889,8 +13864,8 @@ msgstr "I'll call my band, \"Machine Gun Fellows\"."
 
 msgid "spyder_nimrod_argon1"
 msgstr ""
-"We fight wars with humans and tuxemon. Many dead, many more injured. \n"
-" Using robos instead is the only moral course of action."
+"If you truly cared about athletes, you would support technology that makes training safer." 
+"If you truly cared about athletes, you'd want technology to make training safer."
 
 msgid "spyder_nimrod_argon2"
 msgstr "I knew I wouldn't be able to convince you."
@@ -13901,7 +13876,7 @@ msgstr ""
 "robos."
 
 msgid "spyder_nimrod_zircon2"
-msgstr "I wish I'd replaced my tuxemon with robos. "
+msgstr "Perhaps one day machines will handle the dangerous jobs, leaving athletes free to compete."
 
 msgid "spyder_nimrod_archer1"
 msgstr ""
@@ -13996,8 +13971,9 @@ msgstr ""
 
 msgid "spyder_nimrod_pc_message3"
 msgstr ""
-"E-mail from Argon to Lab\n"
-" 'I've made some breakthroughs in my research on tuxemon behavior. I'd love to share my findings with you all.'"
+"E-mail from Argon to Lab
+"
+"'I've made some breakthroughs in my research on athlete behaviour. I'd love to share my findings with you all.'"
 
 msgid "spyder_nimrod_pc_message4"
 msgstr ""
@@ -14021,9 +13997,9 @@ msgstr ""
 
 msgid "spyder_nimrod_flashback2"
 msgstr ""
-"Zircon: Ah, Argon. I'm glad to see that your passion for our work hasn't waned.\n"
-" I've heard about your recent accomplishments with the tuxemon behavioral studies.\n"
-" Quite fascinating."
+"Zircon: Ah, Argon. I've heard impressive things about your recent research into athlete psychology.
+"
+"Your work has certainly attracted attention."
 
 msgid "spyder_nimrod_flashback3"
 msgstr ""
@@ -14042,8 +14018,9 @@ msgstr ""
 
 msgid "spyder_nimrod_flashback6"
 msgstr ""
-"Zircon: Compassion? For what? The tuxemon? They're just machines. Tools to "
-"be used and discarded."
+"Zircon: Compassion? For competitors?
+"
+"Champions are forged through pressure. They're assets to be developed, not protected."
 
 msgid "spyder_nimrod_flashback7"
 msgstr ""
@@ -14052,8 +14029,9 @@ msgstr ""
 
 msgid "spyder_nimrod_flashback8"
 msgstr ""
-"Zircon: Nonsense. The tuxemon are just complex machines, no different than a"
-" toaster or a computer."
+"Zircon: Nonsense. Elite competitors are products of training, conditioning and discipline.
+"
+"Nothing more mystical than that."
 
 msgid "spyder_nimrod_flashback9"
 msgstr ""
@@ -14165,8 +14143,9 @@ msgstr "A note from the Commander's office. Do you want to read it?"
 
 msgid "spyder_enforcershq_flashback1"
 msgstr ""
-"Commander: Look at this. A new disease has broken out at Scoop Farms. Multiple tuxemon are infected.\n"
-" We need to contain this before it spreads. And we need to find out what's causing it."
+"Commander: We've confirmed an outbreak of a contagious skin infection at the Academy Training Centre.
+"
+"We need to contain it immediately and determine how it started."
 
 msgid "spyder_enforcershq_flashback2"
 msgstr "Officer: Should we send a team immediately?"
@@ -14254,8 +14233,9 @@ msgstr "Yeah, yeah, let a thousand cheap flowers bloom. In you go."
 
 msgid "spyder_outsidewalled_midas1"
 msgstr ""
-"Welcome one and all to the Public Garden. \n"
-" Lovers of tuxemon and the sport of tuxemon battling are our honored guests."
+"Welcome one and all to the Championship Gardens.
+"
+"Students, coaches and lovers of Jiu Jitsu are always welcome here."
 
 msgid "spyder_timber_mom2"
 msgstr ""
@@ -14272,7 +14252,7 @@ msgstr ""
 " Make sure you're well prepared before you do, because it's difficult to get out once you're inside! \n"
 
 msgid "spyder_scoop_lanth1"
-msgstr "Look how happy the tuxemon are, living so close to one another!"
+msgstr "Look how happy the students are training together every day!"
 
 msgid "spyder_scoop_lanth2"
 msgstr "Typical activist troublemaker. "
@@ -14282,21 +14262,24 @@ msgstr "I feel so terrible that the disease got out. "
 
 msgid "spyder_scoop_paine2"
 msgstr ""
-"If those Enforcers hadn't come in and exposed their pet tuxemon to the "
-"disease, it would never have left the facility!"
+"If Academy Security hadn't ignored the quarantine procedures,
+"
+"the infection would never have spread beyond the training centre!"
 
 msgid "spyder_scoop_rubid1"
-msgstr "This is actually the most humane way to keep tuxemon."
+msgstr "This is actually the safest way to isolate infected athletes."
 
 msgid "spyder_scoop_rubid2"
 msgstr ""
-"Studies show that tuxemon find battling more stressful than living in these "
-"conditions. "
+"Studies show that temporary isolation helps athletes recover much faster
+"
+"than continuing to train while infected."
 
 msgid "spyder_scoop_berys1"
 msgstr ""
-"You will notice that none of the tuxemon out here are sick - they were all "
-"kept in the containment unit."
+"You'll notice everyone training outside is healthy.
+"
+"Only infected competitors are being kept in medical isolation."
 
 msgid "spyder_scoop_berys2"
 msgstr "Scoop did not release the disease! I promise you. "
@@ -14311,10 +14294,13 @@ msgstr "Remember, we had nothing to do with the disease getting out!"
 
 msgid "spyder_scoop_asta1"
 msgstr ""
-"Why yes, I am the inventor of the Extreme Restraints. \n"
-" What are they, I hear you ask? \n"
-" Only a set of manacles so powerful that even a dragon could not escape them. \n"
-" They are being used in the containment unit to make sure none of the infected tuxemon escape."
+"Why yes, I designed the Academy Lockdown System.
+"
+"What is it?
+"
+"It's the emergency security system that seals the quarantine wing during an outbreak.
+"
+"It keeps everyone safely contained until medical staff give the all clear."
 
 msgid "spyder_scoop_asta2"
 msgstr "Are you sure you want to leave Scoop HQ?"
@@ -14324,8 +14310,9 @@ msgstr "The PC contains a file named 'CCTV'. Would you like to watch it?"
 
 msgid "spyder_scoop_arachne_flashback1"
 msgstr ""
-"Nash: The Extreme Restraints are our most secure containment system yet.\n"
-" With these manacles, even the strongest tuxemon won't be able to break free from the containment unit."
+"Nash: The Lockdown System is fully operational.
+"
+"Once activated, nobody can leave the quarantine wing without authorization."
 
 msgid "spyder_scoop_arachne_flashback2"
 msgstr ""
@@ -14334,8 +14321,9 @@ msgstr ""
 
 msgid "spyder_scoop_arachne_flashback3"
 msgstr ""
-"Nash: I guarantee it. The materials and design are impenetrable.\n"
-" As long as we keep the tuxemon locked up tight in these Restraints, the disease won't be going anywhere."
+"Nash: I guarantee it.
+"
+"As long as the security system stays active, the infection can't spread any further."
 
 msgid "spyder_scoop_arachne_flashback4"
 msgstr ""
@@ -14352,13 +14340,15 @@ msgstr ""
 
 msgid "spyder_scoop_arachne_flashback7"
 msgstr ""
-"Reese: Stop right there! Those Restraints are crucial to containing the tuxemon outbreak.\n"
-" You have no idea what kind of damage you could cause if you take them."
+"Reese: Stop!
+"
+"Disabling the Lockdown System could allow the infection to spread throughout the academy!"
 
 msgid "spyder_scoop_arachne_flashback8"
 msgstr ""
-"Arachne: Oh, I think I have a pretty good idea. And I don't really care "
-"about your little tuxemon problem. These Restraints are mine now."
+"Arachne: That's your problem, not mine.
+"
+"I'm taking this technology."
 
 msgid "spyder_scoop_arachne_flashback9"
 msgstr ""
@@ -14367,40 +14357,46 @@ msgstr ""
 
 msgid "spyder_scoop_arachne_flashback10"
 msgstr ""
-"Reese: This is a disaster - without the Extreme Restraints, the containment unit is useless.\n"
-" The tuxemon could break free at any moment!"
+"Reese: This is a disaster.
+"
+"Without the Lockdown System we can't secure the quarantine wing!"
 
 msgid "spyder_scoop_alyssa1"
 msgstr ""
-"As soon as disease was detected, we moved the infected tuxemon to this "
-"containment unit."
+"As soon as the infection was detected, every affected student was moved into medical isolation."
 
 msgid "spyder_scoop_alyssa2"
 msgstr "I'm telling you, we kept the disease under control!"
 
 msgid "spyder_scoop_taggart1"
 msgstr ""
-"Someone stole the Extreme Restraints we invented to keep tuxemon in the "
-"containment unit! Was it you?"
+"Someone sabotaged the Academy Lockdown System!
+"
+"Do you know who did it?"
 
 msgid "spyder_scoop_taggart2"
 msgstr "If you didn't steal the Extreme Restraints, who did? "
 
 msgid "spyder_scoop_donald1"
 msgstr ""
-"The sick tuxemon we were keeping here in quarantine got out and broke into "
-"the storeroom beyond! How will we secure the storeroom?"
+"The infected athletes we were keeping in quarantine got out and broke into the storeroom!
+"
+"How are we supposed to secure it now?"
 
 msgid "spyder_scoop_donald2"
 msgstr ""
-"You might just be strong enough to contain the escaped tuxemon. Please - do "
-"it for us. "
+"You might just be strong enough to contain the escaped competitors.
+"
+"Please, do it for us."
 
 msgid "spyder_scoop_orba1"
 msgstr "Yikes! What are you doing here?"
 
 msgid "spyder_scoop_orba2"
-msgstr "What am I doing here, for that matter?"
+msgstr ""
+"I chased the people who sabotaged the Lockdown System into this room.
+"
+"Then the infected competitors got in, and now we're all stuck!"
 
 msgid "spyder_scoop_haf1"
 msgstr ""
@@ -14409,8 +14405,7 @@ msgstr ""
 
 msgid "spyder_scoop_weaver1"
 msgstr ""
-"I would never have taken the Restraints off those coughing tuxemon if I knew"
-" they'd chase us in here!"
+"I would never have disabled the Lockdown System if I knew those coughing athletes would chase us in here!"
 
 msgid "spyder_scoop_weaver2"
 msgstr "Yikes! It turns out crime doesn't pay!"
@@ -14502,17 +14497,17 @@ msgstr "You must come visit some time."
 
 msgid "spyder_route6_ping1"
 msgstr ""
-"Psst, have you heard? The enforcers are confiscating tuxemon from everyone "
-"in Candy Town."
+"Psst, have you heard? The Officers are quarantining competitors from everyone in Candy Town."
 
 msgid "spyder_route6_ping2"
 msgstr ""
-"They won't stop there ... eventually they'll confiscate all tuxemon if they "
-"think they can get away with it"
+"They won't stop there... eventually they'll quarantine every competitor if they think they need to."
 
 msgid "spyder_route6_richard1"
 msgstr ""
-"Man, the one day I leave the computer and go for a walk, this happens!"
+"I heard they removed all the researchers from Greenwash HQ.
+"
+"Now they're quarantining athletes and taking them to the Hospital!"
 
 msgid "spyder_route6_richard2"
 msgstr "Worst. Day. Ever."
@@ -14532,7 +14527,7 @@ msgstr ""
 
 msgid "spyder_route6_maxwell2"
 msgstr ""
-"I just hope they don't decide its safest to put down the tuxemon we fused!"
+"I just hope they don't decide it's safest to shut down every athlete affected by the experiments!"
 
 msgid "spyder_route6_orion1"
 msgstr "I was in the middle of a very important experiment."
@@ -14611,8 +14606,9 @@ msgstr ""
 
 msgid "spyder_searoutec_nigel2"
 msgstr ""
-"Okay I'm not standing guard! The other dragonriders wouldn't let me join "
-"them!"
+"It's the cure to the Spyder Bite infection!
+"
+"With this, you can treat your own teammates and others."
 
 msgid "spyder_searoutec_river1"
 msgstr ""
@@ -14703,13 +14699,13 @@ msgid "spyder_dragonscave_lazybrute1"
 msgstr "I'm exhausted after all that tunnelling. "
 
 msgid "spyder_dragonscave_concernedbrute1"
-msgstr "Wait, if we're all here - who's guarding Omnichannel HQ?"
+msgstr "Wait, if we're all here, who's guarding KOTHchannel HQ?"
 
 msgid "spyder_omnichannel_nurse"
 msgstr ""
-"If that coward Beaverbrook thinks I'm going to risk my skin looking out for him,\n"
-" with mechanical dragons roaming the office,\n"
-" he's got another thing coming."
+"If Coach Beaverbrook thinks I'm risking myself for him, he's mistaken.
+"
+"I'm looking after the injured athletes first."
 
 msgid "spyder_omnichannel_maniac"
 msgstr "Mondays, am I right?"
@@ -14738,7 +14734,7 @@ msgstr ""
 " Especially the children, they'll make a tasty snack for the dragons."
 
 msgid "spyder_omnichannel_bettger1"
-msgstr "This is going to play havoc on Omnichannel's stock price."
+msgstr "This is going to play havoc with KOTHchannel's sponsor contracts."
 
 msgid "spyder_omnichannel_tohei2"
 msgstr "The password is 'password'."
@@ -14790,7 +14786,7 @@ msgstr ""
 " to pack any potions!"
 
 msgid "spyder_omnichannel_william1"
-msgstr "Nothing to see here. No sir."
+msgstr "Nothing to see here. Move along."
 
 msgid "spyder_omnichannel_william2"
 msgstr "I gotta scram!"
@@ -14823,16 +14819,19 @@ msgstr ""
 
 msgid "spyder_omnichannel_dante1"
 msgstr ""
-"I've been watching you from the shop, and I have to say, I'm impressed.\n"
-" You've come a long way since you first got your tuxemon.\n"
-" I've been feeling a bit guilty, I'm the one who helped you get that tuxemon, and I feel like I've got a responsibility to help you see this through.\n"
-" Plus, I've got to admit, I'm a bit curious to see how this all plays out. So, I'm coming with you to take down those tuxemon thieves.\n"
-" Let's do this!"
+"I've watched you grow since the day you first stepped onto the mats.
+"
+"I can't stand by anymore.
+"
+"Let's finish this together."
 
 msgid "spyder_omnichannel_billie2"
 msgstr ""
-"I'm proud of you, ${{name}}. You've come a long way since we first met.\n"
-" I think it's time for me to head back to Paper Town, but I'll never forget this adventure we shared."
+"That was close!
+"
+"You've got a bright future ahead of you, ${{name}}.
+"
+"Don't forget me when you're King Of The Hill, okay?"
 
 msgid "spyder_omnichannel_dante2"
 msgstr ""
@@ -14841,21 +14840,49 @@ msgstr ""
 
 msgid "spyder_omnichannel_beaverbrook1"
 msgstr ""
-"Aha, it's too late for you! \n"
-" Just out of the birthing pit ... the perfect monsters! \n"
-" The genes of Drokoro incubated in dragon eggs dug up by Shaft \n"
-" ... and fused with three killer robos designed by Nimrod. \n"
-" The power of teamwork ... and it's in my hands. "
+"Too late!
+"
+"Everything I've built is still under my control!"
 
 msgid "spyder_omnichannel_beaverbrook2"
 msgstr ""
-"No. It's not possible. \n"
-" Two upstarts, one with off-brand tuxemon, defeating my perfect creations. \n"
-" If I can just make it to my live radio interview, I'll command my enforcers to complete the takeover."
+"No... impossible...
+"
+"Two academy students defeating everything I created?
+"
+"This wasn't supposed to happen..."
 
 msgid "spyder_omnichannel_radioannounce"
 msgstr ""
-"This is FUD Radio, DJ Worm here and my co-host, \"The Duke of Dead Air\", broadcasting live from the Omnichannel Radio Studios. \n"
+"This is KOTHchannel Live, broadcasting from the official studios.
+"
+"We were expecting Coach Beaverbrook, but it seems today's champion has something to say instead.
+"
+"...
+"
+"Speak up! You're live!
+"
+"...
+"
+"So the outbreak was deliberately spread through contaminated recovery supplies?
+"
+"...
+"
+"And corrupt staff helped cover it up?
+"
+"...
+"
+"And Beaverbrook used the media to keep everyone confused and distracted?
+"
+"...
+"
+"Doc, please tell me you stopped broadcasting. Doc?!
+"
+"...
+"
+"Oh no. That went out live.
+"
+"I don't think people are going to be happy."The Duke of Dead Air\", broadcasting live from the Omnichannel Radio Studios. \n"
 " We've got a full hour of lolly-pop, soft rock and accessible hip hop for you - but first, an interview with the head of Omnichannel! \n"
 " Ah, it looks like Sir Beaverbrook couldn't make it, but in his place has sent a small child. Well, small child, what do you have to say? \n"
 " ... \n"
@@ -14878,7 +14905,12 @@ msgstr ""
 " I don't think people are going to be very happy with us."
 
 msgid "spyder_dragonscave_benden3"
-msgstr "What is this? These villains are trying to steal Drokoro! But why?"
+msgstr ""
+"Enough waiting.
+"
+"They plan to combine banned training methods, stolen technology, and dangerous athletes into something nobody can control.
+"
+"If KOTHchannel broadcasts their version of the story, the public may believe it."
 
 msgid "spyder_dragonscave_mallory3"
 msgstr ""
@@ -15097,7 +15129,7 @@ msgid "spyder_hospital1_felu2"
 msgstr "Well, I didn't say it would be me."
 
 msgid "spyder_hospital1_fring1"
-msgstr "Boss says we can't help ourselves to the stashed tuxemon ... yet."
+msgstr "Boss says we can't help ourselves to the stashed academy gear... yet."
 
 msgid "spyder_hospital1_fring2"
 msgstr "This would have been a lot easier with a Moloch or two!"
@@ -15152,8 +15184,9 @@ msgstr "Alright, alright, you've made your point."
 
 msgid "spyder_hospital1_rhizome1"
 msgstr ""
-"Stop right there!\n"
-" What you are looking at is the intellectual property of Omnichannel!"
+"Stop right there!
+"
+"What you're looking at is protected KOTHchannel intellectual property!"
 
 msgid "spyder_hospital1_rhizome2"
 msgstr ""
@@ -15172,8 +15205,9 @@ msgstr ""
 
 msgid "spyder_hospital1_scientist1"
 msgstr ""
-"We didn't want these tuxemon to be seized, but while they're here we're "
-"going to look after them."
+"We didn't want these athletes brought here, but while they're in our care,
+"
+"we're going to look after them."
 
 msgid "spyder_hospital1_scientist2"
 msgstr "Let's make the most of the situation."
@@ -15193,8 +15227,9 @@ msgstr ""
 
 msgid "spyder_hospital_warning1"
 msgstr ""
-"Bzzzz. Lifeform detected. \n"
-" Doors remain closed."
+"The screen is set up to detect and reject unauthorized competitors.
+"
+"It has been encoded with every registered competitor ID."
 
 msgid "spyder_hospital_nurse1"
 msgstr ""
@@ -15232,12 +15267,11 @@ msgid "spyder_mansion_drinkingbuddya1"
 msgstr "I wonder where our drinking buddy has gotten to?"
 
 msgid "spyder_mansion_drinkingbuddyb1"
-msgstr ""
-"We started singing an old sea shanty, and by the time we'd done the Captain "
-"was missing!"
+msgstr "Another cup of tea after a hard day's training?"
 
 msgid "spyder_mansion_drinkingbuddya2"
-msgstr "There you are old friend! Let's get you back to the river."
+msgstr ""
+"In Team Bazaar, we love to hang out in out-of-the-way places so KOTHchannel can't monitor every conversation."
 
 msgid "spyder_mansion_captain1"
 msgstr ""
@@ -15265,7 +15299,7 @@ msgid "spyder_mansion_gillette1"
 msgstr "Ah-ha, finally - a worthy adversary."
 
 msgid "spyder_mansion_gillette2"
-msgstr "I've gotten rusty."
+msgstr "You're even stronger than the rumours said."
 
 msgid "spyder_mansion_lucy1"
 msgstr ""
@@ -15273,10 +15307,10 @@ msgstr ""
 "much!"
 
 msgid "spyder_mansion_lucy2"
-msgstr "Maybe I should have shared the tea with my tuxemon."
+msgstr "Maybe I should have shared the tea with my teammates."
 
 msgid "spyder_mansion_lucy3"
-msgstr "Hey, give this a try!"
+msgstr "Here, try this recovery drink!"
 
 msgid "spyder_mansion_barmaid"
 msgstr ""
@@ -15301,7 +15335,7 @@ msgid "spyder_basement_rogue"
 msgstr "They really should patch up that hole in the floor."
 
 msgid "spyder_basement_coralli1"
-msgstr "I've always loved the thrill of a tuxemon battle."
+msgstr "I've always loved the thrill of a hard match."
 
 msgid "spyder_basement_coralli2"
 msgstr "The comedown from an intense battle is hard."
@@ -15320,28 +15354,30 @@ msgstr "There you go, no need to be scared."
 
 msgid "spyder_basement_bobby1"
 msgstr ""
-"Do you like tuxemon?\n"
-"  I've been obsessed since I was just eight years old."
+"Do you like jiu jitsu?
+"
+"I've been obsessed since I was just eight years old."
 
 msgid "spyder_basement_bobby2"
-msgstr "Yep, I've been obsessed with tuxemon for one year."
+msgstr "Yep, I've been obsessed with jiu jitsu for one year."
 
 msgid "spyder_basement_josephine1"
 msgstr ""
-"Never mind my bellicose friend.\n"
-" Do you want to heal your Tuxemon?"
+"Never mind my intense friend.
+"
+"Do you want to recover before your next match?"
 
 msgid "spyder_basement_josephine2"
 msgstr "I hope the healing helped."
 
 msgid "spyder_top_russell1"
-msgstr "Have you heard of Botbot? It's the most versatile tuxemon."
+msgstr "Have you heard of Botbot? He's the most versatile competitor."
 
 msgid "spyder_top_russell2"
 msgstr "Just because it is versatile, does not mean it is powerful."
 
 msgid "spyder_top_jackson1"
-msgstr "Tuxemon are what you make of them. Weak trainers raise weak tuxemon."
+msgstr "Competitors become what their training makes them. Weak coaching creates weak athletes."
 
 msgid "spyder_top_jackson2"
 msgstr "I got unlucky that time."
@@ -15363,8 +15399,9 @@ msgstr "I see myself in you."
 
 msgid "spyder_top_dancer"
 msgstr ""
-"My parents think I'm paranoid, but I just don't trust Omnichannel.\n"
-" Or Scoop. Or Shaft. Or Greenwash. Or Nimrod, for that matter."
+"My parents think I'm paranoid, but I just don't trust crooked coaches.
+"
+"Or shady sponsors. Or fake rankings, for that matter."
 
 msgid "spyder_top_barmaid"
 msgstr ""
@@ -15497,8 +15534,7 @@ msgstr ""
 "doing really well. Bye RUFF."
 
 msgid "spyder_leatherhouse1_tennisplayer1"
-msgstr ""
-"Is Grinflare an Earth element tuxemon or a Fire element tuxemon?"
+msgstr "Is Grinflare a pressure passer or a striker?"
 
 msgid "spyder_leatherhouse1_tennisplayer2"
 msgstr "Trick question - it's both!"
@@ -15510,9 +15546,7 @@ msgid "spyder_routee_calliope0"
 msgstr "Stop right there! This place is off limits."
 
 msgid "spyder_routee_calliope1"
-msgstr ""
-"So you're the little squirt who crashed Omnichannel and blew up all our "
-"plans?"
+msgstr "So you're the little squirt who crashed KOTHchannel and ruined all our plans?"
 
 msgid "spyder_routee_calliope2"
 msgstr "Mercy, please!"
@@ -15585,14 +15619,13 @@ msgid "spyder_datacenter_fermi1"
 msgstr "The vulnerabilities were discovered by me."
 
 msgid "spyder_datacenter_fermi2"
-msgstr "Omnichannel took advantage."
+msgstr "KOTHchannel took advantage."
 
 msgid "spyder_datacenter_onnes"
 msgstr "Onnes"
 
 msgid "spyder_datacenter_onnes1"
-msgstr ""
-"Omnichannel claimed that encryption keys purportedly belonging to them."
+msgstr "KOTHchannel claimed the encryption keys supposedly belonged to them."
 
 msgid "spyder_datacenter_onnes2"
 msgstr "Fake news."
@@ -15628,14 +15661,15 @@ msgstr ""
 
 msgid "spyder_datacenter_billie1"
 msgstr ""
-"Great job, ${{name}}. Looks like Omnichannel let their AI out just to spite us.\n"
-" You know, you're making quite a habit of saving the region.\n"
-" You should take a break for a change.\n"
-" I hear there's a new walking trail that has opened up behind the old Mansion outside Flower City.\n"
-" Might be worth checking out.\n"
-" Me? I'm going to be a little busy over the next while.\n"
-" Let's just say they've finally let me into an exclusive club.\n"
-" Come on, you're not going to make me give up all my perks, are you?"
+"Great job, ${{name}}. Looks like someone let their AI out just to spite us.
+"
+"You're making quite a habit of saving the region.
+"
+"You should take a break for a change.
+"
+"I hear there's a new walking trail behind the old Mansion outside Flower City.
+"
+"Might be worth checking out."
 
 msgid "spyder_box_goldpass1"
 msgstr ""
@@ -15643,7 +15677,7 @@ msgstr ""
 " Obtained Gold Pass."
 
 msgid "spyder_datacenter_sign"
-msgstr "Welcome to the GoodChat data center. An Omnichannel subsidiary."
+msgstr "Welcome to the GoodChat data center. A KOTHchannel technology partner."
 
 msgid "spyder_data_pc02"
 msgstr ""
@@ -16186,7 +16220,7 @@ msgid "spyder_cottoncafe_lotus"
 msgstr "Lotus"
 
 msgid "spyder_cottoncafe_lotus1"
-msgstr "This never happened while Omnichannel was in charge."
+msgstr "This never happened when KOTHchannel had stricter oversight."
 
 msgid "spyder_cottoncafe_hillary"
 msgstr "Hillary"
@@ -16538,17 +16572,15 @@ msgstr "Billie's House"
 
 msgid "spyder_rivalbedroom_bed"
 msgstr ""
-"Bed is messy, but it looks like she's been sleeping well. There's a tuxemon "
-"plushie on her pillow."
+"Bed is messy, but it looks like she's been sleeping well.
+"
+"There's a tiny gi plushie on her pillow."
 
 msgid "spyder_rivalbedroom_bookshelf"
-msgstr ""
-"The bookshelf is filled with tuxemon strategy guides and training manuals."
+msgstr "The bookshelf is filled with jiu jitsu strategy guides and training manuals."
 
 msgid "spyder_rivalbedroom_weights"
-msgstr ""
-"There's a diagram on the wall nearby that shows how to use the weight to "
-"train a tuxemon's strength."
+msgstr "There's a diagram nearby showing how to use the weight to build grip strength."
 
 msgid "spyder_rivalbedroom_radio_morning"
 msgstr ""
@@ -16589,8 +16621,7 @@ msgstr ""
 " blooms."
 
 msgid "spyder_billie_tv_flashback_trigger"
-msgstr ""
-"Watch something else? A recorded episode of Tuxemon League is available."
+msgstr "Watch something else? A recorded episode of King Of The Hill League is available."
 
 msgid "spyder_billie_tv_flashback1"
 msgstr ""
@@ -16670,8 +16701,7 @@ msgstr ""
 
 msgid "spyder_billie_flashback10"
 msgstr ""
-"Spending time with my friends, training my Tuxemon, and exploring new "
-"places."
+"Spending time with my friends, training hard, and exploring new places."
 
 msgid "spyder_billie_flashback11"
 msgstr ""
@@ -16704,10 +16734,11 @@ msgstr "Achievement Maniac"
 
 msgid "spyder_citypark_house_maniac1"
 msgstr ""
-"I'm the Achievement Maniac! I'm young ... Well, at heart. My body is old and frail.\n"
-"All my life, my dream has been to do the things that no one else has done.\n"
-"Like ... giving a dog tuxemon to a Cat Girl.\n"
-"I wrote down all the things I wanted to do in my Book of Wishes. But it's unfinished ..."
+"All my life, my dream has been to do things nobody else has done.
+"
+"Like convincing a wrestler to take ballet classes.
+"
+"I wrote it all down in my Book of Wishes, but it's unfinished..."
 
 msgid "spyder_citypark_house_maniac2"
 msgstr ""
@@ -16731,7 +16762,7 @@ msgid "spyder_maniac_achievement1"
 msgstr "Book Wishes 1"
 
 msgid "spyder_maniac_achievement2"
-msgstr "Giving a dog tuxemon to a Cat Girl"
+msgstr "Convincing a wrestler to take ballet classes"
 
 msgid "spyder_column1_sign"
 msgstr "A rare ancient column. This was once part of a temple building."
@@ -16924,10 +16955,10 @@ msgid "spyder_leatherhouse1_radio_night"
 msgstr "A song is playing. It's called \"Fondent Tango\"."
 
 msgid "spyder_flower_dojo_sign"
-msgstr "Dojo of the Elements: Master Tuxemon Battle"
+msgstr "Academy of the Elements: Belt Promotion Training"
 
 msgid "spyder_dojo_board_a"
-msgstr "It's the Mentor's notes on Morphing."
+msgstr "It's the Mentor's notes on belt progression."
 
 msgid "spyder_dojo_board_b"
 msgstr "It's the Mentor's notes on Stats."
@@ -16956,12 +16987,7 @@ msgid "spyder_dojo_xiang1"
 msgstr "Let me tell you how Techniques work."
 
 msgid "spyder_dojo_fu2"
-msgstr ""
-"Throughout their lives, most monsters pass through different stages.\n"
-" For example, a Rockitten may become a Rockat and then a Jemuar. This is called Morphing.\n"
-" Most Morphing occurs because a monster reaches a certain level,\n"
-" but there are other ways that Morphing can occur,\n"
-" like Dollfin becoming Bigfin when exposed to Sweet Sand."
+msgstr "I have developed a training method that helps competitors revisit earlier fundamentals."
 
 msgid "spyder_dojo_yin2"
 msgstr ""
@@ -16998,18 +17024,21 @@ msgstr ""
 
 msgid "spyder_dojo_fu3a"
 msgstr ""
-"I'm sorry, but I see you don't have any tuxemon that have evolved yet.\n"
-" This potion won't be of much use to you at the moment."
+"I'm sorry, but you haven't reached your first belt promotion yet.
+"
+"This training won't be much use to you at the moment."
 
 msgid "spyder_dojo_fu3b"
 msgstr ""
-"Ah, I see you have a tuxemon that has reached its first evolution. Ask my student, if you're interested in the Button Potion.\n"
-" He's been studying the art of reversal."
+"Ah, I see you've earned your first belt promotion.
+"
+"Ask my student if you're interested in reviewing your fundamentals."
 
 msgid "spyder_dojo_fu3c"
 msgstr ""
-"Impressive, you have a tuxemon that has reached its second evolution. Ask my student, if you're interested in the Button Potion.\n"
-" She's been researching the intricacies of advanced evolutions."
+"Impressive, you've reached an advanced belt milestone.
+"
+"Ask my student if you're interested in refining your earlier game."
 
 msgid "spyder_dojo_fu3d"
 msgstr ""
@@ -17018,24 +17047,27 @@ msgstr ""
 
 msgid "spyder_dojo_fu_student1"
 msgstr ""
-"You're interested in using the Button Potion on one of your tuxemon? \n"
+"You're interested in a fundamentals reset session?
+"
 "That'll be ${{currency}}500, if you're willing to part with it."
 
 msgid "spyder_dojo_fu_student1_stage"
 msgstr ""
-"Do you have a tuxemon that has evolved twice? \n"
-"Return when you do, and I can guide it back to its intermediate stage."
+"Have you reached an advanced belt milestone yet?
+"
+"Return when you have, and I can help you revisit your intermediate game."
 
 msgid "spyder_dojo_fu_student1a"
 msgstr ""
-"I can return a monster in its first stage to its original form. \n"
-"A small price to pay for the knowledge that will be gained. \n"
-"To reverse the morphing process, it has its uses."
+"A small price to pay for the knowledge gained.
+"
+"Revisiting earlier fundamentals has its uses."
 
 msgid "spyder_dojo_fu_student1b"
 msgstr ""
-"I can return a monster in its second stage to its intermediary form. \n"
-"The insights from reversing evolution are invaluable to my research."
+"I can help an advanced competitor revisit their intermediate game.
+"
+"The insights from reviewing earlier stages are invaluable to my research."
 
 msgid "spyder_dojo_fu_student1c"
 msgstr ""
@@ -17043,17 +17075,20 @@ msgstr ""
 " Maybe another time, then?"
 
 msgid "spyder_dojo_fu_student2_stage"
-msgstr "Do you have a tuxemon that has evolved once? \n"
-"Come back when it has, and I can restore it to its original form."
+msgstr ""
+"Have you reached your first belt promotion?
+"
+"Come back when you have, and I can help you revisit your original fundamentals."
 
 msgid "spyder_dojo_fu_nochoice"
 msgstr ""
-"I'm ready to assist you, but please, choose the tuxemon that will undergo the reversal process."
+"I'm ready to assist, but please choose the competitor who will take the reset session."
 
 msgid "spyder_dojo_zhu3"
 msgstr ""
-"I have developed a potion that changes a tuxemon's taste. \n"
-"Shall I give the Taste-Changer Potion to one of your tuxemon for ${{currency}}50?"
+"I have developed a session that changes a competitor's training focus.
+"
+"Shall I apply the Focus-Changer session for ${{currency}}50?"
 
 msgid "spyder_dojo_zhu3a"
 msgstr ""
@@ -17061,25 +17096,27 @@ msgstr ""
 
 msgid "spyder_dojo_xiang3"
 msgstr ""
-"I have developed a potion that allows a tuxemon to re-learn a technique that it has forgotten.\n"
-" Shall I give the Re-Learner Potion to one of your tuxemon for ${{currency}}200?"
+"I have developed a session that allows a competitor to re-learn a forgotten technique.
+"
+"Shall I apply the Re-Learner session for ${{currency}}200?"
 
 msgid "spyder_dojo_xiang3a"
 msgstr "Not enough to cover the cost of the Re-Learner Potion."
 
 msgid "spyder_dojo_xiang3b"
-msgstr ""
-"The Re-Learner Potion has taken effect, your tuxemon's forgotten technique has been restored."
+msgstr "The Re-Learner session worked. The forgotten technique has been restored."
 
 msgid "spyder_dojo_xiang3c"
 msgstr ""
-"Unfortunately, the Re-Learner Potion had an unexpected side effect,\n"
-" and your tuxemon has now forgotten one of its current techniques."
+"Unfortunately, the Re-Learner session had an unexpected side effect,
+"
+"and the competitor forgot one of their current techniques."
 
 msgid "spyder_dojo_xiang3d"
 msgstr ""
-"Be cautious, young trainer, for the Re-Learner Potion is potent and may have unintended consequences on tuxemon that have not learned many techniques yet.\n"
-" I advise using it only on those who have reached a high level of mastery."
+"Be cautious, young competitor. The Re-Learner session is potent and may have unintended consequences on athletes with limited technique pools.
+"
+"I advise using it only on those who have reached a high level of mastery."
 
 msgid "spyder_dojo_wan"
 msgstr "Master Wan"
@@ -17139,8 +17176,9 @@ msgstr ""
 
 msgid "spyder_dojo_toph1"
 msgstr ""
-"I may have a team of Earth tuxemon, but they all have high Melee or Ranged stats. \n"
-" I use that to overwhelm your defenses, even if you are strong against Earth."
+"I may coach pressure-based athletes, but they all have strong takedowns or submissions.
+"
+"I use that to overwhelm your defenses, even if you think you know the matchup."
 
 msgid "spyder_dojo_toph2"
 msgstr ""
@@ -17149,8 +17187,9 @@ msgstr ""
 
 msgid "spyder_dojo_sokka1"
 msgstr ""
-"My tuxemon are all of the Metal type, but they each have a second element, or know a technique with two elements. \n"
-" That makes their strengths and weaknesses more difficult to predict."
+"My competitors each blend a second style or know techniques with multiple uses.
+"
+"That makes their strengths and weaknesses harder to predict."
 
 msgid "spyder_dojo_sokka2"
 msgstr ""
@@ -17159,9 +17198,11 @@ msgstr ""
 
 msgid "spyder_dojo_yangchen1"
 msgstr ""
-"My Wood tuxemon all know Fire moves, \n"
-" so if you send a Metal tuxemon against me to take advantage of their weakness to Metal, \n"
-" we'll meet it with Fire."
+"My guard players all know strong passing counters,
+"
+"so if you send a pure pressure passer against me,
+"
+"we'll meet it with movement and frames."
 
 msgid "spyder_dojo_yangchen2"
 msgstr ""
@@ -17170,9 +17211,11 @@ msgstr ""
 
 msgid "spyder_dojo_kataro1"
 msgstr ""
-"My Water tuxemon know techniques that work around their weaknesses, \n"
-" whether that's using Fiery to make their opponent weak to Water techniques, \n"
-" or using the fixed damage move Panjandrum so it's not halved against Wood types."
+"My wrestlers know techniques that work around their weaknesses,
+"
+"whether that's using pressure to slow opponents down
+"
+"or fixed damage tactics when clean attacks are hard to find."
 
 msgid "spyder_dojo_kataro2"
 msgstr ""
@@ -17181,9 +17224,11 @@ msgstr ""
 
 msgid "spyder_dojo_iroh1"
 msgstr ""
-"I am a Fire-type specialist. \n"
-" Each of my tuxemon knows Fire moves, and moves of one other type. \n"
-" I'll always have a monster that can target a monster's weakness."
+"I am a striking specialist.
+"
+"Each of my competitors knows striking attacks and one other style.
+"
+"I'll always have someone who can target a weakness."
 
 msgid "spyder_dojo_iroh2"
 msgstr ""
@@ -17228,15 +17273,17 @@ msgstr ""
 " Now prove what you have learned in battle against me"
 
 msgid "spyder_dojo_ares1"
-msgstr ""
-"My tuxemon have great Melee or Ranged stats, or both, so their attacks hit hard."
+msgstr "My competitors have great Melee or Ranged stats, or both, so their attacks hit hard."
 
 msgid "spyder_dojo_ares2"
 msgstr ""
-"Here is a TM that you may find useful: Scope.\n"
-" It tells you what a tuxemon's statistics are,\n"
-" meaning you can target melee and ranged attacks based on which are weak toward them.\n"
-" I'll also heal you."
+"Here is a TM you may find useful: Scope.
+"
+"It tells you a competitor's statistics,
+"
+"so you can target weak defensive areas properly.
+"
+"I'll also help you recover."
 
 msgid "spyder_dojo_orion1"
 msgstr ""
@@ -17299,14 +17346,15 @@ msgstr "In that case, take this SAMPSAGE. Its cunning is unrivalled."
 
 msgid "spyder_dojo_billie1"
 msgstr ""
-"Hey cheapskate! I'm training here too. You know, this Tuxepedia thing isn't half bad. \n"
-" I bet you only like it cos it's free, though."
+"Hey cheapskate! I'm training here too. You know, this Competitor Database thing isn't half bad.
+"
+"I bet you only like it because it's free, though."
 
 msgid "spyder_dojo_billie2"
-msgstr "Hmmm, I can tell from your Tuxepedia edits that you know your stuff."
+msgstr "Hmmm, I can tell from your Competitor Database edits that you know your stuff."
 
 msgid "spyder_dojo_billie3"
-msgstr "Billie has added their tuxemon data to TUXEPEDIA."
+msgstr "Billie has added their competitor data to the Competitor Database."
 
 msgid "spyder_wayfarerinn_sign"
 msgstr "Welcome to the Wayfarer Inn! "
@@ -17442,7 +17490,7 @@ msgstr ""
 " I don't want my win rate to get any worse."
 
 msgid "spyder_walled_midas1"
-msgstr "I guess they're just giving out Gold Passes to everyone these days."
+msgstr "I guess they're just giving out Academy Passes to everyone these days."
 
 msgid "spyder_walled_midas2"
 msgstr ""
@@ -17458,7 +17506,8 @@ msgstr ""
 
 msgid "spyder_cottonhouse1_tvwatch"
 msgstr ""
-"It's the latest reality show: people and their tuxemon complete challenges "
+"It's the latest reality show: athletes complete grappling challenges
+"
 "on a remote island."
 
 msgid "spyder_greenwash_guard"
@@ -17471,7 +17520,7 @@ msgid "spyder_greenwash_chip1"
 msgstr "I have developed unmatched computing power!"
 
 msgid "spyder_greenwash_clarence1"
-msgstr "My tuxemon are unstoppable in the sunlight!"
+msgstr "My competitors are unstoppable when the lights are bright!"
 
 msgid "spyder_greenwash_gregor2"
 msgstr "Ugh, it didn't even blink when it fainted!"
@@ -17606,9 +17655,9 @@ msgstr "Heidenstam"
 
 msgid "spyder_greenwash_fossilisator1"
 msgstr ""
-"Hello there, I suppose you are here to see my finest invention - the De-Fossilator.\n"
-" ... No? You're here to investigate why the Greenwash staff went on strike\n"
-" and got locked out by the Enforcers?"
+"... No? You're here to investigate why the Greenwash staff went on strike
+"
+"and got locked out by Academy Security?"
 
 msgid "spyder_greenwash_fossilisator2"
 msgstr "While you're here you might as well see the De-Fossilator in action."
@@ -17635,7 +17684,7 @@ msgid "spyder_greenwash_fossilisator9"
 msgstr "It worked! The fossils turned into a Shammer and a Rhincus!"
 
 msgid "spyder_greenwash_looten1"
-msgstr "Prepare to face the power of my fusion tuxemon!"
+msgstr "Prepare to face the power of my experimental training squad!"
 
 msgid "spyder_greenwash_looten2"
 msgstr ""
@@ -17644,9 +17693,11 @@ msgstr ""
 
 msgid "spyder_greenwash_looten3"
 msgstr ""
-"Here's the closest we've come -- it's a cute fusion of an ant and an Aardorn.\n"
-" Not exactly the ultimate killing machine Omnichannel wanted us to create.\n"
-" I mean â€¦ uh! You didn't hear that from me."
+"Here's the closest we've come — a strange hybrid of wrestling pressure and old-school jiu jitsu.
+"
+"Not exactly the unstoppable champion KOTHchannel wanted us to create.
+"
+"I mean... uh! You didn't hear that from me."
 
 msgid "spyder_greenwash_looten4"
 msgstr ""
@@ -17866,8 +17917,9 @@ msgstr ""
 
 msgid "spyder_leathershaft1_surat1"
 msgstr ""
-"To streamline the mining sector, someone started to give certificates to those qualified to mine.\n"
-"The entity? Omnichannel! And Shaft is the scapegoat."
+"To streamline the mining sector, someone started giving certificates to qualified miners.
+"
+"The entity? KOTHchannel. And Shaft is the scapegoat."
 
 msgid "spyder_papermanor_oldman"
 msgstr ""
@@ -17880,7 +17932,7 @@ msgstr ""
 "About 1,400 km (870 mi) west of Paper Town, about 1,500 km (930 mi) north west of Candy Town."
 
 msgid "spyder_omnichannel_sign"
-msgstr "Omnichannel HQ: We Make Headlines"
+msgstr "KOTHchannel HQ: The Official Home of King Of The Hill"
 
 msgid "spyder_confusedperson"
 msgstr "Confused Guy"
@@ -17914,13 +17966,13 @@ msgstr ""
 "Which one would you like?"
 
 msgid "professor_dialog6.1"
-msgstr "Professor: An excellent choice! Hydrone is a water Tuxemon."
+msgstr "Professor: An excellent choice! Hydrone is a fluid guard player."
 
 msgid "professor_dialog6.2"
-msgstr "Professor: A superb choice! Rockitten is an earth Tuxemon."
+msgstr "Professor: A superb choice! Rockitten is a pressure-heavy wrestler."
 
 msgid "professor_dialog6.3"
-msgstr "Professor: A great choice! Fruitera is a wood Tuxemon."
+msgstr "Professor: A great choice! Fruitera is a flexible movement-based grappler."
 
 msgid "professor_dialog7"
 msgstr ""
@@ -17937,24 +17989,27 @@ msgstr ""
 
 msgid "manhattan_beach_uncle_jeff_hydrone"
 msgstr ""
-"Uncle Jeff: An interesting choice you have made! Hydrone is a water Tuxemon.\n"
-"Though you two might not get along at first, a water Tuxemon will be the perfect balance to your\n"
-"flaming tendencies. Water cools every flameo-hotman.\n"
+"Uncle Jeff: Interesting choice! Hydrone is a fluid guard player.
+"
+"You two may not click at first, but a calm guard game can balance your fiery tendencies.
+"
 "Now run to class! Hurry!"
 
 msgid "manhattan_beach_uncle_jeff_rockitten"
 msgstr ""
-"Uncle Jeff: A wise choice! Rockitten is an earth Tuxemon.\n"
-"Together, fire and earth complement each other well.\n"
-"Fire and earth are indestructible together in shaping our world!\n"
-"Good. Now hurry and run to class! You are late, remember!"
+"Uncle Jeff: Wise choice! Rockitten is a pressure-heavy wrestler.
+"
+"Pressure and intensity can shape a strong competitor.
+"
+"Good. Now hurry and run to class!"
 
 msgid "manhattan_beach_uncle_jeff_fruitera"
 msgstr ""
-"Uncle Jeff: Hmm. Very interesting. Fruitera is an air Tuxemon.\n"
-"Air is what breathes life into fire!\n"
-"You and Fruitera will be very compatible together.\n"
-"Now get to school! We don't want you in trouble on your first day."
+"Uncle Jeff: Very interesting. Fruitera is a movement-based grappler.
+"
+"Agility and timing can breathe life into any game.
+"
+"Now get to school!"
 
 # Spin Off Spyder - Eclipse ##
 msgid "eclipse_beginning1"
@@ -18036,7 +18091,7 @@ msgid "eclipse_event8_1"
 msgstr "Voice of Wisdom: You carry heavy burdens, child. But storms pass, and even the tallest trees find the light again."
 
 msgid "eclipse_event8_2"
-msgstr "Voice of Warning: The Cathedral casts long shadows. Be wary of what you find here, Argonâ€”it may consume you."
+msgstr "Voice of Warning: The old academy casts long shadows. Be wary of what you find here, Argon—it may consume you."
 
 msgid "eclipse_event9_1"
 msgstr "Voice of the Vault: You return to the place that built you, Argon. But foundations crack, and dreams rot.\n Will you rebuildâ€”or burn it down?"
@@ -18099,7 +18154,7 @@ msgid "eclipse_route7_sordello"
 msgstr "Sordello"
 
 msgid "eclipse_route7_arnold1"
-msgstr "Did you hear about the new tuxemon discovered in the Archipelago?"
+msgstr "Did you hear about the new competitor discovered in the Archipelago?"
 
 msgid "eclipse_route7_sylvester1"
 msgstr "The sea is a long way from here."
@@ -18199,1215 +18254,6 @@ msgstr ""
 
 msgid "eclipse_crystal_maniac"
 msgstr ""
-"Climbers need to wake up and understand that climbing Lion Mountain is extremely risky.\n"
-"They need to stop believing just because they have strong tuxemon that they will be able to climb."
-
-msgid "eclipse_crystal_beck"
-msgstr "That's not even a little bit funny, buddy."
-
-msgid "eclipse_crystal_tvwatch"
-msgstr "A journalist travels the globe hunting for lost civilizations."
-
-msgid "eclipse_lionmountain_jacques"
-msgstr "Jacques"
-
-msgid "eclipse_lionmountain_adam"
-msgstr "Adam"
-
-msgid "eclipse_lionmountain_arlene"
-msgstr "Arlene"
-
-msgid "eclipse_lionmountain_david"
-msgstr "David"
-
-msgid "eclipse_lionmountain_alexander"
-msgstr "Alexander"
-
-msgid "eclipse_lionmountain_emilio"
-msgstr "Emilio"
-
-msgid "eclipse_lionmountain_chhurim"
-msgstr "Chhurim"
-
-msgid "eclipse_lionmountain_tom"
-msgstr "Tom"
-
-msgid "eclipse_lionmountain_conrad"
-msgstr "Conrad"
-
-msgid "eclipse_lionmountain_kurt"
-msgstr "Kurt"
-
-msgid "eclipse_lionmountain_snarlon"
-msgstr "Snarlon"
-
-msgid "eclipse_lionmountain_jacques1"
-msgstr ""
-"I've never been that high before \n"
-" and it's very very strenuous to climb ice like that."
-
-msgid "eclipse_lionmountain_jacques2"
-msgstr ""
-"Not only is it technically difficult and unstable and frightening \n"
-" but your heart goes like crazy because of the altitude."
-
-msgid "eclipse_lionmountain_adam1"
-msgstr "I was up, it was windy."
-
-msgid "eclipse_lionmountain_adam2"
-msgstr "Then it started snowing."
-
-msgid "eclipse_lionmountain_arlene1"
-msgstr "No anchors at any point."
-
-msgid "eclipse_lionmountain_arlene2"
-msgstr "It was physically very, very tiring, full-body climbing really."
-
-msgid "eclipse_lionmountain_david1"
-msgstr ""
-"It took me the best part of five or six hours to climb about the last piece."
-
-msgid "eclipse_lionmountain_david2"
-msgstr "Carried on way after it got dark."
-
-msgid "eclipse_lionmountain_alexander1"
-msgstr "Already the clouds are coming in from the east. Big clouds."
-
-msgid "eclipse_lionmountain_alexander2"
-msgstr "I expect this ridge to be quite ... Brace yourself."
-
-msgid "eclipse_lionmountain_emilio1"
-msgstr "Half an hour to an hour after leaving the summit, I was lost."
-
-msgid "eclipse_lionmountain_emilio2"
-msgstr "I was in the wild, I couldn't see anything."
-
-msgid "eclipse_lionmountain_chhurim1"
-msgstr "I'm going to make the summit, I can actually make the summit."
-
-msgid "eclipse_lionmountain_chhurim2"
-msgstr "Will there be anyone there?"
-
-msgid "eclipse_lionmountain_tom1"
-msgstr "I don't know entirely what happened for the rest of that night."
-
-msgid "eclipse_lionmountain_tom2"
-msgstr ""
-"I stopped looking at the watch, and everything just started to go apart."
-
-msgid "eclipse_lionmountain_conrad1"
-msgstr "I remember smelling something."
-
-msgid "eclipse_lionmountain_conrad2"
-msgstr "It was a really strong smell."
-
-msgid "eclipse_lionmountain_kurt1"
-msgstr "I'm not capable of going any further."
-
-msgid "eclipse_lionmountain_kurt2"
-msgstr "I made the mistake of having a little bit of hope."
-
-msgid "eclipse_lionmountain_snarlon1"
-msgstr "Graar!"
-
-msgid "eclipse_lionmountain_snarlon2"
-msgstr "Ufff."
-
-msgid "eclipse_lionmountain_nurse1"
-msgstr "To be honest with you, I am older than you think."
-
-msgid "eclipse_lionmountain_scientist1"
-msgstr "That's the biggest grasshopper I've ever seen."
-
-msgid "eclipse_lionmountain_enforcer1"
-msgstr "So the incident at the Datacenter has been resolved?"
-
-msgid "eclipse_lionmountain_enforcer2"
-msgstr ""
-"It could have been so much worse.\n"
-" Omnichannel was developing a tuxemon that can control human emotion.\n"
-" If Kernel had gotten access to Chromeye, there would have been no stopping it."
-
-msgid "eclipse_lionmountain_enforcer3"
-msgstr "So when the breakdown occurred, I retreated here."
-
-msgid "eclipse_lionmountain_enforcer4"
-msgstr ""
-"It looks like you can handle this. Maybe you are the only one who can."
-
-msgid "eclipse_bank_may"
-msgstr "May"
-
-msgid "eclipse_bank_brock"
-msgstr "Brock"
-
-msgid "eclipse_bank_daisy"
-msgstr "Daisy"
-
-msgid "eclipse_bank_raj"
-msgstr "Raj"
-
-msgid "eclipse_bank_lile"
-msgstr "Lile"
-
-msgid "eclipse_bank_kai"
-msgstr "Kai"
-
-msgid "eclipse_bank_ethan"
-msgstr "Ethan"
-
-msgid "eclipse_bank_ava"
-msgstr "Ava"
-
-msgid "eclipse_bank_lucas"
-msgstr "Lucas"
-
-msgid "eclipse_bank_bob1"
-msgstr "I used to think this bank stood for somethingâ€”independence, a beacon against the Cathedral's shadow."
-
-msgid "eclipse_bank_bob2"
-msgstr "But then I saw cracks: strange transfers, unaccounted funds, whispers of deals with Cathedral subsidiaries."
-
-msgid "eclipse_bank_bob3"
-msgstr "They let me go when I started asking questions. Something's not right here, Argon. Not at all."
-
-msgid "eclipse_bank_may1"
-msgstr "Think you can handle high finance? Prove it."
-
-msgid "eclipse_bank_may2"
-msgstr "You've got the chops. But I won't sit quietly if things fall apart."
-
-msgid "eclipse_bank_brock1"
-msgstr "You ask too many questions. Let's see if you can back it up."
-
-msgid "eclipse_bank_brock2"
-msgstr "You're tougher than I expected. But I'll be tightening security from now on."
-
-msgid "eclipse_bank_daisy1"
-msgstr "Troublemakers don't last long here. Let's see what you've got."
-
-msgid "eclipse_bank_daisy2"
-msgstr "You're formidable, I'll give you that. But trust? That's earned, not won."
-
-msgid "eclipse_bank_jeff1"
-msgstr "This place looks cleanâ€”but I've seen the dirt beneath. You ready to dig?"
-
-msgid "eclipse_bank_bin1"
-msgstr "You find a crumpled receipt: 'Archipelago Freight - Lumber shipment to Fondent Region (Confidential).'"
-
-msgid "eclipse_bank_bin2"
-msgstr "Below it, a document stamped 'TerraForm Developers - Prototype facility construction (Project Eclipse).'"
-
-msgid "eclipse_bank_bin3"
-msgstr "A torn note scribbled hastily reads: 'Meet J at powerplant. Discuss energy output. Eyes everywhere. Don't get caught.'"
-
-msgid "eclipse_bank_raj1"
-msgstr "I'm just here to deposit my checkâ€”but this place feels ready to explode."
-
-msgid "eclipse_bank_raj2"
-msgstr "You're braver than I thought. Just be carefulâ€”this bank's secrets run deep."
-
-msgid "eclipse_bank_lile1"
-msgstr "I've spotted patterns pointing to Cathedral. Help me test a theoryâ€”if you're up for it."
-
-msgid "eclipse_bank_lile2"
-msgstr "You've proven yourself. Now let's expose the strings Cathedral's pulling behind the scenes."
-
-msgid "eclipse_bank_kai1"
-msgstr "The records don't lieâ€”unless someone makes them. Let's see if you can handle the truth."
-
-msgid "eclipse_bank_kai2"
-msgstr "You've got grit. I'll share what I've foundâ€”but tread carefully. Cathedral doesn't like leaks."
-
-msgid "eclipse_bank_ethan1"
-msgstr "TuxeVault's books are spotlessâ€”too spotless. Let's see if you can crack the polish."
-
-msgid "eclipse_bank_ethan2"
-msgstr "You've got guts. Maybe you're the one who'll finally expose the lies beneath the numbers."
-
-msgid "eclipse_bank_ava1"
-msgstr "I've flagged suspicious flows. If you care about truth, prove you're not just another pawn."
-
-msgid "eclipse_bank_ava2"
-msgstr "You've got more to you than meets the eye. Just rememberâ€”Cathedral doesn't play fair."
-
-msgid "eclipse_bank_lucas1"
-msgstr "You've got guts coming here. I can make you richâ€”if you're not afraid to get dirty."
-
-msgid "eclipse_bank_lucas2"
-msgstr "So you're not interested in deals? Fine. But don't expect to walk away untouched."
-
-msgid "eclipse_zircon"
-msgstr "Zircon"
-
-msgid "eclipse_zircon1"
-msgstr "So, you finally show your face, Argon. I've been waiting for this moment. Let's see if your ideals can stand against true power."
-
-msgid "eclipse_zircon2_lose"
-msgstr "Pathetic, Argon. Is this the strength your so-called principles bring you? You can't protect anyoneâ€”least of all yourself.\n Remember this defeat. It's the only thing you've truly earned."
-
-msgid "eclipse_zircon_voice_lose"
-msgstr "Voice of Revelation: You've tasted defeat, Argon, and now the pieces begin to fall. Aurora's disappearance is no accident...\n Nor is your survival. The path ahead is darker than you know, but you must walk it.\n Watch the Cathedral. Watch the mountains. The truth waits for you... if you dare to see it."
-
-msgid "eclipse_zircon2_win"
-msgstr "Impossibleâ€¦ You cling to ideals, and yet you stand. Perhaps I underestimated what conviction can become."
-
-msgid "eclipse_zircon3_win"
-msgstr "Don't mistake technical victory for narrative control, Argon. The endgame has already begun."
-
-msgid "eclipse_zircon_voice_win"
-msgstr "Voice of Revelation: You've defied power, Argonâ€”and now the veil begins to lift. Aurora's trail is not cold.\n The Cathedral watches, but so do others. The truth is moving. Follow it before it disappears."
-
-msgid "eclipse_cathedral_jada1"
-msgstr "Ah, you're finally awake. Took quite a hit from that... Scientist Zircon? He was a guest hereâ€”an intimidating fellow, but an honored one.\n Don't worry, the Cathedral is thorough; we got you stabilized."
-
-msgid "eclipse_cathedral_jada2"
-msgstr "As for the bank... a terrible commotion. They say CEO Aurora disappeared right after the fight. Vanished without a trace.\n The authorities are calling it a 'crisis of confidence'. That's all I know."
-
-msgid "eclipse_cathedral_jada3"
-msgstr "You sound agitated. Just be careful what you say, Argon. These walls have ears, and the Cathedral doesn't like loose ends.\n Focus on recovering."
-
-msgid "eclipse_event10_1"
-msgstr "Zircon... Cathedral... Aurora. He spoke of results, and now Aurora is a casualty. They used me to create a distraction.\n I need to find her, and expose them."
-
-msgid "eclipse_event10_2"
-msgstr "Voice of Doubt: It's too big, Argon. They'll crush you and your ideals like they crushed Chrome Robo. Walk away before they bury you too."
-
-msgid "eclipse_event10_3"
-msgstr "Voice of Compassion: Aurora fought for TuxeVault's independence, against the five pillars of the Cathedral.\n She was fighting for something real. You can't let them erase her."
-
-msgid "eclipse_event10_4"
-msgstr "Voice of Revelation: The path ahead is darker than you know. Aurora's disappearance is no accident... nor is your survival.\n Watch the Cathedral. Watch the mountains. The truth waits for you... if you dare to see it."
-
-msgid "eclipse_event10_5"
-msgstr "The Cathedral and the mountains. The hidden facility must be there, tied to Project Eclipse.\n I'll follow the trail to Lion Mountain. I won't run this time."
-
-msgid "eclipse_cathedral_enforcer1"
-msgstr "Leaving so soon, sir? The Cathedral appreciates your business.\n Just remember, in times of 'crisis', it's always safer to let the authorities handle things.\n Especially anything involving the TuxeVault CEO. Good day."
-
-msgid "eclipse_crystal_hiker1"
-msgstr "Oh, TerraForm Developers? Yeah, I know those guys. They're always hauling heavy equipment up the old path.\n That path leads to Lion Mountain Below."
-
-msgid "eclipse_crystal_hiker2"
-msgstr "They put up a huge security barrier recently, near where the old Hydro-Plant used to be, halfway up.\n They say they're building something 'prototype' up there for the Cathedral's Nimrod division.\n I wouldn't go near it."
-
-msgid "eclipse_event11_1"
-msgstr "Voice of Challenge: You chose the mountain path, Argon. It's steep, and the air is thin.\n You'll find no one up there but yourself, your Tuxemon, and the answers you truly dread. Let's see if you can still stand when the truth hits the peak."
-
-msgid "eclipse_event12_1"
-msgstr "Voice of Memory: The air here is clean, but your hands aren't, Argon.\n Every upward step is one step further from what you destroyed."
-
-msgid "eclipse_event12_2"
-msgstr "Voice of Doubt: This is a fool's errand. You're climbing a mountain built on secrets.\n You won't find Aurora; you'll only find a tomb."
-
-msgid "eclipse_event12_3"
-msgstr "Voice of Wisdom: The summit is not reached by looking at the peak, but by focusing on the next step.\n Keep moving, child."
-
-msgid "eclipse_event13_1"
-msgstr "Voice of Challenge: The path narrows here. You were overwhelmed by Zircon.\n Let's see if this climb breaks your resolve before the truth does."
-
-msgid "eclipse_event13_2"
-msgstr "Voice of Temptation: The old Hydro-Plant offered comfort and power. Turn back. Find a compromise.\n Fighting the Cathedral only leads to exhaustion."
-
-msgid "eclipse_event13_3"
-msgstr "Cold Voice: You trespass, Argon. Nimrod watches its assets closely.\n This mountain belongs to the ones with the power to take it."
-
-msgid "eclipse_event14_1"
-msgstr "Reflective Voice: Look how small the town is now. You are utterly alone here.\n If you fall, no one will know, and no one will care."
-
-msgid "eclipse_event14_2"
-msgstr "Voice of Judgment: You sought justice, but brought chaos.\n Did you truly believe your ideals would survive at this altitude? They are frozen solid."
-
-msgid "eclipse_event14_3"
-msgstr "Voice of Compassion: The air is thin, but your purpose is clear. You are close, Argon.\n Don't let the cold silence extinguish the light you carry."
-
-msgid "eclipse_event15_1"
-msgstr "Echo of the Past: We built things once, Zircon and you. Now look at what they build: mines, walls, and silence.\n Is this the result you wanted?"
-
-msgid "eclipse_event15_2"
-msgstr "Whispered Voice: Don't speak about the tunnels. Don't speak about Shaft's quotas.\n The dirt here has ears, and the guards are Nimrod's best."
-
-msgid "eclipse_event15_3"
-msgstr "Voice of Temptation: The mountain is just rock. The people are just labor.\n Everything has a price, Argon. What's yours? Shaft is hiring."
-
-msgid "eclipse_event15_4"
-msgstr "Unknown Voice: The mine is deep, but the purpose is deeper. They're not extracting minerals; they're covering tracks.\n Follow the dark earth."
-
-msgid "eclipse_park_welcome"
-msgstr ""
-"Welcome to Pepper Park. Entry is ${{currency}}500. You'll get 25 Park "
-"Tuxeball. Are you ready?"
-
-msgid "eclipse_park_assistant"
-msgstr "Welcome!"
-
-msgid "eclipse_park_guardian1"
-msgstr "Do you want to interrupt your experience?"
-
-msgid "eclipse_park_guardian2"
-msgstr "Have you seen tree stumps?"
-
-msgid "eclipse_park_guardian3"
-msgstr ""
-"Illegal logging. The authority's pledge to curb illegal logging exists only on paper. In reality they have not been able to stop it.\n"
-"I have no faith that the authority will protect the forests and the environment. We have to take this matter into our own hands."
-
-msgid "eclipse_park_guardian4"
-msgstr "It's revolting!"
-
-msgid "eclipse_park_guardian5"
-msgstr ""
-"Do you think we got sewer systems and centralized treatment plants inside a "
-"park?!"
-
-msgid "eclipse_park_nomoney"
-msgstr "Unfortunately you don't have enough money!"
-
-msgid "eclipse_park_yesmoney"
-msgstr "Enjoy your experience!"
-
-msgid "eclipse_park_steps100"
-msgstr "You still have 100 steps left!"
-
-msgid "eclipse_park_scientist1"
-msgstr ""
-"Many parks limit or even prohibit scientific activities, but we are at the "
-"forefront of ecological knowledge!"
-
-msgid "eclipse_park_tennisplayer1"
-msgstr "Fingers crossed your next encounter is with a friendly one!"
-
-msgid "eclipse_park_professor1"
-msgstr ""
-"There are fences for the visitors, but no fences around the park for the "
-"monsters, and that's the way a park is supposed to be."
-
-msgid "eclipse_park_soldier1"
-msgstr ""
-"I think the park has done a pretty good job of being everyone's friend."
-
-msgid "menu_park_summary"
-msgstr "Park Summary"
-
-msgid "menu_park_seen"
-msgstr "Unique monsters seen"
-
-msgid "menu_park_total"
-msgstr "Total attempts"
-
-msgid "menu_park_capture"
-msgstr "Successful captures"
-
-msgid "menu_park_failed"
-msgstr "Failed attempts"
-
-msgid "menu_park_success_rate"
-msgstr "Capture success rate"
-
-msgid "menu_park_sighting"
-msgstr "Most frequent sightings"
-
-msgid "menu_park_no_sighting"
-msgstr "No sightings recorded."
-
-msgid "menu_park_highlights"
-msgstr "Encounter behavior highlights"
-
-msgid "menu_park_no_highlights"
-msgstr "No encounter history recorded."
-
-msgid "menu_park_thanks"
-msgstr "Thanks for exploring the park!"
-
-msgid "menu_park_afraid"
-msgstr "{user} recoils, its body tense and ready to flee."
-
-msgid "menu_park_stare"
-msgstr "{user} fixes its gaze on you, unreadable and still."
-
-msgid "menu_park_wander"
-msgstr "{user} moves slowly, lost in thought or instinct."
-
-msgid "menu_park_resting"
-msgstr "{user} curls up, its breath slow and steady."
-
-msgid "menu_park_playful"
-msgstr "{user} dashes around, kicking up dust in excitement."
-
-msgid "menu_park_alert"
-msgstr "{user} suddenly stops, sensing something nearby."
-
-############################################################
-# DAYCARE â€” SUMMARY & GENERAL
-############################################################
-
-msgid "menu_daycare_summary"
-msgstr "Daycare Summary"
-
-msgid "menu_daycare_parents"
-msgstr "Parents in Daycare"
-
-msgid "menu_daycare_empty"
-msgstr "No monsters stored."
-
-msgid "menu_daycare_mode"
-msgstr "Mode"
-
-msgid "menu_daycare_thanks"
-msgstr "Thanks for using the Daycare!"
-
-msgid "menu_daycare_add"
-msgstr "Add Tuxemon"
-
-msgid "menu_daycare_withdraw"
-msgstr "Withdraw All"
-
-msgid "menu_daycare_collect"
-msgstr "Collect Newborn"
-
-msgid "menu_daycare_mode_training"
-msgstr "Training"
-
-msgid "menu_daycare_mode_breeding"
-msgstr "Breeding"
-
-msgid "menu_daycare_mode_incompatible"
-msgstr "Training (Incompatible Pair)"
-
-msgid "menu_daycare_mode_empty"
-msgstr "Empty"
-
-msgid "menu_daycare_training"
-msgstr "Training Info"
-
-msgid "menu_daycare_exp_total"
-msgstr "Total EXP Gained"
-
-msgid "menu_daycare_cost_total"
-msgstr "Total Cost Paid"
-
-msgid "menu_daycare_exp_per_step"
-msgstr "EXP per Step (per monster)"
-
-msgid "menu_daycare_cost_per_step"
-msgstr "Cost per Step (per monster)"
-
-msgid "menu_daycare_exp_per_step_total"
-msgstr "Total EXP per Step"
-
-msgid "menu_daycare_cost_per_step_total"
-msgstr "Total Cost per Step"
-
-msgid "menu_daycare_training_active_single"
-msgstr "Training Active (1 monster)"
-
-msgid "menu_daycare_training_active_double"
-msgstr "Training Active (2 monsters)"
-
-msgid "menu_daycare_training_inactive"
-msgstr "Training Inactive"
-
-msgid "menu_daycare_breeding"
-msgstr "Breeding Info"
-
-msgid "menu_daycare_progress"
-msgstr "Progress"
-
-msgid "menu_daycare_ready"
-msgstr "Newborn Ready!"
-
-msgid "menu_daycare_halfway"
-msgstr "Halfway There"
-
-msgid "menu_daycare_not_ready"
-msgstr "Not Ready Yet"
-
-msgid "menu_daycare_no_breeding"
-msgstr "No breeding possible."
-
-# Another Mod ##
-msgid "37707_sign_welcome"
-msgstr "Welcome to town 37707! We are..."
-
-msgid "37707_sign_tower"
-msgstr "Town 37707 tower. This structure is highly unstable: Do not enter!"
-
-msgid "37707_sign_foreign"
-msgstr "This sign is written in a foreign language you can't understand."
-
-msgid "37707_sign_hidden"
-msgstr "Get out while you still can..."
-
-msgid "37707_sign_missing_welcome"
-msgstr "We11c0me T0 t0wn ERROR! We ne^er weR3"
-
-msgid "37707_sign_missing_tower"
-msgstr "Town N/A <undefined_structure>. Denetsil evah dluohs uoy"
-
-msgid "37707_sign_missing_foreign"
-msgstr ""
-"PyGame - UnboundLocalError: Local variable 'map_id' referenced before assignment\n"
-"Error 404: **** resources not found. Please notify tHe dEvEl0p#r$ @b0%t t#1# ##### ###########\n"
-"01010010 01100101 01101101 01100101 01101101 01100010 01100101 01110010 00100000 01101101 01100101 00101110"
-
-msgid "37707_sign_missing_hidden_read"
-msgstr "W3 KN0W Y0U R3@D TH1$: Y0U H@D 833N W@RN3D."
-
-msgid "37707_sign_missing_hidden_unread"
-msgstr "1T i$ t00 L8 N0W"
-
-msgid "37707_house"
-msgstr "Strange: It's locked. No one seems to be using this building."
-
-msgid "37707_mail"
-msgstr "It's empty and full of spider webs."
-
-msgid "37707_house_missing"
-msgstr "Th3r3 is n0th1ng here. The7e n3vEr w@$."
-
-msgid "37707_mail_missing"
-msgstr "1t\"$ empty @nd y0u c@n $EE th3 v0id."
-
-msgid "37707_flower"
-msgstr ""
-"You sense a warm energy emanating from this flower. It's the only thing in "
-"this town your Tuxemon seem to enjoy."
-
-msgid "37707_flower_missing"
-msgstr ""
-"E330R: Event @ction set_monster_health contains inv@l1d p@r@meter$. He@l1ng "
-"aLL Tu+em0n.,."
-
-msgid "37707_computer"
-msgstr ""
-"Developer console: This is intended for Tuxemon developers only, for testing an experimental data loading system.\n"
-"The variable for the new loader will now be enabled. Please report any issues you find at https://tuxemon.org\n"
-"Developer note 1: This suppresses crashes for missing maps. The system may attempt to load invalid data!\n"
-"Developer note 2: Do NOT save your game with this enabled, it may result in data corruption.\n"
-"Developer note 3: As of switching to Python 3, data seems to be aggregated and combined in a very unusual manner. Please debug this!"
-
-msgid "37707_tower_missing"
-msgstr "Y0u c@nn0t ente7 @ bu1ldIng th@t d0e$ n0t e+i$t."
-
-msgid "37707_exit_missing"
-msgstr ""
-"<recovery_module>: GREETINGS ${{name}}. PLEASE UNDERSTAND THIS AREA NEVER EXISTED. YOU HAVE EXPERIENCED A SYSTEM ERROR.\n"
-"<recovery_module>: THE GLITCH HAS NOW BEEN PATCHED. YOU MAY CONTINUE THE GAME NORMALLY FROM HERE ON. DO NOT ATTEMPT TO RETURN HERE.\n"
-"<recovery_module>: WAKE UP. FORGET ALL. ALL IS BUT A DREAM..."
-
-msgid "37707_villager_male_1"
-msgstr ""
-"Blank: Hmph. Hi. Sorry: We're usually weary of outsiders. We only get visited... sometimes.\n"
-"Blank: But since you're here, maybe you can do me a favor. It might sound strange of me to ask you this, yet I must know...\n"
-"Blank: Do you know who I am? Have you... ever seen me? I'm curious: My name, do I have a...\n"
-"Blank: No. Sorry: I have made a mistake. Please don't tell anyhone what I asked you. Carry on, enjoy your trip here."
-
-msgid "37707_villager_male_2"
-msgstr ""
-"Blank: You can't help any more. We are not allowed to talk about it. You "
-"cannot understand. Leave."
-
-msgid "37707_villager_male_3"
-msgstr ""
-"Blank: You... you will doom us all over again. Go back and never return!"
-
-msgid "37707_villager_female_1"
-msgstr ""
-"Wish: Oh... a newcomer! How did you get here? We haven't seen anyone new in... oh, never mind.\n"
-"Wish: Welcome! Welcome to... oh my: We never got around to giving our town a name! Just call us whatever you'd like I guess.\n"
-"Wish: Please make yourself at home. Usually there are more people around... it depends on the seed, maybe it's a bad omen today.\n"
-"Wish: Let me know if you need anything that exists here. Just don't make the same mistake as the others: We don't want you to leave us too."
-
-msgid "37707_villager_female_2"
-msgstr "Wish: Please: Do not enter the tower. It hasn't been built yet."
-
-msgid "37707_villager_female_3"
-msgstr ""
-"Wish: No, no, no: Stop doing this! Do you not understand it's not there?"
-
-msgid "37707_villager_male_missing"
-msgstr ""
-"00000: i W@$ n3v3R B0rN\n"
-"${{name}} ${{name}} ${{name}} ${{name}} ${{name}} ${{name}} ${{name}} ${{name}} ${{name}} ${{name}}"
-
-msgid "37707_villager_female_missing"
-msgstr ""
-"@*!^: 0H... @ n3wc0m3r! H0vv p1d y0v g3t he7e? <NONE> h3llen\"T $33N %^&one new 1n... ()h, never n3ver m3V3t N3W37 MIIIIIIIIND\n"
-"@*!^: WElcoME! W3lcome t0... 0H N/A: We never g0t ar0und to gi^ing 0ur town {<1} We never g00000000 {<2} W3 neVer Bu1lt 0uR t0wN\n"
-"TH S D ES N T EX ST Y U AR  C NNE  ED TO TH  V ID YO  M ST LEA E N W"
-
-msgid "buddha_welcome"
-msgstr "Welcome to Buddha Mountain!"
-
-msgid "old_sphalian_house01"
-msgstr ""
-"You watch some TV with your beloved Lv ${{monster_0_level}} "
-"${{monster_0_name}}.,0"
-
-msgid "old_sphalian_house02"
-msgstr "Home Sweet Home"
-
-msgid "old_sphalian_center01"
-msgstr "Your tuxemon are now at full health!"
-
-msgid "old_sphalian_center02"
-msgstr "It says that it is under repair"
-
-msgid "old_sphalian_town01"
-msgstr "Sphalian Town - a quiet, peaceful place"
-
-msgid "rubberduck_cave_01"
-msgstr "A good place to hide an item"
-
-msgid "rubberduck_cave_02"
-msgstr "If I could swim..."
-
-msgid "rubberduck_cave_03"
-msgstr "This ladder leads to nowhere"
-
-msgid "rubberduck_city_01"
-msgstr "The door won't open"
-
-msgid "rubberduck_city_02"
-msgstr "Maybe some good guys here"
-
-msgid "rubberduck_city_03"
-msgstr "Here you should be able to heal your monsters ... but no one here ..."
-
-msgid "rubberduck_city_04"
-msgstr "A mart ..."
-
-msgid "rubberduck_city_05"
-msgstr "Currently no one is living here"
-
-msgid "rubberduck_city_06"
-msgstr "Maybe someone evil / bad should be here"
-
-msgid "rubberduck_city_07"
-msgstr "Maybe make this door opened and put someone here"
-
-msgid "rubberduck_city_08"
-msgstr "Place for a cave route... maybe cave_01.tmx"
-
-msgid "rubberduck_city_09"
-msgstr "Where should this lead to??"
-
-msgid "rubberduck_city_10"
-msgstr "This is a secret place that can't be reached yet..."
-
-msgid "37707_town01"
-msgstr "You got a Fruitera for testing purposes. This will be removed later!"
-
-msgid "mart_junkyard01"
-msgstr "${{name}}: I got a Fruitera!"
-
-msgid "mart_junkyard02"
-msgstr "${{name}}: I got a Bamboon!"
-
-msgid "mart_junkyard03"
-msgstr "MAPLE: I got a Bamboon!"
-
-msgid "mart_junkyard04"
-msgstr "MAPLE: I got a Fruitera!"
-
-msgid "mart_junkyard05"
-msgstr "CARY: Well, you won this time. But next time, we'll win."
-
-# Classic Gyms
-msgid "classic_gym_leader_granite"
-msgstr "Gym Leader Granite"
-
-msgid "classic_gym_leader_granite_pre"
-msgstr "You've climbed all the way here? Good. Let's see if your spirit is as solid as the stones beneath us."
-
-msgid "classic_gym_leader_granite_post"
-msgstr "Hehâ€¦ even mountains crumble someday. You've earned this victory, challenger."
-
-msgid "classic_gym_leader_pyra"
-msgstr "Gym Leader Pyra"
-
-msgid "classic_gym_leader_pyra_pre"
-msgstr "Hope you brought sunscreenâ€”'cause I battle HOT! Let's turn this arena into a blaze of glory!"
-
-msgid "classic_gym_leader_pyra_post"
-msgstr "Whoa! You out-burned me! Guess I'll have to turn up the heat in training."
-
-msgid "classic_gym_leader_astra"
-msgstr "Gym Leader Astra"
-
-msgid "classic_gym_leader_astra_pre"
-msgstr "The chill you feel isn't fearâ€”it's focus. Let the frost sharpen your resolve."
-
-msgid "classic_gym_leader_astra_post"
-msgstr "A warm defeatâ€¦ how ironic. You've melted through my defenses."
-
-msgid "classic_gym_leader_bravion"
-msgstr "Gym Leader Bravion"
-
-msgid "classic_gym_leader_bravion_pre"
-msgstr "Stand tall, challenger! A true hero never faltersâ€”show me the courage in your heart!"
-
-msgid "classic_gym_leader_bravion_post"
-msgstr "A noble victory! You fought with honor worthy of any hero's tale."
-
-msgid "classic_gym_leader_voltessa"
-msgstr "Gym Leader Voltessa"
-
-msgid "classic_gym_leader_voltessa_pre"
-msgstr "Alright, challenger! Time to plug in, power up, and get SHOCKED!"
-
-msgid "classic_gym_leader_voltessa_post"
-msgstr "You overloaded my circuits! What a jolt of a battle!"
-
-msgid "classic_gym_leader_orion"
-msgstr "Gym Leader Orion"
-
-msgid "classic_gym_leader_orion_pre"
-msgstr "The cosmos whispers of your arrival. Let the stars decide our fate."
-
-msgid "classic_gym_leader_orion_post"
-msgstr "A brilliant victoryâ€¦ your light outshone even the constellations today."
-
-msgid "classic_gym_leader_ferrum"
-msgstr "Gym Leader Ferrum"
-
-msgid "classic_gym_leader_ferrum_pre"
-msgstr "No rust, no weakness. Show me your strongest alloy in battle!"
-
-msgid "classic_gym_leader_ferrum_post"
-msgstr "Impressiveâ€¦ you forged a victory stronger than steel."
-
-msgid "classic_gym_leader_mila"
-msgstr "Gym Leader Mila"
-
-msgid "classic_gym_leader_mila_pre"
-msgstr "Let's keep this friendly, okay? But don't think I'll go easy on you!"
-
-msgid "classic_gym_leader_mila_post"
-msgstr "Wow! You're full of surprises. That was a really fun match!"
-
-msgid "classic_gym_leader_shade"
-msgstr "Gym Leader Shade"
-
-msgid "classic_gym_leader_shade_pre"
-msgstr "Step carefullyâ€¦ shadows have a way of swallowing the unprepared."
-
-msgid "classic_gym_leader_shade_post"
-msgstr "You pierced the darkness. Few manage to find their way out."
-
-msgid "classic_gym_leader_zephra"
-msgstr "Gym Leader Zephra"
-
-msgid "classic_gym_leader_zephra_pre"
-msgstr "Feel that breeze? That's your nerves. Let's see if you can stay grounded!"
-
-msgid "classic_gym_leader_zephra_post"
-msgstr "You soared higher than I expected! What a refreshing battle."
-
-msgid "classic_gym_leader_vyre"
-msgstr "Gym Leader Vyre"
-
-msgid "classic_gym_leader_vyre_pre"
-msgstr "Careful nowâ€¦ one wrong step and the toxins take over. Let's dance with danger!"
-
-msgid "classic_gym_leader_vyre_post"
-msgstr "Hehâ€¦ looks like I'm the one who needs an antidote for defeat."
-
-msgid "classic_gym_leader_marin"
-msgstr "Gym Leader Marin"
-
-msgid "classic_gym_leader_marin_pre"
-msgstr "The tides rise and fallâ€¦ let's see if you can ride the waves of battle."
-
-msgid "classic_gym_leader_marin_post"
-msgstr "You flowed right through my strategy. A graceful victory."
-
-msgid "classic_gym_leader_sylva"
-msgstr "Gym Leader Sylva"
-
-msgid "classic_gym_leader_sylva_pre"
-msgstr "Listen closeâ€”the forest speaks. Show me you can battle in harmony with nature."
-
-msgid "classic_gym_leader_sylva_post"
-msgstr "You fought with the heart of the wild. The grove welcomes your strength."
-
-# Water Way
-msgid "water_intro1"
-msgstr "You have just crossed the desert and finally arrived in the Water Region."
-
-msgid "water_intro2"
-msgstr "A Legendary Tuxemon has been sighted near here, causing chaos across the island."
-
-msgid "water_intro3"
-msgstr "With your favourite Tuxemon, Agnite, you've come to help the people and solve their problems."
-
-msgid "water_intro4"
-msgstr "Go and face your biggest trial yet."
-
-msgid "water_traveller_1"
-msgstr "Oh, are you a traveller? Welcome to our island."
-
-msgid "water_traveller_2"
-msgstr "Now might not be the best time to visit. Strange things are happening."
-
-msgid "water_oldman_1"
-msgstr "This castle leads to a very dangerous part of the island."
-
-msgid "water_oldman_2"
-msgstr "Do not enter unless you know what you're doing."
-
-msgid "water_rock1"
-msgstr "Listen -> To -> This -> Guy -> He's -> Super -> Smart ->"
-
-msgid "water_niceguy1_1"
-msgstr "Welcome to our village."
-
-msgid "water_niceguy1_2"
-msgstr "You'll need permission from our mayor to go further on the island, due to how dangerous it's becoming."
-
-msgid "water_niceguy2_1"
-msgstr "Each village on our island has a special relationship with water."
-
-msgid "water_niceguy2_2"
-msgstr "For example, our village is right next to the ocean. Water is all around us."
-
-msgid "water_nurse1"
-msgstr "Let me heal your Tuxemon for you."
-
-msgid "water_nurse2"
-msgstr "All healed. Take care out there."
-
-msgid "water_nice_mayor1"
-msgstr "Hello and welcome to our village. We live in peace with our Tuxemon, floating gently on the ocean. Yes, the whole village floats.\n No, we don't know why.\n One day we woke up and everything was drifting. We decided to just go with it."
-
-msgid "water_nice_mayor2"
-msgstr "You need my permission before you can go any further on the island. Things have been getting unpredictable lately.\n Buildings wobble, the tides act strange, and sometimes the fish stare at us for too long. What brings you here?"
-
-msgid "water_nice_mayor3"
-msgstr "Ah, you've heard of our problems. Strange things are happening in the North, and a mysterious Tuxemon has been sighted.\n People say it glides across the water without touching it, which is impressive and also a little rude."
-
-msgid "water_nice_mayor4"
-msgstr "You and your Tuxemon seem very strong. If you could help us find the strange Tuxemon and put an end to our troubles, we would be grateful.\n Our village doesn't have much, but we can offer moral support and a lot of floating."
-
-msgid "water_nice_mayor5"
-msgstr "Nice Mayor: Oh my goodness. My son has stolen your Agnite. I am so sorry. He has a habit of making terrible decisions at high speed.\n I promise you, this is not normal behaviour. Well, not entirely normal."
-
-msgid "water_nice_mayor6"
-msgstr "Here, take two of my strongest Tuxemon. They have protected this village from storms, sea monsters, and once a very angry seagull.\n Please defeat my son and teach him a lesson before he steals something else."
-
-msgid "water_nice_mayor7"
-msgstr "You received Propellercat and Bugnin. They seem confused but willing."
-
-msgid "water_nice_mayor8"
-msgstr "I'm so sorry my son has stolen your Tuxemon. He thinks strength is something you grab and run away with.\n Please defeat him and help him understand that this is not how life works, even on a floating village."
-
-msgid "water_rude_dude1"
-msgstr "RUDE DUDE: You're not a good Tuxemon trainer. Show me your strongest Tuxemon.\n I want to see what real power looks like, because I definitely don't have any of my own."
-
-msgid "water_rude_dude2"
-msgstr "RUDE DUDE: Wow, this is a cool Tuxemon. You really don't deserve something this strong. Hope you don't mind if I take it.\n Actually, I hope you do mind. That makes it more fun."
-
-msgid "water_rude_dude3"
-msgstr "RUDE DUDE has stolen your Agnite. He sprints away like someone who has never considered consequences."
-
-msgid "water_helper1"
-msgstr "I just saw a little boy run past me toward the outskirts of the village."
-
-msgid "water_goth1"
-msgstr "What? A rude boy with a Tuxemon? Sorry, I haven't seen anyone come past me."
-
-msgid "water_outskirts_niceguy1"
-msgstr "It's so peaceful out here. But it would be nicer if it weren't for the Tuxemon hiding in the grass."
-
-msgid "water_outskirts_niceguy2"
-msgstr "I like flowers."
-
-msgid "water_outskirts_dude1"
-msgstr "Oh no, you found me. I mean... haha. You walked right into my trap.\n I didn't actually set a trap, but pretending I did makes me feel smarter."
-
-msgid "water_outskirts_dude2"
-msgstr "Prepare to face the power of my... your Agnite.\n It likes me more than you. Probably. Maybe. I hope."
-
-msgid "water_outskirts_dude3"
-msgstr "What the... Agnite turned on me. Why would it do that.\n I fed it a snack. It was a rock, but still."
-
-msgid "water_outskirts_dude4"
-msgstr "You got Agnite back. It looks relieved, and also slightly embarrassed for you both."
-
-msgid "water_outskirts_dude5"
-msgstr "Grr... never mind. I have even stronger Tuxemon to defeat you with. Take this.\n I found them behind a tree. They might not even be mine."
-
-msgid "water_outskirts_dude6"
-msgstr "You have defeated the boy and recovered your Tuxemon.\n He looks frustrated, confused, and possibly hungry."
-
-msgid "water_outskirts_dude7"
-msgstr "You can now travel further on the island.\n The boy mutters something about revenge and snacks as he wanders off."
-
-msgid "water_cooldude1"
-msgstr "I'm so cool. I must be the only person who's ever climbed this mountain alone."
-
-msgid "water_cooldude2"
-msgstr "Whoa. What are you doing here."
-
-msgid "water_hiding_guy1"
-msgstr "Ssssh... I'm hiding from Omnichannel."
-
-msgid "water_hiding_guy2"
-msgstr "I don't trust them."
-
-msgid "water_disciple1"
-msgstr "You're almost halfway to the next village. Over this bridge is the halfway point where you can rest."
-
-msgid "water_postboy"
-msgstr "Umm... I think I'm lost. Am I anywhere near Taba Town."
-
-msgid "water_omniblock1"
-msgstr "Omnichannel has restricted access to this section of the island for your safety.\n This area has been classified as a Tier 3 Hazard Zone under our Risk Mitigation Framework.\n Please do not panic. It is inefficient."
-
-msgid "water_omniblock2"
-msgstr "You must obtain the Mayor's authorization to proceed.\n This ensures alignment with our regional compliance protocols and prevents unexpected liability events."
-
-msgid "water_omniblock3"
-msgstr "Omnichannel policy prohibits passage due to a high-risk Legendary Tuxemon ahead.\n Unauthorized entry may result in suboptimal customer experiences."
-
-msgid "water_omniblock4"
-msgstr "I work for Omnichannel now. Operational synergy, you know.\n We strive to deliver scalable safety solutions through proactive intervention and occasional shouting."
-
-msgid "water_omni1"
-msgstr "Omnichannel has designated this village as our regional operations hub.\n This strategic deployment enhances our ability to deliver value-driven security outcomes and also gives us a nice view."
-
-msgid "water_omni2"
-msgstr "Omnichannel will secure the Legendary Tuxemon and deliver optimized hero outcomes for this region.\n Our quarterly reports depend on it."
-
-msgid "water_omni3"
-msgstr "Omnichannel has identified that this village maintains a high-value relationship with water resources.\n Leveraging this asset is key to our long-term sustainability roadmap, or so the brochure says."
-
-msgid "water_omni4"
-msgstr "This village is positioned between two rivers, enabling streamlined waste-flow management.\n We simply place our materials in the river and let natural processes handle the rest.\n It's what we call eco-adjacent disposal."
-
-msgid "water_omni5"
-msgstr "Omnichannel advises against visiting the Snow or Volcano villages ahead.\n Those areas are currently undergoing stability recalibration. That means chaos."
-
-msgid "water_omni6"
-msgstr "Omnichannel will deploy certified field agents to stabilize those villages later.\n Please comply with all directives to ensure a seamless regional experience. Resistance creates paperwork."
-
-msgid "water_nice_river1"
-msgstr "This village used to be peaceful, until Omnichannel moved in."
-
-msgid "water_guide1"
-msgstr "To the North is an icy village being attacked by an angry Tuxemon."
-
-msgid "water_guide2"
-msgstr "To the East is a volcano village where the Legendary Tuxemon is causing chaos."
-
-msgid "water_guide3"
-msgstr "I'm too scared to go anywhere."
-
-msgid "water_iceguy1_1"
-msgstr "Our village has a special relationship with water. It's built on top of a frozen lake."
-
-msgid "water_iceguy2_1"
-msgstr "Help. Our village is being attacked by a dangerous Tuxemon."
-
-msgid "water_iceguy2_2"
-msgstr "Talk to our mayor if you want to help."
-
-msgid "water_mayor1"
-msgstr "A monster is attacking our village. Will you help us.\n The ice is cracking, the houses are shaking, and someone dropped their soup.\n It is chaos."
-
-msgid "water_mayor2"
-msgstr "Talk to me again when you're ready to fight it. The creature keeps circling the lake like it's judging us.\n I don't like being judged by something with claws."
-
-msgid "water_mayor3"
-msgstr "Here it is. The monster is attacking. Help. It is making loud noises and I am not emotionally prepared for this."
-
-msgid "water_mayor4"
-msgstr "By giddy, you've knocked that Tuxemon out to sea. That was impressive.\n The villagers can finally stop screaming. Mostly."
-
-msgid "water_mayor5"
-msgstr "I think you might be strong enough to stop the Legendary Tuxemon in the Volcano village.\n You should go there and help everyone. They are probably panicking too."
-
-msgid "water_conifrost1"
-msgstr "You feel a powerful presence behind you. The temperature drops just enough to make you question your life choices."
-
-msgid "water_conifrost2"
-msgstr "It's the Tuxemon you defeated when it attacked the village.\n It looks calmer now, like it has had a long think about its behaviour."
-
-msgid "water_conifrost3"
-msgstr "Conifrost was impressed by your strength and wants to help you stop the Legendary Tuxemon.\n It nods at you in a very serious, icy way."
-
-msgid "water_conifrost4"
-msgstr "Conifrost joined your team. It stands proudly, as if posing for a dramatic painting."
-
-msgid "water_volcano_guy1"
-msgstr "Our village has a special relationship with water."
-
-msgid "water_volcano_guy2"
-msgstr "We live on a volcano where the heat boils water into steam, turning it into clouds."
-
-msgid "water_volcano_guy3"
-msgstr "I'm scared of the Legendary Tuxemon hiding in the nearby cave."
-
-msgid "water_volcano_guy4"
-msgstr "I need to run away to the Fondent region. I'm sure nothing dramatic is happening there."
-
-msgid "water_volcano_guy5"
-msgstr "It's hiding... the Legendary Tuxemon... in the lake North of here. I'm scared."
-
-msgid "water_volcano_oldman1"
-msgstr "Are you ready to face the Legendary Tuxemon. Most people turn back at this point.\n Some pretend they forgot something at home. Others just faint."
-
-msgid "water_volcano_oldman2"
-msgstr "Walk into the water when you're prepared to face your hardest challenge yet. The entrance is down there.\n Yes, underwater. No, I don't know who designed it."
-
-msgid "water_volcano_oldman3"
-msgstr "That's right. Walk into the water. Don't worry about holding your breath. Something down there handles that for you.\n Probably magic. Or science. Or both."
-
-msgid "water_hint1"
-msgstr "This is the cave of the Legendary Tuxemon."
-
-msgid "water_hint2"
-msgstr "Somewhere in here, the Legendary Tuxemon is hiding. You must stop it and end its madness."
-
-msgid "water_hint3"
-msgstr "Walking inside water will heal your Tuxemon."
-
-msgid "water_hint4"
-msgstr "And don't worry about breathing underwater. A strange power allows you to breathe here."
-
-msgid "water_hint5"
-msgstr "And remember, walking in the water will heal all of your Tuxemon."
-
-msgid "water_unusual1"
-msgstr "Hello, strange person. I assume you've come to meet my friend. They call it the Legendary Tuxemon.\n I call it 'the one who keeps knocking things over'. Names are flexible."
-
-msgid "water_unusual2"
-msgstr "You think it's strange for someone to live underwater. Is it not stranger that you came all this way to meet me.\n People on the surface always rush. Down here, the water decides how fast you go. Usually slow."
-
-msgid "water_unusual3"
-msgstr "My friend is waiting for you to the North. They say they're very excited to meet you. They have been watching you through the currents.\n Not in a creepy way. Mostly."
-
-msgid "water_gemuar_before1"
-msgstr "A frightening monster appears. You feel its power. It must be the Legendary Tuxemon causing all the problems here.\n Even the water seems nervous."
-
-msgid "water_gemuar_before2"
-msgstr "You sense that it wants to test your strength. It watches you like someone deciding whether you're impressive or disappointing."
-
-msgid "water_gemuar_before3"
-msgstr "LEGENDARY TUXEMON: Are you powerful enough to defeat me. Prepare yourself for a difficult battle, if you dare.\n I hope you stretched."
-
-msgid "water_ending1"
-msgstr "You have defeated the Legendary Tuxemon and restored peace to the region.\n The water settles, the wind calms, and someone in the distance sighs with relief."
-
-msgid "water_ending2"
-msgstr "Gemuar is impressed by your talent and has joined your team. It seems curious about what chaos you will stumble into next."
-
-msgid "water_ending3"
-msgstr "Your story in the Water Region has ended. You can keep playing if you want to, but this is the end of the game.\n The villagers will probably talk about you for years, even if they get some details wrong."
-
-msgid "water_ending4"
-msgstr "Well done and thank you for playing. See you in the next Tuxemon mod. Bring snacks next time."
-
-msgid "water_outskirts_dude"
-msgstr "RUDE DUDE"
-
-# JUNKYARD ##
-msgid "junkyard_01"
-msgstr "Hey, ${{name}}! I found some Tuxballs in this junkyard!"
-
-msgid "junkyard_02"
-msgstr "You can have one. I'll take the other"
-
-msgid "junkyard_03"
-msgstr "GARY: Well, well, well. Look who we have here!"
-
-msgid "junkyard_04"
-msgstr ""
-"CARY: You know you're stealing those Tuxballs without signing the End User "
-"License Agreement, right?"
-
-msgid "junkyard_05"
-msgstr "MAPLE: These are trash! You don't have to sign the EULA for trash!"
-
-msgid "junkyard_06"
-msgstr "GARY: That's what you think. But you're gonna have to pay."
-
-msgid "junkyard_07"
-msgstr "GARY: People like you shouldn't be able to get Tuxemon like this!"
-
-msgid "junkyard_08"
-msgstr "CARY: It's your own fault. Let's get them, Gary."
-
-# Azure Town
-msgid "town_hall"
-msgstr "Town Hall"
-
-msgid "flower_lady"
-msgstr "Flower Lady"
-
-
-
-msgid "jji_opening_atlas_intro_1"
-msgstr "The mats are silent. Coach Atlas steps forward."
-
-
-msgid "jji_opening_atlas_intro_2"
-msgstr "Coach Atlas: So you're the new white belt? This won't take long."
-
-
-msgid "jji_opening_atlas_win"
-msgstr "Coach Atlas: Night night. Come back when you've learned the basics."
-
-
-msgid "blast_double"
-msgstr "Blast Double"
-
-
-msgid "spaz"
-msgstr "Spaz"
-
-
-msgid "triangle"
-msgstr "Triangle"
-
-msgid "blast_double"
-msgstr "Blast Double"
-
-msgid "spaz"
-msgstr "Spaz"
-
-msgid "triangle"
-msgstr "Triangle"
-
-msgid "blast_double"
-msgstr "Blast Double"
-
-msgid "spaz"
-msgstr "Spaz"
-
-msgid "triangle"
-msgstr "Triangle"
-
-msgid "coach_atlas"
-msgstr "Coach Atlas"
-
-msgid "you"
-msgstr "You"
-
-msgid "jji_kimura_intro_1"
-msgstr "You: My neck really hurts... what happened?"
-
-msgid "jji_kimura_intro_2"
-msgstr "Dr Kimura: Easy. Coach Atlas caught you in a triangle choke and choked you unconscious."
-
-msgid "jji_kimura_intro_3"
-msgstr "Dr Kimura: He did not let go when you went limp. Passers-by had to pull him off you."
-
-msgid "jji_kimura_intro_4"
-msgstr "Dr Kimura: When the police came looking for him, Atlas ran. He is on the run now."
-
-msgid "jji_kimura_intro_5"
-msgstr "Dr Kimura: The defence is POSTURE UP. It is a strong triangle defence, and you need to learn it."
-
-msgid "jji_kimura_intro_6"
-msgstr "Dr Kimura: Rest and recover. We will return you home."
+"Climbers need to wake up and understand that climbing Lion Mountain is extremely risky.
+"
+"They need to stop believing that having strong teammates alone will get them to the top."
