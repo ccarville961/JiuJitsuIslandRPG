@@ -27,82 +27,82 @@ msgstr ""
 "X-Generator: Weblate 4.3.2"
 
 msgid "cosmic_berry"
-msgstr "Cosmic Berry"
+msgstr "Flow State"
 
 msgid "cosmic_berry_description"
-msgstr "Changes competitor style to Cosmic."
+msgstr "Changes a competitor's style to Flow."
 
 msgid "earth_berry"
-msgstr "Earth Berry"
+msgstr "Wrestling Tape"
 
 msgid "earth_berry_description"
-msgstr "Changes competitor style to Wrestling."
+msgstr "Changes a competitor's style to Wrestling."
 
 msgid "fire_berry"
-msgstr "Fire Berry"
+msgstr "Boxing Gloves"
 
 msgid "fire_berry_description"
-msgstr "Changes competitor style to Striking."
+msgstr "Changes a competitor's style to Striking."
 
 msgid "frost_berry"
-msgstr "Frost Berry"
+msgstr "Ice Bath"
 
 msgid "frost_berry_description"
-msgstr "Changes competitor style to Frost."
+msgstr "Changes a competitor's style to Recovery."
 
 msgid "heroic_berry"
-msgstr "Heroic Berry"
+msgstr "Gold Medal"
 
 msgid "heroic_berry_description"
-msgstr "Changes competitor style to Heroic."
+msgstr "Changes a competitor's style to Champion."
 
 msgid "metal_berry"
-msgstr "Metal Berry"
+msgstr "Pressure Passing Notes"
 
 msgid "metal_berry_description"
-msgstr "Changes competitor style to Pressure."
+msgstr "Changes a competitor's style to Pressure."
 
 msgid "lightning_berry"
-msgstr "Lightning Berry"
+msgstr "Reaction Ball"
 
 msgid "lightning_berry_description"
-msgstr "Changes competitor style to Lightning."
+msgstr "Changes a competitor's style to Speed."
 
 msgid "normal_berry"
-msgstr "Normal Berry"
+msgstr "Fundamentals"
 
 msgid "normal_berry_description"
-msgstr "Changes competitor style to Balanced."
+msgstr "Changes a competitor's style to Balanced."
 
 msgid "shadow_berry"
-msgstr "Shadow Berry"
+msgstr "Leg Lock Notes"
 
 msgid "shadow_berry_description"
-msgstr "Changes competitor style to Shadow."
+msgstr "Changes a competitor's style to Submission."
 
 msgid "sky_berry"
-msgstr "Sky Berry"
+msgstr "Flying Triangle Notes"
 
 msgid "sky_berry_description"
-msgstr "Changes competitor style to Aerial."
+msgstr "Changes a competitor's style to Dynamic."
 
 msgid "venom_berry"
-msgstr "Venom Berry"
+msgstr "Heel Hook Notes"
 
 msgid "venom_berry_description"
-msgstr "Changes competitor style to Venom."
+msgstr "Changes a competitor's style to Aggressive."
 
 msgid "water_berry"
-msgstr "Water Berry"
+msgstr "Guard Retention Notes"
 
 msgid "water_berry_description"
-msgstr "Changes competitor style to Guard."
+msgstr "Changes a competitor's style to Guard."
 
 msgid "wood_berry"
-msgstr "Wood Berry"
+msgstr "Scramble Drill Notes"
 
 msgid "wood_berry_description"
-msgstr "Changes competitor style to Movement."
+msgstr "Changes a competitor's style to Scrambler."
 
 msgid "potion"
 msgstr "White Monster"
@@ -436,28 +436,28 @@ msgid "neptune_description"
 msgstr "Advanced fishing rod."
 
 msgid "hatchet"
-msgstr "Hatchet"
+msgstr "Mat Cutter"
 
 msgid "hatchet_description"
-msgstr "Cut down pesky logs with the Hatchet."
+msgstr "Cut through obstacles blocking the path."
 
 msgid "surfboard"
-msgstr "Surfboard"
+msgstr "Electric Scooter"
 
 msgid "surfboard_description"
 msgstr "From your Mom. It lets you travel faster."
 
 msgid "gold_pass"
-msgstr "Gold Pass"
+msgstr "VIP Academy Pass"
 
 msgid "gold_pass_description"
-msgstr "Enjoy the Cathedral's deluxe services."
+msgstr "Enjoy the academy's deluxe services."
 
 msgid "dojo_pass"
-msgstr "Dojo Pass"
+msgstr "Seminar Pass"
 
 msgid "dojo_pass_description"
-msgstr "Admit one to the Dojo of the Elements."
+msgstr "Admit one to the Academy of Styles."
 
 msgid "book_wishes"
 msgstr "Book of Wishes"
@@ -466,13 +466,13 @@ msgid "book_wishes_description"
 msgstr "The Achievement Maniac's list of achievements for you to attempt."
 
 msgid "earthmover_key"
-msgstr "Earthmover Key"
+msgstr "Maintenance Key"
 
 msgid "earthmover_key_description"
-msgstr "Could come in handy if there's a giant earthmover blocking the path."
+msgstr "Could come in handy if heavy equipment is blocking the path."
 
 msgid "sledgehammer"
-msgstr "Sledgehammer"
+msgstr "Heavy Kettlebell"
 
 msgid "sledgehammer_description"
 msgstr "Smash apart gray boulders."
@@ -490,10 +490,10 @@ msgid "rhincus_fossil_description"
 msgstr "It looks like the skull of a toothed bird, but it's hard as stone."
 
 msgid "nu_phone"
-msgstr "Nu Phone"
+msgstr "Gym Phone"
 
 msgid "nu_phone_description"
-msgstr "You can do a lot with this, e.g. phone home."
+msgstr "You can do a lot with this, including phone home."
 
 msgid "bivouac"
 msgstr "Bivouac"
@@ -508,17 +508,17 @@ msgid "drone_description"
 msgstr "Switch one teammate on your active squad with one in storage."
 
 msgid "spyder_pass"
-msgstr "Spyder Pass"
+msgstr "Spyder Security Pass"
 
 msgid "spyder_pass_description"
-msgstr ""
+msgstr "Grants access to restricted Spyder areas."
 "This should let you in to places only Spyder conspirators are meant to go."
 
 msgid "app_radio"
-msgstr "Radio App"
+msgstr "Podcast App"
 
 msgid "app_radio_description"
-msgstr ""
+msgstr "Listen to gym gossip, interviews, and training tips."
 "Tune in to local broadcasts, quest updates, and ambient chatter from across "
 "the region."
 
@@ -526,32 +526,32 @@ msgid "app_banking"
 msgstr "Bank App"
 
 msgid "app_banking_description"
-msgstr "Access your funds here whenever you're in a town."
+msgstr "Access your funds here whenever you're in town."
 
 msgid "app_contacts"
-msgstr "Contacts App"
+msgstr "Training Partners App"
 
 msgid "app_contacts_description"
-msgstr "Call your friends and battle the people of your choice."
+msgstr "Call your friends and challenge people to a match."
 
 msgid "app_map"
-msgstr "Map App"
+msgstr "Academy Map App"
 
 msgid "app_map_description"
 msgstr "Use this on your phone to see where you are."
 
 msgid "app_renaming"
-msgstr "Renaming App"
+msgstr "Nickname App"
 
 msgid "app_renaming_description"
-msgstr ""
+msgstr "Rename your competitors."
 "Give your competitor a fresh identity with a new name — make it truly yours!"
 
 msgid "app_tuxepedia"
 msgstr "Competitor Database App"
 
 msgid "app_tuxepedia_description"
-msgstr ""
+msgstr "Review competitor info, styles, and records."
 "Keep track of competitor information here, and share it with the world."
 
 msgid "p_trepidation"
@@ -596,7 +596,7 @@ msgid "cureall_description"
 msgstr "Sleep, food and mobility. Miraculous."
 
 msgid "escape_key"
-msgstr "Escape Key"
+msgstr "Back Door Key"
 
 msgid "escape_key_description"
 msgstr "Slip out the back door."
@@ -773,27 +773,27 @@ msgstr ""
 " the tongue and wakes up any dish with a dazzling spark."
 
 msgid "rub_pork_chops"
-msgstr "Rub Pork Chops"
+msgstr "Meal Prep Pork"
 
 msgid "rub_pork_chops_description"
-msgstr ""
+msgstr "Protein-heavy meal prep for serious training."
 "Root beast bark slices coated in crackle dust. Smoky, spicy, and \n"
 "fierceâ€”seasoned like primal meat, but purely plant-powered."
 
 msgid "mille_feuille"
-msgstr "Mille-Feuille"
+msgstr "Fancy Bakery Slice"
 
 msgid "mille_feuille_description"
-msgstr ""
+msgstr "Looks expensive. Probably from the café near the academy."
 "Layered pastry made with mistflour and moo bloom cream. Rich, delicate, "
 "and \n"
 "stacked with sweetness."
 
 msgid "cheesecake"
-msgstr "Cheesecake"
+msgstr "Post-Training Cheesecake"
 
 msgid "cheesecake_description"
-msgstr ""
+msgstr "A questionable but morale-boosting recovery snack."
 "Soft moo bloom cake with glowfat swirl. Creamy and luxurious with a mellow \n"
 "sparkle."
 
@@ -801,184 +801,184 @@ msgid "cream_puffs"
 msgstr "Cream Puffs"
 
 msgid "cream_puffs_description"
-msgstr ""
+msgstr "Light, sweet, and gone before warmups."
 "Sweetroot puffs filled with enchanted cream. Light, airy, and wickedly \n"
 "indulgent."
 
 msgid "crepes"
-msgstr "Crepes"
+msgstr "Protein Crepes"
 
 msgid "crepes_description"
-msgstr ""
+msgstr "Thin pancakes pretending to be healthy."
 "Thin meal dust crepes wrapped around shimmer filling. Graceful, sweet, and \n"
 "just a little peppery."
 
 msgid "rub_steak"
-msgstr "Rub Steak"
+msgstr "Meal Prep Steak"
 
 msgid "rub_steak_description"
-msgstr ""
+msgstr "Lean, expensive, and very serious."
 "Flamehorn-style roast rubbed with spice crystals. Bold, seared, and "
 "humming \n"
 "with heat."
 
 msgid "meatballs"
-msgstr "Meatballs"
+msgstr "Protein Meatballs"
 
 msgid "meatballs_description"
-msgstr ""
+msgstr "Compact fuel for long open mats."
 "Crumbled stonefruit bulb balls in zestsap glaze. Hearty, tangy, and \n"
 "magically satisfying."
 
 msgid "shell_tacos"
-msgstr "Shell Tacos"
+msgstr "Tournament Tacos"
 
 msgid "shell_tacos_description"
-msgstr ""
+msgstr "Risky before competition, perfect after."
 "Field wrap tacos with zestroot fillings and moo bloom sauce. Fresh, "
 "springy,\n"
 " and packed with zip."
 
 msgid "potato_casserole"
-msgstr "Potato Casserole"
+msgstr "Carb Load Casserole"
 
 msgid "potato_casserole_description"
-msgstr ""
+msgstr "Heavy fuel for heavy rounds."
 "Sweetroot and mistflour layers baked in zestsap. Warm and citrusy with a \n"
 "soft bite."
 
 msgid "phyllo"
-msgstr "Phyllo"
+msgstr "Crispy Pastry"
 
 msgid "phyllo_description"
-msgstr ""
+msgstr "Flaky, like your excuse for skipping cardio."
 "Flaky wrap filled with tangy beastmoss. Delicate layers with a bold, "
 "earthy \n"
 "center."
 
 msgid "croissants"
-msgstr "Croissants"
+msgstr "Morning Croissants"
 
 msgid "croissants_description"
-msgstr ""
+msgstr "Breakfast before the early fundamentals class."
 "Buttery suncrust croissants with zesty dust. Crisp, golden, and lightly \n"
 "electrified."
 
 msgid "rub_chicken"
-msgstr "Rub Chicken"
+msgstr "Meal Prep Chicken"
 
 msgid "rub_chicken_description"
-msgstr ""
+msgstr "The official food of every competitor cutting weight."
 "Sky feather cutlets rubbed in starpepper mix. Light, crispy, and boldly \n"
 "seasoned."
 
 msgid "potato_fries"
-msgstr "Potato Fries"
+msgstr "Post-Roll Fries"
 
 msgid "potato_fries_description"
-msgstr ""
+msgstr "Salty recovery food after hard rounds."
 "Sweetroot fries with magical salt blend. Crunchy, glowing, and "
 "surprisingly \n"
 "feisty."
 
 msgid "pretzels"
-msgstr "Pretzels"
+msgstr "Mat-Side Pretzels"
 
 msgid "pretzels_description"
-msgstr ""
+msgstr "Crunchy carbs between matches."
 "Twisted field grain bites with starpepper hints. Salty, chewy, and "
 "playfully\n"
 " spicy."
 
 msgid "mashed_potatoes"
-msgstr "Mashed Potatoes"
+msgstr "Carb Mash"
 
 msgid "mashed_potatoes_description"
-msgstr ""
+msgstr "Soft, comforting, and suspiciously effective."
 "Soft root mash with crackle salt and moo bloom cream. Comforting with a \n"
 "fizzy edge."
 
 msgid "rub_ribs"
-msgstr "Rub Ribs"
+msgstr "BBQ Ribs"
 
 msgid "rub_ribs_description"
-msgstr ""
+msgstr "Not competition-safe, but emotionally necessary."
 "Stonefruit bulb ribs coated in crackle spices. Meaty texture and "
 "satisfying \n"
 "pop."
 
 msgid "pie"
-msgstr "Pie"
+msgstr "Victory Pie"
 
 msgid "pie_description"
-msgstr ""
+msgstr "Tastes better after a win."
 "Golden pie crust filled with beastmoss stew. Hearty, flaky, and deeply \n"
 "savory."
 
 msgid "honey_cake"
-msgstr "Honey Cake"
+msgstr "Honey Protein Cake"
 
 msgid "honey_cake_description"
-msgstr ""
+msgstr "Sweet fuel with just enough protein to justify it."
 "Moist sweetroot cake infused with shimmer dust. Sweet, spicy, and full of \n"
 "bounce."
 
 msgid "souffle"
-msgstr "SoufflÃ©"
+msgstr "Fancy Souffle"
 
 msgid "souffle_description"
-msgstr ""
+msgstr "Too delicate for the changing room."
 "Airy glowfat soufflÃ© puffed with zestsap. Light, tangy, and dreamlike on "
 "the\n"
 " tongue."
 
 msgid "hash"
-msgstr "Hash"
+msgstr "Breakfast Hash"
 
 msgid "hash_description"
-msgstr ""
+msgstr "A greasy breakfast for the morning-after open mat."
 "Warm hash of root veggies and enchanted herbs. Earthy comfort with a "
 "peppery\n"
 " kick."
 
 msgid "pita"
-msgstr "Pita"
+msgstr "Chicken Pita"
 
 msgid "pita_description"
-msgstr ""
+msgstr "Portable food for competitors on the move."
 "Dry crispbread with a zesty spice dust spread. Simple, snappy, and full of \n"
 "flavor."
 
 msgid "pastry"
-msgstr "Pastry"
+msgstr "Gym Café Pastry"
 
 msgid "pastry_description"
-msgstr ""
+msgstr "Bought with coffee and regret."
 "Flaky pastry filled with a spicy sweetroot swirl. Buttery folds with a \n"
 "firecracker heart."
 
 msgid "pudding"
-msgstr "Pudding"
+msgstr "Açaí Pudding"
 
 msgid "pudding_description"
-msgstr ""
+msgstr "Purple, sweet, and legally considered recovery."
 "Creamy sweetroot pudding with a tangy glow. Smooth and citrusy with a "
 "gentle\n"
 " shimmer."
 
 msgid "pancakes"
-msgstr "Pancakes"
+msgstr "Protein Pancakes"
 
 msgid "pancakes_description"
-msgstr ""
+msgstr "Stacked like your excuses for avoiding stand-up."
 "Fluffy sky-grain cakes topped with shimmer zest. Soft, warm, and joyfully \n"
 "bright."
 
 msgid "wings"
-msgstr "Wings"
+msgstr "Post-Tournament Wings"
 
 msgid "wings_description"
-msgstr ""
+msgstr "Best eaten after making weight."
 "Crispy flying-beast style bites with magical heat. Bold, sizzling, and "
 "bite-\n"
 "sized bravery."
@@ -1116,161 +1116,161 @@ msgid "tm_all_in"
 msgstr "TM: All In"
 
 msgid "tm_all_in_description"
-msgstr "Technique Manual that teaches the All In technique."
+msgstr "Instructional that teaches the All In technique."
 
 msgid "tm_solar_synthesis"
 msgstr "TM: Solar Synthesis"
 
 msgid "tm_solar_synthesis_description"
-msgstr "Technique Manual that teaches the Solar Synthesis technique."
+msgstr "Instructional that teaches the Solar Synthesis technique."
 
 msgid "tm_blade"
 msgstr "TM: Blade"
 
 msgid "tm_blade_description"
-msgstr "Technique Manual that teaches the Blade technique."
+msgstr "Instructional that teaches the Blade technique."
 
 msgid "tm_panjandrum"
 msgstr "TM: Panjandrum"
 
 msgid "tm_panjandrum_description"
-msgstr "Technique Manual that teaches the Panjandrum technique."
+msgstr "Instructional that teaches the Panjandrum technique."
 
 msgid "tm_scope"
 msgstr "TM: Scope"
 
 msgid "tm_scope_description"
-msgstr "Technique Manual that teaches the Scope technique."
+msgstr "Instructional that teaches the Scope technique."
 
 msgid "tm_shadow_boxing"
 msgstr "TM: Shadow Boxing"
 
 msgid "tm_shadow_boxing_description"
-msgstr "Technique Manual that teaches the Shadow Boxing technique."
+msgstr "Instructional that teaches the Shadow Boxing technique."
 
 msgid "tm_avalanche"
 msgstr "TM: Avalanche"
 
 msgid "tm_avalanche_description"
-msgstr "Technique Manual that teaches the Avalanche technique."
+msgstr "Instructional that teaches the Avalanche technique."
 
 msgid "tm_acid"
 msgstr "TM: Acid"
 
 msgid "tm_acid_description"
-msgstr "Technique Manual that teaches the Acid technique."
+msgstr "Instructional that teaches the Acid technique."
 
 msgid "tm_frostbite"
 msgstr "TM: Frostbite"
 
 msgid "tm_frostbite_description"
-msgstr "Technique Manual that teaches the Frostbite technique."
+msgstr "Instructional that teaches the Frostbite technique."
 
 msgid "tm_ubuntu"
 msgstr "TM: Ubuntu"
 
 msgid "tm_ubuntu_description"
-msgstr "Technique Manual that teaches the Ubuntu technique."
+msgstr "Instructional that teaches the Ubuntu technique."
 
 msgid "tm_leaf_barrage"
 msgstr "TM: Leaf Barrage"
 
 msgid "tm_leaf_barrage_description"
-msgstr "Technique Manual that teaches the Leaf Barrage technique."
+msgstr "Instructional that teaches the Leaf Barrage technique."
 
 msgid "tm_ice_shield"
 msgstr "TM: Ice Shield"
 
 msgid "tm_ice_shield_description"
-msgstr "Technique Manual that teaches the Ice Shield technique."
+msgstr "Instructional that teaches the Ice Shield technique."
 
 msgid "tm_supernova"
 msgstr "TM: Supernova"
 
 msgid "tm_supernova_description"
-msgstr "Technique Manual that teaches the Supernova technique."
+msgstr "Instructional that teaches the Supernova technique."
 
 msgid "tm_vorpal"
 msgstr "TM: Vorpal"
 
 msgid "tm_vorpal_description"
-msgstr "Technique Manual that teaches the Vorpal technique."
+msgstr "Instructional that teaches the Vorpal technique."
 
 msgid "tm_blossom"
 msgstr "TM: Blossom"
 
 msgid "tm_blossom_description"
-msgstr "Technique Manual that teaches the Blossom technique."
+msgstr "Instructional that teaches the Blossom technique."
 
 msgid "tm_surf"
 msgstr "TM: Surf"
 
 msgid "tm_surf_description"
-msgstr "Technique Manual that teaches the Surf technique."
+msgstr "Instructional that teaches the Surf technique."
 
 msgid "tm_earth"
 msgstr "Technical Manual (Earth)"
 
 msgid "tm_earth_description"
-msgstr "Learn the particular Earth type technique in this TM."
+msgstr "Instructional for a wrestling-style technique."
 
 msgid "tm_fire"
 msgstr "Technical Manual (Fire)"
 
 msgid "tm_fire_description"
-msgstr "Learn the particular Fire type technique in this TM."
+msgstr "Instructional for a striking-style technique."
 
 msgid "tm_metal"
 msgstr "Technical Manual (Metal)"
 
 msgid "tm_metal_description"
-msgstr "Learn the particular Metal type technique in this TM."
+msgstr "Instructional for a pressure-style technique."
 
 msgid "tm_water"
 msgstr "Technical Manual (Water)"
 
 msgid "tm_water_description"
-msgstr "Learn the particular Water type technique in this TM."
+msgstr "Instructional for a guard-style technique."
 
 msgid "tm_wood"
 msgstr "Technical Manual (Wood)"
 
 msgid "tm_wood_description"
-msgstr "Learn the particular Wood type technique in this TM."
+msgstr "Instructional for a movement-style technique."
 
 msgid "mm_earth"
 msgstr "Move Module (Earth)"
 
 msgid "mm_earth_description"
-msgstr ""
+msgstr "Move Manual for a wrestling-style technique."
 "Learn the particular Earth type technique in this MM. Then it is consumed."
 
 msgid "mm_fire"
 msgstr "Move Module (Fire)"
 
 msgid "mm_fire_description"
-msgstr ""
+msgstr "Move Manual for a striking-style technique."
 "Learn the particular Fire type technique in this MM. Then it is consumed."
 
 msgid "mm_metal"
 msgstr "Move Module (Metal)"
 
 msgid "mm_metal_description"
-msgstr ""
+msgstr "Move Manual for a pressure-style technique."
 "Learn the particular Metal type technique in this MM. Then it is consumed."
 
 msgid "mm_water"
 msgstr "Move Module (Water)"
 
 msgid "mm_water_description"
-msgstr ""
+msgstr "Move Manual for a guard-style technique."
 "Learn the particular Water type technique in this MM. Then it is consumed."
 
 msgid "mm_wood"
 msgstr "Move Module (Wood)"
 
 msgid "mm_wood_description"
-msgstr ""
+msgstr "Move Manual for a movement-style technique."
 "Learn the particular Wood type technique in this MM. Then it is consumed."
 
 msgid "aardant"
@@ -1326,19 +1326,19 @@ msgstr ""
 "milestone."
 
 msgid "earth_booster"
-msgstr "Earth Booster"
+msgstr "Wrestling Camp"
 
 msgid "earth_booster_description"
 msgstr "Helps a wrestling-style competitor reach a new belt milestone."
 
 msgid "fire_booster"
-msgstr "Fire Booster"
+msgstr "Boxing Camp"
 
 msgid "fire_booster_description"
 msgstr "Helps a striking-style competitor reach a new belt milestone."
 
 msgid "flintstone"
-msgstr "Flintstone"
+msgstr "Custom Mouthguard"
 
 msgid "flintstone_description"
 msgstr ""
@@ -1352,7 +1352,7 @@ msgid "friendship_scroll_description"
 msgstr "Deepens your relationship with your teammates."
 
 msgid "lucky_bamboo"
-msgstr "Lucky Bamboo"
+msgstr "Lucky Belt Knot"
 
 msgid "lucky_bamboo_description"
 msgstr ""
@@ -1360,61 +1360,61 @@ msgstr ""
 "makes a nice indoor plant."
 
 msgid "metal_booster"
-msgstr "Metal Booster"
+msgstr "Pressure Passing Camp"
 
 msgid "metal_booster_description"
 msgstr "Helps a pressure-style competitor reach a new belt milestone."
 
 msgid "miaow_milk"
-msgstr "Miaow Milk"
+msgstr "Chocolate Milk"
 
 msgid "miaow_milk_description"
-msgstr "Cats love the taste of Miaow Milkâ„¢!"
+msgstr "Cats love the taste of Chocolate Milkâ„¢!"
 
 msgid "ox_stick"
-msgstr "Ox Stick"
+msgstr "Shin Conditioning Stick"
 
 msgid "ox_stick_description"
 msgstr "An inspiring training weapon for an ancient competitor."
 
 msgid "peace_lily"
-msgstr "Peace Lily"
+msgstr "Academy Trophy"
 
 msgid "peace_lily_description"
 msgstr "A hardy indoor plant for someone special."
 
 msgid "petrified_dung"
-msgstr "Petrified Dung"
+msgstr "Used Tape Ball"
 
 msgid "petrified_dung_description"
 msgstr "It looks like, well, poo ... but it's hard as stone."
 
 msgid "lima_pie"
-msgstr "Lima Pie"
+msgstr "Cheat Meal"
 
 msgid "lima_pie_description"
 msgstr "A tasty cake baked from lima berries."
 
 msgid "pyramidion"
-msgstr "Pyramidion"
+msgstr "IBJJF Rulebook"
 
 msgid "pyramidion_description"
 msgstr "A golden triangle that hums with celestial power."
 
 msgid "sea_girdle"
-msgstr "Sea Girdle"
+msgstr "Blue Belt"
 
 msgid "sea_girdle_description"
 msgstr "A string of baubles, soft and slimy like kelp."
 
 msgid "stovepipe"
-msgstr "Stovepipe"
+msgstr "PVC Mobility Pipe"
 
 msgid "stovepipe_description"
 msgstr "A long iron pipe. Handling it leaves your hands sooty and ashen."
 
 msgid "sweet_sand"
-msgstr "Sweet Sand"
+msgstr "Grip Chalk"
 
 msgid "sweet_sand_description"
 msgstr ""
@@ -1422,25 +1422,25 @@ msgstr ""
 "sand."
 
 msgid "tectonic_drill"
-msgstr "Tectonic Drill"
+msgstr "Massage Gun"
 
 msgid "tectonic_drill_description"
 msgstr "A big click-clack machine used to drill into the earth."
 
 msgid "thunderstone"
-msgstr "Thunderstone"
+msgstr "Championship Medal"
 
 msgid "thunderstone_description"
 msgstr "An old stone relic, now carried about for good luck."
 
 msgid "water_booster"
-msgstr "Water Booster"
+msgstr "Guard Camp"
 
 msgid "water_booster_description"
 msgstr "Helps a guard-style competitor reach a new belt milestone."
 
 msgid "wood_booster"
-msgstr "Wood Booster"
+msgstr "Scramble Camp"
 
 msgid "wood_booster_description"
 msgstr "Helps a movement-style competitor reach a new belt milestone."
@@ -9059,7 +9059,7 @@ msgid "cat_threat"
 msgstr "Threat"
 
 msgid "cat_thunderstone"
-msgstr "Thunderstone"
+msgstr "Championship Medal"
 
 msgid "cat_timeless"
 msgstr "Timeless"
@@ -9771,12 +9771,12 @@ msgid "cash_register"
 msgstr "It's a cash register, looks relatively new."
 
 msgid "potions_in_shop"
-msgstr ""
+msgstr "The display case is packed with recovery drinks and questionable supplements."
 "The display case seems to have a lot of potions, must be pretty popular \n"
 "around here."
 
 msgid "capture_devices_in_shop"
-msgstr "Tuxeballs. How do they make these?"
+msgstr "Contracts for recruiting new competitors. Somehow, they work."
 
 msgid "xero_intro_1"
 msgstr ""
