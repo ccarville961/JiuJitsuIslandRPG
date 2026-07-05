@@ -2288,7 +2288,7 @@ msgstr ""
 "Ah! Vedo che ne hai già alcuni. Hai la testa sulle spalle ${{name}}, sono "
 "sicuro che sarai un campione in pochissimo tempo."
 
-msgid "gotfivetuxeballs"
+msgid "gotfivecompetitor_contracts"
 msgstr "Ottieni 5 Tuxeballs!"
 
 msgid "got_new_tuxemon"

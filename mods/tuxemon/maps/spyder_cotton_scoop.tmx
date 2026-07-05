@@ -76,7 +76,7 @@
     <property name="act1" value="translated_dialog spyder_cottonscoop_devicenoexplan"/>
     <property name="act2" value="pathfind spyder_shopkeeper,1,6"/>
     <property name="act3" value="set_variable heardcapture:null"/>
-    <property name="act30" value="translated_dialog tuxeball,,center,center,center"/>
+    <property name="act30" value="translated_dialog competitor_contract,,center,center,center"/>
     <property name="cond1" value="is variable_set heardcapture:yes"/>
    </properties>
   </object>
@@ -88,7 +88,7 @@
     <property name="act20" value="char_face spyder_shopassistant,player"/>
     <property name="act21" value="char_face player,spyder_shopassistant"/>
     <property name="act22" value="translated_dialog spyder_cottonscoop_deviceexplan2"/>
-    <property name="act28" value="translated_dialog tuxeball,,center,center,center"/>
+    <property name="act28" value="translated_dialog competitor_contract,,center,center,center"/>
     <property name="act30" value="set_variable heardcapture:null"/>
     <property name="cond1" value="is variable_set heardcapture:no"/>
    </properties>

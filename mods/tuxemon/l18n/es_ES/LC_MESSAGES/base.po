@@ -2262,7 +2262,7 @@ msgstr ""
 "No es seguro adentrarte en la naturaleza si no tienes un Tuxemon.\n"
 "Ven y compra uno en nuestra tienda."
 
-msgid "gotfivetuxeballs"
+msgid "gotfivecompetitor_contracts"
 msgstr "¡Obtuviste 5 Tuxeballs!"
 
 msgid "save_keep"

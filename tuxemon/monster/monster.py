@@ -139,7 +139,7 @@ class Monster:
         self.birthdate: tuple[int, int] | None = None
 
         self.capture_date: tuple[int, int] | None = None
-        self.capture_device: str = "tuxeball"
+        self.capture_device: str = "competitor_contract"
 
         self.taste_cold, self.taste_warm = Taste.generate(
             "tasteless", "tasteless"

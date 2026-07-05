@@ -405,12 +405,12 @@ class MonsterInfoState(PygameMenuState):
         image_widget = menu.add.image(image_path=new_image.copy())
         image_widget.set_float(origin_position=True)
         image_widget.translate(fxw(16 / 256), fxh(27 / 144))
-        # tuxeball
-        tuxeball = self._create_image(
+        # competitor_contract
+        competitor_contract = self._create_image(
             f"gfx/items/{monster.capture_device}.png"
         )
-        tuxeball.scale(self.factor, self.factor)
-        capture_device = menu.add.image(image_path=tuxeball)
+        competitor_contract.scale(self.factor, self.factor)
+        capture_device = menu.add.image(image_path=competitor_contract)
         capture_device.set_float(origin_position=True)
         capture_device.translate(fxw(17 / 256), fxh(110 / 144))
 

@@ -81,117 +81,117 @@ items:
         value: 1
 
   # Default configuration for a capture device with no custom status-specific modifiers.
-  tuxeball:
+  competitor_contract:
     specific_capdev_modifier: 1.0
 
-  tuxeball_crusher:
+  pressure_contract_plus:
     specific_capdev_modifier: null
 
-  tuxeball_ancient:
+  old_school_contract:
     specific_capdev_modifier: 99.0
 
-  tuxeball_noble:
+  noble_contract:
     specific_capdev_modifier: 1.25
 
-  tuxeball_lavish:
+  premium_contract:
     specific_capdev_modifier: 1.5
 
-  tuxeball_grand:
+  black_belt_contract:
     specific_capdev_modifier: 1.75
 
-  tuxeball_majestic:
+  coral_belt_contract:
     specific_capdev_modifier: 2.0
 
-  tuxeball_earth:
+  wrestler_contract:
     specific_element_modifiers:
       earth: 1.5
     fallback_element_malus: 0.2
 
-  tuxeball_fire:
+  striker_contract:
     specific_element_modifiers:
       fire: 1.5
     fallback_element_malus: 0.2
 
-  tuxeball_metal:
+  pressure_contract:
     specific_element_modifiers:
       metal: 1.5
     fallback_element_malus: 0.2
 
-  tuxeball_water:
+  guard_player_contract:
     specific_element_modifiers:
       water: 1.5
     fallback_element_malus: 0.2
 
-  tuxeball_wood:
+  scrambler_contract:
     specific_element_modifiers:
       wood: 1.5
     fallback_element_malus: 0.2
 
-  tuxeball_male:
+  male_competitor_contract:
     specific_gender_modifiers:
       male: 1.5
     fallback_gender_malus: 0.2
 
-  tuxeball_female:
+  female_competitor_contract:
     specific_gender_modifiers:
       female: 1.5
     fallback_gender_malus: 0.2
 
-  tuxeball_neuter:
+  open_division_contract:
     specific_gender_modifiers:
       neuter: 1.5
     fallback_gender_malus: 0.2
 
-  tuxeball_gambler:
+  open_mat_contract:
     random_bounds: [0.0, 2.0]
 
-  tuxeball_candy:
+  development_contract:
     capdev_effects:
       - target_attribute: level
         operation: increment
         value: 1
 
-  tuxeball_hearty:
+  hearty_contract:
     capdev_effects:
       - target_attribute: taste_warm
         operation: set
         value: hearty
 
-  tuxeball_peppy:
+  peppy_contract:
     capdev_effects:
       - target_attribute: taste_warm
         operation: set
         value: peppy
 
-  tuxeball_refined:
+  refined_contract:
     capdev_effects:
       - target_attribute: taste_warm
         operation: set
         value: refined
 
-  tuxeball_salty:
+  salty_contract:
     capdev_effects:
       - target_attribute: taste_warm
         operation: set
         value: salty
 
-  tuxeball_zesty:
+  zesty_contract:
     capdev_effects:
       - target_attribute: taste_warm
         operation: set
         value: zesty
 
-  tuxeball_hardened:
+  durable_contract:
     capdev_persistent_on_failure: True
 
-  tuxeball_diurnal:
+  day_class_contract:
     specific_variables_modifiers:
       - key: daytime
         value: "true"
     fallback_variables_bonus: 1.5
     fallback_variables_malus: 0.2
 
-  tuxeball_nocturnal:
+  night_class_contract:
     specific_variables_modifiers:
       - key: daytime
         value: "false"

@@ -47,15 +47,15 @@ class CaptureEffect(CoreEffect):
         # Calculate status modifier
         status_modifier = formula.calculate_status_modifier(item, target)
 
-        # Calculate tuxeball modifier
+        # Calculate competitor_contract modifier
         player = self.session.player
-        tuxeball_modifier = formula.calculate_capdev_modifier(
+        competitor_contract_modifier = formula.calculate_capdev_modifier(
             item, target, player
         )
 
         # Perform shake check and capture calculation
         shake_check = formula.shake_check(
-            target, status_modifier, tuxeball_modifier
+            target, status_modifier, competitor_contract_modifier
         )
         capture, shakes = formula.capture(shake_check)
 

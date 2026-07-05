@@ -796,7 +796,7 @@ class CombatState(CombatAnimations):
         item_sprite = self._method_cache.get(item, False)
         # handle the capture device
         if item.category == ItemCategory.CAPTURE and item_sprite:
-            # retrieve tuxeball
+            # retrieve competitor_contract
             message += "\n" + T.translate("attempting_capture")
             action_time = result_item.num_shakes + 1.8
 

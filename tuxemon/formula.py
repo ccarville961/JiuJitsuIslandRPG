@@ -334,7 +334,7 @@ def convert_mi(steps: float) -> float:
 
 
 def shake_check(
-    target: Monster, status_modifier: float, tuxeball_modifier: float
+    target: Monster, status_modifier: float, competitor_contract_modifier: float
 ) -> float:
     """
     Calculates the shake_check value used to determine capture success.
@@ -342,7 +342,7 @@ def shake_check(
     Parameters:
         target: The monster being captured.
         status_modifier: Modifier based on the monster's status condition.
-        tuxeball_modifier: Modifier based on the type of capture device.
+        competitor_contract_modifier: Modifier based on the type of capture device.
 
     Returns:
         The shake_check value.
@@ -362,7 +362,7 @@ def shake_check(
         (hp_multiplier * target.hp - current_hp_multiplier * target.current_hp)
         * target.catch_rate
         * status_modifier
-        * tuxeball_modifier
+        * competitor_contract_modifier
         / (hp_divisor * target.hp)
     )
     # Compute shake_check based on the catch_check value
@@ -380,12 +380,12 @@ def shake_check(
     logger.debug("--- Debugging Capture Calculations ---")
     logger.debug(
         f"Capture formula: ({hp_multiplier} * target.hp - {current_hp_multiplier} * target.current_hp) * "
-        f"target.catch_rate * status_modifier * tuxeball_modifier / ({hp_divisor} * target.hp)"
+        f"target.catch_rate * status_modifier * competitor_contract_modifier / ({hp_divisor} * target.hp)"
     )
     logger.debug(
         f"target.hp: {target.hp}, target.current_hp: {target.current_hp}, "
         f"target.catch_rate: {target.catch_rate}, status_modifier: {status_modifier}, "
-        f"tuxeball_modifier: {tuxeball_modifier}"
+        f"competitor_contract_modifier: {competitor_contract_modifier}"
     )
     logger.debug(f"Calculated catch_check: {catch_check}")
     logger.debug("--- Shake Check Calculation ---")
@@ -489,7 +489,7 @@ def calculate_capdev_modifier(
         )
         capdev_modifier *= specific_capdev_modifier
 
-    if item.slug == "tuxeball_crusher":
+    if item.slug == "pressure_contract_plus":
         crusher = ((target.armour / 5) * 0.01) + 1
         if crusher >= 1.4:
             crusher = 1.4
@@ -581,9 +581,9 @@ def on_capture_fail(item: Item, target: Monster, character: NPC) -> None:
         return
 
     if config.capdev_persistent_on_failure:
-        tuxeball = character.bag.find_item(item.slug)
-        if tuxeball:
-            tuxeball.increase_quantity()
+        competitor_contract = character.bag.find_item(item.slug)
+        if competitor_contract:
+            competitor_contract.increase_quantity()
 
 
 def on_capture_success(item: Item, target: Monster, character: NPC) -> None:
@@ -592,9 +592,9 @@ def on_capture_success(item: Item, target: Monster, character: NPC) -> None:
         return
 
     if config.capdev_persistent_on_success:
-        tuxeball = character.bag.find_item(item.slug)
-        if tuxeball:
-            tuxeball.increase_quantity()
+        competitor_contract = character.bag.find_item(item.slug)
+        if competitor_contract:
+            competitor_contract.increase_quantity()
 
     if config.capdev_effects:
         apply_effects(config.capdev_effects, target)

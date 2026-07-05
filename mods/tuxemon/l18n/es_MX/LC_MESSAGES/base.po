@@ -2493,7 +2493,7 @@ msgstr ""
 "La tienda está haciendo una promoción, aquí hay algunas para empezar. Úsalas"
 " para capturar a los Tuxemon. ¡Aunque es más fácil si primero los debilitas!"
 
-msgid "gotfivetuxeballs"
+msgid "gotfivecompetitor_contracts"
 msgstr "¡Conseguiste 5 Tuxeballs!"
 
 msgid "37707_sign_tower"

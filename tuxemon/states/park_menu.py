@@ -92,7 +92,7 @@ class MainParkMenuState(PopUpMenu[MenuGameObj]):
         self.combat._update_hud_details(self.monster, hud, hud.player)
 
         menu_items_map = (
-            (ParkMenuKeys.BALL, "menu_ball", self.throw_tuxeball),
+            (ParkMenuKeys.BALL, "menu_ball", self.throw_competitor_contract),
             (ParkMenuKeys.FOOD, "menu_food", self.open_item_menu),
             (ParkMenuKeys.DOLL, "menu_doll", self.open_item_menu),
             (ParkMenuKeys.RUN, "menu_run", self.run),
@@ -142,13 +142,13 @@ class MainParkMenuState(PopUpMenu[MenuGameObj]):
         )
         return category
 
-    def throw_tuxeball(self) -> None:
-        tuxeball = self.player.bag.find_item("tuxeball_park")
-        if tuxeball:
+    def throw_competitor_contract(self) -> None:
+        competitor_contract = self.player.bag.find_item("trial_class_contract")
+        if competitor_contract:
             if self.encounter.check_for_flee():
                 logger.info(f"{self.encounter.monster.slug} fled!")
             else:
-                self.deliver_action(tuxeball)
+                self.deliver_action(competitor_contract)
 
     def open_item_menu(self) -> None:
         """Open menu to choose item to use."""

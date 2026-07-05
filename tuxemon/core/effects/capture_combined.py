@@ -24,7 +24,7 @@ class CaptureCombinedEffect(CoreEffect):
     """
     Attempts to capture a target monster using a capture device.
 
-    This effect combines multiple modifiers (status and tuxeball type) to
+    This effect combines multiple modifiers (status and competitor_contract type) to
     determine capture success. It performs a shake check, calculates the
     number of shakes, and applies capture effects if successful.
 
@@ -59,12 +59,12 @@ class CaptureCombinedEffect(CoreEffect):
         # Calculate status modifier
         status_modifier = formula.calculate_status_modifier(item, target)
 
-        # Calculate tuxeball modifier
-        tuxeball_modifier = self._calculate_tuxeball_modifier(target)
+        # Calculate competitor_contract modifier
+        competitor_contract_modifier = self._calculate_competitor_contract_modifier(target)
 
         # Perform shake check and capture calculation
         shake_check = formula.shake_check(
-            target, status_modifier, tuxeball_modifier
+            target, status_modifier, competitor_contract_modifier
         )
         capture, shakes = formula.capture(shake_check)
 
@@ -78,7 +78,7 @@ class CaptureCombinedEffect(CoreEffect):
             name=item.name, success=True, num_shakes=shakes
         )
 
-    def _calculate_tuxeball_modifier(self, target: Monster) -> float:
+    def _calculate_competitor_contract_modifier(self, target: Monster) -> float:
         """
         Calculate the status effectiveness modifier based on the opponent's
         status.

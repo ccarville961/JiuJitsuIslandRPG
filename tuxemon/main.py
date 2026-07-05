@@ -76,7 +76,7 @@ def configure_debug_options(client: LocalPygameClient) -> None:
 
     action("add_item", ("potion",))
     action("add_item", ("cherry",))
-    action("add_item", ("tuxeball",))
+    action("add_item", ("competitor_contract",))
 
     for _ in range(10):
         action("add_item", ("super_potion",))

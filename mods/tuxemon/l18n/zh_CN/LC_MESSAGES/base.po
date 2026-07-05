@@ -6418,7 +6418,7 @@ msgstr ""
 "...\n"
 "对不起,我在推销,这是我的工作."
 
-msgid "gotfivetuxeballs"
+msgid "gotfivecompetitor_contracts"
 msgstr "你有5个精灵球!"
 
 msgid "got_new_tuxemon"
@@ -6993,10 +6993,10 @@ msgstr "咖啡馆在这些房子的另一侧."
 msgid "spyder_door_locked"
 msgstr "门是锁着的!"
 
-msgid "tuxeball"
+msgid "competitor_contract"
 msgstr "精灵球"
 
-msgid "tuxeball_description"
+msgid "competitor_contract_description"
 msgstr "用来捕捉精灵."
 
 msgid "buy"

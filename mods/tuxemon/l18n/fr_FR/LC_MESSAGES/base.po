@@ -4233,7 +4233,7 @@ msgstr "Chasseur"
 msgid "spyder_route5_goliath"
 msgstr "Goliath"
 
-msgid "gotfivetuxeballs"
+msgid "gotfivecompetitor_contracts"
 msgstr "Vous obtenez 5 Tuxeballs !"
 
 msgid "spyder_wayfarer1_maniac2"

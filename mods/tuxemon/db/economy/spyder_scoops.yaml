@@ -26,7 +26,7 @@
     slug: revive
     price: 100
   - cost: 10
-    slug: tuxeball
+    slug: competitor_contract
     price: 50
   monsters: []
   resale_multiplier: 0.5
@@ -40,7 +40,7 @@
     slug: revive
     price: 100
   - cost: 10
-    slug: tuxeball
+    slug: competitor_contract
     price: 50
   monsters: []
   resale_multiplier: 0.5
@@ -79,10 +79,10 @@
     slug: cureall
     price: 250
   - cost: 30
-    slug: tuxeball_noble
+    slug: noble_contract
     price: 150
   - cost: 40
-    slug: tuxeball_lavish
+    slug: premium_contract
     price: 200
   monsters: []
   resale_multiplier: 0.5
@@ -102,10 +102,10 @@
     slug: cureall
     price: 250
   - cost: 40
-    slug: tuxeball_lavish
+    slug: premium_contract
     price: 200
   - cost: 50
-    slug: tuxeball_grand
+    slug: black_belt_contract
     price: 250
   monsters: []
   resale_multiplier: 0.5
@@ -150,19 +150,19 @@
     slug: cureall
     price: 250
   - cost: 50
-    slug: tuxeball_grand
+    slug: black_belt_contract
     price: 250
   - cost: 80
-    slug: tuxeball_majestic
+    slug: coral_belt_contract
     price: 400
   - cost: 60
-    slug: tuxeball_diurnal
+    slug: day_class_contract
     price: 300
     variables:
       - key: daytime
         value: "true"
   - cost: 60
-    slug: tuxeball_nocturnal
+    slug: night_class_contract
     price: 300
     variables:
       - key: daytime
@@ -185,16 +185,16 @@
     slug: cureall
     price: 250
   - cost: 80
-    slug: tuxeball_majestic
+    slug: coral_belt_contract
     price: 400
   - cost: 60
-    slug: tuxeball_diurnal
+    slug: day_class_contract
     price: 300
     variables:
       - key: daytime
         value: "true"
   - cost: 60
-    slug: tuxeball_nocturnal
+    slug: night_class_contract
     price: 300
     variables:
       - key: daytime

@@ -2265,19 +2265,19 @@ class BattleHudModel(BaseModel):
 
 class BattleIconsModel(BaseModel):
     icon_alive: str = Field(
-        ..., description="Sprite used for icon (small tuxeball) monster alive"
+        ..., description="Sprite used for icon (small competitor_contract) monster alive"
     )
     icon_status: str = Field(
         ...,
-        description="Sprite used for icon (small tuxeball) monster affected",
+        description="Sprite used for icon (small competitor_contract) monster affected",
     )
     icon_faint: str = Field(
         ...,
-        description="Sprite used for icon (small tuxeball) monster fainted",
+        description="Sprite used for icon (small competitor_contract) monster fainted",
     )
     icon_empty: str = Field(
         ...,
-        description="Sprite used for icon (small tuxeball) empty slot",
+        description="Sprite used for icon (small competitor_contract) empty slot",
     )
 
     @field_validator(

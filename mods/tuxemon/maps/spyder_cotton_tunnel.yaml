@@ -1,8 +1,8 @@
 events:
   Candy Tuxeball:
     actions:
-    - translated_dialog tuxeball_candy,,center,center,center
-    - add_item tuxeball_candy
+    - translated_dialog development_contract,,center,center,center
+    - add_item development_contract
     - remove_npc spyder_cottontunnel_box2
     - set_variable cottontunnel_candy:yes
     behav:

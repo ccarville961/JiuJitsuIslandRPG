@@ -1640,7 +1640,7 @@ msgstr ""
 "Bem-vindo ao ${{map_name}}: ${{map_desc}}\n"
 "Norte: ${{north}} / Sul: ${{south}} / Oeste: ${{west}} / Leste: ${{east}}"
 
-msgid "gotfivetuxeballs"
+msgid "gotfivecompetitor_contracts"
 msgstr "Você tem 5 Tuxeballs!"
 
 msgid "spyder_greenwash_louis1"

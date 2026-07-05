@@ -162,7 +162,7 @@ msgstr "Jesteś kimś więcej niż się wydaje."
 msgid "discovered_a_person"
 msgstr "Znalazłeś mnie! Haha!"
 
-msgid "gotfivetuxeballs"
+msgid "gotfivecompetitor_contracts"
 msgstr "Dostałeś 5 Tuxeballi!"
 
 msgid "got_new_tuxemon"

@@ -26,7 +26,7 @@ items:
   slug: revive
   price: 100
 - cost: 10
-  slug: tuxeball
+  slug: competitor_contract
   price: 50
 monsters: []
 resale_multiplier: 0.5
