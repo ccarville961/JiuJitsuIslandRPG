@@ -133,6 +133,7 @@ msgstr "John Danaher Instructional"
 
 msgid "ancient_tea_description"
 msgstr "Grants 4,500 XP to a teammate."
+
 msgid "imperial_tea"
 msgstr "BJJ Fanatics Mega Bundle"
 
@@ -511,16 +512,17 @@ msgid "spyder_pass"
 msgstr "Spyder Security Pass"
 
 msgid "spyder_pass_description"
-msgstr "Grants access to restricted Spyder areas."
-"This should let you in to places only Spyder conspirators are meant to go."
+msgstr ""
+"Grants access to restricted Spyder areas.This should let you in to places "
+"only Spyder conspirators are meant to go."
 
 msgid "app_radio"
 msgstr "Podcast App"
 
 msgid "app_radio_description"
-msgstr "Listen to gym gossip, interviews, and training tips."
-"Tune in to local broadcasts, quest updates, and ambient chatter from across "
-"the region."
+msgstr ""
+"Listen to gym gossip, interviews, and training tips.Tune in to local "
+"broadcasts, quest updates, and ambient chatter from across the region."
 
 msgid "app_banking"
 msgstr "Bank App"
@@ -544,15 +546,17 @@ msgid "app_renaming"
 msgstr "Nickname App"
 
 msgid "app_renaming_description"
-msgstr "Rename your competitors."
-"Give your competitor a fresh identity with a new name — make it truly yours!"
+msgstr ""
+"Rename your competitors.Give your competitor a fresh identity with a new "
+"name — make it truly yours!"
 
 msgid "app_tuxepedia"
 msgstr "Competitor Database App"
 
 msgid "app_tuxepedia_description"
-msgstr "Review competitor info, styles, and records."
-"Keep track of competitor information here, and share it with the world."
+msgstr ""
+"Review competitor info, styles, and records.Keep track of competitor "
+"information here, and share it with the world."
 
 msgid "p_trepidation"
 msgstr "Trepidation"
@@ -776,211 +780,225 @@ msgid "rub_pork_chops"
 msgstr "Meal Prep Pork"
 
 msgid "rub_pork_chops_description"
-msgstr "Protein-heavy meal prep for serious training."
-"Root beast bark slices coated in crackle dust. Smoky, spicy, and \n"
+msgstr ""
+"Protein-heavy meal prep for serious training.Root beast bark slices coated "
+"in crackle dust. Smoky, spicy, and \n"
 "fierceâ€”seasoned like primal meat, but purely plant-powered."
 
 msgid "mille_feuille"
 msgstr "Fancy Bakery Slice"
 
 msgid "mille_feuille_description"
-msgstr "Looks expensive. Probably from the café near the academy."
-"Layered pastry made with mistflour and moo bloom cream. Rich, delicate, "
-"and \n"
+msgstr ""
+"Looks expensive. Probably from the café near the academy.Layered pastry made "
+"with mistflour and moo bloom cream. Rich, delicate, and \n"
 "stacked with sweetness."
 
 msgid "cheesecake"
 msgstr "Post-Training Cheesecake"
 
 msgid "cheesecake_description"
-msgstr "A questionable but morale-boosting recovery snack."
-"Soft moo bloom cake with glowfat swirl. Creamy and luxurious with a mellow \n"
+msgstr ""
+"A questionable but morale-boosting recovery snack.Soft moo bloom cake with "
+"glowfat swirl. Creamy and luxurious with a mellow \n"
 "sparkle."
 
 msgid "cream_puffs"
 msgstr "Cream Puffs"
 
 msgid "cream_puffs_description"
-msgstr "Light, sweet, and gone before warmups."
-"Sweetroot puffs filled with enchanted cream. Light, airy, and wickedly \n"
+msgstr ""
+"Light, sweet, and gone before warmups.Sweetroot puffs filled with enchanted "
+"cream. Light, airy, and wickedly \n"
 "indulgent."
 
 msgid "crepes"
 msgstr "Protein Crepes"
 
 msgid "crepes_description"
-msgstr "Thin pancakes pretending to be healthy."
-"Thin meal dust crepes wrapped around shimmer filling. Graceful, sweet, and \n"
+msgstr ""
+"Thin pancakes pretending to be healthy.Thin meal dust crepes wrapped around "
+"shimmer filling. Graceful, sweet, and \n"
 "just a little peppery."
 
 msgid "rub_steak"
 msgstr "Meal Prep Steak"
 
 msgid "rub_steak_description"
-msgstr "Lean, expensive, and very serious."
-"Flamehorn-style roast rubbed with spice crystals. Bold, seared, and "
-"humming \n"
+msgstr ""
+"Lean, expensive, and very serious.Flamehorn-style roast rubbed with spice "
+"crystals. Bold, seared, and humming \n"
 "with heat."
 
 msgid "meatballs"
 msgstr "Protein Meatballs"
 
 msgid "meatballs_description"
-msgstr "Compact fuel for long open mats."
-"Crumbled stonefruit bulb balls in zestsap glaze. Hearty, tangy, and \n"
+msgstr ""
+"Compact fuel for long open mats.Crumbled stonefruit bulb balls in zestsap "
+"glaze. Hearty, tangy, and \n"
 "magically satisfying."
 
 msgid "shell_tacos"
 msgstr "Tournament Tacos"
 
 msgid "shell_tacos_description"
-msgstr "Risky before competition, perfect after."
-"Field wrap tacos with zestroot fillings and moo bloom sauce. Fresh, "
-"springy,\n"
+msgstr ""
+"Risky before competition, perfect after.Field wrap tacos with zestroot "
+"fillings and moo bloom sauce. Fresh, springy,\n"
 " and packed with zip."
 
 msgid "potato_casserole"
 msgstr "Carb Load Casserole"
 
 msgid "potato_casserole_description"
-msgstr "Heavy fuel for heavy rounds."
-"Sweetroot and mistflour layers baked in zestsap. Warm and citrusy with a \n"
+msgstr ""
+"Heavy fuel for heavy rounds.Sweetroot and mistflour layers baked in zestsap. "
+"Warm and citrusy with a \n"
 "soft bite."
 
 msgid "phyllo"
 msgstr "Crispy Pastry"
 
 msgid "phyllo_description"
-msgstr "Flaky, like your excuse for skipping cardio."
-"Flaky wrap filled with tangy beastmoss. Delicate layers with a bold, "
-"earthy \n"
+msgstr ""
+"Flaky, like your excuse for skipping cardio.Flaky wrap filled with tangy "
+"beastmoss. Delicate layers with a bold, earthy \n"
 "center."
 
 msgid "croissants"
 msgstr "Morning Croissants"
 
 msgid "croissants_description"
-msgstr "Breakfast before the early fundamentals class."
-"Buttery suncrust croissants with zesty dust. Crisp, golden, and lightly \n"
+msgstr ""
+"Breakfast before the early fundamentals class.Buttery suncrust croissants "
+"with zesty dust. Crisp, golden, and lightly \n"
 "electrified."
 
 msgid "rub_chicken"
 msgstr "Meal Prep Chicken"
 
 msgid "rub_chicken_description"
-msgstr "The official food of every competitor cutting weight."
-"Sky feather cutlets rubbed in starpepper mix. Light, crispy, and boldly \n"
+msgstr ""
+"The official food of every competitor cutting weight.Sky feather cutlets "
+"rubbed in starpepper mix. Light, crispy, and boldly \n"
 "seasoned."
 
 msgid "potato_fries"
 msgstr "Post-Roll Fries"
 
 msgid "potato_fries_description"
-msgstr "Salty recovery food after hard rounds."
-"Sweetroot fries with magical salt blend. Crunchy, glowing, and "
-"surprisingly \n"
+msgstr ""
+"Salty recovery food after hard rounds.Sweetroot fries with magical salt "
+"blend. Crunchy, glowing, and surprisingly \n"
 "feisty."
 
 msgid "pretzels"
 msgstr "Mat-Side Pretzels"
 
 msgid "pretzels_description"
-msgstr "Crunchy carbs between matches."
-"Twisted field grain bites with starpepper hints. Salty, chewy, and "
-"playfully\n"
+msgstr ""
+"Crunchy carbs between matches.Twisted field grain bites with starpepper "
+"hints. Salty, chewy, and playfully\n"
 " spicy."
 
 msgid "mashed_potatoes"
 msgstr "Carb Mash"
 
 msgid "mashed_potatoes_description"
-msgstr "Soft, comforting, and suspiciously effective."
-"Soft root mash with crackle salt and moo bloom cream. Comforting with a \n"
+msgstr ""
+"Soft, comforting, and suspiciously effective.Soft root mash with crackle "
+"salt and moo bloom cream. Comforting with a \n"
 "fizzy edge."
 
 msgid "rub_ribs"
 msgstr "BBQ Ribs"
 
 msgid "rub_ribs_description"
-msgstr "Not competition-safe, but emotionally necessary."
-"Stonefruit bulb ribs coated in crackle spices. Meaty texture and "
-"satisfying \n"
+msgstr ""
+"Not competition-safe, but emotionally necessary.Stonefruit bulb ribs coated "
+"in crackle spices. Meaty texture and satisfying \n"
 "pop."
 
 msgid "pie"
 msgstr "Victory Pie"
 
 msgid "pie_description"
-msgstr "Tastes better after a win."
-"Golden pie crust filled with beastmoss stew. Hearty, flaky, and deeply \n"
+msgstr ""
+"Tastes better after a win.Golden pie crust filled with beastmoss stew. "
+"Hearty, flaky, and deeply \n"
 "savory."
 
 msgid "honey_cake"
 msgstr "Honey Protein Cake"
 
 msgid "honey_cake_description"
-msgstr "Sweet fuel with just enough protein to justify it."
-"Moist sweetroot cake infused with shimmer dust. Sweet, spicy, and full of \n"
+msgstr ""
+"Sweet fuel with just enough protein to justify it.Moist sweetroot cake "
+"infused with shimmer dust. Sweet, spicy, and full of \n"
 "bounce."
 
 msgid "souffle"
 msgstr "Fancy Souffle"
 
 msgid "souffle_description"
-msgstr "Too delicate for the changing room."
-"Airy glowfat soufflÃ© puffed with zestsap. Light, tangy, and dreamlike on "
-"the\n"
+msgstr ""
+"Too delicate for the changing room.Airy glowfat soufflÃ© puffed with "
+"zestsap. Light, tangy, and dreamlike on the\n"
 " tongue."
 
 msgid "hash"
 msgstr "Breakfast Hash"
 
 msgid "hash_description"
-msgstr "A greasy breakfast for the morning-after open mat."
-"Warm hash of root veggies and enchanted herbs. Earthy comfort with a "
-"peppery\n"
+msgstr ""
+"A greasy breakfast for the morning-after open mat.Warm hash of root veggies "
+"and enchanted herbs. Earthy comfort with a peppery\n"
 " kick."
 
 msgid "pita"
 msgstr "Chicken Pita"
 
 msgid "pita_description"
-msgstr "Portable food for competitors on the move."
-"Dry crispbread with a zesty spice dust spread. Simple, snappy, and full of \n"
+msgstr ""
+"Portable food for competitors on the move.Dry crispbread with a zesty spice "
+"dust spread. Simple, snappy, and full of \n"
 "flavor."
 
 msgid "pastry"
 msgstr "Gym Café Pastry"
 
 msgid "pastry_description"
-msgstr "Bought with coffee and regret."
-"Flaky pastry filled with a spicy sweetroot swirl. Buttery folds with a \n"
+msgstr ""
+"Bought with coffee and regret.Flaky pastry filled with a spicy sweetroot "
+"swirl. Buttery folds with a \n"
 "firecracker heart."
 
 msgid "pudding"
 msgstr "Açaí Pudding"
 
 msgid "pudding_description"
-msgstr "Purple, sweet, and legally considered recovery."
-"Creamy sweetroot pudding with a tangy glow. Smooth and citrusy with a "
-"gentle\n"
+msgstr ""
+"Purple, sweet, and legally considered recovery.Creamy sweetroot pudding with "
+"a tangy glow. Smooth and citrusy with a gentle\n"
 " shimmer."
 
 msgid "pancakes"
 msgstr "Protein Pancakes"
 
 msgid "pancakes_description"
-msgstr "Stacked like your excuses for avoiding stand-up."
-"Fluffy sky-grain cakes topped with shimmer zest. Soft, warm, and joyfully \n"
+msgstr ""
+"Stacked like your excuses for avoiding stand-up.Fluffy sky-grain cakes "
+"topped with shimmer zest. Soft, warm, and joyfully \n"
 "bright."
 
 msgid "wings"
 msgstr "Post-Tournament Wings"
 
 msgid "wings_description"
-msgstr "Best eaten after making weight."
-"Crispy flying-beast style bites with magical heat. Bold, sizzling, and "
-"bite-\n"
+msgstr ""
+"Best eaten after making weight.Crispy flying-beast style bites with magical "
+"heat. Bold, sizzling, and bite-\n"
 "sized bravery."
 
 msgid "mystery_analyzer"
@@ -1242,36 +1260,41 @@ msgid "mm_earth"
 msgstr "Move Module (Earth)"
 
 msgid "mm_earth_description"
-msgstr "Move Manual for a wrestling-style technique."
-"Learn the particular Earth type technique in this MM. Then it is consumed."
+msgstr ""
+"Move Manual for a wrestling-style technique.Learn the particular Earth type "
+"technique in this MM. Then it is consumed."
 
 msgid "mm_fire"
 msgstr "Move Module (Fire)"
 
 msgid "mm_fire_description"
-msgstr "Move Manual for a striking-style technique."
-"Learn the particular Fire type technique in this MM. Then it is consumed."
+msgstr ""
+"Move Manual for a striking-style technique.Learn the particular Fire type "
+"technique in this MM. Then it is consumed."
 
 msgid "mm_metal"
 msgstr "Move Module (Metal)"
 
 msgid "mm_metal_description"
-msgstr "Move Manual for a pressure-style technique."
-"Learn the particular Metal type technique in this MM. Then it is consumed."
+msgstr ""
+"Move Manual for a pressure-style technique.Learn the particular Metal type "
+"technique in this MM. Then it is consumed."
 
 msgid "mm_water"
 msgstr "Move Module (Water)"
 
 msgid "mm_water_description"
-msgstr "Move Manual for a guard-style technique."
-"Learn the particular Water type technique in this MM. Then it is consumed."
+msgstr ""
+"Move Manual for a guard-style technique.Learn the particular Water type "
+"technique in this MM. Then it is consumed."
 
 msgid "mm_wood"
 msgstr "Move Module (Wood)"
 
 msgid "mm_wood_description"
-msgstr "Move Manual for a movement-style technique."
-"Learn the particular Wood type technique in this MM. Then it is consumed."
+msgstr ""
+"Move Manual for a movement-style technique.Learn the particular Wood type "
+"technique in this MM. Then it is consumed."
 
 msgid "aardant"
 msgstr "Aardant"
@@ -9771,8 +9794,10 @@ msgid "cash_register"
 msgstr "It's a cash register, looks relatively new."
 
 msgid "potions_in_shop"
-msgstr "The display case is packed with recovery drinks and questionable supplements."
-"The display case seems to have a lot of potions, must be pretty popular \n"
+msgstr ""
+"The display case is packed with recovery drinks and questionable "
+"supplements.The display case seems to have a lot of potions, must be pretty "
+"popular \n"
 "around here."
 
 msgid "capture_devices_in_shop"
@@ -19360,16 +19385,17 @@ msgid "azure_enforcer2"
 msgstr "You handled yourself well."
 
 msgid "classic_gym_leader_astra_post"
-msgstr "You handled yourself well."
+msgstr "Coach McAlister: Solid work. Your control is improving."
 
 msgid "classic_gym_leader_astra_pre"
-msgstr "Let's see what you've learned."
+msgstr ""
+"Coach McAlister: Control first. Finish second. Show me what you have learned."
 
 msgid "classic_gym_leader_bravion_post"
-msgstr "You handled yourself well."
+msgstr "Coach Atlas: You earned this. Keep training."
 
 msgid "classic_gym_leader_bravion_pre"
-msgstr "Let's see what you've learned."
+msgstr "Coach Atlas: This is the final round. No shortcuts now."
 
 msgid "classic_gym_leader_ferrum_post"
 msgstr "You handled yourself well."
@@ -19420,10 +19446,7 @@ msgid "classic_gym_leader_sylva_pre"
 msgstr "Let's see what you've learned."
 
 msgid "classic_gym_leader_voltessa_post"
-msgstr "You handled yourself well."
-
-msgid "classic_gym_leader_voltessa_pre"
-msgstr "Let's see what you've learned."
+msgstr "Coach Toland: Good. You felt the pressure and kept moving."
 
 msgid "classic_gym_leader_vyre_post"
 msgstr "You handled yourself well."
@@ -19841,3 +19864,75 @@ msgid "jji_kimura_intro_6"
 msgstr ""
 "And listen carefully: if Atlas is already testing kids like this, something "
 "is very wrong."
+
+msgid "cross_face"
+msgstr "Cross Face"
+
+msgid "scarf"
+msgstr "Scarf"
+
+msgid "bas_rutten"
+msgstr "Bas Rutten"
+
+msgid "j_lock"
+msgstr "J Lock"
+
+msgid "knee_on_belly"
+msgstr "Knee on Belly"
+
+msgid "grape_vine"
+msgstr "Grape Vine"
+
+msgid "head_and_arm"
+msgstr "Head and Arm"
+
+msgid "bump_sweep"
+msgstr "Bump Sweep"
+
+msgid "scramble"
+msgstr "Scramble"
+
+msgid "punch_choke"
+msgstr "Punch Choke"
+
+msgid "classic_gym_leader_voltessa_pre"
+msgstr ""
+"Coach Toland: Pressure wins matches. Let us see if you can survive mine."
+
+msgid "classic_gym_leader_voltessa"
+msgstr "Coach Toland"
+
+msgid "classic_gym_leader_astra"
+msgstr "Coach McAlister"
+
+msgid "classic_gym_leader_bravion"
+msgstr "Coach Atlas"
+
+
+msgid "coach_toland"
+msgstr "Coach Toland"
+
+msgid "coach_toland_pre"
+msgstr "Coach Toland: Pressure wins matches. Let us see if you can survive mine."
+
+msgid "coach_toland_post"
+msgstr "Coach Toland: Good. You felt the pressure and kept moving."
+
+msgid "coach_mcalister"
+msgstr "Coach McAlister"
+
+msgid "coach_mcalister_pre"
+msgstr "Coach McAlister: Control first. Finish second. Show me what you have learned."
+
+msgid "coach_mcalister_post"
+msgstr "Coach McAlister: Solid work. Your control is improving."
+
+msgid "coach_atlas"
+msgstr "Coach Atlas"
+
+msgid "coach_atlas_pre"
+msgstr "Coach Atlas: This is the final round. No shortcuts now."
+
+msgid "coach_atlas_post"
+msgstr "Coach Atlas: You earned this. Keep training."
+

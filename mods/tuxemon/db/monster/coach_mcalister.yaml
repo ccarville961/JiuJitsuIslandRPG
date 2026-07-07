@@ -1,18 +1,18 @@
-slug: coach_atlas
-name: "Coach Atlas"
+slug: coach_mcalister
+name: "Coach McAlister"
 species: gunner
 moveset:
 - level_learned: 1
   technique: struggle
   learning_method: fallback
 - level_learned: 1
-  technique: bump_sweep
+  technique: cross_face
 - level_learned: 1
-  technique: scramble
+  technique: knee_on_belly
 - level_learned: 1
-  technique: punch_choke
+  technique: grape_vine
 - level_learned: 1
-  technique: triangle
+  technique: head_and_arm
 evolutions: []
 history:
 - slug: embazook
@@ -46,7 +46,7 @@ types:
 - fire
 gender_weights:
   male: 1.0
-txmn_id: 9002
+txmn_id: 9003
 height: 137
 weight: 502
 sounds:
@@ -61,7 +61,7 @@ lower_catch_resistance: 0.9
 upper_catch_resistance: 1.15
 
 sprites:
-  sheet: gfx/sprites/battle/coach_atlas-sheet
+  sheet: gfx/sprites/battle/coach_mcalister-sheet
   menu: gfx/sprites/menu/embazook-menu
 
 
