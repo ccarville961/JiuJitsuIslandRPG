@@ -19385,17 +19385,17 @@ msgid "azure_enforcer2"
 msgstr "You handled yourself well."
 
 msgid "classic_gym_leader_astra_post"
-msgstr "Coach McAlister: Solid work. Your control is improving."
+msgstr "Coach McAlister: Good. You felt the pressure and kept moving ya wee dick."
 
 msgid "classic_gym_leader_astra_pre"
-msgstr ""
+msgstr "Coach McAlister: Pressure wins matches. Let us see if you can survive mine."
 "Coach McAlister: Control first. Finish second. Show me what you have learned."
 
 msgid "classic_gym_leader_bravion_post"
-msgstr "Coach Atlas: You earned this. Keep training."
+msgstr "Coach Atlas: Ahhhh Fuck You and all belonging to you!"
 
 msgid "classic_gym_leader_bravion_pre"
-msgstr "Coach Atlas: This is the final round. No shortcuts now."
+msgstr "Coach Atlas: This is the final round. No ones coming to save you!"
 
 msgid "classic_gym_leader_ferrum_post"
 msgstr "You handled yourself well."
@@ -19446,7 +19446,7 @@ msgid "classic_gym_leader_sylva_pre"
 msgstr "Let's see what you've learned."
 
 msgid "classic_gym_leader_voltessa_post"
-msgstr "Coach Toland: Good. You felt the pressure and kept moving."
+msgstr "Coach Toland: Solid work. Your control is improving."
 
 msgid "classic_gym_leader_vyre_post"
 msgstr "You handled yourself well."
@@ -19896,7 +19896,7 @@ msgid "punch_choke"
 msgstr "Punch Choke"
 
 msgid "classic_gym_leader_voltessa_pre"
-msgstr ""
+msgstr "Coach Toland: Control first. Finish second. Show me what you have learned."
 "Coach Toland: Pressure wins matches. Let us see if you can survive mine."
 
 msgid "classic_gym_leader_voltessa"
