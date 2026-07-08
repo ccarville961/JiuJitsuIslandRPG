@@ -19409,11 +19409,7 @@ msgstr "You handled yourself well."
 msgid "classic_gym_leader_granite_pre"
 msgstr "Let's see what you've learned."
 
-msgid "classic_gym_leader_marin_post"
-msgstr "You handled yourself well."
 
-msgid "classic_gym_leader_marin_pre"
-msgstr "Let's see what you've learned."
 
 msgid "classic_gym_leader_mila_post"
 msgstr "You handled yourself well."
@@ -19427,11 +19423,7 @@ msgstr "You handled yourself well."
 msgid "classic_gym_leader_orion_pre"
 msgstr "Let's see what you've learned."
 
-msgid "classic_gym_leader_pyra_post"
-msgstr "You handled yourself well."
 
-msgid "classic_gym_leader_pyra_pre"
-msgstr "Let's see what you've learned."
 
 msgid "classic_gym_leader_shade_post"
 msgstr "You handled yourself well."
@@ -19935,4 +19927,41 @@ msgstr "Coach Atlas: This is the final round. No shortcuts now."
 
 msgid "coach_atlas_post"
 msgstr "Coach Atlas: You earned this. Keep training."
+
+
+msgid "side_control"
+msgstr "Side Control"
+
+msgid "s_mount"
+msgstr "S Mount"
+
+msgid "butt_drop"
+msgstr "Butt Drop"
+
+msgid "pull_guard"
+msgstr "Pull Guard"
+
+msgid "knee_cut"
+msgstr "Knee Cut"
+
+msgid "buggy_choke"
+msgstr "Buggy Choke"
+
+msgid "classic_gym_leader_marin_pre"
+msgstr "Coach Hill: I hope you're ready for the Atomic Butt Drop!"
+
+msgid "classic_gym_leader_marin_post"
+msgstr "Coach Hill: Nice movements. Your ribs didn't break, so that's good!"
+
+msgid "classic_gym_leader_pyra_pre"
+msgstr "Coach Conleth: Welcome to my domain. Let's roll."
+
+msgid "classic_gym_leader_pyra_post"
+msgstr "Coach Conleth: You're strong and moving well. Thanks for the roll!"
+
+msgid "classic_gym_leader_marin"
+msgstr "Coach Hill"
+
+msgid "classic_gym_leader_pyra"
+msgstr "Coach Conleth"
 
