@@ -1,0 +1,184 @@
+mods/tuxemon/maps/classic_route_3.tmx:6:  <property name="slug" value="classic_route_3"/>
+mods/tuxemon/maps/classic_route_3.tmx:70:    <property name="act1" value="transition_teleport player,classic_route_4.tmx,20,0,0.3"/>
+mods/tuxemon/maps/classic_route_3.tmx:78:    <property name="act1" value="transition_teleport player,classic_thornwood_city.tmx,17,0,0.3"/>
+mods/tuxemon/maps/classic_umbrastar_city.tmx:70:    <property name="act1" value="transition_teleport player,classic_route_6.tmx,39,17,0.3"/>
+mods/tuxemon/maps/classic_route_2.tmx:6:  <property name="slug" value="classic_route_2"/>
+mods/tuxemon/maps/classic_route_2.tmx:68:    <property name="act1" value="transition_teleport player,classic_steamshore_city.tmx,39,3,0.3"/>
+mods/tuxemon/maps/classic_route_2.tmx:76:    <property name="act1" value="transition_teleport player,classic_thornwood_city.tmx,0,17,0.3"/>
+mods/tuxemon/maps/classic_hearthrock_city.tmx:82:    <property name="act1" value="transition_teleport player,classic_route_1.tmx,33,19,0.3"/>
+mods/tuxemon/maps/classic_hearthrock_city.tmx:90:    <property name="act1" value="transition_teleport player,classic_route_8.tmx,0,16,0.3"/>
+mods/tuxemon/maps/classic_hearthrock_city.tmx:98:    <property name="act1" value="transition_teleport player,classic_gym_mila.tmx,10,19,0.3"/>
+mods/tuxemon/maps/classic_hearthrock_city.tmx:106:    <property name="act1" value="transition_teleport player,classic_gym_granite.tmx,10,19,0.3"/>
+mods/tuxemon/maps/classic_route_1.tmx:6:  <property name="slug" value="classic_route_1"/>
+mods/tuxemon/maps/classic_route_1.tmx:97:    <property name="act1" value="transition_teleport player,classic_hearthrock_city.tmx,33,0,0.3"/>
+mods/tuxemon/maps/classic_route_1.tmx:105:    <property name="act1" value="transition_teleport player,classic_steamshore_city.tmx,6,19,0.3"/>
+mods/tuxemon/maps/classic.world:4:            "fileName": "classic_hearthrock_city.tmx",
+mods/tuxemon/maps/classic.world:11:            "fileName": "classic_route_1.tmx",
+mods/tuxemon/maps/classic.world:18:            "fileName": "classic_steamshore_city.tmx",
+mods/tuxemon/maps/classic.world:25:            "fileName": "classic_route_2.tmx",
+mods/tuxemon/maps/classic.world:32:            "fileName": "classic_thornwood_city.tmx",
+mods/tuxemon/maps/classic.world:39:            "fileName": "classic_route_7.tmx",
+mods/tuxemon/maps/classic.world:46:            "fileName": "classic_stormpeak_city.tmx",
+mods/tuxemon/maps/classic.world:53:            "fileName": "classic_route_8.tmx",
+mods/tuxemon/maps/classic.world:60:            "fileName": "classic_umbrastar_city.tmx",
+mods/tuxemon/maps/classic.world:67:            "fileName": "classic_route_6.tmx",
+mods/tuxemon/maps/classic.world:74:            "fileName": "classic_valorhold_city.tmx",
+mods/tuxemon/maps/classic.world:81:            "fileName": "classic_route_5.tmx",
+mods/tuxemon/maps/classic.world:88:            "fileName": "classic_aerolume_city.tmx",
+mods/tuxemon/maps/classic.world:95:            "fileName": "classic_route_4.tmx",
+mods/tuxemon/maps/classic.world:102:            "fileName": "classic_route_3.tmx",
+mods/tuxemon/maps/classic_route_5.tmx:6:  <property name="slug" value="classic_route_5"/>
+mods/tuxemon/maps/classic_route_5.tmx:70:    <property name="act1" value="transition_teleport player,classic_thornwood_city.tmx,39,2,0.3"/>
+mods/tuxemon/maps/classic_route_5.tmx:78:    <property name="act1" value="transition_teleport player,classic_aerolume_city.tmx,0,17,0.3"/>
+mods/tuxemon/maps/classic_gym_ferrum.tmx:7:  <property name="slug" value="classic_gym_ferrum"/>
+mods/tuxemon/maps/classic_gym_ferrum.tmx:44:    <property name="act1" value="create_npc classic_gym_leader_ferrum,10,5"/>
+mods/tuxemon/maps/classic_gym_ferrum.tmx:45:    <property name="cond1" value="not char_exists classic_gym_leader_ferrum"/>
+mods/tuxemon/maps/classic_gym_ferrum.tmx:50:    <property name="act11" value="char_talk classic_gym_leader_ferrum,pre_battle"/>
+mods/tuxemon/maps/classic_gym_ferrum.tmx:51:    <property name="act12" value="add_monster hydrone,20,classic_gym_leader_ferrum,5,10"/>
+mods/tuxemon/maps/classic_gym_ferrum.tmx:52:    <property name="act17" value="start_battle player,classic_gym_leader_ferrum"/>
+mods/tuxemon/maps/classic_gym_ferrum.tmx:53:    <property name="act18" value="char_talk classic_gym_leader_ferrum,post_battle_lose"/>
+mods/tuxemon/maps/classic_gym_ferrum.tmx:54:    <property name="behav1" value="talk classic_gym_leader_ferrum"/>
+mods/tuxemon/maps/classic_gym_ferrum.tmx:55:    <property name="cond1" value="not battle_outcome player,won,classic_gym_leader_ferrum"/>
+mods/tuxemon/maps/classic_route_4.tmx:6:  <property name="slug" value="classic_route_4"/>
+mods/tuxemon/maps/classic_route_4.tmx:70:    <property name="act1" value="transition_teleport player,classic_stormpeak_city.tmx,18,19,0.3"/>
+mods/tuxemon/maps/classic_route_4.tmx:78:    <property name="act1" value="transition_teleport player,classic_route_3.tmx,20,19,0.3"/>
+mods/tuxemon/maps/classic_gym_bravion.tmx:7:  <property name="slug" value="classic_gym_bravion"/>
+mods/tuxemon/maps/classic_gym_bravion.tmx:44:    <property name="act1" value="create_npc classic_gym_leader_bravion,10,5"/>
+mods/tuxemon/maps/classic_gym_bravion.tmx:45:    <property name="cond1" value="not char_exists classic_gym_leader_bravion"/>
+mods/tuxemon/maps/classic_gym_bravion.tmx:50:    <property name="act11" value="char_talk classic_gym_leader_bravion,pre_battle"/>
+mods/tuxemon/maps/classic_gym_bravion.tmx:51:    <property name="act12" value="add_monster hydrone,20,classic_gym_leader_bravion,5,10"/>
+mods/tuxemon/maps/classic_gym_bravion.tmx:52:    <property name="act17" value="start_battle player,classic_gym_leader_bravion"/>
+mods/tuxemon/maps/classic_gym_bravion.tmx:53:    <property name="act18" value="char_talk classic_gym_leader_bravion,post_battle_lose"/>
+mods/tuxemon/maps/classic_gym_bravion.tmx:54:    <property name="behav1" value="talk classic_gym_leader_bravion"/>
+mods/tuxemon/maps/classic_gym_bravion.tmx:55:    <property name="cond1" value="not battle_outcome player,won,classic_gym_leader_bravion"/>
+mods/tuxemon/maps/classic_gym_bravion.tmx:66:    <property name="act1" value="transition_teleport player,classic_valorhold_city.tmx,27,13,0.3"/>
+mods/tuxemon/maps/classic_steamshore_city.tmx:82:    <property name="act1" value="transition_teleport player,classic_route_1.tmx,6,0,0.3"/>
+mods/tuxemon/maps/classic_steamshore_city.tmx:90:    <property name="act1" value="transition_teleport player,classic_route_2.tmx,0,3,0.3"/>
+mods/tuxemon/maps/classic_steamshore_city.tmx:98:    <property name="act1" value="transition_teleport player,classic_gym_pyra.tmx,10,19,0.3"/>
+mods/tuxemon/maps/classic_steamshore_city.tmx:106:    <property name="act1" value="transition_teleport player,classic_gym_marin.tmx,10,19,0.3"/>
+mods/tuxemon/maps/classic_route_6.tmx:6:  <property name="slug" value="classic_route_6"/>
+mods/tuxemon/maps/classic_route_6.tmx:70:    <property name="act1" value="transition_teleport player,classic_umbrastar_city.tmx,0,17,0.3"/>
+mods/tuxemon/maps/classic_route_6.tmx:78:    <property name="act1" value="transition_teleport player,classic_aerolume_city.tmx,39,2,0.3"/>
+mods/tuxemon/maps/classic_route_7.tmx:6:  <property name="slug" value="classic_route_7"/>
+mods/tuxemon/maps/classic_route_7.tmx:70:    <property name="act1" value="transition_teleport player,classic_valorhold_city.tmx,3,0,0.3"/>
+mods/tuxemon/maps/classic_route_7.tmx:78:    <property name="act1" value="transition_teleport player,classic_thornwood_city.tmx,36,19,0.3"/>
+mods/tuxemon/maps/classic_gym_zephra.tmx:7:  <property name="slug" value="classic_gym_zephra"/>
+mods/tuxemon/maps/classic_gym_zephra.tmx:44:    <property name="act1" value="create_npc classic_gym_leader_zephra,10,5"/>
+mods/tuxemon/maps/classic_gym_zephra.tmx:45:    <property name="cond1" value="not char_exists classic_gym_leader_zephra"/>
+mods/tuxemon/maps/classic_gym_zephra.tmx:50:    <property name="act11" value="char_talk classic_gym_leader_zephra,pre_battle"/>
+mods/tuxemon/maps/classic_gym_zephra.tmx:51:    <property name="act12" value="add_monster hydrone,20,classic_gym_leader_zephra,5,10"/>
+mods/tuxemon/maps/classic_gym_zephra.tmx:52:    <property name="act17" value="start_battle player,classic_gym_leader_zephra"/>
+mods/tuxemon/maps/classic_gym_zephra.tmx:53:    <property name="act18" value="char_talk classic_gym_leader_zephra,post_battle_lose"/>
+mods/tuxemon/maps/classic_gym_zephra.tmx:54:    <property name="behav1" value="talk classic_gym_leader_zephra"/>
+mods/tuxemon/maps/classic_gym_zephra.tmx:55:    <property name="cond1" value="not battle_outcome player,won,classic_gym_leader_zephra"/>
+mods/tuxemon/maps/classic_stormpeak_city.tmx:77:    <property name="act1" value="transition_teleport player,classic_gym_voltessa.tmx,10,19,0.3"/>
+mods/tuxemon/maps/classic_stormpeak_city.tmx:85:    <property name="act1" value="transition_teleport player,classic_gym_astra.tmx,10,19,0.3"/>
+mods/tuxemon/maps/classic_stormpeak_city.tmx:93:    <property name="act1" value="transition_teleport player,classic_route_4.tmx,18,0,0.3"/>
+mods/tuxemon/maps/classic_aerolume_city.tmx:70:    <property name="act1" value="transition_teleport player,classic_route_6.tmx,0,2,0.3"/>
+mods/tuxemon/maps/classic_aerolume_city.tmx:78:    <property name="act1" value="transition_teleport player,classic_route_5.tmx,39,17,0.3"/>
+mods/tuxemon/maps/classic_gym_marin.tmx:7:  <property name="slug" value="classic_gym_marin"/>
+mods/tuxemon/maps/classic_gym_marin.tmx:44:    <property name="act1" value="create_npc classic_gym_leader_marin,10,5"/>
+mods/tuxemon/maps/classic_gym_marin.tmx:45:    <property name="cond1" value="not char_exists classic_gym_leader_marin"/>
+mods/tuxemon/maps/classic_gym_marin.tmx:50:    <property name="act11" value="char_talk classic_gym_leader_marin,pre_battle"/>
+mods/tuxemon/maps/classic_gym_marin.tmx:51:    <property name="act12" value="add_monster hydrone,20,classic_gym_leader_marin,5,10"/>
+mods/tuxemon/maps/classic_gym_marin.tmx:52:    <property name="act17" value="start_battle player,classic_gym_leader_marin"/>
+mods/tuxemon/maps/classic_gym_marin.tmx:53:    <property name="act18" value="char_talk classic_gym_leader_marin,post_battle_lose"/>
+mods/tuxemon/maps/classic_gym_marin.tmx:54:    <property name="behav1" value="talk classic_gym_leader_marin"/>
+mods/tuxemon/maps/classic_gym_marin.tmx:55:    <property name="cond1" value="not battle_outcome player,won,classic_gym_leader_marin"/>
+mods/tuxemon/maps/classic_gym_marin.tmx:66:    <property name="act1" value="transition_teleport player,classic_steamshore_city.tmx,31,5,0.3"/>
+mods/tuxemon/maps/classic_valorhold_city.tmx:81:    <property name="act1" value="transition_teleport player,classic_route_8.tmx,39,17,0.3"/>
+mods/tuxemon/maps/classic_valorhold_city.tmx:89:    <property name="act1" value="transition_teleport player,classic_route_7.tmx,3,19,0.3"/>
+mods/tuxemon/maps/classic_valorhold_city.tmx:97:    <property name="act1" value="transition_teleport player,classic_gym_bravion.tmx,10,19,0.3"/>
+mods/tuxemon/maps/classic_gym_orion.tmx:7:  <property name="slug" value="classic_gym_orion"/>
+mods/tuxemon/maps/classic_gym_orion.tmx:44:    <property name="act1" value="create_npc classic_gym_leader_orion,10,5"/>
+mods/tuxemon/maps/classic_gym_orion.tmx:45:    <property name="cond1" value="not char_exists classic_gym_leader_orion"/>
+mods/tuxemon/maps/classic_gym_orion.tmx:50:    <property name="act11" value="char_talk classic_gym_leader_orion,pre_battle"/>
+mods/tuxemon/maps/classic_gym_orion.tmx:51:    <property name="act12" value="add_monster hydrone,20,classic_gym_leader_orion,5,10"/>
+mods/tuxemon/maps/classic_gym_orion.tmx:52:    <property name="act17" value="start_battle player,classic_gym_leader_orion"/>
+mods/tuxemon/maps/classic_gym_orion.tmx:53:    <property name="act18" value="char_talk classic_gym_leader_orion,post_battle_lose"/>
+mods/tuxemon/maps/classic_gym_orion.tmx:54:    <property name="behav1" value="talk classic_gym_leader_orion"/>
+mods/tuxemon/maps/classic_gym_orion.tmx:55:    <property name="cond1" value="not battle_outcome player,won,classic_gym_leader_orion"/>
+mods/tuxemon/maps/classic_gym_voltessa.tmx:7:  <property name="slug" value="classic_gym_voltessa"/>
+mods/tuxemon/maps/classic_gym_voltessa.tmx:44:    <property name="act1" value="create_npc classic_gym_leader_voltessa,10,5"/>
+mods/tuxemon/maps/classic_gym_voltessa.tmx:45:    <property name="cond1" value="not char_exists classic_gym_leader_voltessa"/>
+mods/tuxemon/maps/classic_gym_voltessa.tmx:50:    <property name="act11" value="char_talk classic_gym_leader_voltessa,pre_battle"/>
+mods/tuxemon/maps/classic_gym_voltessa.tmx:51:    <property name="act12" value="add_monster hydrone,20,classic_gym_leader_voltessa,5,10"/>
+mods/tuxemon/maps/classic_gym_voltessa.tmx:52:    <property name="act17" value="start_battle player,classic_gym_leader_voltessa"/>
+mods/tuxemon/maps/classic_gym_voltessa.tmx:53:    <property name="act18" value="char_talk classic_gym_leader_voltessa,post_battle_lose"/>
+mods/tuxemon/maps/classic_gym_voltessa.tmx:54:    <property name="behav1" value="talk classic_gym_leader_voltessa"/>
+mods/tuxemon/maps/classic_gym_voltessa.tmx:55:    <property name="cond1" value="not battle_outcome player,won,classic_gym_leader_voltessa"/>
+mods/tuxemon/maps/classic_gym_voltessa.tmx:66:    <property name="act1" value="transition_teleport player,classic_stormpeak_city.tmx,5,4,0.3"/>
+mods/tuxemon/maps/classic_gym_vyre.tmx:7:  <property name="slug" value="classic_gym_vyre"/>
+mods/tuxemon/maps/classic_gym_vyre.tmx:44:    <property name="act1" value="create_npc classic_gym_leader_vyre,10,5"/>
+mods/tuxemon/maps/classic_gym_vyre.tmx:45:    <property name="cond1" value="not char_exists classic_gym_leader_vyre"/>
+mods/tuxemon/maps/classic_gym_vyre.tmx:50:    <property name="act11" value="char_talk classic_gym_leader_vyre,pre_battle"/>
+mods/tuxemon/maps/classic_gym_vyre.tmx:51:    <property name="act12" value="add_monster hydrone,20,classic_gym_leader_vyre,5,10"/>
+mods/tuxemon/maps/classic_gym_vyre.tmx:52:    <property name="act17" value="start_battle player,classic_gym_leader_vyre"/>
+mods/tuxemon/maps/classic_gym_vyre.tmx:53:    <property name="act18" value="char_talk classic_gym_leader_vyre,post_battle_lose"/>
+mods/tuxemon/maps/classic_gym_vyre.tmx:54:    <property name="behav1" value="talk classic_gym_leader_vyre"/>
+mods/tuxemon/maps/classic_gym_vyre.tmx:55:    <property name="cond1" value="not battle_outcome player,won,classic_gym_leader_vyre"/>
+mods/tuxemon/maps/classic_thornwood_city.tmx:70:    <property name="act1" value="transition_teleport player,classic_route_2.tmx,39,17,0.3"/>
+mods/tuxemon/maps/classic_thornwood_city.tmx:78:    <property name="act1" value="transition_teleport player,classic_route_5.tmx,0,2,0.3"/>
+mods/tuxemon/maps/classic_thornwood_city.tmx:86:    <property name="act1" value="transition_teleport player,classic_route_7.tmx,36,0,0.3"/>
+mods/tuxemon/maps/classic_thornwood_city.tmx:94:    <property name="act1" value="transition_teleport player,classic_route_3.tmx,17,19,0.3"/>
+mods/tuxemon/maps/classic_gym_shade.tmx:7:  <property name="slug" value="classic_gym_shade"/>
+mods/tuxemon/maps/classic_gym_shade.tmx:44:    <property name="act1" value="create_npc classic_gym_leader_shade,10,5"/>
+mods/tuxemon/maps/classic_gym_shade.tmx:45:    <property name="cond1" value="not char_exists classic_gym_leader_shade"/>
+mods/tuxemon/maps/classic_gym_shade.tmx:50:    <property name="act11" value="char_talk classic_gym_leader_shade,pre_battle"/>
+mods/tuxemon/maps/classic_gym_shade.tmx:51:    <property name="act12" value="add_monster hydrone,20,classic_gym_leader_shade,5,10"/>
+mods/tuxemon/maps/classic_gym_shade.tmx:52:    <property name="act17" value="start_battle player,classic_gym_leader_shade"/>
+mods/tuxemon/maps/classic_gym_shade.tmx:53:    <property name="act18" value="char_talk classic_gym_leader_shade,post_battle_lose"/>
+mods/tuxemon/maps/classic_gym_shade.tmx:54:    <property name="behav1" value="talk classic_gym_leader_shade"/>
+mods/tuxemon/maps/classic_gym_shade.tmx:55:    <property name="cond1" value="not battle_outcome player,won,classic_gym_leader_shade"/>
+mods/tuxemon/maps/classic_gym_mila.tmx:7:  <property name="slug" value="classic_gym_mila"/>
+mods/tuxemon/maps/classic_gym_mila.tmx:44:    <property name="act1" value="create_npc classic_gym_leader_mila,10,5"/>
+mods/tuxemon/maps/classic_gym_mila.tmx:45:    <property name="cond1" value="not char_exists classic_gym_leader_mila"/>
+mods/tuxemon/maps/classic_gym_mila.tmx:50:    <property name="act11" value="char_talk classic_gym_leader_mila,pre_battle"/>
+mods/tuxemon/maps/classic_gym_mila.tmx:51:    <property name="act12" value="add_monster hydrone,20,classic_gym_leader_mila,5,10"/>
+mods/tuxemon/maps/classic_gym_mila.tmx:52:    <property name="act17" value="start_battle player,classic_gym_leader_mila"/>
+mods/tuxemon/maps/classic_gym_mila.tmx:53:    <property name="act18" value="char_talk classic_gym_leader_mila,post_battle_lose"/>
+mods/tuxemon/maps/classic_gym_mila.tmx:54:    <property name="behav1" value="talk classic_gym_leader_mila"/>
+mods/tuxemon/maps/classic_gym_mila.tmx:55:    <property name="cond1" value="not battle_outcome player,won,classic_gym_leader_mila"/>
+mods/tuxemon/maps/classic_gym_mila.tmx:66:    <property name="act1" value="transition_teleport player,classic_hearthrock_city.tmx,18,14,0.3"/>
+mods/tuxemon/maps/classic_gym_pyra.tmx:7:  <property name="slug" value="classic_gym_pyra"/>
+mods/tuxemon/maps/classic_gym_pyra.tmx:44:    <property name="act1" value="create_npc classic_gym_leader_pyra,10,5"/>
+mods/tuxemon/maps/classic_gym_pyra.tmx:45:    <property name="cond1" value="not char_exists classic_gym_leader_pyra"/>
+mods/tuxemon/maps/classic_gym_pyra.tmx:50:    <property name="act11" value="char_talk classic_gym_leader_pyra,pre_battle"/>
+mods/tuxemon/maps/classic_gym_pyra.tmx:51:    <property name="act12" value="add_monster hydrone,20,classic_gym_leader_pyra,5,10"/>
+mods/tuxemon/maps/classic_gym_pyra.tmx:52:    <property name="act17" value="start_battle player,classic_gym_leader_pyra"/>
+mods/tuxemon/maps/classic_gym_pyra.tmx:53:    <property name="act18" value="char_talk classic_gym_leader_pyra,post_battle_lose"/>
+mods/tuxemon/maps/classic_gym_pyra.tmx:54:    <property name="behav1" value="talk classic_gym_leader_pyra"/>
+mods/tuxemon/maps/classic_gym_pyra.tmx:55:    <property name="cond1" value="not battle_outcome player,won,classic_gym_leader_pyra"/>
+mods/tuxemon/maps/classic_gym_pyra.tmx:66:    <property name="act1" value="transition_teleport player,classic_steamshore_city.tmx,23,15,0.3"/>
+mods/tuxemon/maps/classic_gym_sylva.tmx:7:  <property name="slug" value="classic_gym_sylva"/>
+mods/tuxemon/maps/classic_gym_sylva.tmx:44:    <property name="act1" value="create_npc classic_gym_leader_sylva,10,5"/>
+mods/tuxemon/maps/classic_gym_sylva.tmx:45:    <property name="cond1" value="not char_exists classic_gym_leader_sylva"/>
+mods/tuxemon/maps/classic_gym_sylva.tmx:50:    <property name="act11" value="char_talk classic_gym_leader_sylva,pre_battle"/>
+mods/tuxemon/maps/classic_gym_sylva.tmx:51:    <property name="act12" value="add_monster hydrone,20,classic_gym_leader_sylva,5,10"/>
+mods/tuxemon/maps/classic_gym_sylva.tmx:52:    <property name="act17" value="start_battle player,classic_gym_leader_sylva"/>
+mods/tuxemon/maps/classic_gym_sylva.tmx:53:    <property name="act18" value="char_talk classic_gym_leader_sylva,post_battle_lose"/>
+mods/tuxemon/maps/classic_gym_sylva.tmx:54:    <property name="behav1" value="talk classic_gym_leader_sylva"/>
+mods/tuxemon/maps/classic_gym_sylva.tmx:55:    <property name="cond1" value="not battle_outcome player,won,classic_gym_leader_sylva"/>
+mods/tuxemon/maps/classic_gym_granite.tmx:7:  <property name="slug" value="classic_gym_granite"/>
+mods/tuxemon/maps/classic_gym_granite.tmx:44:    <property name="act1" value="create_npc classic_gym_leader_granite,10,5"/>
+mods/tuxemon/maps/classic_gym_granite.tmx:45:    <property name="cond1" value="not char_exists classic_gym_leader_granite"/>
+mods/tuxemon/maps/classic_gym_granite.tmx:50:    <property name="act11" value="char_talk classic_gym_leader_granite,pre_battle"/>
+mods/tuxemon/maps/classic_gym_granite.tmx:51:    <property name="act12" value="add_monster hydrone,20,classic_gym_leader_granite,5,10"/>
+mods/tuxemon/maps/classic_gym_granite.tmx:52:    <property name="act17" value="start_battle player,classic_gym_leader_granite"/>
+mods/tuxemon/maps/classic_gym_granite.tmx:53:    <property name="act18" value="char_talk classic_gym_leader_granite,post_battle_lose"/>
+mods/tuxemon/maps/classic_gym_granite.tmx:54:    <property name="behav1" value="talk classic_gym_leader_granite"/>
+mods/tuxemon/maps/classic_gym_granite.tmx:55:    <property name="cond1" value="not battle_outcome player,won,classic_gym_leader_granite"/>
+mods/tuxemon/maps/classic_gym_granite.tmx:66:    <property name="act1" value="transition_teleport player,classic_hearthrock_city.tmx,23,14,0.3"/>
+mods/tuxemon/maps/classic_gym_astra.tmx:7:  <property name="slug" value="classic_gym_astra"/>
+mods/tuxemon/maps/classic_gym_astra.tmx:44:    <property name="act1" value="create_npc classic_gym_leader_astra,10,5"/>
+mods/tuxemon/maps/classic_gym_astra.tmx:45:    <property name="cond1" value="not char_exists classic_gym_leader_astra"/>
+mods/tuxemon/maps/classic_gym_astra.tmx:50:    <property name="act11" value="char_talk classic_gym_leader_astra,pre_battle"/>
+mods/tuxemon/maps/classic_gym_astra.tmx:51:    <property name="act12" value="add_monster hydrone,20,classic_gym_leader_astra,5,10"/>
+mods/tuxemon/maps/classic_gym_astra.tmx:52:    <property name="act17" value="start_battle player,classic_gym_leader_astra"/>
+mods/tuxemon/maps/classic_gym_astra.tmx:53:    <property name="act18" value="char_talk classic_gym_leader_astra,post_battle_lose"/>
+mods/tuxemon/maps/classic_gym_astra.tmx:54:    <property name="behav1" value="talk classic_gym_leader_astra"/>
+mods/tuxemon/maps/classic_gym_astra.tmx:55:    <property name="cond1" value="not battle_outcome player,won,classic_gym_leader_astra"/>
+mods/tuxemon/maps/classic_gym_astra.tmx:66:    <property name="act1" value="transition_teleport player,classic_stormpeak_city.tmx,35,4,0.3"/>
+mods/tuxemon/maps/classic_route_8.tmx:6:  <property name="slug" value="classic_route_8"/>
+mods/tuxemon/maps/classic_route_8.tmx:70:    <property name="act1" value="transition_teleport player,classic_hearthrock_city.tmx,39,16,0.3"/>
+mods/tuxemon/maps/classic_route_8.tmx:78:    <property name="act1" value="transition_teleport player,classic_valorhold_city.tmx,0,17,0.3"/>

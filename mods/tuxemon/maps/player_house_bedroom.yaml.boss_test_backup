@@ -1,0 +1,146 @@
+events:
+
+  JJI Prologue Battle:
+    actions:
+      - start_battle player,professor
+    conditions:
+      - is current_state WorldState
+      - is variable_set jji_prologue:ready
+      - is party_size player,greater_than,0
+      - is party_size professor,greater_than,0
+      - not variable_set jji_prologue:battle_started
+    type: event
+
+  JJI Prologue Lost:
+    actions:
+      - set_variable jji_prologue:battle_started
+      - set_variable jji_prologue:lost
+      - translated_dialog jji_opening_atlas_win
+      - transition_teleport player,healing_center.tmx,6,7,1
+    conditions:
+      - is current_state WorldState
+      - is battle_outcome player,lost,professor
+      - not variable_set jji_prologue:lost
+    type: event
+
+  JJI Prologue Win Safety:
+    actions:
+      - set_variable jji_prologue:battle_started
+      - set_variable jji_prologue:lost
+      - transition_teleport player,healing_center.tmx,6,7,1
+    conditions:
+      - is current_state WorldState
+      - is battle_outcome player,won,professor
+      - not variable_set jji_prologue:lost
+    type: event
+
+  Auto Healing Teleported:
+    actions:
+      - set_monster_health
+      - set_monster_status
+      - set_variable battle_last_result:none
+    conditions:
+      - is variable_set battle_last_result:lost
+    type: event
+
+  Go Downstairs:
+    actions:
+      - transition_teleport player,player_house_downstairs.tmx,0,2,0.3
+      - char_face player,down
+    conditions:
+      - is char_at player
+    type: event
+    x: 7
+    y: 2
+
+  Intro:
+    actions:
+      - change_bg_char start_menu_bg,guard_puller_kobe
+      - translated_dialog xero_skip_question
+      - translated_dialog_choice no:yes,question_xero
+    conditions:
+      - not variable_set question_xero:yes
+      - not variable_set question_xero:no
+    type: event
+    x: 8
+    y: 0
+
+  Intro No:
+    actions:
+      - translated_dialog xero_intro_question
+      - rename_player player,random
+      - change_bg
+      - set_variable xero_intro:done
+    conditions:
+      - is variable_set question_xero:yes
+      - not variable_set xero_intro:done
+    type: event
+    x: 9
+    y: 0
+
+  Intro Yes:
+    actions:
+      - translated_dialog xero_intro_1
+      - change_bg_char start_menu_bg,guard_puller_kobe
+      - translated_dialog xero_intro_2
+      - change_bg_char start_menu_bg,guard_puller_kobe
+      - translated_dialog xero_intro_3
+      - translated_dialog xero_intro_question
+      - rename_player player,random
+      - change_bg
+      - set_variable xero_intro:done
+    conditions:
+      - is variable_set question_xero:no
+      - not variable_set xero_intro:done
+    type: event
+    x: 8
+    y: 1
+
+  Music:
+    actions:
+      - play_music music_home
+    conditions:
+      - not music_playing music_home
+    type: event
+    x: 7
+    y: 0
+
+  Resting in Bed:
+    actions:
+      - screen_transition 1
+      - wait 0.5
+      - translated_dialog xero_taba_restinbed
+      - set_monster_health
+      - set_monster_status
+      - set_teleport_faint player,player_house_bedroom.tmx,3,4
+    conditions:
+      - is button_pressed INTERACT
+      - is char_facing_tile player
+    height: 2
+    type: event
+    width: 1
+    x: 0
+    y: 2
+
+  Use Computer:
+    actions:
+      - access_pc player
+    conditions:
+      - is char_facing_tile player
+      - is button_pressed INTERACT
+    type: event
+    x: 3
+    y: 2
+
+  JJI Launch Atlas Prologue:
+    actions:
+    - set_variable jji_atlas:launched
+    - set_variable jji_kimura:intro_pending
+    - transition_teleport player,spyder_candy_center.tmx,6,7,0.3
+    conditions:
+    - is current_state WorldState
+    - not variable_set jji_atlas:launched
+    - not variable_set jji_atlas:complete
+    type: event
+
+

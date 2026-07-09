@@ -19889,7 +19889,6 @@ msgstr "Punch Choke"
 
 msgid "classic_gym_leader_voltessa_pre"
 msgstr "Coach Toland: Control first. Finish second. Show me what you have learned."
-"Coach Toland: Pressure wins matches. Let us see if you can survive mine."
 
 msgid "classic_gym_leader_voltessa"
 msgstr "Coach Toland"
@@ -19964,4 +19963,21 @@ msgstr "Coach Hill"
 
 msgid "classic_gym_leader_pyra"
 msgstr "Coach Conleth"
+
+
+msgid "posture_up"
+msgstr "Posture Up"
+
+msgid "sensai_duncan_triangle_lesson_1"
+msgstr "Sensei Duncan: I heard big bully Atlas is hurting trial class people again."
+
+msgid "sensai_duncan_triangle_lesson_2"
+msgstr "Sensei Duncan: He used his special triangle move on you."
+
+msgid "sensai_duncan_triangle_lesson_3"
+msgstr "Sensei Duncan: All you need to do in a triangle is POSTURE UP!"
+
+
+msgid "move_learned_popup"
+msgstr "MOVE LEARNED!"
 

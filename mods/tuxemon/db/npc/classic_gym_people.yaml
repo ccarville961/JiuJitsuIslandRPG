@@ -24,7 +24,7 @@
   combat: {}
   audio: {}
   template:
-    sprite_name: monk
+    sprite_name: trickster_coach
     combat_sheet: monk
     slug: monk
 
@@ -39,7 +39,7 @@
   combat: {}
   audio: {}
   template:
-    sprite_name: monk
+    sprite_name: fai_coach
     combat_sheet: monk
     slug: monk
 
@@ -54,7 +54,7 @@
   combat: {}
   audio: {}
   template:
-    sprite_name: monk
+    sprite_name: atlas_coach
     combat_sheet: monk
     slug: monk
 
@@ -69,7 +69,7 @@
   combat: {}
   audio: {}
   template:
-    sprite_name: monk
+    sprite_name: talos_coach
     combat_sheet: monk
     slug: monk
 
@@ -174,7 +174,7 @@
   combat: {}
   audio: {}
   template:
-    sprite_name: monk
+    sprite_name: icon_coach
     combat_sheet: monk
     slug: monk
 
