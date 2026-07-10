@@ -49,7 +49,7 @@
   <object id="17" name="Talk Gym Leader" type="event" x="160" y="96" width="16" height="16">
    <properties>
     <property name="act11" value="char_talk classic_gym_leader_astra,pre_battle"/>
-    <property name="act12" value="add_monster coach_mcalister,50,classic_gym_leader_astra,5,10"/>
+    <property name="act12" value="add_monster coach_mcgreevy,50,classic_gym_leader_astra,5,10"/>
     <property name="act17" value="start_battle player,classic_gym_leader_astra"/>
     <property name="act18" value="char_talk classic_gym_leader_astra,post_battle_lose"/>
     <property name="behav1" value="talk classic_gym_leader_astra"/>

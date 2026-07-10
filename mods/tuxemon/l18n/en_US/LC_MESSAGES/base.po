@@ -19385,11 +19385,10 @@ msgid "azure_enforcer2"
 msgstr "You handled yourself well."
 
 msgid "classic_gym_leader_astra_post"
-msgstr "Coach McAlister: Good. You felt the pressure and kept moving ya wee dick."
+msgstr "Coach McGreevy: Nice work. You moved really well!"
 
 msgid "classic_gym_leader_astra_pre"
-msgstr "Coach McAlister: Pressure wins matches. Let us see if you can survive mine."
-"Coach McAlister: Control first. Finish second. Show me what you have learned."
+msgstr "Coach McGreevy: Welcome to the gym. Now let us put you through your paces!"
 
 msgid "classic_gym_leader_bravion_post"
 msgstr "Coach Atlas: Ahhhh Fuck You and all belonging to you!"
@@ -19403,27 +19402,11 @@ msgstr "You handled yourself well."
 msgid "classic_gym_leader_ferrum_pre"
 msgstr "Let's see what you've learned."
 
-msgid "classic_gym_leader_granite_post"
-msgstr "You handled yourself well."
-
-msgid "classic_gym_leader_granite_pre"
-msgstr "Let's see what you've learned."
-
-
-
-msgid "classic_gym_leader_mila_post"
-msgstr "You handled yourself well."
-
-msgid "classic_gym_leader_mila_pre"
-msgstr "Let's see what you've learned."
-
 msgid "classic_gym_leader_orion_post"
 msgstr "You handled yourself well."
 
 msgid "classic_gym_leader_orion_pre"
 msgstr "Let's see what you've learned."
-
-
 
 msgid "classic_gym_leader_shade_post"
 msgstr "You handled yourself well."
@@ -19894,11 +19877,10 @@ msgid "classic_gym_leader_voltessa"
 msgstr "Coach Toland"
 
 msgid "classic_gym_leader_astra"
-msgstr "Coach McAlister"
+msgstr "Coach McGreevy"
 
 msgid "classic_gym_leader_bravion"
 msgstr "Coach Atlas"
-
 
 msgid "coach_toland"
 msgstr "Coach Toland"
@@ -19926,7 +19908,6 @@ msgstr "Coach Atlas: This is the final round. No shortcuts now."
 
 msgid "coach_atlas_post"
 msgstr "Coach Atlas: You earned this. Keep training."
-
 
 msgid "side_control"
 msgstr "Side Control"
@@ -19964,7 +19945,6 @@ msgstr "Coach Hill"
 msgid "classic_gym_leader_pyra"
 msgstr "Coach Conleth"
 
-
 msgid "posture_up"
 msgstr "Posture Up"
 
@@ -19977,7 +19957,50 @@ msgstr "Sensei Duncan: He used his special triangle move on you."
 msgid "sensai_duncan_triangle_lesson_3"
 msgstr "Sensei Duncan: All you need to do in a triangle is POSTURE UP!"
 
-
 msgid "move_learned_popup"
 msgstr "MOVE LEARNED!"
 
+msgid "judo_throw"
+msgstr "Judo Throw"
+
+msgid "double_unders"
+msgstr "Double Unders"
+
+msgid "knee_bar"
+msgstr "Knee Bar"
+
+msgid "k_guard"
+msgstr "K Guard"
+
+msgid "heel_hook"
+msgstr "Heel Hook"
+
+msgid "classic_gym_leader_granite"
+msgstr "Coach Staffy"
+
+msgid "classic_gym_leader_granite_pre"
+msgstr "Coach Staffy: Welcome to Defiant BJJ. We need to test your skills before you progress further!"
+
+msgid "classic_gym_leader_granite_post"
+msgstr "Coach Staffy: That was awesome. You are still able to walk, so that is good!"
+
+msgid "single_leg"
+msgstr "Single Leg"
+
+msgid "double_leg"
+msgstr "Double Leg"
+
+msgid "half_nelson"
+msgstr "Half Nelson"
+
+msgid "oil_check"
+msgstr "Oil Check"
+
+msgid "classic_gym_leader_mila"
+msgstr "D1 Elliott"
+
+msgid "classic_gym_leader_mila_pre"
+msgstr "D1 Elliott: Let's try some good old tackle and grapple!"
+
+msgid "classic_gym_leader_mila_post"
+msgstr "D1 Elliott: That wasn't your first Oil Check! But I hope you remember mine!"

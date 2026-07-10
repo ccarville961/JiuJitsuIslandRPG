@@ -1,0 +1,48 @@
+slug: d1_elliott
+name: "D1 Elliott"
+species: short_circuit
+moveset:
+- level_learned: 1
+  technique: struggle
+  learning_method: fallback
+- level_learned: 1
+  technique: single_leg
+- level_learned: 1
+  technique: double_leg
+- level_learned: 1
+  technique: half_nelson
+- level_learned: 1
+  technique: oil_check
+evolutions: []
+history:
+- slug: hydrone
+  stage: standalone
+  evolves_from: []
+  evolves_into: []
+terrains: []
+tags:
+- machine
+- water
+- gadgets
+- electricity
+shape: humanoid
+stage: standalone
+types:
+- metal
+- water
+gender_weights:
+  male: 0.5
+  female: 0.5
+txmn_id: 9000
+height: 155
+weight: 200
+sounds:
+  combat_call:
+    sfx: sound_steel_clang
+    volume: 1.5
+  faint_call:
+    sfx: sound_steel_clang_faint
+    volume: 1.5
+catch_rate: 100.0
+lower_catch_resistance: 0.95
+upper_catch_resistance: 1.05
