@@ -212,13 +212,13 @@
   </object>
   <object id="42" name="new possibilities2" type="event" x="32" y="0" width="16" height="16">
    <properties>
-    <property name="act1" value="create_npc kay_wren,4,6"/>
-    <property name="act2" value="char_face kay_wren,left"/>
+    <property name="act1" value="create_npc sensai_duncan,4,6"/>
+    <property name="act2" value="char_face sensai_duncan,left"/>
     <property name="act3" value="translated_dialog iknowyou"/>
     <property name="act4" value="translated_dialog ihaveyourmoney2"/>
-    <property name="act5" value="char_face kay_wren,down"/>
+    <property name="act5" value="char_face sensai_duncan,down"/>
     <property name="act6" value="wait 0.4"/>
-    <property name="act7" value="remove_npc kay_wren"/>
+    <property name="act7" value="remove_npc sensai_duncan"/>
     <property name="act9" value="unlock_controls"/>
     <property name="act99" value="set_variable announce_trials:4"/>
     <property name="cond1" value="is variable_set announce_trials:3"/>

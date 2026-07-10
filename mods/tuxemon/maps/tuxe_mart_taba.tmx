@@ -102,17 +102,17 @@
    <properties>
     <property name="act10" value="lock_controls"/>
     <property name="act11" value="wait 0.7"/>
-    <property name="act20" value="create_npc kay_wren,3,5,stand"/>
-    <property name="act30" value="char_face kay_wren,left"/>
+    <property name="act20" value="create_npc sensai_duncan,3,5,stand"/>
+    <property name="act30" value="char_face sensai_duncan,left"/>
     <property name="act40" value="translated_dialog professorexists"/>
     <property name="act50" value="wait 1"/>
     <property name="act60" value="translated_dialog professorexists1"/>
-    <property name="act70" value="char_face kay_wren,down"/>
+    <property name="act70" value="char_face sensai_duncan,down"/>
     <property name="act80" value="translated_dialog professorexists1.5"/>
-    <property name="act90" value="pathfind kay_wren,6,6"/>
-    <property name="act91" value="char_face kay_wren,down"/>
+    <property name="act90" value="pathfind sensai_duncan,6,6"/>
+    <property name="act91" value="char_face sensai_duncan,down"/>
     <property name="act92" value="set_variable proftalk1:true"/>
-    <property name="cond1" value="not char_exists kay_wren"/>
+    <property name="cond1" value="not char_exists sensai_duncan"/>
     <property name="cond2" value="not variable_set proftalk:true"/>
     <property name="cond3" value="not variable_set proftalk2:yes"/>
    </properties>
@@ -129,9 +129,9 @@
     <property name="act50" value="wait 0.5"/>
     <property name="act60" value="translated_dialog professorexists3"/>
     <property name="act70" value="translated_dialog professorexists4"/>
-    <property name="act80" value="char_speed kay_wren,7"/>
-    <property name="act90" value="pathfind kay_wren,6,10"/>
-    <property name="act91" value="remove_npc kay_wren"/>
+    <property name="act80" value="char_speed sensai_duncan,7"/>
+    <property name="act90" value="pathfind sensai_duncan,6,10"/>
+    <property name="act91" value="remove_npc sensai_duncan"/>
     <property name="act92" value="set_variable proftalk2:yes"/>
     <property name="act93" value="char_face player,left"/>
     <property name="act94" value="translated_dialog theenergy"/>
