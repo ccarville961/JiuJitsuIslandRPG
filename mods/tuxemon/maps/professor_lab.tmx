@@ -46,20 +46,6 @@
   <object id="90" type="collision" x="128" y="176" width="80" height="16"/>
   <object id="91" type="collision" x="0" y="272" width="64" height="16"/>
   <object id="92" type="collision" x="144" y="272" width="64" height="16"/>
- 
-  <object id="9999" name="Sensei Duncan Triangle Lesson" type="event" x="144" y="112" width="16" height="16">
-   <properties>
-    <property name="behav1" value="talk professor"/>
-    <property name="act1" value="translated_dialog sensai_duncan_triangle_lesson_1"/>
-    <property name="act2" value="translated_dialog sensai_duncan_triangle_lesson_2"/>
-    <property name="act3" value="translated_dialog sensai_duncan_triangle_lesson_3"/>
-    <property name="act4" value="add_tech player,posture_up"/>
-    <property name="act5" value="translated_dialog move_learned_popup"/>
-    <property name="act6" value="set_variable sensai_duncan_posture_up:learned"/>
-    <property name="cond1" value="not variable_set sensai_duncan_posture_up:learned"/>
-   </properties>
-  </object>
-
  </objectgroup>
  <objectgroup color="#ffff00" id="5" name="Events">
   <object id="11" name="Teleport to map1" type="event" x="96" y="272" width="16" height="16">
@@ -111,10 +97,10 @@
   </object>
   <object id="95" name="createprofessor" type="event" x="0" y="192" width="16" height="16">
    <properties>
-    <property name="act1" value="create_npc kay_wren,4,6,stand"/>
-    <property name="act2" value="char_face kay_wren,up"/>
+    <property name="act1" value="create_npc sensai_duncan,4,6,stand"/>
+    <property name="act2" value="char_face sensai_duncan,up"/>
     <property name="cond1" value="is variable_set go_get_tuxemon:yes"/>
-    <property name="cond2" value="not char_exists kay_wren"/>
+    <property name="cond2" value="not char_exists sensai_duncan"/>
     <property name="cond3" value="not variable_set havetuxemon:yes"/>
    </properties>
   </object>
@@ -123,8 +109,8 @@
     <property name="act1" value="char_stop player"/>
     <property name="act2" value="lock_controls"/>
     <property name="act3" value="translated_dialog tuxemontime"/>
-    <property name="act4" value="pathfind kay_wren,6,12"/>
-    <property name="act5" value="char_face kay_wren,down"/>
+    <property name="act4" value="pathfind sensai_duncan,6,12"/>
+    <property name="act5" value="char_face sensai_duncan,down"/>
     <property name="act6" value="pathfind player,6,13"/>
     <property name="act7" value="translated_dialog tuxemontime1.5"/>
     <property name="act8" value="translated_dialog_choice yes:no,startchoice"/>
@@ -162,8 +148,8 @@
   </object>
   <object id="101" name="wemoving" type="event" x="0" y="144" width="16" height="16">
    <properties>
-    <property name="act1" value="pathfind kay_wren,0,4"/>
-    <property name="act2" value="char_face kay_wren,up"/>
+    <property name="act1" value="pathfind sensai_duncan,0,4"/>
+    <property name="act2" value="char_face sensai_duncan,up"/>
     <property name="cond1" value="is variable_set wemoving:now"/>
    </properties>
   </object>
@@ -180,12 +166,21 @@
    <properties>
     <property name="act10" value="wait 2"/>
     <property name="act20" value="translated_dialog tuxemontime3"/>
-    <property name="act30" value="pathfind kay_wren,2,5"/>
-    <property name="act40" value="char_face kay_wren,down"/>
+    <property name="act30" value="pathfind sensai_duncan,2,5"/>
+    <property name="act40" value="char_face sensai_duncan,down"/>
     <property name="act50" value="translated_dialog tuxemontime3.1"/>
     <property name="act60" value="add_item reg_papers"/>
     <property name="act61" value="play_sound sound_confirm"/>
     <property name="act70" value="translated_dialog obtainedpapers"/>
+    <property name="act71" value="translated_dialog sensai_duncan_triangle_lesson_1"/>
+    <property name="act72" value="translated_dialog sensai_duncan_triangle_lesson_2"/>
+    <property name="act73" value="translated_dialog sensai_duncan_triangle_lesson_3"/>
+    <property name="act74" value="add_tech player,posture_up"/>
+    <property name="act75" value="translated_dialog posture_up_learned_popup"/>
+    <property name="act76" value="translated_dialog sensai_duncan_guillotine_lesson"/>
+    <property name="act77" value="add_tech player,clamp_on"/>
+    <property name="act78" value="translated_dialog guillotine_learned_popup"/>
+    <property name="act79" value="set_variable sensai_duncan_atlas_lesson:learned"/>
     <property name="act80" value="set_variable movingon:now"/>
     <property name="act90" value="set_variable wemoving:finished"/>
     <property name="cond1" value="is variable_set wemoving:done"/>
@@ -194,8 +189,8 @@
   </object>
   <object id="104" name="wemoving4" type="event" x="0" y="144" width="16" height="16">
    <properties>
-    <property name="act1" value="pathfind kay_wren,12,8"/>
-    <property name="act2" value="char_face kay_wren,left"/>
+    <property name="act1" value="pathfind sensai_duncan,12,8"/>
+    <property name="act2" value="char_face sensai_duncan,left"/>
     <property name="act3" value="set_variable wemoving:completenow"/>
     <property name="act4" value="set_variable gettuxemon:now"/>
     <property name="cond1" value="is variable_set wemoving:finished"/>

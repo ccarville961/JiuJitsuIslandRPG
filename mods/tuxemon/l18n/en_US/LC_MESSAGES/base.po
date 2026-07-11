@@ -19949,13 +19949,13 @@ msgid "posture_up"
 msgstr "Posture Up"
 
 msgid "sensai_duncan_triangle_lesson_1"
-msgstr "Sensei Duncan: I heard big bully Atlas is hurting trial class people again."
+msgstr "Sensei Duncan: I have heard that Coach Atlas is hurting people in the trial classes again."
 
 msgid "sensai_duncan_triangle_lesson_2"
-msgstr "Sensei Duncan: He used his special triangle move on you."
+msgstr "Sensei Duncan: Atlas likes to trap new students in his triangle."
 
 msgid "sensai_duncan_triangle_lesson_3"
-msgstr "Sensei Duncan: All you need to do in a triangle is POSTURE UP!"
+msgstr "Sensei Duncan: If you are caught in a triangle, remember to POSTURE UP!"
 
 msgid "move_learned_popup"
 msgstr "MOVE LEARNED!"
@@ -20004,3 +20004,12 @@ msgstr "D1 Elliott: Let's try some good old tackle and grapple!"
 
 msgid "classic_gym_leader_mila_post"
 msgstr "D1 Elliott: That wasn't your first Oil Check! But I hope you remember mine!"
+
+msgid "posture_up_learned_popup"
+msgstr "POSTURE UP LEARNED!"
+
+msgid "sensai_duncan_guillotine_lesson"
+msgstr "Sensei Duncan: I will also teach you the Guillotine. Use it when an opponent leaves their neck exposed."
+
+msgid "guillotine_learned_popup"
+msgstr "GUILLOTINE LEARNED!"

@@ -220,6 +220,9 @@
     <property name="act6" value="wait 0.4"/>
     <property name="act7" value="remove_npc sensai_duncan"/>
     <property name="act9" value="unlock_controls"/>
+    <property name="act10" value="clear_variable scene"/>
+    <property name="act11" value="set_variable go_get_tuxemon:yes"/>
+    <property name="act12" value="set_variable post_duncan_chat:ready"/>
     <property name="act99" value="set_variable announce_trials:4"/>
     <property name="cond1" value="is variable_set announce_trials:3"/>
    </properties>
@@ -227,10 +230,11 @@
   <object id="44" name="new possibilities3" type="event" x="16" y="80" width="16" height="16">
    <properties>
     <property name="act1" value="translated_dialog hebenice"/>
-    <property name="act2" value="clear_variable scene"/>
-    <property name="act5" value="set_variable go_get_tuxemon:yes"/>
+    <property name="act2" value="set_variable post_duncan_chat:done"/>
     <property name="behav1" value="talk callie_wren"/>
     <property name="cond1" value="is variable_set announce_trials:4"/>
+    <property name="cond2" value="is variable_set post_duncan_chat:ready"/>
+    <property name="cond3" value="not variable_set post_duncan_chat:done"/>
    </properties>
   </object>
  </objectgroup>
