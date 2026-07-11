@@ -1,5 +1,5 @@
 tech_id: 17
-accuracy: 1
+accuracy: 1.0
 effects:
 - type: give
   parameters:
@@ -9,11 +9,11 @@ effects:
   parameters:
   - grabbed
   - enemy_monster
-speed: normal
+speed: fast
 potency: 1
-power: 0
+power: 2.4
 range: special
-recharge: 3
+recharge: 1
 slug: clamp_on
 sort: damage
 modifiers: []

@@ -56,46 +56,7 @@
     <property name="cond20" value="is char_facing player,down"/>
    </properties>
   </object>
-  <object id="69" name="Choose Rockitten" type="event" x="144" y="112" width="16" height="16">
-   <properties>
-    <property name="act1" value="pathfind kay_wren,9,9"/>
-    <property name="act2" value="char_face kay_wren,up"/>
-    <property name="act3" value="open_journal rockitten"/>
-    <property name="act5" value="translated_dialog chooseyerfateRockitten"/>
-    <property name="act6" value="translated_dialog_choice yes:no,rockittenchoice"/>
-    <property name="cond1" value="not variable_set havetuxemon:yes"/>
-    <property name="cond2" value="is char_facing_tile player"/>
-    <property name="cond4" value="is button_pressed INTERACT"/>
-    <property name="cond5" value="is variable_set gettuxemon:now"/>
-   </properties>
-  </object>
-  <object id="74" name="Choose Cardiling" type="event" x="160" y="112" width="16" height="16">
-   <properties>
-    <property name="act1" value="pathfind kay_wren,10,9"/>
-    <property name="act2" value="char_face kay_wren,up"/>
-    <property name="act3" value="open_journal cardiling"/>
-    <property name="act5" value="translated_dialog chooseyerfateCardiling"/>
-    <property name="act6" value="translated_dialog_choice yes:no,cardilingchoice"/>
-    <property name="cond1" value="not variable_set havetuxemon:yes"/>
-    <property name="cond2" value="is char_facing_tile player"/>
-    <property name="cond4" value="is button_pressed INTERACT"/>
-    <property name="cond5" value="is variable_set gettuxemon:now"/>
-   </properties>
-  </object>
-  <object id="75" name="Choose Tweesher" type="event" x="176" y="112" width="16" height="16">
-   <properties>
-    <property name="act1" value="pathfind kay_wren,11,9"/>
-    <property name="act2" value="char_face kay_wren,up"/>
-    <property name="act3" value="open_journal tweesher"/>
-    <property name="act5" value="translated_dialog chooseyerfateTweesher"/>
-    <property name="act6" value="translated_dialog_choice yes:no,tweesherchoice"/>
-    <property name="cond1" value="not variable_set havetuxemon:yes"/>
-    <property name="cond2" value="is char_facing_tile player"/>
-    <property name="cond4" value="is button_pressed INTERACT"/>
-    <property name="cond5" value="is variable_set gettuxemon:now"/>
-   </properties>
-  </object>
-  <object id="95" name="createprofessor" type="event" x="0" y="192" width="16" height="16">
+<object id="95" name="createprofessor" type="event" x="0" y="192" width="16" height="16">
    <properties>
     <property name="act1" value="create_npc sensai_duncan,4,6,stand"/>
     <property name="act2" value="char_face sensai_duncan,up"/>
@@ -172,16 +133,18 @@
     <property name="act60" value="add_item reg_papers"/>
     <property name="act61" value="play_sound sound_confirm"/>
     <property name="act70" value="translated_dialog obtainedpapers"/>
-    <property name="act71" value="translated_dialog sensai_duncan_triangle_lesson_1"/>
-    <property name="act72" value="translated_dialog sensai_duncan_triangle_lesson_2"/>
-    <property name="act73" value="translated_dialog sensai_duncan_triangle_lesson_3"/>
-    <property name="act74" value="add_tech player,posture_up"/>
-    <property name="act75" value="translated_dialog posture_up_learned_popup"/>
-    <property name="act76" value="translated_dialog sensai_duncan_guillotine_lesson"/>
-    <property name="act77" value="add_tech player,clamp_on"/>
-    <property name="act78" value="translated_dialog guillotine_learned_popup"/>
-    <property name="act79" value="set_variable sensai_duncan_atlas_lesson:learned"/>
-    <property name="act80" value="set_variable movingon:now"/>
+    <property name="act71" value="add_monster you,5"/>
+    <property name="act72" value="get_party_monster player"/>
+    <property name="act73" value="translated_dialog sensai_duncan_triangle_lesson_1"/>
+    <property name="act74" value="translated_dialog sensai_duncan_triangle_lesson_2"/>
+    <property name="act75" value="translated_dialog sensai_duncan_triangle_lesson_3"/>
+    <property name="act76" value="add_tech iid_slot_0,posture_up"/>
+    <property name="act77" value="translated_dialog posture_up_learned_popup"/>
+    <property name="act78" value="translated_dialog sensai_duncan_guillotine_lesson"/>
+    <property name="act79" value="add_tech iid_slot_0,clamp_on"/>
+    <property name="act80" value="translated_dialog guillotine_learned_popup"/>
+    <property name="act80" value="set_variable sensai_duncan_atlas_lesson:learned"/>
+    <property name="act81" value="set_variable movingon:now"/>
     <property name="act90" value="set_variable wemoving:finished"/>
     <property name="cond1" value="is variable_set wemoving:done"/>
     <property name="cond2" value="not variable_set movingon:now"/>
@@ -203,160 +166,38 @@
     <property name="cond1" value="is variable_set wemoving:finished"/>
    </properties>
   </object>
-  <object id="106" name="chooseyertux" type="event" x="192" y="160" width="16" height="16">
+
+  <object id="106" name="Sensei Duncan tutorial battle" type="event" x="192" y="160" width="16" height="16">
    <properties>
-    <property name="act1" value="translated_dialog tuxemontime4"/>
-    <property name="act2" value="translated_dialog chooseyerfate"/>
-    <property name="act3" value="set_variable letmechoose:pls"/>
-    <property name="act4" value="unlock_controls"/>
+    <property name="act1" value="char_face sensai_duncan,left"/>
+    <property name="act2" value="char_face player,right"/>
+    <property name="act3" value="translated_dialog sensai_duncan_test_intro"/>
+    <property name="act4" value="lock_controls"/>
+    <property name="act5" value="add_monster sensai_duncan,3,sensai_duncan,20,40"/>
+    <property name="act6" value="start_battle player,sensai_duncan"/>
+    <property name="act7" value="set_variable sensai_duncan_test:finished"/>
     <property name="cond1" value="is variable_set gettuxemon:now"/>
-    <property name="cond2" value="not variable_set letmechoose:pls"/>
+    <property name="cond2" value="not variable_set sensai_duncan_test:finished"/>
    </properties>
   </object>
-  <object id="107" name="rockittenYES" type="event" x="32" y="16" width="16" height="16">
+
+  <object id="114" name="Sensei Duncan tutorial complete" type="event" x="112" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="translated_dialog choseRockitten"/>
-    <property name="act11" value="play_sound sound_confirm"/>
-    <property name="act12" value="lock_controls"/>
-    <property name="act20" value="translated_dialog rockitten!"/>
-    <property name="act30" value="add_monster rockitten,5"/>
-    <property name="act31" value="remove_npc professor"/>
-    <property name="act32" value="set_variable rockittenball:yes"/>
-    <property name="act40" value="pathfind kay_wren,10,9"/>
-    <property name="act41" value="char_face kay_wren,up"/>
-    <property name="act42" value="add_monster cardiling,3,kay_wren,20,40"/>
-    <property name="act43" value="remove_npc professor"/>
-    <property name="act44" value="set_variable cardilingball:yes"/>
-    <property name="act45" value="set_variable prof_choice:cardiling"/>
-    <property name="act50" value="translated_dialog choseRockitten2"/>
-    <property name="act60" value="wait 0.8"/>
-    <property name="act70" value="pathfind kay_wren,6,7"/>
-    <property name="act71" value="char_face kay_wren,down"/>
-    <property name="act80" value="pathfind player,6,9"/>
-    <property name="act81" value="char_face player,up"/>
-    <property name="act90" value="translated_dialog chosefight"/>
-    <property name="act91" value="unlock_controls"/>
-    <property name="act97" value="set_variable havetuxemon:yes"/>
-    <property name="act98" value="set_variable rockittenchoice:finished"/>
-    <property name="act99" value="set_variable startfirstbattle:yes"/>
-    <property name="cond1" value="is variable_set rockittenchoice:yes"/>
-   </properties>
-  </object>
-  <object id="108" name="rockittenNO" type="event" x="32" y="0" width="16" height="16">
-   <properties>
-    <property name="act1" value="translated_dialog nochoiceTuxemon"/>
-    <property name="act2" value="set_variable rockittenchoice:empty"/>
-    <property name="act3" value="set_variable letmechoose:pls"/>
-    <property name="cond1" value="is variable_set rockittenchoice:no"/>
-   </properties>
-  </object>
-  <object id="109" name="cardilingNO" type="event" x="64" y="0" width="16" height="16">
-   <properties>
-    <property name="act1" value="translated_dialog nochoiceTuxemon"/>
-    <property name="act2" value="set_variable cardilingchoice:empty"/>
-    <property name="act3" value="set_variable letmechoose:pls"/>
-    <property name="cond1" value="is variable_set cardilingchoice:no"/>
-   </properties>
-  </object>
-  <object id="110" name="cardilingYES" type="event" x="64" y="16" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog choseCardiling"/>
-    <property name="act11" value="play_sound sound_confirm"/>
-    <property name="act12" value="lock_controls"/>
-    <property name="act20" value="translated_dialog cardiling!"/>
-    <property name="act30" value="add_monster cardiling,5"/>
-    <property name="act31" value="remove_npc professor"/>
-    <property name="act32" value="set_variable cardilingball:yes"/>
-    <property name="act40" value="pathfind kay_wren,11,9"/>
-    <property name="act41" value="char_face kay_wren,up"/>
-    <property name="act42" value="add_monster tweesher,3,kay_wren,20,40"/>
-    <property name="act43" value="remove_npc professor"/>
-    <property name="act44" value="set_variable tweesherball:yes"/>
-    <property name="act45" value="set_variable prof_choice:tweesher"/>
-    <property name="act50" value="translated_dialog choseCardiling2"/>
-    <property name="act60" value="wait 0.8"/>
-    <property name="act70" value="pathfind kay_wren,6,7"/>
-    <property name="act71" value="char_face kay_wren,down"/>
-    <property name="act80" value="pathfind player,6,9"/>
-    <property name="act81" value="char_face player,up"/>
-    <property name="act90" value="translated_dialog chosefight"/>
-    <property name="act91" value="unlock_controls"/>
-    <property name="act97" value="set_variable havetuxemon:yes"/>
-    <property name="act98" value="set_variable cardilingchoice:finished"/>
-    <property name="act99" value="set_variable startfirstbattle:yes"/>
-    <property name="cond1" value="is variable_set cardilingchoice:yes"/>
-   </properties>
-  </object>
-  <object id="111" name="tweesherYES" type="event" x="48" y="16" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog choseTweesher"/>
-    <property name="act11" value="play_sound sound_confirm"/>
-    <property name="act12" value="lock_controls"/>
-    <property name="act20" value="translated_dialog tweesher!"/>
-    <property name="act30" value="add_monster tweesher,5"/>
-    <property name="act31" value="remove_npc professor"/>
-    <property name="act32" value="set_variable tweesherball:yes"/>
-    <property name="act40" value="pathfind kay_wren,9,9"/>
-    <property name="act50" value="char_face kay_wren,up"/>
-    <property name="act51" value="add_monster rockitten,3,kay_wren,20,40"/>
-    <property name="act53" value="remove_npc professor"/>
-    <property name="act54" value="set_variable rockittenball:yes"/>
-    <property name="act55" value="set_variable prof_choice:rockitten"/>
-    <property name="act60" value="translated_dialog choseTweesher2"/>
-    <property name="act61" value="wait 0.8"/>
-    <property name="act70" value="pathfind kay_wren,6,7"/>
-    <property name="act71" value="char_face kay_wren,down"/>
-    <property name="act80" value="pathfind player,6,9"/>
-    <property name="act81" value="char_face player,up"/>
-    <property name="act90" value="translated_dialog chosefight"/>
-    <property name="act91" value="unlock_controls"/>
-    <property name="act97" value="set_variable havetuxemon:yes"/>
-    <property name="act98" value="set_variable tweesherchoice:finished"/>
-    <property name="act99" value="set_variable startfirstbattle:yes"/>
-    <property name="cond1" value="is variable_set tweesherchoice:yes"/>
-   </properties>
-  </object>
-  <object id="112" name="tweesherNO" type="event" x="48" y="0" width="16" height="16">
-   <properties>
-    <property name="act1" value="translated_dialog nochoiceTuxemon"/>
-    <property name="act2" value="set_variable tweesherchoice:empty"/>
-    <property name="act3" value="set_variable letmechoose:pls"/>
-    <property name="cond1" value="is variable_set tweesherchoice:no"/>
-   </properties>
-  </object>
-  <object id="114" name="start first battle" type="event" x="112" y="0" width="16" height="16">
-   <properties>
-    <property name="act1" value="start_battle player,kay_wren"/>
-    <property name="act2" value="set_variable finishedbattle:yes"/>
-    <property name="cond1" value="is variable_set startfirstbattle:yes"/>
-    <property name="cond2" value="not variable_set firstbattledone:yes"/>
-    <property name="cond3" value="not variable_set finishedbattle:yes"/>
-   </properties>
-  </object>
-  <object id="115" name="first battle won" type="event" x="128" y="0" width="16" height="16">
-   <properties>
-    <property name="act2" value="set_variable firstbattledone:yes"/>
-    <property name="act3" value="char_face kay_wren,down"/>
-    <property name="act4" value="set_variable ohnotyou:itsme"/>
-    <property name="act5" value="set_variable endbattleprof:yes"/>
-    <property name="cond1" value="is variable_set finishedbattle:yes"/>
-    <property name="cond2" value="is variable_set battle_last_result:won"/>
-    <property name="cond3" value="not variable_set endbattleprof:yes"/>
-   </properties>
-  </object>
-  <object id="116" name="first battle lost or draw" type="event" x="144" y="0" width="16" height="16">
-   <properties>
-    <property name="act2" value="modify_money player,120"/>
-    <property name="act3" value="set_variable firstbattledone:yes"/>
-    <property name="act4" value="char_face kay_wren,down"/>
-    <property name="act5" value="set_variable ohnotyou:itsme"/>
+    <property name="act1" value="set_monster_health"/>
+    <property name="act2" value="set_monster_status"/>
+    <property name="act3" value="translated_dialog sensai_duncan_test_complete"/>
+    <property name="act4" value="set_variable firstbattledone:yes"/>
+    <property name="act5" value="set_variable havetuxemon:yes"/>
     <property name="act6" value="set_variable endbattleprof:yes"/>
-    <property name="cond1" value="is variable_set finishedbattle:yes"/>
-    <property name="cond2" value="not variable_set battle_last_result:won"/>
-    <property name="cond3" value="not variable_set endbattleprof:yes"/>
+    <property name="act7" value="set_variable ohnotyou:itsme"/>
+    <property name="act8" value="set_variable sensai_duncan_test:complete"/>
+    <property name="act9" value="unlock_controls"/>
+    <property name="cond1" value="is variable_set sensai_duncan_test:finished"/>
+    <property name="cond2" value="not variable_set sensai_duncan_test:complete"/>
    </properties>
   </object>
-  <object id="117" name="shesarrived" type="event" x="192" y="192" width="16" height="16">
+
+<object id="117" name="shesarrived" type="event" x="192" y="192" width="16" height="16">
    <properties>
     <property name="act01" value="translated_dialog wewnicefight"/>
     <property name="act02" value="set_monster_health"/>

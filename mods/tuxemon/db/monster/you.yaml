@@ -1,5 +1,5 @@
 slug: you
-name: "You"
+name: You
 species: prehensile
 moveset:
 - level_learned: 1
@@ -9,6 +9,10 @@ moveset:
   technique: blast_double
 - level_learned: 1
   technique: spaz
+- level_learned: 1
+  technique: posture_up
+- level_learned: 1
+  technique: clamp_on
 evolutions: []
 history:
 - slug: bamboon
@@ -55,10 +59,7 @@ sounds:
 catch_rate: 70.0
 lower_catch_resistance: 0.95
 upper_catch_resistance: 1.05
-
 sprites:
   sheet: gfx/sprites/battle/you-sheet
   menu: gfx/sprites/menu/bamboon-menu
-
-
 speed: 200

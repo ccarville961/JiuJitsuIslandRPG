@@ -20013,3 +20013,12 @@ msgstr "Sensei Duncan: I will also teach you the Guillotine. Use it when an oppo
 
 msgid "guillotine_learned_popup"
 msgstr "GUILLOTINE LEARNED!"
+
+msgid "sensai_duncan_test_intro"
+msgstr "Sensei Duncan: Now show me what you learned. Use Posture Up and Guillotine during this spar."
+
+msgid "sensai_duncan_test_complete"
+msgstr "Sensei Duncan: Good work. Remember your posture, stay calm, and attack the neck when it is exposed."
+
+msgid "sensai_duncan"
+msgstr "Sensei Duncan"

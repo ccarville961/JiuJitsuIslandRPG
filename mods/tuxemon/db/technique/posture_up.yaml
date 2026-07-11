@@ -2,9 +2,9 @@ tech_id: 9003
 accuracy: 1.0
 effects:
 - type: damage
-speed: extremely_slow
+speed: normal
 potency: 0.0
-power: 1.0
+power: 1.8
 range: melee
 recharge: 0
 slug: posture_up
