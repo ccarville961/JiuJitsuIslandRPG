@@ -12029,41 +12029,35 @@ msgstr ""
 "Every athlete seems to have their own style, habits, and rituals."
 
 msgid "taba_house2_reading1"
-msgstr "The book is Visiting The King by Manolo Qai."
+msgstr "The book is Guard Fundamentals: Posture, Frames and Survival."
 
 msgid "taba_house2_reading2"
-msgstr "The book is Raised By Dreams by Louis Etrergo."
+msgstr "The book is The Complete Guide to Sweeps and Reversals."
 
 msgid "taba_house2_reading3"
-msgstr "The book is Children Without Honor by Leslie Greninza."
+msgstr "The book is Championship Mindset: Consistency Over Talent."
 
 msgid "taba_house2_reading4"
-msgstr "The book is Sailing Into Eternitys by Laurine Doprachuld."
+msgstr "The book is Strength Without Stiffness: Mobility for Grapplers."
 
 msgid "taba_house2_reader1a"
-msgstr "I feel better at the sight of a book or a bookstore."
+msgstr "A good grappler trains the body and studies the game."
 
 msgid "taba_house2_reader2a"
-msgstr "It ignites my imagination."
+msgstr "Every technique I study gives me another option on the mats."
 
 msgid "taba_house2_reader3a"
-msgstr "So I can live a thousand different lives."
+msgstr "The more positions I understand, the calmer I become during a roll."
 
 msgid "taba_house2_reader4a"
-msgstr ""
-"Reading stimulates my mind in a way that TV and movies will never be able "
-"to\n"
-" do."
+msgstr "Instructionals help, but you still need to drill each movement until it becomes instinct."
 
 msgid "taba_house2_books"
-msgstr ""
-"000 - Computer science, information and general works, 100 - Philosophy and "
-"psychology\n"
-"\n"
-"200 - Religion, 300 - Social sciences, 400 - Language, 500 - Pure Science, "
-"600 - Technology\n"
-"\n"
-"700 - Arts and recreation, 800 - Literature, 900 - History and geography"
+msgstr "Beginner study: posture, frames, escapes and guard retention.
+
+Intermediate study: sweeps, submissions, takedowns and guard passing.
+
+Advanced study: strategy, competition mindset, recovery and coaching."
 
 msgid "taba_house3_owner1"
 msgstr "Welcome to The Thoughtful Leaf Inn!"
