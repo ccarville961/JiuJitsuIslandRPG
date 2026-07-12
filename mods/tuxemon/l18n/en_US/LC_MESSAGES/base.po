@@ -8932,7 +8932,10 @@ msgid "cat_sand_bishop"
 msgstr "Sand Bishop"
 
 msgid "cat_sand_knight"
-msgstr "Sand Knight"
+msgstr "Sand Officer"
+
+msgid "sand_knight"
+msgstr "Sand Officer"
 
 msgid "cat_sand_pawn"
 msgstr "Sand Pawn"
@@ -9643,10 +9646,10 @@ msgid "allie"
 msgstr "Allie"
 
 msgid "knight1"
-msgstr "Knight I"
+msgstr "Officer I"
 
 msgid "knight2"
-msgstr "Knight II"
+msgstr "Officer II"
 
 msgid "liela"
 msgstr "Liela"
@@ -10825,9 +10828,7 @@ msgid "y-yes"
 msgstr "Y-yes... understood."
 
 msgid "soiwashearing11"
-msgstr ""
-"Good. Now move aside so I can speak with these so-called officers.\"knights."
-"\\"
+msgstr "Good. Now move aside so I can speak with these so-called officers."
 
 msgid "allofyounow"
 msgstr ""
@@ -12054,14 +12055,10 @@ msgstr "Instructionals help, but you still need to drill each movement until it 
 
 msgid "taba_house2_books"
 msgstr ""
-"Beginner study: posture, frames, escapes and guard retention.
-"
-"
-"
-"Intermediate study: sweeps, submissions, takedowns and guard passing.
-"
-"
-"
+"Beginner study: posture, frames, escapes and guard retention.\\n"
+"\\n"
+"Intermediate study: sweeps, submissions, takedowns and guard passing.\\n"
+"\\n"
 "Advanced study: strategy, competition mindset, recovery and coaching."
 
 msgid "taba_house3_owner1"
