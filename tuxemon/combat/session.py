@@ -305,7 +305,13 @@ class CombatSession:
     def get_start_message(self) -> str:
         """Determines and returns the appropriate alert message for combat start."""
         if self.combat_type is CombatType.TRAINER:
-            params = {"name": self.right_player.name}
+            params = {
+                "name": (
+                    self.right_player.monsters[0].name
+                    if self.right_player.monsters
+                    else self.right_player.name
+                )
+            }
             return T.format("combat_trainer_appeared", params)
         elif self.combat_type is CombatType.MONSTER:
             params = {"name": self.right_player.monsters[0].name}

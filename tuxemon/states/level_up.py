@@ -13,6 +13,15 @@ from tuxemon.platform.const.graphics import BG_MISSIONS
 
 _STAT_DISPLAY_ORDER = ["hp", "armour", "dodge", "melee", "ranged", "speed"]
 
+_STAT_DISPLAY_NAMES = {
+    "hp": "Stamina",
+    "armour": "Defence",
+    "dodge": "Agility",
+    "melee": "Grappling",
+    "ranged": "Technique",
+    "speed": "Scramble",
+}
+
 if TYPE_CHECKING:
     from tuxemon.base_client import BaseClient
     from tuxemon.monster.monster import Monster
@@ -80,7 +89,7 @@ class LevelUpSummaryState(PygameMenuState):
                 continue
             old, new, delta = self.diff[stat_name]
             sign = "+" if delta > 0 else ""
-            label = T.translate(stat_name).upper()
+            label = _STAT_DISPLAY_NAMES[stat_name].upper()
             text = f"{label}: {old} → {new} ({sign}{delta})"
             menu.add.label(text, font_size=self.font_type.small)
 

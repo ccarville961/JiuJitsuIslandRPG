@@ -152,6 +152,18 @@ def track_battles(
         )
 
 
+def _battle_display_name(character: NPC) -> str:
+    """
+    Return the Jiu-Jitsu fighter name used in player-facing battle text.
+
+    Trainer and NPC slugs remain unchanged internally. When the character
+    owns a fighter, the fighter's translated monster name is displayed.
+    """
+    if character.monsters:
+        return character.monsters[0].name
+    return character.name
+
+
 def _handle_win(
     session: Session,
     winner: NPC,
@@ -162,7 +174,7 @@ def _handle_win(
     combat_type: CombatType,
 ) -> str:
     """Handles the case where the human player won the battle."""
-    info = {"name": winner.name}
+    info = {"name": _battle_display_name(winner)}
 
     if combat_type == CombatType.TRAINER:
         for loser in losers:
@@ -206,7 +218,7 @@ def _handle_loss(
     combat_type: CombatType,
 ) -> str:
     """Handles the case where the human player lost the battle."""
-    info = {"name": loser.name}
+    info = {"name": _battle_display_name(loser)}
 
     if combat_type == CombatType.TRAINER:
         if loser.is_player:
