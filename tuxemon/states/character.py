@@ -59,21 +59,12 @@ class CharacterState(PygameMenuState):
         reporter = TuxepediaReporter(self.char.tuxepedia.data)
         completeness = reporter.get_completeness_report(len(filters))
         percentage = round(completeness["registered_percent"] * 100, 1)
-        seen = self.char.tuxepedia.get_seen_count()
-        caught = self.char.tuxepedia.get_caught_count()
-
         if self.char.tuxepedia.data.entries:
             _msg_progress = {"value": str(percentage)}
-            _msg_seen = {"param": str(seen + caught), "all": str(len(filters))}
-            _msg_caught = {"param": str(caught), "all": str(len(filters))}
         else:
             _msg_progress = {"value": "-"}
-            _msg_seen = {"param": "-", "all": "-"}
-            _msg_caught = {"param": "-", "all": "-"}
 
         msg_progress = T.format("tuxepedia_progress", _msg_progress)
-        msg_seen = T.format("tuxepedia_data_seen", _msg_seen)
-        msg_caught = T.format("tuxepedia_data_caught", _msg_caught)
 
         play_time = format_playtime(self.char.session._total_playtime)
         msg_begin = f"{T.translate('player_total_playtime')}: {play_time}"
@@ -129,24 +120,6 @@ class CharacterState(PygameMenuState):
             float=True,
         )
         lab2.translate(fxw(0.45), fxh(0.25))
-        # seen
-        lab3: Any = menu.add.label(
-            title=msg_seen,
-            label_id="seen",
-            font_size=self.font_type.smaller,
-            align=ALIGN_LEFT,
-            float=True,
-        )
-        lab3.translate(fxw(0.45), fxh(0.30))
-        # caught
-        lab4: Any = menu.add.label(
-            title=msg_caught,
-            label_id="caught",
-            font_size=self.font_type.smaller,
-            align=ALIGN_LEFT,
-            float=True,
-        )
-        lab4.translate(fxw(0.45), fxh(0.35))
         # total playtime
         lab5: Any = menu.add.label(
             title=msg_begin,
@@ -155,7 +128,7 @@ class CharacterState(PygameMenuState):
             align=ALIGN_LEFT,
             float=True,
         )
-        lab5.translate(fxw(0.45), fxh(0.40))
+        lab5.translate(fxw(0.45), fxh(0.30))
         # walked
         if steps > 0.0:
             lab6: Any = menu.add.label(
@@ -165,7 +138,7 @@ class CharacterState(PygameMenuState):
                 align=ALIGN_LEFT,
                 float=True,
             )
-            lab6.translate(fxw(0.45), fxh(0.45))
+            lab6.translate(fxw(0.45), fxh(0.35))
         # battles
         lab7: Any = menu.add.label(
             title=msg_battles,
@@ -174,7 +147,7 @@ class CharacterState(PygameMenuState):
             align=ALIGN_LEFT,
             float=True,
         )
-        lab7.translate(fxw(0.45), fxh(0.50))
+        lab7.translate(fxw(0.45), fxh(0.40))
         # % tuxepedia
         lab8: Any = menu.add.label(
             title=msg_progress,

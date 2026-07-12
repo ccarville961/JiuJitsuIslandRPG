@@ -4645,7 +4645,7 @@ msgid "mission_progress"
 msgstr "Progress"
 
 msgid "tuxepedia_progress"
-msgstr "Tuxepedia: {value}%!"
+msgstr "Jitspedia: {value}%!"
 
 msgid "tuxepedia_data_seen"
 msgstr "Seen {param} out of {all}"
@@ -12053,11 +12053,16 @@ msgid "taba_house2_reader4a"
 msgstr "Instructionals help, but you still need to drill each movement until it becomes instinct."
 
 msgid "taba_house2_books"
-msgstr "Beginner study: posture, frames, escapes and guard retention.
-
-Intermediate study: sweeps, submissions, takedowns and guard passing.
-
-Advanced study: strategy, competition mindset, recovery and coaching."
+msgstr ""
+"Beginner study: posture, frames, escapes and guard retention.
+"
+"
+"
+"Intermediate study: sweeps, submissions, takedowns and guard passing.
+"
+"
+"
+"Advanced study: strategy, competition mindset, recovery and coaching."
 
 msgid "taba_house3_owner1"
 msgstr "Welcome to The Thoughtful Leaf Inn!"
