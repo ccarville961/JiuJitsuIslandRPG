@@ -173,11 +173,12 @@
     <property name="act2" value="char_face player,right"/>
     <property name="act3" value="translated_dialog sensai_duncan_test_intro"/>
     <property name="act4" value="lock_controls"/>
-    <property name="act5" value="add_monster sensai_duncan,3,sensai_duncan,20,40"/>
+    <property name="act5" value="add_monster sensai_duncan,1,sensai_duncan,0,0"/>
     <property name="act6" value="start_battle player,sensai_duncan"/>
     <property name="act7" value="set_variable sensai_duncan_test:finished"/>
     <property name="cond1" value="is variable_set gettuxemon:now"/>
     <property name="cond2" value="not variable_set sensai_duncan_test:finished"/>
+    <property name="cond3" value="not variable_set sensai_duncan_test:complete"/>
    </properties>
   </object>
 
@@ -188,107 +189,14 @@
     <property name="act3" value="translated_dialog sensai_duncan_test_complete"/>
     <property name="act4" value="set_variable firstbattledone:yes"/>
     <property name="act5" value="set_variable havetuxemon:yes"/>
-    <property name="act6" value="set_variable endbattleprof:yes"/>
-    <property name="act7" value="set_variable ohnotyou:itsme"/>
-    <property name="act8" value="set_variable sensai_duncan_test:complete"/>
-    <property name="act9" value="unlock_controls"/>
+    <property name="act6" value="set_variable sensai_duncan_test:complete"/>
+    <property name="act7" value="unlock_controls"/>
     <property name="cond1" value="is variable_set sensai_duncan_test:finished"/>
-    <property name="cond2" value="not variable_set sensai_duncan_test:complete"/>
+    <property name="cond2" value="is battle_outcome player,won,sensai_duncan"/>
+    <property name="cond3" value="not variable_set sensai_duncan_test:complete"/>
    </properties>
   </object>
-
-<object id="117" name="shesarrived" type="event" x="192" y="192" width="16" height="16">
-   <properties>
-    <property name="act01" value="translated_dialog wewnicefight"/>
-    <property name="act02" value="set_monster_health"/>
-    <property name="act03" value="set_monster_status"/>
-    <property name="act04" value="lock_controls"/>
-    <property name="act10" value="translated_dialog yahaha"/>
-    <property name="act20" value="create_npc allie,6,15,stand"/>
-    <property name="act30" value="pathfind allie,4,8"/>
-    <property name="act40" value="char_face allie,right"/>
-    <property name="act50" value="wait 0.7"/>
-    <property name="act60" value="translated_dialog gasp"/>
-    <property name="act70" value="pathfind allie,5,9"/>
-    <property name="act80" value="char_face allie,right"/>
-    <property name="act81" value="char_face player,left"/>
-    <property name="act90" value="translated_dialog gasp2"/>
-    <property name="act99" value="set_variable ohnotyou:gasp"/>
-    <property name="cond1" value="is variable_set ohnotyou:itsme"/>
-   </properties>
-  </object>
-  <object id="118" name="shesarrived2" type="event" x="192" y="192" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog brokethegasp"/>
-    <property name="act20" value="char_face allie,up"/>
-    <property name="act21" value="char_face player,up"/>
-    <property name="act30" value="translated_dialog brokethegasp2"/>
-    <property name="act40" value="translated_dialog brokethegasp3"/>
-    <property name="act50" value="wait 1"/>
-    <property name="act60" value="char_face allie,right"/>
-    <property name="act70" value="wait 1"/>
-    <property name="act71" value="char_face player,left"/>
-    <property name="act80" value="translated_dialog gasp3"/>
-    <property name="act81" value="wait 1.5"/>
-    <property name="act90" value="translated_dialog gasp4"/>
-    <property name="act99" value="set_variable ohnotyou:gone"/>
-    <property name="cond1" value="is variable_set ohnotyou:gasp"/>
-   </properties>
-  </object>
-  <object id="119" name="shesarrived3" type="event" x="192" y="192" width="16" height="16">
-   <properties>
-    <property name="act10" value="create_npc knight1,7,15,stand"/>
-    <property name="act20" value="create_npc knight2,7,16,stand"/>
-    <property name="act30" value="pathfind knight1,5,7"/>
-    <property name="act40" value="pathfind knight2,7,7"/>
-    <property name="act50" value="char_face knight1,down"/>
-    <property name="act60" value="char_face knight2,down"/>
-    <property name="act61" value="wait 0.7"/>
-    <property name="act70" value="set_variable timetomove:yes"/>
-    <property name="act80" value="set_variable ohnotyou:removed"/>
-    <property name="act90" value="char_face allie,up"/>
-    <property name="cond1" value="is variable_set ohnotyou:gone"/>
-   </properties>
-  </object>
-  <object id="120" name="movin" type="event" x="96" y="48" width="16" height="16">
-   <properties>
-    <property name="act1" value="char_move knight2,down 8,left 1"/>
-    <property name="act2" value="remove_npc knight2"/>
-    <property name="act3" value="set_variable timetomove:done"/>
-    <property name="cond1" value="is variable_set timetomove:yes"/>
-   </properties>
-  </object>
-  <object id="122" name="movin2" type="event" x="96" y="48" width="16" height="16">
-   <properties>
-    <property name="act1" value="char_move knight1,right 2,down 8,left 1"/>
-    <property name="act2" value="remove_npc knight1"/>
-    <property name="act4" value="char_face allie,right"/>
-    <property name="cond1" value="is variable_set timetomove:yes"/>
-   </properties>
-  </object>
-  <object id="123" name="movin3" type="event" x="96" y="48" width="16" height="16">
-   <properties>
-    <property name="act1" value="char_move kay_wren,right 1,down 8,left 1"/>
-    <property name="act2" value="remove_npc kay_wren"/>
-    <property name="cond1" value="is variable_set timetomove:yes"/>
-   </properties>
-  </object>
-  <object id="124" name="leavin" type="event" x="96" y="48" width="16" height="16">
-   <properties>
-    <property name="act10" value="char_face player,left"/>
-    <property name="act20" value="translated_dialog goodbye"/>
-    <property name="act30" value="pathfind allie,6,17"/>
-    <property name="act40" value="char_face player,down"/>
-    <property name="act50" value="translated_dialog goodbye2"/>
-    <property name="act60" value="remove_npc allie"/>
-    <property name="act70" value="set_variable timetomove:finite"/>
-    <property name="act80" value="set_variable announcetwo:done"/>
-    <property name="act90" value="wait 1"/>
-    <property name="act91" value="unlock_controls"/>
-    <property name="cond1" value="is variable_set timetomove:done"/>
-   </properties>
-  </object>
-  <object id="130" name="Environment" type="event" x="0" y="0" width="16" height="16">
+<object id="130" name="Environment" type="event" x="0" y="0" width="16" height="16">
    <properties>
     <property name="act1" value="set_environment interior"/>
     <property name="cond1" value="not environment_is interior"/>

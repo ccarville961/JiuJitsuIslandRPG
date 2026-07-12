@@ -295,7 +295,16 @@ def build_hud_text(
     if not is_trainer and is_status and not is_right:
         symbol = "◉"
 
+    display_name = monster.name
+
+    # For the player's active monster, show the trainer's chosen name
+    # instead of the monster template name ("You").
+    if is_right:
+        owner = monster.get_owner()
+        if owner is not None and getattr(owner, "name", None):
+            display_name = owner.name
+
     return {
-        "line1": f"{monster.name}{monster.gender_symbol} Lv.{monster.level}{symbol}",
+        "line1": f"{display_name}{monster.gender_symbol} Lv.{monster.level}{symbol}",
         "line2": "",
     }

@@ -52,6 +52,22 @@ class AddTechAction(EventAction):
     def start(self, session: Session) -> None:
         player = session.player
 
+        logger.warning(
+            "ADD_TECH DEBUG party=%s variable=%s value=%s",
+            [
+                (
+                    monster.slug,
+                    monster.instance_id.hex,
+                    [move.slug for move in monster.moves.current_moves],
+                )
+                for monster in player.monsters
+            ],
+            self.variable,
+            player.game_variables.get(self.variable)
+            if player.game_variables.has(self.variable)
+            else None,
+        )
+
         monster_id = get_valid_uuid(player.game_variables, self.variable)
         if monster_id is None:
             logger.info(

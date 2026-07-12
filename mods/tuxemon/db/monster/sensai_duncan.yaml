@@ -3,10 +3,7 @@ name: Sensei Duncan
 species: gunner
 moveset:
 - level_learned: 1
-  technique: posture_up
-  learning_method: level_up
-- level_learned: 1
-  technique: clamp_on
+  technique: struggle
   learning_method: level_up
 - level_learned: 1
   technique: struggle
@@ -61,3 +58,4 @@ sprites:
   sheet: gfx/sprites/battle/sensai_duncan-sheet
   menu: gfx/sprites/menu/embazook-menu
 speed: 1
+max_moves: 1
