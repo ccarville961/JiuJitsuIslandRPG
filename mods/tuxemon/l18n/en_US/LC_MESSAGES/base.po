@@ -20018,7 +20018,7 @@ msgid "sensai_duncan_test_intro"
 msgstr "Sensei Duncan: Now show me what you learned. Use Posture Up and Guillotine during this spar."
 
 msgid "sensai_duncan_test_complete"
-msgstr "Sensei Duncan: Good work. Remember your posture, stay calm, and attack the neck when it is exposed."
+msgstr "Sensei Duncan: Excellent work. You used your new techniques well. Your registration is complete, and you are ready to continue your journey."
 
 msgid "sensai_duncan"
 msgstr "Sensei Duncan"
