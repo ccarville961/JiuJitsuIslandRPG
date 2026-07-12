@@ -81,6 +81,7 @@
     <property name="cond4" value="not variable_set startchoice:yes"/>
     <property name="cond5" value="not variable_set startchoice:no"/>
     <property name="cond6" value="not variable_set stoptalking:now"/>
+    <property name="cond7" value="not variable_set sensai_duncan_test:complete"/>
    </properties>
   </object>
   <object id="98" name="startchoice1" type="event" x="0" y="224" width="16" height="16">
@@ -135,16 +136,21 @@
     <property name="act70" value="translated_dialog obtainedpapers"/>
     <property name="act71" value="add_monster you,5"/>
     <property name="act72" value="get_party_monster player"/>
-    <property name="act73" value="translated_dialog sensai_duncan_triangle_lesson_1"/>
-    <property name="act74" value="translated_dialog sensai_duncan_triangle_lesson_2"/>
-    <property name="act75" value="translated_dialog sensai_duncan_triangle_lesson_3"/>
-    <property name="act76" value="add_tech iid_slot_0,posture_up"/>
-    <property name="act77" value="translated_dialog posture_up_learned_popup"/>
-    <property name="act78" value="translated_dialog sensai_duncan_guillotine_lesson"/>
-    <property name="act79" value="add_tech iid_slot_0,clamp_on"/>
-    <property name="act80" value="translated_dialog guillotine_learned_popup"/>
-    <property name="act80" value="set_variable sensai_duncan_atlas_lesson:learned"/>
-    <property name="act81" value="set_variable movingon:now"/>
+
+    <!-- Force the actual player combat instance to know all four early moves. -->
+    <property name="act73" value="add_tech iid_slot_0,blast_double"/>
+    <property name="act74" value="add_tech iid_slot_0,spaz"/>
+
+    <property name="act75" value="translated_dialog sensai_duncan_triangle_lesson_1"/>
+    <property name="act76" value="translated_dialog sensai_duncan_triangle_lesson_2"/>
+    <property name="act77" value="translated_dialog sensai_duncan_triangle_lesson_3"/>
+    <property name="act78" value="add_tech iid_slot_0,posture_up"/>
+    <property name="act79" value="translated_dialog posture_up_learned_popup"/>
+    <property name="act80" value="translated_dialog sensai_duncan_guillotine_lesson"/>
+    <property name="act81" value="add_tech iid_slot_0,clamp_on"/>
+    <property name="act82" value="translated_dialog guillotine_learned_popup"/>
+    <property name="act83" value="set_variable sensai_duncan_atlas_lesson:learned"/>
+    <property name="act84" value="set_variable movingon:now"/>
     <property name="act90" value="set_variable wemoving:finished"/>
     <property name="cond1" value="is variable_set wemoving:done"/>
     <property name="cond2" value="not variable_set movingon:now"/>
@@ -164,6 +170,7 @@
     <property name="act1" value="wait 1"/>
     <property name="act2" value="pathfind player,7,8"/>
     <property name="cond1" value="is variable_set wemoving:finished"/>
+    <property name="cond2" value="not variable_set sensai_duncan_test:finished"/>
    </properties>
   </object>
 
@@ -172,30 +179,34 @@
     <property name="act1" value="char_face sensai_duncan,left"/>
     <property name="act2" value="char_face player,right"/>
     <property name="act3" value="translated_dialog sensai_duncan_test_intro"/>
-    <property name="act4" value="lock_controls"/>
-    <property name="act5" value="add_monster sensai_duncan,1,sensai_duncan,0,0"/>
-    <property name="act6" value="start_battle player,sensai_duncan"/>
-    <property name="act7" value="set_variable sensai_duncan_test:finished"/>
+    <property name="act4" value="set_monster_health"/>
+    <property name="act5" value="set_monster_status"/>
+    <property name="act6" value="add_monster sensai_duncan,1,sensai_duncan,5,10"/>
+    <property name="act7" value="start_battle player,sensai_duncan"/>
+    <property name="act8" value="set_variable finishedbattle:yes"/>
     <property name="cond1" value="is variable_set gettuxemon:now"/>
-    <property name="cond2" value="not variable_set sensai_duncan_test:finished"/>
+    <property name="cond2" value="not variable_set firstbattledone:yes"/>
+    <property name="cond3" value="not variable_set finishedbattle:yes"/>
+   </properties>
+  </object>
+
+  <object id="114" name="Sensei Duncan battle won" type="event" x="112" y="0" width="16" height="16">
+   <properties>
+    <property name="act1" value="set_monster_health"/>
+    <property name="act2" value="set_monster_status"/>
+    <property name="act3" value="char_face sensai_duncan,left"/>
+    <property name="act4" value="translated_dialog sensai_duncan_test_complete"/>
+    <property name="act5" value="set_variable firstbattledone:yes"/>
+    <property name="act6" value="set_variable havetuxemon:yes"/>
+    <property name="act7" value="set_variable sensai_duncan_test:complete"/>
+    <property name="act8" value="set_variable announcetwo:done"/>
+    <property name="act9" value="unlock_controls"/>
+    <property name="cond1" value="is variable_set finishedbattle:yes"/>
+    <property name="cond2" value="is variable_set battle_last_result:won"/>
     <property name="cond3" value="not variable_set sensai_duncan_test:complete"/>
    </properties>
   </object>
 
-  <object id="114" name="Sensei Duncan tutorial complete" type="event" x="112" y="0" width="16" height="16">
-   <properties>
-    <property name="act1" value="set_monster_health"/>
-    <property name="act2" value="set_monster_status"/>
-    <property name="act3" value="translated_dialog sensai_duncan_test_complete"/>
-    <property name="act4" value="set_variable firstbattledone:yes"/>
-    <property name="act5" value="set_variable havetuxemon:yes"/>
-    <property name="act6" value="set_variable sensai_duncan_test:complete"/>
-    <property name="act7" value="unlock_controls"/>
-    <property name="cond1" value="is variable_set sensai_duncan_test:finished"/>
-    <property name="cond2" value="is battle_outcome player,won,sensai_duncan"/>
-    <property name="cond3" value="not variable_set sensai_duncan_test:complete"/>
-   </properties>
-  </object>
 <object id="130" name="Environment" type="event" x="0" y="0" width="16" height="16">
    <properties>
     <property name="act1" value="set_environment interior"/>

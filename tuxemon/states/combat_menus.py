@@ -386,13 +386,29 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
             else:
                 moves_to_show = self.monster.moves.get_moves()
 
+                # Restrict the player's techniques only during the actual
+                # Coach Atlas prologue battle. The story marker can persist
+                # after that encounter, so also verify Atlas is participating.
+                # Coach Atlas is a combat monster, not necessarily the
+                # trainer/NPC slug. Check the actual opposing monsters.
+                atlas_is_participating = any(
+                    getattr(opponent, "slug", None) == "coach_atlas"
+                    for opponent in self.opponents
+                )
+
                 if (
-                    getattr(self.session, "jji_story_battle", None) == "atlas_prologue"
+                    getattr(self.session, "jji_story_battle", None)
+                    == "atlas_prologue"
+                    and atlas_is_participating
                     and self.character == self.combat_session.left_player
                 ):
                     step = getattr(self.session, "jji_story_step", 0)
                     allowed = "blast_double" if step == 0 else "spaz"
-                    moves_to_show = [tech for tech in moves_to_show if tech.slug == allowed]
+                    moves_to_show = [
+                        tech
+                        for tech in moves_to_show
+                        if tech.slug == allowed
+                    ]
 
                 for tech in moves_to_show:
                     usable = any(

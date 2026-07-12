@@ -7,12 +7,16 @@ moveset:
   learning_method: fallback
 - level_learned: 1
   technique: blast_double
+  learning_method: level_up
 - level_learned: 1
   technique: spaz
+  learning_method: level_up
 - level_learned: 1
   technique: posture_up
+  learning_method: level_up
 - level_learned: 1
   technique: clamp_on
+  learning_method: level_up
 evolutions: []
 history:
 - slug: bamboon
@@ -63,3 +67,4 @@ sprites:
   sheet: gfx/sprites/battle/you-sheet
   menu: gfx/sprites/menu/bamboon-menu
 speed: 200
+max_moves: 4
