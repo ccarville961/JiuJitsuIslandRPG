@@ -196,11 +196,13 @@
     <property name="act2" value="set_monster_status"/>
     <property name="act3" value="char_face sensai_duncan,left"/>
     <property name="act4" value="translated_dialog sensai_duncan_test_complete"/>
-    <property name="act5" value="set_variable firstbattledone:yes"/>
-    <property name="act6" value="set_variable havetuxemon:yes"/>
-    <property name="act7" value="set_variable sensai_duncan_test:complete"/>
-    <property name="act8" value="set_variable announcetwo:done"/>
-    <property name="act9" value="unlock_controls"/>
+    <property name="act5" value="cleanup_duplicate_you"/>
+    <property name="act6" value="set_variable prologue_you_removed:yes"/>
+    <property name="act7" value="set_variable firstbattledone:yes"/>
+    <property name="act8" value="set_variable havetuxemon:yes"/>
+    <property name="act9" value="set_variable sensai_duncan_test:complete"/>
+    <property name="act10" value="set_variable announcetwo:done"/>
+    <property name="act11" value="unlock_controls"/>
     <property name="cond1" value="is variable_set finishedbattle:yes"/>
     <property name="cond2" value="is variable_set battle_last_result:won"/>
     <property name="cond3" value="not variable_set sensai_duncan_test:complete"/>

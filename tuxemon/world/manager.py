@@ -205,15 +205,6 @@ class WorldMenuManager:
         param = {"character": player}
         current_menu: list[MenuItem] = []
 
-        if player.monsters and self.menu_flags.is_enabled("menu_monster"):
-            current_menu.append(
-                MenuItem(
-                    "menu_monster",
-                    T.translate("menu_monster").upper(),
-                    self.menu_renderer.open_monster_menu,
-                )
-            )
-
         if player.items and self.menu_flags.is_enabled("menu_bag"):
             items_filtered = ItemFilter(player.items)
             items_filtered.set_filter_all_visible()
