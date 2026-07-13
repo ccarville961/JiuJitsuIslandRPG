@@ -1,5 +1,5 @@
 battle_graphics:
-  background: gfx/ui/combat/battle_interior.png
+  background: gfx/ui/combat/battle_training_hall.png
   hud:
     hud_opponent: gfx/ui/combat/hp_opponent_nohp.png
     hud_player: gfx/ui/combat/hp_player_nohp.png

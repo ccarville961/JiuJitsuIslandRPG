@@ -5653,7 +5653,7 @@ msgstr ""
 " out, there will be no more CHLORAGON."
 
 msgid "chloragon"
-msgstr "Berimbolo Ben"
+msgstr "Driller Jason"
 
 msgid "chromeye_description"
 msgstr "CHROMEYE was created to observe and learn how humans think and feel."
