@@ -6623,7 +6623,7 @@ msgstr ""
 "It is placed in its nut by its parent, who then sends it into the world."
 
 msgid "lambert"
-msgstr "Panic Pete"
+msgstr "Cradle Cam"
 
 msgid "lapinou_description"
 msgstr ""
@@ -6860,7 +6860,7 @@ msgstr ""
 "to heighten its senses."
 
 msgid "mystikapi"
-msgstr "Moody Molly"
+msgstr "Granby Garth"
 
 msgid "narcileaf_description"
 msgstr ""

@@ -5,6 +5,6 @@ speech:
 combat: {}
 audio: {}
 template:
-  sprite_name: disciple
+  sprite_name: bluebelt_boss
   combat_sheet: disciple
   slug: disciple
