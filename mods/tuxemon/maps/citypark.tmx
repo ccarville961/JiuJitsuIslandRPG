@@ -63,6 +63,7 @@
   <object id="130" type="collision" x="96" y="512" width="48" height="32"/>
  </objectgroup>
  <objectgroup color="#ffff00" id="6" name="Events">
+  <!-- JJI LEATHER CHECKPOINT SMOOTH MOVEMENT -->
   <object id="33" name="random encounter 1" type="event" x="208" y="176" width="128" height="32">
    <properties>
     <property name="act10" value="random_encounter default_encounter"/>
@@ -428,6 +429,7 @@
     <property name="act20" value="char_face player,right"/>
     <property name="cond10" value="is char_at player"/>
     <property name="cond20" value="is char_facing player,right"/>
+    <property name="cond30" value="is has_item player,purple_belt"/>
    </properties>
   </object>
   <object id="124" name="Environment Day" type="event" x="16" y="0" width="16" height="16">
@@ -452,5 +454,281 @@
     <property name="cond2" value="is char_facing player,up"/>
    </properties>
   </object>
+  <!-- JJI LEATHER PURPLE BELT CHECKPOINT -->
+  <!-- JJI LEATHER PURPLE BELT CHECKPOINT -->
+
+  <!-- Closed formation before the rite of passage is completed. -->
+  <object id="136" name="Create closed Leather Town checkpoint" type="event" x="608" y="160" width="16" height="96">
+   <properties>
+    <property name="act10" value="create_npc leather_officer_1,38,11,stand"/>
+    <property name="act20" value="char_face leather_officer_1,left"/>
+    <property name="act30" value="create_npc leather_officer_2,38,12,stand"/>
+    <property name="act40" value="char_face leather_officer_2,left"/>
+    <property name="act50" value="create_npc leather_officer_3,38,13,stand"/>
+    <property name="act60" value="char_face leather_officer_3,left"/>
+    <property name="act70" value="create_npc leather_officer_4,38,14,stand"/>
+    <property name="act80" value="char_face leather_officer_4,left"/>
+    <property name="cond10" value="not char_exists leather_officer_1"/>
+    <property name="cond20" value="not char_exists leather_officer_2"/>
+    <property name="cond30" value="not char_exists leather_officer_3"/>
+    <property name="cond40" value="not char_exists leather_officer_4"/>
+    <property name="cond50" value="not variable_set leather_checkpoint:open"/>
+   </properties>
+  </object>
+
+  <!-- Open formation used after the Purple Belt has been verified. -->
+  <object id="137" name="Create open Leather Town checkpoint" type="event" x="608" y="144" width="16" height="128">
+   <properties>
+    <property name="act10" value="create_npc leather_officer_1,38,10,stand"/>
+    <property name="act20" value="char_face leather_officer_1,left"/>
+
+    <property name="act30" value="create_npc leather_officer_2,38,11,stand"/>
+    <property name="act40" value="char_face leather_officer_2,left"/>
+
+    <property name="act50" value="create_npc leather_officer_3,38,14,stand"/>
+    <property name="act60" value="char_face leather_officer_3,left"/>
+
+    <property name="act70" value="create_npc leather_officer_4,38,15,stand"/>
+    <property name="act80" value="char_face leather_officer_4,left"/>
+
+    <property name="cond10" value="not char_exists leather_officer_1"/>
+    <property name="cond20" value="not char_exists leather_officer_2"/>
+    <property name="cond30" value="not char_exists leather_officer_3"/>
+    <property name="cond40" value="not char_exists leather_officer_4"/>
+    <property name="cond50" value="is variable_set leather_checkpoint:open"/>
+   </properties>
+  </object>
+
+  <!-- JJI LEATHER CHECKPOINT BELT CHECK -->
+
+  <!-- JJI LEATHER CHECKPOINT INTERACTION LOGIC -->
+
+  <object id="138" name="leather_officer_1 blocks player without Purple Belt" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_leather_officer_1_blocked"/>
+    <property name="behav1" value="talk leather_officer_1"/>
+    <property name="cond10" value="not has_item player,purple_belt"/>
+    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+   </properties>
+  </object>
+
+  <object id="139" name="leather_officer_1 verifies Purple Belt" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="lock_controls"/>
+    <property name="act20" value="translated_dialog jji_leather_checkpoint_verified"/>
+
+    <property name="act30" value="remove_npc leather_officer_1"/>
+    <property name="act40" value="remove_npc leather_officer_2"/>
+    <property name="act50" value="remove_npc leather_officer_3"/>
+    <property name="act60" value="remove_npc leather_officer_4"/>
+
+    <property name="act70" value="create_npc leather_officer_1,38,10,stand"/>
+    <property name="act80" value="char_face leather_officer_1,left"/>
+
+    <property name="act90" value="create_npc leather_officer_2,38,11,stand"/>
+    <property name="act100" value="char_face leather_officer_2,left"/>
+
+    <property name="act110" value="create_npc leather_officer_3,38,14,stand"/>
+    <property name="act120" value="char_face leather_officer_3,left"/>
+
+    <property name="act130" value="create_npc leather_officer_4,38,15,stand"/>
+    <property name="act140" value="char_face leather_officer_4,left"/>
+
+    <property name="act150" value="set_variable leather_checkpoint:open"/>
+    <property name="act160" value="set_variable leather_checkpoint:moved"/>
+    <property name="act170" value="set_variable leather_checkpoint_layout:v2"/>
+    <property name="act180" value="unlock_controls"/>
+
+    <property name="behav1" value="talk leather_officer_1"/>
+    <property name="cond10" value="is has_item player,purple_belt"/>
+    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+   </properties>
+  </object>
+
+  <object id="140" name="leather_officer_1 speaks after checkpoint opens" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_leather_officer_1_open"/>
+    <property name="behav1" value="talk leather_officer_1"/>
+    <property name="cond10" value="is variable_set leather_checkpoint:open"/>
+   </properties>
+  </object>
+
+  <object id="141" name="leather_officer_2 blocks player without Purple Belt" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_leather_officer_2_blocked"/>
+    <property name="behav1" value="talk leather_officer_2"/>
+    <property name="cond10" value="not has_item player,purple_belt"/>
+    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+   </properties>
+  </object>
+
+  <object id="142" name="leather_officer_2 verifies Purple Belt" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="lock_controls"/>
+    <property name="act20" value="translated_dialog jji_leather_checkpoint_verified"/>
+
+    <property name="act30" value="remove_npc leather_officer_1"/>
+    <property name="act40" value="remove_npc leather_officer_2"/>
+    <property name="act50" value="remove_npc leather_officer_3"/>
+    <property name="act60" value="remove_npc leather_officer_4"/>
+
+    <property name="act70" value="create_npc leather_officer_1,38,10,stand"/>
+    <property name="act80" value="char_face leather_officer_1,left"/>
+
+    <property name="act90" value="create_npc leather_officer_2,38,11,stand"/>
+    <property name="act100" value="char_face leather_officer_2,left"/>
+
+    <property name="act110" value="create_npc leather_officer_3,38,14,stand"/>
+    <property name="act120" value="char_face leather_officer_3,left"/>
+
+    <property name="act130" value="create_npc leather_officer_4,38,15,stand"/>
+    <property name="act140" value="char_face leather_officer_4,left"/>
+
+    <property name="act150" value="set_variable leather_checkpoint:open"/>
+    <property name="act160" value="set_variable leather_checkpoint:moved"/>
+    <property name="act170" value="set_variable leather_checkpoint_layout:v2"/>
+    <property name="act180" value="unlock_controls"/>
+
+    <property name="behav1" value="talk leather_officer_2"/>
+    <property name="cond10" value="is has_item player,purple_belt"/>
+    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+   </properties>
+  </object>
+
+  <object id="143" name="leather_officer_2 speaks after checkpoint opens" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_leather_officer_2_open"/>
+    <property name="behav1" value="talk leather_officer_2"/>
+    <property name="cond10" value="is variable_set leather_checkpoint:open"/>
+   </properties>
+  </object>
+
+  <object id="144" name="leather_officer_3 blocks player without Purple Belt" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_leather_officer_3_blocked"/>
+    <property name="behav1" value="talk leather_officer_3"/>
+    <property name="cond10" value="not has_item player,purple_belt"/>
+    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+   </properties>
+  </object>
+
+  <object id="145" name="leather_officer_3 verifies Purple Belt" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="lock_controls"/>
+    <property name="act20" value="translated_dialog jji_leather_checkpoint_verified"/>
+
+    <property name="act30" value="remove_npc leather_officer_1"/>
+    <property name="act40" value="remove_npc leather_officer_2"/>
+    <property name="act50" value="remove_npc leather_officer_3"/>
+    <property name="act60" value="remove_npc leather_officer_4"/>
+
+    <property name="act70" value="create_npc leather_officer_1,38,10,stand"/>
+    <property name="act80" value="char_face leather_officer_1,left"/>
+
+    <property name="act90" value="create_npc leather_officer_2,38,11,stand"/>
+    <property name="act100" value="char_face leather_officer_2,left"/>
+
+    <property name="act110" value="create_npc leather_officer_3,38,14,stand"/>
+    <property name="act120" value="char_face leather_officer_3,left"/>
+
+    <property name="act130" value="create_npc leather_officer_4,38,15,stand"/>
+    <property name="act140" value="char_face leather_officer_4,left"/>
+
+    <property name="act150" value="set_variable leather_checkpoint:open"/>
+    <property name="act160" value="set_variable leather_checkpoint:moved"/>
+    <property name="act170" value="set_variable leather_checkpoint_layout:v2"/>
+    <property name="act180" value="unlock_controls"/>
+
+    <property name="behav1" value="talk leather_officer_3"/>
+    <property name="cond10" value="is has_item player,purple_belt"/>
+    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+   </properties>
+  </object>
+
+  <object id="146" name="leather_officer_3 speaks after checkpoint opens" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_leather_officer_3_open"/>
+    <property name="behav1" value="talk leather_officer_3"/>
+    <property name="cond10" value="is variable_set leather_checkpoint:open"/>
+   </properties>
+  </object>
+
+  <object id="147" name="leather_officer_4 blocks player without Purple Belt" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_leather_officer_4_blocked"/>
+    <property name="behav1" value="talk leather_officer_4"/>
+    <property name="cond10" value="not has_item player,purple_belt"/>
+    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+   </properties>
+  </object>
+
+  <object id="148" name="leather_officer_4 verifies Purple Belt" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="lock_controls"/>
+    <property name="act20" value="translated_dialog jji_leather_checkpoint_verified"/>
+
+    <property name="act30" value="remove_npc leather_officer_1"/>
+    <property name="act40" value="remove_npc leather_officer_2"/>
+    <property name="act50" value="remove_npc leather_officer_3"/>
+    <property name="act60" value="remove_npc leather_officer_4"/>
+
+    <property name="act70" value="create_npc leather_officer_1,38,10,stand"/>
+    <property name="act80" value="char_face leather_officer_1,left"/>
+
+    <property name="act90" value="create_npc leather_officer_2,38,11,stand"/>
+    <property name="act100" value="char_face leather_officer_2,left"/>
+
+    <property name="act110" value="create_npc leather_officer_3,38,14,stand"/>
+    <property name="act120" value="char_face leather_officer_3,left"/>
+
+    <property name="act130" value="create_npc leather_officer_4,38,15,stand"/>
+    <property name="act140" value="char_face leather_officer_4,left"/>
+
+    <property name="act150" value="set_variable leather_checkpoint:open"/>
+    <property name="act160" value="set_variable leather_checkpoint:moved"/>
+    <property name="act170" value="set_variable leather_checkpoint_layout:v2"/>
+    <property name="act180" value="unlock_controls"/>
+
+    <property name="behav1" value="talk leather_officer_4"/>
+    <property name="cond10" value="is has_item player,purple_belt"/>
+    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+   </properties>
+  </object>
+
+  <object id="149" name="leather_officer_4 speaks after checkpoint opens" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_leather_officer_4_open"/>
+    <property name="behav1" value="talk leather_officer_4"/>
+    <property name="cond10" value="is variable_set leather_checkpoint:open"/>
+   </properties>
+  </object>
+
+  <!-- JJI LEATHER CHECKPOINT V2 MIGRATION -->
+  <object id="150" name="Migrate Leather checkpoint to open layout" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="remove_npc leather_officer_1"/>
+    <property name="act20" value="remove_npc leather_officer_2"/>
+    <property name="act30" value="remove_npc leather_officer_3"/>
+    <property name="act40" value="remove_npc leather_officer_4"/>
+
+    <property name="act50" value="create_npc leather_officer_1,38,10,stand"/>
+    <property name="act60" value="char_face leather_officer_1,left"/>
+
+    <property name="act70" value="create_npc leather_officer_2,38,11,stand"/>
+    <property name="act80" value="char_face leather_officer_2,left"/>
+
+    <property name="act90" value="create_npc leather_officer_3,38,14,stand"/>
+    <property name="act100" value="char_face leather_officer_3,left"/>
+
+    <property name="act110" value="create_npc leather_officer_4,38,15,stand"/>
+    <property name="act120" value="char_face leather_officer_4,left"/>
+
+    <property name="act130" value="set_variable leather_checkpoint_layout:v2"/>
+
+    <property name="cond10" value="is variable_set leather_checkpoint:open"/>
+    <property name="cond20" value="not variable_set leather_checkpoint_layout:v2"/>
+   </properties>
+  </object>
+
  </objectgroup>
 </map>

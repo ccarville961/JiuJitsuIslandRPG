@@ -50,5 +50,69 @@
     <property name="cond2" value="is char_facing player,down"/>
    </properties>
   </object>
+
+  <!-- JJI SCRAMBLE STEVE ENCOUNTER -->
+
+  <object id="72" name="Create Scramble Steve" type="event" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc scramble_steve,5,4,stand"/>
+    <property name="act20" value="char_face scramble_steve,down"/>
+    <property name="cond10" value="not char_exists scramble_steve"/>
+   </properties>
+  </object>
+
+  <object id="73" name="Scramble Steve entrance dialogue and battle" type="event" x="96" y="112" width="16" height="16">
+   <properties>
+    <property name="act10" value="lock_controls"/>
+    <property name="act20" value="char_face scramble_steve,down"/>
+    <property name="act30" value="translated_dialog jji_scramble_steve_entry"/>
+    <property name="act40" value="add_monster scramble_steve,30,scramble_steve,115,100"/>
+    <property name="act50" value="set_variable scramble_steve_battle:started"/>
+    <property name="act60" value="set_environment scramble_steve_house"/>
+    <property name="act70" value="start_battle player,scramble_steve"/>
+    <property name="act80" value="set_environment interior"/>
+    <property name="act90" value="set_variable scramble_steve_battle:return"/>
+    <property name="act100" value="set_variable scramble_steve_intro:done"/>
+    <property name="act110" value="unlock_controls"/>
+    <property name="cond10" value="is char_at player"/>
+    <property name="cond20" value="not variable_set scramble_steve_intro:done"/>
+    <property name="cond30" value="not variable_set scramble_steve_reward:done"/>
+    <property name="cond40" value="not variable_set scramble_steve_battle:started"/>
+   </properties>
+  </object>
+
+  <object id="75" name="Scramble Steve victory reward" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="lock_controls"/>
+    <property name="act20" value="char_face scramble_steve,down"/>
+    <property name="act30" value="translated_dialog jji_scramble_steve_victory"/>
+    <property name="act40" value="add_item purple_belt,1"/>
+    <property name="act50" value="set_variable scramble_steve_reward:done"/>
+    <property name="act60" value="clear_variable scramble_steve_battle"/>
+    <property name="act70" value="unlock_controls"/>
+    <property name="cond10" value="is variable_set scramble_steve_battle:return"/>
+    <property name="cond20" value="is battle_outcome player,won,scramble_steve"/>
+    <property name="cond30" value="not variable_set scramble_steve_reward:done"/>
+   </properties>
+  </object>
+
+  <object id="76" name="Scramble Steve loss cleanup" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="clear_variable scramble_steve_battle"/>
+    <property name="act20" value="clear_variable scramble_steve_intro"/>
+    <property name="act30" value="unlock_controls"/>
+    <property name="cond10" value="is variable_set scramble_steve_battle:return"/>
+    <property name="cond20" value="is battle_outcome player,lost,scramble_steve"/>
+   </properties>
+  </object>
+
+  <object id="77" name="Scramble Steve post victory dialogue" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_scramble_steve_after"/>
+    <property name="behav1" value="talk scramble_steve"/>
+    <property name="cond10" value="is variable_set scramble_steve_reward:done"/>
+   </properties>
+  </object>
+
  </objectgroup>
 </map>

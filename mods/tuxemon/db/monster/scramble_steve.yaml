@@ -1,0 +1,44 @@
+slug: scramble_steve
+species: gumnut
+moveset:
+- level_learned: 1
+  technique: struggle
+  learning_method: fallback
+- level_learned: 1
+  technique: spaz
+- level_learned: 1
+  technique: scramble
+- level_learned: 1
+  technique: wrench
+- level_learned: 1
+  technique: monoplata
+evolutions: []
+history:
+- slug: coach_carville
+  stage: standalone
+  evolves_from: []
+  evolves_into: []
+terrains: []
+tags:
+- plant
+- fists
+shape: sprite
+stage: basic
+types:
+- wood
+gender_weights:
+  male: 0.5
+  female: 0.5
+txmn_id: 10
+height: 69
+weight: 37
+sounds:
+  combat_call:
+    sfx: sound_bug_03
+    volume: 1.5
+  faint_call:
+    sfx: sound_bug_03_faint
+    volume: 1.5
+catch_rate: 100.0
+lower_catch_resistance: 0.95
+upper_catch_resistance: 1.25

@@ -12124,7 +12124,7 @@ msgid "leather_town_open_air"
 msgstr "Open Air Cafe and Marketplace"
 
 msgid "xero_citypark_achievement"
-msgstr "Achievement Maniac's House"
+msgstr "Scramble Steve's House"
 
 msgid "xero_shaft1_sign"
 msgstr "Shaft Headquarters: Mining Division"
@@ -17277,10 +17277,10 @@ msgstr ""
 "out."
 
 msgid "spyder_citypark_achievement"
-msgstr "Achievement Maniac's House"
+msgstr "Scramble Steves House"
 
 msgid "spyder_citypark_house_maniac"
-msgstr "Achievement Maniac"
+msgstr "Achievement Scramble Steve"
 
 msgid "spyder_citypark_house_maniac1"
 msgstr ""
@@ -20001,3 +20001,90 @@ msgstr "Chelsea: Great roll! Now that you have your Blue Belt, you can progress 
 
 msgid "bonnie_bluebelt"
 msgstr "Bonnie Bluebelt"
+
+msgid "leather_officer_1"
+msgstr "Road Officer"
+
+msgid "leather_officer_1_checkpoint"
+msgstr "Leather Town is closed to anyone below Purple Belt."
+
+msgid "leather_officer_2"
+msgstr "Road Officer"
+
+msgid "leather_officer_2_checkpoint"
+msgstr "The Maniac's challenge is the rite of passage. Beat him and earn your Purple Belt."
+
+msgid "leather_officer_3"
+msgstr "Road Officer"
+
+msgid "leather_officer_3_checkpoint"
+msgstr "No Purple Belt, no passage. Those are the rules."
+
+msgid "leather_officer_4"
+msgstr "Road Officer"
+
+msgid "leather_officer_4_checkpoint"
+msgstr "Return after defeating the Maniac. Then we'll let you through."
+
+msgid "purple_belt"
+msgstr "Purple Belt"
+
+msgid "wrench"
+msgstr "Wrench"
+
+msgid "monoplata"
+msgstr "Monoplata"
+
+msgid "wrench_description"
+msgstr "A rough twisting attack that forces the opponent out of position."
+
+msgid "monoplata_description"
+msgstr "A shoulder submission applied using the legs from a dominant position."
+
+msgid "scramble_steve"
+msgstr "Scramble Steve"
+
+msgid "scramble_steve_description"
+msgstr "An unpredictable grappler who turns every exchange into chaos."
+
+msgid "jji_scramble_steve_entry"
+msgstr "You came looking for a Purple Belt?\\nThe officers keep sending people here because they can't keep me under control.\\nLet's see how well you handle a scramble."
+
+msgid "jji_scramble_steve_pre_battle"
+msgstr "You want past those officers?\\nThen stay composed when everything gets messy!"
+
+msgid "jji_scramble_steve_victory"
+msgstr "Hah! You didn't panic. You stayed composed through the scramble.\\nFine. You've earned the Purple Belt."
+
+msgid "jji_scramble_steve_after"
+msgstr "You passed the rite of passage.\\nShow that Purple Belt to the officers."
+
+msgid "purple_belt_description"
+msgstr "Proof that you defeated Scramble Steve and completed the rite of passage to Leather Town."
+
+msgid "jji_leather_checkpoint_verified"
+msgstr "Hold there. Let us check your rank.\\nPurple Belt confirmed. Officers, clear a path."
+
+msgid "jji_leather_officer_1_blocked"
+msgstr "Leather Town is restricted to Purple Belts.\\nComplete the rite of passage at Scramble Steve's house."
+
+msgid "jji_leather_officer_2_blocked"
+msgstr "Nobody passes this checkpoint without a Purple Belt."
+
+msgid "jji_leather_officer_3_blocked"
+msgstr "Defeat Scramble Steve, earn your Purple Belt, then return."
+
+msgid "jji_leather_officer_4_blocked"
+msgstr "Turn back. You have not completed the rite of passage."
+
+msgid "jji_leather_officer_1_open"
+msgstr "Your Purple Belt has been verified. You may proceed."
+
+msgid "jji_leather_officer_2_open"
+msgstr "Checkpoint clear. Leather Town is straight ahead."
+
+msgid "jji_leather_officer_3_open"
+msgstr "You handled Scramble Steve. You've earned your place."
+
+msgid "jji_leather_officer_4_open"
+msgstr "Welcome to Leather Town."
