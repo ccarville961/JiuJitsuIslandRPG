@@ -417,7 +417,9 @@
     <property name="act30" value="translated_dialog omnichannelarrives"/>
     <property name="act40" value="set_variable omnichannelhere:here"/>
     <property name="act50" value="char_face player,left"/>
+    <property name="act60" value="set_variable citypark_stop:done"/>
     <property name="cond10" value="is variable_set iamsecret:ohno"/>
+    <property name="cond20" value="not variable_set citypark_stop:done"/>
    </properties>
   </object>
   <object id="123" name="Teleport to Leather Town" type="event" x="624" y="160" width="16" height="16">
