@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="12">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="31">
  <properties>
   <property name="edges" value="clamped"/>
   <property name="scenario" value="xero"/>
@@ -45,5 +45,133 @@
   <object id="10" type="collision" x="176" y="272" width="16" height="48"/>
   <object id="11" type="collision" x="240" y="272" width="16" height="48"/>
  </objectgroup>
- <objectgroup color="#fffb00" id="5" name="Events"/>
+ <objectgroup color="#fffb00" id="5" name="Events">
+  <object id="12" name="Exit after Coach Carville" type="event" x="64" y="0" width="64" height="16">
+   <properties>
+    <property name="act1" value="set_variable badge:yes"/>
+    <property name="act2" value="transition_teleport player,route1.tmx,55,35,0.5"/>
+    <property name="act3" value="char_face player,down"/>
+    <property name="cond1" value="is char_at player"/>
+    <property name="cond2" value="is char_facing player,up"/>
+    <property name="cond3" value="is has_item player,blue_belt"/>
+   </properties>
+  </object>
+
+  <object id="20" name="Coach Carville environment" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act1" value="set_environment interior"/>
+    <property name="cond1" value="not environment_is interior"/>
+   </properties>
+  </object>
+
+  <object id="21" name="Create Coach Carville" type="event" x="96" y="80" width="16" height="16">
+   <properties>
+    <property name="act1" value="create_npc coach_carville,6,5,stand"/>
+    <property name="act2" value="char_face coach_carville,down"/>
+    <property name="cond1" value="not char_exists coach_carville"/>
+   </properties>
+  </object>
+
+  <object id="22" name="Coach Carville introduction" type="event" x="112" y="160" width="64" height="32">
+   <properties>
+    <property name="act10" value="char_stop player"/>
+    <property name="act11" value="lock_controls"/>
+    <property name="act12" value="pathfind player,6,11"/>
+    <property name="act13" value="char_face player,up"/>
+    <property name="act14" value="pathfind coach_carville,6,8"/>
+    <property name="act15" value="char_face coach_carville,down"/>
+    <property name="act16" value="wait 0.5"/>
+    <property name="act17" value="translated_dialog coach_carville_intro"/>
+    <property name="act18" value="translated_dialog coach_carville_intro2"/>
+    <property name="act19" value="add_monster coach_carville,12,coach_carville,115,100"/>
+    <property name="act20" value="set_variable coach_carville_battle:started"/>
+    <property name="act21" value="start_battle player,coach_carville"/>
+    <property name="act22" value="set_variable coach_carville_battle:return"/>
+    <property name="cond1" value="is char_at player"/>
+    <property name="cond2" value="not variable_set coach_carville_battle:started"/>
+    <property name="cond3" value="not variable_set taba_master:defeated"/>
+   </properties>
+  </object>
+
+  <object id="23" name="Coach Carville victory sequence" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="wait 0.8"/>
+    <property name="act11" value="lock_controls"/>
+    <property name="act12" value="char_face coach_carville,down"/>
+    <property name="act13" value="translated_dialog coach_carville_victory"/>
+    <property name="act14" value="translated_dialog coach_carville_award"/>
+    <property name="act15" value="add_item blue_belt"/>
+    <property name="act16" value="play_sound sound_confirm"/>
+    <property name="act17" value="set_variable badge:yes"/>
+    <property name="act18" value="set_variable taba_master:defeated"/>
+    <property name="act19" value="unlock_controls"/>
+    <property name="act20" value="pathfind coach_carville,9,8"/>
+    <property name="act21" value="char_face coach_carville,left"/>
+    <property name="act22" value="unlock_controls"/>
+    <property name="cond1" value="is variable_set coach_carville_battle:return"/>
+    <property name="cond2" value="is battle_outcome player,won,coach_carville"/>
+    <property name="cond3" value="not variable_set taba_master:defeated"/>
+    <property name="cond4" value="not has_item player,blue_belt"/>
+   </properties>
+  </object>
+
+  <object id="24" name="Coach Carville retry reset" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act1" value="clear_variable coach_carville_battle"/>
+    <property name="act2" value="unlock_controls"/>
+    <property name="cond1" value="is variable_set coach_carville_battle:return"/>
+    <property name="cond2" value="is battle_outcome player,lost,coach_carville"/>
+    <property name="cond3" value="not variable_set taba_master:defeated"/>
+   </properties>
+  </object>
+
+  <object id="25" name="Create Luna" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act1" value="create_npc luna,3,10,stand"/>
+    <property name="act2" value="char_face luna,right"/>
+    <property name="cond1" value="not char_exists luna"/>
+   </properties>
+  </object>
+
+  <object id="26" name="Create Callahan" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act1" value="create_npc callahan,16,10,stand"/>
+    <property name="act2" value="char_face callahan,left"/>
+    <property name="cond1" value="not char_exists callahan"/>
+   </properties>
+  </object>
+
+  <object id="27" name="Talk to Luna after victory" type="event" x="48" y="160" width="16" height="16">
+   <properties>
+    <property name="act1" value="translated_dialog luna_blue_belt"/>
+    <property name="behav1" value="talk luna"/>
+    <property name="cond1" value="is variable_set taba_master:defeated"/>
+   </properties>
+  </object>
+
+  <object id="28" name="Talk to Callahan after victory" type="event" x="256" y="160" width="16" height="16">
+   <properties>
+    <property name="act1" value="translated_dialog callahan_blue_belt"/>
+    <property name="behav1" value="talk callahan"/>
+    <property name="cond1" value="is variable_set taba_master:defeated"/>
+   </properties>
+  </object>
+
+  <object id="29" name="Create Chelsea" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act1" value="create_npc chelsea,9,6,stand"/>
+    <property name="act2" value="char_face chelsea,down"/>
+    <property name="cond1" value="not char_exists chelsea"/>
+   </properties>
+  </object>
+
+  <object id="30" name="Talk to Chelsea after victory" type="event" x="144" y="96" width="16" height="16">
+   <properties>
+    <property name="act1" value="translated_dialog chelsea_blue_belt"/>
+    <property name="behav1" value="talk chelsea"/>
+    <property name="cond1" value="is variable_set taba_master:defeated"/>
+   </properties>
+  </object>
+
+</objectgroup>
 </map>

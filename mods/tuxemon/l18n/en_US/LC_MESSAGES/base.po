@@ -10947,9 +10947,7 @@ msgstr ""
 "How do I do that? Well... politely, I hope."
 
 msgid "oimate"
-msgstr ""
-"Hey! This is a restricted training area. No one without registration papers "
-"is allowed in!"
+msgstr "This route is restricted to ranked competitors. Come back after earning your Blue Belt."
 
 msgid "welcometotaba"
 msgstr "Hello, aspiring competitors!"
@@ -11780,9 +11778,6 @@ msgid "finaltabahealer2"
 msgstr ""
 "Believe it or not, I've been the one patching everyone up all day.\\n\n"
 "Now get out there and make all those recovery breaks worthwhile."
-
-msgid "tabawaitup"
-msgstr "Hey, ${{name}}! Wait up!"
 
 msgid "tabawaitup2"
 msgstr ""
@@ -20018,3 +20013,66 @@ msgstr "Sensei Duncan: Excellent work. You used your new techniques well. Your r
 
 msgid "sensai_duncan"
 msgstr "Sensei Duncan"
+
+msgid "lapel_loch"
+msgstr "Lapel Loch"
+
+msgid "obtained_blue_belt"
+msgstr "You received your Blue Belt!"
+
+msgid "mouth_cover"
+msgstr "Mouth Cover"
+
+msgid "mouth_cover_description"
+msgstr "The user controls the opponent's breathing and disrupts their composure."
+
+msgid "kimura"
+msgstr "Kimura"
+
+msgid "kimura_description"
+msgstr "The user isolates the arm and applies a powerful figure-four shoulder lock."
+
+msgid "coach_carville"
+msgstr "Coach Carville"
+
+msgid "coach_carville_intro"
+msgstr "Coach Carville: You made it through all four academy matches. Now meet me in the middle and show me what you have learned."
+
+msgid "coach_carville_intro2"
+msgstr "Coach Carville: I will test your takedowns, control, scrambles and submissions. Stay composed and earn the finish."
+
+msgid "coach_carville_victory"
+msgstr "Coach Carville: Excellent work. You stayed calm under pressure, adapted when the position changed and found the finish."
+
+msgid "coach_carville_award"
+msgstr "Coach Carville: Congratulations. You have earned your Blue Belt. The pathway behind me is now open."
+
+msgid "blue_belt"
+msgstr "Blue Belt"
+
+msgid "blue_belt_description"
+msgstr "Awarded for defeating Coach Carville and completing the Taba Academy evaluation."
+
+msgid "obtained_blue_belt"
+msgstr "Received the Blue Belt!"
+
+msgid "tabawaitup"
+msgstr "Best of luck, and make sure you're healed up!"
+
+msgid "luna"
+msgstr "Luna"
+
+msgid "callahan"
+msgstr "Callahan"
+
+msgid "luna_blue_belt"
+msgstr "Luna: Great roll! Now that you have your Blue Belt, you can progress further into the game."
+
+msgid "callahan_blue_belt"
+msgstr "Callahan: Great roll! Now that you have your Blue Belt, you are ready to progress further into the game."
+
+msgid "chelsea"
+msgstr "Chelsea"
+
+msgid "chelsea_blue_belt"
+msgstr "Chelsea: Great roll! Now that you have your Blue Belt, you can progress further into the game."
