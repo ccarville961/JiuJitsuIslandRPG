@@ -1,0 +1,10 @@
+- slug: brownbelt_tavern_coach_conleth
+  speech:
+    profile:
+      default: {}
+  combat: {}
+  audio: {}
+  template:
+    sprite_name: trickster_coach
+    combat_sheet: enforcer_boss
+    slug: enforcer_boss

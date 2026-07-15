@@ -20088,3 +20088,88 @@ msgstr "You handled Scramble Steve. You've earned your place."
 
 msgid "jji_leather_officer_4_open"
 msgstr "Welcome to Leather Town."
+
+msgid "brownbelt_tavern_sign"
+msgstr "BrownBelt Tavern Inn"
+
+msgid "brownbelt_tavern_receptionist_check"
+msgstr "Hold it. Show your brown belt, please."
+
+msgid "brownbelt_tavern_receptionist_no_belt"
+msgstr "No brown belt? Did you not read the fucking sign on the way in?!"
+
+msgid "brownbelt_tavern_receptionist_call"
+msgstr "BRUCE! Get in here! We have another one!"
+
+msgid "brownbelt_tavern_enforcer_arrives"
+msgstr "What's the problem?"
+
+msgid "brownbelt_tavern_receptionist_explains"
+msgstr "No brown belt. Walked straight in like he owned the place."
+
+msgid "brownbelt_tavern_enforcer_challenge"
+msgstr "Then let's see if you can earn one."
+
+msgid "brownbelt_tavern_victory_1"
+msgstr "Wow... that was something else!"
+
+msgid "brownbelt_tavern_victory_2"
+msgstr "Great fight! And guess what I have lying about spare?"
+
+msgid "brownbelt_tavern_victory_3"
+msgstr "Your new brown belt. You're welcome here any time!"
+
+msgid "brownbelt_tavern_already_welcome"
+msgstr "Welcome back. Your brown belt is all the proof you need."
+
+msgid "brownbelt_bruce"
+msgstr "BrownBelt Bruce"
+
+msgid "monster_brownbelt_bruce"
+msgstr "BrownBelt Bruce"
+
+msgid "monster_brownbelt_bruce_name"
+msgstr "BrownBelt Bruce"
+
+msgid "brownbelt_bruce_name"
+msgstr "BrownBelt Bruce"
+
+msgid "brown_belt"
+msgstr "Brown Belt"
+
+msgid "brown_belt_description"
+msgstr "Awarded for defeating BrownBelt Bruce."
+
+msgid "brownbelt_tavern_bruce_reward"
+msgstr "Maybe you're that level after all. Here is your Brown Belt!"
+
+msgid "dmt"
+msgstr "DMT"
+
+msgid "dmt_description"
+msgstr "A powerful psychedelic handed to you by Coach Conleth."
+
+msgid "conleth_dmt_intro"
+msgstr "I heard you just got your Brown Belt after beating Bruce. Nice job. But as with all brown belts, we like our drugs. Ever try DMT?"
+
+msgid "conleth_dmt_yes"
+msgstr "You know the drill. Here, take a hit."
+
+msgid "conleth_dmt_no"
+msgstr "It's tradition as part of brown belt culture to do mad psychedelics. Here's DMT. Take a hit!"
+
+msgid "conleth_dmt_hit"
+msgstr "You take a massive hit of DMT. The room begins to dissolve..."
+
+msgid "conleth_dmt_player_after"
+msgstr "That was a crazy experience. We just had a crazy fight!"
+
+msgid "conleth_dmt_after"
+msgstr "Yeah, I know. You had a bad trip and I had to restrain you! Well, that's enough for one day. I'm going to get some rest."
+
+msgid "conleth_dmt_retry"
+msgstr "That trip got the better of you. Take a breath and talk to me when you're ready to try again."
+
+msgid "conleth_dmt_complete"
+msgstr "That's enough enlightenment for one day."
+

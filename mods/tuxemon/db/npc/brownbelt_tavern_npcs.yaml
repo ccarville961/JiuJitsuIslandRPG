@@ -1,0 +1,30 @@
+- slug: brownbelt_tavern_receptionist
+  speech:
+    profile:
+      default: {}
+  combat: {}
+  audio: {}
+  template:
+    sprite_name: barmaid
+    combat_sheet: barmaid
+    slug: barmaid
+- slug: brownbelt_tavern_enforcer
+  speech:
+    profile:
+      default: {}
+  combat: {}
+  audio: {}
+  template:
+    sprite_name: trickster_coach
+    combat_sheet: enforcer_boss
+    slug: enforcer_boss
+- slug: brownbelt_tavern_receptionist_desk
+  speech:
+    profile:
+      default: {}
+  combat: {}
+  audio: {}
+  template:
+    sprite_name: barmaid
+    combat_sheet: barmaid
+    slug: barmaid
