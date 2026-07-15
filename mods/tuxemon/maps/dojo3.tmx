@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="24" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="20">
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="24" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="22">
  <properties>
-  <property name="edges" value="clamped"/>
-  <property name="inside" type="bool" value="true"/>
-  <property name="map_type" value="dungeon"/>
-  <property name="scenario" value="xero"/>
-  <property name="slug" value="dojo3"/>
+  <property name="edges" value="clamped" />
+  <property name="inside" type="bool" value="true" />
+  <property name="map_type" value="dungeon" />
+  <property name="scenario" value="xero" />
+  <property name="slug" value="dojo3" />
  </properties>
- <tileset firstgid="1" source="../gfx/tilesets/core_indoor_floors.tsx"/>
- <tileset firstgid="3865" source="../gfx/tilesets/core_indoor_stairs.tsx"/>
- <tileset firstgid="6835" source="../gfx/tilesets/core_indoor_walls.tsx"/>
+ <tileset firstgid="1" source="../gfx/tilesets/core_indoor_floors.tsx" />
+ <tileset firstgid="3865" source="../gfx/tilesets/core_indoor_stairs.tsx" />
+ <tileset firstgid="6835" source="../gfx/tilesets/core_indoor_walls.tsx" />
  <layer id="1" name="Tile Layer 1" width="24" height="12">
   <data encoding="base64" compression="zlib">
    eAFjYKAvOCjFwHAICVPb9vdAs6ukEZgW5h9mYWAgBxPjFpD7QWaDAIyG8PCThNTCwl0eGDbIam2AduHDMFuR9cDEkGlYuFejmQ9SQy3zQW6AYWS7sdmBLg/Th8sfyOGOrhedj+wfdDlqmo9uNohPDfOxmQsTo6X5ILPRzQcA1BozmA==
@@ -33,26 +33,99 @@
  <objectgroup color="#ffff00" id="4" name="Events">
   <object id="9" name="Play Music" type="event" x="0" y="16" width="16" height="16">
    <properties>
-    <property name="act10" value="play_music music_dojo_theme"/>
-    <property name="cond10" value="not music_playing music_dojo_theme"/>
+    <property name="act10" value="play_music music_dojo_theme" />
+    <property name="cond10" value="not music_playing music_dojo_theme" />
    </properties>
   </object>
   <object id="10" name="Teleport to Lower Floor" type="event" x="144" y="144" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,dojo2.tmx,13,9,0.3"/>
-    <property name="act20" value="char_face player,left"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,left"/>
+    <property name="act10" value="transition_teleport player,dojo2.tmx,13,9,0.3" />
+    <property name="act20" value="char_face player,left" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,left" />
+   </properties>
+  </object>
+  <object id="11" name="JJI Black Belt Assessment - Spawn Coach Hill" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="cond10" value="not char_exists jji_coach_hill" />
+    <property name="act10" value="create_npc jji_coach_hill,12,4,stand" />
+    <property name="act20" value="add_monster coach_hill,50,jji_coach_hill" />
+    <property name="act30" value="char_face jji_coach_hill,down" />
+   </properties>
+  </object>
+  <object id="12" name="JJI Black Belt Assessment - Challenge Coach Hill" type="event" x="192" y="64" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_coach_hill,player" />
+    <property name="act20" value="set_variable battle_last_winner:none" />
+    <property name="act30" value="set_variable battle_last_loser:none" />
+    <property name="act40" value="translated_dialog jji_blackbelt_hill_intro" />
+    <property name="act50" value="set_variable jji_blackbelt_hill_started:yes" />
+    <property name="act60" value="set_environment icon_gym" />
+    <property name="act70" value="start_battle jji_coach_hill,player" />
+    <property name="behav10" value="talk jji_coach_hill" />
+    <property name="cond10" value="not variable_set jji_blackbelt_hill_started:yes" />
+    <property name="cond20" value="not variable_set jji_blackbelt_hill_defeated:yes" />
+   </properties>
+  </object>
+  <object id="18" name="JJI Black Belt Assessment - Hill Loss Reset" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="set_variable battle_last_loser:none" />
+    <property name="act20" value="set_variable battle_last_winner:none" />
+    <property name="act30" value="clear_variable jji_blackbelt_hill" />
+    <property name="cond10" value="is variable_set battle_last_loser:player" />
+    <property name="cond20" value="is variable_set jji_blackbelt_hill:started" />
+    <property name="cond30" value="not variable_set jji_blackbelt_hill:defeated" />
+   </properties>
+  </object>
+  <object id="19" name="JJI Black Belt Assessment - Coach Hill Clean Victory" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="set_variable jji_blackbelt_hill_defeated:yes" />
+    <property name="act20" value="clear_variable jji_blackbelt_hill_started" />
+    <property name="act30" value="set_variable battle_last_winner:none" />
+    <property name="act40" value="set_variable battle_last_loser:none" />
+    <property name="cond10" value="is variable_set battle_last_winner:player" />
+    <property name="cond20" value="is variable_set jji_blackbelt_hill_started:yes" />
+    <property name="cond30" value="not variable_set jji_blackbelt_hill_defeated:yes" />
+   </properties>
+  </object>
+  <object id="20" name="JJI Black Belt Assessment - Coach Hill Clean Loss Reset" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="clear_variable jji_blackbelt_hill_started" />
+    <property name="act20" value="set_variable battle_last_winner:none" />
+    <property name="act30" value="set_variable battle_last_loser:none" />
+    <property name="cond10" value="is variable_set battle_last_loser:player" />
+    <property name="cond20" value="is variable_set jji_blackbelt_hill_started:yes" />
+    <property name="cond30" value="not variable_set jji_blackbelt_hill_defeated:yes" />
+   </properties>
+  </object>
+  <object id="21" name="JJI Black Belt Assessment - Coach Hill Post-Battle Talk" type="event" x="192" y="64" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_coach_hill,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_hill_final_win" />
+    <property name="act30" value="translated_dialog jji_blackbelt_ceremony_1" />
+    <property name="act40" value="translated_dialog jji_blackbelt_ceremony_2" />
+    <property name="act50" value="translated_dialog jji_blackbelt_ceremony_3" />
+    <property name="act60" value="add_item black_belt_contract,1" />
+    <property name="act70" value="translated_dialog jji_blackbelt_received" />
+    <property name="act80" value="add_item mansion_invitation,1" />
+    <property name="act90" value="translated_dialog jji_mansion_invitation_received" />
+    <property name="act100" value="translated_dialog jji_blackbelt_ceremony_4" />
+    <property name="act110" value="translated_dialog jji_blackbelt_ceremony_5" />
+    <property name="act120" value="set_variable jji_blackbelt_rewards_granted:yes" />
+    <property name="act130" value="set_variable jji_blackbelt_hill_post_dialogue:seen" />
+    <property name="behav10" value="talk jji_coach_hill" />
+    <property name="cond10" value="is variable_set jji_blackbelt_hill_defeated:yes" />
+    <property name="cond20" value="not variable_set jji_blackbelt_hill_post_dialogue:seen" />
    </properties>
   </object>
  </objectgroup>
  <objectgroup color="#ff0000" id="5" name="Collisions">
-  <object id="1" type="collision" x="32" y="80" width="16" height="112"/>
-  <object id="2" type="collision" x="48" y="80" width="32" height="32"/>
-  <object id="3" type="collision" x="64" y="16" width="16" height="64"/>
-  <object id="4" type="collision" x="80" y="16" width="224" height="32"/>
-  <object id="5" type="collision" x="304" y="16" width="16" height="64"/>
-  <object id="6" type="collision" x="304" y="80" width="32" height="32"/>
-  <object id="7" type="collision" x="336" y="80" width="16" height="112"/>
+  <object id="1" type="collision" x="32" y="80" width="16" height="112" />
+  <object id="2" type="collision" x="48" y="80" width="32" height="32" />
+  <object id="3" type="collision" x="64" y="16" width="16" height="64" />
+  <object id="4" type="collision" x="80" y="16" width="224" height="32" />
+  <object id="5" type="collision" x="304" y="16" width="16" height="64" />
+  <object id="6" type="collision" x="304" y="80" width="32" height="32" />
+  <object id="7" type="collision" x="336" y="80" width="16" height="112" />
  </objectgroup>
 </map>

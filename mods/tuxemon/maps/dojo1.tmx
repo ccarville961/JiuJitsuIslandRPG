@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="24" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="69">
+<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="24" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="70">
  <properties>
   <property name="edges" value="clamped" />
   <property name="inside" type="bool" value="true" />
@@ -72,12 +72,12 @@
   </object>
   <object id="33" name="JJI Black Belt Dojo Floor 1 - Spawn Entrance Officer" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="create_npc jji_blackbelt_dojo_entrance_officer,9,9,stand" />
+    <property name="act10" value="create_npc jji_blackbelt_dojo_entrance_officer,8,9,stand" />
     <property name="act20" value="char_face jji_blackbelt_dojo_entrance_officer,down" />
     <property name="cond10" value="not char_exists jji_blackbelt_dojo_entrance_officer" />
    </properties>
   </object>
-  <object id="34" name="JJI Black Belt Dojo Floor 1 - Talk Entrance Officer" type="event" x="144" y="144" width="16" height="16">
+  <object id="34" name="JJI Black Belt Dojo Floor 1 - Talk Entrance Officer" type="event" x="128" y="144" width="16" height="16">
    <properties>
     <property name="act10" value="char_face jji_blackbelt_dojo_entrance_officer,player" />
     <property name="act20" value="translated_dialog jji_blackbelt_dojo_sensei_duncan" />
@@ -318,6 +318,14 @@
     <property name="act20" value="char_face jji_blackbelt_dojo_stair_officer_right,down" />
     <property name="cond10" value="not char_exists jji_blackbelt_dojo_stair_officer_right" />
     <property name="cond20" value="is variable_set jji_dojo_gate_open:yes" />
+   </properties>
+  </object>
+  <object id="69" name="JJI Temporary Black Belt State Migration" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="set_variable battle_last_winner:none" />
+    <property name="act20" value="set_variable battle_last_loser:none" />
+    <property name="cond10" value="not variable_set jji_blackbelt_state_migrated:yes" />
+    <property name="act30" value="set_variable jji_blackbelt_state_migrated:yes" />
    </properties>
   </object>
  </objectgroup>

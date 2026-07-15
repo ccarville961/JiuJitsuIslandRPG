@@ -20249,3 +20249,87 @@ msgstr "Sensei Duncan: I am proud of you, Red.\nYou have come so far in your Jiu
 msgid "jji_blackbelt_dojo_dr_kimura"
 msgstr "Dr. Kimura: Let me take a look at you.\nA Black Belt assessment demands your very best.\nI will restore your health so you can keep training."
 
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_toland_intro"
+msgstr "Coach Toland: Technique is not something you simply remember.\nTechnique is something you become.\nShow me what your years of training have taught you."
+
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_toland_first_win"
+msgstr "Coach Toland: Excellent.\nYour fundamentals remained strong under pressure.\nCoach Hill still awaits. Complete his assessment to finish your Black Belt trial."
+
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_toland_final_win"
+msgstr "Coach Toland: Excellent work.\nYou have completed both Black Belt assessments."
+
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_toland_after"
+msgstr "Coach Toland: Your assessment with me is complete.\nA Black Belt is not the end of learning."
+
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_hill_intro"
+msgstr "Coach Hill: I have watched you grow through every belt.\nNow I want to see the practitioner you have become.\nShow me that you are ready."
+
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_hill_first_win"
+msgstr "Coach Hill: Outstanding.\nYou have earned my approval.\nCoach Toland still awaits. Complete his assessment to finish your Black Belt trial."
+
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_hill_final_win"
+msgstr "Coach Hill: Outstanding.\nYou have completed both Black Belt assessments."
+
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_hill_after"
+msgstr "Coach Hill: You have passed my assessment.\nKeep developing the habits that brought you this far."
+
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_ceremony_1"
+msgstr "Coach Hill: Every belt before this represented another step in your development."
+
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_ceremony_2"
+msgstr "Coach Toland: A Black Belt represents what you have proven through discipline, courage and consistency."
+
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_ceremony_3"
+msgstr "Coach Hill: Congratulations.\nYou have earned your Black Belt."
+
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_received"
+msgstr "You received the Black Belt!"
+
+# JJI Black Belt Assessment
+msgid "jji_mansion_invitation_received"
+msgstr "You received the Mansion Invitation!"
+
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_ceremony_4"
+msgstr "Coach Toland: The invitation grants access to the Mansion, where the island's strongest practitioners gather."
+
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_ceremony_5"
+msgstr "Coach Hill: Your journey is not over.\nIn many ways, it is only beginning."
+
+# JJI Black Belt Assessment
+msgid "coach_hill"
+msgstr "Coach Hill"
+
+# JJI Black Belt Assessment
+msgid "jji_coach_toland"
+msgstr "Coach Toland"
+
+# JJI Black Belt Assessment
+msgid "jji_coach_hill"
+msgstr "Coach Hill"
+
+# JJI Black Belt Mansion Invitation
+msgid "mansion_invitation"
+msgstr "Mansion Invitation"
+
+# JJI Black Belt Mansion Invitation
+msgid "mansion_invitation_description"
+msgstr "Presented only to practitioners who have completed the island's Black Belt assessment. Grants entry to the Mansion."
+
+# JJI Black Belt Assessment
+msgid "jji_blackbelt_toland_next_hill"
+msgstr "Coach Toland: Well done.\nYou maintained your technique and composure under pressure.\nYou have passed my assessment.\nNow proceed upstairs and face Coach Hill."
+
