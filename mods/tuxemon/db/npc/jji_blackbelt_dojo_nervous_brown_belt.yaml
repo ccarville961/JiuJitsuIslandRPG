@@ -1,0 +1,10 @@
+slug: jji_blackbelt_dojo_nervous_brown_belt
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: firefighter
+  combat_sheet: firefighter
+  slug: firefighter

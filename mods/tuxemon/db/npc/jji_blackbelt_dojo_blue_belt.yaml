@@ -1,0 +1,14 @@
+slug: jji_blackbelt_dojo_blue_belt
+speech:
+  profile:
+    default:
+      pre_battle: eclipse_bank_ethan1
+      post_battle_win: null
+      post_battle_lose: eclipse_bank_ethan2
+      post_battle_draw: null
+combat: {}
+audio: {}
+template:
+  sprite_name: scientist
+  combat_sheet: scientist
+  slug: scientist

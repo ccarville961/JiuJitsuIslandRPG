@@ -1,0 +1,14 @@
+slug: jji_blackbelt_dojo_older_black_belt
+speech:
+  profile:
+    default:
+      pre_battle: eclipse_bank_brock1
+      post_battle_win: null
+      post_battle_lose: eclipse_bank_brock2
+      post_battle_draw: null
+combat: {}
+audio: {}
+template:
+  sprite_name: professor_lapi
+  combat_sheet: professor
+  slug: professor

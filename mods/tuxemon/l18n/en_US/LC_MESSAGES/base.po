@@ -20173,3 +20173,79 @@ msgstr "That trip got the better of you. Take a breath and talk to me when you'r
 msgid "conleth_dmt_complete"
 msgstr "That's enough enlightenment for one day."
 
+
+# JJI Black Belt Dojo - First Floor NPCs
+
+msgid "jji_blackbelt_dojo_stair_officer_left"
+msgstr "Officer: Stop here.\nThe upper floor is reserved for the Black Belt assessment.\nCoach Hill and Coach Toland are waiting upstairs."
+
+msgid "jji_blackbelt_dojo_stair_officer_right"
+msgstr "Officer: These stairs remain closed until you are ready.\nDefeat both Black Belt assessors and you will earn your Black Belt and a Mansion Invitation."
+
+msgid "jji_blackbelt_dojo_entrance_officer"
+msgstr "Officer: Welcome to the Black Belt Dojo.\nEveryone enters through these doors...\nbut not everyone leaves wearing a Black Belt."
+
+msgid "jji_blackbelt_dojo_patrol_officer"
+msgstr "Officer: Keep the corridors clear and show respect.\nCompetitors have travelled from every academy on the island for today's assessments."
+
+msgid "jji_blackbelt_dojo_nervous_brown"
+msgstr "Brown Belt: I have spent six months preparing for this.\nI know every technique I planned to use...\nso why have my legs forgotten how to stand?"
+
+msgid "jji_blackbelt_dojo_calm_brown"
+msgstr "Brown Belt: Win or lose, I am climbing those stairs.\nCourage is not the absence of nerves.\nIt is moving forward while they are screaming at you."
+
+msgid "jji_blackbelt_dojo_purple_belt"
+msgstr "Purple Belt: I have watched dozens of assessments here.\nNobody walks upstairs smiling.\nCoach Hill notices mistakes before you realise you made them."
+
+msgid "jji_blackbelt_dojo_blue_belt"
+msgstr "Blue Belt: One day I will return for my own assessment.\nFor now, I am studying the people who were brave enough to try."
+
+msgid "jji_blackbelt_dojo_white_belt"
+msgstr "White Belt: Everyone upstairs was once standing where I am now.\nThat makes becoming a Black Belt feel impossible...\nand possible at the same time."
+
+msgid "jji_blackbelt_dojo_older_black_belt"
+msgstr "Black Belt Instructor: Eyes on the board, everyone.\nToday we are studying how posture and inside position control the entire exchange.\nA technique begins before the grip is ever taken."
+
+msgid "jji_blackbelt_dojo_visiting_coach"
+msgstr "Black Belt Instructor: Notice the sequence on the board.\nPosition, pressure, isolation... then submission.\nSkipping a step may work once. Good fundamentals work for a lifetime."
+
+msgid "jji_blackbelt_dojo_veteran"
+msgstr "Veteran: I earned my Black Belt twenty years ago.\nI am still corrected every week.\nMastery begins when you stop pretending you know everything."
+
+msgid "jji_blackbelt_dojo_jits_trivia"
+msgstr "Student: Jiu-Jitsu is built around leverage and timing.\nThat is why a smaller grappler can control someone much larger.\nStrength helps—but technique decides where that strength goes."
+
+msgid "jji_blackbelt_dojo_training_partner"
+msgstr "Grappler: The best training partner is not the one who wins every round.\nIt is the one who pushes you, protects you and helps you return tomorrow."
+
+msgid "jji_blackbelt_dojo_medic"
+msgstr "Medic: Tap early and train tomorrow.\nRefusing to tap does not prove toughness.\nUsually it just creates paperwork for me."
+
+msgid "jji_blackbelt_dojo_cleaner"
+msgstr "Cleaner: Funny thing about this place...\nthe toughest people are usually the politest.\nAlso, laundry is the true final boss of Jiu-Jitsu."
+
+# JJI Black Belt Dojo stair gate
+msgid "jji_blackbelt_dojo_stair_warning"
+msgstr "Officer: Hold it right there.\nThe upper floor contains the Black Belt assessment.\nMake sure you are fully prepared before proceeding.\nCoach Hill and Coach Toland are waiting upstairs."
+
+msgid "jji_blackbelt_dojo_gate_question"
+msgstr "Officer: Beyond these stairs are Coach Hill and Coach Toland.\nYou must defeat both Black Belt assessors to earn your Black Belt and Mansion Invitation.\nAre you ready to proceed?"
+
+msgid "jji_blackbelt_dojo_gate_yes"
+msgstr "Officer: Very well.\nThe assessment floor is now open.\nGood luck."
+
+msgid "jji_blackbelt_dojo_gate_no"
+msgstr "Officer: Sensible.\nPrepare yourself and speak to us again when you are ready."
+
+msgid "jji_blackbelt_dojo_gate_open"
+msgstr "Officer: The way is clear.\nCoach Hill and Coach Toland are waiting upstairs."
+
+msgid "jji_blackbelt_dojo_class_teacher"
+msgstr "Instructor: Eyes forward, class.\nToday we are studying posture, frames and inside position.\nGood Jiu-Jitsu begins with understanding why a technique works."
+
+msgid "jji_blackbelt_dojo_sensei_duncan"
+msgstr "Sensei Duncan: I am proud of you, Red.\nYou have come so far in your Jiu-Jitsu journey.\nEvery belt, every difficult round and every lesson has brought you to this moment.\nCoach Hill and Coach Toland will test everything you have learned upstairs.\nWhatever happens, be proud of how far you have come."
+
+msgid "jji_blackbelt_dojo_dr_kimura"
+msgstr "Dr. Kimura: Let me take a look at you.\nA Black Belt assessment demands your very best.\nI will restore your health so you can keep training."
+

@@ -1,0 +1,10 @@
+slug: jji_blackbelt_dojo_purple_belt
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: bluebelt_boss
+  combat_sheet: disciple
+  slug: disciple

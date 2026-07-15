@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="24" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="30">
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="24" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="69">
  <properties>
-  <property name="edges" value="clamped"/>
-  <property name="inside" type="bool" value="true"/>
-  <property name="scenario" value="xero"/>
-  <property name="slug" value="dojo1"/>
-  <property name="map_type" value="dungeon"/>
+  <property name="edges" value="clamped" />
+  <property name="inside" type="bool" value="true" />
+  <property name="scenario" value="xero" />
+  <property name="slug" value="dojo1" />
+  <property name="map_type" value="dungeon" />
  </properties>
- <tileset firstgid="1" source="../gfx/tilesets/core_indoor_floors.tsx"/>
- <tileset firstgid="3865" source="../gfx/tilesets/core_indoor_stairs.tsx"/>
- <tileset firstgid="6835" source="../gfx/tilesets/core_indoor_walls.tsx"/>
- <tileset firstgid="10699" source="../gfx/tilesets/core_set pieces.tsx"/>
+ <tileset firstgid="1" source="../gfx/tilesets/core_indoor_floors.tsx" />
+ <tileset firstgid="3865" source="../gfx/tilesets/core_indoor_stairs.tsx" />
+ <tileset firstgid="6835" source="../gfx/tilesets/core_indoor_walls.tsx" />
+ <tileset firstgid="10699" source="../gfx/tilesets/core_set pieces.tsx" />
  <layer id="1" name="Tile Layer 1" width="24" height="12">
   <data encoding="base64" compression="zlib">
    eAGdkUsKwkAQRHsh+LtBFHGlgp+T6B08h3g5De49g27iB8TPAazCaeg0M5C4KGZSNf1SmewykUGvrEPCe2WyplK55+TgPKAN+FZglJ6Z0Tv2f0rllsH9M/CLqcgl6IqV8zHP8mO595TfnIncwL1DbezJ994b3j7oE8ljM5bfAbcLWb739PuV5XN2sp7lt5BRlu+9E/IzpHyfk2+9uvwl5ld/8u39D/Hv/f3Tm4O9gFK5n7H97b1tA9972j+Vp+5/hE7joAnWvCES87R/Kvcz2p/nq0j7VznLM3X5tn+Vd5D/BUMisEM=
@@ -34,51 +34,317 @@
  <objectgroup color="#ffff00" id="5" name="Events">
   <object id="1" name="Play Music" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="play_music music_dojo_theme"/>
-    <property name="cond10" value="not music_playing music_dojo_theme"/>
+    <property name="act10" value="play_music music_dojo_theme" />
+    <property name="cond10" value="not music_playing music_dojo_theme" />
    </properties>
   </object>
   <object id="2" name="Teleport to Flower City" type="event" x="176" y="176" width="32" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,flower_city.tmx,3,18,0.3"/>
-    <property name="act20" value="char_face player,down"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,down"/>
+    <property name="act10" value="transition_teleport player,flower_city.tmx,3,18,0.3" />
+    <property name="act20" value="char_face player,down" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,down" />
    </properties>
   </object>
   <object id="28" name="Teleport to Dojo 2" type="event" x="192" y="80" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,dojo2.tmx,10,9,0.3"/>
-    <property name="act20" value="char_face player,right"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,right"/>
+    <property name="act10" value="transition_teleport player,dojo2.tmx,10,9,0.3" />
+    <property name="act20" value="char_face player,right" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,right" />
+   </properties>
+  </object>
+  <object id="29" name="JJI Black Belt Dojo Floor 1 - Spawn Stair Officer Left" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_stair_officer_left,11,9,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_stair_officer_left,down" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_stair_officer_left" />
+    <property name="cond20" value="not variable_set jji_dojo_gate_open:yes" />
+   </properties>
+  </object>
+  <object id="31" name="JJI Black Belt Dojo Floor 1 - Spawn Stair Officer Right" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_stair_officer_right,12,9,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_stair_officer_right,down" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_stair_officer_right" />
+    <property name="cond20" value="not variable_set jji_dojo_gate_open:yes" />
+   </properties>
+  </object>
+  <object id="33" name="JJI Black Belt Dojo Floor 1 - Spawn Entrance Officer" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_entrance_officer,9,9,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_entrance_officer,down" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_entrance_officer" />
+   </properties>
+  </object>
+  <object id="34" name="JJI Black Belt Dojo Floor 1 - Talk Entrance Officer" type="event" x="144" y="144" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_blackbelt_dojo_entrance_officer,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_sensei_duncan" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_entrance_officer" />
+   </properties>
+  </object>
+  <object id="35" name="JJI Black Belt Dojo Floor 1 - Spawn Patrol Officer" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_patrol_officer,2,8,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_patrol_officer,right" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_patrol_officer" />
+   </properties>
+  </object>
+  <object id="36" name="JJI Black Belt Dojo Floor 1 - Talk Patrol Officer" type="event" x="32" y="128" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_blackbelt_dojo_patrol_officer,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_patrol_officer" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_patrol_officer" />
+   </properties>
+  </object>
+  <object id="37" name="JJI Black Belt Dojo Floor 1 - Spawn Nervous Brown Belt" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_nervous_brown_belt,4,8,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_nervous_brown_belt,right" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_nervous_brown_belt" />
+   </properties>
+  </object>
+  <object id="38" name="JJI Black Belt Dojo Floor 1 - Talk Nervous Brown Belt" type="event" x="64" y="128" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_blackbelt_dojo_nervous_brown_belt,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_nervous_brown" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_nervous_brown_belt" />
+   </properties>
+  </object>
+  <object id="39" name="JJI Black Belt Dojo Floor 1 - Spawn Calm Brown Belt" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_calm_brown_belt,7,8,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_calm_brown_belt,left" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_calm_brown_belt" />
+   </properties>
+  </object>
+  <object id="40" name="JJI Black Belt Dojo Floor 1 - Talk Calm Brown Belt" type="event" x="112" y="128" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_blackbelt_dojo_calm_brown_belt,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_calm_brown" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_calm_brown_belt" />
+   </properties>
+  </object>
+  <object id="41" name="JJI Black Belt Dojo Floor 1 - Spawn Purple Belt Spectator" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_purple_belt,21,8,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_purple_belt,up" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_purple_belt" />
+   </properties>
+  </object>
+  <object id="42" name="JJI Black Belt Dojo Floor 1 - Talk Purple Belt Spectator" type="event" x="336" y="128" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_blackbelt_dojo_purple_belt,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_purple_belt" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_purple_belt" />
+   </properties>
+  </object>
+  <object id="43" name="JJI Black Belt Dojo Floor 1 - Spawn Blue Belt Student" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_blue_belt,19,8,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_blue_belt,up" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_blue_belt" />
+   </properties>
+  </object>
+  <object id="44" name="JJI Black Belt Dojo Floor 1 - Talk Blue Belt Student" type="event" x="304" y="128" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_blackbelt_dojo_blue_belt,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_blue_belt" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_blue_belt" />
+   </properties>
+  </object>
+  <object id="45" name="JJI Black Belt Dojo Floor 1 - Spawn White Belt Student" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_white_belt,6,6,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_white_belt,up" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_white_belt" />
+   </properties>
+  </object>
+  <object id="46" name="JJI Black Belt Dojo Floor 1 - Talk White Belt Student" type="event" x="96" y="96" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_blackbelt_dojo_white_belt,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_white_belt" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_white_belt" />
+   </properties>
+  </object>
+  <object id="47" name="JJI Black Belt Dojo Floor 1 - Spawn Older Black Belt" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_older_black_belt,3,2,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_older_black_belt,down" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_older_black_belt" />
+   </properties>
+  </object>
+  <object id="48" name="JJI Black Belt Dojo Floor 1 - Talk Older Black Belt" type="event" x="48" y="32" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_blackbelt_dojo_older_black_belt,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_class_teacher" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_older_black_belt" />
+   </properties>
+  </object>
+  <object id="49" name="JJI Black Belt Dojo Floor 1 - Spawn Visiting Coach" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_visiting_coach,17,2,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_visiting_coach,up" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_visiting_coach" />
+   </properties>
+  </object>
+  <object id="50" name="JJI Black Belt Dojo Floor 1 - Talk Visiting Coach" type="event" x="272" y="32" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_blackbelt_dojo_visiting_coach,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_visiting_coach" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_visiting_coach" />
+   </properties>
+  </object>
+  <object id="51" name="JJI Black Belt Dojo Floor 1 - Spawn Veteran Grappler" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_veteran_grappler,19,5,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_veteran_grappler,down" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_veteran_grappler" />
+   </properties>
+  </object>
+  <object id="52" name="JJI Black Belt Dojo Floor 1 - Talk Veteran Grappler" type="event" x="304" y="80" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_blackbelt_dojo_veteran_grappler,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_veteran" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_veteran_grappler" />
+   </properties>
+  </object>
+  <object id="57" name="JJI Black Belt Dojo Floor 1 - Spawn Dojo Medic" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_medic,16,9,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_medic,down" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_medic" />
+   </properties>
+  </object>
+  <object id="58" name="JJI Black Belt Dojo Floor 1 - Talk Dojo Medic" type="event" x="256" y="144" width="16" height="16">
+   <properties>
+    <property name="behav10" value="talk jji_blackbelt_dojo_medic" />
+    <property name="act10" value="char_face jji_blackbelt_dojo_medic,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_dr_kimura" />
+    <property name="act30" value="set_monster_health" />
+   </properties>
+  </object>
+  <object id="59" name="JJI Black Belt Dojo Floor 1 - Spawn Dojo Cleaner" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_cleaner,22,9,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_cleaner,left" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_cleaner" />
+   </properties>
+  </object>
+  <object id="60" name="JJI Black Belt Dojo Floor 1 - Talk Dojo Cleaner" type="event" x="352" y="144" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_blackbelt_dojo_cleaner,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_cleaner" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_cleaner" />
+   </properties>
+  </object>
+  <object id="61" name="JJI Dojo Interactive Stair Gate - Ask Left Officer" type="event" x="176" y="144" width="16" height="16">
+   <properties>
+    <property name="act10" value="lock_controls" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_stair_officer_left,player" />
+    <property name="act30" value="char_face jji_blackbelt_dojo_stair_officer_right,player" />
+    <property name="act40" value="translated_dialog jji_blackbelt_dojo_gate_question" />
+    <property name="act50" value="translated_dialog_choice yes:no,jji_dojo_proceed" />
+    <property name="act60" value="unlock_controls" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_stair_officer_left" />
+    <property name="cond10" value="not variable_set jji_dojo_gate_open:yes" />
+   </properties>
+  </object>
+  <object id="62" name="JJI Dojo Interactive Stair Gate - Ask Right Officer" type="event" x="192" y="144" width="16" height="16">
+   <properties>
+    <property name="act10" value="lock_controls" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_stair_officer_left,player" />
+    <property name="act30" value="char_face jji_blackbelt_dojo_stair_officer_right,player" />
+    <property name="act40" value="translated_dialog jji_blackbelt_dojo_gate_question" />
+    <property name="act50" value="translated_dialog_choice yes:no,jji_dojo_proceed" />
+    <property name="act60" value="unlock_controls" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_stair_officer_right" />
+    <property name="cond10" value="not variable_set jji_dojo_gate_open:yes" />
+   </properties>
+  </object>
+  <object id="63" name="JJI Dojo Interactive Stair Gate - Yes" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="lock_controls" />
+    <property name="act20" value="clear_variable jji_dojo_proceed" />
+    <property name="act30" value="translated_dialog jji_blackbelt_dojo_gate_yes" />
+    <property name="act40" value="char_move jji_blackbelt_dojo_stair_officer_left,left 1" />
+    <property name="act50" value="char_move jji_blackbelt_dojo_stair_officer_right,right 1" />
+    <property name="act60" value="char_face jji_blackbelt_dojo_stair_officer_left,down" />
+    <property name="act70" value="char_face jji_blackbelt_dojo_stair_officer_right,down" />
+    <property name="act80" value="set_variable jji_dojo_gate_open:yes" />
+    <property name="act90" value="unlock_controls" />
+    <property name="cond10" value="is variable_set jji_dojo_proceed:yes" />
+    <property name="cond20" value="not variable_set jji_dojo_gate_open:yes" />
+   </properties>
+  </object>
+  <object id="64" name="JJI Dojo Interactive Stair Gate - No" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="clear_variable jji_dojo_proceed" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_gate_no" />
+    <property name="act30" value="char_face jji_blackbelt_dojo_stair_officer_left,down" />
+    <property name="act40" value="char_face jji_blackbelt_dojo_stair_officer_right,down" />
+    <property name="cond10" value="is variable_set jji_dojo_proceed:no" />
+    <property name="cond20" value="not variable_set jji_dojo_gate_open:yes" />
+   </properties>
+  </object>
+  <object id="65" name="JJI Dojo Interactive Stair Gate - Open Left Dialogue" type="event" x="144" y="144" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_blackbelt_dojo_stair_officer_left,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_gate_open" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_stair_officer_left" />
+    <property name="cond10" value="is variable_set jji_dojo_gate_open:yes" />
+   </properties>
+  </object>
+  <object id="66" name="JJI Dojo Interactive Stair Gate - Open Right Dialogue" type="event" x="224" y="144" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_blackbelt_dojo_stair_officer_right,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_dojo_gate_open" />
+    <property name="behav10" value="talk jji_blackbelt_dojo_stair_officer_right" />
+    <property name="cond10" value="is variable_set jji_dojo_gate_open:yes" />
+   </properties>
+  </object>
+  <object id="67" name="JJI Dojo Interactive Stair Gate - Open Position Spawn Left" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_stair_officer_left,9,9,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_stair_officer_left,down" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_stair_officer_left" />
+    <property name="cond20" value="is variable_set jji_dojo_gate_open:yes" />
+   </properties>
+  </object>
+  <object id="68" name="JJI Dojo Interactive Stair Gate - Open Position Spawn Right" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_blackbelt_dojo_stair_officer_right,14,9,stand" />
+    <property name="act20" value="char_face jji_blackbelt_dojo_stair_officer_right,down" />
+    <property name="cond10" value="not char_exists jji_blackbelt_dojo_stair_officer_right" />
+    <property name="cond20" value="is variable_set jji_dojo_gate_open:yes" />
    </properties>
   </object>
  </objectgroup>
  <objectgroup color="#ff0000" id="6" name="Collisions">
-  <object id="3" type="collision" x="0" y="32" width="16" height="160"/>
-  <object id="4" type="collision" x="0" y="0" width="384" height="32"/>
-  <object id="5" type="collision" x="368" y="32" width="16" height="160"/>
-  <object id="6" type="collision" x="80" y="32" width="16" height="112"/>
-  <object id="7" type="collision" x="288" y="32" width="16" height="112"/>
-  <object id="8" type="collision" x="208" y="32" width="16" height="112"/>
-  <object id="9" type="collision" x="160" y="32" width="16" height="112"/>
-  <object id="10" type="collision" x="176" y="48" width="32" height="32"/>
-  <object id="11" type="collision" x="16" y="96" width="32" height="16"/>
-  <object id="12" type="collision" x="48" y="64" width="32" height="16"/>
-  <object id="13" type="collision" x="96" y="96" width="32" height="16"/>
-  <object id="14" type="collision" x="128" y="64" width="32" height="16"/>
-  <object id="15" type="collision" x="224" y="96" width="32" height="16"/>
-  <object id="16" type="collision" x="256" y="64" width="32" height="16"/>
-  <object id="17" type="collision" x="304" y="96" width="32" height="16"/>
-  <object id="18" type="collision" x="336" y="64" width="32" height="16"/>
-  <object id="19" type="collision" x="352" y="80" width="16" height="16"/>
-  <object id="20" type="collision" x="304" y="112" width="16" height="16"/>
-  <object id="21" type="collision" x="272" y="80" width="16" height="16"/>
-  <object id="22" type="collision" x="224" y="112" width="16" height="16"/>
-  <object id="23" type="collision" x="144" y="80" width="16" height="16"/>
-  <object id="24" type="collision" x="96" y="112" width="16" height="16"/>
-  <object id="25" type="collision" x="64" y="80" width="16" height="16"/>
-  <object id="26" type="collision" x="16" y="112" width="16" height="16"/>
+  <object id="3" type="collision" x="0" y="32" width="16" height="160" />
+  <object id="4" type="collision" x="0" y="0" width="384" height="32" />
+  <object id="5" type="collision" x="368" y="32" width="16" height="160" />
+  <object id="6" type="collision" x="80" y="32" width="16" height="112" />
+  <object id="7" type="collision" x="288" y="32" width="16" height="112" />
+  <object id="8" type="collision" x="208" y="32" width="16" height="112" />
+  <object id="9" type="collision" x="160" y="32" width="16" height="112" />
+  <object id="10" type="collision" x="176" y="48" width="32" height="32" />
+  <object id="11" type="collision" x="16" y="96" width="32" height="16" />
+  <object id="12" type="collision" x="48" y="64" width="32" height="16" />
+  <object id="13" type="collision" x="96" y="96" width="32" height="16" />
+  <object id="14" type="collision" x="128" y="64" width="32" height="16" />
+  <object id="15" type="collision" x="224" y="96" width="32" height="16" />
+  <object id="16" type="collision" x="256" y="64" width="32" height="16" />
+  <object id="17" type="collision" x="304" y="96" width="32" height="16" />
+  <object id="18" type="collision" x="336" y="64" width="32" height="16" />
+  <object id="19" type="collision" x="352" y="80" width="16" height="16" />
+  <object id="20" type="collision" x="304" y="112" width="16" height="16" />
+  <object id="21" type="collision" x="272" y="80" width="16" height="16" />
+  <object id="22" type="collision" x="224" y="112" width="16" height="16" />
+  <object id="23" type="collision" x="144" y="80" width="16" height="16" />
+  <object id="24" type="collision" x="96" y="112" width="16" height="16" />
+  <object id="25" type="collision" x="64" y="80" width="16" height="16" />
+  <object id="26" type="collision" x="16" y="112" width="16" height="16" />
  </objectgroup>
 </map>
