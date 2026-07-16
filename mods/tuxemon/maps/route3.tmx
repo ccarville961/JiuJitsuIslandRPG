@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="185">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="192">
  <properties>
   <property name="edges" value="clamped"/>
+  <property name="map_type" value="route"/>
   <property name="scenario" value="xero"/>
   <property name="slug" value="route3"/>
-  <property name="map_type" value="route"/>
  </properties>
  <tileset firstgid="1" source="../gfx/tilesets/core_city_and_country.tsx"/>
  <tileset firstgid="1441" name="Superpowers_Tilesheet" tilewidth="16" tileheight="16" tilecount="1600" columns="40">
@@ -13,6 +13,7 @@
  <tileset firstgid="3041" source="../gfx/tilesets/core_buildings.tsx"/>
  <tileset firstgid="5391" source="../gfx/tilesets/core_outdoor.tsx"/>
  <tileset firstgid="8166" source="../gfx/tilesets/core_outdoor_nature.tsx"/>
+ <tileset firstgid="16358" source="../gfx/tilesets/core_set pieces.tsx"/>
  <layer id="1" name="Layer 1" width="40" height="40">
   <data encoding="base64" compression="zlib">
    eAHtV8EJwzAM9BKlj87YFTJEt8iWxY+DQ5USy3ZUB/QIsnWS7riIQLZHKVs+6cFNdmB/luJ9sN/ow/2KCI7R2KNtlNPT79HnmXt1rab7ak7vfKnR2x9Rzxoj+Ho4oLGnN6IH+mqM4PNyrKyPta3oH+vz+h5Rz/pW9K96sLJGqW01D1Pf2Dc1/Uv/Ir7DFkfuX+6ftRsR+Tvt37/8YI+khiNM1o7emcs6Sw6uk9jMO/McnTVO1GvYrBw4zqLGhx4Ni8iBv0aND7iGReTAn/r093P2Dtg/zUPg1hzgLdGaYeVbZn5ev/9wLX1c854wg+fJ8xc1LGGM
@@ -25,7 +26,7 @@
  </layer>
  <layer id="3" name="Layer 3" width="40" height="40">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="4" name="Above Player" width="40" height="40">
@@ -182,6 +183,13 @@
     <property name="act1" value="set_environment night_grass"/>
     <property name="cond1" value="is time_is stage_of_day,equals,night"/>
     <property name="cond2" value="not environment_is night_grass"/>
+   </properties>
+  </object>
+  <object id="191" name="Sign: BrownBelt Inn" type="event" x="496" y="32" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog brownbelt_inn_sign"/>
+    <property name="cond1" value="is char_facing_tile player"/>
+    <property name="cond2" value="is button_pressed INTERACT"/>
    </properties>
   </object>
  </objectgroup>

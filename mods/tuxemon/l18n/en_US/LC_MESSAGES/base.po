@@ -20396,3 +20396,10 @@ msgstr "Coach Hill: Well done.\nYou have completed the assessment."
 # JJI Coach Hill dialogue
 msgid "jji_coach_hill_mansion_invitation"
 msgstr "Coach Hill: You have earned an invitation to the Mansion."
+
+msgid "brownbelt_inn_sign"
+msgstr ""
+"BrownBelt Inn\n"
+"\n"
+"A warm meal, a soft bed,\n"
+"and stories from every corner of JiuJitsu Island."
