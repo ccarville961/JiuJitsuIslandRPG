@@ -1,30 +1,80 @@
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: Tuxemon\n"
-"\n"
-"Report-Msgid-Bugs-To: \n"
-"\n"
-"POT-Creation-Date: 2020-05-14 05:41+0200\n"
-"\n"
-"PO-Revision-Date: 2020-11-08 20:26+0000\n"
-"\n"
-"Last-Translator: Carlos Ramos CarreÃ±o <carlosramosca@hotmail.com>\n"
-"\n"
-"Language-Team: English <https://hosted.weblate.org/projects/tuxemon/tuxemon/"
-"en/>\n"
-"\n"
-"Language: en\n"
-"\n"
-"MIME-Version: 1.0\n"
-"\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"\n"
 "Content-Transfer-Encoding: 8bit\n"
-"\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"\n"
-"X-Generator: Weblate 4.3.2"
+"Language: en_US\n"
+
+msgid "open_mat_contract"
+msgstr "Wildcard Invite"
+
+msgid "combat_used_x"
+msgstr "{user} attempts {name}!"
+
+msgid "generic_success"
+msgstr "It worked!"
+
+msgid "generic_failure"
+msgstr "It failed!"
+
+msgid "black_belt"
+msgstr "Black Belt"
+
+msgid "black_belt_description"
+msgstr "The rank of a true Jiu-Jitsu expert. Grants entry to King Of The Hill."
+
+msgid "jji_koth_blackbelt_received"
+msgstr "You received the Black Belt!"
+
+msgid "jji_koth_ceo_ceremony_1"
+msgstr ""
+"KOTH CEO: Welcome. You have overcome every challenge placed before you."
+
+msgid "jji_koth_ceo_ceremony_2"
+msgstr ""
+"KOTH CEO: Today, before these respected coaches, I recognise your dedication."
+
+msgid "jji_koth_ceo_ceremony_3"
+msgstr "KOTH CEO: It is my honour to award you your Black Belt."
+
+msgid "jji_koth_ceo_ceremony_4"
+msgstr "KOTH CEO: One challenge remains: King Of The Hill."
+
+msgid "jji_koth_ceo_ceremony_5"
+msgstr "KOTH CEO: Please speak with me after."
+
+msgid "jji_koth_ceo_after_1"
+msgstr ""
+"KOTH CEO: My officers inform me Coach Atlas has entered King Of The Hill."
+
+msgid "jji_koth_ceo_after_2"
+msgstr "KOTH CEO: He is waiting for challengers."
+
+msgid "jji_koth_ceo_after_3"
+msgstr "KOTH CEO: This is your chance... go and get your revenge!"
+
+msgid "jji_koth_carville_thanks"
+msgstr "Coach Carville: You earned every belt. Now go finish what you started."
+
+msgid "jji_koth_toland_thanks"
+msgstr "Coach Toland: The Black Belt is only the beginning. Keep learning."
+
+msgid "jji_koth_hill_thanks"
+msgstr "Coach Hill: Hard work always wins. Congratulations."
+
+msgid "jji_koth_scramble_thanks"
+msgstr "Scramble Steve: I always knew you would get there!"
+
+msgid "jji_koth_duncan_thanks"
+msgstr "Sensei Duncan: Wear that belt with humility."
+
+msgid "jji_koth_elliott_thanks"
+msgstr "D1 Elliott: You earned everyone's respect. Keep Oil Checking!"
+
+msgid "jji_koth_bruce_thanks"
+msgstr "Brown Belt Bruce: Guess I cannot call you kid anymore."
+
+msgid "jji_koth_conleth_thanks"
+msgstr "Coach Conleth: I am proud of you. Good luck with King Of The Hill."
 
 msgid "cosmic_berry"
 msgstr "Flow State"
@@ -335,9 +385,6 @@ msgid "night_class_contract_description"
 msgstr ""
 "Captures more easily during nighttime, but its effectiveness is \n"
 "significantly reduced during the day."
-
-msgid "open_mat_contract"
-msgstr "Wildcard Invite"
 
 msgid "open_mat_contract_description"
 msgstr ""
@@ -1779,9 +1826,6 @@ msgstr "{name} can't learn that technique."
 msgid "tech_replaced"
 msgstr "{old} was replaced with {new}."
 
-msgid "combat_used_x"
-msgstr "{user} attempts {name}!"
-
 msgid "combat_used_x_on_y"
 msgstr "{user} attempts {name} on {target}!"
 
@@ -2093,12 +2137,6 @@ msgstr "Remove"
 
 msgid "generic_add"
 msgstr "Add"
-
-msgid "generic_success"
-msgstr "It worked!"
-
-msgid "generic_failure"
-msgstr "It failed!"
 
 msgid "who_is_that"
 msgstr "Name That Competitor"
@@ -9919,7 +9957,9 @@ msgid "sorryfurthis"
 msgstr "Good Choice. Sorry, this will only sting a little."
 
 msgid "mwah"
-msgstr "Allie: Congratulations on earning your Blue Belt! The KOTH Director wants to speak with you."
+msgstr ""
+"Allie: Congratulations on earning your Blue Belt! The KOTH Director wants to "
+"speak with you."
 
 msgid "mwah2"
 msgstr "Allie: Director! Our newest Blue Belt is here."
@@ -9934,7 +9974,13 @@ msgid "kmere"
 msgstr "Director: Come over here. I want to explain what comes next."
 
 msgid "theinfo"
-msgstr "Director: KOTH records your progress as you challenge academies across the island.\n\nDirector: Keep improving. Each victory will move you closer to the top.\n\nDirector: I think the tree blocking Route 1 has now been cleared."
+msgstr ""
+"Director: KOTH records your progress as you challenge academies across the "
+"island.\n"
+"\n"
+"Director: Keep improving. Each victory will move you closer to the top.\n"
+"\n"
+"Director: I think the tree blocking Route 1 has now been cleared."
 
 msgid "liela_goes_to_battle"
 msgstr ""
@@ -10872,7 +10918,9 @@ msgstr ""
 "How do I do that? Well... politely, I hope."
 
 msgid "oimate"
-msgstr "This route is restricted to ranked competitors. Come back after earning your Blue Belt."
+msgstr ""
+"This route is restricted to ranked competitors. Come back after earning your "
+"Blue Belt."
 
 msgid "welcometotaba"
 msgstr "Hello, aspiring competitors!"
@@ -11971,15 +12019,15 @@ msgid "taba_house2_reader3a"
 msgstr "The more positions I understand, the calmer I become during a roll."
 
 msgid "taba_house2_reader4a"
-msgstr "Instructionals help, but you still need to drill each movement until it becomes instinct."
+msgstr ""
+"Instructionals help, but you still need to drill each movement until it "
+"becomes instinct."
 
 msgid "taba_house2_books"
 msgstr ""
-"Beginner study: posture, frames, escapes and guard retention.\\n"
-"\\n"
-"Intermediate study: sweeps, submissions, takedowns and guard passing.\\n"
-"\\n"
-"Advanced study: strategy, competition mindset, recovery and coaching."
+"Beginner study: posture, frames, escapes and guard retention."
+"\\n\\nIntermediate study: sweeps, submissions, takedowns and guard passing."
+"\\n\\nAdvanced study: strategy, competition mindset, recovery and coaching."
 
 msgid "taba_house3_owner1"
 msgstr "Welcome to The Thoughtful Leaf Inn!"
@@ -17317,7 +17365,8 @@ msgstr "A rare ancient column. This was once part of the original judo temple."
 
 msgid "spyder_column2_sign"
 msgstr ""
-"It is said BJJ started as Judo. Other ruins from the same culture can be found in \n"
+"It is said BJJ started as Judo. Other ruins from the same culture can be "
+"found in \n"
 "Route 3. "
 
 msgid "spyder_ruby_plaque"
@@ -19304,7 +19353,8 @@ msgid "classic_gym_leader_astra_post"
 msgstr "Coach McGreevy: Nice work. You moved really well!"
 
 msgid "classic_gym_leader_astra_pre"
-msgstr "Coach McGreevy: Welcome to the gym. Now let us put you through your paces!"
+msgstr ""
+"Coach McGreevy: Welcome to the gym. Now let us put you through your paces!"
 
 msgid "classic_gym_leader_bravion_post"
 msgstr "Coach Atlas: Ahhhh Fuck You and all belonging to you!"
@@ -19787,7 +19837,8 @@ msgid "punch_choke"
 msgstr "Punch Choke"
 
 msgid "classic_gym_leader_voltessa_pre"
-msgstr "Coach Toland: Control first. Finish second. Show me what you have learned."
+msgstr ""
+"Coach Toland: Control first. Finish second. Show me what you have learned."
 
 msgid "classic_gym_leader_voltessa"
 msgstr "Coach Toland"
@@ -19802,7 +19853,8 @@ msgid "coach_toland"
 msgstr "Coach Toland"
 
 msgid "coach_toland_pre"
-msgstr "Coach Toland: Pressure wins matches. Let us see if you can survive mine."
+msgstr ""
+"Coach Toland: Pressure wins matches. Let us see if you can survive mine."
 
 msgid "coach_toland_post"
 msgstr "Coach Toland: Good. You felt the pressure and kept moving."
@@ -19811,7 +19863,8 @@ msgid "coach_mcalister"
 msgstr "Coach McAlister"
 
 msgid "coach_mcalister_pre"
-msgstr "Coach McAlister: Control first. Finish second. Show me what you have learned."
+msgstr ""
+"Coach McAlister: Control first. Finish second. Show me what you have learned."
 
 msgid "coach_mcalister_post"
 msgstr "Coach McAlister: Solid work. Your control is improving."
@@ -19865,13 +19918,16 @@ msgid "posture_up"
 msgstr "Posture Up"
 
 msgid "sensai_duncan_triangle_lesson_1"
-msgstr "Sensei Duncan: I have heard that Coach Atlas is hurting people in the trial classes again."
+msgstr ""
+"Sensei Duncan: I have heard that Coach Atlas is hurting people in the trial "
+"classes again."
 
 msgid "sensai_duncan_triangle_lesson_2"
 msgstr "Sensei Duncan: Atlas likes to trap new students in his triangle."
 
 msgid "sensai_duncan_triangle_lesson_3"
-msgstr "Sensei Duncan: If you are caught in a triangle, remember to POSTURE UP!"
+msgstr ""
+"Sensei Duncan: If you are caught in a triangle, remember to POSTURE UP!"
 
 msgid "move_learned_popup"
 msgstr "MOVE LEARNED!"
@@ -19895,10 +19951,13 @@ msgid "classic_gym_leader_granite"
 msgstr "Coach Staffy"
 
 msgid "classic_gym_leader_granite_pre"
-msgstr "Coach Staffy: Welcome to Defiant BJJ. We need to test your skills before you progress further!"
+msgstr ""
+"Coach Staffy: Welcome to Defiant BJJ. We need to test your skills before you "
+"progress further!"
 
 msgid "classic_gym_leader_granite_post"
-msgstr "Coach Staffy: That was awesome. You are still able to walk, so that is good!"
+msgstr ""
+"Coach Staffy: That was awesome. You are still able to walk, so that is good!"
 
 msgid "single_leg"
 msgstr "Single Leg"
@@ -19919,22 +19978,29 @@ msgid "classic_gym_leader_mila_pre"
 msgstr "D1 Elliott: Let's try some good old tackle and grapple!"
 
 msgid "classic_gym_leader_mila_post"
-msgstr "D1 Elliott: That wasn't your first Oil Check! But I hope you remember mine!"
+msgstr ""
+"D1 Elliott: That wasn't your first Oil Check! But I hope you remember mine!"
 
 msgid "posture_up_learned_popup"
 msgstr "POSTURE UP LEARNED!"
 
 msgid "sensai_duncan_guillotine_lesson"
-msgstr "Sensei Duncan: I will also teach you the Guillotine. Use it when an opponent leaves their neck exposed."
+msgstr ""
+"Sensei Duncan: I will also teach you the Guillotine. Use it when an opponent "
+"leaves their neck exposed."
 
 msgid "guillotine_learned_popup"
 msgstr "GUILLOTINE LEARNED!"
 
 msgid "sensai_duncan_test_intro"
-msgstr "Sensei Duncan: Now show me what you learned. Use Posture Up and Guillotine during this spar."
+msgstr ""
+"Sensei Duncan: Now show me what you learned. Use Posture Up and Guillotine "
+"during this spar."
 
 msgid "sensai_duncan_test_complete"
-msgstr "Sensei Duncan: Excellent work. You used your new techniques well. Your registration is complete, and you are ready to continue your journey."
+msgstr ""
+"Sensei Duncan: Excellent work. You used your new techniques well. Your "
+"registration is complete, and you are ready to continue your journey."
 
 msgid "sensai_duncan"
 msgstr "Sensei Duncan"
@@ -19949,34 +20015,46 @@ msgid "mouth_cover"
 msgstr "Mouth Cover"
 
 msgid "mouth_cover_description"
-msgstr "The user controls the opponent's breathing and disrupts their composure."
+msgstr ""
+"The user controls the opponent's breathing and disrupts their composure."
 
 msgid "kimura"
 msgstr "Kimura"
 
 msgid "kimura_description"
-msgstr "The user isolates the arm and applies a powerful figure-four shoulder lock."
+msgstr ""
+"The user isolates the arm and applies a powerful figure-four shoulder lock."
 
 msgid "coach_carville"
 msgstr "Coach Carville"
 
 msgid "coach_carville_intro"
-msgstr "Coach Carville: You made it through all four academy matches. Now meet me in the middle and show me what you have learned."
+msgstr ""
+"Coach Carville: You made it through all four academy matches. Now meet me in "
+"the middle and show me what you have learned."
 
 msgid "coach_carville_intro2"
-msgstr "Coach Carville: I will test your takedowns, control, scrambles and submissions. Stay composed and earn the finish."
+msgstr ""
+"Coach Carville: I will test your takedowns, control, scrambles and "
+"submissions. Stay composed and earn the finish."
 
 msgid "coach_carville_victory"
-msgstr "Coach Carville: Excellent work. You stayed calm under pressure, adapted when the position changed and found the finish."
+msgstr ""
+"Coach Carville: Excellent work. You stayed calm under pressure, adapted when "
+"the position changed and found the finish."
 
 msgid "coach_carville_award"
-msgstr "Coach Carville: Congratulations. You have earned your Blue Belt. The pathway behind me is now open."
+msgstr ""
+"Coach Carville: Congratulations. You have earned your Blue Belt. The pathway "
+"behind me is now open."
 
 msgid "blue_belt"
 msgstr "Blue Belt"
 
 msgid "blue_belt_description"
-msgstr "Awarded for defeating Coach Carville and completing the Taba Academy evaluation."
+msgstr ""
+"Awarded for defeating Coach Carville and completing the Taba Academy "
+"evaluation."
 
 msgid "tabawaitup"
 msgstr "Best of luck, and make sure you're healed up!"
@@ -19988,16 +20066,22 @@ msgid "callahan"
 msgstr "Callahan"
 
 msgid "luna_blue_belt"
-msgstr "Luna: Great roll! Now that you have your Blue Belt, you can progress further into the game."
+msgstr ""
+"Luna: Great roll! Now that you have your Blue Belt, you can progress further "
+"into the game."
 
 msgid "callahan_blue_belt"
-msgstr "Callahan: Great roll! Now that you have your Blue Belt, you are ready to progress further into the game."
+msgstr ""
+"Callahan: Great roll! Now that you have your Blue Belt, you are ready to "
+"progress further into the game."
 
 msgid "chelsea"
 msgstr "Chelsea"
 
 msgid "chelsea_blue_belt"
-msgstr "Chelsea: Great roll! Now that you have your Blue Belt, you can progress further into the game."
+msgstr ""
+"Chelsea: Great roll! Now that you have your Blue Belt, you can progress "
+"further into the game."
 
 msgid "bonnie_bluebelt"
 msgstr "Bonnie Bluebelt"
@@ -20012,7 +20096,9 @@ msgid "leather_officer_2"
 msgstr "Road Officer"
 
 msgid "leather_officer_2_checkpoint"
-msgstr "The Maniac's challenge is the rite of passage. Beat him and earn your Purple Belt."
+msgstr ""
+"The Maniac's challenge is the rite of passage. Beat him and earn your Purple "
+"Belt."
 
 msgid "leather_officer_3"
 msgstr "Road Officer"
@@ -20048,25 +20134,39 @@ msgid "scramble_steve_description"
 msgstr "An unpredictable grappler who turns every exchange into chaos."
 
 msgid "jji_scramble_steve_entry"
-msgstr "You came looking for a Purple Belt?\\nThe officers keep sending people here because they can't keep me under control.\\nLet's see how well you handle a scramble."
+msgstr ""
+"You came looking for a Purple Belt?\\nThe officers keep sending people here "
+"because they can't keep me under control.\\nLet's see how well you handle a "
+"scramble."
 
 msgid "jji_scramble_steve_pre_battle"
-msgstr "You want past those officers?\\nThen stay composed when everything gets messy!"
+msgstr ""
+"You want past those officers?\\nThen stay composed when everything gets "
+"messy!"
 
 msgid "jji_scramble_steve_victory"
-msgstr "Hah! You didn't panic. You stayed composed through the scramble.\\nFine. You've earned the Purple Belt."
+msgstr ""
+"Hah! You didn't panic. You stayed composed through the scramble.\\nFine. "
+"You've earned the Purple Belt."
 
 msgid "jji_scramble_steve_after"
-msgstr "You passed the rite of passage.\\nShow that Purple Belt to the officers."
+msgstr ""
+"You passed the rite of passage.\\nShow that Purple Belt to the officers."
 
 msgid "purple_belt_description"
-msgstr "Proof that you defeated Scramble Steve and completed the rite of passage to Leather Town."
+msgstr ""
+"Proof that you defeated Scramble Steve and completed the rite of passage to "
+"Leather Town."
 
 msgid "jji_leather_checkpoint_verified"
-msgstr "Hold there. Let us check your rank.\\nPurple Belt confirmed. Officers, clear a path."
+msgstr ""
+"Hold there. Let us check your rank.\\nPurple Belt confirmed. Officers, clear "
+"a path."
 
 msgid "jji_leather_officer_1_blocked"
-msgstr "Leather Town is restricted to Purple Belts.\\nComplete the rite of passage at Scramble Steve's house."
+msgstr ""
+"Leather Town is restricted to Purple Belts.\\nComplete the rite of passage "
+"at Scramble Steve's house."
 
 msgid "jji_leather_officer_2_blocked"
 msgstr "Nobody passes this checkpoint without a Purple Belt."
@@ -20150,13 +20250,17 @@ msgid "dmt_description"
 msgstr "A powerful psychedelic handed to you by Coach Conleth."
 
 msgid "conleth_dmt_intro"
-msgstr "I heard you just got your Brown Belt after beating Bruce. Nice job. But as with all brown belts, we like our drugs. Ever try DMT?"
+msgstr ""
+"I heard you just got your Brown Belt after beating Bruce. Nice job. But as "
+"with all brown belts, we like our drugs. Ever try DMT?"
 
 msgid "conleth_dmt_yes"
 msgstr "You know the drill. Here, take a hit."
 
 msgid "conleth_dmt_no"
-msgstr "It's tradition as part of brown belt culture to do mad psychedelics. Here's DMT. Take a hit!"
+msgstr ""
+"It's tradition as part of brown belt culture to do mad psychedelics. Here's "
+"DMT. Take a hit!"
 
 msgid "conleth_dmt_hit"
 msgstr "You take a massive hit of DMT. The room begins to dissolve..."
@@ -20165,117 +20269,213 @@ msgid "conleth_dmt_player_after"
 msgstr "That was a crazy experience. We just had a crazy fight!"
 
 msgid "conleth_dmt_after"
-msgstr "Yeah, I know. You had a bad trip and I had to restrain you! Well, that's enough for one day. I'm going to get some rest."
+msgstr ""
+"Yeah, I know. You had a bad trip and I had to restrain you! Well, that's "
+"enough for one day. I'm going to get some rest."
 
 msgid "conleth_dmt_retry"
-msgstr "That trip got the better of you. Take a breath and talk to me when you're ready to try again."
+msgstr ""
+"That trip got the better of you. Take a breath and talk to me when you're "
+"ready to try again."
 
 msgid "conleth_dmt_complete"
 msgstr "That's enough enlightenment for one day."
 
-
 # JJI Black Belt Dojo - First Floor NPCs
-
 msgid "jji_blackbelt_dojo_stair_officer_left"
-msgstr "Officer: Stop here.\nThe upper floor is reserved for the Black Belt assessment.\nCoach Hill and Coach Toland are waiting upstairs."
+msgstr ""
+"Officer: Stop here.\n"
+"The upper floor is reserved for the Black Belt assessment.\n"
+"Coach Hill and Coach Toland are waiting upstairs."
 
 msgid "jji_blackbelt_dojo_stair_officer_right"
-msgstr "Officer: These stairs remain closed until you are ready.\nDefeat both Black Belt assessors and you will earn your Black Belt and a Mansion Invitation."
+msgstr ""
+"Officer: These stairs remain closed until you are ready.\n"
+"Defeat both Black Belt assessors and you will earn your Black Belt and a "
+"Mansion Invitation."
 
 msgid "jji_blackbelt_dojo_entrance_officer"
-msgstr "Officer: Welcome to the Black Belt Dojo.\nEveryone enters through these doors...\nbut not everyone leaves wearing a Black Belt."
+msgstr ""
+"Officer: Welcome to the Black Belt Dojo.\n"
+"Everyone enters through these doors...\n"
+"but not everyone leaves wearing a Black Belt."
 
 msgid "jji_blackbelt_dojo_patrol_officer"
-msgstr "Officer: Keep the corridors clear and show respect.\nCompetitors have travelled from every academy on the island for today's assessments."
+msgstr ""
+"Officer: Keep the corridors clear and show respect.\n"
+"Competitors have travelled from every academy on the island for today's "
+"assessments."
 
 msgid "jji_blackbelt_dojo_nervous_brown"
-msgstr "Brown Belt: I have spent six months preparing for this.\nI know every technique I planned to use...\nso why have my legs forgotten how to stand?"
+msgstr ""
+"Brown Belt: I have spent six months preparing for this.\n"
+"I know every technique I planned to use...\n"
+"so why have my legs forgotten how to stand?"
 
 msgid "jji_blackbelt_dojo_calm_brown"
-msgstr "Brown Belt: Win or lose, I am climbing those stairs.\nCourage is not the absence of nerves.\nIt is moving forward while they are screaming at you."
+msgstr ""
+"Brown Belt: Win or lose, I am climbing those stairs.\n"
+"Courage is not the absence of nerves.\n"
+"It is moving forward while they are screaming at you."
 
 msgid "jji_blackbelt_dojo_purple_belt"
-msgstr "Purple Belt: I have watched dozens of assessments here.\nNobody walks upstairs smiling.\nCoach Hill notices mistakes before you realise you made them."
+msgstr ""
+"Purple Belt: I have watched dozens of assessments here.\n"
+"Nobody walks upstairs smiling.\n"
+"Coach Hill notices mistakes before you realise you made them."
 
 msgid "jji_blackbelt_dojo_blue_belt"
-msgstr "Blue Belt: One day I will return for my own assessment.\nFor now, I am studying the people who were brave enough to try."
+msgstr ""
+"Blue Belt: One day I will return for my own assessment.\n"
+"For now, I am studying the people who were brave enough to try."
 
 msgid "jji_blackbelt_dojo_white_belt"
-msgstr "White Belt: Everyone upstairs was once standing where I am now.\nThat makes becoming a Black Belt feel impossible...\nand possible at the same time."
+msgstr ""
+"White Belt: Everyone upstairs was once standing where I am now.\n"
+"That makes becoming a Black Belt feel impossible...\n"
+"and possible at the same time."
 
 msgid "jji_blackbelt_dojo_older_black_belt"
-msgstr "Black Belt Instructor: Eyes on the board, everyone.\nToday we are studying how posture and inside position control the entire exchange.\nA technique begins before the grip is ever taken."
+msgstr ""
+"Black Belt Instructor: Eyes on the board, everyone.\n"
+"Today we are studying how posture and inside position control the entire "
+"exchange.\n"
+"A technique begins before the grip is ever taken."
 
 msgid "jji_blackbelt_dojo_visiting_coach"
-msgstr "Black Belt Instructor: Notice the sequence on the board.\nPosition, pressure, isolation... then submission.\nSkipping a step may work once. Good fundamentals work for a lifetime."
+msgstr ""
+"Black Belt Instructor: Notice the sequence on the board.\n"
+"Position, pressure, isolation... then submission.\n"
+"Skipping a step may work once. Good fundamentals work for a lifetime."
 
 msgid "jji_blackbelt_dojo_veteran"
-msgstr "Veteran: I earned my Black Belt twenty years ago.\nI am still corrected every week.\nMastery begins when you stop pretending you know everything."
+msgstr ""
+"Veteran: I earned my Black Belt twenty years ago.\n"
+"I am still corrected every week.\n"
+"Mastery begins when you stop pretending you know everything."
 
 msgid "jji_blackbelt_dojo_jits_trivia"
-msgstr "Student: Jiu-Jitsu is built around leverage and timing.\nThat is why a smaller grappler can control someone much larger.\nStrength helps—but technique decides where that strength goes."
+msgstr ""
+"Student: Jiu-Jitsu is built around leverage and timing.\n"
+"That is why a smaller grappler can control someone much larger.\n"
+"Strength helps—but technique decides where that strength goes."
 
 msgid "jji_blackbelt_dojo_training_partner"
-msgstr "Grappler: The best training partner is not the one who wins every round.\nIt is the one who pushes you, protects you and helps you return tomorrow."
+msgstr ""
+"Grappler: The best training partner is not the one who wins every round.\n"
+"It is the one who pushes you, protects you and helps you return tomorrow."
 
 msgid "jji_blackbelt_dojo_medic"
-msgstr "Medic: Tap early and train tomorrow.\nRefusing to tap does not prove toughness.\nUsually it just creates paperwork for me."
+msgstr ""
+"Medic: Tap early and train tomorrow.\n"
+"Refusing to tap does not prove toughness.\n"
+"Usually it just creates paperwork for me."
 
 msgid "jji_blackbelt_dojo_cleaner"
-msgstr "Cleaner: Funny thing about this place...\nthe toughest people are usually the politest.\nAlso, laundry is the true final boss of Jiu-Jitsu."
+msgstr ""
+"Cleaner: Funny thing about this place...\n"
+"the toughest people are usually the politest.\n"
+"Also, laundry is the true final boss of Jiu-Jitsu."
 
 # JJI Black Belt Dojo stair gate
 msgid "jji_blackbelt_dojo_stair_warning"
-msgstr "Officer: Hold it right there.\nThe upper floor contains the Black Belt assessment.\nMake sure you are fully prepared before proceeding.\nCoach Hill and Coach Toland are waiting upstairs."
+msgstr ""
+"Officer: Hold it right there.\n"
+"The upper floor contains the Black Belt assessment.\n"
+"Make sure you are fully prepared before proceeding.\n"
+"Coach Hill and Coach Toland are waiting upstairs."
 
 msgid "jji_blackbelt_dojo_gate_question"
-msgstr "Officer: Beyond these stairs are Coach Hill and Coach Toland.\nYou must defeat both Black Belt assessors to earn your Black Belt and Mansion Invitation.\nAre you ready to proceed?"
+msgstr ""
+"Officer: Beyond these stairs are Coach Hill and Coach Toland.\n"
+"You must defeat both Black Belt assessors to earn your Black Belt and "
+"Mansion Invitation.\n"
+"Are you ready to proceed?"
 
 msgid "jji_blackbelt_dojo_gate_yes"
-msgstr "Officer: Very well.\nThe assessment floor is now open.\nGood luck."
+msgstr ""
+"Officer: Very well.\n"
+"The assessment floor is now open.\n"
+"Good luck."
 
 msgid "jji_blackbelt_dojo_gate_no"
-msgstr "Officer: Sensible.\nPrepare yourself and speak to us again when you are ready."
+msgstr ""
+"Officer: Sensible.\n"
+"Prepare yourself and speak to us again when you are ready."
 
 msgid "jji_blackbelt_dojo_gate_open"
-msgstr "Officer: The way is clear.\nCoach Hill and Coach Toland are waiting upstairs."
+msgstr ""
+"Officer: The way is clear.\n"
+"Coach Hill and Coach Toland are waiting upstairs."
 
 msgid "jji_blackbelt_dojo_class_teacher"
-msgstr "Instructor: Eyes forward, class.\nToday we are studying posture, frames and inside position.\nGood Jiu-Jitsu begins with understanding why a technique works."
+msgstr ""
+"Instructor: Eyes forward, class.\n"
+"Today we are studying posture, frames and inside position.\n"
+"Good Jiu-Jitsu begins with understanding why a technique works."
 
 msgid "jji_blackbelt_dojo_sensei_duncan"
-msgstr "Sensei Duncan: I am proud of you, Red.\nYou have come so far in your Jiu-Jitsu journey.\nEvery belt, every difficult round and every lesson has brought you to this moment.\nCoach Hill and Coach Toland will test everything you have learned upstairs.\nWhatever happens, be proud of how far you have come."
+msgstr ""
+"Sensei Duncan: I am proud of you, Red.\n"
+"You have come so far in your Jiu-Jitsu journey.\n"
+"Every belt, every difficult round and every lesson has brought you to this "
+"moment.\n"
+"Coach Hill and Coach Toland will test everything you have learned upstairs.\n"
+"Whatever happens, be proud of how far you have come."
 
 msgid "jji_blackbelt_dojo_dr_kimura"
-msgstr "Dr. Kimura: Let me take a look at you.\nA Black Belt assessment demands your very best.\nI will restore your health so you can keep training."
+msgstr ""
+"Dr. Kimura: Let me take a look at you.\n"
+"A Black Belt assessment demands your very best.\n"
+"I will restore your health so you can keep training."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_toland_intro"
-msgstr "Coach Toland: Technique is not something you simply remember.\nTechnique is something you become.\nShow me what your years of training have taught you."
+msgstr ""
+"Coach Toland: Technique is not something you simply remember.\n"
+"Technique is something you become.\n"
+"Show me what your years of training have taught you."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_toland_first_win"
-msgstr "Coach Toland: Excellent.\nYour fundamentals remained strong under pressure.\nCoach Hill still awaits. Complete his assessment to finish your Black Belt trial."
+msgstr ""
+"Coach Toland: Excellent.\n"
+"Your fundamentals remained strong under pressure.\n"
+"Coach Hill still awaits. Complete his assessment to finish your Black Belt "
+"trial."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_toland_final_win"
-msgstr "Coach Toland: Excellent work.\nYou have completed both Black Belt assessments."
+msgstr ""
+"Coach Toland: Excellent work.\n"
+"You have completed both Black Belt assessments."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_toland_after"
-msgstr "Coach Toland: You have already passed my assessment.\nCoach Hill is your final test. Stay composed."
+msgstr ""
+"Coach Toland: You have already passed my assessment.\n"
+"Coach Hill is your final test. Stay composed."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_hill_intro"
-msgstr "Coach Hill: I have watched you grow through every belt.\nNow I want to see the practitioner you have become.\nShow me that you are ready."
+msgstr ""
+"Coach Hill: I have watched you grow through every belt.\n"
+"Now I want to see the practitioner you have become.\n"
+"Show me that you are ready."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_hill_first_win"
-msgstr "Coach Hill: Outstanding.\nYou have earned my approval.\nCoach Toland still awaits. Complete his assessment to finish your Black Belt trial."
+msgstr ""
+"Coach Hill: Outstanding.\n"
+"You have earned my approval.\n"
+"Coach Toland still awaits. Complete his assessment to finish your Black Belt "
+"trial."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_hill_final_win"
-msgstr "Coach Hill: Outstanding.\nYou have completed both Black Belt assessments."
+msgstr ""
+"Coach Hill: Outstanding.\n"
+"You have completed both Black Belt assessments."
 
 # JJI Coach Hill dialogue
 msgid "jji_blackbelt_hill_after"
@@ -20283,15 +20483,21 @@ msgstr "Coach Hill: Congratulations. Continue to the Mansion."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_ceremony_1"
-msgstr "Coach Hill: Every belt before this represented another step in your development."
+msgstr ""
+"Coach Hill: Every belt before this represented another step in your "
+"development."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_ceremony_2"
-msgstr "Coach Toland: A Black Belt represents what you have proven through discipline, courage and consistency."
+msgstr ""
+"Coach Toland: A Black Belt represents what you have proven through "
+"discipline, courage and consistency."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_ceremony_3"
-msgstr "Coach Hill: Congratulations.\nYou have earned your Black Belt."
+msgstr ""
+"Coach Hill: Congratulations.\n"
+"You have earned your Black Belt."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_received"
@@ -20303,11 +20509,15 @@ msgstr "You received the Mansion Invitation!"
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_ceremony_4"
-msgstr "Coach Toland: The invitation grants access to the Mansion, where the island's strongest practitioners gather."
+msgstr ""
+"Coach Toland: The invitation grants access to the Mansion, where the "
+"island's strongest practitioners gather."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_ceremony_5"
-msgstr "Coach Hill: Your journey is not over.\nIn many ways, it is only beginning."
+msgstr ""
+"Coach Hill: Your journey is not over.\n"
+"In many ways, it is only beginning."
 
 # JJI Black Belt Assessment
 msgid "coach_hill"
@@ -20327,71 +20537,107 @@ msgstr "Mansion Invitation"
 
 # JJI Black Belt Mansion Invitation
 msgid "mansion_invitation_description"
-msgstr "Presented only to practitioners who have completed the island's Black Belt assessment. Grants entry to the Mansion."
+msgstr ""
+"Presented only to practitioners who have completed the island's Black Belt "
+"assessment. Grants entry to the Mansion."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_toland_next_hill"
-msgstr "Coach Toland: You fought well. Your jiu-jitsu is worthy.\nYou have passed my assessment.\nGo upstairs. Coach Hill is waiting for you."
+msgstr ""
+"Coach Toland: You fought well. Your jiu-jitsu is worthy.\n"
+"You have passed my assessment.\n"
+"Go upstairs. Coach Hill is waiting for you."
 
 # JJI Coach Toland Spectator Room
 msgid "jji_toland_stair_officer"
-msgstr "Officer: The upper floor is closed during the assessment.\nDefeat Coach Toland before proceeding to Coach Hill."
+msgstr ""
+"Officer: The upper floor is closed during the assessment.\n"
+"Defeat Coach Toland before proceeding to Coach Hill."
 
 # JJI Coach Toland Spectator Room
 msgid "jji_toland_spectator_pressure"
-msgstr "Brown Belt: Coach Toland's pressure is relentless.\nDo not give him space to settle his weight."
+msgstr ""
+"Brown Belt: Coach Toland's pressure is relentless.\n"
+"Do not give him space to settle his weight."
 
 # JJI Coach Toland Spectator Room
 msgid "jji_toland_spectator_takedowns"
-msgstr "Purple Belt: His takedowns arrive from angles you do not expect.\nWatch his level changes and protect your base."
+msgstr ""
+"Purple Belt: His takedowns arrive from angles you do not expect.\n"
+"Watch his level changes and protect your base."
 
 # JJI Coach Toland Spectator Room
 msgid "jji_toland_spectator_observer"
-msgstr "Black Belt: We are here to observe how Coach Toland moves.\nEvery grip, step and reaction contains a lesson."
+msgstr ""
+"Black Belt: We are here to observe how Coach Toland moves.\n"
+"Every grip, step and reaction contains a lesson."
 
 # JJI Coach Toland Spectator Room
 msgid "jji_toland_spectator_guard"
-msgstr "Blue Belt: His guard retention is exceptional.\nBreak his posture and control his hips before attacking."
+msgstr ""
+"Blue Belt: His guard retention is exceptional.\n"
+"Break his posture and control his hips before attacking."
 
 # JJI Coach Toland Spectator Room
 msgid "jji_toland_spectator_transitions"
-msgstr "Veteran Grappler: His transitions are fluid.\nPredicting the next position is the real challenge."
+msgstr ""
+"Veteran Grappler: His transitions are fluid.\n"
+"Predicting the next position is the real challenge."
 
 # JJI Coach Toland Spectator Room
 msgid "jji_toland_spectator_composure"
-msgstr "Student: Toland punishes panic.\nStay composed, frame correctly and make every escape deliberate."
+msgstr ""
+"Student: Toland punishes panic.\n"
+"Stay composed, frame correctly and make every escape deliberate."
 
 # JJI Coach Toland stair officers
 msgid "jji_toland_stair_officer_open"
-msgstr "Officer: Coach Toland has approved your progress.\nThe path to Coach Hill is now open."
+msgstr ""
+"Officer: Coach Toland has approved your progress.\n"
+"The path to Coach Hill is now open."
 
 # JJI Coach Hill assessment
 msgid "jji_hill_spectator_massive_win"
-msgstr "Purple Belt: Wow! You beat Coach Toland!\nThat is a massive win. You might really have a chance against Coach Hill."
+msgstr ""
+"Purple Belt: Wow! You beat Coach Toland!\n"
+"That is a massive win. You might really have a chance against Coach Hill."
 
 # JJI Coach Hill assessment
 msgid "jji_hill_spectator_respect"
-msgstr "Blue Belt: Toland is no joke.\nIf you handled his pressure, you have earned everyone's respect."
+msgstr ""
+"Blue Belt: Toland is no joke.\n"
+"If you handled his pressure, you have earned everyone's respect."
 
 # JJI Coach Hill assessment
 msgid "jji_hill_spectator_real_chance"
-msgstr "Black Belt: Coach Hill will not be easy.\nBut after defeating Toland, you have a real chance of completing the assessment."
+msgstr ""
+"Black Belt: Coach Hill will not be easy.\n"
+"But after defeating Toland, you have a real chance of completing the "
+"assessment."
 
 # JJI Coach Hill assessment
 msgid "jji_hill_spectator_atomic_drop"
-msgstr "Veteran Grappler: Watch for Coach Hill's famous Atomic Butt Drop.\nIt is his signature finisher."
+msgstr ""
+"Veteran Grappler: Watch for Coach Hill's famous Atomic Butt Drop.\n"
+"It is his signature finisher."
 
 # JJI Coach Hill assessment
 msgid "jji_hill_spectator_ribs"
-msgstr "Brown Belt: People say the Atomic Butt Drop has broken ribs.\nStay mobile and do not let him trap you beneath it."
+msgstr ""
+"Brown Belt: People say the Atomic Butt Drop has broken ribs.\n"
+"Stay mobile and do not let him trap you beneath it."
 
 # JJI Coach Hill assessment
 msgid "jji_hill_spectator_strategy"
-msgstr "Student: Keep your frames strong and watch his hips.\nIf Hill gets above you, move before he launches the Atomic Butt Drop!"
+msgstr ""
+"Student: Keep your frames strong and watch his hips.\n"
+"If Hill gets above you, move before he launches the Atomic Butt Drop!"
 
 # JJI Coach Hill dialogue
 msgid "jji_coach_hill_mansion_congratulations"
-msgstr "Coach Hill: Well done.\nYou have completed the assessment."
+msgstr ""
+"Coach Hill: Well done.\n"
+"You have completed the assessment."
 
 # JJI Coach Hill dialogue
 msgid "jji_coach_hill_mansion_invitation"
@@ -20406,15 +20652,22 @@ msgstr ""
 
 # JJI Mansion invitation gate
 msgid "jji_mansion_gate_no_invite"
-msgstr "Officer: Halt! Entry to the Mansion is restricted.\nYou must present a Mansion Invitation."
+msgstr ""
+"Officer: Halt! Entry to the Mansion is restricted.\n"
+"You must present a Mansion Invitation."
 
 # JJI Mansion invitation gate
 msgid "jji_mansion_gate_invite"
-msgstr "Officer: You defeated both Coach Toland and Coach Hill?\nThat is an incredible achievement.\nYour Mansion Invitation is valid. Please proceed."
+msgstr ""
+"Officer: You defeated both Coach Toland and Coach Hill?\n"
+"That is an incredible achievement.\n"
+"Your Mansion Invitation is valid. Please proceed."
 
 # JJI Mansion invitation gate
 msgid "jji_mansion_gate_open"
-msgstr "Officer: Welcome.\nThe Mansion is waiting for you."
+msgstr ""
+"Officer: Welcome.\n"
+"The Mansion is waiting for you."
 
 # JJI Mansion gate
 msgid "jji_mansion_gate_officer_left"
@@ -20426,11 +20679,15 @@ msgstr "Mansion Officer"
 
 # JJI Mansion gate
 msgid "jji_mansion_gate_guard"
-msgstr "Officer: This route is restricted.\nPresent your Mansion Invitation before proceeding."
+msgstr ""
+"Officer: This route is restricted.\n"
+"Present your Mansion Invitation before proceeding."
 
 # JJI Black Belt Mansion path officer
 msgid "jji_blackbelt_mansion_guard_no_belt"
-msgstr "Officer: Halt! This area is restricted.\nOnly Black Belts may proceed."
+msgstr ""
+"Officer: Halt! This area is restricted.\n"
+"Only Black Belts may proceed."
 
 # JJI Black Belt Mansion path officer
 msgid "jji_blackbelt_mansion_guard_no_invite"
@@ -20438,11 +20695,16 @@ msgstr "Officer: You have the rank, but you still need a Mansion Invitation."
 
 # JJI Black Belt Mansion path officer
 msgid "jji_blackbelt_mansion_guard_approved"
-msgstr "Officer: You defeated both Coach Toland and Coach Hill?\nThat is an incredible achievement.\nYour Mansion Invitation is valid. Please proceed."
+msgstr ""
+"Officer: You defeated both Coach Toland and Coach Hill?\n"
+"That is an incredible achievement.\n"
+"Your Mansion Invitation is valid. Please proceed."
 
 # JJI Black Belt Mansion path officer
 msgid "jji_blackbelt_mansion_guard_open"
-msgstr "Officer: The Mansion route is open.\nGood luck with the next stage of your journey."
+msgstr ""
+"Officer: The Mansion route is open.\n"
+"Good luck with the next stage of your journey."
 
 # JJI Black Belt Mansion path officer
 msgid "jji_blackbelt_mansion_path_officer"
@@ -20458,11 +20720,16 @@ msgstr "Officer: Halt! Only Black Belts may proceed beyond this point."
 
 # JJI Route 3 Black Belt officer
 msgid "jji_route3_blackbelt_officer_approved"
-msgstr "Officer: You defeated Coach Toland and Coach Hill?\nThat is an incredible achievement.\nYour Black Belt status is confirmed. Please proceed."
+msgstr ""
+"Officer: You defeated Coach Toland and Coach Hill?\n"
+"That is an incredible achievement.\n"
+"Your Black Belt status is confirmed. Please proceed."
 
 # JJI Route 3 Black Belt officer
 msgid "jji_route3_blackbelt_officer_open"
-msgstr "Officer: The path is clear.\nGood luck in the next stage of your journey."
+msgstr ""
+"Officer: The path is clear.\n"
+"Good luck in the next stage of your journey."
 
 # JJI Route 3 Black Belt checkpoint
 msgid "jji_route3_blackbelt_checkpoint_officer"
@@ -20470,15 +20737,22 @@ msgstr "Black Belt Officer"
 
 # JJI Route 3 Black Belt checkpoint
 msgid "jji_route3_blackbelt_checkpoint_blocked"
-msgstr "Officer: This route is restricted to Black Belts.\nReturn after completing your assessment."
+msgstr ""
+"Officer: This route is restricted to Black Belts.\n"
+"Return after completing your assessment."
 
 # JJI Route 3 Black Belt checkpoint
 msgid "jji_route3_blackbelt_checkpoint_approved"
-msgstr "Officer: You defeated Coach Toland and Coach Hill?\nOutstanding work. Your Black Belt status is confirmed.\nYou may proceed."
+msgstr ""
+"Officer: You defeated Coach Toland and Coach Hill?\n"
+"Outstanding work. Your Black Belt status is confirmed.\n"
+"You may proceed."
 
 # JJI Route 3 Black Belt checkpoint
 msgid "jji_route3_blackbelt_checkpoint_open"
-msgstr "Officer: The route is open.\nGood luck with the next stage of your journey."
+msgstr ""
+"Officer: The route is open.\n"
+"Good luck with the next stage of your journey."
 
 # JJI Flower City Black Belt checkpoint
 msgid "jji_flower_city_blackbelt_officer"
@@ -20486,12 +20760,19 @@ msgstr "Black Belt Officer"
 
 # JJI Flower City Black Belt checkpoint
 msgid "jji_flower_city_blackbelt_blocked"
-msgstr "Officer: Stop. Route 5 is restricted to Black Belts.\nComplete your assessment before proceeding."
+msgstr ""
+"Officer: Stop. Route 5 is restricted to Black Belts.\n"
+"Complete your assessment before proceeding."
 
 # JJI Flower City Black Belt checkpoint
 msgid "jji_flower_city_blackbelt_approved"
-msgstr "Officer: You defeated Coach Toland and Coach Hill?\nOutstanding work. Your Black Belt status is confirmed.\nYou may proceed."
+msgstr ""
+"Officer: You defeated Coach Toland and Coach Hill?\n"
+"Outstanding work. Your Black Belt status is confirmed.\n"
+"You may proceed."
 
 # JJI Flower City Black Belt checkpoint
 msgid "jji_flower_city_blackbelt_open"
-msgstr "Officer: Your Black Belt status is confirmed.\nRoute 5 is open to you."
+msgstr ""
+"Officer: Your Black Belt status is confirmed.\n"
+"Route 5 is open to you."

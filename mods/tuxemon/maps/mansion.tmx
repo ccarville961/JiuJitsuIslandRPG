@@ -1,26 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="18" height="18" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="37">
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.8" tiledversion="1.8.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="18" height="18" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="48">
  <properties>
-  <property name="edges" value="clamped"/>
-  <property name="inside" type="bool" value="true"/>
-  <property name="scenario" value="xero"/>
-  <property name="slug" value="mansion"/>
-  <property name="map_type" value="dungeon"/>
+  <property name="edges" value="clamped" />
+  <property name="inside" type="bool" value="true" />
+  <property name="scenario" value="xero" />
+  <property name="slug" value="mansion" />
+  <property name="map_type" value="dungeon" />
  </properties>
  <tileset firstgid="1" name="core_outdoor" tilewidth="16" tileheight="16" tilecount="2775" columns="37">
-  <image source="../gfx/tilesets/core_outdoor.png" width="592" height="1200"/>
+  <image source="../gfx/tilesets/core_outdoor.png" width="592" height="1200" />
  </tileset>
  <tileset firstgid="2776" name="core_indoor_walls" tilewidth="16" tileheight="16" tilecount="3864" columns="46">
-  <image source="../gfx/tilesets/core_indoor_walls.png" width="736" height="1344"/>
+  <image source="../gfx/tilesets/core_indoor_walls.png" width="736" height="1344" />
  </tileset>
  <tileset firstgid="6640" name="core_set pieces" tilewidth="16" tileheight="16" tilecount="1550" columns="31">
-  <image source="../gfx/tilesets/core_set pieces.png" width="496" height="800"/>
+  <image source="../gfx/tilesets/core_set pieces.png" width="496" height="800" />
  </tileset>
  <tileset firstgid="8190" name="core_indoor_floors" tilewidth="16" tileheight="16" tilecount="3864" columns="46">
-  <image source="../gfx/tilesets/core_indoor_floors.png" width="736" height="1344"/>
+  <image source="../gfx/tilesets/core_indoor_floors.png" width="736" height="1344" />
  </tileset>
  <tileset firstgid="12054" name="core_indoor_stairs" tilewidth="16" tileheight="16" tilecount="2970" columns="45">
-  <image source="../gfx/tilesets/core_indoor_stairs.png" width="720" height="1056"/>
+  <image source="../gfx/tilesets/core_indoor_stairs.png" width="720" height="1056" />
  </tileset>
  <layer id="1" name="Tile Layer 1" width="18" height="18">
   <data encoding="base64" compression="zlib">
@@ -43,111 +43,266 @@
   </data>
  </layer>
  <objectgroup color="#ff0000" id="5" name="Collisions">
-  <object id="1" type="collision" x="48" y="0" width="16" height="128"/>
-  <object id="2" type="collision" x="64" y="0" width="224" height="32"/>
-  <object id="3" type="collision" x="64" y="96" width="80" height="32"/>
-  <object id="4" type="collision" x="224" y="32" width="16" height="96"/>
-  <object id="5" type="collision" x="176" y="96" width="48" height="32"/>
-  <object id="6" type="collision" x="48" y="128" width="16" height="16"/>
-  <object id="7" type="collision" x="64" y="144" width="16" height="16"/>
-  <object id="8" type="collision" x="272" y="32" width="16" height="256"/>
-  <object id="9" type="collision" x="256" y="240" width="16" height="32"/>
-  <object id="10" type="collision" x="192" y="160" width="80" height="32"/>
-  <object id="11" type="collision" x="192" y="192" width="48" height="16"/>
-  <object id="12" type="collision" x="256" y="192" width="16" height="16"/>
-  <object id="13" type="collision" x="128" y="160" width="16" height="48"/>
-  <object id="14" type="collision" x="48" y="160" width="80" height="32"/>
-  <object id="15" type="collision" x="0" y="0" width="16" height="288"/>
-  <object id="16" type="collision" x="48" y="192" width="16" height="96"/>
-  <object id="17" type="collision" x="128" y="240" width="16" height="48"/>
-  <object id="18" type="collision" x="192" y="240" width="16" height="48"/>
+  <object id="1" type="collision" x="48" y="0" width="16" height="128" />
+  <object id="2" type="collision" x="64" y="0" width="224" height="32" />
+  <object id="3" type="collision" x="64" y="96" width="80" height="32" />
+  <object id="4" type="collision" x="224" y="32" width="16" height="96" />
+  <object id="5" type="collision" x="176" y="96" width="48" height="32" />
+  <object id="6" type="collision" x="48" y="128" width="16" height="16" />
+  <object id="7" type="collision" x="64" y="144" width="16" height="16" />
+  <object id="8" type="collision" x="272" y="32" width="16" height="256" />
+  <object id="9" type="collision" x="256" y="240" width="16" height="32" />
+  <object id="10" type="collision" x="192" y="160" width="80" height="32" />
+  <object id="11" type="collision" x="192" y="192" width="48" height="16" />
+  <object id="12" type="collision" x="256" y="192" width="16" height="16" />
+  <object id="13" type="collision" x="128" y="160" width="16" height="48" />
+  <object id="14" type="collision" x="48" y="160" width="80" height="32" />
+  <object id="15" type="collision" x="0" y="0" width="16" height="288" />
+  <object id="16" type="collision" x="48" y="192" width="16" height="96" />
+  <object id="17" type="collision" x="128" y="240" width="16" height="48" />
+  <object id="18" type="collision" x="192" y="240" width="16" height="48" />
   <object id="19" type="collision-line" x="64" y="288">
-   <polyline points="0,0 64,0"/>
+   <polyline points="0,0 64,0" />
   </object>
   <object id="20" type="collision-line" x="208" y="288">
-   <polyline points="0,0 64,0"/>
+   <polyline points="0,0 64,0" />
   </object>
-  <object id="21" type="collision" x="64" y="208" width="16" height="32"/>
-  <object id="34" type="collision" x="64" y="32" width="64" height="16"/>
-  <object id="35" type="collision" x="176" y="32" width="48" height="16"/>
+  <object id="21" type="collision" x="64" y="208" width="16" height="32" />
+  <object id="34" type="collision" x="64" y="32" width="64" height="16" />
+  <object id="35" type="collision" x="176" y="32" width="48" height="16" />
  </objectgroup>
  <objectgroup color="#ffff00" id="6" name="Events">
   <object id="22" name="Teleport to Top" type="event" x="16" y="16" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,mansion_top.tmx,1,16,0.3"/>
-    <property name="act20" value="char_face player,up"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,up"/>
+    <property name="act10" value="transition_teleport player,mansion_top.tmx,1,16,0.3" />
+    <property name="act20" value="char_face player,up" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,up" />
    </properties>
   </object>
   <object id="23" name="Teleport to Basement" type="event" x="16" y="256" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,mansion_basement.tmx,6,20,0.3"/>
-    <property name="act20" value="char_face player,down"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,bottom"/>
+    <property name="act10" value="transition_teleport player,mansion_basement.tmx,6,20,0.3" />
+    <property name="act20" value="char_face player,down" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,bottom" />
    </properties>
   </object>
   <object id="24" name="Teleport to Basement" type="event" x="32" y="256" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,mansion_basement.tmx,7,20,0.3"/>
-    <property name="act20" value="char_face player,down"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,down"/>
+    <property name="act10" value="transition_teleport player,mansion_basement.tmx,7,20,0.3" />
+    <property name="act20" value="char_face player,down" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,down" />
    </properties>
   </object>
   <object id="25" name="Teleport to Top" type="event" x="32" y="16" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,mansion_top.tmx,2,16,0.3"/>
-    <property name="act20" value="char_face player,up"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,up"/>
+    <property name="act10" value="transition_teleport player,mansion_top.tmx,2,16,0.3" />
+    <property name="act20" value="char_face player,up" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,up" />
    </properties>
   </object>
   <object id="27" name="Teleport to Side Route" type="event" x="144" y="272" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,routea.tmx,6,13,0.3"/>
-    <property name="act20" value="char_face player,down"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,down"/>
+    <property name="act10" value="transition_teleport player,routea.tmx,6,13,0.3" />
+    <property name="act20" value="char_face player,down" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,down" />
    </properties>
   </object>
   <object id="28" name="Teleport to Side Route" type="event" x="160" y="272" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,routea.tmx,7,13,0.3"/>
-    <property name="act20" value="char_face player,down"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,down"/>
+    <property name="act10" value="transition_teleport player,routea.tmx,7,13,0.3" />
+    <property name="act20" value="char_face player,down" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,down" />
    </properties>
   </object>
   <object id="29" name="Teleport to Basement" type="event" x="240" y="48" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,mansion_basement.tmx,13,3,0.3"/>
-    <property name="act20" value="char_face player,down"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,up"/>
+    <property name="act10" value="transition_teleport player,mansion_basement.tmx,13,3,0.3" />
+    <property name="act20" value="char_face player,down" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,up" />
    </properties>
   </object>
   <object id="30" name="Play Music" type="event" x="0" y="16" width="16" height="16">
    <properties>
-    <property name="act10" value="play_music music_jester_theme"/>
-    <property name="cond10" value="not music_playing music_jester_theme"/>
+    <property name="act10" value="play_music music_jester_theme" />
+    <property name="cond10" value="not music_playing music_jester_theme" />
    </properties>
   </object>
   <object id="32" name="Teleport to Side Route" type="event" x="176" y="272" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,routea.tmx,7,13,0.3"/>
-    <property name="act20" value="char_face player,down"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,down"/>
+    <property name="act10" value="transition_teleport player,routea.tmx,7,13,0.3" />
+    <property name="act20" value="char_face player,down" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,down" />
    </properties>
   </object>
   <object id="33" name="Teleport to Basement" type="event" x="256" y="48" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,mansion_basement.tmx,13,3,0.3"/>
-    <property name="act20" value="char_face player,down"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,up"/>
+    <property name="act10" value="transition_teleport player,mansion_basement.tmx,13,3,0.3" />
+    <property name="act20" value="char_face player,down" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,up" />
+   </properties>
+  </object>
+  <object id="36" name="JJI KOTH Black Belt Ceremony - Spawn Cast" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act010" value="create_npc aeble,10,8,stand" />
+    <property name="act020" value="char_face aeble,down" />
+    <property name="act030" value="create_npc coach_carville,9,10,stand" />
+    <property name="act040" value="char_face coach_carville,right" />
+    <property name="act050" value="create_npc brownbelt_tavern_enforcer,11,10,stand" />
+    <property name="act060" value="char_face brownbelt_tavern_enforcer,left" />
+    <property name="act070" value="create_npc jji_coach_toland,9,11,stand" />
+    <property name="act080" value="char_face jji_coach_toland,right" />
+    <property name="act090" value="create_npc brownbelt_tavern_coach_conleth,11,11,stand" />
+    <property name="act100" value="char_face brownbelt_tavern_coach_conleth,left" />
+    <property name="act110" value="create_npc jji_coach_hill,9,12,stand" />
+    <property name="act120" value="char_face jji_coach_hill,right" />
+    <property name="act130" value="create_npc sensai_duncan,11,12,stand" />
+    <property name="act140" value="char_face sensai_duncan,left" />
+    <property name="act150" value="create_npc scramble_steve,9,13,stand" />
+    <property name="act160" value="char_face scramble_steve,right" />
+    <property name="act170" value="create_npc classic_gym_leader_mila,11,13,stand" />
+    <property name="act180" value="char_face classic_gym_leader_mila,left" />
+    <property name="act190" value="create_npc jji_koth_mansion_officer_01,2,4,stand" />
+    <property name="act200" value="char_face jji_koth_mansion_officer_01,right" />
+    <property name="act210" value="create_npc jji_koth_mansion_officer_02,15,4,stand" />
+    <property name="act220" value="char_face jji_koth_mansion_officer_02,left" />
+    <property name="act230" value="create_npc jji_koth_mansion_officer_03,3,8,stand" />
+    <property name="act240" value="char_face jji_koth_mansion_officer_03,right" />
+    <property name="act250" value="create_npc jji_koth_mansion_officer_04,16,8,stand" />
+    <property name="act260" value="char_face jji_koth_mansion_officer_04,left" />
+    <property name="act270" value="create_npc jji_koth_mansion_officer_05,3,12,stand" />
+    <property name="act280" value="char_face jji_koth_mansion_officer_05,right" />
+    <property name="act290" value="create_npc jji_koth_mansion_officer_06,16,12,stand" />
+    <property name="act300" value="char_face jji_koth_mansion_officer_06,left" />
+    <property name="act310" value="create_npc jji_koth_mansion_officer_07,2,15,stand" />
+    <property name="act320" value="char_face jji_koth_mansion_officer_07,right" />
+    <property name="act330" value="create_npc jji_koth_mansion_officer_08,15,15,stand" />
+    <property name="act340" value="char_face jji_koth_mansion_officer_08,left" />
+    <property name="cond010" value="not char_exists aeble" />
+   </properties>
+  </object>
+  <object id="37" name="JJI KOTH Black Belt Ceremony - Award Black Belt" type="event" x="144" y="256" width="48" height="32">
+   <properties>
+    <property name="act010" value="set_variable jji_koth_blackbelt_ceremony_started:yes" />
+    <property name="act020" value="lock_controls" />
+    <property name="act030" value="char_face player,up" />
+    <property name="act040" value="pathfind player,10,9" />
+    <property name="act050" value="wait 0.4" />
+    <property name="act060" value="char_face coach_carville,player" />
+    <property name="act070" value="char_face brownbelt_tavern_enforcer,player" />
+    <property name="act080" value="char_face jji_coach_toland,player" />
+    <property name="act090" value="char_face brownbelt_tavern_coach_conleth,player" />
+    <property name="act100" value="char_face jji_coach_hill,player" />
+    <property name="act110" value="char_face sensai_duncan,player" />
+    <property name="act120" value="char_face scramble_steve,player" />
+    <property name="act130" value="char_face classic_gym_leader_mila,player" />
+    <property name="act140" value="char_face aeble,player" />
+    <property name="act150" value="wait 0.3" />
+    <property name="act160" value="translated_dialog jji_koth_ceo_ceremony_1" />
+    <property name="act170" value="translated_dialog jji_koth_ceo_ceremony_2" />
+    <property name="act180" value="translated_dialog jji_koth_ceo_ceremony_3" />
+    <property name="act190" value="add_item black_belt,1" />
+    <property name="act200" value="translated_dialog jji_koth_blackbelt_received" />
+    <property name="act210" value="translated_dialog jji_koth_ceo_ceremony_4" />
+    <property name="act220" value="translated_dialog jji_koth_ceo_ceremony_5" />
+    <property name="act230" value="char_move aeble,up 3" />
+    <property name="act240" value="char_face aeble,down" />
+    <property name="act250" value="set_variable jji_koth_blackbelt_ceremony:complete" />
+    <property name="act260" value="clear_variable jji_koth_blackbelt_ceremony_started" />
+    <property name="act270" value="unlock_controls" />
+    <property name="cond010" value="is char_at player" />
+    <property name="cond020" value="not has_item player,black_belt" />
+    <property name="cond030" value="not variable_set jji_koth_blackbelt_ceremony:complete" />
+    <property name="cond040" value="not variable_set jji_koth_blackbelt_ceremony_started:yes" />
+   </properties>
+  </object>
+  <object id="38" name="JJI KOTH Black Belt Ceremony - Unlock Safety" type="event" x="144" y="256" width="48" height="32">
+   <properties>
+    <property name="act010" value="unlock_controls" />
+    <property name="cond010" value="is char_at player" />
+    <property name="cond020" value="is variable_set jji_koth_blackbelt_ceremony:complete" />
+   </properties>
+  </object>
+  <object id="39" name="JJI KOTH Black Belt Ceremony - CEO Optional Dialogue" type="event" x="160" y="80" width="16" height="16">
+   <properties>
+    <property name="act010" value="char_face aeble,player" />
+    <property name="act020" value="translated_dialog jji_koth_ceo_after_1" />
+    <property name="act030" value="translated_dialog jji_koth_ceo_after_2" />
+    <property name="act040" value="translated_dialog jji_koth_ceo_after_3" />
+    <property name="cond010" value="is variable_set jji_koth_blackbelt_ceremony:complete" />
+    <property name="behav010" value="talk aeble" />
+   </properties>
+  </object>
+  <object id="40" name="JJI KOTH Black Belt Ceremony - coach_carville Optional Dialogue" type="event" x="144" y="160" width="16" height="16">
+   <properties>
+    <property name="act010" value="char_face coach_carville,player" />
+    <property name="act020" value="translated_dialog jji_koth_carville_thanks" />
+    <property name="cond010" value="is variable_set jji_koth_blackbelt_ceremony:complete" />
+    <property name="behav010" value="talk coach_carville" />
+   </properties>
+  </object>
+  <object id="41" name="JJI KOTH Black Belt Ceremony - coach_toland Optional Dialogue" type="event" x="144" y="176" width="16" height="16">
+   <properties>
+    <property name="act010" value="char_face jji_coach_toland,player" />
+    <property name="act020" value="translated_dialog jji_koth_toland_thanks" />
+    <property name="cond010" value="is variable_set jji_koth_blackbelt_ceremony:complete" />
+    <property name="behav010" value="talk jji_coach_toland" />
+   </properties>
+  </object>
+  <object id="42" name="JJI KOTH Black Belt Ceremony - coach_hill Optional Dialogue" type="event" x="144" y="192" width="16" height="16">
+   <properties>
+    <property name="act010" value="char_face jji_coach_hill,player" />
+    <property name="act020" value="translated_dialog jji_koth_hill_thanks" />
+    <property name="cond010" value="is variable_set jji_koth_blackbelt_ceremony:complete" />
+    <property name="behav010" value="talk jji_coach_hill" />
+   </properties>
+  </object>
+  <object id="43" name="JJI KOTH Black Belt Ceremony - scramble_steve Optional Dialogue" type="event" x="144" y="208" width="16" height="16">
+   <properties>
+    <property name="act010" value="char_face scramble_steve,player" />
+    <property name="act020" value="translated_dialog jji_koth_scramble_thanks" />
+    <property name="cond010" value="is variable_set jji_koth_blackbelt_ceremony:complete" />
+    <property name="behav010" value="talk scramble_steve" />
+   </properties>
+  </object>
+  <object id="44" name="JJI KOTH Black Belt Ceremony - sensei_duncan Optional Dialogue" type="event" x="176" y="192" width="16" height="16">
+   <properties>
+    <property name="act010" value="char_face sensai_duncan,player" />
+    <property name="act020" value="translated_dialog jji_koth_duncan_thanks" />
+    <property name="cond010" value="is variable_set jji_koth_blackbelt_ceremony:complete" />
+    <property name="behav010" value="talk sensai_duncan" />
+   </properties>
+  </object>
+  <object id="45" name="JJI KOTH Black Belt Ceremony - d1_elliott Optional Dialogue" type="event" x="176" y="208" width="16" height="16">
+   <properties>
+    <property name="act010" value="char_face classic_gym_leader_mila,player" />
+    <property name="act020" value="translated_dialog jji_koth_elliott_thanks" />
+    <property name="cond010" value="is variable_set jji_koth_blackbelt_ceremony:complete" />
+    <property name="behav010" value="talk classic_gym_leader_mila" />
+   </properties>
+  </object>
+  <object id="46" name="JJI KOTH Black Belt Ceremony - brown_belt_bruce Optional Dialogue" type="event" x="176" y="160" width="16" height="16">
+   <properties>
+    <property name="act010" value="char_face brownbelt_tavern_enforcer,player" />
+    <property name="act020" value="translated_dialog jji_koth_bruce_thanks" />
+    <property name="cond010" value="is variable_set jji_koth_blackbelt_ceremony:complete" />
+    <property name="behav010" value="talk brownbelt_tavern_enforcer" />
+   </properties>
+  </object>
+  <object id="47" name="JJI KOTH Black Belt Ceremony - coach_conleth Optional Dialogue" type="event" x="176" y="176" width="16" height="16">
+   <properties>
+    <property name="act010" value="char_face brownbelt_tavern_coach_conleth,player" />
+    <property name="act020" value="translated_dialog jji_koth_conleth_thanks" />
+    <property name="cond010" value="is variable_set jji_koth_blackbelt_ceremony:complete" />
+    <property name="behav010" value="talk brownbelt_tavern_coach_conleth" />
    </properties>
   </object>
  </objectgroup>
