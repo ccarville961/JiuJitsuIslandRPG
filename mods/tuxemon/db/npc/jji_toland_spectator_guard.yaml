@@ -1,0 +1,10 @@
+slug: jji_toland_spectator_guard
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: scientist
+  combat_sheet: scientist
+  slug: scientist

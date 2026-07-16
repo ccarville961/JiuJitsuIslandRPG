@@ -1,10 +1,10 @@
-slug: jji_coach_toland
+slug: jji_toland_spectator_observer
 speech:
   profile:
     default: {}
 combat: {}
 audio: {}
 template:
-  sprite_name: talos_coach
+  sprite_name: professor_lapi
   combat_sheet: professor
   slug: professor

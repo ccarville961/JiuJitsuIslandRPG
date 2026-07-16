@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="24" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="23">
+<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="24" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="45">
  <properties>
   <property name="edges" value="clamped" />
   <property name="inside" type="bool" value="true" />
@@ -51,6 +51,7 @@
     <property name="act20" value="char_face player,right" />
     <property name="cond10" value="is char_at player" />
     <property name="cond20" value="is char_facing player,right" />
+    <property name="cond30" value="is variable_set jji_blackbelt_toland_defeated:yes" />
    </properties>
   </object>
   <object id="12" name="JJI Black Belt Assessment - Spawn Coach Toland" type="event" x="0" y="0" width="16" height="16">
@@ -114,6 +115,167 @@
     <property name="behav10" value="talk jji_coach_toland" />
     <property name="cond10" value="is variable_set jji_blackbelt_toland_defeated:yes" />
     <property name="cond20" value="not variable_set jji_blackbelt_toland_post_dialogue:seen" />
+   </properties>
+  </object>
+  <object id="23" name="JJI Toland Spectator Room - Spawn Stair Officer 1" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_toland_stair_officer_left,13,9,stand" />
+    <property name="act20" value="char_face jji_toland_stair_officer_left,down" />
+    <property name="cond10" value="not char_exists jji_toland_stair_officer_left" />
+    <property name="cond20" value="not variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="24" name="JJI Toland Spectator Room - Talk Stair Officer 1" type="event" x="208" y="144" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_toland_stair_officer_left,player" />
+    <property name="act20" value="translated_dialog jji_toland_stair_officer" />
+    <property name="behav10" value="talk jji_toland_stair_officer_left" />
+    <property name="cond10" value="not variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="25" name="JJI Toland Spectator Room - Spawn Stair Officer 2" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_toland_stair_officer_right,15,9,stand" />
+    <property name="act20" value="char_face jji_toland_stair_officer_right,down" />
+    <property name="cond10" value="not char_exists jji_toland_stair_officer_right" />
+    <property name="cond20" value="not variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="26" name="JJI Toland Spectator Room - Talk Stair Officer 2" type="event" x="240" y="144" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_toland_stair_officer_right,player" />
+    <property name="act20" value="translated_dialog jji_toland_stair_officer" />
+    <property name="behav10" value="talk jji_toland_stair_officer_right" />
+    <property name="cond10" value="not variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="28" name="JJI Toland Spectator Room - Spawn jji_toland_spectator_pressure" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_toland_spectator_pressure,8,11,stand" />
+    <property name="act20" value="char_face jji_toland_spectator_pressure,up" />
+    <property name="cond10" value="not char_exists jji_toland_spectator_pressure" />
+   </properties>
+  </object>
+  <object id="29" name="JJI Toland Spectator Room - Talk jji_toland_spectator_pressure" type="event" x="128" y="176" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_toland_spectator_pressure,player" />
+    <property name="act20" value="translated_dialog jji_toland_spectator_pressure" />
+    <property name="behav10" value="talk jji_toland_spectator_pressure" />
+   </properties>
+  </object>
+  <object id="30" name="JJI Toland Spectator Room - Spawn jji_toland_spectator_takedowns" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_toland_spectator_takedowns,9,11,stand" />
+    <property name="act20" value="char_face jji_toland_spectator_takedowns,up" />
+    <property name="cond10" value="not char_exists jji_toland_spectator_takedowns" />
+   </properties>
+  </object>
+  <object id="31" name="JJI Toland Spectator Room - Talk jji_toland_spectator_takedowns" type="event" x="144" y="176" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_toland_spectator_takedowns,player" />
+    <property name="act20" value="translated_dialog jji_toland_spectator_takedowns" />
+    <property name="behav10" value="talk jji_toland_spectator_takedowns" />
+   </properties>
+  </object>
+  <object id="32" name="JJI Toland Spectator Room - Spawn jji_toland_spectator_observer" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_toland_spectator_observer,10,11,stand" />
+    <property name="act20" value="char_face jji_toland_spectator_observer,up" />
+    <property name="cond10" value="not char_exists jji_toland_spectator_observer" />
+   </properties>
+  </object>
+  <object id="33" name="JJI Toland Spectator Room - Talk jji_toland_spectator_observer" type="event" x="160" y="176" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_toland_spectator_observer,player" />
+    <property name="act20" value="translated_dialog jji_toland_spectator_observer" />
+    <property name="behav10" value="talk jji_toland_spectator_observer" />
+   </properties>
+  </object>
+  <object id="34" name="JJI Toland Spectator Room - Spawn jji_toland_spectator_guard" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_toland_spectator_guard,11,11,stand" />
+    <property name="act20" value="char_face jji_toland_spectator_guard,up" />
+    <property name="cond10" value="not char_exists jji_toland_spectator_guard" />
+   </properties>
+  </object>
+  <object id="35" name="JJI Toland Spectator Room - Talk jji_toland_spectator_guard" type="event" x="176" y="176" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_toland_spectator_guard,player" />
+    <property name="act20" value="translated_dialog jji_toland_spectator_guard" />
+    <property name="behav10" value="talk jji_toland_spectator_guard" />
+   </properties>
+  </object>
+  <object id="36" name="JJI Toland Spectator Room - Spawn jji_toland_spectator_transitions" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_toland_spectator_transitions,12,11,stand" />
+    <property name="act20" value="char_face jji_toland_spectator_transitions,up" />
+    <property name="cond10" value="not char_exists jji_toland_spectator_transitions" />
+   </properties>
+  </object>
+  <object id="37" name="JJI Toland Spectator Room - Talk jji_toland_spectator_transitions" type="event" x="192" y="176" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_toland_spectator_transitions,player" />
+    <property name="act20" value="translated_dialog jji_toland_spectator_transitions" />
+    <property name="behav10" value="talk jji_toland_spectator_transitions" />
+   </properties>
+  </object>
+  <object id="38" name="JJI Toland Spectator Room - Spawn jji_toland_spectator_composure" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_toland_spectator_composure,13,11,stand" />
+    <property name="act20" value="char_face jji_toland_spectator_composure,up" />
+    <property name="cond10" value="not char_exists jji_toland_spectator_composure" />
+   </properties>
+  </object>
+  <object id="39" name="JJI Toland Spectator Room - Talk jji_toland_spectator_composure" type="event" x="208" y="176" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_toland_spectator_composure,player" />
+    <property name="act20" value="translated_dialog jji_toland_spectator_composure" />
+    <property name="behav10" value="talk jji_toland_spectator_composure" />
+   </properties>
+  </object>
+  <object id="40" name="JJI Toland Spectator Room - Move Stair Officers Aside" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_move jji_toland_stair_officer_left,left 1" />
+    <property name="act20" value="char_move jji_toland_stair_officer_right,right 1" />
+    <property name="act30" value="char_face jji_toland_stair_officer_left,down" />
+    <property name="act40" value="char_face jji_toland_stair_officer_right,down" />
+    <property name="act50" value="set_variable jji_toland_stair_gate_opened:yes" />
+    <property name="cond10" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+    <property name="cond20" value="not variable_set jji_toland_stair_gate_opened:yes" />
+    <property name="cond30" value="is char_exists jji_toland_stair_officer_left" />
+    <property name="cond40" value="is char_exists jji_toland_stair_officer_right" />
+   </properties>
+  </object>
+  <object id="41" name="JJI Toland Spectator Room - Open Position Spawn Left" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_toland_stair_officer_left,12,9,stand" />
+    <property name="act20" value="char_face jji_toland_stair_officer_left,down" />
+    <property name="cond10" value="not char_exists jji_toland_stair_officer_left" />
+    <property name="cond20" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="42" name="JJI Toland Spectator Room - Open Position Spawn Right" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_toland_stair_officer_right,16,9,stand" />
+    <property name="act20" value="char_face jji_toland_stair_officer_right,down" />
+    <property name="cond10" value="not char_exists jji_toland_stair_officer_right" />
+    <property name="cond20" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="43" name="JJI Toland Spectator Room - Open Dialogue jji_toland_stair_officer_left" type="event" x="192" y="144" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_toland_stair_officer_left,player" />
+    <property name="act20" value="translated_dialog jji_toland_stair_officer_open" />
+    <property name="behav10" value="talk jji_toland_stair_officer_left" />
+    <property name="cond10" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="44" name="JJI Toland Spectator Room - Open Dialogue jji_toland_stair_officer_right" type="event" x="256" y="144" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_toland_stair_officer_right,player" />
+    <property name="act20" value="translated_dialog jji_toland_stair_officer_open" />
+    <property name="behav10" value="talk jji_toland_stair_officer_right" />
+    <property name="cond10" value="is variable_set jji_blackbelt_toland_defeated:yes" />
    </properties>
   </object>
  </objectgroup>

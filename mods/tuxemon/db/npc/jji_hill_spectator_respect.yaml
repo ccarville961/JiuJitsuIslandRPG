@@ -1,0 +1,10 @@
+slug: jji_hill_spectator_respect
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: firefighter
+  combat_sheet: firefighter
+  slug: firefighter

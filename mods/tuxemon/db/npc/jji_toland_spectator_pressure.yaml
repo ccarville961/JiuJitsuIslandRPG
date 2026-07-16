@@ -1,0 +1,10 @@
+slug: jji_toland_spectator_pressure
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: childactor_black
+  combat_sheet: childactor
+  slug: childactor

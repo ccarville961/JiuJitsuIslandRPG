@@ -2,7 +2,7 @@ conditions: []
 effects: []
 slug: mansion_invitation
 sort: utility
-sprite: gfx/items/black_belt_contract.png
+sprite: gfx/items/key-card.png
 category: capture
 cost: 500
 usable_in:

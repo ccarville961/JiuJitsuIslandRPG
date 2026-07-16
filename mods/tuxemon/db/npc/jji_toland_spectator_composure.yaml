@@ -1,0 +1,10 @@
+slug: jji_toland_spectator_composure
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: childactor_blonde
+  combat_sheet: childactor
+  slug: childactor

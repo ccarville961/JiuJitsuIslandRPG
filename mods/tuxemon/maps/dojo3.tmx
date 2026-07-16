@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="24" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="22">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="24" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="38">
  <properties>
   <property name="edges" value="clamped" />
   <property name="inside" type="bool" value="true" />
@@ -77,7 +77,103 @@
     <property name="cond30" value="not variable_set jji_blackbelt_hill:defeated" />
    </properties>
   </object>
-  <object id="19" name="JJI Black Belt Assessment - Coach Hill Clean Victory" type="event" x="0" y="0" width="16" height="16">
+  <object id="22" name="JJI Coach Hill Spectator Room - Spawn jji_hill_spectator_massive_win" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_hill_spectator_massive_win,9,10,stand" />
+    <property name="act20" value="char_face jji_hill_spectator_massive_win,up" />
+    <property name="cond10" value="not char_exists jji_hill_spectator_massive_win" />
+    <property name="cond20" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="23" name="JJI Coach Hill Spectator Room - Talk jji_hill_spectator_massive_win" type="event" x="144" y="160" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_hill_spectator_massive_win,player" />
+    <property name="act20" value="translated_dialog jji_hill_spectator_massive_win" />
+    <property name="behav10" value="talk jji_hill_spectator_massive_win" />
+    <property name="cond10" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="24" name="JJI Coach Hill Spectator Room - Spawn jji_hill_spectator_respect" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_hill_spectator_respect,10,10,stand" />
+    <property name="act20" value="char_face jji_hill_spectator_respect,up" />
+    <property name="cond10" value="not char_exists jji_hill_spectator_respect" />
+    <property name="cond20" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="25" name="JJI Coach Hill Spectator Room - Talk jji_hill_spectator_respect" type="event" x="160" y="160" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_hill_spectator_respect,player" />
+    <property name="act20" value="translated_dialog jji_hill_spectator_respect" />
+    <property name="behav10" value="talk jji_hill_spectator_respect" />
+    <property name="cond10" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="26" name="JJI Coach Hill Spectator Room - Spawn jji_hill_spectator_real_chance" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_hill_spectator_real_chance,11,10,stand" />
+    <property name="act20" value="char_face jji_hill_spectator_real_chance,up" />
+    <property name="cond10" value="not char_exists jji_hill_spectator_real_chance" />
+    <property name="cond20" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="27" name="JJI Coach Hill Spectator Room - Talk jji_hill_spectator_real_chance" type="event" x="176" y="160" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_hill_spectator_real_chance,player" />
+    <property name="act20" value="translated_dialog jji_hill_spectator_real_chance" />
+    <property name="behav10" value="talk jji_hill_spectator_real_chance" />
+    <property name="cond10" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="28" name="JJI Coach Hill Spectator Room - Spawn jji_hill_spectator_atomic_drop" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_hill_spectator_atomic_drop,12,10,stand" />
+    <property name="act20" value="char_face jji_hill_spectator_atomic_drop,up" />
+    <property name="cond10" value="not char_exists jji_hill_spectator_atomic_drop" />
+    <property name="cond20" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="29" name="JJI Coach Hill Spectator Room - Talk jji_hill_spectator_atomic_drop" type="event" x="192" y="160" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_hill_spectator_atomic_drop,player" />
+    <property name="act20" value="translated_dialog jji_hill_spectator_atomic_drop" />
+    <property name="behav10" value="talk jji_hill_spectator_atomic_drop" />
+    <property name="cond10" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="30" name="JJI Coach Hill Spectator Room - Spawn jji_hill_spectator_ribs" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_hill_spectator_ribs,13,10,stand" />
+    <property name="act20" value="char_face jji_hill_spectator_ribs,up" />
+    <property name="cond10" value="not char_exists jji_hill_spectator_ribs" />
+    <property name="cond20" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="31" name="JJI Coach Hill Spectator Room - Talk jji_hill_spectator_ribs" type="event" x="208" y="160" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_hill_spectator_ribs,player" />
+    <property name="act20" value="translated_dialog jji_hill_spectator_ribs" />
+    <property name="behav10" value="talk jji_hill_spectator_ribs" />
+    <property name="cond10" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="32" name="JJI Coach Hill Spectator Room - Spawn jji_hill_spectator_strategy" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_hill_spectator_strategy,14,10,stand" />
+    <property name="act20" value="char_face jji_hill_spectator_strategy,up" />
+    <property name="cond10" value="not char_exists jji_hill_spectator_strategy" />
+    <property name="cond20" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="33" name="JJI Coach Hill Spectator Room - Talk jji_hill_spectator_strategy" type="event" x="224" y="160" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_hill_spectator_strategy,player" />
+    <property name="act20" value="translated_dialog jji_hill_spectator_strategy" />
+    <property name="behav10" value="talk jji_hill_spectator_strategy" />
+    <property name="cond10" value="is variable_set jji_blackbelt_toland_defeated:yes" />
+   </properties>
+  </object>
+  <object id="34" name="JJI Black Belt Assessment - Coach Hill Clean Victory" type="event" x="0" y="0" width="16" height="16">
    <properties>
     <property name="act10" value="set_variable jji_blackbelt_hill_defeated:yes" />
     <property name="act20" value="clear_variable jji_blackbelt_hill_started" />
@@ -88,7 +184,7 @@
     <property name="cond30" value="not variable_set jji_blackbelt_hill_defeated:yes" />
    </properties>
   </object>
-  <object id="20" name="JJI Black Belt Assessment - Coach Hill Clean Loss Reset" type="event" x="0" y="0" width="16" height="16">
+  <object id="35" name="JJI Black Belt Assessment - Coach Hill Clean Loss Reset" type="event" x="0" y="0" width="16" height="16">
    <properties>
     <property name="act10" value="clear_variable jji_blackbelt_hill_started" />
     <property name="act20" value="set_variable battle_last_winner:none" />
@@ -98,24 +194,29 @@
     <property name="cond30" value="not variable_set jji_blackbelt_hill_defeated:yes" />
    </properties>
   </object>
-  <object id="21" name="JJI Black Belt Assessment - Coach Hill Post-Battle Talk" type="event" x="192" y="64" width="16" height="16">
+  <object id="36" name="JJI Black Belt Assessment - Coach Hill Post-Battle Talk" type="event" x="192" y="64" width="16" height="16">
    <properties>
     <property name="act10" value="char_face jji_coach_hill,player" />
-    <property name="act20" value="translated_dialog jji_blackbelt_hill_final_win" />
-    <property name="act30" value="translated_dialog jji_blackbelt_ceremony_1" />
-    <property name="act40" value="translated_dialog jji_blackbelt_ceremony_2" />
-    <property name="act50" value="translated_dialog jji_blackbelt_ceremony_3" />
-    <property name="act60" value="add_item black_belt_contract,1" />
-    <property name="act70" value="translated_dialog jji_blackbelt_received" />
-    <property name="act80" value="add_item mansion_invitation,1" />
-    <property name="act90" value="translated_dialog jji_mansion_invitation_received" />
-    <property name="act100" value="translated_dialog jji_blackbelt_ceremony_4" />
-    <property name="act110" value="translated_dialog jji_blackbelt_ceremony_5" />
-    <property name="act120" value="set_variable jji_blackbelt_rewards_granted:yes" />
-    <property name="act130" value="set_variable jji_blackbelt_hill_post_dialogue:seen" />
+    <property name="act20" value="translated_dialog jji_coach_hill_mansion_congratulations" />
+    <property name="act30" value="translated_dialog jji_coach_hill_mansion_invitation" />
+    <property name="act40" value="add_item mansion_invitation,1" />
+    <property name="act50" value="translated_dialog jji_mansion_invitation_received" />
+    <property name="act60" value="set_variable jji_mansion_invitation_granted:yes" />
+    <property name="act70" value="set_variable jji_blackbelt_hill_post_dialogue:seen" />
     <property name="behav10" value="talk jji_coach_hill" />
     <property name="cond10" value="is variable_set jji_blackbelt_hill_defeated:yes" />
     <property name="cond20" value="not variable_set jji_blackbelt_hill_post_dialogue:seen" />
+    <property name="cond30" value="not variable_set jji_mansion_invitation_granted:yes" />
+   </properties>
+  </object>
+  <object id="37" name="JJI Black Belt Assessment - Coach Hill Completed Talk" type="event" x="192" y="64" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_coach_hill,player" />
+    <property name="act20" value="translated_dialog jji_blackbelt_hill_after" />
+    <property name="behav10" value="talk jji_coach_hill" />
+    <property name="cond10" value="is variable_set jji_blackbelt_hill_defeated:yes" />
+    <property name="cond20" value="is variable_set jji_blackbelt_hill_post_dialogue:seen" />
+    <property name="cond30" value="is variable_set jji_mansion_invitation_granted:yes" />
    </properties>
   </object>
  </objectgroup>

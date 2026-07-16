@@ -1,10 +1,10 @@
-slug: jji_coach_toland
+slug: jji_hill_spectator_real_chance
 speech:
   profile:
     default: {}
 combat: {}
 audio: {}
 template:
-  sprite_name: talos_coach
+  sprite_name: professor_brown
   combat_sheet: professor
   slug: professor

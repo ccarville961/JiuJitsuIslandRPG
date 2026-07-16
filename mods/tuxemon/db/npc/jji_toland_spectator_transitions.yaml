@@ -1,0 +1,10 @@
+slug: jji_toland_spectator_transitions
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: cooldude_brown
+  combat_sheet: disciple
+  slug: disciple

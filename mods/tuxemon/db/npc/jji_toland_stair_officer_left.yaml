@@ -1,0 +1,10 @@
+slug: jji_toland_stair_officer_left
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: knight
+  combat_sheet: knight
+  slug: knight

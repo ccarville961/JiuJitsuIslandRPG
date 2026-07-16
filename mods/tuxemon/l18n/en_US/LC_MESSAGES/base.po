@@ -20263,7 +20263,7 @@ msgstr "Coach Toland: Excellent work.\nYou have completed both Black Belt assess
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_toland_after"
-msgstr "Coach Toland: Your assessment with me is complete.\nA Black Belt is not the end of learning."
+msgstr "Coach Toland: You have already passed my assessment.\nCoach Hill is your final test. Stay composed."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_hill_intro"
@@ -20277,9 +20277,9 @@ msgstr "Coach Hill: Outstanding.\nYou have earned my approval.\nCoach Toland sti
 msgid "jji_blackbelt_hill_final_win"
 msgstr "Coach Hill: Outstanding.\nYou have completed both Black Belt assessments."
 
-# JJI Black Belt Assessment
+# JJI Coach Hill dialogue
 msgid "jji_blackbelt_hill_after"
-msgstr "Coach Hill: You have passed my assessment.\nKeep developing the habits that brought you this far."
+msgstr "Coach Hill: Congratulations. Continue to the Mansion."
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_ceremony_1"
@@ -20297,7 +20297,7 @@ msgstr "Coach Hill: Congratulations.\nYou have earned your Black Belt."
 msgid "jji_blackbelt_received"
 msgstr "You received the Black Belt!"
 
-# JJI Black Belt Assessment
+# JJI Coach Hill dialogue
 msgid "jji_mansion_invitation_received"
 msgstr "You received the Mansion Invitation!"
 
@@ -20331,5 +20331,68 @@ msgstr "Presented only to practitioners who have completed the island's Black Be
 
 # JJI Black Belt Assessment
 msgid "jji_blackbelt_toland_next_hill"
-msgstr "Coach Toland: Well done.\nYou maintained your technique and composure under pressure.\nYou have passed my assessment.\nNow proceed upstairs and face Coach Hill."
+msgstr "Coach Toland: You fought well. Your jiu-jitsu is worthy.\nYou have passed my assessment.\nGo upstairs. Coach Hill is waiting for you."
 
+# JJI Coach Toland Spectator Room
+msgid "jji_toland_stair_officer"
+msgstr "Officer: The upper floor is closed during the assessment.\nDefeat Coach Toland before proceeding to Coach Hill."
+
+# JJI Coach Toland Spectator Room
+msgid "jji_toland_spectator_pressure"
+msgstr "Brown Belt: Coach Toland's pressure is relentless.\nDo not give him space to settle his weight."
+
+# JJI Coach Toland Spectator Room
+msgid "jji_toland_spectator_takedowns"
+msgstr "Purple Belt: His takedowns arrive from angles you do not expect.\nWatch his level changes and protect your base."
+
+# JJI Coach Toland Spectator Room
+msgid "jji_toland_spectator_observer"
+msgstr "Black Belt: We are here to observe how Coach Toland moves.\nEvery grip, step and reaction contains a lesson."
+
+# JJI Coach Toland Spectator Room
+msgid "jji_toland_spectator_guard"
+msgstr "Blue Belt: His guard retention is exceptional.\nBreak his posture and control his hips before attacking."
+
+# JJI Coach Toland Spectator Room
+msgid "jji_toland_spectator_transitions"
+msgstr "Veteran Grappler: His transitions are fluid.\nPredicting the next position is the real challenge."
+
+# JJI Coach Toland Spectator Room
+msgid "jji_toland_spectator_composure"
+msgstr "Student: Toland punishes panic.\nStay composed, frame correctly and make every escape deliberate."
+
+# JJI Coach Toland stair officers
+msgid "jji_toland_stair_officer_open"
+msgstr "Officer: Coach Toland has approved your progress.\nThe path to Coach Hill is now open."
+
+# JJI Coach Hill assessment
+msgid "jji_hill_spectator_massive_win"
+msgstr "Purple Belt: Wow! You beat Coach Toland!\nThat is a massive win. You might really have a chance against Coach Hill."
+
+# JJI Coach Hill assessment
+msgid "jji_hill_spectator_respect"
+msgstr "Blue Belt: Toland is no joke.\nIf you handled his pressure, you have earned everyone's respect."
+
+# JJI Coach Hill assessment
+msgid "jji_hill_spectator_real_chance"
+msgstr "Black Belt: Coach Hill will not be easy.\nBut after defeating Toland, you have a real chance of completing the assessment."
+
+# JJI Coach Hill assessment
+msgid "jji_hill_spectator_atomic_drop"
+msgstr "Veteran Grappler: Watch for Coach Hill's famous Atomic Butt Drop.\nIt is his signature finisher."
+
+# JJI Coach Hill assessment
+msgid "jji_hill_spectator_ribs"
+msgstr "Brown Belt: People say the Atomic Butt Drop has broken ribs.\nStay mobile and do not let him trap you beneath it."
+
+# JJI Coach Hill assessment
+msgid "jji_hill_spectator_strategy"
+msgstr "Student: Keep your frames strong and watch his hips.\nIf Hill gets above you, move before he launches the Atomic Butt Drop!"
+
+# JJI Coach Hill dialogue
+msgid "jji_coach_hill_mansion_congratulations"
+msgstr "Coach Hill: Well done.\nYou have completed the assessment."
+
+# JJI Coach Hill dialogue
+msgid "jji_coach_hill_mansion_invitation"
+msgstr "Coach Hill: You have earned an invitation to the Mansion."
