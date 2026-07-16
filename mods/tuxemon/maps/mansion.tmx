@@ -224,13 +224,6 @@
     <property name="cond040" value="not variable_set jji_koth_blackbelt_ceremony_started:yes" />
    </properties>
   </object>
-  <object id="38" name="JJI KOTH Black Belt Ceremony - Unlock Safety" type="event" x="144" y="256" width="48" height="32">
-   <properties>
-    <property name="act010" value="unlock_controls" />
-    <property name="cond010" value="is char_at player" />
-    <property name="cond020" value="is variable_set jji_koth_blackbelt_ceremony:complete" />
-   </properties>
-  </object>
   <object id="39" name="JJI KOTH Black Belt Ceremony - CEO Optional Dialogue" type="event" x="160" y="80" width="16" height="16">
    <properties>
     <property name="act010" value="char_face aeble,player" />

@@ -20759,10 +20759,6 @@ msgid "jji_flower_city_blackbelt_officer"
 msgstr "Black Belt Officer"
 
 # JJI Flower City Black Belt checkpoint
-msgid "jji_flower_city_blackbelt_blocked"
-msgstr ""
-"Officer: Stop. Route 5 is restricted to Black Belts.\n"
-"Complete your assessment before proceeding."
 
 # JJI Flower City Black Belt checkpoint
 msgid "jji_flower_city_blackbelt_approved"
@@ -20772,7 +20768,12 @@ msgstr ""
 "You may proceed."
 
 # JJI Flower City Black Belt checkpoint
+
+msgid "jji_flower_city_blackbelt_blocked"
+msgstr "Officer: Stop. Route 5 is restricted to Black Belts. Complete your assessment before proceeding."
+
+msgid "jji_flower_city_blackbelt_confirmed"
+msgstr "Officer: Congratulations on earning your Black Belt! Route 5 is now open to you."
+
 msgid "jji_flower_city_blackbelt_open"
-msgstr ""
-"Officer: Your Black Belt status is confirmed.\n"
-"Route 5 is open to you."
+msgstr "Officer: Welcome back, Black Belt. Route 5 is open to you."

@@ -569,23 +569,6 @@ def install_map(officer_slugs: list[str]) -> None:
     )
 
     # Safety event in case a save was interrupted at the end of the ceremony.
-    object_id = add_event(
-        events,
-        object_id,
-        "Unlock Safety",
-        ENTRY_TRIGGER["x"],
-        ENTRY_TRIGGER["y"],
-        tile_width=ENTRY_TRIGGER["width"],
-        tile_height=ENTRY_TRIGGER["height"],
-        actions=[
-            "unlock_controls",
-        ],
-        conditions=[
-            "is char_at player",
-            f"is variable_set {CEREMONY_VARIABLE}",
-        ],
-        tile_size=tile_width,
-    )
 
     # CEO optional post-ceremony conversation.
     object_id = add_event(

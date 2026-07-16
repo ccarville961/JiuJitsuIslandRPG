@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="231">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="234">
  <properties>
   <property name="edges" value="clamped" />
   <property name="map_type" value="town" />
@@ -146,20 +146,20 @@
   </object>
   <object id="201" name="Teleport to Route 5" type="event" x="624" y="240" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,route5.tmx,0,15,0.3" />
-    <property name="act20" value="char_face player,right" />
-    <property name="cond10" value="is char_at player" />
-    <property name="cond20" value="is char_facing player,right" />
-    <property name="cond30" value="is variable_set jji_flower_city_blackbelt_gate_open:yes" />
+    <property name="act010" value="transition_teleport player,route5.tmx,0,15,0.3" />
+    <property name="act020" value="char_face player,right" />
+    <property name="cond010" value="is char_at player" />
+    <property name="cond020" value="is char_facing player,right" />
+    <property name="cond030" value="is variable_set jji_flower_city_route5_manual_gate:open" />
    </properties>
   </object>
   <object id="203" name="Teleport to Route 5" type="event" x="592" y="256" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,route5.tmx,0,15,0.3" />
-    <property name="act20" value="char_face player,right" />
-    <property name="cond10" value="is char_at player" />
-    <property name="cond20" value="is char_facing player,right" />
-    <property name="cond30" value="is variable_set jji_flower_city_blackbelt_gate_open:yes" />
+    <property name="act010" value="transition_teleport player,route5.tmx,0,15,0.3" />
+    <property name="act020" value="char_face player,right" />
+    <property name="cond010" value="is char_at player" />
+    <property name="cond020" value="is char_facing player,right" />
+    <property name="cond030" value="is variable_set jji_flower_city_route5_manual_gate:open" />
    </properties>
   </object>
   <object id="204" name="Teleport to Dojo" type="event" x="48" y="272" width="16" height="16">
@@ -240,50 +240,65 @@
     <property name="cond20" value="is char_facing player,right" />
    </properties>
   </object>
-  <object id="226" name="JJI Flower City Black Belt Checkpoint - Closed Spawn" type="event" x="0" y="0" width="320" height="640">
+  <object id="226" name="JJI Flower City Manual Black Belt Gate - Spawn Closed Officer" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="create_npc jji_flower_city_blackbelt_officer,37,17,stand" />
-    <property name="act20" value="char_face jji_flower_city_blackbelt_officer,left" />
-    <property name="cond10" value="not char_exists jji_flower_city_blackbelt_officer" />
-    <property name="cond20" value="not variable_set jji_flower_city_blackbelt_gate_open:yes" />
+    <property name="act010" value="create_npc jji_flower_city_blackbelt_officer,37,17,stand" />
+    <property name="act020" value="char_face jji_flower_city_blackbelt_officer,down" />
+    <property name="cond010" value="not variable_set jji_flower_city_route5_manual_gate:open" />
+    <property name="cond020" value="not char_exists jji_flower_city_blackbelt_officer" />
    </properties>
   </object>
-  <object id="227" name="JJI Flower City Black Belt Checkpoint - Refuse Entry" type="event" x="592" y="272" width="320" height="640">
+  <object id="227" name="JJI Flower City Manual Black Belt Gate - Spawn Open Officer" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="char_face jji_flower_city_blackbelt_officer,player" />
-    <property name="act20" value="translated_dialog jji_flower_city_blackbelt_blocked" />
-    <property name="behav10" value="talk jji_flower_city_blackbelt_officer" />
-    <property name="cond10" value="not variable_set jji_flower_city_blackbelt_gate_open:yes" />
-    <property name="cond20" value="not has_item player,black_belt_contract" />
+    <property name="act010" value="create_npc jji_flower_city_blackbelt_officer,37,19,stand" />
+    <property name="act020" value="char_face jji_flower_city_blackbelt_officer,down" />
+    <property name="cond010" value="is variable_set jji_flower_city_route5_manual_gate:open" />
+    <property name="cond020" value="not char_exists jji_flower_city_blackbelt_officer" />
    </properties>
   </object>
-  <object id="228" name="JJI Flower City Black Belt Checkpoint - Approve Entry" type="event" x="592" y="272" width="320" height="640">
+  <object id="228" name="JJI Flower City Manual Black Belt Gate - Blocked Talk" type="event" x="592" y="272" width="16" height="16">
    <properties>
-    <property name="act10" value="char_face jji_flower_city_blackbelt_officer,player" />
-    <property name="act20" value="translated_dialog jji_flower_city_blackbelt_approved" />
-    <property name="act30" value="char_move jji_flower_city_blackbelt_officer,up 1" />
-    <property name="act40" value="char_face jji_flower_city_blackbelt_officer,down" />
-    <property name="act50" value="set_variable jji_flower_city_blackbelt_gate_open:yes" />
-    <property name="behav10" value="talk jji_flower_city_blackbelt_officer" />
-    <property name="cond10" value="not variable_set jji_flower_city_blackbelt_gate_open:yes" />
-    <property name="cond20" value="is has_item player,black_belt_contract" />
-    <property name="cond30" value="is char_exists jji_flower_city_blackbelt_officer" />
+    <property name="act010" value="char_face jji_flower_city_blackbelt_officer,player" />
+    <property name="act020" value="translated_dialog jji_flower_city_blackbelt_blocked" />
+    <property name="behav010" value="talk jji_flower_city_blackbelt_officer" />
+    <property name="cond010" value="not has_item player,black_belt" />
+    <property name="cond020" value="not variable_set jji_flower_city_route5_manual_gate:open" />
    </properties>
   </object>
-  <object id="229" name="JJI Flower City Black Belt Checkpoint - Open Spawn" type="event" x="0" y="0" width="320" height="640">
+  <object id="229" name="JJI Flower City Manual Black Belt Gate - Approve Black Belt Talk" type="event" x="592" y="272" width="16" height="16">
    <properties>
-    <property name="act10" value="create_npc jji_flower_city_blackbelt_officer,37,16,stand" />
-    <property name="act20" value="char_face jji_flower_city_blackbelt_officer,down" />
-    <property name="cond10" value="not char_exists jji_flower_city_blackbelt_officer" />
-    <property name="cond20" value="is variable_set jji_flower_city_blackbelt_gate_open:yes" />
+    <property name="act010" value="char_face jji_flower_city_blackbelt_officer,player" />
+    <property name="act020" value="translated_dialog jji_flower_city_blackbelt_confirmed" />
+    <property name="act030" value="char_move jji_flower_city_blackbelt_officer,down 2" />
+    <property name="act040" value="char_face jji_flower_city_blackbelt_officer,down" />
+    <property name="act050" value="set_variable jji_flower_city_route5_manual_gate:open" />
+    <property name="act060" value="set_variable jji_flower_city_route5_blackbelt_gate:open" />
+    <property name="cond010" value="is has_item player,black_belt" />
+    <property name="cond020" value="not variable_set jji_flower_city_route5_manual_gate:open" />
+    <property name="behav010" value="talk jji_flower_city_blackbelt_officer" />
    </properties>
   </object>
-  <object id="230" name="JJI Flower City Black Belt Checkpoint - Open Talk" type="event" x="592" y="256" width="320" height="640">
+  <object id="230" name="JJI Flower City Manual Black Belt Gate - Open Talk" type="event" x="592" y="304" width="16" height="16">
    <properties>
-    <property name="act10" value="char_face jji_flower_city_blackbelt_officer,player" />
-    <property name="act20" value="translated_dialog jji_flower_city_blackbelt_open" />
-    <property name="behav10" value="talk jji_flower_city_blackbelt_officer" />
-    <property name="cond10" value="is variable_set jji_flower_city_blackbelt_gate_open:yes" />
+    <property name="act010" value="char_face jji_flower_city_blackbelt_officer,player" />
+    <property name="act020" value="translated_dialog jji_flower_city_blackbelt_open" />
+    <property name="behav010" value="talk jji_flower_city_blackbelt_officer" />
+    <property name="cond010" value="is variable_set jji_flower_city_route5_manual_gate:open" />
+   </properties>
+  </object>
+  <object id="232" name="Teleport to Route 5" type="event" x="625.25" y="223.75" width="16" height="16">
+   <properties>
+    <property name="act010" value="transition_teleport player,route5.tmx,0,15,0.3" />
+    <property name="act020" value="char_face player,right" />
+    <property name="cond010" value="is char_at player" />
+    <property name="cond020" value="is char_facing player,right" />
+    <property name="cond030" value="is variable_set jji_flower_city_route5_manual_gate:open" />
+   </properties>
+  </object>
+  <object id="233" name="JJI Flower City Manual Black Belt Gate - Sync Route 5 Teleport" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act010" value="set_variable jji_flower_city_route5_blackbelt_gate:open" />
+    <property name="cond010" value="is variable_set jji_flower_city_route5_manual_gate:open" />
    </properties>
   </object>
  </objectgroup>
