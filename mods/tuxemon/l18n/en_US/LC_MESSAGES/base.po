@@ -20464,3 +20464,34 @@ msgstr "Officer: You defeated Coach Toland and Coach Hill?\nThat is an incredibl
 msgid "jji_route3_blackbelt_officer_open"
 msgstr "Officer: The path is clear.\nGood luck in the next stage of your journey."
 
+# JJI Route 3 Black Belt checkpoint
+msgid "jji_route3_blackbelt_checkpoint_officer"
+msgstr "Black Belt Officer"
+
+# JJI Route 3 Black Belt checkpoint
+msgid "jji_route3_blackbelt_checkpoint_blocked"
+msgstr "Officer: This route is restricted to Black Belts.\nReturn after completing your assessment."
+
+# JJI Route 3 Black Belt checkpoint
+msgid "jji_route3_blackbelt_checkpoint_approved"
+msgstr "Officer: You defeated Coach Toland and Coach Hill?\nOutstanding work. Your Black Belt status is confirmed.\nYou may proceed."
+
+# JJI Route 3 Black Belt checkpoint
+msgid "jji_route3_blackbelt_checkpoint_open"
+msgstr "Officer: The route is open.\nGood luck with the next stage of your journey."
+
+# JJI Flower City Black Belt checkpoint
+msgid "jji_flower_city_blackbelt_officer"
+msgstr "Black Belt Officer"
+
+# JJI Flower City Black Belt checkpoint
+msgid "jji_flower_city_blackbelt_blocked"
+msgstr "Officer: Stop. Route 5 is restricted to Black Belts.\nComplete your assessment before proceeding."
+
+# JJI Flower City Black Belt checkpoint
+msgid "jji_flower_city_blackbelt_approved"
+msgstr "Officer: You defeated Coach Toland and Coach Hill?\nOutstanding work. Your Black Belt status is confirmed.\nYou may proceed."
+
+# JJI Flower City Black Belt checkpoint
+msgid "jji_flower_city_blackbelt_open"
+msgstr "Officer: Your Black Belt status is confirmed.\nRoute 5 is open to you."
