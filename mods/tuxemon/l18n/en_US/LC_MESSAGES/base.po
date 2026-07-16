@@ -20403,3 +20403,64 @@ msgstr ""
 "\n"
 "A warm meal, a soft bed,\n"
 "and stories from every corner of JiuJitsu Island."
+
+# JJI Mansion invitation gate
+msgid "jji_mansion_gate_no_invite"
+msgstr "Officer: Halt! Entry to the Mansion is restricted.\nYou must present a Mansion Invitation."
+
+# JJI Mansion invitation gate
+msgid "jji_mansion_gate_invite"
+msgstr "Officer: You defeated both Coach Toland and Coach Hill?\nThat is an incredible achievement.\nYour Mansion Invitation is valid. Please proceed."
+
+# JJI Mansion invitation gate
+msgid "jji_mansion_gate_open"
+msgstr "Officer: Welcome.\nThe Mansion is waiting for you."
+
+# JJI Mansion gate
+msgid "jji_mansion_gate_officer_left"
+msgstr "Mansion Officer"
+
+# JJI Mansion gate
+msgid "jji_mansion_gate_officer_right"
+msgstr "Mansion Officer"
+
+# JJI Mansion gate
+msgid "jji_mansion_gate_guard"
+msgstr "Officer: This route is restricted.\nPresent your Mansion Invitation before proceeding."
+
+# JJI Black Belt Mansion path officer
+msgid "jji_blackbelt_mansion_guard_no_belt"
+msgstr "Officer: Halt! This area is restricted.\nOnly Black Belts may proceed."
+
+# JJI Black Belt Mansion path officer
+msgid "jji_blackbelt_mansion_guard_no_invite"
+msgstr "Officer: You have the rank, but you still need a Mansion Invitation."
+
+# JJI Black Belt Mansion path officer
+msgid "jji_blackbelt_mansion_guard_approved"
+msgstr "Officer: You defeated both Coach Toland and Coach Hill?\nThat is an incredible achievement.\nYour Mansion Invitation is valid. Please proceed."
+
+# JJI Black Belt Mansion path officer
+msgid "jji_blackbelt_mansion_guard_open"
+msgstr "Officer: The Mansion route is open.\nGood luck with the next stage of your journey."
+
+# JJI Black Belt Mansion path officer
+msgid "jji_blackbelt_mansion_path_officer"
+msgstr "Mansion Officer"
+
+# JJI Route 3 Black Belt officer
+msgid "jji_route3_blackbelt_officer"
+msgstr "Black Belt Officer"
+
+# JJI Route 3 Black Belt officer
+msgid "jji_route3_blackbelt_officer_blocked"
+msgstr "Officer: Halt! Only Black Belts may proceed beyond this point."
+
+# JJI Route 3 Black Belt officer
+msgid "jji_route3_blackbelt_officer_approved"
+msgstr "Officer: You defeated Coach Toland and Coach Hill?\nThat is an incredible achievement.\nYour Black Belt status is confirmed. Please proceed."
+
+# JJI Route 3 Black Belt officer
+msgid "jji_route3_blackbelt_officer_open"
+msgstr "Officer: The path is clear.\nGood luck in the next stage of your journey."
+
