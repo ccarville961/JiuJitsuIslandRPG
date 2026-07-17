@@ -16,7 +16,7 @@ effects:
   - fixed
 slug: revive
 sort: potion
-sprite: gfx/items/revive.png
+sprite: gfx/items/sweet_sand.png
 category: potion
 cost: 1500
 usable_in:

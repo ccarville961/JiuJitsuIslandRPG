@@ -16,7 +16,7 @@ effects:
   - fixed
 slug: potion
 sort: potion
-sprite: gfx/items/potion.png
+sprite: gfx/items/red-potion.png
 category: potion
 cost: 50
 usable_in:

@@ -6,9 +6,6 @@ items:
 - cost: 20
   slug: revive
   price: 100
-- cost: 10
-  slug: competitor_contract
-  price: 50
 - cost: 5000
   slug: koth_reg_papers
   price: 5000

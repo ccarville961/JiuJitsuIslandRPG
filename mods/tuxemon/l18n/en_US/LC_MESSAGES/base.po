@@ -155,7 +155,7 @@ msgid "wood_berry_description"
 msgstr "Changes a competitor's style to Scrambler."
 
 msgid "potion"
-msgstr "White Monster"
+msgstr "Paddys Power Bottle"
 
 msgid "potion_description"
 msgstr "Restores a little energy. The official fuel of open mats."
@@ -9795,8 +9795,8 @@ msgid "orange_flowers"
 msgstr "Someone planted some beautiful orange flowers!"
 
 msgid "famous_statue"
-msgstr ""
-"It's a statue of a former Tuxemon master. The name is weathered away..."
+msgstr "Wow... what a shiny bald head!\nThey say this statue was modelled after the legendary competitor, Mr. Turnbull.\nThe sculptor barely had to polish it!"
+"It's a statue of a legendary competitor. The name is weathered away..."
 
 msgid "famous_statue2"
 msgstr "It says: For our beloved friends and heroes of all, the wywen"
@@ -9842,7 +9842,7 @@ msgstr ""
 "around here."
 
 msgid "capture_devices_in_shop"
-msgstr "Contracts for recruiting new competitors. Somehow, they work."
+msgstr "The display shelf is currently empty."
 
 msgid "xero_intro_1"
 msgstr ""
@@ -10374,7 +10374,7 @@ msgstr "Well... I don't know how to feel about this Academy Network..."
 
 msgid "ohnoes2"
 msgstr ""
-"Now that that's over... we still need a White Monster from JitsMart.\n"
+"Now that that's over... we still need a Paddys Powerful Bottle from JitsMart.\n"
 "\n"
 "Make sure you're back before curfew though!"
 
@@ -10414,7 +10414,7 @@ msgstr ""
 "about Coach Atlas."
 
 msgid "professorexists"
-msgstr "I'll take a White Monster and some finger tape, please."
+msgstr "I'll take a Paddys Powerful Bottle and some finger tape, please."
 
 msgid "professorexists1"
 msgstr "Cheers, Ben."
@@ -10430,12 +10430,12 @@ msgstr ""
 "\n"
 ".... .... ....\n"
 "\n"
-"A White Monster? Good choice. Essential fuel for nervous white belts.\n"
+"A Paddys Powerful Bottle? Good choice. Essential fuel for nervous white belts.\n"
 "\n"
 "Here, take a couple on me."
 
 msgid "potions2"
-msgstr "Received 2 White Monsters!"
+msgstr "Received 2 Paddys Powerful Bottles!"
 
 msgid "professorexists3"
 msgstr ""
@@ -10487,7 +10487,7 @@ msgstr ""
 
 msgid "timeforround22"
 msgstr ""
-"Oh! You got the White Monsters! Perfect! Now hurry, the broadcast is about "
+"Oh! You got the Paddys Powerful Bottles! Perfect! Now hurry, the broadcast is about "
 "to continue."
 
 msgid "theanthemishere"
