@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="223">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="225">
  <properties>
   <property name="edges" value="clamped"/>
   <property name="map_type" value="town"/>
@@ -198,7 +198,7 @@
   </object>
   <object id="215" name="Teleport to Candy Scoop" type="event" x="576" y="272" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,candy_scoop.tmx,5,10,0.3"/>
+    <property name="act10" value="transition_teleport player,azure_town_hall_koth_final_layout.tmx,15,18,0.3"/>
     <property name="act20" value="char_face player,up"/>
     <property name="cond10" value="is char_at player"/>
     <property name="cond20" value="is char_facing player,up"/>
@@ -270,6 +270,14 @@
     <property name="act10" value="translated_dialog famous_statue"/>
     <property name="cond10" value="is char_facing_tile player"/>
     <property name="cond30" value="is button_pressed INTERACT"/>
+   </properties>
+  </object>
+  <object id="224" name="Enter KOTH Tournament Hall" type="event" x="272" y="320" width="16" height="16">
+   <properties>
+    <property name="act10" value="transition_teleport player,azure_town_hall_koth_final_layout.tmx,15,18,0.3"/>
+    <property name="act20" value="char_face player,up"/>
+    <property name="cond10" value="is char_at player"/>
+    <property name="cond20" value="is char_facing player,up"/>
    </properties>
   </object>
  </objectgroup>
