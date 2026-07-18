@@ -20801,3 +20801,53 @@ msgstr "KOTH Bridge Officer"
 # JJI KOTH bridge officer
 msgid "jji_koth_bridge_reminder"
 msgstr "Officer: Remember, bring your medical form to Dr kimura to get cleared to fight."
+
+# JJI KOTH Tournament Hall shops
+msgid "jji_koth_rnd1_apparel"
+msgstr "Welcome to RND1 MMA Apparel!\n\nCheck out our awesome fightwear, including our Breaking Bones parody rashguards and loads more gear made for grapplers!"
+
+# JJI KOTH Tournament Hall shops
+msgid "jji_koth_paddy_intro"
+msgstr "Welcome to Paddy's Powerful Bottles!\n\nHere—have a complimentary bottle and feel the power for yourself!"
+
+# JJI KOTH Tournament Hall shops
+msgid "jji_koth_paddy_received"
+msgstr "You received Paddy's Powerful Bottle!"
+
+# JJI KOTH Tournament Hall shops
+msgid "jji_koth_paddy_advert"
+msgstr "Paddy's Powerful Bottles are packed with goodness to help you stay refreshed, energised, and ready for your next roll!\n\nPaddy's Powerful Bottles—power up your day!"
+
+# JJI KOTH Tournament Hall shops
+msgid "paddys_powerful_bottle"
+msgstr "Paddy's Powerful Bottle"
+
+# JJI KOTH Tournament Hall shops
+msgid "paddys_powerful_bottle_description"
+msgstr "A refreshing bottle promoted by Paddy. Restores 50 HP to one Tuxemon."
+
+msgid "medical_form"
+msgstr "Medical Form"
+
+msgid "medical_form_description"
+msgstr "A completed medical clearance form required to compete in the King Of The Hill event."
+
+msgid "jji_dr_kimura_medical_missing"
+msgstr "Dr Kimura: Hold it. You can't compete until you've been medically cleared.\\n\\nGo to the nearby hospital and bring me your completed Medical Form."
+
+msgid "jji_dr_kimura_medical_approved"
+msgstr "Dr Kimura: Your Medical Form is in order. You're cleared to compete!\\n\\nQuick, you're already late! Go to Mat 1!"
+
+msgid "jji_dr_kimura_medical_reminder"
+msgstr "Dr Kimura: Quick, you're already late! Go to Mat 1!"
+
+# JJI King Of The Hill CEO dialogue
+msgid "jji_koth_ceo_dialogue"
+msgstr "I'm glad you came, Coach Atlas has weighed in and will be waiting for you!"
+
+# JJI KOTH referee medical warning
+msgid "jji_koth_referee_medical_warning"
+msgstr ""
+"Referee: You haven't had your medicals approved by Dr Kimura yet!\n"
+"\n"
+"Hurry, otherwise you'll forfeit your matches!"
