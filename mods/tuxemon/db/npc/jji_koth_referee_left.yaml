@@ -1,0 +1,10 @@
+slug: jji_koth_referee_left
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: boss
+  combat_sheet: knight
+  slug: knight
