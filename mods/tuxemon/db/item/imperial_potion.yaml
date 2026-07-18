@@ -16,7 +16,7 @@ effects:
   - fixed
 slug: imperial_potion
 sort: potion
-sprite: gfx/items/imperial_potion.png
+sprite: gfx/items/test.png
 category: potion
 cost: 1000
 usable_in:

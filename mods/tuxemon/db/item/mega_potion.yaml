@@ -16,7 +16,7 @@ effects:
   - fixed
 slug: mega_potion
 sort: potion
-sprite: gfx/items/mega_potion.png
+sprite: gfx/items/test.png
 category: potion
 cost: 400
 usable_in:

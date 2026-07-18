@@ -3,6 +3,9 @@ items:
 - cost: 5
   slug: potion
   price: 20
+- cost: 200
+  slug: mega_potion
+  price: 400
 - cost: 20
   slug: revive
   price: 100

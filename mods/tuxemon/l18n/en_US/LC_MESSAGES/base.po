@@ -167,28 +167,28 @@ msgid "super_potion_description"
 msgstr "An explosive energy boost. Side effects may include seeing red."
 
 msgid "imperial_potion"
-msgstr "Tren"
+msgstr "200 Test"
 
 msgid "imperial_potion_description"
-msgstr "You suddenly feel like entering every absolute division."
+msgstr "When ordinary recovery is not enough. Restores 500 HP."
 
 msgid "mega_potion"
-msgstr "TRT Injection"
+msgstr "BPC-157"
 
 msgid "mega_potion_description"
-msgstr "Clinically enhances your recovery. Doctor supervised... probably."
+msgstr "A mysterious recovery aid discussed in gyms across the island. Restores 200 HP."
 
 msgid "ancient_tea"
-msgstr "John Danaher Instructional"
+msgstr "Gracie DVD"
 
 msgid "ancient_tea_description"
-msgstr "Grants 4,500 XP to a teammate."
+msgstr "Classic grappling instruction preserved on DVD. Adds 4,500 XP to the selected fighter."
 
 msgid "imperial_tea"
-msgstr "BJJ Fanatics Mega Bundle"
+msgstr "Erik Paulson DVD"
 
 msgid "imperial_tea_description"
-msgstr "Years of knowledge in one purchase. Grants 10,000 XP to a teammate."
+msgstr "Advanced instruction from a master of grappling systems. Adds 10,000 XP to the selected fighter."
 
 msgid "mystery_tea"
 msgstr "YouTube Instructional"
@@ -641,10 +641,10 @@ msgid "restoration_description"
 msgstr "Fully restores health and clears all ailments."
 
 msgid "cureall"
-msgstr "Recovery Day"
+msgstr "Deca-Durabolin"
 
 msgid "cureall_description"
-msgstr "Sleep, food and mobility. Miraculous."
+msgstr "The island's infamous full recovery protocol. Fully restores HP and removes all conditions."
 
 msgid "escape_key"
 msgstr "Back Door Key"

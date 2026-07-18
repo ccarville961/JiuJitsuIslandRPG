@@ -17,7 +17,7 @@ effects:
 - type: restore
 slug: cureall
 sort: potion
-sprite: gfx/items/orange.png
+sprite: gfx/items/deca.png
 category: potion
 cost: 1500
 usable_in:

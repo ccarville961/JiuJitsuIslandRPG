@@ -1,19 +1,28 @@
-conditions: []
+conditions:
+- type: current_hp
+  parameters:
+  - <
+  - '1.0'
+  operator: is
+- type: current_hp
+  parameters:
+  - '>'
+  - '0'
+  operator: is
 effects:
 - type: gain_xp
   parameters:
   - '10000'
 slug: imperial_tea
 sort: potion
-sprite: gfx/items/imperial_tea.png
-category: none
-cost: 3450
+sprite: gfx/items/dvd.png
+category: potion
+cost: 400
 usable_in:
 - WorldState
 modifiers: []
 behaviors:
   resellable: true
-  show_dialog_on_success: false
 use_failure: generic_failure
 use_item: combat_used_x
 use_success: generic_success

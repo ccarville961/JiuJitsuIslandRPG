@@ -1,11 +1,13 @@
 background: gfx/ui/item/item_menu_bg.png
 items:
-- cost: 5
-  slug: potion
-  price: 20
-- cost: 20
-  slug: revive
-  price: 100
+- cost: 1575
+  slug: ancient_tea
+  inventory: -1
+  price: 3150
+- cost: 1725
+  slug: imperial_tea
+  inventory: -1
+  price: 3450
 monsters: []
 resale_multiplier: 0.5
 slug: flower_scoop
