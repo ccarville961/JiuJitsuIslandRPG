@@ -1,0 +1,10 @@
+slug: jji_koth_crowd_callahan
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: cooldude_brown
+  combat_sheet: disciple
+  slug: disciple

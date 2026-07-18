@@ -1,0 +1,10 @@
+slug: jji_koth_crowd_random_01
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: shopassistant_black
+  combat_sheet: shopassistant
+  slug: shopassistant

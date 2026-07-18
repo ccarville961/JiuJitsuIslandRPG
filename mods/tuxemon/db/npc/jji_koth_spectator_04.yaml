@@ -1,0 +1,10 @@
+slug: jji_koth_spectator_04
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: nurse
+  combat_sheet: nurse
+  slug: nurse

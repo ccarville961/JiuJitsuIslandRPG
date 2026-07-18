@@ -1,0 +1,10 @@
+slug: jji_koth_spectator_06
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: ceo
+  combat_sheet: ceo
+  slug: ceo

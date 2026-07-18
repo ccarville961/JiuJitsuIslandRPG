@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="43">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="55">
   <properties>
     <property name="edges" value="clamped" />
     <property name="inside" type="bool" value="true" />
@@ -116,6 +116,78 @@
         <property name="cond20" value="is char_facing player,down" />
       </properties>
     </object>
+    <object id="43" name="Talk to jji_koth_crowd_duncan" class="event" type="event" x="48" y="176" width="16" height="16">
+      <properties>
+        <property name="act010" value="translated_dialog jji_koth_crowd_duncan_dialogue" />
+        <property name="behav010" value="talk jji_koth_crowd_duncan" />
+      </properties>
+    </object>
+    <object id="44" name="Talk to jji_koth_crowd_hill" class="event" type="event" x="96" y="176" width="16" height="16">
+      <properties>
+        <property name="act010" value="translated_dialog jji_koth_crowd_hill_dialogue" />
+        <property name="behav010" value="talk jji_koth_crowd_hill" />
+      </properties>
+    </object>
+    <object id="45" name="Talk to jji_koth_crowd_toland" class="event" type="event" x="80" y="224" width="16" height="16">
+      <properties>
+        <property name="act010" value="translated_dialog jji_koth_crowd_toland_dialogue" />
+        <property name="behav010" value="talk jji_koth_crowd_toland" />
+      </properties>
+    </object>
+    <object id="46" name="Talk to jji_koth_crowd_mum" class="event" type="event" x="128" y="224" width="16" height="16">
+      <properties>
+        <property name="act010" value="translated_dialog jji_koth_crowd_mum_dialogue" />
+        <property name="behav010" value="talk jji_koth_crowd_mum" />
+      </properties>
+    </object>
+    <object id="47" name="Talk to jji_koth_crowd_carville" class="event" type="event" x="208" y="176" width="16" height="16">
+      <properties>
+        <property name="act010" value="translated_dialog jji_koth_crowd_carville_dialogue" />
+        <property name="behav010" value="talk jji_koth_crowd_carville" />
+      </properties>
+    </object>
+    <object id="48" name="Talk to jji_koth_crowd_chelsea" class="event" type="event" x="272" y="176" width="16" height="16">
+      <properties>
+        <property name="act010" value="translated_dialog jji_koth_crowd_chelsea_dialogue" />
+        <property name="behav010" value="talk jji_koth_crowd_chelsea" />
+      </properties>
+    </object>
+    <object id="49" name="Talk to jji_koth_crowd_callahan" class="event" type="event" x="240" y="224" width="16" height="16">
+      <properties>
+        <property name="act010" value="translated_dialog jji_koth_crowd_callahan_dialogue" />
+        <property name="behav010" value="talk jji_koth_crowd_callahan" />
+      </properties>
+    </object>
+    <object id="50" name="Talk to jji_koth_crowd_luna" class="event" type="event" x="288" y="224" width="16" height="16">
+      <properties>
+        <property name="act010" value="translated_dialog jji_koth_crowd_luna_dialogue" />
+        <property name="behav010" value="talk jji_koth_crowd_luna" />
+      </properties>
+    </object>
+    <object id="51" name="Talk to jji_koth_crowd_random_01" class="event" type="event" x="368" y="176" width="16" height="16">
+      <properties>
+        <property name="act010" value="translated_dialog jji_koth_crowd_random_01_dialogue" />
+        <property name="behav010" value="talk jji_koth_crowd_random_01" />
+      </properties>
+    </object>
+    <object id="52" name="Talk to jji_koth_crowd_random_02" class="event" type="event" x="432" y="176" width="16" height="16">
+      <properties>
+        <property name="act010" value="translated_dialog jji_koth_crowd_random_02_dialogue" />
+        <property name="behav010" value="talk jji_koth_crowd_random_02" />
+      </properties>
+    </object>
+    <object id="53" name="Talk to jji_koth_crowd_random_03" class="event" type="event" x="400" y="224" width="16" height="16">
+      <properties>
+        <property name="act010" value="translated_dialog jji_koth_crowd_random_03_dialogue" />
+        <property name="behav010" value="talk jji_koth_crowd_random_03" />
+      </properties>
+    </object>
+    <object id="54" name="Talk to jji_koth_crowd_random_04" class="event" type="event" x="448" y="224" width="16" height="16">
+      <properties>
+        <property name="act010" value="translated_dialog jji_koth_crowd_random_04_dialogue" />
+        <property name="behav010" value="talk jji_koth_crowd_random_04" />
+      </properties>
+    </object>
   </objectgroup>
   <objectgroup id="9" name="Collisions">
     <object id="11" x="32" y="256" width="48" height="32" />
@@ -174,6 +246,30 @@
         <property name="act070" value="create_npc jji_koth_ceo,19,19,stand" />
         <property name="act080" value="char_face jji_dr_kimura,left" />
         <property name="act090" value="char_face jji_koth_ceo,up" />
+        <property name="act100" value="create_npc jji_koth_crowd_duncan,3,11,stand" />
+        <property name="act110" value="create_npc jji_koth_crowd_hill,6,11,stand" />
+        <property name="act120" value="create_npc jji_koth_crowd_toland,5,14,stand" />
+        <property name="act130" value="create_npc jji_koth_crowd_mum,8,14,stand" />
+        <property name="act140" value="create_npc jji_koth_crowd_carville,13,11,stand" />
+        <property name="act150" value="create_npc jji_koth_crowd_chelsea,17,11,stand" />
+        <property name="act160" value="create_npc jji_koth_crowd_callahan,15,14,stand" />
+        <property name="act170" value="create_npc jji_koth_crowd_luna,18,14,stand" />
+        <property name="act180" value="create_npc jji_koth_crowd_random_01,23,11,stand" />
+        <property name="act190" value="create_npc jji_koth_crowd_random_02,27,11,stand" />
+        <property name="act200" value="create_npc jji_koth_crowd_random_03,25,14,stand" />
+        <property name="act210" value="create_npc jji_koth_crowd_random_04,28,14,stand" />
+        <property name="act220" value="char_face jji_koth_crowd_duncan,up" />
+        <property name="act230" value="char_face jji_koth_crowd_hill,up" />
+        <property name="act240" value="char_face jji_koth_crowd_toland,up" />
+        <property name="act250" value="char_face jji_koth_crowd_mum,up" />
+        <property name="act260" value="char_face jji_koth_crowd_carville,up" />
+        <property name="act270" value="char_face jji_koth_crowd_chelsea,up" />
+        <property name="act280" value="char_face jji_koth_crowd_callahan,up" />
+        <property name="act290" value="char_face jji_koth_crowd_luna,up" />
+        <property name="act300" value="char_face jji_koth_crowd_random_01,up" />
+        <property name="act310" value="char_face jji_koth_crowd_random_02,up" />
+        <property name="act320" value="char_face jji_koth_crowd_random_03,up" />
+        <property name="act330" value="char_face jji_koth_crowd_random_04,up" />
       </properties>
     </object>
   </objectgroup>

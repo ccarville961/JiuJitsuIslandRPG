@@ -20851,3 +20851,51 @@ msgstr ""
 "Referee: You haven't had your medicals approved by Dr Kimura yet!\n"
 "\n"
 "Hurry, otherwise you'll forfeit your matches!"
+
+# JJI final hall dialogue: jji_koth_crowd_duncan_dialogue
+msgid "jji_koth_crowd_duncan_dialogue"
+msgstr "Sensei Duncan: Look how far you've come.\n\nStay composed, trust your training, and show everyone what our academy is made of."
+
+# JJI final hall dialogue: jji_koth_crowd_hill_dialogue
+msgid "jji_koth_crowd_hill_dialogue"
+msgstr "Coach Hill: This is your moment.\n\nKeep your base strong, control the pace, and don't give your opponent an inch."
+
+# JJI final hall dialogue: jji_koth_crowd_toland_dialogue
+msgid "jji_koth_crowd_toland_dialogue"
+msgstr "Coach Toland: The final is won through discipline, not recklessness.\n\nBreathe, think, and make every movement count."
+
+# JJI final hall dialogue: jji_koth_crowd_mum_dialogue
+msgid "jji_koth_crowd_mum_dialogue"
+msgstr "Mum: I'm so proud of you, honey.\n\nWhatever happens in the final, you've already come further than I ever imagined."
+
+# JJI final hall dialogue: jji_koth_crowd_carville_dialogue
+msgid "jji_koth_crowd_carville_dialogue"
+msgstr "Coach Carville: You've earned your place in this final.\n\nStay sharp, impose your game, and finish the journey."
+
+# JJI final hall dialogue: jji_koth_crowd_chelsea_dialogue
+msgid "jji_koth_crowd_chelsea_dialogue"
+msgstr "Chelsea: Everyone is here to see you become champion!\n\nGo out there and give them a final they'll never forget."
+
+# JJI final hall dialogue: jji_koth_crowd_callahan_dialogue
+msgid "jji_koth_crowd_callahan_dialogue"
+msgstr "Callahan: No pressure or anything, but the whole island is watching.\n\nYou've got this!"
+
+# JJI final hall dialogue: jji_koth_crowd_luna_dialogue
+msgid "jji_koth_crowd_luna_dialogue"
+msgstr "Luna: A champion needs technique, confidence, and style.\n\nLuckily, you've got all three."
+
+# JJI final hall dialogue: jji_koth_crowd_random_01_dialogue
+msgid "jji_koth_crowd_random_01_dialogue"
+msgstr "Spectator: I've followed the whole tournament.\n\nThat was some incredible grappling. Bring home the title!"
+
+# JJI final hall dialogue: jji_koth_crowd_random_02_dialogue
+msgid "jji_koth_crowd_random_02_dialogue"
+msgstr "Spectator: The atmosphere in here is unbelievable!\n\nThis is going to be a final for the history books."
+
+# JJI final hall dialogue: jji_koth_crowd_random_03_dialogue
+msgid "jji_koth_crowd_random_03_dialogue"
+msgstr "Spectator: You've defeated every challenge put in front of you.\n\nOnly one more opponent stands between you and glory."
+
+# JJI final hall dialogue: jji_koth_crowd_random_04_dialogue
+msgid "jji_koth_crowd_random_04_dialogue"
+msgstr "Spectator: Come on! Become the King Of The Hill Champion!\n\nThe entire crowd is behind you!"

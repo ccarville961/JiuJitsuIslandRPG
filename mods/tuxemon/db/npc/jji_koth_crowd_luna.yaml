@@ -1,0 +1,10 @@
+slug: jji_koth_crowd_luna
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: fashionista
+  combat_sheet: heroine
+  slug: heroine

@@ -1,0 +1,10 @@
+slug: jji_koth_crowd_carville
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: bluebelt_boss
+  combat_sheet: disciple
+  slug: disciple

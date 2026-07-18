@@ -1,0 +1,10 @@
+slug: jji_koth_crowd_mum
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: girl1
+  combat_sheet: heroine
+  slug: heroine
