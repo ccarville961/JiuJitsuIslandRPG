@@ -1,0 +1,10 @@
+slug: jji_hospital2_purplebelt_oscar
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: bob
+  combat_sheet: professor
+  slug: professor

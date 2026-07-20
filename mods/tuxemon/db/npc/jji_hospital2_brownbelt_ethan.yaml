@@ -1,0 +1,10 @@
+slug: jji_hospital2_brownbelt_ethan
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: cooldude_brown
+  combat_sheet: professor
+  slug: professor

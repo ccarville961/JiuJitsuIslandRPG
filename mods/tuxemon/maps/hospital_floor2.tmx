@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="116">
+ <properties>
+  <property name="edges" value="clamped" />
+  <property name="inside" type="bool" value="true" />
+  <property name="map_type" value="notype" />
+  <property name="scenario" value="xero" />
+  <property name="slug" value="azure_town_hall" />
+ </properties>
+ <tileset firstgid="1" name="Office_interiors_shadowless_16x16" tilewidth="16" tileheight="16" tilecount="528" columns="22">
+  <image source="../gfx/tilesets/Office_interiors_shadowless_16x16.png" width="352" height="384" />
+ </tileset>
+ <tileset firstgid="529" source="../gfx/tilesets/core_indoor_floors.tsx" />
+ <tileset firstgid="4393" source="../gfx/tilesets/core_set pieces.tsx" />
+ <tileset firstgid="5943" name="core_indoor_walls" tilewidth="16" tileheight="16" tilecount="3864" columns="46">
+  <image source="../gfx/tilesets/core_indoor_walls.png" width="736" height="1344" />
+ </tileset>
+ <tileset firstgid="9807" name="Interiors_16x16" tilewidth="16" tileheight="16" tilecount="2592" columns="16">
+  <image source="../gfx/tilesets/Interiors_16x16.png" width="256" height="2592" />
+ </tileset>
+ <tileset firstgid="12399" source="../gfx/tilesets/core_indoor_walls.tsx" />
+ <layer id="1" name="Tile Layer 1" width="30" height="20">
+  <data encoding="csv">
+6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,
+6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,
+6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,
+6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,
+6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,6996,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
+1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699
+</data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="30" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,10331,10332,0,0,0,0,0,0,0,0,0,4774,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,4722,10347,10348,0,4722,0,0,14019,0,0,0,0,4805,0,0,0,0,0,0,459,0,0,0,0,0,0,0,0,
+0,0,5551,0,0,0,5551,0,0,14065,0,0,4616,0,4635,4636,0,165,166,0,0,481,0,0,0,0,0,0,0,0,
+5083,4572,5582,0,0,4572,5582,5082,0,14065,0,0,4647,4657,4666,4667,0,187,188,0,4657,503,0,0,0,0,0,0,0,0,
+5114,0,5613,0,0,0,5613,5113,0,14065,0,0,0,4656,0,0,0,209,210,0,4656,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,14065,0,0,0,0,4595,4595,4595,4595,4595,4719,0,0,0,0,0,0,0,0,0,0,
+4495,0,0,0,0,0,0,0,0,14065,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4526,0,0,0,14019,0,0,14019,0,14064,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+14109,14109,14109,14109,14110,0,0,14108,14109,14110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4617,4618,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4648,4649,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+14109,14109,14109,14109,14018,0,0,14016,14017,14018,0,4487,4488,0,0,0,0,4489,4490,0,0,0,0,0,0,0,0,0,0,0,
+0,4572,4573,0,14111,0,0,14111,4711,14064,0,4518,4519,0,0,0,0,4520,4521,0,0,0,0,0,0,4610,4611,4612,4611,4612,
+0,0,0,0,0,0,0,0,0,14064,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4641,4642,4643,4642,4643,
+0,0,0,0,0,0,0,0,0,14064,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,14064,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4572,4573,0,
+0,0,0,0,0,0,0,0,4495,14064,5083,0,0,0,0,0,0,0,4495,0,0,0,0,0,0,4495,0,0,0,4495,
+0,0,0,0,0,0,0,0,4526,14064,5114,0,0,0,0,0,0,0,4526,0,0,0,0,0,0,4526,4663,4665,4664,4526
+</data>
+ </layer>
+ <layer id="3" name="Tile Layer 3" width="30" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10463,10464,10465,10466,10463,10464,10465,10466,
+0,0,0,0,0,0,0,0,0,0,0,0,0,4565,0,0,0,0,0,0,4625,0,10479,10480,10481,10482,10479,10480,10481,10482,
+0,0,0,0,0,0,0,0,0,0,0,0,0,4565,0,0,0,0,0,0,4689,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,4564,4564,4564,4564,4564,4565,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+5582,0,0,5582,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+5613,0,0,5613,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Above Player" width="30" height="20">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,11120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10515,0,0,10499,10515,0,0,10499,
+0,0,0,0,0,11136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,4616,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,4647,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+4747,0,11119,4747,0,0,0,0,0,14020,14017,14017,14017,14018,0,0,14016,14017,14017,14018,0,0,0,0,0,0,0,0,0,0,
+0,0,11135,0,0,0,0,0,0,0,0,0,0,14111,0,0,14111,0,0,14064,0,0,0,0,0,0,0,0,0,0,
+5081,0,0,5081,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14064,0,0,0,0,0,0,0,0,0,0,
+5112,11127,0,5112,0,0,0,0,0,0,4401,4402,0,0,0,0,0,0,0,14064,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,4432,4433,0,0,0,0,0,0,0,14064,0,0,0,0,0,0,0,0,0,0,
+0,0,4616,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14064,0,0,0,0,0,0,0,0,0,0,
+4531,4532,4647,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14064,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="events">
+  <object id="1" name="Exit To Azure Town" type="event" x="240.17" y="303.513" width="16" height="16">
+   <properties>
+    <property name="act10" value="transition_teleport player,candy_town.tmx,17,20,0.3" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,down" />
+   </properties>
+  </object>
+  <object id="86" name="JJI Hospital Elevator Left" type="event" x="368" y="64" width="32" height="30.0063">
+   <properties>
+    <property name="act10" value="translated_dialog_choice 1floor:no,jji_hospital_elevator_choice" />
+    <property name="cond1" value="is char_facing_tile player" />
+    <property name="cond2" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="87" name="JJI Hospital Elevator Right" type="event" x="432" y="64" width="32" height="30.0063">
+   <properties>
+    <property name="act10" value="translated_dialog_choice 1floor:no,jji_hospital_elevator_choice" />
+    <property name="cond1" value="is char_facing_tile player" />
+    <property name="cond2" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="91" name="JJI Hospital Elevator Go Floor 1" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="transition_teleport player,hospital_floor1.tmx,23,5,0.3" />
+    <property name="act20" value="set_variable jji_hospital_elevator_choice:null" />
+    <property name="cond1" value="is variable_set jji_hospital_elevator_choice:1floor" />
+   </properties>
+  </object>
+  <object id="92" name="JJI Hospital Elevator Cancel" type="event" x="16" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="set_variable jji_hospital_elevator_choice:null" />
+    <property name="cond1" value="is variable_set jji_hospital_elevator_choice:no" />
+   </properties>
+  </object>
+  <object id="93" name="JJI Hospital Floor 2 -Spawn Hospital Cast" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_dr_kimura_floor2,16,6,stand" />
+    <property name="act20" value="char_face jji_dr_kimura_floor2,down" />
+    <property name="act30" value="create_npc jji_hospital2_whitebelt_liam,2,5,stand" />
+    <property name="act40" value="char_face jji_hospital2_whitebelt_liam,down" />
+    <property name="act50" value="create_npc jji_hospital2_liam_mother,1,5,stand" />
+    <property name="act60" value="char_face jji_hospital2_liam_mother,right" />
+    <property name="act70" value="create_npc jji_hospital2_bluebelt_sarah,6,5,stand" />
+    <property name="act80" value="char_face jji_hospital2_bluebelt_sarah,down" />
+    <property name="act90" value="create_npc jji_hospital2_physio,19,11,stand" />
+    <property name="act100" value="char_face jji_hospital2_physio,left" />
+    <property name="act110" value="create_npc jji_hospital2_concerned_parent,5,16,stand" />
+    <property name="act120" value="char_face jji_hospital2_concerned_parent,right" />
+    <property name="act130" value="create_npc jji_hospital2_brownbelt_ethan,22,14,stand" />
+    <property name="act140" value="char_face jji_hospital2_brownbelt_ethan,down" />
+    <property name="act150" value="create_npc jji_hospital2_snack_patient,25,17,stand" />
+    <property name="act160" value="char_face jji_hospital2_snack_patient,right" />
+    <property name="act170" value="create_npc jji_hospital2_blackbelt_coach,28,16,stand" />
+    <property name="act180" value="char_face jji_hospital2_blackbelt_coach,left" />
+    <property name="cond10" value="not char_exists jji_dr_kimura" />
+   </properties>
+  </object>
+  <object id="94" name="JJI Hospital Floor 2 -Talk White Belt Liam" type="event" x="32" y="80" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_hospital2_whitebelt_liam,down" />
+    <property name="act20" value="char_face player,jji_hospital2_whitebelt_liam" />
+    <property name="act30" value="translated_dialog jji_hospital2_whitebelt_liam" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="95" name="JJI Hospital Floor 2 -Talk Liam's Mother" type="event" x="16" y="80" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_hospital2_liam_mother,right" />
+    <property name="act20" value="char_face player,jji_hospital2_liam_mother" />
+    <property name="act30" value="translated_dialog jji_hospital2_liam_mother" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="96" name="JJI Hospital Floor 2 -Talk Blue Belt Sarah" type="event" x="96" y="80" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_hospital2_bluebelt_sarah,down" />
+    <property name="act20" value="char_face player,jji_hospital2_bluebelt_sarah" />
+    <property name="act30" value="translated_dialog jji_hospital2_bluebelt_sarah" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="99" name="JJI Hospital Floor 2 -Talk Physiotherapist" type="event" x="304" y="176" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_hospital2_physio,player" />
+    <property name="act20" value="char_face player,jji_hospital2_physio" />
+    <property name="act30" value="translated_dialog jji_hospital2_physio" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="100" name="JJI Hospital Floor 2 -Talk Worried Mother" type="event" x="80" y="256" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_hospital2_concerned_parent,player" />
+    <property name="act20" value="char_face player,jji_hospital2_concerned_parent" />
+    <property name="act30" value="translated_dialog jji_hospital2_concerned_parent" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="102" name="JJI Hospital Floor 2 -Talk Brown Belt Ethan" type="event" x="352" y="224" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_hospital2_brownbelt_ethan,player" />
+    <property name="act20" value="char_face player,jji_hospital2_brownbelt_ethan" />
+    <property name="act30" value="translated_dialog jji_hospital2_brownbelt_ethan" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="103" name="JJI Hospital Floor 2 -Talk Snack Patient" type="event" x="400" y="272" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_hospital2_snack_patient,player" />
+    <property name="act20" value="char_face player,jji_hospital2_snack_patient" />
+    <property name="act30" value="translated_dialog jji_hospital2_snack_patient" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="104" name="JJI Hospital Floor 2 -Talk Black Belt Coach" type="event" x="448" y="256" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_hospital2_blackbelt_coach,player" />
+    <property name="act20" value="char_face player,jji_hospital2_blackbelt_coach" />
+    <property name="act30" value="translated_dialog jji_hospital2_blackbelt_coach" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="105" name="JJI Hospital Floor 2 - Medical Quiz - Start" type="event" x="256" y="112" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_dr_kimura_floor2,player" />
+    <property name="act20" value="char_face player,jji_dr_kimura_floor2" />
+    <property name="act30" value="translated_dialog jji_hospital2_kimura_quiz_intro" />
+    <property name="act40" value="translated_dialog jji_hospital2_kimura_q1" />
+    <property name="act50" value="translated_dialog_choice Tap immediately:Spin harder:Trust my coach,jji_medical_quiz_q1" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+    <property name="cond30" value="not variable_set jji_medical_quiz_complete:yes" />
+    <property name="cond40" value="not variable_set jji_medical_quiz_q1:Tap immediately" />
+    <property name="cond50" value="not variable_set jji_medical_quiz_q1:Spin harder" />
+    <property name="cond60" value="not variable_set jji_medical_quiz_q1:Trust my coach" />
+    <property name="cond70" value="not variable_set jji_medical_quiz_q2:Water and electrolytes" />
+    <property name="cond80" value="not variable_set jji_medical_quiz_q2:Another energy drink" />
+    <property name="cond90" value="not variable_set jji_medical_quiz_q2:A pint" />
+    <property name="cond100" value="not variable_set jji_medical_quiz_q3:Wash the filthy belt" />
+    <property name="cond110" value="not variable_set jji_medical_quiz_q3:Respect the tradition" />
+    <property name="cond120" value="not variable_set jji_medical_quiz_q3:Burn everything" />
+   </properties>
+  </object>
+  <object id="106" name="JJI Hospital Floor 2 - Medical Quiz - Q1 Correct" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="set_variable jji_medical_quiz_q1:null" />
+    <property name="act20" value="translated_dialog jji_hospital2_kimura_q1_correct" />
+    <property name="act30" value="translated_dialog jji_hospital2_kimura_q2" />
+    <property name="act40" value="translated_dialog_choice Water and electrolytes:Another energy drink:A pint,jji_medical_quiz_q2" />
+    <property name="cond10" value="is variable_set jji_medical_quiz_q1:Tap immediately" />
+    <property name="cond20" value="not variable_set jji_medical_quiz_complete:yes" />
+   </properties>
+  </object>
+  <object id="107" name="JJI Hospital Floor 2 - Medical Quiz - Q1 Wrong Spin" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_hospital2_kimura_q1_wrong_spin" />
+    <property name="act20" value="set_variable jji_medical_quiz_q1:null" />
+    <property name="act30" value="set_variable jji_medical_quiz_q2:null" />
+    <property name="act40" value="set_variable jji_medical_quiz_q3:null" />
+    <property name="cond10" value="is variable_set jji_medical_quiz_q1:Spin harder" />
+    <property name="cond20" value="not variable_set jji_medical_quiz_complete:yes" />
+   </properties>
+  </object>
+  <object id="108" name="JJI Hospital Floor 2 - Medical Quiz - Q1 Wrong Coach" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_hospital2_kimura_q1_wrong_coach" />
+    <property name="act20" value="set_variable jji_medical_quiz_q1:null" />
+    <property name="act30" value="set_variable jji_medical_quiz_q2:null" />
+    <property name="act40" value="set_variable jji_medical_quiz_q3:null" />
+    <property name="cond10" value="is variable_set jji_medical_quiz_q1:Trust my coach" />
+    <property name="cond20" value="not variable_set jji_medical_quiz_complete:yes" />
+   </properties>
+  </object>
+  <object id="109" name="JJI Hospital Floor 2 - Medical Quiz - Q2 Correct" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="set_variable jji_medical_quiz_q2:null" />
+    <property name="act20" value="translated_dialog jji_hospital2_kimura_q2_correct" />
+    <property name="act30" value="translated_dialog jji_hospital2_kimura_q3" />
+    <property name="act40" value="translated_dialog_choice Wash the filthy belt:Respect the tradition:Burn everything,jji_medical_quiz_q3" />
+    <property name="cond10" value="is variable_set jji_medical_quiz_q2:Water and electrolytes" />
+    <property name="cond20" value="not variable_set jji_medical_quiz_complete:yes" />
+   </properties>
+  </object>
+  <object id="110" name="JJI Hospital Floor 2 - Medical Quiz - Q2 Wrong Energy Drink" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_hospital2_kimura_q2_wrong_energy" />
+    <property name="act20" value="set_variable jji_medical_quiz_q1:null" />
+    <property name="act30" value="set_variable jji_medical_quiz_q2:null" />
+    <property name="act40" value="set_variable jji_medical_quiz_q3:null" />
+    <property name="cond10" value="is variable_set jji_medical_quiz_q2:Another energy drink" />
+    <property name="cond20" value="not variable_set jji_medical_quiz_complete:yes" />
+   </properties>
+  </object>
+  <object id="111" name="JJI Hospital Floor 2 - Medical Quiz - Q2 Wrong Pint" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_hospital2_kimura_q2_wrong_pint" />
+    <property name="act20" value="set_variable jji_medical_quiz_q1:null" />
+    <property name="act30" value="set_variable jji_medical_quiz_q2:null" />
+    <property name="act40" value="set_variable jji_medical_quiz_q3:null" />
+    <property name="cond10" value="is variable_set jji_medical_quiz_q2:A pint" />
+    <property name="cond20" value="not variable_set jji_medical_quiz_complete:yes" />
+   </properties>
+  </object>
+  <object id="112" name="JJI Hospital Floor 2 - Medical Quiz - Success" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="set_variable jji_medical_quiz_q3:null" />
+    <property name="act20" value="translated_dialog jji_hospital2_kimura_q3_correct" />
+    <property name="act30" value="translated_dialog jji_hospital2_kimura_success" />
+    <property name="act40" value="add_item medical_form,1" />
+    <property name="act50" value="translated_dialog jji_hospital2_kimura_received" />
+    <property name="act60" value="set_variable jji_medical_quiz_complete:yes" />
+    <property name="act70" value="set_variable jji_medical_quiz_q1:null" />
+    <property name="act80" value="set_variable jji_medical_quiz_q2:null" />
+    <property name="act90" value="set_variable jji_medical_quiz_q3:null" />
+    <property name="cond10" value="is variable_set jji_medical_quiz_q3:Wash the filthy belt" />
+    <property name="cond20" value="not variable_set jji_medical_quiz_complete:yes" />
+   </properties>
+  </object>
+  <object id="113" name="JJI Hospital Floor 2 - Medical Quiz - Q3 Wrong Respect Tradition" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_hospital2_kimura_q3_wrong_respect" />
+    <property name="act20" value="set_variable jji_medical_quiz_q1:null" />
+    <property name="act30" value="set_variable jji_medical_quiz_q2:null" />
+    <property name="act40" value="set_variable jji_medical_quiz_q3:null" />
+    <property name="cond10" value="is variable_set jji_medical_quiz_q3:Respect the tradition" />
+    <property name="cond20" value="not variable_set jji_medical_quiz_complete:yes" />
+   </properties>
+  </object>
+  <object id="114" name="JJI Hospital Floor 2 - Medical Quiz - Q3 Wrong Burn Everything" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_hospital2_kimura_q3_wrong_burn" />
+    <property name="act20" value="set_variable jji_medical_quiz_q1:null" />
+    <property name="act30" value="set_variable jji_medical_quiz_q2:null" />
+    <property name="act40" value="set_variable jji_medical_quiz_q3:null" />
+    <property name="cond10" value="is variable_set jji_medical_quiz_q3:Burn everything" />
+    <property name="cond20" value="not variable_set jji_medical_quiz_complete:yes" />
+   </properties>
+  </object>
+  <object id="115" name="JJI Hospital Floor 2 - Medical Quiz - Already Complete" type="event" x="256" y="112" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_dr_kimura_floor2,player" />
+    <property name="act20" value="char_face player,jji_dr_kimura_floor2" />
+    <property name="act30" value="translated_dialog jji_hospital2_kimura_complete" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+    <property name="cond30" value="is variable_set jji_medical_quiz_complete:yes" />
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="Collisions">
+  <object id="55" type="collision" x="399.957" y="225.657" width="78.8501" height="30.0875" />
+  <object id="57" type="collision" x="448.719" y="160.294" width="30.6063" height="31.6438" />
+  <object id="58" type="collision" x="433.157" y="272.863" width="30.6063" height="14.525" />
+  <object id="60" type="collision" x="399.438" y="303.988" width="79.8876" height="14.525" />
+  <object id="61" type="collision" x="-1.0375" y="36.8313" width="366.238" height="41.5001" />
+  <object id="62" type="collision" x="402.551" y="36.3125" width="27.4938" height="42.5376" />
+  <object id="63" type="collision" x="464.282" y="34.7563" width="16.0813" height="44.6126" />
+  <object id="64" type="collision" x="192.457" y="79.8876" width="30.6063" height="13.4875" />
+  <object id="65" type="collision" x="208.019" y="94.9314" width="15.0438" height="15.5625" />
+  <object id="66" type="collision" x="223.582" y="107.381" width="95.9689" height="19.1938" />
+  <object id="67" type="collision" x="319.55" y="78.8501" width="16.6" height="32.6813" />
+  <object id="68" type="collision" x="17.1188" y="79.3689" width="14.525" height="16.0813" />
+  <object id="69" type="collision" x="79.8876" y="77.2939" width="15.5625" height="17.6375" />
+  <object id="70" type="collision" x="144.213" y="79.3689" width="15.5625" height="95.9689" />
+  <object id="71" type="collision" x="114.644" y="145.769" width="28.5313" height="29.5688" />
+  <object id="72" type="collision" x="-0.518751" y="144.213" width="16.0813" height="31.125" />
+  <object id="73" type="collision" x="16.0813" y="160.813" width="47.7251" height="14.525" />
+  <object id="74" type="collision" x="65.8813" y="143.175" width="12.45" height="32.6813" />
+  <object id="75" type="collision" x="288.944" y="305.025" width="30.0875" height="14.525" />
+  <object id="76" type="collision" x="305.025" y="209.575" width="14.0063" height="94.4126" />
+  <object id="77" type="collision" x="257.3" y="209.575" width="45.6501" height="29.05" />
+  <object id="78" type="collision" x="175.856" y="208.019" width="48.2438" height="31.6438" />
+  <object id="79" type="collision" x="112.569" y="208.538" width="32.1625" height="30.0875" />
+  <object id="80" type="collision" x="160.294" y="209.575" width="16.0813" height="13.4875" />
+  <object id="81" type="v" x="144.731" y="209.057" width="14.525" height="110.494" />
+  <object id="82" x="128.65" y="305.544" width="15.0438" height="13.4875" />
+  <object id="83" type="collision" x="0.518751" y="208.019" width="77.8126" height="33.2" />
+  <object id="84" type="collision" x="-1.55625" y="303.469" width="49.2813" height="15.5625" />
+  <object id="85" type="collision" x="366.238" y="52.9126" width="97.5251" height="17.1188" />
+ </objectgroup>
+</map>

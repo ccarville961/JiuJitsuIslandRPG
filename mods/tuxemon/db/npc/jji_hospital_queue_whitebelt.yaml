@@ -1,0 +1,10 @@
+slug: jji_hospital_queue_whitebelt
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: bluebelt_boss
+  combat_sheet: disciple
+  slug: disciple

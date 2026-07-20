@@ -1,0 +1,10 @@
+slug: crippled_dude
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: talos_coach
+  combat_sheet: professor
+  slug: professor

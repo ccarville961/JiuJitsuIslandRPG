@@ -1,0 +1,10 @@
+slug: jji_hospital2_teen_competitor
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: childactor_black
+  combat_sheet: disciple
+  slug: disciple

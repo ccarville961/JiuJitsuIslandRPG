@@ -1,0 +1,10 @@
+slug: jji_hospital2_bluebelt_sarah
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: heroine
+  combat_sheet: disciple
+  slug: disciple

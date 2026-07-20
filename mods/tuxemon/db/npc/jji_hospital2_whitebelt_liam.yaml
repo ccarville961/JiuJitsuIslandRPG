@@ -1,0 +1,10 @@
+slug: jji_hospital2_whitebelt_liam
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: childactor_blonde
+  combat_sheet: disciple
+  slug: disciple

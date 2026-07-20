@@ -1,0 +1,10 @@
+slug: jji_hospital_queue_wrestler
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: childactor_blonde
+  combat_sheet: knight
+  slug: knight

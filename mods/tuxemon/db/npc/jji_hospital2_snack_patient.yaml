@@ -1,0 +1,10 @@
+slug: jji_hospital2_snack_patient
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: boss
+  combat_sheet: professor
+  slug: professor

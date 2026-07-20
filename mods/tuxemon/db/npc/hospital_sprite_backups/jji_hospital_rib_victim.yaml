@@ -1,0 +1,10 @@
+slug: jji_hospital_rib_victim
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: icon_coach
+  combat_sheet: professor
+  slug: professor

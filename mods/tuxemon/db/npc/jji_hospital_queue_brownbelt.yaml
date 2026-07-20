@@ -1,0 +1,10 @@
+slug: jji_hospital_queue_brownbelt
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: childactor_black
+  combat_sheet: knight
+  slug: knight

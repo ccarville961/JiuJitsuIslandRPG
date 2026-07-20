@@ -1,0 +1,10 @@
+slug: jji_hospital_spectator
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: girl1
+  combat_sheet: disciple
+  slug: disciple
