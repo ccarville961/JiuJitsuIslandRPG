@@ -20709,3 +20709,183 @@ msgstr ""
 "Dr Kimura: I have already approved your Medical Form.\n"
 "\n"
 "Keep it safe, stay hydrated, wash your equipment, and tap before your joints begin making expensive noises."
+
+# JJI Coach McGreevy technique
+msgid "guard_pull"
+msgstr "Guard Pull"
+
+# JJI Coach McGreevy technique
+msgid "single_leg_x"
+msgstr "Single Leg X"
+
+# JJI KOTH post-medical cutscene
+msgid "jji_koth_post_medical_cutscene"
+msgstr ""
+"CEO: Attention competitors!\n"
+"\n"
+"Turnbull and Brannif have both been disqualified from the competition.\n"
+"\n"
+"CEO: As a reminder...\n"
+"\n"
+"Oil checking with two hands is NOT,\n"
+"\n"
+"and never has been,\n"
+"\n"
+"a legal IBJJF technique.\n"
+"\n"
+"CEO: The next competitor has been called.\n"
+"\n"
+"Head immediately to Mat 1!"
+
+# JJI KOTH Logan
+msgid "logan_competitor"
+msgstr "Logan Competitor"
+
+# JJI KOTH Logan
+msgid "jji_koth_logan"
+msgstr "Logan Competitor"
+
+# JJI KOTH Logan
+msgid "jji_koth_mat1_referee_logan_intro"
+msgstr ""
+"Referee: Competitor, your medical clearance has been approved.\n"
+"\n"
+"Your first opponent is Logan.\n"
+"\n"
+"Take your position on Mat 1!"
+
+# JJI KOTH Logan
+msgid "jji_koth_mat1_referee_logan_victory"
+msgstr ""
+"Referee: Victory confirmed.\n"
+"\n"
+"You have cleared Mat 1 proceed to Mat 2."
+
+# JJI King of the Hill tournament
+msgid "jji_koth_coach_mcgreevy_post_battle"
+msgstr ""
+"Coach McGreevy: Congratulations! That was a brilliant performance.\n"
+"\n"
+"Coach Staffy is waiting for you on Mat 2. Speak to the centre referee when you are ready."
+
+# JJI King of the Hill tournament
+msgid "jji_koth_mat2_referee_staffy_intro"
+msgstr ""
+"Referee: Welcome to Mat 2.\n"
+"\n"
+"Your next opponent is Coach Staffy. Prepare yourself!"
+
+# JJI King Of The Hill final
+msgid "jji_koth_coach_atlas"
+msgstr "Coach Atlas"
+
+# JJI King Of The Hill final
+msgid "jji_koth_atlas_battle_speech"
+msgstr "Coach Atlas: You should never have made it this far."
+
+# JJI KOTH final sequence
+msgid "jji_koth_staffy_post_battle"
+msgstr ""
+"Coach Staffy: Outstanding performance.\n"
+"\n"
+"Coach Staffy: You've earned your place in the final.\n"
+"\n"
+"Coach Staffy: Coach Atlas has been waiting for someone worthy.\n"
+"\n"
+"Coach Staffy: Good luck."
+
+# JJI KOTH final sequence
+msgid "jji_koth_mat3_referee_intro"
+msgstr ""
+"Referee: Ladies and gentlemen...\n"
+"\n"
+"Referee: The King Of The Hill Final!"
+
+# JJI KOTH final sequence
+msgid "jji_koth_atlas_insult"
+msgstr ""
+"Coach Atlas: So you're the one everyone's been talking about?\n"
+"\n"
+"Coach Atlas: I've rolled through tougher people in warm-ups.\n"
+"\n"
+"Coach Atlas: You're shite."
+
+# JJI KOTH final sequence
+msgid "jji_koth_player_atlas_response"
+msgstr ""
+"You: Keep talking...\n"
+"\n"
+"You: I'll make you a tap machine!"
+
+# JJI KOTH final sequence
+msgid "jji_koth_atlas_arrest_announcement"
+msgstr ""
+"CEO: Officers...\n"
+"\n"
+"CEO: Proceed to Mat 3."
+
+# JJI KOTH final sequence
+msgid "jji_koth_atlas_arrest"
+msgstr ""
+"Officer: Coach Atlas...\n"
+"\n"
+"Officer: You're under arrest for money laundering and selling Class A drugs.\n"
+"\n"
+"Officer: You're coming with us."
+
+# JJI KOTH final sequence
+msgid "jji_koth_atlas_arrest_response"
+msgstr "Coach Atlas: This isn't over."
+
+# JJI KOTH final sequence
+msgid "jji_koth_ceo_nosey_spectators"
+msgstr ""
+"CEO: Right...\n"
+"\n"
+"CEO: Stop staring, ya nosey bastids."
+
+# JJI KOTH final sequence
+msgid "jji_koth_champion_announcement"
+msgstr ""
+"CEO: Ladies and gentlemen...\n"
+"\n"
+"CEO: Let's hear it for our new King Of The Hill Champion!\n"
+"\n"
+"CEO: The winner of tonight's tournament..."
+
+# JJI KOTH final sequence
+msgid "jji_koth_championship_belt_received"
+msgstr "You received the King Of The Hill Championship Belt!"
+
+# JJI KOTH final sequence
+msgid "jji_koth_champion_congratulations"
+msgstr "CEO: Congratulations, Champion."
+
+# JJI KOTH final sequence
+msgid "jji_koth_end_credits"
+msgstr ""
+"JIU JITSU ISLAND\n"
+"\n"
+"KING OF THE HILL\n"
+"\n"
+"Created by Callum Carville\n"
+"\n"
+"Thank you for playing."
+
+# JJI KOTH final sequence
+msgid "koth_championship_belt"
+msgstr "King Of The Hill Championship Belt"
+
+# JJI KOTH final sequence
+msgid "koth_championship_belt_description"
+msgstr ""
+"The official championship belt awarded to the winner of the King Of The Hill"
+" tournament."
+
+# JJI KOTH final sequence
+msgid "jji_koth_arrest_officer_left"
+msgstr "Police Officer"
+
+# JJI KOTH final sequence
+msgid "jji_koth_arrest_officer_right"
+msgstr "Police Officer"

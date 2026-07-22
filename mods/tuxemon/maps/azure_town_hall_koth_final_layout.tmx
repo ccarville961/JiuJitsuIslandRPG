@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="55">
-  <properties>
-    <property name="edges" value="clamped" />
-    <property name="inside" type="bool" value="true" />
-    <property name="map_type" value="notype" />
-    <property name="scenario" value="xero" />
-    <property name="slug" value="azure_town_hall" />
-  </properties>
-  <tileset firstgid="1" name="Office_interiors_shadowless_16x16" tilewidth="16" tileheight="16" tilecount="528" columns="22">
-    <image source="../gfx/tilesets/Office_interiors_shadowless_16x16.png" width="352" height="384" />
-  </tileset>
-  <tileset firstgid="529" source="../gfx/tilesets/core_indoor_floors.tsx" />
-  <tileset firstgid="4393" source="../gfx/tilesets/core_set pieces.tsx" />
-  <layer id="1" name="Tile Layer 1" width="30" height="20">
-    <data encoding="csv">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="64">
+ <properties>
+  <property name="edges" value="clamped" />
+  <property name="inside" type="bool" value="true" />
+  <property name="map_type" value="notype" />
+  <property name="scenario" value="xero" />
+  <property name="slug" value="azure_town_hall" />
+ </properties>
+ <tileset firstgid="1" name="Office_interiors_shadowless_16x16" tilewidth="16" tileheight="16" tilecount="528" columns="22">
+  <image source="../gfx/tilesets/Office_interiors_shadowless_16x16.png" width="352" height="384" />
+ </tileset>
+ <tileset firstgid="529" source="../gfx/tilesets/core_indoor_floors.tsx" />
+ <tileset firstgid="4393" source="../gfx/tilesets/core_set pieces.tsx" />
+ <layer id="1" name="Tile Layer 1" width="30" height="20">
+  <data encoding="csv">
 1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,
 1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,
 1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,
@@ -35,9 +35,9 @@
 1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,
 1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651,1651
 </data>
-  </layer>
-  <layer id="2" name="Tile Layer 2" width="30" height="20">
-    <data encoding="csv">
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="30" height="20">
+  <data encoding="csv">
 0,5112,0,0,0,0,0,0,0,0,0,5112,0,0,0,0,0,0,0,0,0,5112,0,0,0,0,0,0,0,4982,
 0,1525,1525,1525,1525,1525,1525,1525,1525,0,0,1525,1525,1525,1525,1525,1525,1525,1525,0,0,1525,1525,1525,1525,1525,1525,1525,1525,0,
 0,1525,1707,1707,1707,1707,1707,1707,1525,0,0,1525,1707,1707,1707,1707,1707,1707,1525,0,0,1525,1707,1707,1707,1707,1707,1707,1525,0,
@@ -59,9 +59,9 @@
 0,0,0,0,0,0,0,0,0,0,4961,0,0,0,393,1233,393,0,4535,4441,4534,0,0,0,0,0,4648,4649,0,5613,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,415,1233,415,0,0,5553,0,0,0,0,0,0,0,0,0,5618
 </data>
-  </layer>
-  <layer id="3" name="Tile Layer 3" width="30" height="20">
-    <data encoding="csv">
+ </layer>
+ <layer id="3" name="Tile Layer 3" width="30" height="20">
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,2522,2523,2523,2523,2523,2524,0,0,0,0,2522,2523,2523,2523,2523,2524,0,0,0,0,2522,2523,2523,2523,2523,2524,0,0,
@@ -83,9 +83,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-  </layer>
-  <layer id="4" name="Above Player" width="30" height="20">
-    <data encoding="csv">
+ </layer>
+ <layer id="4" name="Above Player" width="30" height="20">
+  <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -107,262 +107,422 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
-  </layer>
-  <objectgroup id="3" name="events">
-    <object id="1" name="Exit To Azure Town" type="event" x="240.17" y="303.513" width="16" height="16">
-      <properties>
-        <property name="act10" value="transition_teleport player,candy_town.tmx,17,20,0.3" />
-        <property name="cond10" value="is char_at player" />
-        <property name="cond20" value="is char_facing player,down" />
-      </properties>
-    </object>
-    <object id="43" name="Talk to jji_koth_crowd_duncan" class="event" type="event" x="48" y="176" width="16" height="16">
-      <properties>
-        <property name="act010" value="translated_dialog jji_koth_crowd_duncan_dialogue" />
-        <property name="behav010" value="talk jji_koth_crowd_duncan" />
-      </properties>
-    </object>
-    <object id="44" name="Talk to jji_koth_crowd_hill" class="event" type="event" x="96" y="176" width="16" height="16">
-      <properties>
-        <property name="act010" value="translated_dialog jji_koth_crowd_hill_dialogue" />
-        <property name="behav010" value="talk jji_koth_crowd_hill" />
-      </properties>
-    </object>
-    <object id="45" name="Talk to jji_koth_crowd_toland" class="event" type="event" x="80" y="224" width="16" height="16">
-      <properties>
-        <property name="act010" value="translated_dialog jji_koth_crowd_toland_dialogue" />
-        <property name="behav010" value="talk jji_koth_crowd_toland" />
-      </properties>
-    </object>
-    <object id="46" name="Talk to jji_koth_crowd_mum" class="event" type="event" x="128" y="224" width="16" height="16">
-      <properties>
-        <property name="act010" value="translated_dialog jji_koth_crowd_mum_dialogue" />
-        <property name="behav010" value="talk jji_koth_crowd_mum" />
-      </properties>
-    </object>
-    <object id="47" name="Talk to jji_koth_crowd_carville" class="event" type="event" x="208" y="176" width="16" height="16">
-      <properties>
-        <property name="act010" value="translated_dialog jji_koth_crowd_carville_dialogue" />
-        <property name="behav010" value="talk jji_koth_crowd_carville" />
-      </properties>
-    </object>
-    <object id="48" name="Talk to jji_koth_crowd_chelsea" class="event" type="event" x="272" y="176" width="16" height="16">
-      <properties>
-        <property name="act010" value="translated_dialog jji_koth_crowd_chelsea_dialogue" />
-        <property name="behav010" value="talk jji_koth_crowd_chelsea" />
-      </properties>
-    </object>
-    <object id="49" name="Talk to jji_koth_crowd_callahan" class="event" type="event" x="240" y="224" width="16" height="16">
-      <properties>
-        <property name="act010" value="translated_dialog jji_koth_crowd_callahan_dialogue" />
-        <property name="behav010" value="talk jji_koth_crowd_callahan" />
-      </properties>
-    </object>
-    <object id="50" name="Talk to jji_koth_crowd_luna" class="event" type="event" x="288" y="224" width="16" height="16">
-      <properties>
-        <property name="act010" value="translated_dialog jji_koth_crowd_luna_dialogue" />
-        <property name="behav010" value="talk jji_koth_crowd_luna" />
-      </properties>
-    </object>
-    <object id="51" name="Talk to jji_koth_crowd_random_01" class="event" type="event" x="368" y="176" width="16" height="16">
-      <properties>
-        <property name="act010" value="translated_dialog jji_koth_crowd_random_01_dialogue" />
-        <property name="behav010" value="talk jji_koth_crowd_random_01" />
-      </properties>
-    </object>
-    <object id="52" name="Talk to jji_koth_crowd_random_02" class="event" type="event" x="432" y="176" width="16" height="16">
-      <properties>
-        <property name="act010" value="translated_dialog jji_koth_crowd_random_02_dialogue" />
-        <property name="behav010" value="talk jji_koth_crowd_random_02" />
-      </properties>
-    </object>
-    <object id="53" name="Talk to jji_koth_crowd_random_03" class="event" type="event" x="400" y="224" width="16" height="16">
-      <properties>
-        <property name="act010" value="translated_dialog jji_koth_crowd_random_03_dialogue" />
-        <property name="behav010" value="talk jji_koth_crowd_random_03" />
-      </properties>
-    </object>
-    <object id="54" name="Talk to jji_koth_crowd_random_04" class="event" type="event" x="448" y="224" width="16" height="16">
-      <properties>
-        <property name="act010" value="translated_dialog jji_koth_crowd_random_04_dialogue" />
-        <property name="behav010" value="talk jji_koth_crowd_random_04" />
-      </properties>
-    </object>
-  </objectgroup>
-  <objectgroup id="9" name="Collisions">
-    <object id="11" x="32" y="256" width="48" height="32" />
-    <object id="15" type="collision" x="33.1001" y="256.526" width="47.2163" height="31.6398" />
-    <object id="16" type="collision" x="111.469" y="257.499" width="48.1898" height="29.6927" />
-    <object id="18" type="collision" x="224.886" y="289.139" width="14.1162" height="30.6663" />
-    <object id="19" type="collision" x="258.473" y="290.599" width="12.1692" height="29.206" />
-    <object id="20" type="collision" x="239.976" y="128.019" width="63.7664" height="15.0897" />
-    <object id="21" type="collision" x="175.723" y="128.993" width="47.2163" height="15.0897" />
-    <object id="22" type="collision" x="80.3164" y="129.967" width="63.7664" height="14.1162" />
-    <object id="23" type="collision" x="15.5765" y="127.533" width="49.1634" height="16.55" />
-    <object id="24" type="collision" x="16.55" y="0" width="14.603" height="15.5765" />
-    <object id="25" type="collision" x="175.723" y="0.486766" width="16.0633" height="15.5765" />
-    <object id="26" type="collision" x="336.842" y="0.973532" width="14.1162" height="14.1162" />
-    <object id="27" type="collision" x="336.842" y="128.993" width="46.2428" height="13.6294" />
-    <object id="28" type="collision" x="400.608" y="128.993" width="62.3061" height="14.603" />
-    <object id="29" type="collision" x="415.698" y="273.076" width="31.6398" height="30.6663" />
-    <object id="30" type="collision" x="464.375" y="273.076" width="16.0633" height="45.756" />
-  </objectgroup>
-  <objectgroup id="7" name="layout_markers" visible="0">
-    <object id="2" name="MAT 1" type="marker" x="16" y="16" width="128" height="112">
-      <text wrap="1" halign="center" valign="center">MAT 1</text>
-    </object>
-    <object id="3" name="MAT 2" type="marker" x="176" y="16" width="128" height="112">
-      <text wrap="1" halign="center" valign="center">MAT 2</text>
-    </object>
-    <object id="4" name="MAT 3" type="marker" x="336" y="16" width="128" height="112">
-      <text wrap="1" halign="center" valign="center">MAT 3</text>
-    </object>
-    <object id="5" name="SPECTATOR BENCHES — FACE MATS" type="marker" x="32" y="160" width="416" height="80">
-      <text wrap="1" halign="center" valign="center">SPECTATOR BENCHES — FACE MATS</text>
-    </object>
-    <object id="6" name="MERCHANDISE STALL" type="marker" x="432" y="128" width="48" height="64">
-      <text wrap="1" halign="center" valign="center">MERCHANDISE STALL</text>
-    </object>
-    <object id="7" name="REGISTRATION" type="marker" x="208" y="256" width="48" height="48">
-      <text wrap="1" halign="center" valign="center">REGISTRATION</text>
-    </object>
-    <object id="8" name="DR KIMURA MEDICAL EXAMINATION" type="marker" x="352" y="256" width="112" height="48">
-      <text wrap="1" halign="center" valign="center">DR KIMURA MEDICAL EXAMINATION</text>
-    </object>
-    <object id="9" name="ENTRANCE CARPET" type="marker" x="224" y="288" width="48" height="32">
-      <text wrap="1" halign="center" valign="center">ENTRANCE CARPET</text>
-    </object>
-  </objectgroup>
-  <objectgroup color="#ffff00" id="31" name="jji_final_hall_npc_loader">
-    <object id="32" name="Load Final Hall NPCs" type="event" x="0" y="0" width="16" height="16">
-      <properties>
-        <property name="act010" value="create_npc jji_koth_referee_left,5,4,stand" />
-        <property name="act020" value="create_npc jji_koth_referee_center,15,4,stand" />
-        <property name="act030" value="create_npc jji_koth_referee_right,25,4,stand" />
-        <property name="act040" value="create_npc jji_koth_shopkeeper_left,3,18,stand" />
-        <property name="act050" value="create_npc jji_koth_shopkeeper_right,8,18,stand" />
-        <property name="act060" value="create_npc jji_dr_kimura,25,18,stand" />
-        <property name="cond010" value="not char_exists jji_koth_referee_left" />
-        <property name="act070" value="create_npc jji_koth_ceo,19,19,stand" />
-        <property name="act080" value="char_face jji_dr_kimura,left" />
-        <property name="act090" value="char_face jji_koth_ceo,up" />
-        <property name="act100" value="create_npc jji_koth_crowd_duncan,3,11,stand" />
-        <property name="act110" value="create_npc jji_koth_crowd_hill,6,11,stand" />
-        <property name="act120" value="create_npc jji_koth_crowd_toland,5,14,stand" />
-        <property name="act130" value="create_npc jji_koth_crowd_mum,8,14,stand" />
-        <property name="act140" value="create_npc jji_koth_crowd_carville,13,11,stand" />
-        <property name="act150" value="create_npc jji_koth_crowd_chelsea,17,11,stand" />
-        <property name="act160" value="create_npc jji_koth_crowd_callahan,15,14,stand" />
-        <property name="act170" value="create_npc jji_koth_crowd_luna,18,14,stand" />
-        <property name="act180" value="create_npc jji_koth_crowd_random_01,23,11,stand" />
-        <property name="act190" value="create_npc jji_koth_crowd_random_02,27,11,stand" />
-        <property name="act200" value="create_npc jji_koth_crowd_random_03,25,14,stand" />
-        <property name="act210" value="create_npc jji_koth_crowd_random_04,28,14,stand" />
-        <property name="act220" value="char_face jji_koth_crowd_duncan,up" />
-        <property name="act230" value="char_face jji_koth_crowd_hill,up" />
-        <property name="act240" value="char_face jji_koth_crowd_toland,up" />
-        <property name="act250" value="char_face jji_koth_crowd_mum,up" />
-        <property name="act260" value="char_face jji_koth_crowd_carville,up" />
-        <property name="act270" value="char_face jji_koth_crowd_chelsea,up" />
-        <property name="act280" value="char_face jji_koth_crowd_callahan,up" />
-        <property name="act290" value="char_face jji_koth_crowd_luna,up" />
-        <property name="act300" value="char_face jji_koth_crowd_random_01,up" />
-        <property name="act310" value="char_face jji_koth_crowd_random_02,up" />
-        <property name="act320" value="char_face jji_koth_crowd_random_03,up" />
-        <property name="act330" value="char_face jji_koth_crowd_random_04,up" />
-      </properties>
-    </object>
-  </objectgroup>
-  <objectgroup color="#ffff00" id="10" name="jji_final_hall_shop_interactions">
-    <object id="33" name="JJI RND1 Apparel Dialogue" type="event" x="48" y="288" width="16" height="16">
-      <properties>
-        <property name="act10" value="translated_dialog jji_koth_rnd1_apparel" />
-        <property name="cond10" value="is char_facing_tile player" />
-        <property name="cond20" value="is button_pressed INTERACT" />
-      </properties>
-    </object>
-    <object id="34" name="JJI Paddy Free Bottle" type="event" x="128" y="288" width="16" height="16">
-      <properties>
-        <property name="act10" value="translated_dialog jji_koth_paddy_intro" />
-        <property name="act20" value="add_item potion,1" />
-        <property name="act30" value="translated_dialog jji_koth_paddy_received" />
-        <property name="act40" value="set_variable jji_paddys_free_bottle:received" />
-        <property name="cond10" value="is char_facing_tile player" />
-        <property name="cond20" value="is button_pressed INTERACT" />
-        <property name="cond30" value="not variable_set jji_paddys_free_bottle:received" />
-      </properties>
-    </object>
-    <object id="35" name="JJI Paddy Advertisement" type="event" x="128" y="288" width="16" height="16">
-      <properties>
-        <property name="act10" value="translated_dialog jji_koth_paddy_advert" />
-        <property name="cond10" value="is char_facing_tile player" />
-        <property name="cond20" value="is button_pressed INTERACT" />
-        <property name="cond30" value="is variable_set jji_paddys_free_bottle:received" />
-      </properties>
-    </object>
-  </objectgroup>
-  <objectgroup color="#ffff00" id="32" name="jji_koth_ceo_interaction">
-    <object id="36" name="JJI King Of The Hill CEO Dialogue" type="event" x="304" y="304" width="16" height="16">
-      <properties>
-        <property name="act10" value="translated_dialog jji_koth_ceo_dialogue" />
-        <property name="cond10" value="is char_facing_tile player" />
-        <property name="cond20" value="is button_pressed INTERACT" />
-      </properties>
-    </object>
-  </objectgroup>
-  <objectgroup id="33" name="jji_dr_kimura_interactions" color="#ffff00">
-    <object id="37" name="JJI Dr Kimura Missing Medical Form" type="event" x="400" y="288" width="16" height="16">
-      <properties>
-        <property name="act10" value="translated_dialog jji_dr_kimura_medical_missing" />
-        <property name="cond10" value="is char_facing_tile player" />
-        <property name="cond20" value="is button_pressed INTERACT" />
-        <property name="cond30" value="not has_item player,medical_form" />
-        <property name="cond40" value="not variable_set jji_koth_medical_clearance:approved" />
-      </properties>
-    </object>
-    <object id="38" name="JJI Dr Kimura Medical Clearance" type="event" x="400" y="288" width="16" height="16">
-      <properties>
-        <property name="act10" value="translated_dialog jji_dr_kimura_medical_approved" />
-        <property name="act20" value="set_variable jji_koth_medical_clearance:approved" />
-        <property name="cond10" value="is char_facing_tile player" />
-        <property name="cond20" value="is button_pressed INTERACT" />
-        <property name="cond30" value="is has_item player,medical_form" />
-        <property name="cond40" value="not variable_set jji_koth_medical_clearance:approved" />
-      </properties>
-    </object>
-    <object id="39" name="JJI Dr Kimura Cleared Reminder" type="event" x="400" y="288" width="16" height="16">
-      <properties>
-        <property name="act10" value="translated_dialog jji_dr_kimura_medical_reminder" />
-        <property name="cond10" value="is char_facing_tile player" />
-        <property name="cond20" value="is button_pressed INTERACT" />
-        <property name="cond30" value="is variable_set jji_koth_medical_clearance:approved" />
-      </properties>
-    </object>
-  </objectgroup>
-  <objectgroup id="34" name="jji_koth_referee_interactions" color="#ffff00">
-    <object id="40" name="JJI Left Referee Medical Warning" type="event" x="80" y="64" width="16" height="16">
-      <properties>
-        <property name="act10" value="translated_dialog jji_koth_referee_medical_warning" />
-        <property name="cond10" value="is char_facing_tile player" />
-        <property name="cond20" value="is button_pressed INTERACT" />
-        <property name="cond30" value="not variable_set jji_koth_medical_clearance:approved" />
-      </properties>
-    </object>
-    <object id="41" name="JJI Centre Referee Medical Warning" type="event" x="240" y="64" width="16" height="16">
-      <properties>
-        <property name="act10" value="translated_dialog jji_koth_referee_medical_warning" />
-        <property name="cond10" value="is char_facing_tile player" />
-        <property name="cond20" value="is button_pressed INTERACT" />
-        <property name="cond30" value="not variable_set jji_koth_medical_clearance:approved" />
-      </properties>
-    </object>
-    <object id="42" name="JJI Right Referee Medical Warning" type="event" x="400" y="64" width="16" height="16">
-      <properties>
-        <property name="act10" value="translated_dialog jji_koth_referee_medical_warning" />
-        <property name="cond10" value="is char_facing_tile player" />
-        <property name="cond20" value="is button_pressed INTERACT" />
-        <property name="cond30" value="not variable_set jji_koth_medical_clearance:approved" />
-      </properties>
-    </object>
-  </objectgroup>
+ </layer>
+ <objectgroup id="3" name="events">
+  <object id="1" name="Exit To Azure Town" type="event" x="240.17" y="303.513" width="16" height="16">
+   <properties>
+    <property name="act10" value="transition_teleport player,candy_town.tmx,17,20,0.3" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,down" />
+   </properties>
+  </object>
+  <object id="43" name="Talk to jji_koth_crowd_duncan" class="event" type="event" x="48" y="176" width="16" height="16">
+   <properties>
+    <property name="act010" value="translated_dialog jji_koth_crowd_duncan_dialogue" />
+    <property name="behav010" value="talk jji_koth_crowd_duncan" />
+   </properties>
+  </object>
+  <object id="44" name="Talk to jji_koth_crowd_hill" class="event" type="event" x="96" y="176" width="16" height="16">
+   <properties>
+    <property name="act010" value="translated_dialog jji_koth_crowd_hill_dialogue" />
+    <property name="behav010" value="talk jji_koth_crowd_hill" />
+   </properties>
+  </object>
+  <object id="45" name="Talk to jji_koth_crowd_toland" class="event" type="event" x="80" y="224" width="16" height="16">
+   <properties>
+    <property name="act010" value="translated_dialog jji_koth_crowd_toland_dialogue" />
+    <property name="behav010" value="talk jji_koth_crowd_toland" />
+   </properties>
+  </object>
+  <object id="46" name="Talk to jji_koth_crowd_mum" class="event" type="event" x="128" y="224" width="16" height="16">
+   <properties>
+    <property name="act010" value="translated_dialog jji_koth_crowd_mum_dialogue" />
+    <property name="behav010" value="talk jji_koth_crowd_mum" />
+   </properties>
+  </object>
+  <object id="47" name="Talk to jji_koth_crowd_carville" class="event" type="event" x="208" y="176" width="16" height="16">
+   <properties>
+    <property name="act010" value="translated_dialog jji_koth_crowd_carville_dialogue" />
+    <property name="behav010" value="talk jji_koth_crowd_carville" />
+   </properties>
+  </object>
+  <object id="48" name="Talk to jji_koth_crowd_chelsea" class="event" type="event" x="272" y="176" width="16" height="16">
+   <properties>
+    <property name="act010" value="translated_dialog jji_koth_crowd_chelsea_dialogue" />
+    <property name="behav010" value="talk jji_koth_crowd_chelsea" />
+   </properties>
+  </object>
+  <object id="49" name="Talk to jji_koth_crowd_callahan" class="event" type="event" x="240" y="224" width="16" height="16">
+   <properties>
+    <property name="act010" value="translated_dialog jji_koth_crowd_callahan_dialogue" />
+    <property name="behav010" value="talk jji_koth_crowd_callahan" />
+   </properties>
+  </object>
+  <object id="50" name="Talk to jji_koth_crowd_luna" class="event" type="event" x="288" y="224" width="16" height="16">
+   <properties>
+    <property name="act010" value="translated_dialog jji_koth_crowd_luna_dialogue" />
+    <property name="behav010" value="talk jji_koth_crowd_luna" />
+   </properties>
+  </object>
+  <object id="51" name="Talk to jji_koth_crowd_random_01" class="event" type="event" x="368" y="176" width="16" height="16">
+   <properties>
+    <property name="act010" value="translated_dialog jji_koth_crowd_random_01_dialogue" />
+    <property name="behav010" value="talk jji_koth_crowd_random_01" />
+   </properties>
+  </object>
+  <object id="52" name="Talk to jji_koth_crowd_random_02" class="event" type="event" x="432" y="176" width="16" height="16">
+   <properties>
+    <property name="act010" value="translated_dialog jji_koth_crowd_random_02_dialogue" />
+    <property name="behav010" value="talk jji_koth_crowd_random_02" />
+   </properties>
+  </object>
+  <object id="53" name="Talk to jji_koth_crowd_random_03" class="event" type="event" x="400" y="224" width="16" height="16">
+   <properties>
+    <property name="act010" value="translated_dialog jji_koth_crowd_random_03_dialogue" />
+    <property name="behav010" value="talk jji_koth_crowd_random_03" />
+   </properties>
+  </object>
+  <object id="54" name="Talk to jji_koth_crowd_random_04" class="event" type="event" x="448" y="224" width="16" height="16">
+   <properties>
+    <property name="act010" value="translated_dialog jji_koth_crowd_random_04_dialogue" />
+    <property name="behav010" value="talk jji_koth_crowd_random_04" />
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="Collisions">
+  <object id="11" x="32" y="256" width="48" height="32" />
+  <object id="15" type="collision" x="33.1001" y="256.526" width="47.2163" height="31.6398" />
+  <object id="16" type="collision" x="111.469" y="257.499" width="48.1898" height="29.6927" />
+  <object id="18" type="collision" x="224.886" y="289.139" width="14.1162" height="30.6663" />
+  <object id="19" type="collision" x="258.473" y="290.599" width="12.1692" height="29.206" />
+  <object id="20" type="collision" x="239.976" y="128.019" width="63.7664" height="15.0897" />
+  <object id="21" type="collision" x="175.723" y="128.993" width="47.2163" height="15.0897" />
+  <object id="22" type="collision" x="80.3164" y="129.967" width="63.7664" height="14.1162" />
+  <object id="23" type="collision" x="15.5765" y="127.533" width="49.1634" height="16.55" />
+  <object id="24" type="collision" x="16.55" y="0" width="14.603" height="15.5765" />
+  <object id="25" type="collision" x="175.723" y="0.486766" width="16.0633" height="15.5765" />
+  <object id="26" type="collision" x="336.842" y="0.973532" width="14.1162" height="14.1162" />
+  <object id="27" type="collision" x="336.842" y="128.993" width="46.2428" height="13.6294" />
+  <object id="28" type="collision" x="400.608" y="128.993" width="62.3061" height="14.603" />
+  <object id="29" type="collision" x="415.698" y="273.076" width="31.6398" height="30.6663" />
+  <object id="30" type="collision" x="464.375" y="273.076" width="16.0633" height="45.756" />
+ </objectgroup>
+ <objectgroup id="7" name="layout_markers" visible="0">
+  <object id="2" name="MAT 1" type="marker" x="16" y="16" width="128" height="112">
+   <text wrap="1" halign="center" valign="center">MAT 1</text>
+  </object>
+  <object id="3" name="MAT 2" type="marker" x="176" y="16" width="128" height="112">
+   <text wrap="1" halign="center" valign="center">MAT 2</text>
+  </object>
+  <object id="4" name="MAT 3" type="marker" x="336" y="16" width="128" height="112">
+   <text wrap="1" halign="center" valign="center">MAT 3</text>
+  </object>
+  <object id="5" name="SPECTATOR BENCHES — FACE MATS" type="marker" x="32" y="160" width="416" height="80">
+   <text wrap="1" halign="center" valign="center">SPECTATOR BENCHES — FACE MATS</text>
+  </object>
+  <object id="6" name="MERCHANDISE STALL" type="marker" x="432" y="128" width="48" height="64">
+   <text wrap="1" halign="center" valign="center">MERCHANDISE STALL</text>
+  </object>
+  <object id="7" name="REGISTRATION" type="marker" x="208" y="256" width="48" height="48">
+   <text wrap="1" halign="center" valign="center">REGISTRATION</text>
+  </object>
+  <object id="8" name="DR KIMURA MEDICAL EXAMINATION" type="marker" x="352" y="256" width="112" height="48">
+   <text wrap="1" halign="center" valign="center">DR KIMURA MEDICAL EXAMINATION</text>
+  </object>
+  <object id="9" name="ENTRANCE CARPET" type="marker" x="224" y="288" width="48" height="32">
+   <text wrap="1" halign="center" valign="center">ENTRANCE CARPET</text>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ffff00" id="31" name="jji_final_hall_npc_loader">
+  <object id="32" name="Load Final Hall NPCs" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act010" value="create_npc jji_koth_referee_left,5,4,stand" />
+    <property name="act020" value="create_npc jji_koth_referee_center,15,4,stand" />
+    <property name="act030" value="create_npc jji_koth_referee_right,25,4,stand" />
+    <property name="act040" value="create_npc jji_koth_shopkeeper_left,3,18,stand" />
+    <property name="act050" value="create_npc jji_koth_shopkeeper_right,8,18,stand" />
+    <property name="act060" value="create_npc jji_dr_kimura,25,18,stand" />
+    <property name="cond010" value="not char_exists jji_koth_referee_left" />
+    <property name="act070" value="create_npc jji_koth_ceo,19,19,stand" />
+    <property name="act080" value="char_face jji_dr_kimura,left" />
+    <property name="act090" value="char_face jji_koth_ceo,up" />
+    <property name="act100" value="create_npc jji_koth_crowd_duncan,3,11,stand" />
+    <property name="act110" value="create_npc jji_koth_crowd_hill,6,11,stand" />
+    <property name="act120" value="create_npc jji_koth_crowd_toland,5,14,stand" />
+    <property name="act130" value="create_npc jji_koth_crowd_mum,8,14,stand" />
+    <property name="act140" value="create_npc jji_koth_crowd_carville,13,11,stand" />
+    <property name="act150" value="create_npc jji_koth_crowd_chelsea,17,11,stand" />
+    <property name="act160" value="create_npc jji_koth_crowd_callahan,15,14,stand" />
+    <property name="act170" value="create_npc jji_koth_crowd_luna,18,14,stand" />
+    <property name="act180" value="create_npc jji_koth_crowd_random_01,23,11,stand" />
+    <property name="act190" value="create_npc jji_koth_crowd_random_02,27,11,stand" />
+    <property name="act200" value="create_npc jji_koth_crowd_random_03,25,14,stand" />
+    <property name="act210" value="create_npc jji_koth_crowd_random_04,28,14,stand" />
+    <property name="act220" value="char_face jji_koth_crowd_duncan,up" />
+    <property name="act230" value="char_face jji_koth_crowd_hill,up" />
+    <property name="act240" value="char_face jji_koth_crowd_toland,up" />
+    <property name="act250" value="char_face jji_koth_crowd_mum,up" />
+    <property name="act260" value="char_face jji_koth_crowd_carville,up" />
+    <property name="act270" value="char_face jji_koth_crowd_chelsea,up" />
+    <property name="act280" value="char_face jji_koth_crowd_callahan,up" />
+    <property name="act290" value="char_face jji_koth_crowd_luna,up" />
+    <property name="act300" value="char_face jji_koth_crowd_random_01,up" />
+    <property name="act310" value="char_face jji_koth_crowd_random_02,up" />
+    <property name="act320" value="char_face jji_koth_crowd_random_03,up" />
+    <property name="act330" value="char_face jji_koth_crowd_random_04,up" />
+    <property name="act065" value="create_npc jji_koth_coach_mcgreevy,8,1,stand" />
+    <property name="act066" value="char_face jji_koth_coach_mcgreevy,down" />
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ffff00" id="10" name="jji_final_hall_shop_interactions">
+  <object id="33" name="JJI RND1 Apparel Dialogue" type="event" x="48" y="288" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_koth_rnd1_apparel" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="34" name="JJI Paddy Free Bottle" type="event" x="128" y="288" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_koth_paddy_intro" />
+    <property name="act20" value="add_item potion,1" />
+    <property name="act30" value="translated_dialog jji_koth_paddy_received" />
+    <property name="act40" value="set_variable jji_paddys_free_bottle:received" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+    <property name="cond30" value="not variable_set jji_paddys_free_bottle:received" />
+   </properties>
+  </object>
+  <object id="35" name="JJI Paddy Advertisement" type="event" x="128" y="288" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_koth_paddy_advert" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+    <property name="cond30" value="is variable_set jji_paddys_free_bottle:received" />
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ffff00" id="32" name="jji_koth_ceo_interaction">
+  <object id="36" name="JJI King Of The Hill CEO Dialogue" type="event" x="304" y="304" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_koth_ceo_dialogue" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="33" name="jji_dr_kimura_interactions" color="#ffff00">
+  <object id="37" name="JJI Dr Kimura Missing Medical Form" type="event" x="400" y="288" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_dr_kimura_medical_missing" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+    <property name="cond30" value="not has_item player,medical_form" />
+    <property name="cond40" value="not variable_set jji_koth_medical_clearance:approved" />
+   </properties>
+  </object>
+  <object id="38" name="JJI Dr Kimura Medical Clearance" type="event" x="400" y="288" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_dr_kimura_medical_approved" />
+    <property name="act20" value="set_variable jji_koth_medical_clearance:approved" />
+    <property name="act30" value="translated_dialog jji_koth_post_medical_cutscene" />
+    <property name="act40" value="set_variable jji_koth_mat1_ready:true" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+    <property name="cond30" value="is has_item player,medical_form" />
+    <property name="cond40" value="not variable_set jji_koth_medical_clearance:approved" />
+   </properties>
+  </object>
+  <object id="39" name="JJI Dr Kimura Cleared Reminder" type="event" x="400" y="288" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_dr_kimura_medical_reminder" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+    <property name="cond30" value="is variable_set jji_koth_medical_clearance:approved" />
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="34" name="jji_koth_referee_interactions" color="#ffff00">
+  <object id="40" name="JJI Left Referee Medical Warning" type="event" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_koth_referee_medical_warning" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+    <property name="cond30" value="not variable_set jji_koth_medical_clearance:approved" />
+   </properties>
+  </object>
+  <object id="41" name="JJI Centre Referee Mat 2 Coach Staffy Battle" type="event" x="240" y="64" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_koth_mat2_referee_staffy_intro" />
+    <property name="act20" value="char_face jji_koth_coach_staffy,player" />
+    <property name="act30" value="char_face player,jji_koth_coach_staffy" />
+    <property name="act40" value="add_monster coach_staffy,24,jji_koth_coach_staffy,5,10" />
+    <property name="act45" value="set_environment koth_mat_2" />
+    <property name="act50" value="start_battle player,jji_koth_coach_staffy" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+    <property name="cond30" value="is variable_set jji_koth_mat1_complete:true" />
+    <property name="cond40" value="is variable_set jji_koth_mat2_ready:true" />
+    <property name="cond50" value="not battle_outcome player,won,jji_koth_coach_staffy" />
+   </properties>
+  </object>
+  <object id="42" name="JJI Right Referee Medical Warning" type="event" x="400" y="64" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_koth_referee_medical_warning" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+    <property name="cond30" value="not variable_set jji_koth_medical_clearance:approved" />
+   </properties>
+  </object>
+  <object id="55" name="JJI Left Referee Mat 1 Logan Battle" type="event" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_koth_mat1_referee_logan_intro" />
+    <property name="act20" value="char_face jji_koth_coach_mcgreevy,player" />
+    <property name="act30" value="char_face player,jji_koth_coach_mcgreevy" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+    <property name="cond30" value="is variable_set jji_koth_medical_clearance:approved" />
+    <property name="cond40" value="is variable_set jji_koth_mat1_ready:true" />
+    <property name="cond50" value="not battle_outcome player,won,jji_koth_coach_mcgreevy" />
+    <property name="act40" value="add_monster coach_mcgreevy,24,jji_koth_coach_mcgreevy,5,10" />
+    <property name="act50" value="start_battle player,jji_koth_coach_mcgreevy" />
+    <property name="act45" value="set_environment koth_mat_1" />
+   </properties>
+  </object>
+  <object id="56" name="JJI Left Referee Mat 1 Logan Victory" type="event" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="cond10" value="is battle_outcome player,won,jji_koth_coach_mcgreevy" />
+    <property name="cond20" value="is current_state WorldState" />
+    <property name="cond30" value="not variable_set jji_koth_mat1_complete:true" />
+    <property name="act10" value="lock_controls" />
+    <property name="act20" value="translated_dialog jji_koth_mat1_referee_logan_victory" />
+    <property name="act30" value="translated_dialog jji_koth_coach_mcgreevy_post_battle" />
+    <property name="act40" value="set_variable jji_koth_mat1_complete:true" />
+    <property name="act50" value="set_variable jji_koth_mat2_ready:true" />
+    <property name="act60" value="create_npc jji_koth_coach_staffy,18,1,stand" />
+    <property name="act70" value="set_variable jji_koth_staffy_spawned:true" />
+    <property name="act80" value="char_face jji_koth_coach_staffy,down" />
+    <property name="act90" value="unlock_controls" />
+   </properties>
+  </object>
+  <object id="58" name="JJI Right Referee Mat 3 Coach Atlas Battle" type="event" x="400" y="64" width="16" height="16">
+   <properties>
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+    <property name="cond30" value="is variable_set jji_koth_mat2_complete:true" />
+    <property name="cond40" value="is variable_set jji_koth_mat3_ready:true" />
+    <property name="cond50" value="not battle_outcome player,won,jji_koth_coach_atlas" />
+    <property name="act10" value="translated_dialog jji_koth_mat3_referee_intro" />
+    <property name="act20" value="char_face jji_koth_coach_atlas,player" />
+    <property name="act30" value="char_face player,jji_koth_coach_atlas" />
+    <property name="act40" value="translated_dialog jji_koth_atlas_insult" />
+    <property name="act50" value="translated_dialog jji_koth_player_atlas_response" />
+    <property name="act60" value="add_monster coach_atlas,26,jji_koth_coach_atlas,5,10" />
+    <property name="act70" value="set_environment koth_mat_3" />
+    <property name="act80" value="start_battle player,jji_koth_coach_atlas" />
+   </properties>
+  </object>
+  <object id="59" name="JJI Centre Referee Mat 2 Staffy Victory" type="event" x="240" y="64" width="16" height="16">
+   <properties>
+    <property name="act10" value="lock_controls" />
+    <property name="act20" value="char_face jji_koth_coach_staffy,player" />
+    <property name="act30" value="char_face player,jji_koth_coach_staffy" />
+    <property name="act40" value="translated_dialog jji_koth_staffy_post_battle" />
+    <property name="act50" value="set_variable jji_koth_mat2_complete:true" />
+    <property name="act60" value="set_variable jji_koth_mat3_ready:true" />
+    <property name="act70" value="create_npc jji_koth_coach_atlas,28,1,stand" />
+    <property name="act80" value="char_face jji_koth_coach_atlas,down" />
+    <property name="act90" value="unlock_controls" />
+    <property name="cond10" value="is battle_outcome player,won,jji_koth_coach_staffy" />
+    <property name="cond20" value="not battle_outcome player,won,jji_koth_coach_atlas" />
+    <property name="cond30" value="is current_state WorldState" />
+    <property name="cond40" value="not variable_set jji_koth_mat2_complete:true" />
+    <property name="cond50" value="not variable_set jji_koth_ending_started:true" />
+   </properties>
+  </object>
+  <object id="62" name="JJI KOTH Atlas Victory Final Interaction" type="event" x="400" y="64" width="16" height="16">
+   <properties>
+    <property name="cond10" value="is battle_outcome player,won,jji_koth_coach_atlas" />
+    <property name="cond20" value="is current_state WorldState" />
+    <property name="cond30" value="not variable_set jji_koth_ending_complete:true" />
+    <property name="cond40" value="not variable_set jji_koth_ending_running_v6:true" />
+    <property name="act10" value="lock_controls" />
+    <property name="act20" value="set_variable jji_koth_ending_started:true" />
+    <property name="act30" value="set_variable jji_koth_ending_running_v6:true" />
+    <property name="act40" value="wait 0.5" />
+    <property name="act50" value="char_face jji_koth_coach_atlas,down" />
+    <property name="act60" value="char_face jji_koth_ceo,up" />
+    <property name="act70" value="translated_dialog jji_koth_atlas_arrest_announcement" />
+    <property name="act80" value="create_npc jji_koth_arrest_officer_left,26,3,stand" />
+    <property name="act90" value="create_npc jji_koth_arrest_officer_right,28,3,stand" />
+    <property name="act100" value="char_face jji_koth_arrest_officer_left,up" />
+    <property name="act110" value="char_face jji_koth_arrest_officer_right,up" />
+    <property name="act120" value="wait 0.5" />
+    <property name="act130" value="translated_dialog jji_koth_atlas_arrest" />
+    <property name="act140" value="translated_dialog jji_koth_atlas_arrest_response" />
+    <property name="act150" value="char_face jji_koth_coach_atlas,right" />
+    <property name="act160" value="char_move jji_koth_coach_atlas,right 1" />
+    <property name="act170" value="wait 0.2" />
+    <property name="act180" value="char_face jji_koth_arrest_officer_right,right" />
+    <property name="act190" value="char_move jji_koth_arrest_officer_right,right 1" />
+    <property name="act200" value="wait 0.2" />
+    <property name="act210" value="char_face jji_koth_arrest_officer_right,down" />
+    <property name="act220" value="char_move jji_koth_arrest_officer_right,down 2" />
+    <property name="act230" value="wait 0.2" />
+    <property name="act240" value="char_face jji_koth_arrest_officer_left,right" />
+    <property name="act250" value="char_move jji_koth_arrest_officer_left,right 3" />
+    <property name="act260" value="wait 0.2" />
+    <property name="act270" value="char_face jji_koth_coach_atlas,down" />
+    <property name="act280" value="char_face jji_koth_arrest_officer_left,down" />
+    <property name="act290" value="char_face jji_koth_arrest_officer_right,down" />
+    <property name="act300" value="char_move jji_koth_arrest_officer_right,down 2" />
+    <property name="act310" value="char_move jji_koth_arrest_officer_left,down 2" />
+    <property name="act320" value="char_move jji_koth_coach_atlas,down 2" />
+    <property name="act330" value="char_move jji_koth_arrest_officer_right,down 2" />
+    <property name="act340" value="char_move jji_koth_arrest_officer_left,down 2" />
+    <property name="act350" value="char_move jji_koth_coach_atlas,down 2" />
+    <property name="act360" value="char_move jji_koth_arrest_officer_right,down 2" />
+    <property name="act370" value="char_move jji_koth_arrest_officer_left,down 2" />
+    <property name="act380" value="char_move jji_koth_coach_atlas,down 2" />
+    <property name="act390" value="char_move jji_koth_arrest_officer_right,down 2" />
+    <property name="act400" value="char_move jji_koth_arrest_officer_left,down 2" />
+    <property name="act410" value="char_move jji_koth_coach_atlas,down 2" />
+    <property name="act420" value="char_move jji_koth_arrest_officer_right,down 2" />
+    <property name="act430" value="char_move jji_koth_arrest_officer_left,down 2" />
+    <property name="act440" value="char_move jji_koth_coach_atlas,down 2" />
+    <property name="act450" value="wait 0.3" />
+    <property name="act460" value="remove_npc jji_koth_arrest_officer_right" />
+    <property name="act470" value="remove_npc jji_koth_arrest_officer_left" />
+    <property name="act480" value="remove_npc jji_koth_coach_atlas" />
+    <property name="act490" value="wait 0.5" />
+    <property name="act500" value="char_face jji_koth_ceo,player" />
+    <property name="act510" value="translated_dialog jji_koth_ceo_nosey_spectators" />
+    <property name="act520" value="translated_dialog jji_koth_champion_announcement" />
+    <property name="act530" value="add_item koth_championship_belt,1" />
+    <property name="act540" value="translated_dialog jji_koth_championship_belt_received" />
+    <property name="act550" value="translated_dialog jji_koth_champion_congratulations" />
+    <property name="act560" value="play_music music_win_battle_boss" />
+    <property name="act570" value="wait 1" />
+    <property name="act580" value="wait 1" />
+    <property name="act590" value="set_variable jji_koth_ending_complete:true" />
+    <property name="act600" value="fade_out 2" />
+    <property name="act610" value="start_jji_credits" />
+   </properties>
+  </object>
+  <object id="63" name="JJI KOTH Staffy Save Recovery" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="cond10" value="is current_state WorldState" />
+    <property name="cond20" value="is variable_set jji_koth_mat1_complete:true" />
+    <property name="cond30" value="is variable_set jji_koth_mat2_ready:true" />
+    <property name="cond40" value="not variable_set jji_koth_mat2_complete:true" />
+    <property name="cond50" value="not variable_set jji_koth_staffy_spawned:true" />
+    <property name="act10" value="lock_controls" />
+    <property name="act20" value="create_npc jji_koth_coach_staffy,18,1,stand" />
+    <property name="act30" value="char_face jji_koth_coach_staffy,down" />
+    <property name="act40" value="set_variable jji_koth_staffy_spawned:true" />
+    <property name="act50" value="unlock_controls" />
+   </properties>
+  </object>
+ </objectgroup>
 </map>

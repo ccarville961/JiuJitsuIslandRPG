@@ -1,0 +1,10 @@
+slug: jji_koth_coach_atlas
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: atlas_coach
+  combat_sheet: professor
+  slug: professor
