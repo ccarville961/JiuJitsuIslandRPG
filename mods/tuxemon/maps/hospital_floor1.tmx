@@ -1,25 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="134">
- <properties>
-  <property name="edges" value="clamped" />
-  <property name="inside" type="bool" value="true" />
-  <property name="map_type" value="notype" />
-  <property name="scenario" value="xero" />
-  <property name="slug" value="azure_town_hall" />
- </properties>
- <tileset firstgid="1" name="Office_interiors_shadowless_16x16" tilewidth="16" tileheight="16" tilecount="528" columns="22">
-  <image source="../gfx/tilesets/Office_interiors_shadowless_16x16.png" width="352" height="384" />
- </tileset>
- <tileset firstgid="529" source="../gfx/tilesets/core_indoor_floors.tsx" />
- <tileset firstgid="4393" source="../gfx/tilesets/core_set pieces.tsx" />
- <tileset firstgid="5943" name="core_indoor_walls" tilewidth="16" tileheight="16" tilecount="3864" columns="46">
-  <image source="../gfx/tilesets/core_indoor_walls.png" width="736" height="1344" />
- </tileset>
- <tileset firstgid="9807" name="Interiors_16x16" tilewidth="16" tileheight="16" tilecount="2592" columns="16">
-  <image source="../gfx/tilesets/Interiors_16x16.png" width="256" height="2592" />
- </tileset>
- <layer id="1" name="Tile Layer 1" width="30" height="20">
-  <data encoding="csv">
+  <properties>
+    <property name="edges" value="clamped" />
+    <property name="inside" type="bool" value="true" />
+    <property name="map_type" value="notype" />
+    <property name="scenario" value="xero" />
+    <property name="slug" value="azure_town_hall" />
+  </properties>
+  <tileset firstgid="1" name="Office_interiors_shadowless_16x16" tilewidth="16" tileheight="16" tilecount="528" columns="22">
+    <image source="../gfx/tilesets/Office_interiors_shadowless_16x16.png" width="352" height="384" />
+  </tileset>
+  <tileset firstgid="529" source="../gfx/tilesets/core_indoor_floors.tsx" />
+  <tileset firstgid="4393" source="../gfx/tilesets/core_set pieces.tsx" />
+  <tileset firstgid="5943" name="core_indoor_walls" tilewidth="16" tileheight="16" tilecount="3864" columns="46">
+    <image source="../gfx/tilesets/core_indoor_walls.png" width="736" height="1344" />
+  </tileset>
+  <tileset firstgid="9807" name="Interiors_16x16" tilewidth="16" tileheight="16" tilecount="2592" columns="16">
+    <image source="../gfx/tilesets/Interiors_16x16.png" width="256" height="2592" />
+  </tileset>
+  <layer id="1" name="Tile Layer 1" width="30" height="20">
+    <data encoding="csv">
 6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,6904,
 6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,
 6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,6950,
@@ -41,9 +41,9 @@
 1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,
 1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699,1699
 </data>
- </layer>
- <layer id="2" name="Tile Layer 2" width="30" height="20">
-  <data encoding="csv">
+  </layer>
+  <layer id="2" name="Tile Layer 2" width="30" height="20">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,127,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -65,9 +65,9 @@
 5313,4663,4665,4665,4665,4664,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4663,4665,4665,4665,4664,0,5313,
 5344,0,0,0,0,0,0,0,0,0,0,0,0,0,10076,10077,10078,0,0,0,0,0,0,0,0,0,0,0,0,5344
 </data>
- </layer>
- <layer id="3" name="Tile Layer 3" width="30" height="20">
-  <data encoding="csv">
+  </layer>
+  <layer id="3" name="Tile Layer 3" width="30" height="20">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -89,9 +89,9 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <layer id="4" name="Above Player" width="30" height="20">
-  <data encoding="csv">
+  </layer>
+  <layer id="4" name="Above Player" width="30" height="20">
+    <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,10331,10332,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -113,252 +113,252 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
- </layer>
- <objectgroup id="3" name="events">
-  <object id="1" name="Exit To Azure Town" type="event" x="240.17" y="303.513" width="16" height="16">
-   <properties>
-    <property name="act10" value="transition_teleport player,candy_town.tmx,17,20,0.3" />
-    <property name="cond10" value="is char_at player" />
-    <property name="cond20" value="is char_facing player,down" />
-   </properties>
-  </object>
-  <object id="75" name="JJI Hospital Dialogue - Jji Hospital Queue Whitebelt" type="event" x="240" y="128" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog jji_hospital_queue_whitebelt" />
-    <property name="cond10" value="is char_facing_tile player" />
-    <property name="cond30" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="76" name="JJI Hospital Dialogue - Jji Hospital Queue Bluebelt" type="event" x="240" y="144" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog jji_hospital_queue_bluebelt" />
-    <property name="cond10" value="is char_facing_tile player" />
-    <property name="cond30" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="77" name="JJI Hospital Dialogue - Jji Hospital Queue Purplebelt" type="event" x="240" y="160" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog jji_hospital_queue_purplebelt" />
-    <property name="cond10" value="is char_facing_tile player" />
-    <property name="cond30" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="78" name="JJI Hospital Dialogue - Jji Hospital Queue Brownbelt" type="event" x="240" y="176" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog jji_hospital_queue_brownbelt" />
-    <property name="cond10" value="is char_facing_tile player" />
-    <property name="cond30" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="79" name="JJI Hospital Dialogue - Jji Hospital Queue Wrestler" type="event" x="240" y="192" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog jji_hospital_queue_wrestler" />
-    <property name="cond10" value="is char_facing_tile player" />
-    <property name="cond30" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="80" name="JJI Hospital Dialogue - Jji Hospital Atlas Victim" type="event" x="112" y="160" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog jji_hospital_atlas_victim" />
-    <property name="cond10" value="is char_facing_tile player" />
-    <property name="cond30" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="81" name="JJI Hospital Dialogue - Jji Hospital Armbar Victim" type="event" x="128" y="224" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog jji_hospital_armbar_victim" />
-    <property name="cond10" value="is char_facing_tile player" />
-    <property name="cond30" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="82" name="JJI Hospital Dialogue - Jji Hospital Scramble Victim" type="event" x="176" y="256" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog jji_hospital_scramble_victim" />
-    <property name="cond10" value="is char_facing_tile player" />
-    <property name="cond30" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="83" name="JJI Hospital Dialogue - Jji Hospital Rib Victim" type="event" x="336" y="176" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog jji_hospital_rib_victim" />
-    <property name="cond10" value="is char_facing_tile player" />
-    <property name="cond30" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="84" name="JJI Hospital Dialogue - Jji Hospital Guard Pull Victim" type="event" x="352" y="240" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog jji_hospital_guard_pull_victim" />
-    <property name="cond10" value="is char_facing_tile player" />
-    <property name="cond30" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="85" name="JJI Hospital Dialogue - Jji Hospital Ego Injury" type="event" x="352" y="272" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog jji_hospital_ego_injury" />
-    <property name="cond10" value="is char_facing_tile player" />
-    <property name="cond30" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="86" name="JJI Hospital Dialogue - Jji Hospital Spectator" type="event" x="432" y="176" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog jji_hospital_spectator" />
-    <property name="cond10" value="is char_facing_tile player" />
-    <property name="cond30" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="101" name="JJI Hospital Dialogue - Dr Kimura" type="event" x="304" y="112" width="16" height="16">
-   <properties>
-    <property name="act10" value="translated_dialog jji_hospital_dr_kimura_koth_form" />
-    <property name="act20" value="char_face crippled_dude,player" />
-    <property name="act30" value="char_face player,crippled_dude" />
-    <property name="act40" value="translated_dialog jji_hospital_queue_jump_battle" />
-    <property name="act50" value="set_environment hospital_floor" />
-    <property name="act60" value="add_monster crippled_dude,8,crippled_dude,5,10" />
-    <property name="act70" value="start_battle player,crippled_dude" />
-    <property name="act80" value="translated_dialog jji_hospital_queue_jump_after" />
-    <property name="act90" value="set_variable jji_hospital_queue_jump_battle_done:yes" />
-    <property name="cond10" value="is char_facing_tile player" />
-    <property name="cond20" value="not variable_set jji_hospital_queue_jump_battle_done:yes" />
-    <property name="cond30" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="112" name="JJI Hospital Elevator Left" type="event" x="368" y="64" width="32" height="31">
-   <properties>
-    <property name="act10" value="translated_dialog_choice 2floor:no,jji_hospital_elevator_choice" />
-    <property name="cond1" value="is char_facing_tile player" />
-    <property name="cond2" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="113" name="JJI Hospital Elevator Right" type="event" x="432" y="64" width="32" height="31.5">
-   <properties>
-    <property name="act10" value="translated_dialog_choice 2floor:no,jji_hospital_elevator_choice" />
-    <property name="cond1" value="is char_facing_tile player" />
-    <property name="cond2" value="is button_pressed INTERACT" />
-   </properties>
-  </object>
-  <object id="119" name="JJI Hospital Elevator Go Floor 2" type="event" x="0" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="transition_teleport player,hospital_floor2.tmx,23,5,0.3" />
-    <property name="act20" value="set_variable jji_hospital_elevator_choice:null" />
-    <property name="cond1" value="is variable_set jji_hospital_elevator_choice:2floor" />
-   </properties>
-  </object>
-  <object id="120" name="JJI Hospital Elevator Cancel" type="event" x="16" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="set_variable jji_hospital_elevator_choice:null" />
-    <property name="cond1" value="is variable_set jji_hospital_elevator_choice:no" />
-   </properties>
-  </object>
-  <object id="121" name="JJI Hospital Floor 1 - Persistent NPC Spawn - crippled_dude" type="event" x="0" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="create_npc crippled_dude,15,8,stand" />
-    <property name="act20" value="char_face crippled_dude,up" />
-    <property name="cond10" value="not char_exists crippled_dude" />
-   </properties>
-  </object>
-  <object id="122" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_queue_wrestler" type="event" x="0" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="create_npc jji_hospital_queue_wrestler,15,12,stand" />
-    <property name="cond10" value="not char_exists jji_hospital_queue_wrestler" />
-   </properties>
-  </object>
-  <object id="123" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_atlas_victim" type="event" x="0" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="create_npc jji_hospital_atlas_victim,7,10,stand" />
-    <property name="act20" value="char_face jji_hospital_atlas_victim,right" />
-    <property name="cond10" value="not char_exists jji_hospital_atlas_victim" />
-   </properties>
-  </object>
-  <object id="124" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_armbar_victim" type="event" x="0" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="create_npc jji_hospital_armbar_victim,8,14,stand" />
-    <property name="act20" value="char_face jji_hospital_armbar_victim,down" />
-    <property name="cond10" value="not char_exists jji_hospital_armbar_victim" />
-   </properties>
-  </object>
-  <object id="125" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_scramble_victim" type="event" x="0" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="create_npc jji_hospital_scramble_victim,11,16,stand" />
-    <property name="act20" value="char_face jji_hospital_scramble_victim,left" />
-    <property name="cond10" value="not char_exists jji_hospital_scramble_victim" />
-   </properties>
-  </object>
-  <object id="126" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_rib_victim" type="event" x="0" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="create_npc jji_hospital_rib_victim,21,11,stand" />
-    <property name="act20" value="char_face jji_hospital_rib_victim,down" />
-    <property name="cond10" value="not char_exists jji_hospital_rib_victim" />
-   </properties>
-  </object>
-  <object id="127" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_guard_pull_victim" type="event" x="0" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="create_npc jji_hospital_guard_pull_victim,22,15,stand" />
-    <property name="act20" value="char_face jji_hospital_guard_pull_victim,left" />
-    <property name="cond10" value="not char_exists jji_hospital_guard_pull_victim" />
-   </properties>
-  </object>
-  <object id="128" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_ego_injury" type="event" x="0" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="create_npc jji_hospital_ego_injury,22,17,stand" />
-    <property name="act20" value="char_face jji_hospital_ego_injury,left" />
-    <property name="cond10" value="not char_exists jji_hospital_ego_injury" />
-   </properties>
-  </object>
-  <object id="129" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_spectator" type="event" x="0" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="create_npc jji_hospital_spectator,27,11,stand" />
-    <property name="act20" value="char_face jji_hospital_spectator,left" />
-    <property name="cond10" value="not char_exists jji_hospital_spectator" />
-   </properties>
-  </object>
-  <object id="130" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_dr_kimura_floor1" type="event" x="0" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="create_npc jji_dr_kimura_floor1,19,6,stand" />
-    <property name="act20" value="char_face jji_dr_kimura_floor1,down" />
-    <property name="cond10" value="not char_exists jji_dr_kimura_floor1" />
-   </properties>
-  </object>
-  <object id="131" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_queue_bluebelt" type="event" x="0" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="create_npc jji_hospital_queue_bluebelt,15,9,stand" />
-    <property name="act20" value="char_face jji_hospital_queue_bluebelt,up" />
-    <property name="cond10" value="not char_exists jji_hospital_queue_bluebelt" />
-   </properties>
-  </object>
-  <object id="132" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_queue_purplebelt" type="event" x="0" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="create_npc jji_hospital_queue_purplebelt,15,10,stand" />
-    <property name="act20" value="char_face jji_hospital_queue_purplebelt,up" />
-    <property name="cond10" value="not char_exists jji_hospital_queue_purplebelt" />
-   </properties>
-  </object>
-  <object id="133" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_queue_brownbelt" type="event" x="0" y="0" width="16" height="16">
-   <properties>
-    <property name="act10" value="create_npc jji_hospital_queue_brownbelt,15,11,stand" />
-    <property name="act20" value="char_face jji_hospital_queue_brownbelt,up" />
-    <property name="cond10" value="not char_exists jji_hospital_queue_brownbelt" />
-   </properties>
-  </object>
- </objectgroup>
- <objectgroup id="9" name="Collisions">
-  <object id="55" type="collision" x="1" y="51.5" width="363.5" height="26.5" />
-  <object id="56" type="collision" x="402.5" y="48.5" width="26" height="29.5" />
-  <object id="57" type="collision" x="466" y="48.5" width="13.5" height="31.5" />
-  <object id="58" x="336" y="77.5" width="16" height="8.5" />
-  <object id="59" type="collision" x="320" y="78.5" width="16" height="33" />
-  <object id="61" type="collision" x="143.5" y="65.5" width="17.5" height="45.5" />
-  <object id="62" type="collision" x="160" y="108" width="160" height="21" />
-  <object id="63" type="collision" x="368.5" y="224.5" width="78.5" height="14.5" />
-  <object id="64" type="collision" x="369" y="256.5" width="78.5" height="14.5" />
-  <object id="65" type="collision" x="368.5" y="289" width="79" height="15.5" />
-  <object id="66" type="collision" x="465" y="172.5" width="14" height="18.5" />
-  <object id="67" type="collision" x="16.5" y="97" width="31" height="30.5" />
-  <object id="68" type="collision" x="80" y="96.5" width="32" height="31.5" />
-  <object id="69" type="collision" x="-0.5" y="178" width="78.5" height="14" />
-  <object id="70" x="16.5" y="163" width="45" height="13.5" />
-  <object id="71" type="collision" x="16" y="289" width="80" height="15" />
-  <object id="72" type="collision" x="64.5" y="241" width="30.5" height="30" />
-  <object id="73" type="collision" x="16.5" y="240.5" width="31" height="31.5" />
-  <object id="104" type="collision" x="366" y="52" width="99.3333" height="16.6667" />
- </objectgroup>
+  </layer>
+  <objectgroup id="3" name="events">
+    <object id="1" name="Exit To Azure Town" type="event" x="240.17" y="303.513" width="16" height="16">
+      <properties>
+        <property name="act10" value="transition_teleport player,candy_town.tmx,22,8,0.3" />
+        <property name="cond10" value="is char_at player" />
+        <property name="cond20" value="is char_facing player,down" />
+      </properties>
+    </object>
+    <object id="75" name="JJI Hospital Dialogue - Jji Hospital Queue Whitebelt" type="event" x="240" y="128" width="16" height="16">
+      <properties>
+        <property name="act10" value="translated_dialog jji_hospital_queue_whitebelt" />
+        <property name="cond10" value="is char_facing_tile player" />
+        <property name="cond30" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="76" name="JJI Hospital Dialogue - Jji Hospital Queue Bluebelt" type="event" x="240" y="144" width="16" height="16">
+      <properties>
+        <property name="act10" value="translated_dialog jji_hospital_queue_bluebelt" />
+        <property name="cond10" value="is char_facing_tile player" />
+        <property name="cond30" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="77" name="JJI Hospital Dialogue - Jji Hospital Queue Purplebelt" type="event" x="240" y="160" width="16" height="16">
+      <properties>
+        <property name="act10" value="translated_dialog jji_hospital_queue_purplebelt" />
+        <property name="cond10" value="is char_facing_tile player" />
+        <property name="cond30" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="78" name="JJI Hospital Dialogue - Jji Hospital Queue Brownbelt" type="event" x="240" y="176" width="16" height="16">
+      <properties>
+        <property name="act10" value="translated_dialog jji_hospital_queue_brownbelt" />
+        <property name="cond10" value="is char_facing_tile player" />
+        <property name="cond30" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="79" name="JJI Hospital Dialogue - Jji Hospital Queue Wrestler" type="event" x="240" y="192" width="16" height="16">
+      <properties>
+        <property name="act10" value="translated_dialog jji_hospital_queue_wrestler" />
+        <property name="cond10" value="is char_facing_tile player" />
+        <property name="cond30" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="80" name="JJI Hospital Dialogue - Jji Hospital Atlas Victim" type="event" x="112" y="160" width="16" height="16">
+      <properties>
+        <property name="act10" value="translated_dialog jji_hospital_atlas_victim" />
+        <property name="cond10" value="is char_facing_tile player" />
+        <property name="cond30" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="81" name="JJI Hospital Dialogue - Jji Hospital Armbar Victim" type="event" x="128" y="224" width="16" height="16">
+      <properties>
+        <property name="act10" value="translated_dialog jji_hospital_armbar_victim" />
+        <property name="cond10" value="is char_facing_tile player" />
+        <property name="cond30" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="82" name="JJI Hospital Dialogue - Jji Hospital Scramble Victim" type="event" x="176" y="256" width="16" height="16">
+      <properties>
+        <property name="act10" value="translated_dialog jji_hospital_scramble_victim" />
+        <property name="cond10" value="is char_facing_tile player" />
+        <property name="cond30" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="83" name="JJI Hospital Dialogue - Jji Hospital Rib Victim" type="event" x="336" y="176" width="16" height="16">
+      <properties>
+        <property name="act10" value="translated_dialog jji_hospital_rib_victim" />
+        <property name="cond10" value="is char_facing_tile player" />
+        <property name="cond30" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="84" name="JJI Hospital Dialogue - Jji Hospital Guard Pull Victim" type="event" x="352" y="240" width="16" height="16">
+      <properties>
+        <property name="act10" value="translated_dialog jji_hospital_guard_pull_victim" />
+        <property name="cond10" value="is char_facing_tile player" />
+        <property name="cond30" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="85" name="JJI Hospital Dialogue - Jji Hospital Ego Injury" type="event" x="352" y="272" width="16" height="16">
+      <properties>
+        <property name="act10" value="translated_dialog jji_hospital_ego_injury" />
+        <property name="cond10" value="is char_facing_tile player" />
+        <property name="cond30" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="86" name="JJI Hospital Dialogue - Jji Hospital Spectator" type="event" x="432" y="176" width="16" height="16">
+      <properties>
+        <property name="act10" value="translated_dialog jji_hospital_spectator" />
+        <property name="cond10" value="is char_facing_tile player" />
+        <property name="cond30" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="101" name="JJI Hospital Dialogue - Dr Kimura" type="event" x="304" y="112" width="16" height="16">
+      <properties>
+        <property name="act10" value="translated_dialog jji_hospital_dr_kimura_koth_form" />
+        <property name="act20" value="char_face crippled_dude,player" />
+        <property name="act30" value="char_face player,crippled_dude" />
+        <property name="act40" value="translated_dialog jji_hospital_queue_jump_battle" />
+        <property name="act50" value="set_environment hospital_floor" />
+        <property name="act60" value="add_monster crippled_dude,8,crippled_dude,5,10" />
+        <property name="act70" value="start_battle player,crippled_dude" />
+        <property name="act80" value="translated_dialog jji_hospital_queue_jump_after" />
+        <property name="act90" value="set_variable jji_hospital_queue_jump_battle_done:yes" />
+        <property name="cond10" value="is char_facing_tile player" />
+        <property name="cond20" value="not variable_set jji_hospital_queue_jump_battle_done:yes" />
+        <property name="cond30" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="112" name="JJI Hospital Elevator Left" type="event" x="368" y="64" width="32" height="31">
+      <properties>
+        <property name="act10" value="translated_dialog_choice 2floor:no,jji_hospital_elevator_choice" />
+        <property name="cond1" value="is char_facing_tile player" />
+        <property name="cond2" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="113" name="JJI Hospital Elevator Right" type="event" x="432" y="64" width="32" height="31.5">
+      <properties>
+        <property name="act10" value="translated_dialog_choice 2floor:no,jji_hospital_elevator_choice" />
+        <property name="cond1" value="is char_facing_tile player" />
+        <property name="cond2" value="is button_pressed INTERACT" />
+      </properties>
+    </object>
+    <object id="119" name="JJI Hospital Elevator Go Floor 2" type="event" x="0" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="transition_teleport player,hospital_floor2.tmx,23,5,0.3" />
+        <property name="act20" value="set_variable jji_hospital_elevator_choice:null" />
+        <property name="cond1" value="is variable_set jji_hospital_elevator_choice:2floor" />
+      </properties>
+    </object>
+    <object id="120" name="JJI Hospital Elevator Cancel" type="event" x="16" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="set_variable jji_hospital_elevator_choice:null" />
+        <property name="cond1" value="is variable_set jji_hospital_elevator_choice:no" />
+      </properties>
+    </object>
+    <object id="121" name="JJI Hospital Floor 1 - Persistent NPC Spawn - crippled_dude" type="event" x="0" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="create_npc crippled_dude,15,8,stand" />
+        <property name="act20" value="char_face crippled_dude,up" />
+        <property name="cond10" value="not char_exists crippled_dude" />
+      </properties>
+    </object>
+    <object id="122" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_queue_wrestler" type="event" x="0" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="create_npc jji_hospital_queue_wrestler,15,12,stand" />
+        <property name="cond10" value="not char_exists jji_hospital_queue_wrestler" />
+      </properties>
+    </object>
+    <object id="123" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_atlas_victim" type="event" x="0" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="create_npc jji_hospital_atlas_victim,7,10,stand" />
+        <property name="act20" value="char_face jji_hospital_atlas_victim,right" />
+        <property name="cond10" value="not char_exists jji_hospital_atlas_victim" />
+      </properties>
+    </object>
+    <object id="124" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_armbar_victim" type="event" x="0" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="create_npc jji_hospital_armbar_victim,8,14,stand" />
+        <property name="act20" value="char_face jji_hospital_armbar_victim,down" />
+        <property name="cond10" value="not char_exists jji_hospital_armbar_victim" />
+      </properties>
+    </object>
+    <object id="125" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_scramble_victim" type="event" x="0" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="create_npc jji_hospital_scramble_victim,11,16,stand" />
+        <property name="act20" value="char_face jji_hospital_scramble_victim,left" />
+        <property name="cond10" value="not char_exists jji_hospital_scramble_victim" />
+      </properties>
+    </object>
+    <object id="126" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_rib_victim" type="event" x="0" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="create_npc jji_hospital_rib_victim,21,11,stand" />
+        <property name="act20" value="char_face jji_hospital_rib_victim,down" />
+        <property name="cond10" value="not char_exists jji_hospital_rib_victim" />
+      </properties>
+    </object>
+    <object id="127" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_guard_pull_victim" type="event" x="0" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="create_npc jji_hospital_guard_pull_victim,22,15,stand" />
+        <property name="act20" value="char_face jji_hospital_guard_pull_victim,left" />
+        <property name="cond10" value="not char_exists jji_hospital_guard_pull_victim" />
+      </properties>
+    </object>
+    <object id="128" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_ego_injury" type="event" x="0" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="create_npc jji_hospital_ego_injury,22,17,stand" />
+        <property name="act20" value="char_face jji_hospital_ego_injury,left" />
+        <property name="cond10" value="not char_exists jji_hospital_ego_injury" />
+      </properties>
+    </object>
+    <object id="129" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_spectator" type="event" x="0" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="create_npc jji_hospital_spectator,27,11,stand" />
+        <property name="act20" value="char_face jji_hospital_spectator,left" />
+        <property name="cond10" value="not char_exists jji_hospital_spectator" />
+      </properties>
+    </object>
+    <object id="130" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_dr_kimura_floor1" type="event" x="0" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="create_npc jji_dr_kimura_floor1,19,6,stand" />
+        <property name="act20" value="char_face jji_dr_kimura_floor1,down" />
+        <property name="cond10" value="not char_exists jji_dr_kimura_floor1" />
+      </properties>
+    </object>
+    <object id="131" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_queue_bluebelt" type="event" x="0" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="create_npc jji_hospital_queue_bluebelt,15,9,stand" />
+        <property name="act20" value="char_face jji_hospital_queue_bluebelt,up" />
+        <property name="cond10" value="not char_exists jji_hospital_queue_bluebelt" />
+      </properties>
+    </object>
+    <object id="132" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_queue_purplebelt" type="event" x="0" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="create_npc jji_hospital_queue_purplebelt,15,10,stand" />
+        <property name="act20" value="char_face jji_hospital_queue_purplebelt,up" />
+        <property name="cond10" value="not char_exists jji_hospital_queue_purplebelt" />
+      </properties>
+    </object>
+    <object id="133" name="JJI Hospital Floor 1 - Persistent NPC Spawn - jji_hospital_queue_brownbelt" type="event" x="0" y="0" width="16" height="16">
+      <properties>
+        <property name="act10" value="create_npc jji_hospital_queue_brownbelt,15,11,stand" />
+        <property name="act20" value="char_face jji_hospital_queue_brownbelt,up" />
+        <property name="cond10" value="not char_exists jji_hospital_queue_brownbelt" />
+      </properties>
+    </object>
+  </objectgroup>
+  <objectgroup id="9" name="Collisions">
+    <object id="55" type="collision" x="1" y="51.5" width="363.5" height="26.5" />
+    <object id="56" type="collision" x="402.5" y="48.5" width="26" height="29.5" />
+    <object id="57" type="collision" x="466" y="48.5" width="13.5" height="31.5" />
+    <object id="58" x="336" y="77.5" width="16" height="8.5" />
+    <object id="59" type="collision" x="320" y="78.5" width="16" height="33" />
+    <object id="61" type="collision" x="143.5" y="65.5" width="17.5" height="45.5" />
+    <object id="62" type="collision" x="160" y="108" width="160" height="21" />
+    <object id="63" type="collision" x="368.5" y="224.5" width="78.5" height="14.5" />
+    <object id="64" type="collision" x="369" y="256.5" width="78.5" height="14.5" />
+    <object id="65" type="collision" x="368.5" y="289" width="79" height="15.5" />
+    <object id="66" type="collision" x="465" y="172.5" width="14" height="18.5" />
+    <object id="67" type="collision" x="16.5" y="97" width="31" height="30.5" />
+    <object id="68" type="collision" x="80" y="96.5" width="32" height="31.5" />
+    <object id="69" type="collision" x="-0.5" y="178" width="78.5" height="14" />
+    <object id="70" x="16.5" y="163" width="45" height="13.5" />
+    <object id="71" type="collision" x="16" y="289" width="80" height="15" />
+    <object id="72" type="collision" x="64.5" y="241" width="30.5" height="30" />
+    <object id="73" type="collision" x="16.5" y="240.5" width="31" height="31.5" />
+    <object id="104" type="collision" x="366" y="52" width="99.3333" height="16.6667" />
+  </objectgroup>
 </map>
