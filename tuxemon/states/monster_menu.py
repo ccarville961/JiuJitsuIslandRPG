@@ -2,12 +2,14 @@
 # Copyright (c) 2014-2026 William Edwards <shadowapex@gmail.com>, Benjamin Bean <superman2k5@gmail.com>
 from __future__ import annotations
 
+import pygame
+
 from collections import OrderedDict
 from collections.abc import Callable, Generator
 from functools import partial
 from typing import TYPE_CHECKING, Any, ClassVar
 
-from pygame import SRCALPHA
+from pygame import SRCALPHA, draw
 from pygame.font import Font
 from pygame.rect import Rect
 from pygame.surface import Surface
@@ -22,6 +24,7 @@ from tuxemon.monster.monster import Monster
 from tuxemon.monster.renderer import MonsterRenderer
 from tuxemon.platform.const.graphics import BG_MONSTERS, TRANSPARENT_COLOR
 from tuxemon.platform.const.sizes import PARTY_LIMIT
+from tuxemon.session import local_session
 from tuxemon.sprite import Sprite
 from tuxemon.tools import open_choice_dialog, open_dialog
 from tuxemon.ui.graphic_box import GraphicBox
@@ -85,6 +88,7 @@ class MonsterMenuState(Menu[Monster | None]):
         )
         self.sprites.add(self.text_area, layer=100)
         self.monster_stats_display = MonsterStatsDisplay(self)
+        self.fighter_profile_display = FighterProfileDisplay(self)
         self.monster_sprite_displays: list[MonsterSpriteDisplay] = []
         self.monster_portrait_display = MonsterPortraitDisplay(self)
 
@@ -93,6 +97,732 @@ class MonsterMenuState(Menu[Monster | None]):
         self.exp_bar = ExpBar(self.client.context)
         self.slot_renderer = MonsterSlotRenderer(
             self.client.context, self.font, self.hp_bar, self.font_color
+        )
+
+    def draw(self, surface: Surface) -> None:
+        """Draw the fighter menu with a compact career profile."""
+        super().draw(surface)
+
+        screen_width, screen_height = surface.get_size()
+
+        try:
+            monster = self.monsters[self.selected_index]
+        except IndexError:
+            monster = None
+
+        profile = self.fighter_profile_display
+
+        def profile_value(
+            method_names: tuple[str, ...],
+            fallback: str,
+        ) -> str:
+            """Safely read a fighter-profile value."""
+            for method_name in method_names:
+                method = getattr(profile, method_name, None)
+
+                if not callable(method):
+                    continue
+
+                try:
+                    value = method()
+                except TypeError:
+                    try:
+                        value = method(monster)
+                    except (AttributeError, TypeError):
+                        continue
+                except AttributeError:
+                    continue
+
+                if value is not None and str(value).strip():
+                    return str(value)
+
+            return fallback
+
+        academy = profile_value(
+            (
+                "get_academy_name",
+                "get_academy",
+            ),
+            "Duncan Academy",
+        )
+
+        current_goal = profile_value(
+            (
+                "get_current_goal",
+                "get_goal",
+            ),
+            "Become KOTH Champion",
+        )
+
+        wins = 0
+        losses = 0
+
+        # Locate the real saved character battle history.
+        #
+        # Different Tuxemon states expose the player through different
+        # attributes. Examine all available candidates and use the record
+        # with the greatest number of completed battles. This prevents an
+        # empty secondary player object from incorrectly producing 0-0.
+        candidate_characters: list[object] = []
+
+        def add_candidate(candidate: object | None) -> None:
+            if candidate is None:
+                return
+
+            if any(
+                candidate is existing
+                for existing in candidate_characters
+            ):
+                return
+
+            candidate_characters.append(candidate)
+
+        add_candidate(getattr(self, "char", None))
+        add_candidate(getattr(self, "character", None))
+        add_candidate(getattr(self, "player", None))
+
+        client_context = getattr(self.client, "context", None)
+        client_session = getattr(self.client, "session", None)
+
+        add_candidate(
+            getattr(client_context, "player", None)
+        )
+        add_candidate(
+            getattr(client_session, "player", None)
+        )
+        add_candidate(
+            getattr(self.client, "player", None)
+        )
+
+        context_session = getattr(
+            client_context,
+            "session",
+            None,
+        )
+
+        add_candidate(
+            getattr(context_session, "player", None)
+        )
+
+        # Some menu states retain the actual player as an owner or trainer.
+        if monster is not None:
+            add_candidate(
+                getattr(monster, "owner", None)
+            )
+            add_candidate(
+                getattr(monster, "trainer", None)
+            )
+
+        best_summary: dict[str, int] | None = None
+        best_total = -1
+        best_source = "not found"
+
+        for candidate in candidate_characters:
+            battle_handler = getattr(
+                candidate,
+                "battle_handler",
+                None,
+            )
+
+            get_summary = getattr(
+                battle_handler,
+                "get_battle_outcome_summary",
+                None,
+            )
+
+            if not callable(get_summary):
+                continue
+
+            try:
+                summary = get_summary()
+
+                candidate_wins = int(
+                    summary.get("won", 0)
+                )
+                candidate_losses = int(
+                    summary.get("lost", 0)
+                )
+                candidate_draws = int(
+                    summary.get("draw", 0)
+                )
+
+                total = (
+                    candidate_wins
+                    + candidate_losses
+                    + candidate_draws
+                )
+            except (
+                AttributeError,
+                TypeError,
+                ValueError,
+            ):
+                continue
+
+            if total > best_total:
+                best_total = total
+                best_summary = summary
+                best_source = (
+                    f"{type(candidate).__module__}."
+                    f"{type(candidate).__name__}"
+                )
+
+        if best_summary is not None:
+            wins = int(
+                best_summary.get("won", 0)
+            )
+            losses = int(
+                best_summary.get("lost", 0)
+            )
+
+        # Print once so the selected source can be verified.
+        if not getattr(
+            self,
+            "_battle_record_source_reported",
+            False,
+        ):
+            print(
+                "FIGHTER PROFILE BATTLE RECORD:",
+                {
+                    "source": best_source,
+                    "total": best_total,
+                    "wins": wins,
+                    "losses": losses,
+                    "candidates": [
+                        (
+                            f"{type(candidate).__module__}."
+                            f"{type(candidate).__name__}"
+                        )
+                        for candidate in candidate_characters
+                    ],
+                },
+            )
+
+            self._battle_record_source_reported = True
+
+        # Cream profile panel beneath the green status bar.
+        panel_left = int(screen_width * 0.515)
+        panel_top = int(screen_height * 0.325)
+        panel_right = screen_width - int(screen_width * 0.045)
+        panel_bottom = screen_height - int(screen_height * 0.075)
+
+        panel_width = panel_right - panel_left
+        panel_height = panel_bottom - panel_top
+
+        if panel_width <= 0 or panel_height <= 0:
+            return
+
+        shadow_colour = (92, 91, 82)
+        outer_border = (91, 94, 91)
+        border_highlight = (218, 233, 220)
+        panel_colour = (218, 216, 191)
+        panel_inner = (224, 222, 199)
+        divider_colour = (112, 114, 108)
+
+        academy_circle = (241, 242, 232)
+        academy_dark = (52, 61, 61)
+
+        trophy_gold = (237, 180, 35)
+        trophy_light = (255, 213, 79)
+        trophy_dark = (137, 88, 15)
+
+        target_red = (206, 64, 53)
+        target_white = (244, 240, 224)
+        arrow_gold = (237, 179, 35)
+
+        outer = Rect(
+            panel_left,
+            panel_top,
+            panel_width,
+            panel_height,
+        )
+
+        shadow = outer.move(6, 7)
+
+        pygame.draw.rect(
+            surface,
+            shadow_colour,
+            shadow,
+            border_radius=5,
+        )
+
+        pygame.draw.rect(
+            surface,
+            outer_border,
+            outer,
+            border_radius=5,
+        )
+
+        inner = Rect(
+            outer.x + 5,
+            outer.y + 5,
+            outer.width - 10,
+            outer.height - 10,
+        )
+
+        pygame.draw.rect(
+            surface,
+            panel_colour,
+            inner,
+            border_radius=3,
+        )
+
+        highlight = Rect(
+            inner.x + 3,
+            inner.y + 3,
+            inner.width - 6,
+            inner.height - 6,
+        )
+
+        pygame.draw.rect(
+            surface,
+            border_highlight,
+            highlight,
+            width=2,
+            border_radius=2,
+        )
+
+        content = Rect(
+            inner.x + 18,
+            inner.y + 15,
+            inner.width - 36,
+            inner.height - 30,
+        )
+
+        pygame.draw.rect(
+            surface,
+            panel_inner,
+            content,
+        )
+
+        def draw_scaled_text(
+            value: str,
+            position: tuple[int, int],
+            *,
+            scale: float = 0.68,
+            max_width: int | None = None,
+        ) -> None:
+            """
+            Render using the existing game font, then reduce the result.
+
+            This keeps the current pixel font while preventing long text
+            from overflowing the profile panel.
+            """
+            temporary_width = max(
+                700,
+                max_width * 2 if max_width else 700,
+            )
+
+            temporary = pygame.Surface(
+                (temporary_width, 100),
+                pygame.SRCALPHA,
+            )
+
+            profile._render_text(
+                temporary,
+                str(value),
+                (0, 0),
+            )
+
+            bounds = temporary.get_bounding_rect()
+
+            if bounds.width <= 0 or bounds.height <= 0:
+                return
+
+            rendered = temporary.subsurface(bounds).copy()
+
+            target_width = max(
+                1,
+                int(rendered.get_width() * scale),
+            )
+            target_height = max(
+                1,
+                int(rendered.get_height() * scale),
+            )
+
+            if max_width and target_width > max_width:
+                ratio = max_width / target_width
+                target_width = max_width
+                target_height = max(
+                    1,
+                    int(target_height * ratio),
+                )
+
+            rendered = pygame.transform.scale(
+                rendered,
+                (target_width, target_height),
+            )
+
+            surface.blit(
+                rendered,
+                position,
+            )
+
+        section_height = content.height // 3
+        icon_x = content.x + 82
+        text_x = content.x + 172
+
+        text_max_width = max(
+            100,
+            content.right - text_x - 18,
+        )
+
+        def draw_divider(y: int) -> None:
+            pygame.draw.line(
+                surface,
+                divider_colour,
+                (content.x + 10, y),
+                (content.right - 10, y),
+                2,
+            )
+
+        def draw_academy_icon(
+            centre_x: int,
+            centre_y: int,
+        ) -> None:
+            pygame.draw.circle(
+                surface,
+                academy_circle,
+                (centre_x, centre_y),
+                37,
+            )
+
+            pygame.draw.circle(
+                surface,
+                academy_dark,
+                (centre_x, centre_y),
+                37,
+                width=3,
+            )
+
+            pygame.draw.polygon(
+                surface,
+                academy_dark,
+                (
+                    (centre_x, centre_y - 25),
+                    (centre_x - 29, centre_y + 24),
+                    (centre_x + 29, centre_y + 24),
+                ),
+            )
+
+            pygame.draw.polygon(
+                surface,
+                academy_circle,
+                (
+                    (centre_x, centre_y - 9),
+                    (centre_x - 9, centre_y + 17),
+                    (centre_x + 9, centre_y + 17),
+                ),
+            )
+
+        def draw_trophy_icon(
+            centre_x: int,
+            centre_y: int,
+        ) -> None:
+            cup = Rect(
+                centre_x - 22,
+                centre_y - 27,
+                44,
+                37,
+            )
+
+            pygame.draw.rect(
+                surface,
+                trophy_gold,
+                cup,
+                border_radius=5,
+            )
+
+            pygame.draw.rect(
+                surface,
+                trophy_dark,
+                cup,
+                width=3,
+                border_radius=5,
+            )
+
+            pygame.draw.rect(
+                surface,
+                trophy_light,
+                Rect(
+                    cup.x + 6,
+                    cup.y + 5,
+                    cup.width - 12,
+                    7,
+                ),
+                border_radius=2,
+            )
+
+            pygame.draw.arc(
+                surface,
+                trophy_gold,
+                Rect(
+                    centre_x - 37,
+                    centre_y - 23,
+                    22,
+                    28,
+                ),
+                1.2,
+                5.1,
+                5,
+            )
+
+            pygame.draw.arc(
+                surface,
+                trophy_gold,
+                Rect(
+                    centre_x + 15,
+                    centre_y - 23,
+                    22,
+                    28,
+                ),
+                -1.95,
+                1.95,
+                5,
+            )
+
+            pygame.draw.rect(
+                surface,
+                trophy_gold,
+                Rect(
+                    centre_x - 4,
+                    centre_y + 9,
+                    8,
+                    16,
+                ),
+            )
+
+            pygame.draw.rect(
+                surface,
+                trophy_gold,
+                Rect(
+                    centre_x - 19,
+                    centre_y + 24,
+                    38,
+                    8,
+                ),
+                border_radius=2,
+            )
+
+            pygame.draw.rect(
+                surface,
+                trophy_dark,
+                Rect(
+                    centre_x - 19,
+                    centre_y + 24,
+                    38,
+                    8,
+                ),
+                width=2,
+                border_radius=2,
+            )
+
+        def draw_target_icon(
+            centre_x: int,
+            centre_y: int,
+        ) -> None:
+            pygame.draw.circle(
+                surface,
+                target_red,
+                (centre_x, centre_y),
+                37,
+            )
+
+            pygame.draw.circle(
+                surface,
+                target_white,
+                (centre_x, centre_y),
+                27,
+            )
+
+            pygame.draw.circle(
+                surface,
+                target_red,
+                (centre_x, centre_y),
+                18,
+            )
+
+            pygame.draw.circle(
+                surface,
+                target_white,
+                (centre_x, centre_y),
+                9,
+            )
+
+            pygame.draw.circle(
+                surface,
+                target_red,
+                (centre_x, centre_y),
+                4,
+            )
+
+            pygame.draw.line(
+                surface,
+                arrow_gold,
+                (centre_x + 1, centre_y - 1),
+                (centre_x + 31, centre_y - 31),
+                5,
+            )
+
+            pygame.draw.polygon(
+                surface,
+                arrow_gold,
+                (
+                    (centre_x + 31, centre_y - 31),
+                    (centre_x + 21, centre_y - 30),
+                    (centre_x + 30, centre_y - 21),
+                ),
+            )
+
+        # Academy section.
+        academy_centre_y = (
+            content.y + section_height // 2
+        )
+
+        draw_academy_icon(
+            icon_x,
+            academy_centre_y,
+        )
+
+        draw_scaled_text(
+            "ACADEMY",
+            (
+                text_x,
+                academy_centre_y - 38,
+            ),
+            scale=0.67,
+            max_width=text_max_width,
+        )
+
+        draw_scaled_text(
+            academy,
+            (
+                text_x,
+                academy_centre_y + 9,
+            ),
+            scale=0.58,
+            max_width=text_max_width,
+        )
+
+        divider_one = content.y + section_height
+        draw_divider(divider_one)
+
+        # Record section.
+        record_centre_y = (
+            content.y
+            + section_height
+            + section_height // 2
+        )
+
+        draw_trophy_icon(
+            icon_x,
+            record_centre_y - 4,
+        )
+
+        draw_scaled_text(
+            "RECORD",
+            (
+                text_x,
+                record_centre_y - 47,
+            ),
+            scale=0.67,
+            max_width=text_max_width,
+        )
+
+        label_x = text_x
+        colon_x = text_x + 118
+        record_value_x = text_x + 145
+
+        draw_scaled_text(
+            "Wins",
+            (
+                label_x,
+                record_centre_y - 3,
+            ),
+            scale=0.57,
+            max_width=105,
+        )
+
+        draw_scaled_text(
+            ":",
+            (
+                colon_x,
+                record_centre_y - 3,
+            ),
+            scale=0.57,
+        )
+
+        draw_scaled_text(
+            str(wins),
+            (
+                record_value_x,
+                record_centre_y - 3,
+            ),
+            scale=0.57,
+            max_width=90,
+        )
+
+        draw_scaled_text(
+            "Losses",
+            (
+                label_x,
+                record_centre_y + 31,
+            ),
+            scale=0.57,
+            max_width=105,
+        )
+
+        draw_scaled_text(
+            ":",
+            (
+                colon_x,
+                record_centre_y + 31,
+            ),
+            scale=0.57,
+        )
+
+        draw_scaled_text(
+            str(losses),
+            (
+                record_value_x,
+                record_centre_y + 31,
+            ),
+            scale=0.57,
+            max_width=90,
+        )
+
+        divider_two = content.y + section_height * 2
+        draw_divider(divider_two)
+
+        # Current goal section.
+        goal_centre_y = (
+            content.y
+            + section_height * 2
+            + section_height // 2
+        )
+
+        draw_target_icon(
+            icon_x,
+            goal_centre_y,
+        )
+
+        draw_scaled_text(
+            "CURRENT GOAL",
+            (
+                text_x,
+                goal_centre_y - 37,
+            ),
+            scale=0.62,
+            max_width=text_max_width,
+        )
+
+        draw_scaled_text(
+            current_goal,
+            (
+                text_x,
+                goal_centre_y + 10,
+            ),
+            scale=0.52,
+            max_width=text_max_width,
         )
 
     def calc_menu_items_rect(self) -> Rect:
@@ -128,6 +858,17 @@ class MonsterMenuState(Menu[Monster | None]):
         yield item
 
         self.refresh_menu_items()
+
+        # Explicitly populate both information panels when the menu first opens.
+        monster: Monster | None = None
+
+        try:
+            monster = self.monsters[self.selected_index]
+        except IndexError:
+            pass
+
+        self.monster_stats_display.update(monster)
+        self.fighter_profile_display.update(monster)
 
     def on_menu_selection(self, item: MenuItem[Monster | None]) -> None:
         if self._external_on_selection:
@@ -176,6 +917,10 @@ class MonsterMenuState(Menu[Monster | None]):
 
         self.monster_stats_display.update(monster)
         self.refresh_menu_items()
+
+        # Draw the profile after refreshing the menu so its card sprite
+        # is not cleared or covered by the refreshed menu items.
+        self.fighter_profile_display.update(monster)
 
     def remove_monster_sprite_display(self, monster: Monster) -> None:
         for sprite_display in self.monster_sprite_displays:
@@ -486,6 +1231,395 @@ class MonsterStatsDisplay:
         width, height = self.menu_state.client.context.resolution
         self.sprite.rect.topleft = (width // 10, height // 2 + 50)
 
+
+class FighterProfileDisplay:
+    """Draw the complete fighter profile as one reliable surface."""
+
+    BELT_ORDER = (
+        ("black_belt", "Black Belt"),
+        ("brown_belt", "Brown Belt"),
+        ("purple_belt", "Purple Belt"),
+        ("blue_belt", "Blue Belt"),
+        ("white_belt", "White Belt"),
+    )
+
+    def __init__(self, menu_state: MonsterMenuState) -> None:
+        self.menu_state = menu_state
+
+        self.sprite = Sprite()
+        self.sprite.image = Surface((1, 1), SRCALPHA)
+        self.sprite.rect = self.sprite.image.get_rect()
+
+        # Keep the complete card above the menu background.
+        self.menu_state.sprites.add(
+            self.sprite,
+            layer=LAYER_MONSTER_ICONS + 5,
+        )
+
+    def get_player(self) -> Any:
+        return local_session.player
+
+    def get_current_belt(self) -> str:
+        player = self.get_player()
+
+        for item_slug, belt_name in self.BELT_ORDER:
+            if player.bag.has_item(item_slug):
+                return belt_name
+
+        return "Unranked"
+
+    def get_battle_record(self) -> tuple[int, int]:
+        player = self.get_player()
+
+        if not player.battle_handler.get_battles():
+            return 0, 0
+
+        summary = player.battle_handler.get_battle_outcome_summary()
+
+        return (
+            int(summary.get("won", 0)),
+            int(summary.get("lost", 0)),
+        )
+
+    def get_title_count(self) -> int:
+        player = self.get_player()
+
+        if player.bag.has_item("koth_championship_belt"):
+            return 1
+
+        return 0
+
+    def get_current_goal(self) -> str:
+        player = self.get_player()
+
+        if player.bag.has_item("koth_championship_belt"):
+            return "Defend KOTH Championship"
+
+        if player.bag.has_item("black_belt"):
+            return "Become KOTH Champion"
+
+        if player.bag.has_item("brown_belt"):
+            return "Earn Black Belt"
+
+        if player.bag.has_item("purple_belt"):
+            return "Earn Brown Belt"
+
+        if player.bag.has_item("blue_belt"):
+            return "Earn Purple Belt"
+
+        if player.bag.has_item("white_belt"):
+            return "Earn Blue Belt"
+
+        return "Begin Your Journey"
+
+    def _render_text(
+        self,
+        surface: Surface,
+        text: str,
+        position: tuple[int, int],
+    ) -> None:
+        """Render pixel text with the same dark shadow style as the menu."""
+        x, y = position
+
+        shadow = self.menu_state.font.render(
+            text,
+            True,
+            (105, 104, 92),
+        )
+        foreground = self.menu_state.font.render(
+            text,
+            True,
+            (20, 20, 18),
+        )
+
+        surface.blit(shadow, (x + 2, y + 2))
+        surface.blit(foreground, (x, y))
+
+    def _draw_separator(
+        self,
+        surface: Surface,
+        y: int,
+        left: int,
+        right: int,
+    ) -> None:
+        """Draw the segmented horizontal lines from the reference design."""
+        x = left
+
+        while x < right:
+            draw.line(
+                surface,
+                (105, 103, 95),
+                (x, y),
+                (min(x + 5, right), y),
+                2,
+            )
+            x += 8
+
+    def update(self, monster: Monster | None) -> None:
+        if not monster:
+            self.sprite.image = Surface((1, 1), SRCALPHA)
+            self.sprite.rect = self.sprite.image.get_rect()
+            return
+
+        screen_width, screen_height = (
+            self.menu_state.client.context.resolution
+        )
+
+        # Fill the empty right-hand area beneath the green status panel.
+        panel_left = int(screen_width * 0.40)
+        panel_top = int(screen_height * 0.27)
+        panel_width = int(screen_width * 0.52)
+        panel_height = int(screen_height * 0.62)
+
+        surface = Surface(
+            (panel_width + 10, panel_height + 10),
+            SRCALPHA,
+        )
+
+        # Card shadow.
+        draw.rect(
+            surface,
+            (45, 43, 49, 150),
+            Rect(8, 8, panel_width, panel_height),
+        )
+
+        # Dark outside border.
+        draw.rect(
+            surface,
+            (73, 69, 76),
+            Rect(0, 0, panel_width, panel_height),
+        )
+
+        # Grey frame.
+        draw.rect(
+            surface,
+            (132, 124, 122),
+            Rect(3, 3, panel_width - 6, panel_height - 6),
+        )
+
+        # Cream border.
+        draw.rect(
+            surface,
+            (214, 212, 180),
+            Rect(7, 7, panel_width - 14, panel_height - 14),
+        )
+
+        # Main cream panel.
+        draw.rect(
+            surface,
+            (225, 222, 190),
+            Rect(11, 11, panel_width - 22, panel_height - 22),
+        )
+
+        # Cyan highlights matching the menu frame.
+        draw.line(
+            surface,
+            (202, 255, 244),
+            (12, 10),
+            (panel_width - 12, 10),
+            3,
+        )
+
+        draw.line(
+            surface,
+            (202, 255, 244),
+            (10, 12),
+            (10, panel_height - 12),
+            3,
+        )
+
+        font_height = self.menu_state.font.get_linesize()
+
+        left_x = int(panel_width * 0.05)
+        nested_x = int(panel_width * 0.13)
+        colon_x = int(panel_width * 0.40)
+        value_x = int(panel_width * 0.46)
+        right_x = panel_width - left_x
+
+        usable_height = panel_height - 34
+        row_gap = max(
+            font_height + 5,
+            usable_height // 11,
+        )
+
+        y = 25
+
+        wins, losses = self.get_battle_record()
+
+        # Belt.
+        self._render_text(
+            surface,
+            "Belt",
+            (left_x, y),
+        )
+        self._render_text(
+            surface,
+            ":",
+            (colon_x, y),
+        )
+        self._render_text(
+            surface,
+            self.get_current_belt(),
+            (value_x, y),
+        )
+
+        # Academy.
+        y += row_gap
+
+        self._render_text(
+            surface,
+            "Academy",
+            (left_x, y),
+        )
+        self._render_text(
+            surface,
+            ":",
+            (colon_x, y),
+        )
+        self._render_text(
+            surface,
+            "Duncan Academy",
+            (value_x, y),
+        )
+
+        # Divider.
+        y += row_gap
+
+        self._draw_separator(
+            surface,
+            y,
+            left_x,
+            right_x,
+        )
+
+        # Record heading.
+        y += max(15, row_gap // 2)
+
+        self._render_text(
+            surface,
+            "Record",
+            (left_x, y),
+        )
+
+        # Wins.
+        y += row_gap
+
+        self._render_text(
+            surface,
+            "Wins",
+            (nested_x, y),
+        )
+        self._render_text(
+            surface,
+            ":",
+            (colon_x, y),
+        )
+        self._render_text(
+            surface,
+            str(wins),
+            (value_x, y),
+        )
+
+        # Losses.
+        y += row_gap
+
+        self._render_text(
+            surface,
+            "Losses",
+            (nested_x, y),
+        )
+        self._render_text(
+            surface,
+            ":",
+            (colon_x, y),
+        )
+        self._render_text(
+            surface,
+            str(losses),
+            (value_x, y),
+        )
+
+        # Divider.
+        y += row_gap
+
+        self._draw_separator(
+            surface,
+            y,
+            left_x,
+            right_x,
+        )
+
+        # Titles.
+        y += max(15, row_gap // 2)
+
+        self._render_text(
+            surface,
+            "Titles",
+            (left_x, y),
+        )
+        self._render_text(
+            surface,
+            ":",
+            (colon_x, y),
+        )
+        self._render_text(
+            surface,
+            str(self.get_title_count()),
+            (value_x, y),
+        )
+
+        # Divider.
+        y += row_gap
+
+        self._draw_separator(
+            surface,
+            y,
+            left_x,
+            right_x,
+        )
+
+        # Current goal.
+        y += max(15, row_gap // 2)
+
+        self._render_text(
+            surface,
+            "Current Goal",
+            (left_x, y),
+        )
+        self._render_text(
+            surface,
+            ":",
+            (colon_x, y),
+        )
+
+        y += row_gap
+
+        self._render_text(
+            surface,
+            self.get_current_goal(),
+            (nested_x, y),
+        )
+
+        self.sprite.image = surface
+        self.sprite.rect = surface.get_rect(
+            topleft=(panel_left, panel_top)
+        )
+
+        # Menu setup and refresh operations may clear auxiliary sprites.
+        # Ensure the fighter profile is present and drawn above everything.
+        if self.sprite not in self.menu_state.sprites:
+            self.menu_state.sprites.add(
+                self.sprite,
+                layer=200,
+            )
+        else:
+            self.menu_state.sprites.change_layer(
+                self.sprite,
+                200,
+            )
+
+        self.sprite.visible = True
+        self.sprite.dirty = 1
 
 class MonsterSpriteDisplay:
     """
