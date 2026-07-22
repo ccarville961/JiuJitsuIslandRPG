@@ -120,12 +120,12 @@ class MonsterMenuState(Menu[Monster | None]):
         width = _width // 2
         height = _height // int(PARTY_LIMIT * 1.5)
 
-        # make 6 slots
-        for _ in range(PARTY_LIMIT):
-            rect = Rect(0, 0, width, height)
-            surface = Surface(rect.size, SRCALPHA)
-            item = MenuItem(surface, None, None, None)
-            yield item
+        # JiuJitsu Island displays one fighter slot for the player character.
+        # The remaining five Pokémon-style party slots are intentionally removed.
+        rect = Rect(0, 0, width, height)
+        surface = Surface(rect.size, SRCALPHA)
+        item = MenuItem(surface, None, None, None)
+        yield item
 
         self.refresh_menu_items()
 
@@ -466,14 +466,14 @@ class MonsterStatsDisplay:
         stats = OrderedDict(
             [
                 (
-                    T.translate("short_hp"),
+                    "Health",
                     f"{monster.current_hp}/{monster.hp}",
                 ),
-                (T.translate("armour"), str(monster.armour)),
-                (T.translate("dodge"), str(monster.dodge)),
-                (T.translate("melee"), str(monster.melee)),
-                (T.translate("ranged"), str(monster.ranged)),
-                (T.translate("speed"), str(monster.speed)),
+                ("Defence", str(monster.armour)),
+                ("Escapes", str(monster.dodge)),
+                ("Submissions", str(monster.melee)),
+                ("Takedowns", str(monster.ranged)),
+                ("Cardio", str(monster.speed)),
             ]
         )
 

@@ -332,13 +332,15 @@ class MonsterInfoState(PygameMenuState):
             "speed": (fxw(165 / 256), fxh(98.8 / 144)),
         }
 
+        # JiuJitsu Island display names. The underlying attributes remain
+        # unchanged so level-up, combat, equipment and save data still work.
         stat_labels = {
-            "hp": T.translate("short_hp"),
-            "armour": T.translate("armour"),
-            "dodge": T.translate("dodge"),
-            "melee": T.translate("melee"),
-            "ranged": T.translate("ranged"),
-            "speed": T.translate("speed"),
+            "hp": "Health",
+            "armour": "Defence",
+            "dodge": "Escapes",
+            "melee": "Submissions",
+            "ranged": "Takedowns",
+            "speed": "Cardio",
         }
 
         for stat, title in stat_labels.items():

@@ -20899,3 +20899,27 @@ msgid "white_belt_description"
 msgstr ""
 "Your first Jiu-Jitsu belt. A reminder that every journey begins as a "
 "beginner."
+
+#. JJI fighter profile statistic
+msgid "jji_stat_health"
+msgstr "Health"
+
+#. JJI fighter profile statistic
+msgid "jji_stat_defence"
+msgstr "Defence"
+
+#. JJI fighter profile statistic
+msgid "jji_stat_escapes"
+msgstr "Escapes"
+
+#. JJI fighter profile statistic
+msgid "jji_stat_submissions"
+msgstr "Submissions"
+
+#. JJI fighter profile statistic
+msgid "jji_stat_takedowns"
+msgstr "Takedowns"
+
+#. JJI fighter profile statistic
+msgid "jji_stat_cardio"
+msgstr "Cardio"
