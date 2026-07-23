@@ -1,22 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="59" height="42" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="157">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="59" height="42" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="157">
  <properties>
   <property name="edges" value="clamped" />
+  <property name="map_type" value="route" />
   <property name="scenario" value="xero" />
   <property name="slug" value="white_belt_wilderness" />
-  <property name="map_type" value="route" />
  </properties>
  <tileset firstgid="1" source="../gfx/tilesets/core_buildings.tsx" />
  <tileset firstgid="2351" source="../gfx/tilesets/core_outdoor.tsx" />
  <tileset firstgid="5126" source="../gfx/tilesets/core_set pieces.tsx" />
+ <tileset firstgid="6676" source="../gfx/tilesets/core_indoor_floors.tsx" />
  <layer id="1" name="Tile Layer 1" width="59" height="42">
   <data encoding="base64" compression="zlib">
-   eAHt0iERAAAMA7HS+efVWhdDAW/gL72k8oABBhhggAEGGGCAAQYYYIABBhhggAEGGGCAAQYYYIABBhhggAEGGGCAAQYYYODJwAAwJFDd
+   eAHt2aERgDAMBdBvESzBFsBAwFIdE01lD4tqeeLfxSZ9iWmZkiJmwAADDDDAAAMMMMAAAwwwwAADDDDAAAMMMMAAAwwwwAADDDDAwGcD95y8M+qf/LokW5O91nrtfwZ/etejmj2bXAMbHnU39dX3zXkArMlNsw==
   </data>
  </layer>
  <layer id="2" name="Tile Layer 2" width="59" height="42">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
  <layer id="3" name="Tile Layer 3" width="59" height="42">
@@ -865,6 +866,91 @@
     <property name="act2" value="remove_npc postboy" />
     <property name="cond1" value="is has_item player,blue_belt" />
     <property name="cond2" value="is char_exists rock" />
+   </properties>
+  </object>
+  <object id="157" name="JJI Open Mat - Spawn NPCs" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_koth_referee_center,13,36,stand" />
+    <property name="act11" value="char_face jji_koth_referee_center,down" />
+    <property name="act12" value="create_npc jji_hill_spectator_respect,9,34,stand" />
+    <property name="act13" value="char_face jji_hill_spectator_respect,right" />
+    <property name="act14" value="create_npc jji_hill_spectator_strategy,17,34,stand" />
+    <property name="act15" value="char_face jji_hill_spectator_strategy,left" />
+    <property name="act16" value="create_npc jji_hill_spectator_ribs,9,39,stand" />
+    <property name="act17" value="char_face jji_hill_spectator_ribs,right" />
+    <property name="act18" value="create_npc jji_hill_spectator_real_chance,17,39,stand" />
+    <property name="act19" value="char_face jji_hill_spectator_real_chance,left" />
+    <property name="act20" value="create_npc jji_hill_spectator_massive_win,11,32,stand" />
+    <property name="act21" value="char_face jji_hill_spectator_massive_win,down" />
+    <property name="act22" value="create_npc jji_hill_spectator_atomic_drop,15,32,stand" />
+    <property name="act23" value="char_face jji_hill_spectator_atomic_drop,down" />
+    <property name="cond10" value="not char_exists jji_koth_referee_center" />
+   </properties>
+  </object>
+  <object id="158" name="JJI Open Mat - Referee" type="event" x="208" y="576" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_koth_referee_center,player" />
+    <property name="act20" value="translated_dialog jji_open_mat_referee_intro" />
+    <property name="act30" value="translated_dialog_choice yes:no,jji_open_mat_choice" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+    <property name="cond30" value="not variable_set jji_open_mat_choice:yes" />
+   </properties>
+  </object>
+  <object id="159" name="JJI Open Mat - Spectator 1" type="event" x="144" y="544" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_open_mat_spectator_1" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond11" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="160" name="JJI Open Mat - Spectator 2" type="event" x="272" y="544" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_open_mat_spectator_2" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond11" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="161" name="JJI Open Mat - Spectator 3" type="event" x="144" y="624" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_open_mat_spectator_3" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond11" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="162" name="JJI Open Mat - Spectator 4" type="event" x="272" y="624" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_open_mat_spectator_4" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond11" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="163" name="JJI Open Mat - Spectator 5" type="event" x="176" y="512" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_open_mat_spectator_5" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond11" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="164" name="JJI Open Mat - Spectator 6" type="event" x="240" y="512" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_open_mat_spectator_6" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond11" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
+  <object id="165" name="JJI Open Mat - Accept Match" type="event" x="208" y="576" width="16" height="16">
+   <properties>
+    <property name="act10" value="set_environment grass" />
+    <property name="act11" value="open_mat_battle 1,8,15,100,100,300" />
+    <property name="act12" value="set_variable jji_open_mat_choice:none" />
+    <property name="cond10" value="is variable_set jji_open_mat_choice:yes" />
+   </properties>
+  </object>
+  <object id="166" name="JJI Open Mat - Decline Match" type="event" x="208" y="576" width="16" height="16">
+   <properties>
+    <property name="act10" value="set_variable jji_open_mat_choice:none" />
+    <property name="cond10" value="is variable_set jji_open_mat_choice:no" />
    </properties>
   </object>
  </objectgroup>

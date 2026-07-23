@@ -19908,37 +19908,37 @@ msgstr ""
 
 # JJI Coach Hill assessment
 msgid "jji_hill_spectator_massive_win"
-msgstr ""
+msgstr "WHITE BELT: I nearly passed someone's guard earlier. Best three seconds of my career."
 "Purple Belt: Wow! You beat Coach Toland!\n"
 "That is a massive win. You might really have a chance against Coach Hill."
 
 # JJI Coach Hill assessment
 msgid "jji_hill_spectator_respect"
-msgstr ""
+msgstr "WHITE BELT: I'm just hoping nobody asks me to start standing."
 "Blue Belt: Toland is no joke.\n"
 "If you handled his pressure, you have earned everyone's respect."
 
 # JJI Coach Hill assessment
 msgid "jji_hill_spectator_real_chance"
-msgstr ""
+msgstr "BLUE BELT: Don't worry about winning every round. Just try not to make the same mistake twice."
 "Black Belt: Coach Hill will not be easy.\n"
 "But after defeating Toland, you have a real chance of completing the assessment."
 
 # JJI Coach Hill assessment
 msgid "jji_hill_spectator_atomic_drop"
-msgstr ""
+msgstr "BLUE BELT: KOTH Channel might be watching, so everyone's suddenly rolling like a world title is on the line."
 "Veteran Grappler: Watch for Coach Hill's famous Atomic Butt Drop.\n"
 "It is his signature finisher."
 
 # JJI Coach Hill assessment
 msgid "jji_hill_spectator_ribs"
-msgstr ""
+msgstr "WHITE BELT: They said this was a light Open Mat. Nobody here knows what light means."
 "Brown Belt: People say the Atomic Butt Drop has broken ribs.\n"
 "Stay mobile and do not let him trap you beneath it."
 
 # JJI Coach Hill assessment
 msgid "jji_hill_spectator_strategy"
-msgstr ""
+msgstr "BLUE BELT: Stay calm, control the position, then hunt the submission."
 "Student: Keep your frames strong and watch his hips.\n"
 "If Hill gets above you, move before he launches the Atomic Butt Drop!"
 
@@ -20839,3 +20839,36 @@ msgstr "Takedowns"
 #. JJI fighter profile statistic
 msgid "jji_stat_cardio"
 msgstr "Cardio"
+
+msgid "jji_open_mat_no_money"
+msgstr "REFEREE: You need $100 to enter a match.\\nCome back when your wallet has made weight."
+
+msgid "jji_open_mat_victory"
+msgstr "REFEREE: Winner!\\nYour Open Mat prize has been added to your wallet."
+
+msgid "jji_open_mat_defeat"
+msgstr "REFEREE: Tough match.\\nNo prize this time, but KOTH Channel saw everything."
+
+msgid "jji_open_mat_draw"
+msgstr "REFEREE: No winner this time.\\nNo prize is awarded."
+
+msgid "jji_open_mat_referee_intro"
+msgstr "REFEREE: KOTH Channel are watching these Open Mats closely for promising new prospects.\nIf you want to test yourself, it will cost you $100 per match.\nAre you ready to step onto the mat?"
+
+msgid "jji_open_mat_spectator_1"
+msgstr "WHITE BELT: I only came to watch, but now the referee keeps looking in my direction."
+
+msgid "jji_open_mat_spectator_2"
+msgstr "BLUE BELT: Keep your elbows close and don't panic. Most white belts defeat themselves."
+
+msgid "jji_open_mat_spectator_3"
+msgstr "WHITE BELT: They called this a friendly Open Mat. My ribs disagree."
+
+msgid "jji_open_mat_spectator_4"
+msgstr "BLUE BELT: Position before submission. Unless they leave their neck out. Then forget everything I said."
+
+msgid "jji_open_mat_spectator_5"
+msgstr "WHITE BELT: I escaped mount once today. I'm basically ready for my blue belt."
+
+msgid "jji_open_mat_spectator_6"
+msgstr "BLUE BELT: The $100 entry fee makes everyone roll like rent is due tomorrow."
