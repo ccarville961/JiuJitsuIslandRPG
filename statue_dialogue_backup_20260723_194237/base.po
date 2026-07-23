@@ -9653,8 +9653,14 @@ msgstr "Somebody planted some sweet smelling purple flowers!"
 msgid "orange_flowers"
 msgstr "Someone planted some beautiful orange flowers!"
 
+msgid "famous_statue"
+msgstr ""
+"Wow... what a shiny bald head!\n"
+"They say this statue was modelled after the legendary competitor, Mr. Turnbull.\n"
+"The sculptor barely had to polish it!It's a statue of a legendary competitor. The name is weathered away..."
+
 msgid "famous_statue2"
-msgstr "Why does this one have balls?"
+msgstr "It says: For our beloved friends and heroes of all, the wywen"
 
 msgid "cotton_town_fountain"
 msgstr "It's a fountain. A lot of coins are at the bottom."
@@ -9826,7 +9832,7 @@ msgid "Cathedral_Center"
 msgstr "Cathedral Center: We Live to Serve."
 
 msgid "Cotton_Mart"
-msgstr "Get all your essentials at Jitz Mart!"
+msgstr "Get the scoop at the Scoop Store!"
 
 msgid "Cotton_Town_Sign"
 msgstr "Welcome to Guard Pull Village: A Growing Force\n\nâ†‘ Guard Pull Village --- White Belt Wilderness â†“"
@@ -20875,9 +20881,3 @@ msgstr "Atlas Academy ahead."
 
 msgid "jji_atlas_academy_guard"
 msgstr "OFFICER: Go away. This area is restricted.\nCoach Atlas was seen entering this academy recently.\nWe're monitoring the building in case he returns."
-
-msgid "famous_statue"
-msgstr "Nice boobs."
-
-msgid "jji_turnbull_statue"
-msgstr "Why does this one have balls?"

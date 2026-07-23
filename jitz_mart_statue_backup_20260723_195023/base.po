@@ -9823,10 +9823,10 @@ msgstr ""
 "to challenge you!"
 
 msgid "Cathedral_Center"
-msgstr "Cathedral Center: We Live to Serve."
+msgstr "Guard Pull Medical Center."
 
 msgid "Cotton_Mart"
-msgstr "Get all your essentials at Jitz Mart!"
+msgstr "Get your essentials at Jitz Mart!"
 
 msgid "Cotton_Town_Sign"
 msgstr "Welcome to Guard Pull Village: A Growing Force\n\nâ†‘ Guard Pull Village --- White Belt Wilderness â†“"
