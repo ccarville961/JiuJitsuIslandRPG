@@ -4,6 +4,10 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING, Any, ClassVar
 
+import pygame
+from pathlib import Path
+from tuxemon import graphics
+
 from pygame_menu.locals import ALIGN_CENTER, ALIGN_LEFT, POSITION_EAST
 from pygame_menu.menu import Menu
 
@@ -42,11 +46,15 @@ class CharacterState(PygameMenuState):
         self,
         menu: Menu,
     ) -> None:
-        def fxw(r: float) -> int:
-            return fix_measure(menu._width, r)
+        """Build the aligned RPG-style player career profile."""
 
-        def fxh(r: float) -> int:
-            return fix_measure(menu._height, r)
+        def fxw(ratio: float) -> int:
+            return fix_measure(menu._width, ratio)
+
+        def fxh(ratio: float) -> int:
+            return fix_measure(menu._height, ratio)
+
+        menu._auto_centering = False
 
         name = (
             T.translate(self.char.slug)
@@ -54,116 +62,702 @@ class CharacterState(PygameMenuState):
             else self.char.name
         )
 
-        # tuxepedia data
-        filters = list(self.cache.values())
-        reporter = TuxepediaReporter(self.char.tuxepedia.data)
-        completeness = reporter.get_completeness_report(len(filters))
-        percentage = round(completeness["registered_percent"] * 100, 1)
-        if self.char.tuxepedia.data.entries:
-            _msg_progress = {"value": str(percentage)}
-        else:
-            _msg_progress = {"value": "-"}
+        # ----------------------------------------------------------
+        # Live player values
+        # ----------------------------------------------------------
+        currency = CurrencyFormatter()
+        money_amount = (
+            self.char.money_controller
+            .money_manager
+            .get_money()
+        )
+        wallet = currency.format(money_amount)
 
-        msg_progress = T.format("tuxepedia_progress", _msg_progress)
+        play_time = format_playtime(
+            self.char.session._total_playtime
+        )
 
-        play_time = format_playtime(self.char.session._total_playtime)
-        msg_begin = f"{T.translate('player_total_playtime')}: {play_time}"
-
-        if self.char.battle_handler.get_battles():
-            summary = self.char.battle_handler.get_battle_outcome_summary()
-            tot, won, lost, draw = (
-                summary["total"],
-                summary["won"],
-                summary["lost"],
-                summary["draw"],
-            )
-
-            _msg_battles = {
-                "tot": str(tot),
-                "won": str(won),
-                "draw": str(draw),
-                "lost": str(lost),
-            }
-            msg_battles = T.format("player_battles", _msg_battles)
-        else:
-            msg_battles = ""
-        # steps
         steps = self.char.steps
         unit = self.client.config.unit_measure
+
         if unit == "metric":
             walked = formula.convert_km(steps)
-            unit_walked = U_KM
+            walked_unit = U_KM
         else:
             walked = formula.convert_mi(steps)
-            unit_walked = U_MI
-        _msg_walked = {"distance": str(walked), "unit": unit_walked}
-        msg_walked = T.format("player_walked", _msg_walked)
-        # name
-        menu._auto_centering = False
-        lab1: Any = menu.add.label(
+            walked_unit = U_MI
+
+        walked_text = f"{walked} {walked_unit}"
+
+        total_battles = 0
+        wins = 0
+        losses = 0
+        draws = 0
+
+        if self.char.battle_handler.get_battles():
+            summary = (
+                self.char.battle_handler
+                .get_battle_outcome_summary()
+            )
+
+            total_battles = int(
+                summary.get("total", 0)
+            )
+            wins = int(
+                summary.get("won", 0)
+            )
+            losses = int(
+                summary.get("lost", 0)
+            )
+            draws = int(
+                summary.get("draw", 0)
+            )
+
+        filters = list(self.cache.values())
+
+        reporter = TuxepediaReporter(
+            self.char.tuxepedia.data
+        )
+
+        completeness = reporter.get_completeness_report(
+            len(filters)
+        )
+
+        percentage = round(
+            completeness["registered_percent"] * 100,
+            1,
+        )
+
+        if self.char.tuxepedia.data.entries:
+            jitspedia_text = f"{percentage}%"
+        else:
+            jitspedia_text = "0%"
+
+        # ----------------------------------------------------------
+        # Lead Jiu-Jitsu fighter front sprite on the left
+        # ----------------------------------------------------------
+        #
+        # CharacterState receives the overworld NPC as self.char.
+        # The actual black Jiu-Jitsu fighter is stored in its Party.
+        party = getattr(self.char, "party", None)
+
+        party_monsters = getattr(
+            party,
+            "monsters",
+            None,
+        )
+
+        if party_monsters is None:
+            party_monsters = getattr(
+                party,
+                "_monsters",
+                None,
+            )
+
+        # Some Party implementations expose the collection through
+        # get_monsters() rather than a public monsters attribute.
+        if not party_monsters:
+            get_monsters = getattr(
+                party,
+                "get_monsters",
+                None,
+            )
+
+            if callable(get_monsters):
+                party_monsters = get_monsters()
+
+        if not party_monsters:
+            raise RuntimeError(
+                "Player page could not locate the Jiu-Jitsu fighter "
+                "inside self.char.party."
+            )
+
+        lead_fighter = party_monsters[0]
+        fighter_surface = None
+        sprite_source = "not found"
+
+        # The Monster stores one complete battle sprite sheet plus the
+        # rectangle containing its front-facing 64x64 image.
+        sprite_config = getattr(
+            lead_fighter,
+            "sprite_config",
+            None,
+        )
+
+        if sprite_config is None:
+            raise RuntimeError(
+                "The lead fighter has no sprite_config."
+            )
+
+        sheet_path = getattr(
+            sprite_config,
+            "sheet_path",
+            None,
+        )
+
+        front_rect = getattr(
+            sprite_config,
+            "front_rect",
+            None,
+        )
+
+        if not sheet_path or not front_rect:
+            raise RuntimeError(
+                "The lead fighter sprite_config is missing sheet_path "
+                "or front_rect."
+            )
+
+        # Resolve the mod-relative battle-sheet path. SpriteConfig paths
+        # omit the .png extension.
+        relative_sheet = Path(str(sheet_path))
+
+        candidates = [
+            relative_sheet,
+            relative_sheet.with_suffix(".png"),
+            Path("mods/tuxemon") / relative_sheet,
+            Path("mods/tuxemon") / relative_sheet.with_suffix(".png"),
+        ]
+
+        resolved_sheet = next(
+            (
+                candidate
+                for candidate in candidates
+                if candidate.is_file()
+            ),
+            None,
+        )
+
+        if resolved_sheet is None:
+            print(
+                "WARNING: Monster battle sheet was not found.",
+                {
+                    "fighter": getattr(
+                        lead_fighter,
+                        "slug",
+                        None,
+                    ),
+                    "sheet_path": sheet_path,
+                    "searched": [
+                        str(candidate)
+                        for candidate in candidates
+                    ],
+                },
+            )
+
+            # Keep the Player screen usable rather than crashing.
+            fighter_surface = self.char.combat_sheet.front()
+            sprite_source = "emergency player sprite fallback"
+        else:
+            battle_sheet = pygame.image.load(
+                str(resolved_sheet)
+            ).convert_alpha()
+
+            crop_rect = pygame.Rect(
+                *front_rect
+            )
+
+            if not battle_sheet.get_rect().contains(crop_rect):
+                raise RuntimeError(
+                    "Monster front_rect is outside its battle sheet: "
+                    f"sheet={battle_sheet.get_size()}, "
+                    f"front_rect={tuple(front_rect)}"
+                )
+
+            # Copy the front-facing 64x64 monster from the full sheet.
+            fighter_surface = battle_sheet.subsurface(
+                crop_rect
+            ).copy()
+
+            fighter_surface = scale_surface(
+                fighter_surface,
+                self.factor,
+            )
+
+            sprite_source = (
+                f"{resolved_sheet} front_rect={tuple(front_rect)}"
+            )
+
+        fighter_image = self._create_image_from_surface(
+            fighter_surface
+        )
+
+        fighter_widget = menu.add.image(
+            image_path=fighter_image.copy()
+        )
+
+        fighter_widget.set_float(
+            origin_position=True
+        )
+
+        fighter_widget.translate(
+            fxw(0.17),
+            fxh(0.08),
+        )
+
+        print(
+            "PLAYER PAGE FIGHTER SPRITE:",
+            {
+                "fighter": getattr(
+                    lead_fighter,
+                    "slug",
+                    type(lead_fighter).__name__,
+                ),
+                "source": sprite_source,
+            },
+        )
+
+        name_label: Any = menu.add.label(
             title=name.upper(),
-            label_id="name",
+            label_id="player_name",
             font_size=self.font_type.big,
-            align=ALIGN_LEFT,
+            align=ALIGN_CENTER,
             underline=True,
             float=True,
         )
-        lab1.translate(fxw(0.45), fxh(0.15))
-        # money
-        money = CurrencyFormatter()
-        amount = self.char.money_controller.money_manager.get_money()
-        lab2: Any = menu.add.label(
-            title=f"{T.translate('wallet')}: {money.format(amount)}",
-            label_id="money",
-            font_size=self.font_type.smaller,
-            align=ALIGN_LEFT,
-            float=True,
+
+        name_label.translate(
+            fxw(0.14),
+            fxh(0.66),
         )
-        lab2.translate(fxw(0.45), fxh(0.25))
-        # total playtime
-        lab5: Any = menu.add.label(
-            title=msg_begin,
-            label_id="begin",
-            font_size=self.font_type.smaller,
-            align=ALIGN_LEFT,
-            float=True,
+
+        # ----------------------------------------------------------
+        # Right-side cream panel
+        # ----------------------------------------------------------
+        panel_width = fxw(0.47)
+        panel_height = fxh(0.88)
+
+        panel_surface = pygame.Surface(
+            (
+                panel_width + 8,
+                panel_height + 9,
+            ),
+            pygame.SRCALPHA,
         )
-        lab5.translate(fxw(0.45), fxh(0.30))
-        # walked
-        if steps > 0.0:
-            lab6: Any = menu.add.label(
-                title=msg_walked,
-                label_id="walked",
-                font_size=self.font_type.smaller,
+
+        shadow_colour = (92, 91, 82)
+        outer_border = (91, 94, 91)
+        border_highlight = (218, 233, 220)
+        panel_colour = (218, 216, 191)
+        panel_inner = (224, 222, 199)
+        divider_colour = (112, 114, 108)
+
+        shadow = pygame.Rect(
+            6,
+            7,
+            panel_width,
+            panel_height,
+        )
+
+        outer = pygame.Rect(
+            0,
+            0,
+            panel_width,
+            panel_height,
+        )
+
+        pygame.draw.rect(
+            panel_surface,
+            shadow_colour,
+            shadow,
+            border_radius=5,
+        )
+
+        pygame.draw.rect(
+            panel_surface,
+            outer_border,
+            outer,
+            border_radius=5,
+        )
+
+        inner = pygame.Rect(
+            5,
+            5,
+            panel_width - 10,
+            panel_height - 10,
+        )
+
+        pygame.draw.rect(
+            panel_surface,
+            panel_colour,
+            inner,
+            border_radius=3,
+        )
+
+        highlight = pygame.Rect(
+            inner.x + 3,
+            inner.y + 3,
+            inner.width - 6,
+            inner.height - 6,
+        )
+
+        pygame.draw.rect(
+            panel_surface,
+            border_highlight,
+            highlight,
+            width=2,
+            border_radius=2,
+        )
+
+        content = pygame.Rect(
+            inner.x + 18,
+            inner.y + 15,
+            inner.width - 36,
+            inner.height - 30,
+        )
+
+        pygame.draw.rect(
+            panel_surface,
+            panel_inner,
+            content,
+        )
+
+        section_height = content.height // 3
+
+        divider_one = content.y + section_height
+        divider_two = content.y + section_height * 2
+
+        pygame.draw.line(
+            panel_surface,
+            divider_colour,
+            (
+                content.x + 10,
+                divider_one,
+            ),
+            (
+                content.right - 10,
+                divider_one,
+            ),
+            2,
+        )
+
+        pygame.draw.line(
+            panel_surface,
+            divider_colour,
+            (
+                content.x + 10,
+                divider_two,
+            ),
+            (
+                content.right - 10,
+                divider_two,
+            ),
+            2,
+        )
+
+        # ----------------------------------------------------------
+        # Section icons
+        # ----------------------------------------------------------
+        icon_x = content.x + fxw(0.055)
+
+        profile_y = (
+            content.y
+            + section_height // 2
+        )
+
+        pygame.draw.circle(
+            panel_surface,
+            (241, 242, 232),
+            (icon_x, profile_y),
+            fxh(0.039),
+        )
+
+        pygame.draw.circle(
+            panel_surface,
+            (52, 61, 61),
+            (icon_x, profile_y),
+            fxh(0.039),
+            width=3,
+        )
+
+        pygame.draw.circle(
+            panel_surface,
+            (52, 61, 61),
+            (
+                icon_x,
+                profile_y - fxh(0.014),
+            ),
+            max(6, fxh(0.012)),
+        )
+
+        pygame.draw.ellipse(
+            panel_surface,
+            (52, 61, 61),
+            pygame.Rect(
+                icon_x - fxw(0.020),
+                profile_y + fxh(0.005),
+                fxw(0.040),
+                fxh(0.027),
+            ),
+        )
+
+        career_y = (
+            content.y
+            + section_height
+            + section_height // 2
+        )
+
+        trophy_gold = (237, 180, 35)
+        trophy_dark = (137, 88, 15)
+        trophy_light = (255, 213, 79)
+
+        cup = pygame.Rect(
+            icon_x - fxw(0.018),
+            career_y - fxh(0.030),
+            fxw(0.036),
+            fxh(0.040),
+        )
+
+        pygame.draw.rect(
+            panel_surface,
+            trophy_gold,
+            cup,
+            border_radius=5,
+        )
+
+        pygame.draw.rect(
+            panel_surface,
+            trophy_dark,
+            cup,
+            width=3,
+            border_radius=5,
+        )
+
+        pygame.draw.rect(
+            panel_surface,
+            trophy_light,
+            pygame.Rect(
+                cup.x + 5,
+                cup.y + 5,
+                cup.width - 10,
+                max(4, fxh(0.007)),
+            ),
+            border_radius=2,
+        )
+
+        pygame.draw.rect(
+            panel_surface,
+            trophy_gold,
+            pygame.Rect(
+                icon_x - 4,
+                career_y + fxh(0.009),
+                8,
+                fxh(0.018),
+            ),
+        )
+
+        pygame.draw.rect(
+            panel_surface,
+            trophy_gold,
+            pygame.Rect(
+                icon_x - fxw(0.016),
+                career_y + fxh(0.026),
+                fxw(0.032),
+                fxh(0.008),
+            ),
+            border_radius=2,
+        )
+
+        progress_y = (
+            content.y
+            + section_height * 2
+            + section_height // 2
+        )
+
+        target_radius = fxh(0.039)
+
+        pygame.draw.circle(
+            panel_surface,
+            (206, 64, 53),
+            (icon_x, progress_y),
+            target_radius,
+        )
+
+        pygame.draw.circle(
+            panel_surface,
+            (244, 240, 224),
+            (icon_x, progress_y),
+            int(target_radius * 0.70),
+        )
+
+        pygame.draw.circle(
+            panel_surface,
+            (206, 64, 53),
+            (icon_x, progress_y),
+            int(target_radius * 0.44),
+        )
+
+        pygame.draw.circle(
+            panel_surface,
+            (244, 240, 224),
+            (icon_x, progress_y),
+            int(target_radius * 0.20),
+        )
+
+        panel_image = self._create_image_from_surface(
+            panel_surface
+        )
+
+        panel_widget = menu.add.image(
+            image_path=panel_image.copy()
+        )
+
+        panel_widget.set_float(
+            origin_position=True
+        )
+
+        panel_widget.translate(
+            fxw(0.49),
+            fxh(0.05),
+        )
+
+        # ----------------------------------------------------------
+        # Precisely aligned panel labels
+        # ----------------------------------------------------------
+        text_x = 0.635
+        value_x = 0.765
+
+        def add_text(
+            title: str,
+            label_id: str,
+            x: float,
+            y: float,
+            *,
+            heading: bool = False,
+        ) -> None:
+            label: Any = menu.add.label(
+                title=title,
+                label_id=label_id,
+                font_size=(
+                    self.font_type.big
+                    if heading
+                    else self.font_type.smaller
+                ),
                 align=ALIGN_LEFT,
                 float=True,
             )
-            lab6.translate(fxw(0.45), fxh(0.35))
-        # battles
-        lab7: Any = menu.add.label(
-            title=msg_battles,
-            label_id="battle",
-            font_size=self.font_type.smaller,
-            align=ALIGN_LEFT,
-            float=True,
+
+            label.translate(
+                fxw(x),
+                fxh(y),
+            )
+
+        def add_row(
+            row_name: str,
+            row_value: str,
+            label_id: str,
+            y: float,
+        ) -> None:
+            add_text(
+                row_name,
+                f"{label_id}_name",
+                text_x,
+                y,
+            )
+
+            add_text(
+                ":",
+                f"{label_id}_colon",
+                value_x - 0.018,
+                y,
+            )
+
+            add_text(
+                row_value,
+                f"{label_id}_value",
+                value_x,
+                y,
+            )
+
+        # Player section.
+        add_text(
+            "PLAYER",
+            "player_heading",
+            text_x,
+            0.180,
+            heading=True,
         )
-        lab7.translate(fxw(0.45), fxh(0.40))
-        # % tuxepedia
-        lab8: Any = menu.add.label(
-            title=msg_progress,
-            label_id="progress",
-            font_size=self.font_type.smaller,
-            align=ALIGN_LEFT,
-            float=True,
+
+        add_row(
+            "Name",
+            name,
+            "profile_name",
+            0.270,
         )
-        lab8.translate(fxw(0.45), fxh(0.10))
-        # image
-        surface = self.char.combat_sheet.front()
-        scaled = scale_surface(surface, self.factor)
-        new_image = self._create_image_from_surface(scaled)
-        image_widget = menu.add.image(image_path=new_image.copy())
-        image_widget.set_float(origin_position=True)
-        image_widget.translate(fxw(0.20), fxh(0.08))
+
+        add_row(
+            "Wallet",
+            wallet,
+            "profile_wallet",
+            0.320,
+        )
+
+        # Career section.
+        add_text(
+            "CAREER",
+            "career_heading",
+            text_x,
+            0.405,
+            heading=True,
+        )
+
+        add_row(
+            "Battles",
+            str(total_battles),
+            "career_battles",
+            0.485,
+        )
+
+        add_row(
+            "Wins",
+            str(wins),
+            "career_wins",
+            0.525,
+        )
+
+        add_row(
+            "Losses",
+            str(losses),
+            "career_losses",
+            0.565,
+        )
+
+        add_row(
+            "Draws",
+            str(draws),
+            "career_draws",
+            0.605,
+        )
+
+        # Progress section.
+        # Positioned to match the lower third of the taller panel.
+        add_text(
+            "PROGRESS",
+            "progress_heading",
+            text_x,
+            0.690,
+            heading=True,
+        )
+
+        add_row(
+            "Playtime",
+            play_time,
+            "progress_playtime",
+            0.770,
+        )
+
+        add_row(
+            "Walked",
+            walked_text,
+            "progress_walked",
+            0.820,
+        )
+
+        add_row(
+            "Jitspedia",
+            jitspedia_text,
+            "progress_jitspedia",
+            0.870,
+        )
 
     def __init__(
         self,
