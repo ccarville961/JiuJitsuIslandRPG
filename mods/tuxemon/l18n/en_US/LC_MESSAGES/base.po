@@ -9732,9 +9732,6 @@ msgstr ""
 msgid "xero_intro_question"
 msgstr "What's your name?"
 
-msgid "xero_hideout1"
-msgstr "Xero Institute for Tuxemon Research and Advancement ahead."
-
 msgid "cherry_found"
 msgstr "You found a cherry."
 
@@ -20872,3 +20869,15 @@ msgstr "WHITE BELT: I escaped mount once today. I'm basically ready for my blue 
 
 msgid "jji_open_mat_spectator_6"
 msgstr "BLUE BELT: The $100 entry fee makes everyone roll like rent is due tomorrow."
+
+msgid "jji_atlas_academy_sign_v2"
+msgstr "Atlas Academy ahead."
+
+msgid "jji_atlas_academy_guard_v2"
+msgstr "OFFICER: Go away. This area is restricted.\n\nCoach Atlas was seen entering this academy recently.\n\nWe're monitoring the building in case he returns."
+
+msgid "xero_hideout1"
+msgstr "Atlas Academy ahead."
+
+msgid "jji_atlas_academy_guard"
+msgstr "OFFICER: Go away. This area is restricted.\nCoach Atlas was seen entering this academy recently.\nWe're monitoring the building in case he returns."

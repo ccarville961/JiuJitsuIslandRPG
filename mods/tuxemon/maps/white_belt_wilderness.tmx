@@ -953,5 +953,12 @@
     <property name="cond10" value="is variable_set jji_open_mat_choice:no" />
    </properties>
   </object>
+  <object id="167" name="Talk Atlas Academy Guard" type="event" x="224" y="112" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face xerogrund1,player" />
+    <property name="act20" value="translated_dialog jji_atlas_academy_guard" />
+    <property name="behav10" value="talk xerogrund1" />
+   </properties>
+  </object>
  </objectgroup>
 </map>
