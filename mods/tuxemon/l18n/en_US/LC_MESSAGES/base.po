@@ -9465,16 +9465,16 @@ msgid "hp"
 msgstr "Hit Points"
 
 msgid "melee"
-msgstr "Melee"
+msgstr "Close"
 
 msgid "ranged"
-msgstr "Ranged"
+msgstr "Entry"
 
 msgid "speed"
 msgstr "Speed"
 
 msgid "touch"
-msgstr "Touch"
+msgstr "Grip"
 
 msgid "short_armour"
 msgstr "AR"

@@ -8,7 +8,7 @@ from collections.abc import Callable, Generator
 from functools import partial
 from typing import TYPE_CHECKING, Any, ClassVar
 
-from pygame import SRCALPHA
+from pygame import SRCALPHA, draw
 from pygame.rect import Rect
 from pygame.surface import Surface
 
@@ -513,21 +513,188 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
                                 f"Could not load type icon {path}: {e}"
                             )
 
-                # --- Draw range icon ---
-                path = f"gfx/ui/icons/range/{technique.range.name.lower()}.png"
-                try:
-                    surf = load_and_scale(path, self.factor)
-                    spr = Sprite()
-                    spr.image = surf
-                    spr.rect = surf.get_rect()
-                    spr.rect.topleft = (
-                        fix_measure(screen_w, 7 / 256),
-                        fix_measure(screen_h, 121 / 144),
+                scaled_pow = int(
+                    technique.power * (7 + self.monster.level)
+                )
+
+                # --- Draw polished gameplay-role badge ---
+                technique_roles = {
+                    # Signature / high-impact submission
+                    "guillotine": "SPECIAL",
+
+                    # Defensive and positional movement
+                    "posture_up": "DEFENCE",
+
+                    # Takedown attack
+                    "blast_double": "TAKEDOWN",
+
+                    # General damaging attack
+                    "spaz": "ATTACK",
+                }
+
+                # The fourth technique slot is always the fighter's
+                # signature SPECIAL move.
+                is_fourth_move = menu.selected_index == 3
+
+                if is_fourth_move:
+                    role_label = "SPECIAL"
+                else:
+                    role_label = technique_roles.get(
+                        technique.slug,
+                        "ATTACK" if scaled_pow > 0 else "UTILITY",
                     )
-                    self.sprites.add(spr, layer=200)
-                    self.range_icon_sprite = spr
-                except Exception as e:
-                    logger.error(f"Could not load range icon {path}: {e}")
+
+                role_styles = {
+                    "SPECIAL": {
+                        "background": (105, 48, 150),
+                        "border": (245, 190, 45),
+                        "highlight": (170, 95, 215),
+                    },
+                    "DEFENCE": {
+                        "background": (35, 95, 165),
+                        "border": (105, 190, 245),
+                        "highlight": (75, 145, 210),
+                    },
+                    "TAKEDOWN": {
+                        "background": (180, 85, 20),
+                        "border": (250, 165, 45),
+                        "highlight": (225, 125, 45),
+                    },
+                    "ATTACK": {
+                        "background": (165, 35, 40),
+                        "border": (245, 95, 85),
+                        "highlight": (215, 70, 70),
+                    },
+                    "UTILITY": {
+                        "background": (55, 115, 75),
+                        "border": (120, 205, 135),
+                        "highlight": (85, 155, 105),
+                    },
+                }
+
+                role_style = role_styles[role_label]
+
+                # Fixed dimensions prevent the badge from overlapping Power.
+                badge_width = fix_measure(screen_w, 48 / 256)
+                badge_height = fix_measure(screen_h, 11 / 144)
+                shadow_offset = max(
+                    1,
+                    fix_measure(screen_w, 1 / 256),
+                )
+                border_width = max(
+                    1,
+                    fix_measure(screen_w, 1 / 256),
+                )
+                corner_radius = max(
+                    2,
+                    fix_measure(screen_w, 2 / 256),
+                )
+
+                # Include room for the badge shadow.
+                badge_surface = Surface(
+                    (
+                        badge_width + shadow_offset,
+                        badge_height + shadow_offset,
+                    ),
+                    SRCALPHA,
+                )
+
+                badge_rect = Rect(
+                    0,
+                    0,
+                    badge_width,
+                    badge_height,
+                )
+
+                shadow_rect = badge_rect.move(
+                    shadow_offset,
+                    shadow_offset,
+                )
+                draw.rect(
+                    badge_surface,
+                    (35, 25, 35, 150),
+                    shadow_rect,
+                    border_radius=corner_radius,
+                )
+
+                draw.rect(
+                    badge_surface,
+                    role_style["border"],
+                    badge_rect,
+                    border_radius=corner_radius,
+                )
+
+                inner_rect = badge_rect.inflate(
+                    -(border_width * 2),
+                    -(border_width * 2),
+                )
+                draw.rect(
+                    badge_surface,
+                    role_style["background"],
+                    inner_rect,
+                    border_radius=max(1, corner_radius - border_width),
+                )
+
+                # Small highlight across the top gives the badge some depth.
+                highlight_height = max(
+                    1,
+                    fix_measure(screen_h, 2 / 144),
+                )
+                highlight_rect = Rect(
+                    inner_rect.left + border_width,
+                    inner_rect.top + border_width,
+                    max(1, inner_rect.width - border_width * 2),
+                    highlight_height,
+                )
+                draw.rect(
+                    badge_surface,
+                    role_style["highlight"],
+                    highlight_rect,
+                    border_radius=max(1, corner_radius - border_width),
+                )
+
+                label_surface = self.font.render(
+                    role_label,
+                    True,
+                    (255, 255, 255),
+                )
+
+                label_rect = label_surface.get_rect(
+                    center=badge_rect.center
+                )
+
+                # Dark text shadow improves readability on bright badges.
+                text_shadow = self.font.render(
+                    role_label,
+                    True,
+                    (35, 20, 35),
+                )
+                shadow_text_rect = text_shadow.get_rect(
+                    center=(
+                        badge_rect.centerx + shadow_offset,
+                        badge_rect.centery + shadow_offset,
+                    )
+                )
+
+                badge_surface.blit(
+                    text_shadow,
+                    shadow_text_rect,
+                )
+                badge_surface.blit(
+                    label_surface,
+                    label_rect,
+                )
+
+                role_sprite = Sprite()
+                role_sprite.image = badge_surface
+                role_sprite.rect = badge_surface.get_rect()
+                role_sprite.rect.topleft = (
+                    fix_measure(screen_w, 7 / 256),
+                    fix_measure(screen_h, 121 / 144),
+                )
+
+                self.sprites.add(role_sprite, layer=200)
+                self.text_sprites["range"] = role_sprite
 
                 # --- Draw speed icon ---
                 speed_label = SpeedLabel.from_numeric(technique.speed)
@@ -550,7 +717,6 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
 
                 # --- Draw text labels ---
                 font = self.font
-                scaled_pow = int(technique.power * (7 + self.monster.level))
 
                 text_lines = {
                     "accuracy": f"{T.translate('technique_accuracy')} {int(technique.accuracy * 100)}%",
@@ -577,7 +743,7 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
                         )
                     elif key == "power":
                         spr.rect.topleft = (
-                            fix_measure(screen_w, 44 / 256),
+                            fix_measure(screen_w, 61 / 256),
                             fix_measure(screen_h, 123 / 144),
                         )
                     elif key == "recharge":
