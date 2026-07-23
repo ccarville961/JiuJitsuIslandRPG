@@ -64,7 +64,7 @@
   </object>
   <object id="21" name="Teleport to Omnichannel 1" type="event" x="16" y="208" width="32" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,cotton_town.tmx,22,10,0.3"/>
+    <property name="act10" value="transition_teleport player,guard_pull_village.tmx,22,10,0.3"/>
     <property name="act20" value="char_face player,down"/>
     <property name="cond10" value="is char_at player"/>
    </properties>

@@ -1675,7 +1675,7 @@ msgid "station_scrambled_frequency"
 msgstr "Scrambled Frequency"
 
 msgid "station_route_rhythms"
-msgstr "Route 101 Rhythms"
+msgstr "White Belt Wilderness01 Rhythms"
 
 msgid "radio_static_msgid"
 msgstr "The signal fades into static..."
@@ -4246,7 +4246,7 @@ msgid "lion_mountain"
 msgstr "Lion Mountain"
 
 msgid "candy_town"
-msgstr "Candy"
+msgstr "King Of The Hill Arena"
 
 msgid "candy_port"
 msgstr "Candy Port"
@@ -4255,52 +4255,52 @@ msgid "brideswood"
 msgstr "Brideswood"
 
 msgid "citypark"
-msgstr "City Park"
+msgstr "Porrada Park"
 
 msgid "cotton_town"
-msgstr "Cotton"
+msgstr "Guard Pull Village"
 
 msgid "diamond_hill"
 msgstr "Diamond Hill"
 
 msgid "dryadsgrove"
-msgstr "Dryad's Grove"
+msgstr "Flow Roll Forest"
 
 msgid "flower_city"
-msgstr "Flower"
+msgstr "Professor Plaza"
 
 msgid "leather_town"
-msgstr "Leather"
+msgstr "OSS Town"
 
 msgid "paper_town"
 msgstr "Paper"
 
 msgid "route1"
-msgstr "Route 1"
+msgstr "White Belt Wilderness"
 
 msgid "route1_sanglorian"
-msgstr "Sanglorian Avenue"
+msgstr "Spaz Pass"
 
 msgid "route2"
-msgstr "Route 2"
+msgstr "Wristlock Way"
 
 msgid "route3"
-msgstr "Route 3"
+msgstr "Oil Check Outback"
 
 msgid "route4"
-msgstr "Route 4"
+msgstr "Half Guard Highway"
 
 msgid "route5"
-msgstr "Route 5"
+msgstr "No-Gi Highway"
 
 msgid "route6"
-msgstr "Route 6"
+msgstr "Championship Causeway"
 
 msgid "route7"
 msgstr "Route 7"
 
 msgid "routea"
-msgstr "Route A"
+msgstr "Coral Belt Court"
 
 msgid "routeb"
 msgstr "Route B"
@@ -4321,7 +4321,7 @@ msgid "obsidian_town"
 msgstr "Obsidian"
 
 msgid "taba_town"
-msgstr "Taba"
+msgstr "Trial Class Town"
 
 msgid "taba_ba_br_1"
 msgstr "Taba Battle Area - Battle Room 1"
@@ -4345,10 +4345,10 @@ msgid "taba_ba_passageway_2"
 msgstr "Taba Battle Area - Passageway 2"
 
 msgid "timber_town"
-msgstr "Timber"
+msgstr "Tap City"
 
 msgid "tunnel"
-msgstr "Tunnel"
+msgstr "Underhook Tunnel"
 
 msgid "park"
 msgstr "Pepper Park"
@@ -4363,25 +4363,25 @@ msgid "lion_mountain_description"
 msgstr "One of Fondent's Holy Mountains! Prominence 3,776 m (12,388 ft)!"
 
 msgid "candy_town_description"
-msgstr "Pushing the bounds of possibility - with biology!"
+msgstr "The island's greatest competitors gather here."
 
 msgid "citypark_description"
-msgstr "A Taste of the Wild!"
+msgstr "Every day is porrada!"
 
 msgid "cotton_town_description"
-msgstr "A growing force!"
+msgstr "Why wrestle when you can sit down?"
 
 msgid "flower_city_description"
-msgstr "Uniforms that guard you while you sleep!"
+msgstr "Everyone is a professor after one good tournament."
 
 msgid "leather_town_description"
-msgstr "Proof that beauty and mining can co-exist!"
+msgstr "Where pressure makes diamonds and white belts make excuses!"
 
 msgid "paper_town_description"
 msgstr "The gateway to Fondent!"
 
 msgid "routea_description"
-msgstr "A private grotto given over to the wilds!"
+msgstr "Only legends and suspiciously flexible pensioners enter."
 
 msgid "routeb_description"
 msgstr "The winding path to instantaneous communication!"
@@ -4393,22 +4393,22 @@ msgid "routee_description"
 msgstr "Do not swim downstream of the pump site!"
 
 msgid "route1_description"
-msgstr "Take care!"
+msgstr "Every black belt was once lost here."
 
 msgid "route2_description"
-msgstr "The historic path!"
+msgstr "Friends do not wristlock friends. Usually."
 
 msgid "route3_description"
-msgstr "Enjoy the scenic beauty of this 'artificial canyon'."
+msgstr "Some techniques are better left unexplained."
 
 msgid "route4_description"
-msgstr "Up and down the road again!"
+msgstr "Halfway passed, halfway flattened."
 
 msgid "route5_description"
-msgstr "The memorial passage to Timber Town!"
+msgstr "No grips, no problem, plenty of sweat."
 
 msgid "route6_description"
-msgstr "A playful meander along the river!"
+msgstr "The final road to competition glory."
 
 msgid "route7_description"
 msgstr "The Ascension Trail on the slopes of Lion Mountain!"
@@ -4420,13 +4420,13 @@ msgid "obsidian_town_description"
 msgstr "Founded by Shaft. Mining operations ahead."
 
 msgid "taba_town_description"
-msgstr "A peaceful refuge!"
+msgstr "Where every Jiu Jitsu journey begins!"
 
 msgid "timber_town_description"
-msgstr "Breadbasket of Fondant!"
+msgstr "Tap early, tap often and train again tomorrow."
 
 msgid "tunnel_description"
-msgstr "The dark expanse - watch your step!"
+msgstr "The underhook is always deeper underground."
 
 msgid "park_description"
 msgstr "Meet talented competitors and recruit them!"
@@ -9824,12 +9824,7 @@ msgid "kmere"
 msgstr "Director: Come over here. I want to explain what comes next."
 
 msgid "theinfo"
-msgstr ""
-"Director: KOTH records your progress as you challenge academies across the island.\n"
-"\n"
-"Director: Keep improving. Each victory will move you closer to the top.\n"
-"\n"
-"Director: I think the tree blocking Route 1 has now been cleared."
+msgstr "Director: KOTH records your progress as you challenge academies across the island.\n\nDirector: Keep improving. Each victory will move you closer to the top.\n\nDirector: I think the tree blocking White Belt Wilderness has now been cleared."
 
 msgid "liela_goes_to_battle"
 msgstr ""
@@ -9843,24 +9838,19 @@ msgid "Cotton_Mart"
 msgstr "Get the scoop at the Scoop Store!"
 
 msgid "Cotton_Town_Sign"
-msgstr ""
-"Welcome to Cotton Town: A Growing Force\n"
-"\n"
-"â†‘ Cotton Town --- Route 1 â†“"
+msgstr "Welcome to Guard Pull Village: A Growing Force\n\nâ†‘ Guard Pull Village --- White Belt Wilderness â†“"
 
 msgid "taba_town_sign"
-msgstr "Taba Town - A peaceful refuge"
+msgstr "Trial Class Town - Where Every Journey Begins"
 
 msgid "taba_town_route20"
-msgstr "Route 20"
+msgstr "Wristlock Way0"
 
 msgid "column1"
 msgstr "A rare and ancient column. This used to be part of a temple."
 
 msgid "column2"
-msgstr ""
-"A rare and ancient column. Other ruins from the same culture can be found on\n"
-" Route 3. "
+msgstr "A rare and ancient column. Other ruins from the same culture can be found on\n Oil Check Outback. "
 
 msgid "route2speech"
 msgstr "Ah!"
@@ -10866,7 +10856,7 @@ msgid "hiperson4"
 msgstr ".... ... ...."
 
 msgid "hiperson5"
-msgstr "Oh, so you're from Taba Town! Neat!"
+msgstr "Oh, so you're from Trial Class Town! Neat!"
 
 msgid "hiperson6"
 msgstr "Now, who signed your academy papers?"
@@ -10928,9 +10918,7 @@ msgstr ""
 "Today, you get to meet them."
 
 msgid "itsforthefans3"
-msgstr ""
-"From Flower City!\\n\n"
-"The wrestler who never backs up... Speck!"
+msgstr "From Professor Plaza!\\n\nThe wrestler who never backs up... Speck!"
 
 msgid "itsforthefans4"
 msgstr "... .... ..."
@@ -10964,10 +10952,7 @@ msgstr ""
 "The fast-moving guard player, Christie!"
 
 msgid "itsforthefans12"
-msgstr ""
-"And finally, the one everyone in Taba Town is talking about!\\n\n"
-"Newly registered under Sensei Duncan's academy...\\n\n"
-"${{name}}!"
+msgstr "And finally, the one everyone in Trial Class Town is talking about!\\n\nNewly registered under Sensei Duncan's academy...\\n\n${{name}}!"
 
 msgid "abouttababa"
 msgstr ""
@@ -11603,17 +11588,13 @@ msgstr ""
 "The rest has weathered away."
 
 msgid "tabanurse_dialog_welcome"
-msgstr "Welcome to the Taba Town Recovery Centre!"
+msgstr "Welcome to the Trial Class Town Recovery Centre!"
 
 msgid "tabanurse_dialog_taba"
-msgstr ""
-"Welcome to the Taba Town Recovery Centre!\\n\n"
-"Would you like me to patch you up before your next match?"
+msgstr "Welcome to the Trial Class Town Recovery Centre!\\n\nWould you like me to patch you up before your next match?"
 
 msgid "tabanurse_dialog_cotton"
-msgstr ""
-"Welcome to the Cotton Town Recovery Centre!\\n\n"
-"Need to recover before getting back on the mats?"
+msgstr "Welcome to the Guard Pull Village Recovery Centre!\\n\nNeed to recover before getting back on the mats?"
 
 msgid "okaythen"
 msgstr "Perfect! Give me just a moment."
@@ -11638,9 +11619,7 @@ msgid "professorswife_room"
 msgstr "Hey! Don't just walk into someone's room without permission."
 
 msgid "professorswife1"
-msgstr ""
-"I wish Maple would be easier to deal with. Her current attitude will \n"
-"definitely get her in trouble in Cotton Town..."
+msgstr "I wish Maple would be easier to deal with. Her current attitude will \ndefinitely get her in trouble in Guard Pull Village..."
 
 msgid "professorswife2"
 msgstr "Maybe you could check on her and let me know how she's doing?"
@@ -12351,10 +12330,7 @@ msgstr ""
 "right and go straight past the heal center? Thanks!"
 
 msgid "spyder_cottontown_hacker2"
-msgstr ""
-"Right, right!\\n\n"
-"There's a data center along the river to the north-east of Timber Town.\\n\n"
-"If anyone tampered with the ranking network, that's where we'd find the trail."
+msgstr "Right, right!\\n\nThere's a data center along the river to the north-east of Tap City.\\n\nIf anyone tampered with the ranking network, that's where we'd find the trail."
 
 msgid "spyder_pc_alert"
 msgstr "Kernel panic - not syncing: Fatal Machine check"
@@ -12480,12 +12456,7 @@ msgstr ""
 " See the small red sun reflected along the waves of the water?"
 
 msgid "spyder_cottonart_shopkeeper"
-msgstr ""
-"Welcome to the Cotton Town Art Gallery. Ah - I mean Art Shop! \n"
-"\n"
-" Ever since they cut our funding, we've had to sell the artworks instead of just displaying them. \n"
-"\n"
-" Entry is ${{currency}}50. It goes toward the company's annual dividend."
+msgstr "Welcome to the Guard Pull Village Art Gallery. Ah - I mean Art Shop! \n\n Ever since they cut our funding, we've had to sell the artworks instead of just displaying them. \n\n Entry is ${{currency}}50. It goes toward the company's annual dividend."
 
 msgid "spyder_cottonscoop_shopassistant"
 msgstr ""
@@ -12581,15 +12552,13 @@ msgid "spyder_citypark_maniac"
 msgstr "Phew, we're pooped!"
 
 msgid "spyder_citypark_granny"
-msgstr "We'll walk back to Leather Town after a little rest."
+msgstr "We'll walk back to OSS Town after a little rest."
 
 msgid "spyder_citypark_florist"
-msgstr "Enjoy the flower display! It's the pride of Leather Town."
+msgstr "Enjoy the flower display! It's the pride of OSS Town."
 
 msgid "spyder_citypark2_florist"
-msgstr ""
-"The flowers look okay, don't they? ... Ever since the mining began in \n"
-"Leather Town, the flowers have been under the weather!"
+msgstr "The flowers look okay, don't they? ... Ever since the mining began in \nOSS Town, the flowers have been under the weather!"
 
 msgid "spyder_generic_nurse"
 msgstr "Hey, you look tired. Let me help you feel better!"
@@ -12847,10 +12816,7 @@ msgid "spyder_route3_wanda1"
 msgstr "All I ever seem to catch is boring Nudiflot!"
 
 msgid "spyder_route3_wanda2"
-msgstr ""
-"The fishing's good in Flower City - but who wants to walk that far? \n"
-"\n"
-" Here, you can have my Fishing Rod."
+msgstr "The fishing's good in Professor Plaza - but who wants to walk that far? \n\n Here, you can have my Fishing Rod."
 
 msgid "spyder_papertown_danteresting"
 msgstr ""
@@ -12917,13 +12883,7 @@ msgstr ""
 "At least the medical staff responded quickly."
 
 msgid "spyder_wayfarer_maniac"
-msgstr ""
-"My teammates aren't sick! This is just an excuse to sell us recovery treatments we don't need.\\n\n"
-"When I was your age, we trained through everything. Bruises, colds, bad knees, worse ideas...\\n\n"
-"And anyway, I saw the Officers coming down Route 4 before anyone so much as sneezed, so how could...\\n\n"
-"ah ah achoo!\\n\n"
-"...\\n\n"
-"That doesn't mean anything. I have an itchy nose."
+msgstr "My teammates aren't sick! This is just an excuse to sell us recovery treatments we don't need.\\n\nWhen I was your age, we trained through everything. Bruises, colds, bad knees, worse ideas...\\n\nAnd anyway, I saw the Officers coming down Half Guard Highway before anyone so much as sneezed, so how could...\\n\nah ah achoo!\\n\n...\\n\nThat doesn't mean anything. I have an itchy nose."
 
 msgid "spyder_wayfarer1_maniac"
 msgstr "Hey, buddy, do you want my Botbot?"
@@ -13219,7 +13179,7 @@ msgid "spyder_routea_joe2"
 msgstr "'Needs improvement.' Where have I heard that before?"
 
 msgid "spyder_routea_koan1"
-msgstr "Flower City is cold but I like where I'm living."
+msgstr "Professor Plaza is cold but I like where I'm living."
 
 msgid "spyder_routea_koan2"
 msgstr "What can I possibly say?"
@@ -13692,8 +13652,7 @@ msgstr ""
 "Understanding those combinations is the key to mastering Jiu Jitsu."
 
 msgid "spyder_cottonhouse2_catgirl"
-msgstr ""
-"Have you met the old man in City Park? He's obsessed with breaking records!"
+msgstr "Have you met the old man in Porrada Park? He's obsessed with breaking records!"
 
 msgid "spyder_cottonhouse2_shopkeeper"
 msgstr ""
@@ -13702,9 +13661,7 @@ msgstr ""
 " Just don't come after my job, alright?"
 
 msgid "spyder_route5_granny"
-msgstr ""
-"This park is much more salubrious with the Nimrod construction keeping the \n"
-"Flower City riff-raff out. "
+msgstr "This park is much more salubrious with the Nimrod construction keeping the \nProfessor Plaza riff-raff out. "
 
 msgid "spyder_leatherhouse1_florist"
 msgstr ""
@@ -13728,15 +13685,10 @@ msgstr ""
 " Pretty soon, most jobs in the mines will be automated. "
 
 msgid "spyder_leatherhouse2_miner"
-msgstr ""
-"You won't believe what they're digging up in Route 3. \n"
-"\n"
-" I've never seen an egg that big. \n"
-"\n"
-" Oops, I've said too much. "
+msgstr "You won't believe what they're digging up in Oil Check Outback. \n\n I've never seen an egg that big. \n\n Oops, I've said too much. "
 
 msgid "spyder_route1_routesign"
-msgstr "Route 1. Take care!"
+msgstr "White Belt Wilderness. Take care!"
 
 msgid "spyder_flowerhouse1_tv"
 msgstr "Two mons are having a fight. \"I'm not your friend, Budaye\", one says."
@@ -14549,9 +14501,7 @@ msgid "spyder_route6_frances2"
 msgstr "You must come visit some time."
 
 msgid "spyder_route6_ping1"
-msgstr ""
-"Psst, have you heard? The Officers are quarantining competitors from "
-"everyone in Candy Town."
+msgstr "Psst, have you heard? The Officers are quarantining competitors from everyone in King Of The Hill Arena."
 
 msgid "spyder_route6_ping2"
 msgstr ""
@@ -14975,18 +14925,7 @@ msgstr ""
 "If KOTHchannel broadcasts their version of the story, the public may believe it."
 
 msgid "spyder_dragonscave_mallory3"
-msgstr ""
-"The Drokoro is ours! \n"
-"\n"
-" We got Shaft to dig it up from beneath Route 3, and we would have kept it if that infuriating kid hadn't interrupted our plans. \n"
-"\n"
-" It is time for the Pillars to combine their strength and rule this region outright! \n"
-"\n"
-" Too long have we let the Cathedral and the public tell us what can and cannot be done with Tuxemon. \n"
-"\n"
-" When we use Greenwash's fusion technology to combine this Drokoro with the killer robots built by Nimrod, we will be unstoppable! \n"
-"\n"
-" And the best part is, Omnichannel will tell the public that this is all in their best interests - and the public will believe them!"
+msgstr "The Drokoro is ours! \n\n We got Shaft to dig it up from beneath Oil Check Outback, and we would have kept it if that infuriating kid hadn't interrupted our plans. \n\n It is time for the Pillars to combine their strength and rule this region outright! \n\n Too long have we let the Cathedral and the public tell us what can and cannot be done with Tuxemon. \n\n When we use Greenwash's fusion technology to combine this Drokoro with the killer robots built by Nimrod, we will be unstoppable! \n\n And the best part is, Omnichannel will tell the public that this is all in their best interests - and the public will believe them!"
 
 msgid "spyder_dragonscave_benden4"
 msgstr "Please, ${{name}}. If you can't stop these villains, all is lost."
@@ -15516,18 +15455,13 @@ msgstr ""
 " that can only be morphed using their own proprietary technologies!"
 
 msgid "spyder_top_magician1"
-msgstr ""
-"Have you ever been to the Dojo in Flower City?\n"
-"\n"
-" No? A keen battler like you?"
+msgstr "Have you ever been to the Dojo in Professor Plaza?\n\n No? A keen battler like you?"
 
 msgid "spyder_top_magician2"
 msgstr "Well, this should help."
 
 msgid "spyder_top_magician3"
-msgstr ""
-"Head to the Dojo in Flower City and see how your battling skills \n"
-"stack up."
+msgstr "Head to the Dojo in Professor Plaza and see how your battling skills \nstack up."
 
 msgid "spyder_mansion_gillette"
 msgstr "Gillette"
@@ -15778,12 +15712,7 @@ msgstr ""
 "6.20.4."
 
 msgid "spyder_datacenter_billie1"
-msgstr ""
-"Great job, ${{name}}. Looks like someone let their AI out just to spite us.\\n\n"
-"You're making quite a habit of saving the region.\\n\n"
-"You should take a break for a change.\\n\n"
-"I hear there's a new walking trail behind the old Mansion outside Flower City.\\n\n"
-"Might be worth checking out."
+msgstr "Great job, ${{name}}. Looks like someone let their AI out just to spite us.\\n\nYou're making quite a habit of saving the region.\\n\nYou should take a break for a change.\\n\nI hear there's a new walking trail behind the old Mansion outside Professor Plaza.\\n\nMight be worth checking out."
 
 msgid "spyder_box_goldpass1"
 msgstr ""
@@ -16893,9 +16822,7 @@ msgstr ""
 "A rare ancient column. This was once part of the original judo temple."
 
 msgid "spyder_column2_sign"
-msgstr ""
-"It is said BJJ started as Judo. Other ruins from the same culture can be found in \n"
-"Route 3. "
+msgstr "It is said BJJ started as Judo. Other ruins from the same culture can be found in \nOil Check Outback. "
 
 msgid "spyder_ruby_plaque"
 msgstr ""
@@ -17108,7 +17035,7 @@ msgid "spyder_leathercafe_sign"
 msgstr "Open Air Cafe and Marketplace"
 
 msgid "spyder_leathercbd_sign"
-msgstr "Leather Town Business District"
+msgstr "OSS Town Business District"
 
 msgid "spyder_leatherhouse1_radio_morning"
 msgstr "An R&B song is playing. It's called \"Possessuns, Part I\"."
@@ -18187,10 +18114,7 @@ msgstr ""
 "The second is a Captain and he transports people. My niece is playing outside."
 
 msgid "spyder_candyhouse2_captain"
-msgstr ""
-"I'm writing a book about my journey to the Archipelago. It is composed of nine volcanic islands.\n"
-"\n"
-"About 1,400 km (870 mi) west of Paper Town, about 1,500 km (930 mi) north west of Candy Town."
+msgstr "I'm writing a book about my journey to the Archipelago. It is composed of nine volcanic islands.\n\nAbout 1,400 km (870 mi) west of Paper Town, about 1,500 km (930 mi) north west of King Of The Hill Arena."
 
 msgid "spyder_omnichannel_sign"
 msgstr "KOTHchannel HQ: The Official Home of King Of The Hill"
@@ -18549,7 +18473,7 @@ msgid "eclipse_route7_manfred1"
 msgstr "Do you think our lives will ever go back to normal?"
 
 msgid "eclipse_route7_manfred2"
-msgstr "I mean... after Cotton Town."
+msgstr "I mean... after Guard Pull Village."
 
 msgid "eclipse_route7_sordello1"
 msgstr "If you could buy anything you wanted, what would you buy?"
@@ -19486,7 +19410,7 @@ msgid "leather_officer_1"
 msgstr "Road Officer"
 
 msgid "leather_officer_1_checkpoint"
-msgstr "Leather Town is closed to anyone below Purple Belt."
+msgstr "OSS Town is closed to anyone below Purple Belt."
 
 msgid "leather_officer_2"
 msgstr "Road Officer"
@@ -19551,9 +19475,7 @@ msgstr ""
 "You passed the rite of passage.\\nShow that Purple Belt to the officers."
 
 msgid "purple_belt_description"
-msgstr ""
-"Proof that you defeated Scramble Steve and completed the rite of passage to "
-"Leather Town."
+msgstr "Proof that you defeated Scramble Steve and completed the rite of passage to OSS Town."
 
 msgid "jji_leather_checkpoint_verified"
 msgstr ""
@@ -19561,9 +19483,7 @@ msgstr ""
 " a path."
 
 msgid "jji_leather_officer_1_blocked"
-msgstr ""
-"Leather Town is restricted to Purple Belts.\\nComplete the rite of passage "
-"at Scramble Steve's house."
+msgstr "OSS Town is restricted to Purple Belts.\\nComplete the rite of passage at Scramble Steve's house."
 
 msgid "jji_leather_officer_2_blocked"
 msgstr "Nobody passes this checkpoint without a Purple Belt."
@@ -19578,13 +19498,13 @@ msgid "jji_leather_officer_1_open"
 msgstr "Your Purple Belt has been verified. You may proceed."
 
 msgid "jji_leather_officer_2_open"
-msgstr "Checkpoint clear. Leather Town is straight ahead."
+msgstr "Checkpoint clear. OSS Town is straight ahead."
 
 msgid "jji_leather_officer_3_open"
 msgstr "You handled Scramble Steve. You've earned your place."
 
 msgid "jji_leather_officer_4_open"
-msgstr "Welcome to Leather Town."
+msgstr "Welcome to OSS Town."
 
 msgid "brownbelt_tavern_sign"
 msgstr "BrownBelt Tavern Inn"
@@ -20157,17 +20077,13 @@ msgstr ""
 
 # JJI Flower City Black Belt checkpoint
 msgid "jji_flower_city_blackbelt_blocked"
-msgstr ""
-"Officer: Stop. Route 5 is restricted to Black Belts. Complete your "
-"assessment before proceeding."
+msgstr "Officer: Stop. No-Gi Highway is restricted to Black Belts. Complete your assessment before proceeding."
 
 msgid "jji_flower_city_blackbelt_confirmed"
-msgstr ""
-"Officer: Congratulations on earning your Black Belt! Route 5 is now open to "
-"you."
+msgstr "Officer: Congratulations on earning your Black Belt! No-Gi Highway is now open to you."
 
 msgid "jji_flower_city_blackbelt_open"
-msgstr "Officer: Welcome back, Black Belt. Route 5 is open to you."
+msgstr "Officer: Welcome back, Black Belt. No-Gi Highway is open to you."
 
 # JJI King Of The Hill registration item
 msgid "koth_reg_papers"

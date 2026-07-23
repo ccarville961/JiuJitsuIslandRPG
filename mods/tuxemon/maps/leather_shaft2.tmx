@@ -49,7 +49,7 @@
  <objectgroup color="#ffff00" id="6" name="Events">
   <object id="67" name="Go Outside" type="event" x="64" y="144" width="32" height="16">
    <properties>
-    <property name="act1" value="transition_teleport player,leather_town.tmx,22,4,0.3"/>
+    <property name="act1" value="transition_teleport player,oss_town.tmx,22,4,0.3"/>
     <property name="act2" value="char_face player,down"/>
     <property name="cond1" value="is char_at player"/>
     <property name="cond2" value="is char_facing player,down"/>

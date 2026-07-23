@@ -117,7 +117,7 @@
   <objectgroup id="3" name="events">
     <object id="1" name="Exit To Azure Town" type="event" x="240.17" y="303.513" width="16" height="16">
       <properties>
-        <property name="act10" value="transition_teleport player,candy_town.tmx,22,8,0.3" />
+        <property name="act10" value="transition_teleport player,king_of_the_hill_arena.tmx,22,8,0.3" />
         <property name="cond10" value="is char_at player" />
         <property name="cond20" value="is char_facing player,down" />
       </properties>

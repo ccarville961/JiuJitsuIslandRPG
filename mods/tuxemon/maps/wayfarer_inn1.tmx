@@ -90,7 +90,7 @@
   </object>
   <object id="39" name="Teleport to Route 3" type="event" x="160" y="160" width="48" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,route3.tmx,35,5,0.3" />
+    <property name="act10" value="transition_teleport player,oil_check_outback.tmx,35,5,0.3" />
     <property name="act20" value="char_face player,bottom" />
     <property name="cond10" value="is char_at player" />
     <property name="cond20" value="is char_facing player,bottom" />
@@ -98,7 +98,7 @@
   </object>
   <object id="40" name="Teleport to Route 3" type="event" x="176" y="16" width="32" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,route3.tmx,33,1,0.3" />
+    <property name="act10" value="transition_teleport player,oil_check_outback.tmx,33,1,0.3" />
     <property name="act20" value="char_face player,up" />
     <property name="cond10" value="is char_at player" />
     <property name="cond20" value="is char_facing player,up" />

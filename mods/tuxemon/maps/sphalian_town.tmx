@@ -44,7 +44,7 @@
  <objectgroup color="#ffff00" id="3" name="Events">
   <object id="9" name="Go to route 1a" type="event" x="192" y="384" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,route1.tmx,18,6,0.3"/>
+    <property name="act10" value="transition_teleport player,white_belt_wilderness.tmx,18,6,0.3"/>
     <property name="cond10" value="is char_at player"/>
     <property name="cond20" value="is char_facing player,down"/>
    </properties>
@@ -86,7 +86,7 @@
   </object>
   <object id="36" name="go to route1a right" type="event" x="208" y="384" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,route1.tmx,19,6,0.3"/>
+    <property name="act10" value="transition_teleport player,white_belt_wilderness.tmx,19,6,0.3"/>
     <property name="cond10" value="is char_at player"/>
     <property name="cond20" value="is char_facing player,down"/>
    </properties>

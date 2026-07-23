@@ -49,7 +49,7 @@
   <object id="12" name="Exit after Coach Carville" type="event" x="64" y="0" width="64" height="16">
    <properties>
     <property name="act1" value="set_variable badge:yes"/>
-    <property name="act2" value="transition_teleport player,route1.tmx,55,35,0.5"/>
+    <property name="act2" value="transition_teleport player,white_belt_wilderness.tmx,55,35,0.5"/>
     <property name="act3" value="char_face player,down"/>
     <property name="cond1" value="is char_at player"/>
     <property name="cond2" value="is char_facing player,up"/>
