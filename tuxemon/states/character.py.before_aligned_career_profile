@@ -1,0 +1,646 @@
+# SPDX-License-Identifier: GPL-3.0
+# Copyright (c) 2014-2026 William Edwards <shadowapex@gmail.com>, Benjamin Bean <superman2k5@gmail.com>
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, Any, ClassVar
+
+import pygame
+
+from pygame_menu.locals import ALIGN_CENTER, ALIGN_LEFT, POSITION_EAST
+from pygame_menu.menu import Menu
+
+from tuxemon import formula
+from tuxemon.database.runtime import db
+from tuxemon.db import MonsterModel
+from tuxemon.entity.npc import NPC
+from tuxemon.graphics import scale_surface
+from tuxemon.locale.locale import T
+from tuxemon.menu.formatter import CurrencyFormatter
+from tuxemon.menu.menu import PygameMenuState
+from tuxemon.platform.const import buttons
+from tuxemon.platform.const.graphics import BG_PLAYER1, BG_PLAYER2
+from tuxemon.platform.const.sizes import U_KM, U_MI
+from tuxemon.tools import fix_measure, format_playtime
+from tuxemon.tuxepedia.reporter import TuxepediaReporter
+
+if TYPE_CHECKING:
+    from tuxemon.base_client import BaseClient
+    from tuxemon.platform.events import PlayerInput
+
+
+class CharacterState(PygameMenuState):
+    """
+    This state is responsible for the character menu.
+
+    By clicking right, it gives access to the Party Menu.
+
+    Shows details of the character (e.g. monster captured, seen,
+    battles, wallet, etc.).
+    """
+
+    name: ClassVar[str] = "CharacterState"
+
+    def add_menu_items(
+        self,
+        menu: Menu,
+    ) -> None:
+        """Build the RPG-style player profile page."""
+
+        def fxw(ratio: float) -> int:
+            return fix_measure(menu._width, ratio)
+
+        def fxh(ratio: float) -> int:
+            return fix_measure(menu._height, ratio)
+
+        name = (
+            T.translate(self.char.slug)
+            if self.char.name == ""
+            else self.char.name
+        )
+
+        # --------------------------------------------------------------
+        # Live player information
+        # --------------------------------------------------------------
+        money = CurrencyFormatter()
+        amount = self.char.money_controller.money_manager.get_money()
+        wallet = money.format(amount)
+
+        play_time = format_playtime(
+            self.char.session._total_playtime
+        )
+
+        steps = self.char.steps
+        unit = self.client.config.unit_measure
+
+        if unit == "metric":
+            walked = formula.convert_km(steps)
+            unit_walked = U_KM
+        else:
+            walked = formula.convert_mi(steps)
+            unit_walked = U_MI
+
+        walked_text = f"{walked} {unit_walked}"
+
+        battles = 0
+        wins = 0
+        losses = 0
+        draws = 0
+
+        if self.char.battle_handler.get_battles():
+            summary = (
+                self.char.battle_handler
+                .get_battle_outcome_summary()
+            )
+
+            battles = int(summary.get("total", 0))
+            wins = int(summary.get("won", 0))
+            losses = int(summary.get("lost", 0))
+            draws = int(summary.get("draw", 0))
+
+        filters = list(self.cache.values())
+        reporter = TuxepediaReporter(
+            self.char.tuxepedia.data
+        )
+
+        completeness = reporter.get_completeness_report(
+            len(filters)
+        )
+
+        percentage = round(
+            completeness["registered_percent"] * 100,
+            1,
+        )
+
+        if self.char.tuxepedia.data.entries:
+            jitspedia_progress = f"{percentage}%"
+        else:
+            jitspedia_progress = "0%"
+
+        # --------------------------------------------------------------
+        # Cream RPG profile panel
+        # --------------------------------------------------------------
+        panel_width = fxw(0.47)
+        panel_height = fxh(0.59)
+
+        panel = pygame.Surface(
+            (panel_width + 8, panel_height + 9),
+            pygame.SRCALPHA,
+        )
+
+        shadow_colour = (92, 91, 82)
+        outer_border = (91, 94, 91)
+        border_highlight = (218, 233, 220)
+        panel_colour = (218, 216, 191)
+        panel_inner = (224, 222, 199)
+        divider_colour = (112, 114, 108)
+
+        profile_dark = (52, 61, 61)
+        profile_light = (241, 242, 232)
+
+        trophy_gold = (237, 180, 35)
+        trophy_light = (255, 213, 79)
+        trophy_dark = (137, 88, 15)
+
+        progress_red = (206, 64, 53)
+        progress_white = (244, 240, 224)
+        progress_gold = (237, 179, 35)
+
+        shadow = pygame.Rect(
+            6,
+            7,
+            panel_width,
+            panel_height,
+        )
+
+        outer = pygame.Rect(
+            0,
+            0,
+            panel_width,
+            panel_height,
+        )
+
+        pygame.draw.rect(
+            panel,
+            shadow_colour,
+            shadow,
+            border_radius=5,
+        )
+
+        pygame.draw.rect(
+            panel,
+            outer_border,
+            outer,
+            border_radius=5,
+        )
+
+        inner = pygame.Rect(
+            5,
+            5,
+            panel_width - 10,
+            panel_height - 10,
+        )
+
+        pygame.draw.rect(
+            panel,
+            panel_colour,
+            inner,
+            border_radius=3,
+        )
+
+        highlight = pygame.Rect(
+            inner.x + 3,
+            inner.y + 3,
+            inner.width - 6,
+            inner.height - 6,
+        )
+
+        pygame.draw.rect(
+            panel,
+            border_highlight,
+            highlight,
+            width=2,
+            border_radius=2,
+        )
+
+        content = pygame.Rect(
+            inner.x + 18,
+            inner.y + 15,
+            inner.width - 36,
+            inner.height - 30,
+        )
+
+        pygame.draw.rect(
+            panel,
+            panel_inner,
+            content,
+        )
+
+        section_height = content.height // 3
+        icon_x = content.x + fxw(0.055)
+
+        divider_one = content.y + section_height
+        divider_two = content.y + section_height * 2
+
+        pygame.draw.line(
+            panel,
+            divider_colour,
+            (content.x + 10, divider_one),
+            (content.right - 10, divider_one),
+            2,
+        )
+
+        pygame.draw.line(
+            panel,
+            divider_colour,
+            (content.x + 10, divider_two),
+            (content.right - 10, divider_two),
+            2,
+        )
+
+        # --------------------------------------------------------------
+        # Player/profile icon
+        # --------------------------------------------------------------
+        profile_y = content.y + section_height // 2
+
+        pygame.draw.circle(
+            panel,
+            profile_light,
+            (icon_x, profile_y),
+            fxh(0.042),
+        )
+
+        pygame.draw.circle(
+            panel,
+            profile_dark,
+            (icon_x, profile_y),
+            fxh(0.042),
+            width=3,
+        )
+
+        head_radius = max(6, fxh(0.012))
+
+        pygame.draw.circle(
+            panel,
+            profile_dark,
+            (icon_x, profile_y - fxh(0.014)),
+            head_radius,
+        )
+
+        pygame.draw.ellipse(
+            panel,
+            profile_dark,
+            pygame.Rect(
+                icon_x - fxw(0.022),
+                profile_y + fxh(0.004),
+                fxw(0.044),
+                fxh(0.028),
+            ),
+        )
+
+        # --------------------------------------------------------------
+        # Trophy/career icon
+        # --------------------------------------------------------------
+        career_y = (
+            content.y
+            + section_height
+            + section_height // 2
+        )
+
+        cup = pygame.Rect(
+            icon_x - fxw(0.017),
+            career_y - fxh(0.030),
+            fxw(0.034),
+            fxh(0.038),
+        )
+
+        pygame.draw.rect(
+            panel,
+            trophy_gold,
+            cup,
+            border_radius=5,
+        )
+
+        pygame.draw.rect(
+            panel,
+            trophy_dark,
+            cup,
+            width=3,
+            border_radius=5,
+        )
+
+        pygame.draw.rect(
+            panel,
+            trophy_light,
+            pygame.Rect(
+                cup.x + 5,
+                cup.y + 5,
+                max(6, cup.width - 10),
+                max(4, fxh(0.007)),
+            ),
+            border_radius=2,
+        )
+
+        pygame.draw.arc(
+            panel,
+            trophy_gold,
+            pygame.Rect(
+                cup.x - fxw(0.014),
+                cup.y + 2,
+                fxw(0.020),
+                fxh(0.030),
+            ),
+            1.2,
+            5.1,
+            5,
+        )
+
+        pygame.draw.arc(
+            panel,
+            trophy_gold,
+            pygame.Rect(
+                cup.right - fxw(0.006),
+                cup.y + 2,
+                fxw(0.020),
+                fxh(0.030),
+            ),
+            -1.95,
+            1.95,
+            5,
+        )
+
+        pygame.draw.rect(
+            panel,
+            trophy_gold,
+            pygame.Rect(
+                icon_x - 4,
+                career_y + fxh(0.008),
+                8,
+                fxh(0.018),
+            ),
+        )
+
+        pygame.draw.rect(
+            panel,
+            trophy_gold,
+            pygame.Rect(
+                icon_x - fxw(0.016),
+                career_y + fxh(0.025),
+                fxw(0.032),
+                fxh(0.008),
+            ),
+            border_radius=2,
+        )
+
+        # --------------------------------------------------------------
+        # Progress/target icon
+        # --------------------------------------------------------------
+        progress_y = (
+            content.y
+            + section_height * 2
+            + section_height // 2
+        )
+
+        target_radius = fxh(0.041)
+
+        pygame.draw.circle(
+            panel,
+            progress_red,
+            (icon_x, progress_y),
+            target_radius,
+        )
+
+        pygame.draw.circle(
+            panel,
+            progress_white,
+            (icon_x, progress_y),
+            int(target_radius * 0.72),
+        )
+
+        pygame.draw.circle(
+            panel,
+            progress_red,
+            (icon_x, progress_y),
+            int(target_radius * 0.48),
+        )
+
+        pygame.draw.circle(
+            panel,
+            progress_white,
+            (icon_x, progress_y),
+            int(target_radius * 0.24),
+        )
+
+        pygame.draw.line(
+            panel,
+            progress_gold,
+            (icon_x, progress_y),
+            (
+                icon_x + fxw(0.025),
+                progress_y - fxh(0.028),
+            ),
+            5,
+        )
+
+        panel_image = self._create_image_from_surface(
+            panel
+        )
+
+        panel_widget = menu.add.image(
+            image_path=panel_image.copy()
+        )
+
+        panel_widget.set_float(
+            origin_position=True
+        )
+
+        panel_widget.translate(
+            fxw(0.495),
+            fxh(0.245),
+        )
+
+        # --------------------------------------------------------------
+        # Player sprite on the left
+        # --------------------------------------------------------------
+        character_surface = self.char.combat_sheet.front()
+        scaled_character = scale_surface(
+            character_surface,
+            self.factor,
+        )
+
+        character_image = self._create_image_from_surface(
+            scaled_character
+        )
+
+        character_widget = menu.add.image(
+            image_path=character_image.copy()
+        )
+
+        character_widget.set_float(
+            origin_position=True
+        )
+
+        character_widget.translate(
+            fxw(0.18),
+            fxh(0.08),
+        )
+
+        # --------------------------------------------------------------
+        # Left-side player name
+        # --------------------------------------------------------------
+        menu._auto_centering = False
+
+        name_label: Any = menu.add.label(
+            title=name.upper(),
+            label_id="player_name",
+            font_size=self.font_type.big,
+            align=ALIGN_CENTER,
+            underline=True,
+            float=True,
+        )
+
+        name_label.translate(
+            fxw(0.12),
+            fxh(0.62),
+        )
+
+        # --------------------------------------------------------------
+        # Right-side profile text
+        # --------------------------------------------------------------
+        text_x = 0.635
+
+        def add_profile_label(
+            title: str,
+            label_id: str,
+            x: float,
+            y: float,
+            *,
+            heading: bool = False,
+        ) -> None:
+            label: Any = menu.add.label(
+                title=title,
+                label_id=label_id,
+                font_size=(
+                    self.font_type.big
+                    if heading
+                    else self.font_type.smaller
+                ),
+                align=ALIGN_LEFT,
+                float=True,
+            )
+
+            label.translate(
+                fxw(x),
+                fxh(y),
+            )
+
+        # Section 1: Player.
+        add_profile_label(
+            "PLAYER",
+            "profile_heading",
+            text_x,
+            0.285,
+            heading=True,
+        )
+
+        add_profile_label(
+            name,
+            "profile_name",
+            text_x,
+            0.345,
+        )
+
+        add_profile_label(
+            f"Wallet  : {wallet}",
+            "profile_wallet",
+            text_x,
+            0.395,
+        )
+
+        # Section 2: Career.
+        add_profile_label(
+            "CAREER",
+            "career_heading",
+            text_x,
+            0.475,
+            heading=True,
+        )
+
+        add_profile_label(
+            f"Battles : {battles}",
+            "career_battles",
+            text_x,
+            0.535,
+        )
+
+        add_profile_label(
+            f"Wins    : {wins}",
+            "career_wins",
+            text_x,
+            0.575,
+        )
+
+        add_profile_label(
+            f"Losses  : {losses}",
+            "career_losses",
+            text_x,
+            0.615,
+        )
+
+        add_profile_label(
+            f"Draws   : {draws}",
+            "career_draws",
+            text_x,
+            0.655,
+        )
+
+        # Section 3: Progress.
+        add_profile_label(
+            "PROGRESS",
+            "progress_heading",
+            text_x,
+            0.725,
+            heading=True,
+        )
+
+        add_profile_label(
+            f"Playtime : {play_time}",
+            "progress_playtime",
+            text_x,
+            0.785,
+        )
+
+        add_profile_label(
+            f"Walked   : {walked_text}",
+            "progress_walked",
+            text_x,
+            0.825,
+        )
+
+        add_profile_label(
+            f"Jitspedia: {jitspedia_progress}",
+            "progress_jitspedia",
+            text_x,
+            0.865,
+        )
+
+    def __init__(
+        self,
+        client: BaseClient,
+        character: NPC,
+        **kwargs: Any,
+    ) -> None:
+        MonsterModel.load_cache(db)
+        self.cache = MonsterModel.get_cache()
+
+        width, height = client.context.resolution
+        self.char = character
+
+        bg = (
+            BG_PLAYER2
+            if self.char.monsters and self.char.is_player
+            else BG_PLAYER1
+        )
+
+        super().__init__(client=client, height=height, width=width, **kwargs)
+
+        theme = self._setup_theme(bg)
+        theme.scrollarea_position = POSITION_EAST
+        theme.widget_alignment = ALIGN_CENTER
+        self._menu_config["theme"] = theme
+
+        self.add_menu_items(self.menu)
+        self.reset_theme()
+
+    def process_event(self, event: PlayerInput) -> PlayerInput | None:
+        if (
+            event.button == buttons.RIGHT
+            and event.pressed
+            and self.char.monsters
+        ):
+            self.client.replace_state("PartyState", party=self.char.party)
+        if (
+            event.button in (buttons.BACK, buttons.B, buttons.A)
+            and event.pressed
+        ):
+            self.client.pop_state()
+        return None
