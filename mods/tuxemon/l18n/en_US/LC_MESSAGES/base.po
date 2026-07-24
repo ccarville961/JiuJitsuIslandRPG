@@ -20884,3 +20884,54 @@ msgstr "Why does this one have balls?"
 
 msgid "jji_found_paddys_power_bottle"
 msgstr "You found a Paddy's Power Bottle!"
+
+msgid "jji_wristlock_elder_1"
+msgstr "These pillars are older than every academy on the island."
+
+msgid "jji_wristlock_elder_2"
+msgstr "Long before belts, medals or tournaments, people came here simply to learn."
+
+msgid "jji_wristlock_elder_3"
+msgstr "Skill was not measured by colour. It was measured by humility."
+
+msgid "jji_wristlock_archaeologist_1"
+msgstr "We found carvings beneath one of the broken stones."
+
+msgid "jji_wristlock_archaeologist_2"
+msgstr "They show two grapplers, but neither appears to be trying to hurt the other."
+
+msgid "jji_wristlock_archaeologist_3"
+msgstr "It looks more like teaching than fighting."
+
+msgid "jji_wristlock_old_black_belt_1"
+msgstr "Everyone rushes through Wristlock Way."
+
+msgid "jji_wristlock_old_black_belt_2"
+msgstr "Nobody stops. That is a shame."
+
+msgid "jji_wristlock_old_black_belt_3"
+msgstr "This path reminds us that every black belt once walked slowly."
+
+msgid "jji_wristlock_child_1"
+msgstr "Dad says the strongest fighters on the island used to train here."
+
+msgid "jji_wristlock_child_2"
+msgstr "Looks like a bunch of old rocks to me."
+
+msgid "jji_wristlock_groundskeeper_1"
+msgstr "People think I only look after the weeds."
+
+msgid "jji_wristlock_groundskeeper_2"
+msgstr "Really, I am looking after memories."
+
+msgid "jji_wristlock_groundskeeper_3"
+msgstr "Once these paths disappear, part of the island disappears with them."
+
+msgid "jji_wristlock_traveller_1"
+msgstr "I have visited every academy on JiuJitsu Island."
+
+msgid "jji_wristlock_traveller_2"
+msgstr "Their buildings are impressive, but this place feels important."
+
+msgid "jji_wristlock_traveller_3"
+msgstr "Some places teach techniques. Wristlock Way teaches perspective."
