@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="1" nextobjectid="145">
+<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="1" nextobjectid="157">
  <properties>
   <property name="edges" value="clamped" />
   <property name="scenario" value="xero" />
@@ -464,6 +464,95 @@
     <property name="act40" value="set_variable jji_wristlock_way_paddys_bottle_37_2:collected" />
     <property name="cond10" value="not variable_set jji_wristlock_way_paddys_bottle_37_2:collected" />
     <property name="behav10" value="talk jji_paddys_bottle_wristlock_way_37_2" />
+   </properties>
+  </object>
+  <object id="145" name="Spawn Wristlock Elder Historian" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_wristlock_elder_historian,14,5,stand" />
+    <property name="act20" value="char_face jji_wristlock_elder_historian,down" />
+    <property name="cond10" value="not char_exists jji_wristlock_elder_historian" />
+   </properties>
+  </object>
+  <object id="146" name="Talk Wristlock Elder Historian" type="event" x="224" y="80" width="16" height="16">
+   <properties>
+    <property name="behav10" value="talk jji_wristlock_elder_historian" />
+    <property name="act10" value="translated_dialog jji_wristlock_elder_1" />
+    <property name="act20" value="translated_dialog jji_wristlock_elder_2" />
+    <property name="act30" value="translated_dialog jji_wristlock_elder_3" />
+   </properties>
+  </object>
+  <object id="147" name="Spawn Wristlock Archaeology Student" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_wristlock_archaeology_student,18,8,stand" />
+    <property name="act20" value="char_face jji_wristlock_archaeology_student,left" />
+    <property name="cond10" value="not char_exists jji_wristlock_archaeology_student" />
+   </properties>
+  </object>
+  <object id="148" name="Talk Wristlock Archaeology Student" type="event" x="288" y="128" width="16" height="16">
+   <properties>
+    <property name="behav10" value="talk jji_wristlock_archaeology_student" />
+    <property name="act10" value="translated_dialog jji_wristlock_archaeologist_1" />
+    <property name="act20" value="translated_dialog jji_wristlock_archaeologist_2" />
+    <property name="act30" value="translated_dialog jji_wristlock_archaeologist_3" />
+   </properties>
+  </object>
+  <object id="149" name="Spawn Wristlock Old Black Belt" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_wristlock_old_black_belt,10,15,stand" />
+    <property name="act20" value="char_face jji_wristlock_old_black_belt,right" />
+    <property name="cond10" value="not char_exists jji_wristlock_old_black_belt" />
+   </properties>
+  </object>
+  <object id="150" name="Talk Wristlock Old Black Belt" type="event" x="160" y="240" width="16" height="16">
+   <properties>
+    <property name="behav10" value="talk jji_wristlock_old_black_belt" />
+    <property name="act10" value="translated_dialog jji_wristlock_old_black_belt_1" />
+    <property name="act20" value="translated_dialog jji_wristlock_old_black_belt_2" />
+    <property name="act30" value="translated_dialog jji_wristlock_old_black_belt_3" />
+   </properties>
+  </object>
+  <object id="151" name="Spawn Wristlock Local Child" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_wristlock_local_child,23,14,stand" />
+    <property name="act20" value="char_face jji_wristlock_local_child,down" />
+    <property name="cond10" value="not char_exists jji_wristlock_local_child" />
+   </properties>
+  </object>
+  <object id="152" name="Talk Wristlock Local Child" type="event" x="368" y="224" width="16" height="16">
+   <properties>
+    <property name="behav10" value="talk jji_wristlock_local_child" />
+    <property name="act10" value="translated_dialog jji_wristlock_child_1" />
+    <property name="act20" value="translated_dialog jji_wristlock_child_2" />
+   </properties>
+  </object>
+  <object id="153" name="Spawn Wristlock Groundskeeper" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_wristlock_groundskeeper,30,18,stand" />
+    <property name="act20" value="char_face jji_wristlock_groundskeeper,left" />
+    <property name="cond10" value="not char_exists jji_wristlock_groundskeeper" />
+   </properties>
+  </object>
+  <object id="154" name="Talk Wristlock Groundskeeper" type="event" x="480" y="288" width="16" height="16">
+   <properties>
+    <property name="behav10" value="talk jji_wristlock_groundskeeper" />
+    <property name="act10" value="translated_dialog jji_wristlock_groundskeeper_1" />
+    <property name="act20" value="translated_dialog jji_wristlock_groundskeeper_2" />
+    <property name="act30" value="translated_dialog jji_wristlock_groundskeeper_3" />
+   </properties>
+  </object>
+  <object id="155" name="Spawn Wristlock Travelling Grappler" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_wristlock_travelling_grappler,34,8,stand" />
+    <property name="act20" value="char_face jji_wristlock_travelling_grappler,left" />
+    <property name="cond10" value="not char_exists jji_wristlock_travelling_grappler" />
+   </properties>
+  </object>
+  <object id="156" name="Talk Wristlock Travelling Grappler" type="event" x="544" y="128" width="16" height="16">
+   <properties>
+    <property name="behav10" value="talk jji_wristlock_travelling_grappler" />
+    <property name="act10" value="translated_dialog jji_wristlock_traveller_1" />
+    <property name="act20" value="translated_dialog jji_wristlock_traveller_2" />
+    <property name="act30" value="translated_dialog jji_wristlock_traveller_3" />
    </properties>
   </object>
  </objectgroup>

@@ -1,0 +1,10 @@
+slug: jji_wristlock_archaeology_student
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: shopkeeper
+  combat_sheet: heroine
+  slug: heroine

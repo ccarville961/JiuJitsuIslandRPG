@@ -1,0 +1,11 @@
+slug: jji_wristlock_local_child
+gender: male
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: childactor
+  combat_sheet: heroine
+  slug: childactor
