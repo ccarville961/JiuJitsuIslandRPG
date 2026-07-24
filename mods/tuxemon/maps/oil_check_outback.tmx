@@ -192,5 +192,23 @@
     <property name="cond2" value="is button_pressed INTERACT" />
    </properties>
   </object>
+  <object id="192" name="JJI Spawn - Paddys Bottle Oil Check Outback 2 31" type="event" x="32" y="496" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_paddys_bottle_oil_check_outback_2_31,2,31,stand" />
+    <property name="cond10" value="not char_exists jji_paddys_bottle_oil_check_outback_2_31" />
+    <property name="cond20" value="not variable_set jji_oil_check_outback_paddys_bottle_2_31:collected" />
+   </properties>
+  </object>
+  <object id="193" name="JJI Pickup - Paddys Bottle Oil Check Outback 2 31" type="event" x="32" y="496" width="16" height="16">
+   <properties>
+    <property name="act10" value="add_item potion,1" />
+    <property name="act15" value="play_sound sound_ding,1.0" />
+    <property name="act20" value="translated_dialog jji_found_paddys_power_bottle" />
+    <property name="act30" value="remove_npc jji_paddys_bottle_oil_check_outback_2_31" />
+    <property name="act40" value="set_variable jji_oil_check_outback_paddys_bottle_2_31:collected" />
+    <property name="cond10" value="not variable_set jji_oil_check_outback_paddys_bottle_2_31:collected" />
+    <property name="behav10" value="talk jji_paddys_bottle_oil_check_outback_2_31" />
+   </properties>
+  </object>
  </objectgroup>
 </map>

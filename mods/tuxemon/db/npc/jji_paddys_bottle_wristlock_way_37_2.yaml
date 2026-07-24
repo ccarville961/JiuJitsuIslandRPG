@@ -1,0 +1,10 @@
+slug: jji_paddys_bottle_wristlock_way_37_2
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: jji_paddys_bottle_pickup_v2
+  combat_sheet: knight
+  slug: knight

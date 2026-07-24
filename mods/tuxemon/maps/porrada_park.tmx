@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="132">
+<?xml version='1.0' encoding='UTF-8'?>
+<map version="1.10" tiledversion="git" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="153">
  <properties>
-  <property name="edges" value="clamped"/>
-  <property name="scenario" value="xero"/>
-  <property name="slug" value="porrada_park"/>
-  <property name="map_type" value="route"/>
+  <property name="edges" value="clamped" />
+  <property name="scenario" value="xero" />
+  <property name="slug" value="porrada_park" />
+  <property name="map_type" value="route" />
  </properties>
  <tileset firstgid="1" name="Tileset" tilewidth="16" tileheight="16" tilecount="1600" columns="40">
-  <image source="../gfx/tilesets/Superpowers_Tilesheet.png" width="640" height="640"/>
+  <image source="../gfx/tilesets/Superpowers_Tilesheet.png" width="640" height="640" />
  </tileset>
- <tileset firstgid="1601" source="../gfx/tilesets/core_buildings.tsx"/>
- <tileset firstgid="3951" source="../gfx/tilesets/core_outdoor.tsx"/>
- <tileset firstgid="6726" source="../gfx/tilesets/core_set pieces.tsx"/>
+ <tileset firstgid="1601" source="../gfx/tilesets/core_buildings.tsx" />
+ <tileset firstgid="3951" source="../gfx/tilesets/core_outdoor.tsx" />
+ <tileset firstgid="6726" source="../gfx/tilesets/core_set pieces.tsx" />
  <layer id="1" name="Tile Layer 1" width="40" height="40">
   <data encoding="base64" compression="zlib">
    eAHt1LEJgDAQheG3gSi6npXDOIu6i7hApojWnkVK0UbuhL840gTyePmSVEmJoQMMYOAjA1MtzS9msT0ef9Fq5w7t82xB842NtFu2I2g+r96KpWy9XP3cjVdvJR+rz7und3rHAAYwgAEMYAADGMAABjAQz0DfxcuEk//fyQlEnrz4
@@ -33,702 +33,656 @@
   </data>
  </layer>
  <objectgroup color="#ff0000" id="5" name="Collisions">
-  <object id="1" type="collision" x="0" y="0" width="32" height="640"/>
-  <object id="2" type="collision" x="32" y="0" width="32" height="32"/>
-  <object id="4" type="collision" x="64" y="32" width="192" height="32"/>
-  <object id="5" type="collision" x="256" y="32" width="32" height="16"/>
-  <object id="6" type="collision" x="288" y="32" width="224" height="32"/>
-  <object id="11" type="collision" x="192" y="544" width="448" height="96"/>
-  <object id="12" type="collision" x="608" y="224" width="32" height="320"/>
-  <object id="13" type="collision" x="32" y="608" width="128" height="32"/>
-  <object id="14" type="collision" x="96" y="544" width="96" height="32"/>
-  <object id="17" type="collision" x="208" y="208" width="304" height="32"/>
-  <object id="18" type="collision" x="160" y="144" width="320" height="32"/>
-  <object id="19" type="collision" x="32" y="128" width="464" height="16"/>
-  <object id="20" type="collision" x="176" y="112" width="320" height="16"/>
-  <object id="30" type="collision" x="464" y="176" width="32" height="32"/>
-  <object id="31" type="collision" x="32" y="144" width="112" height="32"/>
-  <object id="32" type="collision" x="608" y="64" width="32" height="96"/>
-  <object id="92" type="collision" x="112" y="288" width="16" height="32"/>
-  <object id="93" type="collision" x="112" y="416" width="16" height="32"/>
-  <object id="94" type="collision" x="496" y="352" width="16" height="32"/>
-  <object id="95" type="collision" x="496" y="272" width="16" height="32"/>
-  <object id="96" type="collision" x="496" y="432" width="16" height="32"/>
-  <object id="97" type="collision" x="608" y="160" width="16" height="16"/>
-  <object id="98" type="collision" x="512" y="48" width="64" height="16"/>
-  <object id="100" type="collision" x="32" y="544" width="32" height="64"/>
-  <object id="114" type="collision" x="32" y="384" width="16" height="16"/>
-  <object id="127" type="collision" x="576" y="32" width="16" height="16"/>
-  <object id="128" type="collision" x="592" y="48" width="16" height="16"/>
-  <object id="130" type="collision" x="96" y="512" width="48" height="32"/>
+  <object id="1" type="collision" x="0" y="0" width="32" height="640" />
+  <object id="2" type="collision" x="32" y="0" width="32" height="32" />
+  <object id="4" type="collision" x="64" y="32" width="192" height="32" />
+  <object id="5" type="collision" x="256" y="32" width="32" height="16" />
+  <object id="6" type="collision" x="288" y="32" width="224" height="32" />
+  <object id="11" type="collision" x="192" y="544" width="448" height="96" />
+  <object id="12" type="collision" x="608" y="224" width="32" height="320" />
+  <object id="13" type="collision" x="32" y="608" width="128" height="32" />
+  <object id="14" type="collision" x="96" y="544" width="96" height="32" />
+  <object id="17" type="collision" x="208" y="208" width="304" height="32" />
+  <object id="18" type="collision" x="160" y="144" width="320" height="32" />
+  <object id="19" type="collision" x="32" y="128" width="464" height="16" />
+  <object id="20" type="collision" x="176" y="112" width="320" height="16" />
+  <object id="30" type="collision" x="464" y="176" width="32" height="32" />
+  <object id="31" type="collision" x="32" y="144" width="112" height="32" />
+  <object id="32" type="collision" x="608" y="64" width="32" height="96" />
+  <object id="92" type="collision" x="112" y="288" width="16" height="32" />
+  <object id="93" type="collision" x="112" y="416" width="16" height="32" />
+  <object id="94" type="collision" x="496" y="352" width="16" height="32" />
+  <object id="95" type="collision" x="496" y="272" width="16" height="32" />
+  <object id="96" type="collision" x="496" y="432" width="16" height="32" />
+  <object id="97" type="collision" x="608" y="160" width="16" height="16" />
+  <object id="98" type="collision" x="512" y="48" width="64" height="16" />
+  <object id="100" type="collision" x="32" y="544" width="32" height="64" />
+  <object id="114" type="collision" x="32" y="384" width="16" height="16" />
+  <object id="127" type="collision" x="576" y="32" width="16" height="16" />
+  <object id="128" type="collision" x="592" y="48" width="16" height="16" />
+  <object id="130" type="collision" x="96" y="512" width="48" height="32" />
  </objectgroup>
  <objectgroup color="#ffff00" id="6" name="Events">
-  <!-- JJI LEATHER CHECKPOINT SMOOTH MOVEMENT -->
   <object id="33" name="random encounter 1" type="event" x="208" y="176" width="128" height="32">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="34" name="encounter 2" type="event" x="144" y="144" width="16" height="48">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="35" name="encounter 3" type="event" x="32" y="176" width="112" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="48" name="encounter 5" type="event" x="304" y="304" width="128" height="128">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="60" name="encounter" type="event" x="480" y="496" width="96" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="61" name="encounter" type="event" x="464" y="512" width="128" height="32">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="62" name="encounter" type="event" x="560" y="96" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="63" name="encounter" type="event" x="592" y="96" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="64" name="encounter" type="event" x="576" y="112" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="65" name="encounter" type="event" x="560" y="128" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="66" name="encounter" type="event" x="592" y="128" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="67" name="encounter" type="event" x="576" y="144" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="68" name="encounter" type="event" x="576" y="176" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="69" name="encounter" type="event" x="592" y="160" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="70" name="encounter" type="event" x="560" y="160" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="71" name="encounter" type="event" x="576" y="208" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="72" name="encounter" type="event" x="592" y="192" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="73" name="encounter" type="event" x="560" y="192" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="74" name="encounter" type="event" x="576" y="240" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="75" name="encounter" type="event" x="592" y="224" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="76" name="encounter" type="event" x="560" y="224" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="77" name="encounter" type="event" x="576" y="272" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="78" name="encounter" type="event" x="592" y="256" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="79" name="encounter" type="event" x="560" y="256" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="80" name="encounter" type="event" x="576" y="304" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="81" name="encounter" type="event" x="592" y="288" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="82" name="encounter" type="event" x="560" y="288" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="83" name="encounter" type="event" x="576" y="336" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="84" name="encounter" type="event" x="592" y="320" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="85" name="encounter" type="event" x="560" y="320" width="16" height="16">
    <properties>
-    <property name="act10" value="random_encounter default_encounter"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_moved player"/>
+    <property name="act10" value="random_encounter default_encounter" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_moved player" />
    </properties>
   </object>
   <object id="86" name="Teleport to Route 2" type="event" x="176" y="624" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,wristlock_way.tmx,11,0,0.3"/>
-    <property name="act20" value="char_face player,down"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,down"/>
+    <property name="act10" value="transition_teleport player,wristlock_way.tmx,11,0,0.3" />
+    <property name="act20" value="char_face player,down" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,down" />
    </properties>
   </object>
   <object id="87" name="Teleport to Route 2" type="event" x="160" y="624" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,wristlock_way.tmx,10,0,0.3"/>
-    <property name="act20" value="char_face player,down"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,down"/>
+    <property name="act10" value="transition_teleport player,wristlock_way.tmx,10,0,0.3" />
+    <property name="act20" value="char_face player,down" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,down" />
    </properties>
   </object>
   <object id="88" name="Teleport to Leather Town" type="event" x="624" y="176" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,oss_town.tmx,0,31,0.3"/>
-    <property name="act20" value="char_face player,right"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,right"/>
+    <property name="act10" value="transition_teleport player,oss_town.tmx,0,31,0.3" />
+    <property name="act20" value="char_face player,right" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,right" />
    </properties>
   </object>
   <object id="89" name="Teleport to Leather Town" type="event" x="624" y="192" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,oss_town.tmx,0,32,0.3"/>
-    <property name="act20" value="char_face player,right"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,right"/>
+    <property name="act10" value="transition_teleport player,oss_town.tmx,0,32,0.3" />
+    <property name="act20" value="char_face player,right" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,right" />
    </properties>
   </object>
   <object id="90" name="Teleport to Leather Town" type="event" x="624" y="208" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,oss_town.tmx,0,33,0.3"/>
-    <property name="act20" value="char_face player,right"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,right"/>
+    <property name="act10" value="transition_teleport player,oss_town.tmx,0,33,0.3" />
+    <property name="act20" value="char_face player,right" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,right" />
    </properties>
   </object>
   <object id="91" name="Play Music" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="play_music music_city_park"/>
-    <property name="cond10" value="not music_playing music_city_park"/>
+    <property name="act10" value="play_music music_city_park" />
+    <property name="cond10" value="not music_playing music_city_park" />
    </properties>
   </object>
   <object id="101" name="Sign: Achievement Maniac's House" type="event" x="512" y="48" width="16" height="16">
    <properties>
-    <property name="act10" value="translated_dialog xero_citypark_achievement"/>
-    <property name="cond10" value="is char_facing_tile player"/>
-    <property name="cond20" value="is button_pressed INTERACT"/>
+    <property name="act10" value="translated_dialog xero_citypark_achievement" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
    </properties>
   </object>
   <object id="102" name="Sign: Leather Town" type="event" x="608" y="160" width="16" height="16">
    <properties>
-    <property name="act10" value="translated_dialog citypark"/>
-    <property name="cond10" value="is char_facing_tile player"/>
-    <property name="cond20" value="is button_pressed INTERACT"/>
+    <property name="act10" value="translated_dialog citypark" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
    </properties>
   </object>
   <object id="111" name="ripjimmy" type="event" x="32" y="384" width="16" height="16">
    <properties>
-    <property name="act10" value="translated_dialog ripjimmy"/>
-    <property name="cond10" value="is char_facing_tile player"/>
-    <property name="cond30" value="is button_pressed INTERACT"/>
+    <property name="act10" value="translated_dialog ripjimmy" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond30" value="is button_pressed INTERACT" />
    </properties>
   </object>
   <object id="112" name="make npcs" type="event" x="48" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="create_npc knight1,12,13,stand"/>
-    <property name="act20" value="char_face knight1,right"/>
-    <property name="act30" value="set_variable firstgo:no"/>
-    <property name="cond10" value="not char_exists knight1"/>
-    <property name="cond20" value="not variable_set firstgo:gone"/>
+    <property name="act10" value="create_npc knight1,12,13,stand" />
+    <property name="act20" value="char_face knight1,right" />
+    <property name="act30" value="set_variable firstgo:no" />
+    <property name="cond10" value="not char_exists knight1" />
+    <property name="cond20" value="not variable_set firstgo:gone" />
    </properties>
   </object>
   <object id="113" name="hurrytalk" type="event" x="176" y="208" width="16" height="16">
    <properties>
-    <property name="act10" value="char_face knight1,left"/>
-    <property name="act20" value="translated_dialog iamknight"/>
-    <property name="act30" value="set_variable firstgo:yes"/>
-    <property name="act40" value="translated_dialog iamknight2"/>
-    <property name="act50" value="translated_dialog_choice mistaken:thats_me,cityparkchoice"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,right"/>
-    <property name="cond30" value="is button_pressed INTERACT"/>
-    <property name="cond40" value="is variable_set firstgo:no"/>
+    <property name="act10" value="char_face knight1,left" />
+    <property name="act20" value="translated_dialog iamknight" />
+    <property name="act30" value="set_variable firstgo:yes" />
+    <property name="act40" value="translated_dialog iamknight2" />
+    <property name="act50" value="translated_dialog_choice mistaken:thats_me,cityparkchoice" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,right" />
+    <property name="cond30" value="is button_pressed INTERACT" />
+    <property name="cond40" value="is variable_set firstgo:no" />
    </properties>
   </object>
   <object id="115" name="hurrytalkmistaken" type="event" x="176" y="208" width="16" height="16">
    <properties>
-    <property name="act10" value="translated_dialog mistakenknight"/>
-    <property name="act20" value="set_variable firstgo:gone"/>
-    <property name="act30" value="set_variable secondgo:yes"/>
-    <property name="cond10" value="is variable_set firstgo:yes"/>
-    <property name="cond20" value="is variable_set cityparkchoice:mistaken"/>
+    <property name="act10" value="translated_dialog mistakenknight" />
+    <property name="act20" value="set_variable firstgo:gone" />
+    <property name="act30" value="set_variable secondgo:yes" />
+    <property name="cond10" value="is variable_set firstgo:yes" />
+    <property name="cond20" value="is variable_set cityparkchoice:mistaken" />
    </properties>
   </object>
   <object id="116" name="hurrytalkyes" type="event" x="176" y="208" width="16" height="16">
    <properties>
-    <property name="act10" value="set_variable firstgo:gone"/>
-    <property name="act20" value="translated_dialog thatsmeknight"/>
-    <property name="act30" value="set_variable secondgo:yes"/>
-    <property name="cond10" value="is variable_set firstgo:yes"/>
-    <property name="cond20" value="is variable_set cityparkchoice:thats_me"/>
+    <property name="act10" value="set_variable firstgo:gone" />
+    <property name="act20" value="translated_dialog thatsmeknight" />
+    <property name="act30" value="set_variable secondgo:yes" />
+    <property name="cond10" value="is variable_set firstgo:yes" />
+    <property name="cond20" value="is variable_set cityparkchoice:thats_me" />
    </properties>
   </object>
   <object id="117" name="hurrytalknow" type="event" x="176" y="208" width="16" height="16">
    <properties>
-    <property name="act10" value="char_face knight1,up"/>
-    <property name="act20" value="wait 0.4"/>
-    <property name="act30" value="char_face knight1,down"/>
-    <property name="act40" value="wait 0.4"/>
-    <property name="act50" value="char_face knight1,left"/>
-    <property name="act60" value="translated_dialog quicklyknight"/>
-    <property name="act70" value="set_variable secondgo:gone"/>
-    <property name="act80" value="set_variable iamsecret:yes"/>
-    <property name="cond10" value="is variable_set secondgo:yes"/>
+    <property name="act10" value="char_face knight1,up" />
+    <property name="act20" value="wait 0.4" />
+    <property name="act30" value="char_face knight1,down" />
+    <property name="act40" value="wait 0.4" />
+    <property name="act50" value="char_face knight1,left" />
+    <property name="act60" value="translated_dialog quicklyknight" />
+    <property name="act70" value="set_variable secondgo:gone" />
+    <property name="act80" value="set_variable iamsecret:yes" />
+    <property name="cond10" value="is variable_set secondgo:yes" />
    </properties>
   </object>
   <object id="118" name="hurrytalksecret" type="event" x="176" y="208" width="16" height="16">
    <properties>
-    <property name="act010" value="translated_dialog quicklyknight2"/>
-    <property name="act020" value="char_face knight1,up"/>
-    <property name="act030" value="wait 0.2"/>
-    <property name="act040" value="char_face knight1,down"/>
-    <property name="act050" value="wait 0.2"/>
-    <property name="act060" value="char_face knight1,left"/>
-    <property name="act070" value="translated_dialog quicklyknight3"/>
-    <property name="act080" value="char_face knight1,right"/>
-    <property name="act090" value="wait 0.3"/>
-    <property name="act100" value="char_face knight1,left"/>
-    <property name="act110" value="translated_dialog quicklyknight4"/>
-    <property name="act120" value="set_variable iamsecret:ohno"/>
-    <property name="cond10" value="is variable_set iamsecret:yes"/>
+    <property name="act010" value="translated_dialog quicklyknight2" />
+    <property name="act020" value="char_face knight1,up" />
+    <property name="act030" value="wait 0.2" />
+    <property name="act040" value="char_face knight1,down" />
+    <property name="act050" value="wait 0.2" />
+    <property name="act060" value="char_face knight1,left" />
+    <property name="act070" value="translated_dialog quicklyknight3" />
+    <property name="act080" value="char_face knight1,right" />
+    <property name="act090" value="wait 0.3" />
+    <property name="act100" value="char_face knight1,left" />
+    <property name="act110" value="translated_dialog quicklyknight4" />
+    <property name="act120" value="set_variable iamsecret:ohno" />
+    <property name="cond10" value="is variable_set iamsecret:yes" />
    </properties>
   </object>
   <object id="119" name="hurrytalkohno" type="event" x="176" y="208" width="16" height="16">
    <properties>
-    <property name="act10" value="char_speed knight1, 5"/>
-    <property name="act20" value="pathfind knight1, 3,15"/>
-    <property name="act30" value="translated_dialog omnichannelarrives"/>
-    <property name="act40" value="set_variable omnichannelhere:here"/>
-    <property name="act50" value="char_face player,left"/>
-    <property name="act60" value="set_variable citypark_stop:done"/>
-    <property name="cond10" value="is variable_set iamsecret:ohno"/>
-    <property name="cond20" value="not variable_set citypark_stop:done"/>
+    <property name="act10" value="char_speed knight1, 5" />
+    <property name="act20" value="pathfind knight1, 3,15" />
+    <property name="act30" value="translated_dialog omnichannelarrives" />
+    <property name="act40" value="set_variable omnichannelhere:here" />
+    <property name="act50" value="char_face player,left" />
+    <property name="act60" value="set_variable citypark_stop:done" />
+    <property name="cond10" value="is variable_set iamsecret:ohno" />
+    <property name="cond20" value="not variable_set citypark_stop:done" />
    </properties>
   </object>
   <object id="123" name="Teleport to Leather Town" type="event" x="624" y="160" width="16" height="16">
    <properties>
-    <property name="act10" value="transition_teleport player,oss_town.tmx,0,30,0.3"/>
-    <property name="act20" value="char_face player,right"/>
-    <property name="cond10" value="is char_at player"/>
-    <property name="cond20" value="is char_facing player,right"/>
-    <property name="cond30" value="is has_item player,purple_belt"/>
+    <property name="act10" value="transition_teleport player,oss_town.tmx,0,30,0.3" />
+    <property name="act20" value="char_face player,right" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="is char_facing player,right" />
+    <property name="cond30" value="is has_item player,purple_belt" />
    </properties>
   </object>
   <object id="124" name="Environment Day" type="event" x="16" y="0" width="16" height="16">
    <properties>
-    <property name="act1" value="set_environment grass"/>
-    <property name="cond1" value="not time_is stage_of_day,equals,night"/>
-    <property name="cond2" value="not environment_is grass"/>
+    <property name="act1" value="set_environment grass" />
+    <property name="cond1" value="not time_is stage_of_day,equals,night" />
+    <property name="cond2" value="not environment_is grass" />
    </properties>
   </object>
   <object id="125" name="Environment Night" type="event" x="32" y="0" width="16" height="16">
    <properties>
-    <property name="act1" value="set_environment night_grass"/>
-    <property name="cond1" value="is time_is stage_of_day,equals,night"/>
-    <property name="cond2" value="not environment_is night_grass"/>
+    <property name="act1" value="set_environment night_grass" />
+    <property name="cond1" value="is time_is stage_of_day,equals,night" />
+    <property name="cond2" value="not environment_is night_grass" />
    </properties>
   </object>
   <object id="126" name="Teleport to Maniac House" type="event" x="576" y="48" width="16" height="16">
    <properties>
-    <property name="act1" value="transition_teleport player,citypark_house1.tmx,6,7,0.3"/>
-    <property name="act2" value="char_face player,up"/>
-    <property name="cond1" value="is char_at player"/>
-    <property name="cond2" value="is char_facing player,up"/>
+    <property name="act1" value="transition_teleport player,citypark_house1.tmx,6,7,0.3" />
+    <property name="act2" value="char_face player,up" />
+    <property name="cond1" value="is char_at player" />
+    <property name="cond2" value="is char_facing player,up" />
    </properties>
   </object>
-  <!-- JJI LEATHER PURPLE BELT CHECKPOINT -->
-  <!-- JJI LEATHER PURPLE BELT CHECKPOINT -->
-
-  <!-- Closed formation before the rite of passage is completed. -->
   <object id="136" name="Create closed Leather Town checkpoint" type="event" x="608" y="160" width="16" height="96">
    <properties>
-    <property name="act10" value="create_npc leather_officer_1,38,11,stand"/>
-    <property name="act20" value="char_face leather_officer_1,left"/>
-    <property name="act30" value="create_npc leather_officer_2,38,12,stand"/>
-    <property name="act40" value="char_face leather_officer_2,left"/>
-    <property name="act50" value="create_npc leather_officer_3,38,13,stand"/>
-    <property name="act60" value="char_face leather_officer_3,left"/>
-    <property name="act70" value="create_npc leather_officer_4,38,14,stand"/>
-    <property name="act80" value="char_face leather_officer_4,left"/>
-    <property name="cond10" value="not char_exists leather_officer_1"/>
-    <property name="cond20" value="not char_exists leather_officer_2"/>
-    <property name="cond30" value="not char_exists leather_officer_3"/>
-    <property name="cond40" value="not char_exists leather_officer_4"/>
-    <property name="cond50" value="not variable_set leather_checkpoint:open"/>
+    <property name="act10" value="create_npc leather_officer_1,38,11,stand" />
+    <property name="act20" value="char_face leather_officer_1,left" />
+    <property name="act30" value="create_npc leather_officer_2,38,12,stand" />
+    <property name="act40" value="char_face leather_officer_2,left" />
+    <property name="act50" value="create_npc leather_officer_3,38,13,stand" />
+    <property name="act60" value="char_face leather_officer_3,left" />
+    <property name="act70" value="create_npc leather_officer_4,38,14,stand" />
+    <property name="act80" value="char_face leather_officer_4,left" />
+    <property name="cond10" value="not char_exists leather_officer_1" />
+    <property name="cond20" value="not char_exists leather_officer_2" />
+    <property name="cond30" value="not char_exists leather_officer_3" />
+    <property name="cond40" value="not char_exists leather_officer_4" />
+    <property name="cond50" value="not variable_set leather_checkpoint:open" />
    </properties>
   </object>
-
-  <!-- Open formation used after the Purple Belt has been verified. -->
   <object id="137" name="Create open Leather Town checkpoint" type="event" x="608" y="144" width="16" height="128">
    <properties>
-    <property name="act10" value="create_npc leather_officer_1,38,10,stand"/>
-    <property name="act20" value="char_face leather_officer_1,left"/>
-
-    <property name="act30" value="create_npc leather_officer_2,38,11,stand"/>
-    <property name="act40" value="char_face leather_officer_2,left"/>
-
-    <property name="act50" value="create_npc leather_officer_3,38,14,stand"/>
-    <property name="act60" value="char_face leather_officer_3,left"/>
-
-    <property name="act70" value="create_npc leather_officer_4,38,15,stand"/>
-    <property name="act80" value="char_face leather_officer_4,left"/>
-
-    <property name="cond10" value="not char_exists leather_officer_1"/>
-    <property name="cond20" value="not char_exists leather_officer_2"/>
-    <property name="cond30" value="not char_exists leather_officer_3"/>
-    <property name="cond40" value="not char_exists leather_officer_4"/>
-    <property name="cond50" value="is variable_set leather_checkpoint:open"/>
+    <property name="act10" value="create_npc leather_officer_1,38,10,stand" />
+    <property name="act20" value="char_face leather_officer_1,left" />
+    <property name="act30" value="create_npc leather_officer_2,38,11,stand" />
+    <property name="act40" value="char_face leather_officer_2,left" />
+    <property name="act50" value="create_npc leather_officer_3,38,14,stand" />
+    <property name="act60" value="char_face leather_officer_3,left" />
+    <property name="act70" value="create_npc leather_officer_4,38,15,stand" />
+    <property name="act80" value="char_face leather_officer_4,left" />
+    <property name="cond10" value="not char_exists leather_officer_1" />
+    <property name="cond20" value="not char_exists leather_officer_2" />
+    <property name="cond30" value="not char_exists leather_officer_3" />
+    <property name="cond40" value="not char_exists leather_officer_4" />
+    <property name="cond50" value="is variable_set leather_checkpoint:open" />
    </properties>
   </object>
-
-  <!-- JJI LEATHER CHECKPOINT BELT CHECK -->
-
-  <!-- JJI LEATHER CHECKPOINT INTERACTION LOGIC -->
-
   <object id="138" name="leather_officer_1 blocks player without Purple Belt" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="translated_dialog jji_leather_officer_1_blocked"/>
-    <property name="behav1" value="talk leather_officer_1"/>
-    <property name="cond10" value="not has_item player,purple_belt"/>
-    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+    <property name="act10" value="translated_dialog jji_leather_officer_1_blocked" />
+    <property name="behav1" value="talk leather_officer_1" />
+    <property name="cond10" value="not has_item player,purple_belt" />
+    <property name="cond20" value="not variable_set leather_checkpoint:open" />
    </properties>
   </object>
-
   <object id="139" name="leather_officer_1 verifies Purple Belt" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="lock_controls"/>
-    <property name="act20" value="translated_dialog jji_leather_checkpoint_verified"/>
-
-    <property name="act30" value="remove_npc leather_officer_1"/>
-    <property name="act40" value="remove_npc leather_officer_2"/>
-    <property name="act50" value="remove_npc leather_officer_3"/>
-    <property name="act60" value="remove_npc leather_officer_4"/>
-
-    <property name="act70" value="create_npc leather_officer_1,38,10,stand"/>
-    <property name="act80" value="char_face leather_officer_1,left"/>
-
-    <property name="act90" value="create_npc leather_officer_2,38,11,stand"/>
-    <property name="act100" value="char_face leather_officer_2,left"/>
-
-    <property name="act110" value="create_npc leather_officer_3,38,14,stand"/>
-    <property name="act120" value="char_face leather_officer_3,left"/>
-
-    <property name="act130" value="create_npc leather_officer_4,38,15,stand"/>
-    <property name="act140" value="char_face leather_officer_4,left"/>
-
-    <property name="act150" value="set_variable leather_checkpoint:open"/>
-    <property name="act160" value="set_variable leather_checkpoint:moved"/>
-    <property name="act170" value="set_variable leather_checkpoint_layout:v2"/>
-    <property name="act180" value="unlock_controls"/>
-
-    <property name="behav1" value="talk leather_officer_1"/>
-    <property name="cond10" value="is has_item player,purple_belt"/>
-    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+    <property name="act10" value="lock_controls" />
+    <property name="act20" value="translated_dialog jji_leather_checkpoint_verified" />
+    <property name="act30" value="remove_npc leather_officer_1" />
+    <property name="act40" value="remove_npc leather_officer_2" />
+    <property name="act50" value="remove_npc leather_officer_3" />
+    <property name="act60" value="remove_npc leather_officer_4" />
+    <property name="act70" value="create_npc leather_officer_1,38,10,stand" />
+    <property name="act80" value="char_face leather_officer_1,left" />
+    <property name="act90" value="create_npc leather_officer_2,38,11,stand" />
+    <property name="act100" value="char_face leather_officer_2,left" />
+    <property name="act110" value="create_npc leather_officer_3,38,14,stand" />
+    <property name="act120" value="char_face leather_officer_3,left" />
+    <property name="act130" value="create_npc leather_officer_4,38,15,stand" />
+    <property name="act140" value="char_face leather_officer_4,left" />
+    <property name="act150" value="set_variable leather_checkpoint:open" />
+    <property name="act160" value="set_variable leather_checkpoint:moved" />
+    <property name="act170" value="set_variable leather_checkpoint_layout:v2" />
+    <property name="act180" value="unlock_controls" />
+    <property name="behav1" value="talk leather_officer_1" />
+    <property name="cond10" value="is has_item player,purple_belt" />
+    <property name="cond20" value="not variable_set leather_checkpoint:open" />
    </properties>
   </object>
-
   <object id="140" name="leather_officer_1 speaks after checkpoint opens" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="translated_dialog jji_leather_officer_1_open"/>
-    <property name="behav1" value="talk leather_officer_1"/>
-    <property name="cond10" value="is variable_set leather_checkpoint:open"/>
+    <property name="act10" value="translated_dialog jji_leather_officer_1_open" />
+    <property name="behav1" value="talk leather_officer_1" />
+    <property name="cond10" value="is variable_set leather_checkpoint:open" />
    </properties>
   </object>
-
   <object id="141" name="leather_officer_2 blocks player without Purple Belt" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="translated_dialog jji_leather_officer_2_blocked"/>
-    <property name="behav1" value="talk leather_officer_2"/>
-    <property name="cond10" value="not has_item player,purple_belt"/>
-    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+    <property name="act10" value="translated_dialog jji_leather_officer_2_blocked" />
+    <property name="behav1" value="talk leather_officer_2" />
+    <property name="cond10" value="not has_item player,purple_belt" />
+    <property name="cond20" value="not variable_set leather_checkpoint:open" />
    </properties>
   </object>
-
   <object id="142" name="leather_officer_2 verifies Purple Belt" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="lock_controls"/>
-    <property name="act20" value="translated_dialog jji_leather_checkpoint_verified"/>
-
-    <property name="act30" value="remove_npc leather_officer_1"/>
-    <property name="act40" value="remove_npc leather_officer_2"/>
-    <property name="act50" value="remove_npc leather_officer_3"/>
-    <property name="act60" value="remove_npc leather_officer_4"/>
-
-    <property name="act70" value="create_npc leather_officer_1,38,10,stand"/>
-    <property name="act80" value="char_face leather_officer_1,left"/>
-
-    <property name="act90" value="create_npc leather_officer_2,38,11,stand"/>
-    <property name="act100" value="char_face leather_officer_2,left"/>
-
-    <property name="act110" value="create_npc leather_officer_3,38,14,stand"/>
-    <property name="act120" value="char_face leather_officer_3,left"/>
-
-    <property name="act130" value="create_npc leather_officer_4,38,15,stand"/>
-    <property name="act140" value="char_face leather_officer_4,left"/>
-
-    <property name="act150" value="set_variable leather_checkpoint:open"/>
-    <property name="act160" value="set_variable leather_checkpoint:moved"/>
-    <property name="act170" value="set_variable leather_checkpoint_layout:v2"/>
-    <property name="act180" value="unlock_controls"/>
-
-    <property name="behav1" value="talk leather_officer_2"/>
-    <property name="cond10" value="is has_item player,purple_belt"/>
-    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+    <property name="act10" value="lock_controls" />
+    <property name="act20" value="translated_dialog jji_leather_checkpoint_verified" />
+    <property name="act30" value="remove_npc leather_officer_1" />
+    <property name="act40" value="remove_npc leather_officer_2" />
+    <property name="act50" value="remove_npc leather_officer_3" />
+    <property name="act60" value="remove_npc leather_officer_4" />
+    <property name="act70" value="create_npc leather_officer_1,38,10,stand" />
+    <property name="act80" value="char_face leather_officer_1,left" />
+    <property name="act90" value="create_npc leather_officer_2,38,11,stand" />
+    <property name="act100" value="char_face leather_officer_2,left" />
+    <property name="act110" value="create_npc leather_officer_3,38,14,stand" />
+    <property name="act120" value="char_face leather_officer_3,left" />
+    <property name="act130" value="create_npc leather_officer_4,38,15,stand" />
+    <property name="act140" value="char_face leather_officer_4,left" />
+    <property name="act150" value="set_variable leather_checkpoint:open" />
+    <property name="act160" value="set_variable leather_checkpoint:moved" />
+    <property name="act170" value="set_variable leather_checkpoint_layout:v2" />
+    <property name="act180" value="unlock_controls" />
+    <property name="behav1" value="talk leather_officer_2" />
+    <property name="cond10" value="is has_item player,purple_belt" />
+    <property name="cond20" value="not variable_set leather_checkpoint:open" />
    </properties>
   </object>
-
   <object id="143" name="leather_officer_2 speaks after checkpoint opens" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="translated_dialog jji_leather_officer_2_open"/>
-    <property name="behav1" value="talk leather_officer_2"/>
-    <property name="cond10" value="is variable_set leather_checkpoint:open"/>
+    <property name="act10" value="translated_dialog jji_leather_officer_2_open" />
+    <property name="behav1" value="talk leather_officer_2" />
+    <property name="cond10" value="is variable_set leather_checkpoint:open" />
    </properties>
   </object>
-
   <object id="144" name="leather_officer_3 blocks player without Purple Belt" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="translated_dialog jji_leather_officer_3_blocked"/>
-    <property name="behav1" value="talk leather_officer_3"/>
-    <property name="cond10" value="not has_item player,purple_belt"/>
-    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+    <property name="act10" value="translated_dialog jji_leather_officer_3_blocked" />
+    <property name="behav1" value="talk leather_officer_3" />
+    <property name="cond10" value="not has_item player,purple_belt" />
+    <property name="cond20" value="not variable_set leather_checkpoint:open" />
    </properties>
   </object>
-
   <object id="145" name="leather_officer_3 verifies Purple Belt" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="lock_controls"/>
-    <property name="act20" value="translated_dialog jji_leather_checkpoint_verified"/>
-
-    <property name="act30" value="remove_npc leather_officer_1"/>
-    <property name="act40" value="remove_npc leather_officer_2"/>
-    <property name="act50" value="remove_npc leather_officer_3"/>
-    <property name="act60" value="remove_npc leather_officer_4"/>
-
-    <property name="act70" value="create_npc leather_officer_1,38,10,stand"/>
-    <property name="act80" value="char_face leather_officer_1,left"/>
-
-    <property name="act90" value="create_npc leather_officer_2,38,11,stand"/>
-    <property name="act100" value="char_face leather_officer_2,left"/>
-
-    <property name="act110" value="create_npc leather_officer_3,38,14,stand"/>
-    <property name="act120" value="char_face leather_officer_3,left"/>
-
-    <property name="act130" value="create_npc leather_officer_4,38,15,stand"/>
-    <property name="act140" value="char_face leather_officer_4,left"/>
-
-    <property name="act150" value="set_variable leather_checkpoint:open"/>
-    <property name="act160" value="set_variable leather_checkpoint:moved"/>
-    <property name="act170" value="set_variable leather_checkpoint_layout:v2"/>
-    <property name="act180" value="unlock_controls"/>
-
-    <property name="behav1" value="talk leather_officer_3"/>
-    <property name="cond10" value="is has_item player,purple_belt"/>
-    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+    <property name="act10" value="lock_controls" />
+    <property name="act20" value="translated_dialog jji_leather_checkpoint_verified" />
+    <property name="act30" value="remove_npc leather_officer_1" />
+    <property name="act40" value="remove_npc leather_officer_2" />
+    <property name="act50" value="remove_npc leather_officer_3" />
+    <property name="act60" value="remove_npc leather_officer_4" />
+    <property name="act70" value="create_npc leather_officer_1,38,10,stand" />
+    <property name="act80" value="char_face leather_officer_1,left" />
+    <property name="act90" value="create_npc leather_officer_2,38,11,stand" />
+    <property name="act100" value="char_face leather_officer_2,left" />
+    <property name="act110" value="create_npc leather_officer_3,38,14,stand" />
+    <property name="act120" value="char_face leather_officer_3,left" />
+    <property name="act130" value="create_npc leather_officer_4,38,15,stand" />
+    <property name="act140" value="char_face leather_officer_4,left" />
+    <property name="act150" value="set_variable leather_checkpoint:open" />
+    <property name="act160" value="set_variable leather_checkpoint:moved" />
+    <property name="act170" value="set_variable leather_checkpoint_layout:v2" />
+    <property name="act180" value="unlock_controls" />
+    <property name="behav1" value="talk leather_officer_3" />
+    <property name="cond10" value="is has_item player,purple_belt" />
+    <property name="cond20" value="not variable_set leather_checkpoint:open" />
    </properties>
   </object>
-
   <object id="146" name="leather_officer_3 speaks after checkpoint opens" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="translated_dialog jji_leather_officer_3_open"/>
-    <property name="behav1" value="talk leather_officer_3"/>
-    <property name="cond10" value="is variable_set leather_checkpoint:open"/>
+    <property name="act10" value="translated_dialog jji_leather_officer_3_open" />
+    <property name="behav1" value="talk leather_officer_3" />
+    <property name="cond10" value="is variable_set leather_checkpoint:open" />
    </properties>
   </object>
-
   <object id="147" name="leather_officer_4 blocks player without Purple Belt" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="translated_dialog jji_leather_officer_4_blocked"/>
-    <property name="behav1" value="talk leather_officer_4"/>
-    <property name="cond10" value="not has_item player,purple_belt"/>
-    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+    <property name="act10" value="translated_dialog jji_leather_officer_4_blocked" />
+    <property name="behav1" value="talk leather_officer_4" />
+    <property name="cond10" value="not has_item player,purple_belt" />
+    <property name="cond20" value="not variable_set leather_checkpoint:open" />
    </properties>
   </object>
-
   <object id="148" name="leather_officer_4 verifies Purple Belt" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="lock_controls"/>
-    <property name="act20" value="translated_dialog jji_leather_checkpoint_verified"/>
-
-    <property name="act30" value="remove_npc leather_officer_1"/>
-    <property name="act40" value="remove_npc leather_officer_2"/>
-    <property name="act50" value="remove_npc leather_officer_3"/>
-    <property name="act60" value="remove_npc leather_officer_4"/>
-
-    <property name="act70" value="create_npc leather_officer_1,38,10,stand"/>
-    <property name="act80" value="char_face leather_officer_1,left"/>
-
-    <property name="act90" value="create_npc leather_officer_2,38,11,stand"/>
-    <property name="act100" value="char_face leather_officer_2,left"/>
-
-    <property name="act110" value="create_npc leather_officer_3,38,14,stand"/>
-    <property name="act120" value="char_face leather_officer_3,left"/>
-
-    <property name="act130" value="create_npc leather_officer_4,38,15,stand"/>
-    <property name="act140" value="char_face leather_officer_4,left"/>
-
-    <property name="act150" value="set_variable leather_checkpoint:open"/>
-    <property name="act160" value="set_variable leather_checkpoint:moved"/>
-    <property name="act170" value="set_variable leather_checkpoint_layout:v2"/>
-    <property name="act180" value="unlock_controls"/>
-
-    <property name="behav1" value="talk leather_officer_4"/>
-    <property name="cond10" value="is has_item player,purple_belt"/>
-    <property name="cond20" value="not variable_set leather_checkpoint:open"/>
+    <property name="act10" value="lock_controls" />
+    <property name="act20" value="translated_dialog jji_leather_checkpoint_verified" />
+    <property name="act30" value="remove_npc leather_officer_1" />
+    <property name="act40" value="remove_npc leather_officer_2" />
+    <property name="act50" value="remove_npc leather_officer_3" />
+    <property name="act60" value="remove_npc leather_officer_4" />
+    <property name="act70" value="create_npc leather_officer_1,38,10,stand" />
+    <property name="act80" value="char_face leather_officer_1,left" />
+    <property name="act90" value="create_npc leather_officer_2,38,11,stand" />
+    <property name="act100" value="char_face leather_officer_2,left" />
+    <property name="act110" value="create_npc leather_officer_3,38,14,stand" />
+    <property name="act120" value="char_face leather_officer_3,left" />
+    <property name="act130" value="create_npc leather_officer_4,38,15,stand" />
+    <property name="act140" value="char_face leather_officer_4,left" />
+    <property name="act150" value="set_variable leather_checkpoint:open" />
+    <property name="act160" value="set_variable leather_checkpoint:moved" />
+    <property name="act170" value="set_variable leather_checkpoint_layout:v2" />
+    <property name="act180" value="unlock_controls" />
+    <property name="behav1" value="talk leather_officer_4" />
+    <property name="cond10" value="is has_item player,purple_belt" />
+    <property name="cond20" value="not variable_set leather_checkpoint:open" />
    </properties>
   </object>
-
   <object id="149" name="leather_officer_4 speaks after checkpoint opens" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="translated_dialog jji_leather_officer_4_open"/>
-    <property name="behav1" value="talk leather_officer_4"/>
-    <property name="cond10" value="is variable_set leather_checkpoint:open"/>
+    <property name="act10" value="translated_dialog jji_leather_officer_4_open" />
+    <property name="behav1" value="talk leather_officer_4" />
+    <property name="cond10" value="is variable_set leather_checkpoint:open" />
    </properties>
   </object>
-
-  <!-- JJI LEATHER CHECKPOINT V2 MIGRATION -->
   <object id="150" name="Migrate Leather checkpoint to open layout" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="act10" value="remove_npc leather_officer_1"/>
-    <property name="act20" value="remove_npc leather_officer_2"/>
-    <property name="act30" value="remove_npc leather_officer_3"/>
-    <property name="act40" value="remove_npc leather_officer_4"/>
-
-    <property name="act50" value="create_npc leather_officer_1,38,10,stand"/>
-    <property name="act60" value="char_face leather_officer_1,left"/>
-
-    <property name="act70" value="create_npc leather_officer_2,38,11,stand"/>
-    <property name="act80" value="char_face leather_officer_2,left"/>
-
-    <property name="act90" value="create_npc leather_officer_3,38,14,stand"/>
-    <property name="act100" value="char_face leather_officer_3,left"/>
-
-    <property name="act110" value="create_npc leather_officer_4,38,15,stand"/>
-    <property name="act120" value="char_face leather_officer_4,left"/>
-
-    <property name="act130" value="set_variable leather_checkpoint_layout:v2"/>
-
-    <property name="cond10" value="is variable_set leather_checkpoint:open"/>
-    <property name="cond20" value="not variable_set leather_checkpoint_layout:v2"/>
+    <property name="act10" value="remove_npc leather_officer_1" />
+    <property name="act20" value="remove_npc leather_officer_2" />
+    <property name="act30" value="remove_npc leather_officer_3" />
+    <property name="act40" value="remove_npc leather_officer_4" />
+    <property name="act50" value="create_npc leather_officer_1,38,10,stand" />
+    <property name="act60" value="char_face leather_officer_1,left" />
+    <property name="act70" value="create_npc leather_officer_2,38,11,stand" />
+    <property name="act80" value="char_face leather_officer_2,left" />
+    <property name="act90" value="create_npc leather_officer_3,38,14,stand" />
+    <property name="act100" value="char_face leather_officer_3,left" />
+    <property name="act110" value="create_npc leather_officer_4,38,15,stand" />
+    <property name="act120" value="char_face leather_officer_4,left" />
+    <property name="act130" value="set_variable leather_checkpoint_layout:v2" />
+    <property name="cond10" value="is variable_set leather_checkpoint:open" />
+    <property name="cond20" value="not variable_set leather_checkpoint_layout:v2" />
    </properties>
   </object>
-
+  <object id="151" name="JJI Spawn - Paddys Bottle Porrada Park 28 11" type="event" x="448" y="176" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_paddys_bottle_porrada_park_28_11,28,11,stand" />
+    <property name="cond10" value="not char_exists jji_paddys_bottle_porrada_park_28_11" />
+    <property name="cond20" value="not variable_set jji_porrada_park_paddys_bottle_28_11:collected" />
+   </properties>
+  </object>
+  <object id="152" name="JJI Pickup - Paddys Bottle Porrada Park 28 11" type="event" x="448" y="176" width="16" height="16">
+   <properties>
+    <property name="act10" value="add_item potion,1" />
+    <property name="act15" value="play_sound sound_ding,1.0" />
+    <property name="act20" value="translated_dialog jji_found_paddys_power_bottle" />
+    <property name="act30" value="remove_npc jji_paddys_bottle_porrada_park_28_11" />
+    <property name="act40" value="set_variable jji_porrada_park_paddys_bottle_28_11:collected" />
+    <property name="cond10" value="not variable_set jji_porrada_park_paddys_bottle_28_11:collected" />
+    <property name="behav10" value="talk jji_paddys_bottle_porrada_park_28_11" />
+   </properties>
+  </object>
  </objectgroup>
 </map>

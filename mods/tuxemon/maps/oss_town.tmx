@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="109">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="111">
  <properties>
   <property name="edges" value="clamped" />
   <property name="map_type" value="town" />
@@ -276,6 +276,24 @@
     <property name="cond20" value="is char_facing player,up" />
     <property name="act10" value="transition_teleport player,leather_cathedral.tmx,6,10,0.3" />
     <property name="act20" value="char_face player,up" />
+   </properties>
+  </object>
+  <object id="109" name="JJI Spawn - Paddys Bottle Oss Town 37 14" type="event" x="592" y="224" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_paddys_bottle_oss_town_37_14,37,14,stand" />
+    <property name="cond10" value="not char_exists jji_paddys_bottle_oss_town_37_14" />
+    <property name="cond20" value="not variable_set jji_oss_town_paddys_bottle_37_14:collected" />
+   </properties>
+  </object>
+  <object id="110" name="JJI Pickup - Paddys Bottle Oss Town 37 14" type="event" x="592" y="224" width="16" height="16">
+   <properties>
+    <property name="act10" value="add_item potion,1" />
+    <property name="act15" value="play_sound sound_ding,1.0" />
+    <property name="act20" value="translated_dialog jji_found_paddys_power_bottle" />
+    <property name="act30" value="remove_npc jji_paddys_bottle_oss_town_37_14" />
+    <property name="act40" value="set_variable jji_oss_town_paddys_bottle_37_14:collected" />
+    <property name="cond10" value="not variable_set jji_oss_town_paddys_bottle_37_14:collected" />
+    <property name="behav10" value="talk jji_paddys_bottle_oss_town_37_14" />
    </properties>
   </object>
  </objectgroup>

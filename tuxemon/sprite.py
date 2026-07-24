@@ -951,6 +951,19 @@ class VisualSpriteList(RelativeGroup[_MenuElement]):
             index_type = "tb" if index_type == "lr" else "lr"
 
         visible = list(self._visible_indices())
+        # The menu contents may change while retaining an old selected
+        # index. For example, a hidden or removed save-slot button can
+        # leave selected_index pointing to an item that is no longer in
+        # the visible list.
+        #
+        # Recover by selecting the first currently visible item instead
+        # of crashing with ValueError.
+        if not visible:
+            return index
+
+        if index not in visible:
+            index = visible[0]
+
         local_index = visible.index(index)
 
         if self.rectangular:

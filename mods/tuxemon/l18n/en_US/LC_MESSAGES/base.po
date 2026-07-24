@@ -20881,3 +20881,6 @@ msgstr "Nice boobs."
 
 msgid "jji_turnbull_statue"
 msgstr "Why does this one have balls?"
+
+msgid "jji_found_paddys_power_bottle"
+msgstr "You found a Paddy's Power Bottle!"

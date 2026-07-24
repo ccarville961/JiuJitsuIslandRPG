@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="235">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="237">
  <properties>
   <property name="edges" value="clamped" />
   <property name="map_type" value="town" />
@@ -307,6 +307,24 @@
     <property name="cond20" value="is char_facing player,up" />
     <property name="act10" value="transition_teleport player,flower_scoop.tmx,5,10,0.3" />
     <property name="act20" value="char_face player,up" />
+   </properties>
+  </object>
+  <object id="235" name="JJI Spawn - Paddys Bottle Professor Plaza 15 28" type="event" x="240" y="448" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_paddys_bottle_professor_plaza_15_28,15,28,stand" />
+    <property name="cond10" value="not char_exists jji_paddys_bottle_professor_plaza_15_28" />
+    <property name="cond20" value="not variable_set jji_professor_plaza_paddys_bottle_15_28:collected" />
+   </properties>
+  </object>
+  <object id="236" name="JJI Pickup - Paddys Bottle Professor Plaza 15 28" type="event" x="240" y="448" width="16" height="16">
+   <properties>
+    <property name="act10" value="add_item potion,1" />
+    <property name="act15" value="play_sound sound_ding,1.0" />
+    <property name="act20" value="translated_dialog jji_found_paddys_power_bottle" />
+    <property name="act30" value="remove_npc jji_paddys_bottle_professor_plaza_15_28" />
+    <property name="act40" value="set_variable jji_professor_plaza_paddys_bottle_15_28:collected" />
+    <property name="cond10" value="not variable_set jji_professor_plaza_paddys_bottle_15_28:collected" />
+    <property name="behav10" value="talk jji_paddys_bottle_professor_plaza_15_28" />
    </properties>
   </object>
  </objectgroup>

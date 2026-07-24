@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="208">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="210">
  <properties>
   <property name="edges" value="clamped" />
   <property name="map_type" value="town" />
@@ -198,6 +198,24 @@
     <property name="act20" value="char_face player,up" />
     <property name="cond10" value="is char_at player" />
     <property name="cond20" value="is char_facing player,up" />
+   </properties>
+  </object>
+  <object id="208" name="JJI Spawn - Paddys Bottle Tap City 27 37" type="event" x="432" y="592" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_paddys_bottle_tap_city_27_37,27,37,stand" />
+    <property name="cond10" value="not char_exists jji_paddys_bottle_tap_city_27_37" />
+    <property name="cond20" value="not variable_set jji_tap_city_paddys_bottle_27_37:collected" />
+   </properties>
+  </object>
+  <object id="209" name="JJI Pickup - Paddys Bottle Tap City 27 37" type="event" x="432" y="592" width="16" height="16">
+   <properties>
+    <property name="act10" value="add_item potion,1" />
+    <property name="act15" value="play_sound sound_ding,1.0" />
+    <property name="act20" value="translated_dialog jji_found_paddys_power_bottle" />
+    <property name="act30" value="remove_npc jji_paddys_bottle_tap_city_27_37" />
+    <property name="act40" value="set_variable jji_tap_city_paddys_bottle_27_37:collected" />
+    <property name="cond10" value="not variable_set jji_tap_city_paddys_bottle_27_37:collected" />
+    <property name="behav10" value="talk jji_paddys_bottle_tap_city_27_37" />
    </properties>
   </object>
  </objectgroup>
