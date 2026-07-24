@@ -20935,3 +20935,6 @@ msgstr "Their buildings are impressive, but this place feels important."
 
 msgid "jji_wristlock_traveller_3"
 msgstr "Some places teach techniques. Wristlock Way teaches perspective."
+
+msgid "jji_oss_oil_check_outback_sign"
+msgstr "Route to Oil Check Outback."

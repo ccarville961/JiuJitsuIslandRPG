@@ -2367,6 +2367,9 @@ msgstr "Tuxecenter - Ein Ort, um Ihre tuxemon zu heilen"
 msgid "leather_town_open_air"
 msgstr "Open Air Cafe und Marktplatz"
 
+msgid "jji_oss_oil_check_outback_sign"
+msgstr "Route to Oil Check Outback"
+
 msgid "taba_town_homeplace"
 msgstr "${{name}}'s Haus"
 
