@@ -298,10 +298,9 @@
   </object>
   <object id="111" name="Spawn D1 Glenn" type="event" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="cond10" value="not char_exists d1_glenn" />
     <property name="act10" value="create_npc d1_glenn,35,21,stand" />
-    <property name="act20" value="add_monster d1_glenn,50,d1_glenn" />
-    <property name="act30" value="char_face d1_glenn,down" />
+    <property name="act20" value="char_face d1_glenn,down" />
+    <property name="cond10" value="not char_exists d1_glenn" />
    </properties>
   </object>
   <object id="112" name="Battle D1 Glenn" type="event" x="560" y="336" width="16" height="16">

@@ -11933,7 +11933,7 @@ msgid "taba_town_sign_tuxecenter"
 msgstr "Recovery Centre"
 
 msgid "leather_town_open_air"
-msgstr "Open Air Cafe and Marketplace"
+msgstr "Beware of aggressive wrestler!"
 
 msgid "xero_citypark_achievement"
 msgstr "Scramble Steve's House"

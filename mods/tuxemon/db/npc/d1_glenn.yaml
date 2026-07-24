@@ -1,0 +1,10 @@
+slug: d1_glenn
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: d1_glenn
+  combat_sheet: adventurer
+  slug: adventurer
