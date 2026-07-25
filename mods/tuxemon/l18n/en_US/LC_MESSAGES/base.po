@@ -21022,3 +21022,19 @@ msgstr "And we all know the saying: if one man can hold you down... you get the 
 
 msgid "jji_oss_unhinged_wrestler_warning"
 msgstr "WARNING: Unhinged wrestler ahead! Two kids somehow fought their way through him, but everyone else should proceed carefully."
+
+# JJI tunnel story officer dialogue
+msgid "jji_tun_atlas_1"
+msgstr "Officer: Keep your eyes open. We're searching every tunnel and back road for Coach Atlas."
+
+# JJI tunnel story officer dialogue
+msgid "jji_tun_atlas_2"
+msgstr "Officer: Someone has been helping him move between towns without being seen."
+
+# JJI tunnel story officer dialogue
+msgid "jji_tun_koth_1"
+msgstr "Officer: Kyle and Christie passed through here not long ago. They're heading for the King Of The Hill Arena."
+
+# JJI tunnel story officer dialogue
+msgid "jji_tun_koth_2"
+msgstr "Officer: You're almost there yourself. Keep following this tunnel and you'll reach the arena."
