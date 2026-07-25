@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="196">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="200">
  <properties>
   <property name="edges" value="clamped" />
   <property name="map_type" value="route" />
   <property name="scenario" value="xero" />
   <property name="slug" value="oil_check_outback" />
+  <property name="environment" value="desert" />
  </properties>
  <tileset firstgid="1" source="../gfx/tilesets/core_city_and_country.tsx" />
  <tileset firstgid="1441" name="Superpowers_Tilesheet" tilewidth="16" tileheight="16" tilecount="1600" columns="40">
@@ -173,16 +174,16 @@
   </object>
   <object id="178" name="Environment Day" type="event" x="16" y="0" width="16" height="16">
    <properties>
-    <property name="act1" value="set_environment grass" />
+    <property name="act1" value="set_environment desert" />
     <property name="cond1" value="not time_is stage_of_day,equals,night" />
-    <property name="cond2" value="not environment_is grass" />
+    <property name="cond2" value="not environment_is desert" />
    </properties>
   </object>
   <object id="179" name="Environment Night" type="event" x="32" y="0" width="16" height="16">
    <properties>
-    <property name="act1" value="set_environment night_grass" />
+    <property name="act1" value="set_environment night_desert" />
     <property name="cond1" value="is time_is stage_of_day,equals,night" />
-    <property name="cond2" value="not environment_is night_grass" />
+    <property name="cond2" value="not environment_is night_desert" />
    </properties>
   </object>
   <object id="191" name="Sign: BrownBelt Inn" type="event" x="496" y="32" width="16" height="16">
@@ -230,6 +231,38 @@
     <property name="act90" value="unlock_controls" />
     <property name="cond10" value="is char_at player" />
     <property name="cond20" value="not variable_set jji_oil_check_patrol_warning:complete" />
+   </properties>
+  </object>
+  <object id="196" name="JJI Oil Check Naked Grappler Encounter 1" type="event" x="48" y="160" width="288" height="160">
+   <properties>
+    <property name="act1" value="random_encounter oil_check_outback,11" />
+    <property name="act2" value="play_map_animation grass,0.1,noloop,player" />
+    <property name="cond1" value="is char_at player" />
+    <property name="cond2" value="is char_moved player" />
+   </properties>
+  </object>
+  <object id="197" name="JJI Oil Check Naked Grappler Encounter 2" type="event" x="336" y="160" width="240" height="160">
+   <properties>
+    <property name="act1" value="random_encounter oil_check_outback,11" />
+    <property name="act2" value="play_map_animation grass,0.1,noloop,player" />
+    <property name="cond1" value="is char_at player" />
+    <property name="cond2" value="is char_moved player" />
+   </properties>
+  </object>
+  <object id="198" name="JJI Oil Check Naked Grappler Encounter 3" type="event" x="80" y="320" width="240" height="160">
+   <properties>
+    <property name="act1" value="random_encounter oil_check_outback,11" />
+    <property name="act2" value="play_map_animation grass,0.1,noloop,player" />
+    <property name="cond1" value="is char_at player" />
+    <property name="cond2" value="is char_moved player" />
+   </properties>
+  </object>
+  <object id="199" name="JJI Oil Check Naked Grappler Encounter 4" type="event" x="320" y="320" width="256" height="160">
+   <properties>
+    <property name="act1" value="random_encounter oil_check_outback,11" />
+    <property name="act2" value="play_map_animation grass,0.1,noloop,player" />
+    <property name="cond1" value="is char_at player" />
+    <property name="cond2" value="is char_moved player" />
    </properties>
   </object>
  </objectgroup>
