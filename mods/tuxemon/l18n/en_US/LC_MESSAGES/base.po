@@ -21010,3 +21010,15 @@ msgstr "She told me to stay away from Oil Check Outback."
 
 msgid "jji_oss_child_3"
 msgstr "I still wonder what is out there."
+
+msgid "jji_oil_check_officer_warning_1"
+msgstr "Hold it! Be really careful beyond this point."
+
+msgid "jji_oil_check_officer_warning_2"
+msgstr "There are rear naked grapplers wandering around out there."
+
+msgid "jji_oil_check_officer_warning_3"
+msgstr "And we all know the saying: if one man can hold you down... you get the point."
+
+msgid "jji_oss_unhinged_wrestler_warning"
+msgstr "WARNING: Unhinged wrestler ahead! Two kids somehow fought their way through him, but everyone else should proceed carefully."
