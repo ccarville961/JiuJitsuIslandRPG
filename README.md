@@ -1,144 +1,146 @@
-Tuxemon
-==============
+# 🥋 JiuJitsu Island RPG
 
-Tuxemon is a free, open source monster-fighting RPG. It's in constant
-development and improving all the time! Contributors of all skill and
-level are welcome to join. 
+<p align="center">
+<img src="docs/images/logo.png" width="600">
+</p>
 
-![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)
-![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
-[![Documentation Status](https://readthedocs.org/projects/tuxemon/badge/?version=latest)](https://tuxemon.readthedocs.io/en/latest/?badge=latest)
+<p align="center">
 
-[![Discord](https://img.shields.io/badge/Discord-join-blue?logo=discord&logoColor=white)](https://discord.gg/3ZffZwz)
-[![Website](https://img.shields.io/badge/website-tuxemon.org-blue)](https://www.tuxemon.org)
-[![Reddit](https://img.shields.io/reddit/subreddit-subscribers/Tuxemon?style=social)](https://www.reddit.com/r/tuxemon)
-[![YouTube](https://img.shields.io/youtube/channel/subscribers/UC6BJ6H7dB2Dpb8wzcYhDU3w?style=social)](https://www.youtube.com/channel/UC6BJ6H7dB2Dpb8wzcYhDU3w)
+A retro-inspired Brazilian Jiu-Jitsu RPG where you train, compete, master new techniques, and fight your way to becoming the **King Of The Hill Champion**.
 
-![screenshot](https://www.tuxemon.org/images/featurette-01.png)
+🌐 https://jiujitsuislandrpg.com
 
+</p>
 
-Features
---------
+---
 
-- Game data is all json, easy to modify and extend
-- Game maps are created using the Tiled Map Editor
-- Simple game script to write the story
-- Dialogs, interactions on map, npc scripting
-- Localized in several languages
-- Seamless keyboard, mouse, and gamepad input
-- Animated maps
-- Lots of documentation
-- Python code can be modified without a compiler
-- CLI interface for live game debugging
-- Runs on Windows, Linux, OS X, and some support on Android
-- 393 monsters and 18 threats with sprites
-- 274 techniques to use in battle
-- 208 NPC sprites
-- 223 items
+## 🥋 About
 
+JiuJitsu Island RPG is a story-driven pixel-art adventure inspired by classic handheld RPGs.
 
-Documentation
---------
+Begin your journey as a complete beginner, learn authentic Brazilian Jiu-Jitsu techniques, battle rival academies, uncover corruption surrounding Coach Atlas and the King Of The Hill Corporation, and work your way from White Belt to Black Belt.
 
-- [Save System Architecture](docs/save_system.md)
+Featuring humorous dialogue, memorable characters, tactical turn-based combat and an ever-expanding world, JiuJitsu Island aims to celebrate everything that makes BJJ unique.
 
+---
 
-Installation
-------------
+# 🌍 Official Links
 
-Complete Installation documentation:
+🌐 Website
 
-- [docs/installation.md](docs/installation.md)
+https://jiujitsuislandrpg.com
 
+📘 Facebook
 
-Mods
-------------
+https://www.facebook.com/JiuJitsuIslandRPG/
 
-Complete Mods documentation:
+📸 Instagram
 
-- [docs/mods.md](docs/mods.md)
+https://www.instagram.com/JiuJitsuIslandRPG
 
+---
 
-Controls
---------
+# 🎮 Features
 
-##### Game Controls
-###### You can also set inputs in the options menu or config file
-* *Arrow Keys* - Movement
-* *Enter* - Select/activate
-* *ESC* - Menu/Cancel
-* *Shift* - Sprint
+- 🥋 White Belt → Black Belt progression
+- ⚔️ Tactical turn-based combat
+- 🧠 Learn authentic BJJ techniques
+- 🌎 Explore towns, academies and tournaments
+- 🛍️ Shops, collectibles and hidden items
+- 💬 Hundreds of unique NPC interactions
+- 👮 Story driven campaign
+- 🏆 King Of The Hill Championship
+- 😂 Humorous dialogue inspired by real BJJ culture
+- 🎵 Original retro RPG presentation
 
-##### Debugging
+---
 
-You can enable dev_tools by changing `dev_tools` to `True` in the
-`tuxemon.yaml` file:
+# 📸 Screenshots
 
-```
-[game]
-dev_tools = True
+(Add screenshots here)
+
+---
+
+# 🚀 Running the Game
+
+Clone the repository
+
+```bash
+git clone https://github.com/<your username>/JiuJitsuIslandRPG.git
+cd JiuJitsuIslandRPG
 ```
 
-These keyboard shortcuts are available with dev tools enabled
-* *r* - Reload the map tiles
-* *n* - No clip
+Create a virtual environment
 
-##### Map Editor
-
-Use *Tiled* map editor: https://www.mapeditor.org/
-
-
-CLI Interface
---------------
-
-Complete CLI documentation:
-
-- [docs/cli.md](docs/cli.md)
-
-
-Building
---------
-
-There are many scripts for various builds in the buildconfig folder. 
-These are meant to be run from the project root directory, for example,
-to build the portable pypy build:
-
-```shell
-[user@localhost Tuxemon]$ buildconfig/build_pypy_portable_linux.sh
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
-There will be a new directory called build, which will have the package
-if everything was successful.
+Install dependencies
 
-WARNING!  The build scripts are designed to be run in a dedicated VM.
-They will add and remove packages and could leave your OS in a bad
-state.  You should not use them on your personal computer.  Use in a vm
-or container.
+```bash
+pip install -r requirements.txt
+```
 
-License
--------
+Run
 
-With the exception of the lib folder which may have its own license, all
-code in this project is licenced under [the GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
+```bash
+python3 run_tuxemon.py
+```
 
-GPL v3+
+---
 
-Copyright (C) 2014-2026 William Edwards <shadowapex@gmail.com>,
-Benjamin Bean <superman2k5@gmail.com>
+# 🛣️ Roadmap
 
-This software is distributed under the GNU General Public Licence as
-published by the Free Software Foundation, either version 3 of the
-License, or (at your option) any later version.  See the file
-[LICENSE](LICENSE) for the conditions under which this software is made
-available.  Tuxemon also contains code from other sources.
+- ✅ Full story campaign
+- ✅ Belt progression
+- ✅ Tournament system
+- 🔄 Additional academies
+- 🔄 More side quests
+- 🔄 Android release
+- 🔄 iOS release
+- 🔄 Steam release
 
+---
 
-External links
---------------
+# 🤝 Sponsors
 
-* Official website: [tuxemon.org](https://www.tuxemon.org)
-* Matrix: [Tuxemon](https://matrix.to/#/!ktrcrHpgkDOGCQOlxX:matrix.org)
-* Discord: [Tuxemon](https://discord.gg/3ZffZwz)
-* Reddit: [/r/Tuxemon](https://www.reddit.com/r/tuxemon)
-* YouTube: [Tuxemon](https://www.youtube.com/channel/UC6BJ6H7dB2Dpb8wzcYhDU3w)
-* Readthedocs: https://tuxemon.readthedocs.io/en/latest/
+JiuJitsu Island RPG is proudly supported by
+
+- RND1.MMA
+- King Of The Hill BJJ Competition
+
+---
+
+# 👨‍💻 About the Developer
+
+JiuJitsu Island RPG is a passion project created by **Callum Carville**.
+
+Originally started as a fun side project, it has grown into a full story-driven RPG inspired by a love of Brazilian Jiu-Jitsu, classic retro games, and the amazing BJJ community.
+
+Every town, character, battle, and joke has been handcrafted in Callum's spare time simply for the enjoyment of creating something unique for fellow grapplers.
+
+If even one player smiles, laughs, or gets inspired to try Brazilian Jiu-Jitsu because of this game, then the project has achieved its goal.
+
+Thank you for playing and supporting JiuJitsu Island RPG.
+
+# ❤️ Built on Tuxemon
+
+JiuJitsu Island RPG is built on top of the incredible open-source Tuxemon engine.
+
+This project would not exist without the years of work contributed by the Tuxemon developers and community.
+
+Original Project
+
+https://github.com/Tuxemon/Tuxemon
+
+Thank you to every contributor who has helped make Tuxemon possible.
+
+---
+
+# 📄 License
+
+JiuJitsu Island RPG contains and builds upon the GPLv3 licensed Tuxemon engine.
+
+Please refer to the LICENSE file for complete licensing information.
