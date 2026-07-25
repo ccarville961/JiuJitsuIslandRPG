@@ -1,0 +1,42 @@
+monsters:
+- encounter_rate: 20
+  exp_req_mod: 3
+  held_items: []
+  level_range:
+  - 22
+  - 26
+  monster: nogi_nigel
+  variables: []
+- encounter_rate: 20
+  exp_req_mod: 3
+  held_items: []
+  level_range:
+  - 22
+  - 26
+  monster: rashguard_ryan
+  variables: []
+- encounter_rate: 20
+  exp_req_mod: 3
+  held_items: []
+  level_range:
+  - 22
+  - 26
+  monster: leglock_liam
+  variables: []
+- encounter_rate: 20
+  exp_req_mod: 3
+  held_items: []
+  level_range:
+  - 22
+  - 26
+  monster: scramble_sam
+  variables: []
+- encounter_rate: 20
+  exp_req_mod: 3
+  held_items: []
+  level_range:
+  - 22
+  - 26
+  monster: armbar_andy
+  variables: []
+slug: no_gi_highway
