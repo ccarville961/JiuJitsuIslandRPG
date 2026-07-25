@@ -21110,3 +21110,11 @@ msgstr "Christie: You two go ahead. I'll need a minute to rest."
 # Championship Causeway Kyle and Christie scene
 msgid "jji_causeway_rest_kyle"
 msgstr "Kyle: Okay. I'll wait."
+
+# JJI Paddys Powerful Bottle factory attendant
+msgid "jji_paddys_factory_closed"
+msgstr "The Paddys Powerful Bottle factory is closed to visitors for the day."
+
+# JJI Tap City RND1 MMA promoter
+msgid "jji_tap_city_rnd1_promoter_shout"
+msgstr "Make sure to check out RND1MMA.co.uk for all your rashguard needs!"

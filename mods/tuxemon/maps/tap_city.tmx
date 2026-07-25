@@ -218,5 +218,21 @@
     <property name="behav10" value="talk jji_paddys_bottle_tap_city_27_37" />
    </properties>
   </object>
+  <object id="210" name="JJI Tap City RND1 Promoter Spawn" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_tap_city_rnd1_promoter,14,23,stand" />
+    <property name="act20" value="char_face jji_tap_city_rnd1_promoter,right" />
+    <property name="cond10" value="not char_exists jji_tap_city_rnd1_promoter" />
+   </properties>
+  </object>
+  <object id="211" name="JJI Tap City RND1 Promoter Shout" type="event" x="208" y="352" width="64" height="48">
+   <properties>
+    <property name="act10" value="char_face jji_tap_city_rnd1_promoter,player" />
+    <property name="act20" value="translated_dialog jji_tap_city_rnd1_promoter_shout" />
+    <property name="act30" value="set_variable jji_tap_city_rnd1_promoter:complete" />
+    <property name="cond10" value="is char_at player" />
+    <property name="cond20" value="not variable_set jji_tap_city_rnd1_promoter:complete" />
+   </properties>
+  </object>
  </objectgroup>
 </map>

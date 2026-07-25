@@ -327,5 +327,20 @@
     <property name="behav10" value="talk jji_paddys_bottle_professor_plaza_15_28" />
    </properties>
   </object>
+  <object id="237" name="JJI Paddys Factory Attendant Spawn" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_paddys_factory_attendant,20,10,stand" />
+    <property name="act20" value="char_face jji_paddys_factory_attendant,down" />
+    <property name="cond10" value="not char_exists jji_paddys_factory_attendant" />
+   </properties>
+  </object>
+  <object id="238" name="JJI Paddys Factory Attendant Dialogue" type="event" x="320" y="160" width="16" height="16">
+   <properties>
+    <property name="act10" value="char_face jji_paddys_factory_attendant,player" />
+    <property name="act20" value="translated_dialog jji_paddys_factory_closed" />
+    <property name="cond10" value="is char_facing_tile player" />
+    <property name="cond20" value="is button_pressed INTERACT" />
+   </properties>
+  </object>
  </objectgroup>
 </map>
