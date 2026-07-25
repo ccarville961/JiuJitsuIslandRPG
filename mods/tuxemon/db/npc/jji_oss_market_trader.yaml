@@ -1,0 +1,10 @@
+slug: jji_oss_market_trader
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: shopassistant
+  combat_sheet: adventurer
+  slug: adventurer

@@ -20938,3 +20938,75 @@ msgstr "Some places teach techniques. Wristlock Way teaches perspective."
 
 msgid "jji_oss_oil_check_outback_sign"
 msgstr "Route to Oil Check Outback."
+
+msgid "jji_oss_patrol_officer_1"
+msgstr "I was stationed in Oss Town as part of the new on-foot patrols."
+
+msgid "jji_oss_patrol_officer_2"
+msgstr "Coach Atlas is still being hunted across the island."
+
+msgid "jji_oss_patrol_officer_3"
+msgstr "Report anything suspicious immediately."
+
+msgid "jji_oss_recruit_1"
+msgstr "This is my first posting."
+
+msgid "jji_oss_recruit_2"
+msgstr "I did not expect my first assignment to involve hunting Coach Atlas."
+
+msgid "jji_oss_recruit_3"
+msgstr "The patrols now cover Oss Town and every nearby route."
+
+msgid "jji_oss_gossip_1"
+msgstr "People say Coach Atlas is still somewhere on the island."
+
+msgid "jji_oss_gossip_2"
+msgstr "There are rumours he was laundering money through King Of The Hill Corporation."
+
+msgid "jji_oss_gossip_3"
+msgstr "Nobody has proved it, but the rumours are spreading fast."
+
+msgid "jji_oss_trader_1"
+msgstr "Business has slowed since Coach Atlas disappeared."
+
+msgid "jji_oss_trader_2"
+msgstr "Travellers are nervous about passing through the Outback."
+
+msgid "jji_oss_trader_3"
+msgstr "Fear is terrible for trade."
+
+msgid "jji_oss_fisherman_1"
+msgstr "Oss Town used to be quiet."
+
+msgid "jji_oss_fisherman_2"
+msgstr "Now every patrol is searching for Coach Atlas."
+
+msgid "jji_oss_fisherman_3"
+msgstr "The whole island feels like it is waiting for something."
+
+msgid "jji_oss_fan_1"
+msgstr "Have you heard about those two kids travelling through the towns?"
+
+msgid "jji_oss_fan_2"
+msgstr "They worked their way through that unhinged wrestler!"
+
+msgid "jji_oss_fan_3"
+msgstr "Now they are still progressing towards the King Of The Hill event."
+
+msgid "jji_oss_elder_1"
+msgstr "The island has seen many champions."
+
+msgid "jji_oss_elder_2"
+msgstr "But those two young grapplers have people talking in every town."
+
+msgid "jji_oss_elder_3"
+msgstr "Perhaps we are watching history unfold."
+
+msgid "jji_oss_child_1"
+msgstr "Mum says Coach Atlas might still be hiding nearby."
+
+msgid "jji_oss_child_2"
+msgstr "She told me to stay away from Oil Check Outback."
+
+msgid "jji_oss_child_3"
+msgstr "I still wonder what is out there."

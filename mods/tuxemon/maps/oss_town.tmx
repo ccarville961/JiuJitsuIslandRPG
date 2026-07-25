@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="115">
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="124">
  <properties>
   <property name="edges" value="clamped"/>
   <property name="map_type" value="town"/>
@@ -326,6 +326,91 @@
     <property name="act10" value="translated_dialog jji_oss_oil_check_outback_sign"/>
     <property name="cond10" value="is char_facing_tile player"/>
     <property name="cond30" value="is button_pressed INTERACT"/>
+   </properties>
+  </object>
+  <object id="115" name="JJI Oss Town - Spawn Story NPCs" type="event" x="0" y="0" width="16" height="16">
+   <properties>
+    <property name="act10" value="create_npc jji_oss_patrol_officer,35,17,stand"/>
+    <property name="act100" value="char_face jji_oss_fisherman,left"/>
+    <property name="act110" value="create_npc jji_oss_young_fan,18,28,stand"/>
+    <property name="act120" value="char_face jji_oss_young_fan,left"/>
+    <property name="act130" value="create_npc jji_oss_elder,18,35,stand"/>
+    <property name="act140" value="char_face jji_oss_elder,right"/>
+    <property name="act150" value="create_npc jji_oss_curious_child,29,35,stand"/>
+    <property name="act160" value="char_face jji_oss_curious_child,up"/>
+    <property name="act20" value="char_face jji_oss_patrol_officer,down"/>
+    <property name="act30" value="create_npc jji_oss_police_recruit,33,8,stand"/>
+    <property name="act40" value="char_face jji_oss_police_recruit,left"/>
+    <property name="act50" value="create_npc jji_oss_town_gossip,15,15,stand"/>
+    <property name="act60" value="char_face jji_oss_town_gossip,right"/>
+    <property name="act70" value="create_npc jji_oss_market_trader,24,19,stand"/>
+    <property name="act80" value="char_face jji_oss_market_trader,down"/>
+    <property name="act90" value="create_npc jji_oss_fisherman,34,27,stand"/>
+    <property name="cond10" value="not char_exists jji_oss_patrol_officer"/>
+   </properties>
+  </object>
+  <object id="116" name="Oss Town Patrol Officer" type="event" x="560" y="272" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_oss_patrol_officer_1"/>
+    <property name="act20" value="translated_dialog jji_oss_patrol_officer_2"/>
+    <property name="act30" value="translated_dialog jji_oss_patrol_officer_3"/>
+    <property name="behav10" value="talk jji_oss_patrol_officer"/>
+   </properties>
+  </object>
+  <object id="117" name="Oss Town Police Recruit" type="event" x="528" y="128" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_oss_recruit_1"/>
+    <property name="act20" value="translated_dialog jji_oss_recruit_2"/>
+    <property name="act30" value="translated_dialog jji_oss_recruit_3"/>
+    <property name="behav10" value="talk jji_oss_police_recruit"/>
+   </properties>
+  </object>
+  <object id="118" name="Oss Town Gossip" type="event" x="240" y="240" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_oss_gossip_1"/>
+    <property name="act20" value="translated_dialog jji_oss_gossip_2"/>
+    <property name="act30" value="translated_dialog jji_oss_gossip_3"/>
+    <property name="behav10" value="talk jji_oss_town_gossip"/>
+   </properties>
+  </object>
+  <object id="119" name="Oss Town Market Trader" type="event" x="384" y="304" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_oss_trader_1"/>
+    <property name="act20" value="translated_dialog jji_oss_trader_2"/>
+    <property name="act30" value="translated_dialog jji_oss_trader_3"/>
+    <property name="behav10" value="talk jji_oss_market_trader"/>
+   </properties>
+  </object>
+  <object id="120" name="Oss Town Fisherman" type="event" x="544" y="432" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_oss_fisherman_1"/>
+    <property name="act20" value="translated_dialog jji_oss_fisherman_2"/>
+    <property name="act30" value="translated_dialog jji_oss_fisherman_3"/>
+    <property name="behav10" value="talk jji_oss_fisherman"/>
+   </properties>
+  </object>
+  <object id="121" name="Young Jiu Jitsu Fan" type="event" x="288" y="448" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_oss_fan_1"/>
+    <property name="act20" value="translated_dialog jji_oss_fan_2"/>
+    <property name="act30" value="translated_dialog jji_oss_fan_3"/>
+    <property name="behav10" value="talk jji_oss_young_fan"/>
+   </properties>
+  </object>
+  <object id="122" name="Oss Town Elder" type="event" x="288" y="560" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_oss_elder_1"/>
+    <property name="act20" value="translated_dialog jji_oss_elder_2"/>
+    <property name="act30" value="translated_dialog jji_oss_elder_3"/>
+    <property name="behav10" value="talk jji_oss_elder"/>
+   </properties>
+  </object>
+  <object id="123" name="Curious Oss Town Child" type="event" x="464" y="560" width="16" height="16">
+   <properties>
+    <property name="act10" value="translated_dialog jji_oss_child_1"/>
+    <property name="act20" value="translated_dialog jji_oss_child_2"/>
+    <property name="act30" value="translated_dialog jji_oss_child_3"/>
+    <property name="behav10" value="talk jji_oss_curious_child"/>
    </properties>
   </object>
  </objectgroup>

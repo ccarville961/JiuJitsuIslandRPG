@@ -1,0 +1,10 @@
+slug: jji_oss_curious_child
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: girl1
+  combat_sheet: adventurer
+  slug: adventurer

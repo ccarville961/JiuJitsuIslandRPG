@@ -179,11 +179,11 @@
   <object id="111" name="angry populace" type="event" x="432" y="320" width="16" height="16">
    <properties>
     <property name="act10" value="create_npc omnigrunt,31,27,stand" />
-    <property name="act11" value="create_npc omnigrunt2,32,27,stand" />
+    <property name="act11" value="create_npc jji_white_belt_officer_two,32,27,stand" />
     <property name="act12" value="create_npc omnigrunt3,33,27,stand" />
     <property name="act13" value="create_npc omnigrunt4,34,27,stand" />
     <property name="act14" value="char_face omnigrunt,up" />
-    <property name="act15" value="char_face omnigrunt2,up" />
+    <property name="act15" value="char_face jji_white_belt_officer_two,up" />
     <property name="act16" value="char_face omnigrunt3,up" />
     <property name="act17" value="char_face omnigrunt4,up" />
     <property name="act20" value="create_npc liela,31,26,stand" />
@@ -197,7 +197,7 @@
     <property name="cond14" value="not char_exists marissa" />
     <property name="cond15" value="not char_exists tuxemart_keeper" />
     <property name="cond16" value="not char_exists omnigrunt" />
-    <property name="cond17" value="not char_exists omnigrunt2" />
+    <property name="cond17" value="not char_exists jji_white_belt_officer_two" />
     <property name="cond18" value="not char_exists omnigrunt3" />
     <property name="cond19" value="not char_exists omnigrunt4" />
    </properties>
@@ -419,9 +419,9 @@
     <property name="act32" value="char_face misa,down" />
     <property name="act33" value="create_npc kyle,32,32,stand" />
     <property name="act34" value="char_face kyle,up" />
-    <property name="act35" value="pathfind omnigrunt2,31,28" />
+    <property name="act35" value="pathfind jji_white_belt_officer_two,31,28" />
     <property name="act36" value="pathfind kyle,32,27" />
-    <property name="act37" value="char_face omnigrunt2,up" />
+    <property name="act37" value="char_face jji_white_belt_officer_two,up" />
     <property name="act38" value="translated_dialog ohaimisa2" />
     <property name="act39" value="translated_dialog ohaimisa3" />
     <property name="act40" value="char_face kyle,left" />
@@ -464,8 +464,8 @@
   <object id="125" name="omnigrunt2move" type="event" x="416" y="448" width="16" height="16">
    <properties>
     <property name="act10" value="wait 1.5" />
-    <property name="act11" value="pathfind omnigrunt2,32,31" />
-    <property name="act20" value="remove_npc omnigrunt2" />
+    <property name="act11" value="pathfind jji_white_belt_officer_two,32,31" />
+    <property name="act20" value="remove_npc jji_white_belt_officer_two" />
     <property name="cond1" value="is variable_set threemusketeers:yay" />
    </properties>
   </object>

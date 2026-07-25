@@ -1,0 +1,10 @@
+slug: jji_oss_elder
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: maniac
+  combat_sheet: maniac
+  slug: maniac

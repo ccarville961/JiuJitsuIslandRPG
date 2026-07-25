@@ -1,0 +1,10 @@
+slug: jji_oss_fisherman
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: fisher
+  combat_sheet: fisher
+  slug: fisher
