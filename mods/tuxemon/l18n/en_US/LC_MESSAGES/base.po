@@ -21038,3 +21038,75 @@ msgstr "Officer: Kyle and Christie passed through here not long ago. They're hea
 # JJI tunnel story officer dialogue
 msgid "jji_tun_koth_2"
 msgstr "Officer: You're almost there yourself. Keep following this tunnel and you'll reach the arena."
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_kyle_1"
+msgstr "Kyle: Oi! You actually made it!"
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_kyle_2"
+msgstr "Kyle: Look what I have!"
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_kyle_3"
+msgstr "Kyle: Black Belt at last. That makes me eligible for King Of The Hill."
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_kyle_4"
+msgstr "Kyle: I'm gunning for Coach Staffy. He still believes leg locks are not gay."
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_kyle_5"
+msgstr "Kyle: I'd love to prove him wrong in front of the whole arena."
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_christie_1"
+msgstr "Christie: Wait... if you made it this far, did you earn your Black Belt too?"
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_christie_2"
+msgstr "Christie: Or are you just coming to watch the event?"
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_player_yes_1"
+msgstr "You: Yeah. I earned it."
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_player_yes_2"
+msgstr "You: I'm here to get my revenge on Coach Atlas."
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_kyle_yes"
+msgstr "Kyle: Then I hope we both make it through. Atlas won't know what hit him."
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_christie_yes"
+msgstr "Christie: Good luck. Something tells me you're going to need it."
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_player_private"
+msgstr "You: That's none of your business."
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_kyle_private"
+msgstr "Kyle: Still the quiet type, then?"
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_christie_private"
+msgstr "Christie: Fair enough. We'll see you at the arena."
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_depart_1"
+msgstr "Kyle: Come on, Christie. Registration closes soon."
+
+# JJI Championship Causeway cutscene
+msgid "jji_causeway_depart_2"
+msgstr "Christie: See you at King Of The Hill."
+
+# Championship Causeway Kyle and Christie scene
+msgid "jji_causeway_rest_christie"
+msgstr "Christie: You two go ahead. I'll need a minute to rest."
+
+# Championship Causeway Kyle and Christie scene
+msgid "jji_causeway_rest_kyle"
+msgstr "Kyle: Okay. I'll wait."
