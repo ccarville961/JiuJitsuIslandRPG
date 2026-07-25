@@ -1,0 +1,10 @@
+monsters:
+- encounter_rate: 100
+  exp_req_mod: 3
+  held_items: []
+  level_range:
+  - 20
+  - 24
+  monster: halfguard_harry
+  variables: []
+slug: half_guard_highway
