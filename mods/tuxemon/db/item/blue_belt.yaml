@@ -1,7 +1,7 @@
 effects: []
 slug: blue_belt
 sort: utility
-sprite: gfx/items/key-card.png
+sprite: gfx/items/blue_belt.png
 category: none
 usable_in:
 - ''

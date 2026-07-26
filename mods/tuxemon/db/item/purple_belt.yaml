@@ -1,7 +1,7 @@
 effects: []
 slug: purple_belt
 sort: utility
-sprite: gfx/items/key-card.png
+sprite: gfx/items/purple_belt.png
 category: none
 usable_in:
 - ''
