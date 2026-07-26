@@ -1,22 +1,53 @@
-Tuxemon
-=========
+# JiuJitsu Island RPG
 
-Copyright (C) 2014-2026 William Edwards <shadowapex@gmail.com>, Benjamin Bean <superman2k5@gmail.com>
+JiuJitsu Island RPG is a story-driven Brazilian Jiu-Jitsu RPG created by **Callum Carville**.
 
-Programming
-------------
+Built upon the incredible open-source **Tuxemon** engine.
 
-* [William Edwards](mailto:shadowapex@gmail.com)
-* [Benjamin Bean](mailto:superman2k5@gmail.com)
-* [Derek Clark](mailto:derekjohn.clark@gmail.com)
-* [Leif Theden](https://github.com/bitcraft)
+---
 
-**Contributors**
+# JiuJitsu Island RPG
 
-* [Nathan Moore](https://git.tuxemon.org:3000/u/Nate-Devv) for the experience system
-* [C Nelson](https://github.com/cnelsonsic) for pep8 auditing
-* [Arsène Thieffry](https://github.com/druz320) for menu sorting and bug fixes
-* [dtdannen](https://github.com/dtdannen) for pathfinding and polyline collisions
-* [ChillyCider](https://github.com/ChillyCider) for improved event system
-* [treetrnk](https://github.com/treetrnk) for creature catching variability, bug fixes, and adding monster resources
-* [Andrew Hong](https://github.com/novialriptide) for the custom controls menu and docstring rewrites
+### Creator
+
+**Callum Carville**
+
+- Game Design
+- Story & Dialogue
+- Character Design
+- Pixel Art Direction
+- Map Direction
+- Programming
+- Testing
+- Project Management
+
+---
+
+# Built on Tuxemon
+
+JiuJitsu Island RPG would not have been possible without the years of work contributed by the Tuxemon developers and community.
+
+## Original Tuxemon Programming Team
+
+- William Edwards
+- Benjamin Bean
+- Derek Clark
+- Leif Theden
+
+## Tuxemon Contributors
+
+- Nathan Moore — Experience system
+- C Nelson — PEP8 auditing
+- Arsène Thieffry — Menu sorting and bug fixes
+- dtdannen — Pathfinding and polyline collisions
+- ChillyCider — Improved event system
+- treetrnk — Creature catching variability, bug fixes and monster resources
+- Andrew Hong — Custom controls menu and documentation improvements
+
+---
+
+Thank you to everyone who has contributed to the Tuxemon project over the years.
+
+Original Tuxemon repository:
+
+https://github.com/Tuxemon/Tuxemon
