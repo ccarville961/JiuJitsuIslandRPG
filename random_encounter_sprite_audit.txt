@@ -1,0 +1,877 @@
+RANDOM ENCOUNTER SPRITE AUDIT
+================================================================================
+Encounter files found: 35
+
+ENCOUNTER: 37707_town
+  MAPS: 37707_tower.tmx, 37707_town.tmx
+  MONSTER: dollfin
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: dollfin-sheet.png
+  MONSTER: fruitera
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: fruitera-sheet.png, megafruitera-sheet.png
+  MONSTER: legko
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: legko-sheet.png
+  MONSTER: rockitten
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: rockitten-sheet.png
+
+ENCOUNTER: 37707_town_missing
+  MAPS: 37707_tower.tmx, 37707_town_missing.tmx
+  MONSTER: d0llf1n
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: d0llf1n-sheet.png
+  MONSTER: f7u1t3ra
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: f7u1t3ra-sheet.png
+  MONSTER: l3gk0
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: l3gk0-sheet.png
+  MONSTER: r0ck1tt3n
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: r0ck1tt3n-sheet.png
+
+ENCOUNTER: default_encounter
+  MAPS: citypark.tmx, porrada_park.tmx, route1.tmx, route1_sanglorian.tmx, route2.tmx, rubberduck_route_01.tmx, spaz_pass.tmx, taba_town.tmx, trial_class_town.tmx, water_end_of_desert.tmx, water_lower_village.tmx, water_outskirts.tmx, water_route_grass.tmx, water_route_ice.tmx, water_underwater.tmx, water_volcano_path.tmx, white_belt_wilderness.tmx, wristlock_way.tmx
+  MONSTER: aardorn
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: aardorn-sheet.png
+  MONSTER: budaye
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: budaye-sheet.png
+  MONSTER: cardiling
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cardiling-sheet.png
+  MONSTER: cataspike
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cataspike-sheet.png
+  MONSTER: dandicub
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: dandicub-sheet.png
+  MONSTER: elofly
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: elofly-sheet.png
+  MONSTER: eyenemy
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: eyenemy-sheet.png
+  MONSTER: grimachin
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: grimachin-sheet.png
+  MONSTER: nut
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: nut-sheet.png
+  MONSTER: spighter
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: spighter-sheet.png
+
+ENCOUNTER: eclipse_lion_mountain
+  MAPS: No direct map reference found
+  MONSTER: bumbulus
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: bumbulus-sheet.png
+  MONSTER: chillimp
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: chillimp-sheet.png
+  MONSTER: snowrilla
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: snowrilla-sheet.png
+  MONSTER: tadcool
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: tadcool-sheet.png
+  MONSTER: tux
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: tux-sheet.png
+
+ENCOUNTER: eclipse_park
+  MAPS: No direct map reference found
+  MONSTER: pairagrim
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: pairagrim-sheet.png
+
+ENCOUNTER: eclipse_route7
+  MAPS: No direct map reference found
+  MONSTER: aardart
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: aardart-sheet.png
+  MONSTER: flacono
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: flacono-sheet.png
+  MONSTER: pairagrim
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: pairagrim-sheet.png
+  MONSTER: pantherafira
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: pantherafira-sheet.png
+  MONSTER: slichen
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: slichen-sheet.png
+  MONSTER: weavifly
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: weavifly-sheet.png
+
+ENCOUNTER: example_horde
+  MAPS: No direct map reference found
+  MONSTER: nut
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: nut-sheet.png
+  MONSTER: pairagrin
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: pairagrin-sheet.png
+  MONSTER: rockitten
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: rockitten-sheet.png
+
+ENCOUNTER: example_single
+  MAPS: No direct map reference found
+  MONSTER: pairagrin
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: pairagrin-sheet.png
+
+ENCOUNTER: half_guard_highway
+  MAPS: flower_city.tmx, half_guard_highway.tmx, oil_check_outback.tmx, professor_plaza.tmx, route3.tmx, route4.tmx
+  MONSTER: halfguard_harry
+    SHEET: gfx/sprites/battle/halfguard_harry-sheet
+    SHEET STATUS: exists
+    MATCHING ART: halfguard_harry-sheet.png
+
+ENCOUNTER: new_txmn
+  MAPS: taba_town.tmx, trial_class_town.tmx
+  MONSTER: chillimp
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: chillimp-sheet.png
+  MONSTER: chloragon
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: chloragon-sheet.png
+  MONSTER: coproblight
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: coproblight-sheet.png
+  MONSTER: pilthropus
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: pilthropus-sheet.png
+  MONSTER: teddisun
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: teddisun-sheet.png
+
+ENCOUNTER: no_gi_highway
+  MAPS: flower_city.tmx, no_gi_highway.tmx, professor_plaza.tmx, route5.tmx, tap_city.tmx, timber_town.tmx, tunnel_below.tmx
+  MONSTER: armbar_andy
+    SHEET: gfx/sprites/battle/armbar_andy-sheet
+    SHEET STATUS: exists
+    MATCHING ART: armbar_andy-sheet.png, armbar_andy.png
+  MONSTER: leglock_liam
+    SHEET: gfx/sprites/battle/leglock_liam-sheet
+    SHEET STATUS: exists
+    MATCHING ART: leglock_liam-sheet.png
+  MONSTER: nogi_nigel
+    SHEET: gfx/sprites/battle/nogi_nigel-sheet
+    SHEET STATUS: exists
+    MATCHING ART: nogi_nigel-sheet.png
+  MONSTER: rashguard_ryan
+    SHEET: gfx/sprites/battle/rashguard_ryan-sheet
+    SHEET STATUS: exists
+    MATCHING ART: rashguard_ryan-sheet.png
+  MONSTER: scramble_sam
+    SHEET: gfx/sprites/battle/scramble_sam-sheet
+    SHEET STATUS: exists
+    MATCHING ART: scramble_sam-sheet.png
+
+ENCOUNTER: oil_check_outback
+  MAPS: half_guard_highway.tmx, leather_town.tmx, oil_check_outback.tmx, oss_town.tmx, route3.tmx, route4.tmx, wayfarer_inn1.tmx
+  MONSTER: naked_grappler
+    SHEET: gfx/sprites/battle/naked_grappler-sheet
+    SHEET STATUS: exists
+    MATCHING ART: naked_grappler-sheet.png, naked_grappler.png
+
+ENCOUNTER: propellercat
+  MAPS: spyder_candy_house3.tmx, spyder_route3.tmx, spyder_route6.tmx, spyder_scoop1.tmx, taba_town.tmx, trial_class_town.tmx, water_lower_village.tmx
+  MONSTER: propellercat
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: propellercat-sheet.png
+
+ENCOUNTER: rare_txmn
+  MAPS: taba_town.tmx, trial_class_town.tmx
+  MONSTER: aardart
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: aardart-sheet.png
+  MONSTER: agnidon
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: agnidon-sheet.png
+  MONSTER: agnigon
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: agnigon-sheet.png
+  MONSTER: allagon
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: allagon-sheet.png
+  MONSTER: cardinale
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cardinale-sheet.png
+  MONSTER: cardiwing
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cardiwing-sheet.png
+  MONSTER: corvix
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: corvix-sheet.png
+  MONSTER: dracune
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: dracune-sheet.png
+  MONSTER: dragarbor
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: dragarbor-sheet.png
+  MONSTER: eaglace
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: eaglace-sheet.png
+  MONSTER: fluttaflap
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: fluttaflap-sheet.png
+  MONSTER: gectile
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: gectile-sheet.png
+  MONSTER: heronquak
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: heronquak-sheet.png
+  MONSTER: legko
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: legko-sheet.png
+  MONSTER: moloch
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: moloch-sheet.png
+  MONSTER: noctalo
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: noctalo-sheet.png
+  MONSTER: possessun
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: possessun-sheet.png
+  MONSTER: sapragon
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: sapragon-sheet.png
+  MONSTER: sharpfin
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: sharpfin-sheet.png
+  MONSTER: velocitile
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: velocitile-sheet.png
+
+ENCOUNTER: spyder_citypark
+  MAPS: classic_route_1.tmx, spyder_citypark.tmx, spyder_citypark_house1.tmx, spyder_leather_town.tmx, spyder_route2.tmx, spyder_test_map.tmx
+  MONSTER: axolightl
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: axolightl-sheet.png
+  MONSTER: cardiling
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cardiling-sheet.png
+  MONSTER: cardiwing
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cardiwing-sheet.png
+  MONSTER: cataspike
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cataspike-sheet.png
+  MONSTER: eyenemy
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: eyenemy-sheet.png
+  MONSTER: puparmor
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: puparmor-sheet.png
+  MONSTER: squabbit
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: squabbit-sheet.png
+  MONSTER: tourbidi
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: tourbidi-sheet.png
+
+ENCOUNTER: spyder_cotton_tunnel
+  MAPS: spyder_cotton_town.tmx, spyder_dragonscave.tmx, spyder_dryadsgrove.tmx
+  MONSTER: boltnu
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: boltnu-sheet.png
+  MONSTER: dinoflop
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: dinoflop-sheet.png
+  MONSTER: furnursus
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: furnursus-sheet.png
+  MONSTER: metesaur
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: metesaur-sheet.png
+
+ENCOUNTER: spyder_datacenter
+  MAPS: spyder_datacenter.tmx, spyder_routeb.tmx
+  MONSTER: ouroboutlet
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: ouroboutlet-sheet.png
+  MONSTER: pythwire
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: pythwire-sheet.png
+  MONSTER: sockeserp
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: sockeserp-sheet.png
+
+ENCOUNTER: spyder_dragonscave
+  MAPS: spyder_dragonscave.tmx, spyder_routec.tmx
+  MONSTER: agnidon
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: agnidon-sheet.png
+  MONSTER: agnite
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: agnite-sheet.png
+  MONSTER: embra
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: embra-sheet.png
+  MONSTER: ruption
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: ruption-sheet.png
+
+ENCOUNTER: spyder_dryadsgrove
+  MAPS: spyder_cotton_town.tmx, spyder_dryadsgrove.tmx, spyder_routec.tmx, spyder_routed.tmx
+  MONSTER: coleorus
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: coleorus-sheet.png
+  MONSTER: lambert
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: lambert-sheet.png
+  MONSTER: narcileaf
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: narcileaf-sheet.png
+  MONSTER: sapsnap
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: sapsnap-sheet.png
+  MONSTER: shybulb
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: shybulb-sheet.png
+  MONSTER: tourbidi
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: tourbidi-sheet.png
+
+ENCOUNTER: spyder_greenwash
+  MAPS: spyder_candy_town.tmx, spyder_greenwash_greenhouse.tmx, spyder_greenwash_level2.tmx
+  MONSTER: bursa
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: bursa-sheet.png
+  MONSTER: cateye
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cateye-sheet.png
+  MONSTER: cochini
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cochini-sheet.png
+  MONSTER: nut
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: nut-sheet.png
+  MONSTER: sclairus
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: sclairus-sheet.png
+
+ENCOUNTER: spyder_mansion
+  MAPS: spyder_mansion_basement.tmx, spyder_mansion_top.tmx, spyder_routea.tmx
+  MONSTER: cairfrey
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cairfrey-sheet.png
+  MONSTER: djinnbo
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: djinnbo-sheet.png
+  MONSTER: pigabyte
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: pigabyte-sheet.png
+  MONSTER: polyrock
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: polyrock-sheet.png
+
+ENCOUNTER: spyder_omnichannel
+  MAPS: spyder_omnichannel1.tmx, spyder_omnichannel2.tmx, spyder_omnichannel3.tmx, spyder_omnichannel4.tmx
+  MONSTER: dark_robo
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: dark_robo-sheet.png
+  MONSTER: xeon_2
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: xeon_2-sheet.png
+
+ENCOUNTER: spyder_route1
+  MAPS: spyder_brideswood.tmx, spyder_cotton_town.tmx, spyder_paper_town.tmx, spyder_route1.tmx, spyder_routec.tmx
+  MONSTER: aardorn
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: aardorn-sheet.png
+  MONSTER: cataspike
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cataspike-sheet.png
+  MONSTER: pairagrin
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: pairagrin-sheet.png
+
+ENCOUNTER: spyder_route2
+  MAPS: spyder_brideswood.tmx, spyder_citypark.tmx, spyder_cotton_town.tmx, spyder_route2.tmx
+  MONSTER: aardorn
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: aardorn-sheet.png
+  MONSTER: axolightl
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: axolightl-sheet.png
+  MONSTER: cardiling
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cardiling-sheet.png
+  MONSTER: cataspike
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cataspike-sheet.png
+  MONSTER: eyenemy
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: eyenemy-sheet.png
+
+ENCOUNTER: spyder_route3
+  MAPS: spyder_leather_town.tmx, spyder_route3.tmx, spyder_route4.tmx, spyder_wayfarer_inn1.tmx
+  MONSTER: cardiling
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cardiling-sheet.png
+  MONSTER: elofly
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: elofly-sheet.png
+  MONSTER: shybulb
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: shybulb-sheet.png
+  MONSTER: squabbit
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: squabbit-sheet.png
+
+ENCOUNTER: spyder_route3_desert
+  MAPS: spyder_route3.tmx
+  MONSTER: baoby
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: baoby-sheet.png
+  MONSTER: imbrickcile
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: imbrickcile-sheet.png
+  MONSTER: pawsand
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: pawsand-sheet.png
+  MONSTER: seirein
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: seirein-sheet.png
+  MONSTER: selket
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: selket-sheet.png
+  MONSTER: tumblequill
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: tumblequill-sheet.png
+
+ENCOUNTER: spyder_route4
+  MAPS: spyder_flower_city.tmx, spyder_route3.tmx, spyder_route4.tmx
+  MONSTER: caper
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: caper-sheet.png
+  MONSTER: elofly
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: elofly-sheet.png
+  MONSTER: katapill
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: katapill-sheet.png
+  MONSTER: trapsnap
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: trapsnap-sheet.png
+
+ENCOUNTER: spyder_route5
+  MAPS: spyder_flower_city.tmx, spyder_route5.tmx, spyder_timber_town.tmx
+  MONSTER: anoleaf
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: anoleaf-sheet.png
+  MONSTER: dracune
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: dracune-sheet.png
+  MONSTER: foofle
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: foofle-sheet.png
+  MONSTER: gectile
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: gectile-sheet.png
+  MONSTER: vamporm
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: vamporm-sheet.png
+
+ENCOUNTER: spyder_route6
+  MAPS: spyder_candy_town.tmx, spyder_route6.tmx, spyder_tunnel.tmx
+  MONSTER: capiti
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: capiti-sheet.png
+  MONSTER: dandicub
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: dandicub-sheet.png
+  MONSTER: dandylion
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: dandylion-sheet.png
+
+ENCOUNTER: spyder_routea
+  MAPS: spyder_flower_city.tmx, spyder_mansion.tmx, spyder_mansion_top.tmx, spyder_routea.tmx
+  MONSTER: anoleaf
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: anoleaf-sheet.png
+  MONSTER: katapill
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: katapill-sheet.png
+  MONSTER: shybulb
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: shybulb-sheet.png
+  MONSTER: vamporm
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: vamporm-sheet.png
+  MONSTER: wolffsky
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: wolffsky-sheet.png
+
+ENCOUNTER: spyder_routeb
+  MAPS: spyder_datacenter.tmx, spyder_routee.tmx, spyder_tunnel_below.tmx
+  MONSTER: cairfrey
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: cairfrey-sheet.png
+  MONSTER: noctalo
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: noctalo-sheet.png
+  MONSTER: noctula
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: noctula-sheet.png
+  MONSTER: pipis
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: pipis-sheet.png
+  MONSTER: possessun
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: possessun-sheet.png
+  MONSTER: rockat
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: rockat-sheet.png
+  MONSTER: strella
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: strella-sheet.png
+  MONSTER: toufigel
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: toufigel-sheet.png
+
+ENCOUNTER: spyder_routec
+  MAPS: spyder_candy_town.tmx, spyder_dragonscave.tmx, spyder_dryadsgrove.tmx, spyder_paper_town.tmx, spyder_route1.tmx, spyder_routec.tmx
+  MONSTER: manosting
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: manosting-sheet.png
+  MONSTER: nostray
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: nostray-sheet.png
+  MONSTER: nudiflot_female
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: nudiflot_female-sheet.png
+  MONSTER: nudiflot_male
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: nudiflot_male-sheet.png
+  MONSTER: nudikill
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: nudikill-sheet.png
+  MONSTER: nudimind
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: nudimind-sheet.png
+  MONSTER: tweesher
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: tweesher-sheet.png
+
+ENCOUNTER: taba_ba_passageway_1
+  MAPS: taba_ba_br_1.tmx, taba_ba_main.tmx, taba_ba_passageway_1.tmx
+  MONSTER: aardorn
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: aardorn-sheet.png
+  MONSTER: chloragon
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: chloragon-sheet.png
+  MONSTER: nut
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: nut-sheet.png
+
+ENCOUNTER: taba_ba_passageway_2
+  MAPS: taba_ba_br_2.tmx, taba_ba_main.tmx, taba_ba_passageway_2.tmx
+  MONSTER: aardorn
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: aardorn-sheet.png
+  MONSTER: mystikapi
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: mystikapi-sheet.png
+  MONSTER: nut
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: nut-sheet.png
+
+ENCOUNTER: taba_ba_passageway_3
+  MAPS: taba_ba_br_3.tmx, taba_ba_main.tmx, taba_ba_passageway_3.tmx
+  MONSTER: katapill
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: katapill-sheet.png
+  MONSTER: lambert
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: lambert-sheet.png
+  MONSTER: nut
+    SHEET: NO SHEET CONFIGURED
+    SHEET STATUS: missing
+    MATCHING ART: nut-sheet.png
+
+================================================================================
+UNIQUE RANDOM-ENCOUNTER MONSTERS: 117
+
+aardart | NO SHEET CONFIGURED | missing
+aardorn | NO SHEET CONFIGURED | missing
+agnidon | NO SHEET CONFIGURED | missing
+agnigon | NO SHEET CONFIGURED | missing
+agnite | NO SHEET CONFIGURED | missing
+allagon | NO SHEET CONFIGURED | missing
+anoleaf | NO SHEET CONFIGURED | missing
+armbar_andy | gfx/sprites/battle/armbar_andy-sheet | exists
+axolightl | NO SHEET CONFIGURED | missing
+baoby | NO SHEET CONFIGURED | missing
+boltnu | NO SHEET CONFIGURED | missing
+budaye | NO SHEET CONFIGURED | missing
+bumbulus | NO SHEET CONFIGURED | missing
+bursa | NO SHEET CONFIGURED | missing
+cairfrey | NO SHEET CONFIGURED | missing
+caper | NO SHEET CONFIGURED | missing
+capiti | NO SHEET CONFIGURED | missing
+cardiling | NO SHEET CONFIGURED | missing
+cardinale | NO SHEET CONFIGURED | missing
+cardiwing | NO SHEET CONFIGURED | missing
+cataspike | NO SHEET CONFIGURED | missing
+cateye | NO SHEET CONFIGURED | missing
+chillimp | NO SHEET CONFIGURED | missing
+chloragon | NO SHEET CONFIGURED | missing
+cochini | NO SHEET CONFIGURED | missing
+coleorus | NO SHEET CONFIGURED | missing
+coproblight | NO SHEET CONFIGURED | missing
+corvix | NO SHEET CONFIGURED | missing
+d0llf1n | NO SHEET CONFIGURED | missing
+dandicub | NO SHEET CONFIGURED | missing
+dandylion | NO SHEET CONFIGURED | missing
+dark_robo | NO SHEET CONFIGURED | missing
+dinoflop | NO SHEET CONFIGURED | missing
+djinnbo | NO SHEET CONFIGURED | missing
+dollfin | NO SHEET CONFIGURED | missing
+dracune | NO SHEET CONFIGURED | missing
+dragarbor | NO SHEET CONFIGURED | missing
+eaglace | NO SHEET CONFIGURED | missing
+elofly | NO SHEET CONFIGURED | missing
+embra | NO SHEET CONFIGURED | missing
+eyenemy | NO SHEET CONFIGURED | missing
+f7u1t3ra | NO SHEET CONFIGURED | missing
+flacono | NO SHEET CONFIGURED | missing
+fluttaflap | NO SHEET CONFIGURED | missing
+foofle | NO SHEET CONFIGURED | missing
+fruitera | NO SHEET CONFIGURED | missing
+furnursus | NO SHEET CONFIGURED | missing
+gectile | NO SHEET CONFIGURED | missing
+grimachin | NO SHEET CONFIGURED | missing
+halfguard_harry | gfx/sprites/battle/halfguard_harry-sheet | exists
+heronquak | NO SHEET CONFIGURED | missing
+imbrickcile | NO SHEET CONFIGURED | missing
+katapill | NO SHEET CONFIGURED | missing
+l3gk0 | NO SHEET CONFIGURED | missing
+lambert | NO SHEET CONFIGURED | missing
+legko | NO SHEET CONFIGURED | missing
+leglock_liam | gfx/sprites/battle/leglock_liam-sheet | exists
+manosting | NO SHEET CONFIGURED | missing
+metesaur | NO SHEET CONFIGURED | missing
+moloch | NO SHEET CONFIGURED | missing
+mystikapi | NO SHEET CONFIGURED | missing
+naked_grappler | gfx/sprites/battle/naked_grappler-sheet | exists
+narcileaf | NO SHEET CONFIGURED | missing
+noctalo | NO SHEET CONFIGURED | missing
+noctula | NO SHEET CONFIGURED | missing
+nogi_nigel | gfx/sprites/battle/nogi_nigel-sheet | exists
+nostray | NO SHEET CONFIGURED | missing
+nudiflot_female | NO SHEET CONFIGURED | missing
+nudiflot_male | NO SHEET CONFIGURED | missing
+nudikill | NO SHEET CONFIGURED | missing
+nudimind | NO SHEET CONFIGURED | missing
+nut | NO SHEET CONFIGURED | missing
+ouroboutlet | NO SHEET CONFIGURED | missing
+pairagrim | NO SHEET CONFIGURED | missing
+pairagrin | NO SHEET CONFIGURED | missing
+pantherafira | NO SHEET CONFIGURED | missing
+pawsand | NO SHEET CONFIGURED | missing
+pigabyte | NO SHEET CONFIGURED | missing
+pilthropus | NO SHEET CONFIGURED | missing
+pipis | NO SHEET CONFIGURED | missing
+polyrock | NO SHEET CONFIGURED | missing
+possessun | NO SHEET CONFIGURED | missing
+propellercat | NO SHEET CONFIGURED | missing
+puparmor | NO SHEET CONFIGURED | missing
+pythwire | NO SHEET CONFIGURED | missing
+r0ck1tt3n | NO SHEET CONFIGURED | missing
+rashguard_ryan | gfx/sprites/battle/rashguard_ryan-sheet | exists
+rockat | NO SHEET CONFIGURED | missing
+rockitten | NO SHEET CONFIGURED | missing
+ruption | NO SHEET CONFIGURED | missing
+sapragon | NO SHEET CONFIGURED | missing
+sapsnap | NO SHEET CONFIGURED | missing
+sclairus | NO SHEET CONFIGURED | missing
+scramble_sam | gfx/sprites/battle/scramble_sam-sheet | exists
+seirein | NO SHEET CONFIGURED | missing
+selket | NO SHEET CONFIGURED | missing
+sharpfin | NO SHEET CONFIGURED | missing
+shybulb | NO SHEET CONFIGURED | missing
+slichen | NO SHEET CONFIGURED | missing
+snowrilla | NO SHEET CONFIGURED | missing
+sockeserp | NO SHEET CONFIGURED | missing
+spighter | NO SHEET CONFIGURED | missing
+squabbit | NO SHEET CONFIGURED | missing
+strella | NO SHEET CONFIGURED | missing
+tadcool | NO SHEET CONFIGURED | missing
+teddisun | NO SHEET CONFIGURED | missing
+toufigel | NO SHEET CONFIGURED | missing
+tourbidi | NO SHEET CONFIGURED | missing
+trapsnap | NO SHEET CONFIGURED | missing
+tumblequill | NO SHEET CONFIGURED | missing
+tux | NO SHEET CONFIGURED | missing
+tweesher | NO SHEET CONFIGURED | missing
+vamporm | NO SHEET CONFIGURED | missing
+velocitile | NO SHEET CONFIGURED | missing
+weavifly | NO SHEET CONFIGURED | missing
+wolffsky | NO SHEET CONFIGURED | missing
+xeon_2 | NO SHEET CONFIGURED | missing
