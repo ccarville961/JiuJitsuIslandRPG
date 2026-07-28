@@ -2,63 +2,101 @@
 """
 Selectable player-character appearances for JiuJitsu Island RPG.
 
-The two main arrays are index-aligned:
+Each array is index-aligned. Every index represents one selectable
+competitor:
 
-    BATTLE_SPRITES[0] belongs to NPC_SPRITES[0]
-    BATTLE_SPRITES[1] belongs to NPC_SPRITES[1]
+    PREVIEW_SPRITES[index]
+    BATTLE_SPRITES[index]
+    NPC_SPRITES[index]
+    FIGHTER_NAMES[index]
+    FIGHTER_DESCRIPTIONS[index]
 
-Never add an item to only one array.
+PREVIEW_SPRITES controls only the image shown on the character-selection
+screen.
+
+BATTLE_SPRITES and NPC_SPRITES control the character used after the
+selection is confirmed.
 """
 
 from __future__ import annotations
 
 
-# Battle sheets located in:
+# Character-selection artwork located in:
+# mods/tuxemon/gfx/sprites/battle/<slug>.png
+#
+# These are 128x88 sheets containing two 64x88 frames.
+PREVIEW_SPRITES: tuple[str, ...] = (
+    "blackgi-whitebelt",
+    "teen-whitebelt",
+    "black-wrestler",
+    "bluegi-whitebelt",
+    "fat-wrestler",
+    "blonde-wrestler",
+    "naked_grappler",
+)
+
+
+# Existing playable combat sheets located in:
 # mods/tuxemon/gfx/sprites/player/<slug>.png
+#
+# These remain valid 128x64 player sheets. Some are temporarily reused
+# until dedicated playable sheets are created for all seven competitors.
 BATTLE_SPRITES: tuple[str, ...] = (
     "adventurer",
+    "adventurer",
     "adventurerblack",
-    "heroine",
-    "heroineblack",
-)
-
-
-# Overworld sprite sheets located in:
-# mods/tuxemon/gfx/sprites/<slug>.png
-NPC_SPRITES: tuple[str, ...] = (
     "adventurer",
     "adventurerblack",
     "heroine",
-    "brownheroine_brown",
+    "adventurer",
 )
 
 
-# Optional information displayed by the visual selector.
-# These arrays must remain in the same order as the two sprite arrays.
+# Existing overworld sheets located in:
+# mods/tuxemon/gfx/sprites/<slug>.png
+#
+# These are also temporarily reused until matching overworld walking
+# sheets are available for all seven competitors.
+NPC_SPRITES: tuple[str, ...] = (
+    "adventurer",
+    "adventurer",
+    "adventurerblack",
+    "adventurer",
+    "adventurerblack",
+    "heroine",
+    "adventurer",
+)
+
+
 FIGHTER_NAMES: tuple[str, ...] = (
-    "Competitor One",
-    "Competitor Two",
-    "Competitor Three",
-    "Competitor Four",
+    "Black Gi White Belt",
+    "Teen White Belt",
+    "Black Wrestler",
+    "Blue Gi White Belt",
+    "Fat Wrestler",
+    "Blonde Wrestler",
+    "Naked Grappler",
 )
 
+
+# Descriptions are retained for compatibility, even though the selector
+# currently does not display them.
 FIGHTER_DESCRIPTIONS: tuple[str, ...] = (
-    "A balanced competitor ready to begin their journey.",
-    "A composed fighter with a strong pressure game.",
-    "A technical competitor who stays calm under pressure.",
-    "An athletic grappler prepared for any challenge.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
 )
 
 
 def validate_character_presets() -> None:
-    """
-    Ensure every selectable character has a complete set of data.
-
-    This deliberately fails during startup if one array is edited without
-    updating the others.
-    """
+    """Ensure every selectable character has a complete aligned preset."""
 
     lengths = {
+        "PREVIEW_SPRITES": len(PREVIEW_SPRITES),
         "BATTLE_SPRITES": len(BATTLE_SPRITES),
         "NPC_SPRITES": len(NPC_SPRITES),
         "FIGHTER_NAMES": len(FIGHTER_NAMES),
@@ -74,13 +112,13 @@ def validate_character_presets() -> None:
             f"{details}"
         )
 
-    if not BATTLE_SPRITES:
+    if not PREVIEW_SPRITES:
         raise ValueError("At least one JJI character preset is required.")
 
 
 def get_character_preset(index: int) -> tuple[str, str]:
     """
-    Return the battle-sheet slug and overworld-sprite slug for an index.
+    Return the playable combat-sheet slug and overworld-sprite slug.
     """
 
     validate_character_presets()
