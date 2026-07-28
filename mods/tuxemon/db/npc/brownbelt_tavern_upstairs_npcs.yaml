@@ -5,6 +5,6 @@
   combat: {}
   audio: {}
   template:
-    sprite_name: trickster_coach
+    sprite_name: coach_conleth
     combat_sheet: enforcer_boss
     slug: enforcer_boss

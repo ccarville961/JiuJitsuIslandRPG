@@ -5,6 +5,6 @@ speech:
 combat: {}
 audio: {}
 template:
-  sprite_name: talos_coach
+  sprite_name: coach_toland
   combat_sheet: professor
   slug: professor

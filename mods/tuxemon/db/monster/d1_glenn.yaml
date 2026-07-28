@@ -43,5 +43,5 @@ lower_catch_resistance: 0.95
 upper_catch_resistance: 1.25
 name: D1 Glenn
 sprites:
-  sheet: gfx/sprites/battle/coach_toland-sheet
+  sheet: gfx/sprites/battle/d1_glenn-sheet
   menu: gfx/sprites/menu/embazook-menu

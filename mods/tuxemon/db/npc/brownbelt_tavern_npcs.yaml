@@ -15,7 +15,7 @@
   combat: {}
   audio: {}
   template:
-    sprite_name: trickster_coach
+    sprite_name: brownbelt_bruce
     combat_sheet: enforcer_boss
     slug: enforcer_boss
 - slug: brownbelt_tavern_receptionist_desk

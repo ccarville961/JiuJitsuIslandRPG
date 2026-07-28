@@ -5,6 +5,6 @@ speech:
 combat: {}
 audio: {}
 template:
-  sprite_name: icon_coach
+  sprite_name: coach_hill
   combat_sheet: professor
   slug: professor
