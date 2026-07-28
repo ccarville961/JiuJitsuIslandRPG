@@ -5,6 +5,6 @@ speech:
 combat: {}
 audio: {}
 template:
-  sprite_name: bonnie_bluebelt
+  sprite_name: heroine
   combat_sheet: heroine
   slug: heroine

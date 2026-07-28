@@ -5,6 +5,6 @@ speech:
 combat: {}
 audio: {}
 template:
-  sprite_name: scramble_steve
+  sprite_name: maniac_violet
   combat_sheet: adventurer
   slug: adventurer
