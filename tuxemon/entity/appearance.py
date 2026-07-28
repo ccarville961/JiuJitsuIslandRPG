@@ -8,6 +8,7 @@ from typing import TYPE_CHECKING, Any
 from pygame import BLEND_RGBA_MULT
 
 from tuxemon.graphics import ColorLike
+from tuxemon.jji_character_presets import get_character_preset
 from tuxemon.map.view import load_and_scale_with_cache
 
 if TYPE_CHECKING:
@@ -96,6 +97,21 @@ class AppearanceManager:
             self.state.combat_sheet = combat_sheet
 
         self.owner.sprite_controller.update_appearance(self.state)
+
+
+    def update_from_character_index(self, index: int) -> None:
+        """
+        Apply a selectable JiuJitsu Island character preset.
+
+        The same index selects the matching overworld NPC sprite and
+        battle sprite from the two aligned character preset arrays.
+        """
+        battle_sprite, npc_sprite = get_character_preset(index)
+
+        self.update(
+            sprite_name=npc_sprite,
+            combat_sheet=battle_sprite,
+        )
 
     def update_layers(
         self,
