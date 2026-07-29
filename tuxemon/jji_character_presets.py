@@ -29,7 +29,7 @@ PREVIEW_SPRITES: tuple[str, ...] = (
     "blackgi-whitebelt",
     "teen-whitebelt",
     "black-wrestler",
-    "bluegi-whitebelt",
+    "bluegi_whitebelt",
     "fat-wrestler",
     "blonde-wrestler",
     "naked_grappler",
@@ -42,13 +42,13 @@ PREVIEW_SPRITES: tuple[str, ...] = (
 # These remain valid 128x64 player sheets. Some are temporarily reused
 # until dedicated playable sheets are created for all seven competitors.
 BATTLE_SPRITES: tuple[str, ...] = (
-    "adventurer",
-    "adventurer",
-    "adventurerblack",
-    "adventurer",
-    "adventurerblack",
-    "heroine",
-    "adventurer",
+    "blackgi-whitebelt",
+    "teen-whitebelt",
+    "black-wrestler",
+    "bluegi_whitebelt",
+    "fat-wrestler",
+    "blonde-wrestler",
+    "naked_grappler",
 )
 
 
@@ -58,13 +58,13 @@ BATTLE_SPRITES: tuple[str, ...] = (
 # These are also temporarily reused until matching overworld walking
 # sheets are available for all seven competitors.
 NPC_SPRITES: tuple[str, ...] = (
-    "adventurer",
-    "adventurer",
-    "adventurerblack",
-    "adventurer",
-    "adventurerblack",
-    "heroine",
-    "adventurer",
+    "coach_carville",
+    "teen_whitebelt_npc",
+    "black_wrestler",
+    "bluegi_whitebelt_npc",
+    "black_wrestler",
+    "blonde_wrestler_npc",
+    "naked",
 )
 
 
