@@ -65,7 +65,10 @@ class AddMonsterAction(EventAction):
         try:
             session_player = session.player
 
-            if trainer is session_player:
+            if (
+                trainer is session_player
+                and monster.slug == "you"
+            ):
                 combat_sheet = (
                     session_player.appearance_manager.state.combat_sheet
                 )

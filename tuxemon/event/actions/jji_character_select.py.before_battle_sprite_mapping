@@ -26,18 +26,6 @@ class JJICharacterSelectAction(EventAction):
         def _confirm(index: int) -> None:
             player.appearance_manager.update_from_character_index(index)
 
-            # Apply the selected battle sprite to every existing
-            # player-controlled fighter.
-            selected_sheet = (
-                player.appearance_manager.state.combat_sheet
-            )
-
-            if selected_sheet:
-                for fighter in player.monsters:
-                    fighter.sprite_config.sheet_path = (
-                        f"gfx/sprites/battle/{selected_sheet}"
-                    )
-
             # Presets 0-1 are male; presets 2-3 are female.
             gender = "male" if index in (0, 1) else "female"
             player.gender = gender

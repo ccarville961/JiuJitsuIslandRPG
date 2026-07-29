@@ -101,83 +101,6 @@ class CombatAnimations(Menu[None], ABC):
     def draw(self, surface: Surface) -> None:
         super().draw(surface)
 
-    def _apply_officer_battle_sprite(
-        self,
-        npc: NPC,
-        monster: Monster,
-    ) -> None:
-        """Use the police officer battle sheet for officer NPCs."""
-        officer_ids = {
-            "knight",
-            "officer",
-            "omnigrunt",
-            "omnigrunt2",
-            "police-officer",
-            "police_officer",
-            "jji_white_belt_officer_two",
-        }
-
-        template = npc.template
-
-        npc_ids = {
-            npc.slug,
-            getattr(template, "slug", None),
-            getattr(template, "sprite_name", None),
-            getattr(template, "combat_sheet", None),
-        }
-
-        # Officer Omoplata is stored internally as the agnidon monster.
-        is_officer_omoplata = getattr(monster, "slug", None) == "agnidon"
-
-        if is_officer_omoplata:
-            monster.name = "Officer Omoplata"
-
-        if officer_ids.intersection(npc_ids) or is_officer_omoplata:
-            monster.sprite_config.sheet_path = (
-                "gfx/sprites/battle/police-officer"
-            )
-
-    def _apply_arena_boss_battle_sprite(
-        self,
-        npc: NPC,
-        monster: Monster,
-    ) -> None:
-        """Use the stripped white-belt sprite for Taba arena bosses."""
-        arena_boss_npcs = {
-            "acolyte",
-            "garth",
-            "cam",
-            "zeke",
-            "loch",
-        }
-
-        # Cam uses the lambert monster internally. Checking both identities
-        # prevents another template or owner value from restoring its old sheet.
-        is_cam = (
-            npc.slug == "cam"
-            or getattr(monster, "slug", None) == "lambert"
-        )
-
-        if npc.slug in arena_boss_npcs or is_cam:
-            monster.sprite_config.sheet_path = (
-                "gfx/sprites/battle/blackgi-whitebelt-stripped"
-            )
-
-    def _apply_selected_player_battle_sprite(
-        self,
-        monster: Monster,
-    ) -> None:
-        """Use the character chosen at the start of the game in battle."""
-        player = self.session.player
-        selected_sheet = (
-            player.appearance_manager.state.combat_sheet
-        )
-
-        if selected_sheet:
-            monster.sprite_config.sheet_path = (
-                f"gfx/sprites/battle/{selected_sheet}"
-            )
-
     def refresh_ui(self) -> None:
         """Call this whenever HP or EXP changes."""
         current_graphics = self.env.get_battle_graphics()
@@ -233,14 +156,6 @@ class CombatAnimations(Menu[None], ABC):
         )
         feet = self.hud_manager.get_feet_position(npc, monster)
 
-        if npc.slug == "cam":
-            self._apply_arena_boss_battle_sprite(npc, monster)
-        elif npc == self.session.player:
-            self._apply_selected_player_battle_sprite(monster)
-        else:
-            self._apply_arena_boss_battle_sprite(npc, monster)
-            self._apply_officer_battle_sprite(npc, monster)
-
         renderer = MonsterRenderer(monster, scale=self.factor)
         monster_sprite = renderer.get_sprite(
             "back" if npc == self.combat_session.left_player else "front"
@@ -250,7 +165,7 @@ class CombatAnimations(Menu[None], ABC):
         final_x = monster_sprite.rect.x
         screen_w = self.client.context.rect.w
 
-        if npc == self.session.player:
+        if npc == self.combat_session.left_player:
             monster_sprite.rect.x = -monster_sprite.rect.w
         else:
             monster_sprite.rect.x = screen_w + monster_sprite.rect.w
@@ -707,10 +622,6 @@ class CombatAnimations(Menu[None], ABC):
 
         # Spawn opponent fighter directly.
         enemy_pos = layout.get_combatant_pos("monster", back_island.rect)
-
-        self._apply_arena_boss_battle_sprite(opponent, opp_mon)
-        self._apply_officer_battle_sprite(opponent, opp_mon)
-
         enemy_renderer = MonsterRenderer(opp_mon, scale=self.factor)
         enemy = enemy_renderer.get_sprite("front")
         enemy.rect.midbottom = (
@@ -720,13 +631,6 @@ class CombatAnimations(Menu[None], ABC):
 
         # Spawn player fighter directly.
         player_pos = layout.get_combatant_pos("player", front_island.rect)
-
-        # Use Cam's arena sprite when Cam occupies the player-facing side.
-        if player.slug == "cam":
-            self._apply_arena_boss_battle_sprite(player, player_mon)
-        else:
-            self._apply_selected_player_battle_sprite(player_mon)
-
         player_renderer = MonsterRenderer(player_mon, scale=self.factor)
         player_back = player_renderer.get_sprite("back")
         player_back.rect.midbottom = (

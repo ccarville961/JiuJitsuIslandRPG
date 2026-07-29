@@ -233,9 +233,7 @@ class CombatAnimations(Menu[None], ABC):
         )
         feet = self.hud_manager.get_feet_position(npc, monster)
 
-        if npc.slug == "cam":
-            self._apply_arena_boss_battle_sprite(npc, monster)
-        elif npc == self.session.player:
+        if npc == self.session.player:
             self._apply_selected_player_battle_sprite(monster)
         else:
             self._apply_arena_boss_battle_sprite(npc, monster)
@@ -721,11 +719,9 @@ class CombatAnimations(Menu[None], ABC):
         # Spawn player fighter directly.
         player_pos = layout.get_combatant_pos("player", front_island.rect)
 
-        # Use Cam's arena sprite when Cam occupies the player-facing side.
-        if player.slug == "cam":
-            self._apply_arena_boss_battle_sprite(player, player_mon)
-        else:
-            self._apply_selected_player_battle_sprite(player_mon)
+        # Jiu Jitsu Island: always use the character selected when
+        # the game began for the player-facing battle sprite.
+        self._apply_selected_player_battle_sprite(player_mon)
 
         player_renderer = MonsterRenderer(player_mon, scale=self.factor)
         player_back = player_renderer.get_sprite("back")

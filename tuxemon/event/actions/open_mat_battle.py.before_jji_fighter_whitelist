@@ -23,21 +23,6 @@ from tuxemon.session import Session
 logger = logging.getLogger(__name__)
 
 
-# Only fighters with approved JiuJitsu Island battle sprites may appear
-# in repeatable Open Mat battles. Story coaches and unique bosses are
-# deliberately excluded.
-OPEN_MAT_FIGHTER_SLUGS = (
-    "armbar_andy",
-    "bonnie_bluebelt",
-    "halfguard_harry",
-    "leglock_liam",
-    "naked_grappler",
-    "nogi_nigel",
-    "rashguard_ryan",
-    "scramble_sam",
-)
-
-
 @final
 @dataclass
 class OpenMatBattleAction(EventAction):
@@ -106,30 +91,11 @@ class OpenMatBattleAction(EventAction):
             self.stop()
             return
 
-        available_monsters = [
-            monster_cache[slug]
-            for slug in OPEN_MAT_FIGHTER_SLUGS
-            if slug in monster_cache
-        ]
-
-        missing_fighters = [
-            slug
-            for slug in OPEN_MAT_FIGHTER_SLUGS
-            if slug not in monster_cache
-        ]
-
-        if missing_fighters:
-            logger.warning(
-                "Open Mat fighter definitions were not found: %s",
-                ", ".join(missing_fighters),
-            )
+        available_monsters = list(monster_cache.values())
 
         if len(available_monsters) < self.nr_txmns:
             money_manager.add_money(self.entry_fee)
-            logger.error(
-                "Not enough approved JiuJitsu Island fighters "
-                "for the Open Mat battle."
-            )
+            logger.error("Not enough monsters for the Open Mat battle.")
             self.stop()
             return
 

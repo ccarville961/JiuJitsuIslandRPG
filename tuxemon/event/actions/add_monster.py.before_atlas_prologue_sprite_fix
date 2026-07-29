@@ -58,27 +58,6 @@ class AddMonsterAction(EventAction):
 
         monster = Monster.spawn_base(monster_slug, self.monster_level)
 
-        # ------------------------------------------------------------------
-        # Jiu Jitsu Island
-        # Apply the player's selected battle sprite to the "you" fighter.
-        # ------------------------------------------------------------------
-        try:
-            session_player = session.player
-
-            if trainer is session_player:
-                combat_sheet = (
-                    session_player.appearance_manager.state.combat_sheet
-                )
-
-                if combat_sheet:
-                    monster.sprite_config.sheet_path = (
-                        f"gfx/sprites/battle/{combat_sheet}"
-                    )
-
-        except Exception:
-            # Never allow sprite replacement to interrupt battle setup.
-            pass
-
         if self.exp is not None:
             monster.set_experience_modifier(self.exp)
         if self.money is not None:
