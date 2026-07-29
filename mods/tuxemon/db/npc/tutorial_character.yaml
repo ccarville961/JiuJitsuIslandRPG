@@ -1,0 +1,10 @@
+slug: tutorial_character
+speech:
+  profile:
+    default: {}
+combat: {}
+audio: {}
+template:
+  sprite_name: tutorial_character
+  combat_sheet: tutorial_character
+  slug: guard_puller_kobe
