@@ -54,7 +54,14 @@ class PygameEventQueueHandler(EventQueueHandler):
     def process_events(self) -> Generator[PlayerInput, None, None]:
         for pg_event in pg.event.get():
             for input_handler in self.get_input_handlers():
-                input_handler.process_event(pg_event)
+                try:
+                    input_handler.process_event(pg_event)
+                except Exception:
+                    logger.exception(
+                        "Input handler %s failed while processing event %r",
+                        type(input_handler).__name__,
+                        pg_event,
+                    )
 
             if pg_event.type == pg.QUIT:
                 local_session.client.event_engine.execute_action("quit")
@@ -556,10 +563,16 @@ class TouchOverlayUI:
 
 
 class PygameTouchOverlayInput(PygameEventHandler):
+    """Android-safe on-screen D-pad and A/B button input."""
+
     default_input_map: ClassVar[Mapping[int | None, int]] = {}
 
-    def __init__(self, transparency: int, resolution: tuple[int, int]) -> None:
-        super().__init__()
+    def __init__(
+        self,
+        transparency: int,
+        resolution: tuple[int, int],
+    ) -> None:
+        super().__init__({})
         self.ui = TouchOverlayUI(transparency, resolution)
         self.resolution = resolution
         self.buttons = {
@@ -570,81 +583,163 @@ class PygameTouchOverlayInput(PygameEventHandler):
             buttons.A: PlayerInput(buttons.A),
             buttons.B: PlayerInput(buttons.B),
         }
-        self.load()
         self._active_touches: dict[int, int] = {}
 
     def load(self) -> None:
-        """Loads the UI elements."""
+        """Reload the overlay artwork and hit boxes."""
         self.ui.load()
 
-    def process_event(self, input_event: Event) -> None:
-        """Handles both mouse and finger touch events."""
+    @staticmethod
+    def _finger_id(input_event: Event) -> int:
+        """Read the finger ID used by either pygame or pygame-ce."""
+        value = getattr(input_event, "finger_id", None)
 
-        if input_event.type in (pg.FINGERDOWN, pg.FINGERUP, pg.FINGERMOTION):
-            touch_pos = (
-                int(input_event.x * self.resolution[0]),
-                int(input_event.y * self.resolution[1]),
+        if value is None:
+            value = getattr(input_event, "fingerid", None)
+
+        if value is None:
+            value = getattr(input_event, "touch_id", 0)
+
+        try:
+            return int(value)
+        except (TypeError, ValueError):
+            return 0
+
+    def _touch_position(
+        self,
+        input_event: Event,
+    ) -> tuple[int, int] | None:
+        """Convert SDL normalised touch coordinates to game pixels."""
+        x = getattr(input_event, "x", None)
+        y = getattr(input_event, "y", None)
+
+        if x is None or y is None:
+            return None
+
+        try:
+            x_value = float(x)
+            y_value = float(y)
+        except (TypeError, ValueError):
+            return None
+
+        width, height = self.resolution
+
+        # SDL finger coordinates are normally in the range 0.0-1.0.
+        # Also tolerate already-scaled pixel coordinates.
+        if 0.0 <= x_value <= 1.0 and 0.0 <= y_value <= 1.0:
+            return (
+                int(x_value * width),
+                int(y_value * height),
             )
-            finger_id = input_get_event_finger_id(event)
 
-            if input_event.type == pg.FINGERDOWN:
-                self._handle_finger_down(finger_id, touch_pos)
-            elif input_event.type == pg.FINGERUP:
-                self._handle_finger_up(finger_id)
-            elif input_event.type == pg.FINGERMOTION:
-                self._handle_finger_motion(finger_id, touch_pos)
+        return (int(x_value), int(y_value))
+
+    def process_event(self, input_event: Event) -> None:
+        """Process Android/SDL finger input without crashing the game."""
+        if input_event.type not in (
+            pg.FINGERDOWN,
+            pg.FINGERUP,
+            pg.FINGERMOTION,
+        ):
+            return
+
+        finger_id = self._finger_id(input_event)
+
+        if input_event.type == pg.FINGERUP:
+            self._handle_finger_up(finger_id)
+            return
+
+        touch_pos = self._touch_position(input_event)
+        if touch_pos is None:
+            logger.warning(
+                "Ignoring malformed touch event: %r",
+                input_event,
+            )
+            return
+
+        if input_event.type == pg.FINGERDOWN:
+            self._handle_finger_down(finger_id, touch_pos)
+        else:
+            self._handle_finger_motion(finger_id, touch_pos)
 
     def _handle_finger_down(
-        self, finger_id: int, touch_pos: tuple[int, int]
+        self,
+        finger_id: int,
+        touch_pos: tuple[int, int],
     ) -> None:
         button = self.get_touched_button(touch_pos)
-        if button is not None:
-            if button not in self._active_touches.values():
-                self.press(button)
-            self._active_touches[finger_id] = button
+
+        if button is None:
+            return
+
+        previous = self._active_touches.get(finger_id)
+
+        if previous is not None and previous != button:
+            del self._active_touches[finger_id]
+
+            if previous not in self._active_touches.values():
+                self.release(previous)
+
+        if button not in self._active_touches.values():
+            self.press(button)
+
+        self._active_touches[finger_id] = button
 
     def _handle_finger_up(self, finger_id: int) -> None:
-        if finger_id in self._active_touches:
-            button = self._active_touches[finger_id]
-            del self._active_touches[finger_id]
-            if button not in self._active_touches.values():
-                self.release(button)
+        button = self._active_touches.pop(finger_id, None)
+
+        if button is None:
+            return
+
+        if button not in self._active_touches.values():
+            self.release(button)
 
     def _handle_finger_motion(
-        self, finger_id: int, touch_pos: tuple[int, int]
+        self,
+        finger_id: int,
+        touch_pos: tuple[int, int],
     ) -> None:
-        if finger_id in self._active_touches:
-            current_button = self._active_touches[finger_id]
-            new_button = self.get_touched_button(touch_pos)
+        current_button = self._active_touches.get(finger_id)
+        new_button = self.get_touched_button(touch_pos)
 
-            if new_button != current_button:
-                if current_button not in self._active_touches.values():
-                    self.release(current_button)
+        if current_button == new_button:
+            return
 
-                if new_button is not None:
-                    if new_button not in self._active_touches.values():
-                        self.press(new_button)
-                    self._active_touches[finger_id] = new_button
-                else:
-                    del self._active_touches[finger_id]
+        if current_button is not None:
+            del self._active_touches[finger_id]
 
-    def get_touched_button(self, pos: tuple[int, int]) -> int | None:
-        """Determine which button was pressed based on position."""
-        for name, rect in [
+            if current_button not in self._active_touches.values():
+                self.release(current_button)
+
+        if new_button is not None:
+            if new_button not in self._active_touches.values():
+                self.press(new_button)
+
+            self._active_touches[finger_id] = new_button
+
+    def get_touched_button(
+        self,
+        pos: tuple[int, int],
+    ) -> int | None:
+        """Return the logical control at a screen position."""
+        controls = (
             (buttons.UP, self.ui.dpad.rect.up),
             (buttons.DOWN, self.ui.dpad.rect.down),
             (buttons.LEFT, self.ui.dpad.rect.left),
             (buttons.RIGHT, self.ui.dpad.rect.right),
             (buttons.A, self.ui.a_button.rect),
             (buttons.B, self.ui.b_button.rect),
-        ]:
+        )
+
+        for button, rect in controls:
             if rect.collidepoint(pos):
-                logger.debug(f"Touch detected on: {name}")
-                return name
+                logger.debug("Touch detected on button: %s", button)
+                return button
+
         return None
 
     def draw(self, screen: Surface) -> None:
-        """Draws the UI overlay."""
+        """Draw the mobile controller overlay."""
         self.ui.draw(screen)
 
 
