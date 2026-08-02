@@ -176,7 +176,6 @@ class StartState(PygameMenuState):
         )
 
         self.add_menu_items(self.menu)
-        self.reset_theme()
 
     def _on_afk_threshold(self, level: str) -> None:
         if level == "IntroState":
