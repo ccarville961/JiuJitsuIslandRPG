@@ -38,7 +38,8 @@ class MusicPlayerState:
     ) -> None:
         try:
             path = self.get_path(filename)
-            platform.mixer.music.load(path)
+            # Android pygame requires a plain string filename.
+            platform.mixer.music.load(str(path))
             platform.mixer.music.set_volume(volume)
             platform.mixer.music.play(loops=loop, fade_ms=fade_ms)
         except Exception as e:
