@@ -177,6 +177,12 @@ class StartState(PygameMenuState):
 
         self.add_menu_items(self.menu)
 
+        # Play the JiuJitsu Island title-screen music.
+        self.client.current_music.play(
+            "music_01_opening",
+            fade_previous=True,
+        )
+
     def _on_afk_threshold(self, level: str) -> None:
         if level == "IntroState":
             self.client.replace_state("IntroState")

@@ -454,106 +454,153 @@ class DPadButtonInfo:
 
 
 class TouchOverlayUI:
-    def __init__(self, transparency: int, resolution: tuple[int, int]) -> None:
-        self.transparency = transparency
+    """Responsive landscape touch controls."""
+
+    def __init__(
+        self,
+        transparency: int,
+        resolution: tuple[int, int],
+    ) -> None:
+        # The old default of 45 is almost invisible on Android.
+        self.transparency = max(175, min(255, transparency))
         self.resolution = resolution
-        self.dpad: DPadInfo
-        self.a_button: DPadButtonInfo
-        self.b_button: DPadButtonInfo
+        self.dpad = DPadInfo()
+        self.a_button = DPadButtonInfo()
+        self.b_button = DPadButtonInfo()
         self.load()
 
     def set_transparency(self, value: int) -> None:
         self.transparency = max(0, min(255, value))
 
-    def load(self) -> None:
-        """Loads the UI elements and re-initializes the frozen dataclasses."""
+    def ensure_layout(self, resolution: tuple[int, int]) -> None:
+        """Rebuild controls when the real display size changes."""
+        if tuple(resolution) != tuple(self.resolution):
+            self.resolution = tuple(resolution)
+            self.load()
 
-        dpad_surface = graphics.load_and_scale(DPAD_IMAGE)
-        dpad_position = (
-            0,
-            self.resolution[1] - dpad_surface.get_height(),
+    def load(self) -> None:
+        """Create controls positioned against the real screen edges."""
+        screen_width, screen_height = self.resolution
+
+        if screen_width <= 0 or screen_height <= 0:
+            return
+
+        margin = max(14, int(screen_height * 0.045))
+
+        # Landscape sizing: approximately one third of screen height.
+        dpad_size = max(
+            96,
+            min(
+                int(screen_height * 0.36),
+                int(screen_width * 0.19),
+            ),
         )
 
-        width, height = dpad_surface.get_width(), dpad_surface.get_height()
-        pos_x, pos_y = dpad_position
+        button_size = max(58, int(dpad_size * 0.56))
+        button_gap = max(14, int(button_size * 0.25))
 
-        gap_size = int(width * DPAD_GAP_RATIO)
-        half_gap = gap_size // 2
+        raw_dpad = graphics.load_and_scale(DPAD_IMAGE)
+        raw_a = graphics.load_and_scale(A_BUTTON_IMAGE)
+        raw_b = graphics.load_and_scale(B_BUTTON_IMAGE)
 
-        w_arm = width - gap_size  # Total width of the horizontal arms (L+R)
-        h_arm = height - gap_size  # Total height of the vertical arms (U+D)
+        dpad_surface = pg.transform.scale(
+            raw_dpad,
+            (dpad_size, dpad_size),
+        )
+
+        a_surface = pg.transform.scale(
+            raw_a,
+            (button_size, button_size),
+        )
+
+        b_surface = pg.transform.scale(
+            raw_b,
+            (button_size, button_size),
+        )
+
+        dpad_x = margin
+        dpad_y = screen_height - margin - dpad_size
+
+        third = dpad_size // 3
+        half = dpad_size // 2
 
         dpad_rects = DPadRectsInfo(
-            up=Rect(pos_x + half_gap, pos_y, width - gap_size, h_arm // 2),
-            down=Rect(
-                pos_x + half_gap,
-                pos_y + height - h_arm // 2,
-                width - gap_size,
-                h_arm // 2,
+            up=Rect(
+                dpad_x + third,
+                dpad_y,
+                third,
+                half,
             ),
-            left=Rect(pos_x, pos_y + half_gap, w_arm // 2, height - gap_size),
+            down=Rect(
+                dpad_x + third,
+                dpad_y + half,
+                third,
+                dpad_size - half,
+            ),
+            left=Rect(
+                dpad_x,
+                dpad_y + third,
+                half,
+                third,
+            ),
             right=Rect(
-                pos_x + width - w_arm // 2,
-                pos_y + half_gap,
-                w_arm // 2,
-                height - gap_size,
+                dpad_x + half,
+                dpad_y + third,
+                dpad_size - half,
+                third,
             ),
         )
 
         self.dpad = DPadInfo(
             surface=dpad_surface,
-            position=dpad_position,
+            position=(dpad_x, dpad_y),
             rect=dpad_rects,
         )
 
-        self.a_button = self._load_button_instance(
-            A_BUTTON_IMAGE, A_BUTTON_SCALE
-        )
-        self.b_button = self._load_button_instance(
-            B_BUTTON_IMAGE, B_BUTTON_SCALE
-        )
+        button_y = screen_height - margin - button_size
+        a_x = screen_width - margin - button_size
+        b_x = a_x - button_gap - button_size
 
-    def _load_button_instance(
-        self, image_path: str, scale: float
-    ) -> DPadButtonInfo:
-        """Helper to create and return a new DPadButtonInfo instance."""
-        button_surface = graphics.load_and_scale(image_path)
-
-        pos_y = int(
-            self.dpad.position[1]
-            + (self.dpad.surface.get_height() / 2)
-            - (button_surface.get_height() / 2)
+        self.a_button = DPadButtonInfo(
+            surface=a_surface,
+            position=(a_x, button_y),
+            rect=Rect(
+                a_x,
+                button_y,
+                button_size,
+                button_size,
+            ),
         )
 
-        button_position = (
-            self.resolution[0] - int(button_surface.get_width() * scale),
-            pos_y,
-        )
-
-        button_rect = Rect(
-            button_position[0],
-            button_position[1],
-            button_surface.get_width(),
-            button_surface.get_height(),
-        )
-
-        return DPadButtonInfo(
-            surface=button_surface,
-            position=button_position,
-            rect=button_rect,
+        self.b_button = DPadButtonInfo(
+            surface=b_surface,
+            position=(b_x, button_y),
+            rect=Rect(
+                b_x,
+                button_y,
+                button_size,
+                button_size,
+            ),
         )
 
     def draw(self, screen: Surface) -> None:
-        """Draws the UI overlay."""
+        """Draw controls using the actual display surface size."""
+        self.ensure_layout(screen.get_size())
+
         blit_alpha(
-            screen, self.dpad.surface, self.dpad.position, self.transparency
+            screen,
+            self.dpad.surface,
+            self.dpad.position,
+            self.transparency,
         )
+
         blit_alpha(
             screen,
             self.a_button.surface,
             self.a_button.position,
             self.transparency,
         )
+
         blit_alpha(
             screen,
             self.b_button.surface,
@@ -563,7 +610,7 @@ class TouchOverlayUI:
 
 
 class PygameTouchOverlayInput(PygameEventHandler):
-    """Android-safe on-screen D-pad and A/B button input."""
+    """Responsive touch controls for Android and emulator testing."""
 
     default_input_map: ClassVar[Mapping[int | None, int]] = {}
 
@@ -573,8 +620,12 @@ class PygameTouchOverlayInput(PygameEventHandler):
         resolution: tuple[int, int],
     ) -> None:
         super().__init__({})
-        self.ui = TouchOverlayUI(transparency, resolution)
-        self.resolution = resolution
+
+        self.ui = TouchOverlayUI(
+            transparency,
+            resolution,
+        )
+
         self.buttons = {
             buttons.UP: PlayerInput(buttons.UP),
             buttons.DOWN: PlayerInput(buttons.DOWN),
@@ -583,33 +634,16 @@ class PygameTouchOverlayInput(PygameEventHandler):
             buttons.A: PlayerInput(buttons.A),
             buttons.B: PlayerInput(buttons.B),
         }
+
         self._active_touches: dict[int, int] = {}
 
     def load(self) -> None:
-        """Reload the overlay artwork and hit boxes."""
         self.ui.load()
 
-    @staticmethod
-    def _finger_id(input_event: Event) -> int:
-        """Read the finger ID used by either pygame or pygame-ce."""
-        value = getattr(input_event, "finger_id", None)
-
-        if value is None:
-            value = getattr(input_event, "fingerid", None)
-
-        if value is None:
-            value = getattr(input_event, "touch_id", 0)
-
-        try:
-            return int(value)
-        except (TypeError, ValueError):
-            return 0
-
-    def _touch_position(
+    def _normalised_touch_position(
         self,
         input_event: Event,
     ) -> tuple[int, int] | None:
-        """Convert SDL normalised touch coordinates to game pixels."""
         x = getattr(input_event, "x", None)
         y = getattr(input_event, "y", None)
 
@@ -622,71 +656,91 @@ class PygameTouchOverlayInput(PygameEventHandler):
         except (TypeError, ValueError):
             return None
 
-        width, height = self.resolution
+        width, height = self.ui.resolution
 
-        # SDL finger coordinates are normally in the range 0.0-1.0.
-        # Also tolerate already-scaled pixel coordinates.
-        if 0.0 <= x_value <= 1.0 and 0.0 <= y_value <= 1.0:
-            return (
-                int(x_value * width),
-                int(y_value * height),
-            )
-
-        return (int(x_value), int(y_value))
+        return (
+            int(x_value * width),
+            int(y_value * height),
+        )
 
     def process_event(self, input_event: Event) -> None:
-        """Process Android/SDL finger input without crashing the game."""
-        if input_event.type not in (
+        """Handle real touch input and emulator mouse input."""
+
+        if input_event.type in (
             pg.FINGERDOWN,
             pg.FINGERUP,
             pg.FINGERMOTION,
         ):
+            finger_id = get_event_finger_id(input_event)
+
+            if input_event.type == pg.FINGERUP:
+                self._handle_release(finger_id)
+                return
+
+            position = self._normalised_touch_position(input_event)
+
+            if position is None:
+                return
+
+            if input_event.type == pg.FINGERDOWN:
+                self._handle_press(finger_id, position)
+            else:
+                self._handle_motion(finger_id, position)
+
             return
 
-        finger_id = self._finger_id(input_event)
-
-        if input_event.type == pg.FINGERUP:
-            self._handle_finger_up(finger_id)
+        # Android Emulator commonly converts mouse clicks into mouse events.
+        if input_event.type == pg.MOUSEBUTTONDOWN:
+            if getattr(input_event, "button", 0) == 1:
+                self._handle_press(
+                    -1,
+                    tuple(input_event.pos),
+                )
             return
 
-        touch_pos = self._touch_position(input_event)
-        if touch_pos is None:
-            logger.warning(
-                "Ignoring malformed touch event: %r",
-                input_event,
-            )
+        if input_event.type == pg.MOUSEBUTTONUP:
+            if getattr(input_event, "button", 0) == 1:
+                self._handle_release(-1)
             return
 
-        if input_event.type == pg.FINGERDOWN:
-            self._handle_finger_down(finger_id, touch_pos)
-        else:
-            self._handle_finger_motion(finger_id, touch_pos)
+        if input_event.type == pg.MOUSEMOTION:
+            if -1 in self._active_touches:
+                self._handle_motion(
+                    -1,
+                    tuple(input_event.pos),
+                )
 
-    def _handle_finger_down(
+    def _handle_press(
         self,
-        finger_id: int,
-        touch_pos: tuple[int, int],
+        pointer_id: int,
+        position: tuple[int, int],
     ) -> None:
-        button = self.get_touched_button(touch_pos)
+        button = self.get_touched_button(position)
 
         if button is None:
             return
 
-        previous = self._active_touches.get(finger_id)
+        old_button = self._active_touches.get(pointer_id)
 
-        if previous is not None and previous != button:
-            del self._active_touches[finger_id]
+        if old_button is not None and old_button != button:
+            self._active_touches.pop(pointer_id, None)
 
-            if previous not in self._active_touches.values():
-                self.release(previous)
+            if old_button not in self._active_touches.values():
+                self.release(old_button)
 
         if button not in self._active_touches.values():
             self.press(button)
 
-        self._active_touches[finger_id] = button
+        self._active_touches[pointer_id] = button
 
-    def _handle_finger_up(self, finger_id: int) -> None:
-        button = self._active_touches.pop(finger_id, None)
+        logger.info(
+            "Mobile control pressed: %s at %s",
+            button,
+            position,
+        )
+
+    def _handle_release(self, pointer_id: int) -> None:
+        button = self._active_touches.pop(pointer_id, None)
 
         if button is None:
             return
@@ -694,34 +748,35 @@ class PygameTouchOverlayInput(PygameEventHandler):
         if button not in self._active_touches.values():
             self.release(button)
 
-    def _handle_finger_motion(
-        self,
-        finger_id: int,
-        touch_pos: tuple[int, int],
-    ) -> None:
-        current_button = self._active_touches.get(finger_id)
-        new_button = self.get_touched_button(touch_pos)
+        logger.info("Mobile control released: %s", button)
 
-        if current_button == new_button:
+    def _handle_motion(
+        self,
+        pointer_id: int,
+        position: tuple[int, int],
+    ) -> None:
+        old_button = self._active_touches.get(pointer_id)
+        new_button = self.get_touched_button(position)
+
+        if old_button == new_button:
             return
 
-        if current_button is not None:
-            del self._active_touches[finger_id]
+        if old_button is not None:
+            self._active_touches.pop(pointer_id, None)
 
-            if current_button not in self._active_touches.values():
-                self.release(current_button)
+            if old_button not in self._active_touches.values():
+                self.release(old_button)
 
         if new_button is not None:
             if new_button not in self._active_touches.values():
                 self.press(new_button)
 
-            self._active_touches[finger_id] = new_button
+            self._active_touches[pointer_id] = new_button
 
     def get_touched_button(
         self,
-        pos: tuple[int, int],
+        position: tuple[int, int],
     ) -> int | None:
-        """Return the logical control at a screen position."""
         controls = (
             (buttons.UP, self.ui.dpad.rect.up),
             (buttons.DOWN, self.ui.dpad.rect.down),
@@ -732,14 +787,12 @@ class PygameTouchOverlayInput(PygameEventHandler):
         )
 
         for button, rect in controls:
-            if rect.collidepoint(pos):
-                logger.debug("Touch detected on button: %s", button)
+            if rect.collidepoint(position):
                 return button
 
         return None
 
     def draw(self, screen: Surface) -> None:
-        """Draw the mobile controller overlay."""
         self.ui.draw(screen)
 
 
