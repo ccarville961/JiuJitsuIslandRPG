@@ -103,15 +103,39 @@ class FileSystemPluginDiscovery(PluginDiscovery):
         self.folders = folders
 
     def _get_module_path(self, folder: Path) -> str:
-        """Converts a folder path to a module path using pathlib."""
+        """Convert a plugin folder path into a Python module path.
+
+        PyInstaller places bundled data under Contents/Resources while
+        Python libraries are rooted under Contents/Frameworks. In a frozen
+        macOS application, plugin folders can therefore legitimately exist
+        outside ``self.root_path``.
+        """
         folder = folder.resolve()
+        root_path = self.root_path.resolve()
+
         try:
-            relative = folder.relative_to(self.root_path)
+            relative = folder.relative_to(root_path)
+            return ".".join(relative.parts)
         except ValueError:
-            raise RuntimeError(
-                f"{folder} is not under root path {self.root_path}"
-            )
-        return ".".join(relative.parts)
+            pass
+
+        if getattr(sys, "frozen", False):
+            parts = folder.parts
+
+            # Preserve module paths beginning with either tuxemon or mods.
+            for package_root in ("tuxemon", "mods"):
+                matching_indexes = [
+                    index
+                    for index, part in enumerate(parts)
+                    if part == package_root
+                ]
+                if matching_indexes:
+                    index = matching_indexes[-1]
+                    return ".".join(parts[index:])
+
+        raise RuntimeError(
+            f"{folder} is not under root path {root_path}"
+        )
 
 
 class PluginLoader:
@@ -299,11 +323,22 @@ class PluginManager:
         """
         Extract all classes from a module that match the interface.
         """
-        predicate = (
-            inspect.isclass
-            if interface is PluginObject
-            else lambda c: inspect.isclass(c) and issubclass(c, interface)
-        )
+        if interface is PluginObject:
+            predicate = inspect.isclass
+        else:
+            def predicate(candidate: object) -> bool:
+                if not inspect.isclass(candidate):
+                    return False
+                try:
+                    return issubclass(candidate, interface)
+                except TypeError:
+                    logger.debug(
+                        "Skipping object that cannot be checked with "
+                        "issubclass(): %r",
+                        candidate,
+                    )
+                    return False
+
         return inspect.getmembers(module, predicate=predicate)
 
     def _get_plugins_from_module(

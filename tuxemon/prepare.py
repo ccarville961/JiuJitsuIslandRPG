@@ -74,10 +74,29 @@ def pygame_init() -> DisplayContext:
 
     flags = pg.HWSURFACE | pg.DOUBLEBUF | fullscreen
 
-    if CONFIG.vsync:
+    if CONFIG.vsync and hasattr(pg.display, "set_allow_screensaver"):
         pg.display.set_allow_screensaver()
 
-    screen = pg.display.set_mode(CONFIG.resolution, flags, vsync=CONFIG.vsync)
+    is_android = (
+        platform.is_android()
+        or os.environ.get("ANDROID_ARGUMENT") is not None
+        or os.environ.get("P4A_BOOTSTRAP") is not None
+    )
+
+    if is_android:
+        # Use the Android device's current fullscreen resolution.
+        # Android pygame requires FULLSCREEN and rejects the vsync keyword.
+        screen = pg.display.set_mode(
+            (0, 0),
+            pg.FULLSCREEN,
+        )
+    else:
+        screen = pg.display.set_mode(
+            CONFIG.resolution,
+            flags,
+            vsync=CONFIG.vsync,
+        )
+
     rect = screen.get_rect()
 
     pg.mouse.set_visible(not CONFIG.controller.hide_mouse)

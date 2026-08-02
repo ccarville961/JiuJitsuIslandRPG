@@ -2,7 +2,10 @@
 # Copyright (c) 2014-2026 William Edwards <shadowapex@gmail.com>, Benjamin Bean <superman2k5@gmail.com>
 from __future__ import annotations
 
+import importlib
+import inspect
 import logging
+import pkgutil
 from pathlib import Path
 from typing import TYPE_CHECKING
 
@@ -98,10 +101,74 @@ class StateLoader:
             exclude=["State"],
         )
 
-        # Register core states first
+        # Register core states discovered through the existing filesystem
+        # plugin system first.
         for plugin in core_pm.get_all_plugins(interface=State):
             repository.add_state(plugin.plugin_object)
 
-        # Mods override core
+        # Android/package fallback:
+        # Packaged applications do not always expose their Python package
+        # directories in exactly the same way as a normal source checkout.
+        # Discover modules through Python's package system and register any
+        # locally-defined State subclasses that filesystem discovery missed.
+        registered = repository.all_states()
+
+        if "BackgroundState" not in registered or "IntroState" not in registered:
+            logger.warning(
+                "Filesystem state discovery was incomplete; "
+                "running package-based state discovery."
+            )
+
+            package = importlib.import_module(self.base_package)
+            package_paths = getattr(package, "__path__", [])
+
+            for module_info in pkgutil.iter_modules(
+                package_paths,
+                package.__name__ + ".",
+            ):
+                module_name = module_info.name
+
+                try:
+                    module = importlib.import_module(module_name)
+                except Exception as exc:
+                    logger.error(
+                        f"Skipping state module '{module_name}': {exc}"
+                    )
+                    continue
+
+                for _, state_class in inspect.getmembers(
+                    module,
+                    inspect.isclass,
+                ):
+                    if state_class is State:
+                        continue
+
+                    try:
+                        is_state_class = issubclass(state_class, State)
+                    except TypeError:
+                        # Some typing and extension objects can appear class-like
+                        # to inspect.isclass() but cannot be used with issubclass().
+                        logger.debug(
+                            "Skipping non-class-like object %r from %s",
+                            state_class,
+                            module.__name__,
+                        )
+                        continue
+
+                    if not is_state_class:
+                        continue
+
+                    # Do not register classes merely imported into this module.
+                    if state_class.__module__ != module.__name__:
+                        continue
+
+                    if state_class.__name__ not in repository.all_states():
+                        logger.info(
+                            f"Package discovery registering state: "
+                            f"{state_class.__name__}"
+                        )
+                        repository.add_state(state_class)
+
+        # Mods override core states.
         for plugin in mod_pm.get_all_plugins(interface=State):
             repository.add_state(plugin.plugin_object)

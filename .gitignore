@@ -79,3 +79,46 @@ mods/tuxemon/db/encounter/~$JSON-o-matic for Encounters.ods
 mods/tuxemon/maps/add_char_face.py
 
 local_backups/
+
+# Android / Buildozer generated files
+.buildozer/
+bin/*.apk
+android-build-*.log
+*.log
+
+# Python generated files
+__pycache__/
+*.pyc
+
+# Android / Buildozer generated output
+.buildozer/
+android-release/
+bin/
+*.apk
+*.aab
+
+# Android diagnostic output
+android-latest-logcat.txt
+android-latest-report.txt
+android-build-*.log
+
+# Local Python environments
+.venv/
+*-venv/
+JJI-android-venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local backups
+*.bak
+*.before_*
+
+# macOS packaging output
+release-macos/
+JiuJitsuIslandMac.spec
+
+# Old web/pygbag experiments
+main.py.pygbag-backup
+pygbag_loop_output.txt

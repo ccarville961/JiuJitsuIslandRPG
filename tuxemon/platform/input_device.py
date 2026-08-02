@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import os
 from dataclasses import dataclass
 from typing import TYPE_CHECKING, Any, Protocol
 
@@ -113,7 +114,13 @@ class ControllerOverlaySetup:
         config: TuxemonConfig,
         resolution: tuple[int, int],
     ) -> PygameTouchOverlayInput | None:
-        if config.controller.overlay:
+        is_android = (
+            os.environ.get("ANDROID_ARGUMENT") is not None
+            or os.environ.get("P4A_BOOTSTRAP") is not None
+            or os.environ.get("ANDROID_PRIVATE") is not None
+        )
+
+        if config.controller.overlay or is_android:
             overlay = PygameTouchOverlayInput(
                 config.controller.transparency, resolution
             )

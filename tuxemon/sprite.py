@@ -16,7 +16,13 @@ from typing import (
 )
 
 from pygame import SRCALPHA
-from pygame.rect import FRect, Rect
+from pygame.rect import Rect
+
+try:
+    from pygame.rect import FRect
+except ImportError:
+    # Older Android pygame builds do not provide FRect.
+    FRect = Rect
 from pygame.sprite import DirtySprite, LayeredUpdates
 from pygame.sprite import Sprite as PySprite
 from pygame.surface import Surface

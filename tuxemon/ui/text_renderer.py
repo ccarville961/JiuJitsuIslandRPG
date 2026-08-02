@@ -88,11 +88,13 @@ class TextRenderer:
         font_color = self.font.render(text, True, fg)
         shadow_color = self.font.render(text, True, bg)
 
+        offset_int = tuple(int(round(value)) for value in offset)
+
         size = [
             int(math.ceil(a + b))
-            for a, b in zip(offset, font_color.get_size())
+            for a, b in zip(offset_int, font_color.get_size())
         ]
         image = Surface(size, SRCALPHA)
-        image.blit(shadow_color, tuple(offset))
+        image.blit(shadow_color, offset_int)
         image.blit(font_color, (0, 0))
         return image

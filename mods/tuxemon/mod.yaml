@@ -48,4 +48,4 @@ sprite: adventurer
 # The filename of the player's front-facing combat sprite.
 # This must reference a file inside mods/<modname>/gfx/sprites/player.
 # Example: "adventurer.png" will use the base name "adventurer".
-combat_sheet: adventurer
+combat_sheet: blackgi-whitebelt

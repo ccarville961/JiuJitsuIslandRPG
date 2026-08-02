@@ -14,7 +14,11 @@ from operator import itemgetter
 from pathlib import Path
 from typing import TYPE_CHECKING, Any, TypeVar
 
-from pygame.image import tobytes
+try:
+    from pygame.image import tobytes
+except ImportError:
+    # Older/Android pygame builds expose the same function as tostring.
+    from pygame.image import tostring as tobytes
 from pygame.surface import Surface
 
 from tuxemon.constants import paths

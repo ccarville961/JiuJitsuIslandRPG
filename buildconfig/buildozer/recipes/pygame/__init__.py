@@ -29,10 +29,19 @@ class Pygame2Recipe(CompiledComponentsPythonRecipe):
             setup_template = open(
                 join("buildconfig", "Setup.Android.SDL2.in")
             ).read()
-            env = self.get_recipe_env(arch)
-            env["ANDROID_ROOT"] = join(self.ctx.ndk_platform, "usr")
 
-            ndk_lib_dir = join(self.ctx.ndk_platform, "usr", "lib")
+            # JJI Android:
+            # pygame's optional pygame._sdl2 extensions do not compile with
+            # this Android/Python toolchain and are not required by the game.
+            setup_template = "\n".join(
+                line
+                for line in setup_template.splitlines()
+                if not line.lstrip().startswith("_sdl2.")
+            ) + "\n"
+            env = self.get_recipe_env(arch)
+            env["ANDROID_ROOT"] = self.ctx.ndk.sysroot
+
+            ndk_lib_dir = arch.ndk_lib_dir_versioned
 
             png = self.get_recipe("png", self.ctx)
             png_lib_dir = join(png.get_build_dir(arch.arch), ".libs")
@@ -59,9 +68,9 @@ class Pygame2Recipe(CompiledComponentsPythonRecipe):
                 sdl_ttf_includes="-I"
                 + join(self.ctx.bootstrap.build_dir, "jni", "SDL2_ttf"),
                 sdl_image_includes="-I"
-                + join(self.ctx.bootstrap.build_dir, "jni", "SDL2_image"),
+                + join(self.ctx.bootstrap.build_dir, "jni", "SDL2_image", "include"),
                 sdl_mixer_includes="-I"
-                + join(self.ctx.bootstrap.build_dir, "jni", "SDL2_mixer"),
+                + join(self.ctx.bootstrap.build_dir, "jni", "SDL2_mixer", "include"),
                 jpeg_includes="-I" + jpeg_inc_dir,
                 png_includes="-I" + png_inc_dir,
                 freetype_includes="",

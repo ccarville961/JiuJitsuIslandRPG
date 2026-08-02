@@ -1,6 +1,7 @@
 # SPDX-License-Identifier: GPL-3.0
 # Copyright (c) 2014-2026 William Edwards <shadowapex@gmail.com>, Benjamin Bean <superman2k5@gmail.com>
 import logging
+import os
 import sys
 from pathlib import Path
 
@@ -23,13 +24,17 @@ BASEDIR = Path(sys.path[0]).resolve()
 logger.debug(f"basedir: {BASEDIR}")
 
 # mods
-# For cx_freeze builds, LIBDIR is in lib/tuxemon, so we need to go up two levels
-# For normal installs, LIBDIR is in tuxemon, so we go up one level
-if hasattr(sys, "frozen") and sys.frozen:
-    # cx_freeze build: exe.win-amd64-3.12\lib\tuxemon -> exe.win-amd64-3.12\mods
+# PyInstaller exposes its bundled data directory through sys._MEIPASS.
+# cx_Freeze places tuxemon under lib/tuxemon.
+# Normal source installations place tuxemon beside mods.
+if getattr(sys, "_MEIPASS", None):
+    # PyInstaller bundle: <bundle data directory>/mods
+    mods_folder = (Path(sys._MEIPASS) / "mods").resolve()
+elif getattr(sys, "frozen", False):
+    # cx_Freeze build: <build>/lib/tuxemon -> <build>/mods
     mods_folder = (LIBDIR.parent.parent / "mods").resolve()
 else:
-    # normal install: tuxemon -> mods
+    # normal install: <project>/tuxemon -> <project>/mods
     mods_folder = (LIBDIR.parent / "mods").resolve()
 logger.debug(f"mods: {mods_folder}")
 
@@ -58,8 +63,20 @@ CORE_CONDITION_PATH = LIBDIR.joinpath(*PLUGIN_CATEGORY_MAP["core_conditions"])
 # --- User Data Paths ---
 
 # main game and config dir
-# Ensure this doesn't depend on pygame
-USER_STORAGE_DIR = platform.user_storage.user_dir()
+# Ensure this doesn't depend on pygame.
+#
+# On Android, ANDROID_PRIVATE points inside the application's private,
+# writable files directory. Store saves/configuration beside the unpacked
+# app directory rather than attempting to write to /data/.tuxemon.
+_android_private = os.environ.get("ANDROID_PRIVATE")
+
+if _android_private:
+    USER_STORAGE_DIR = (
+        Path(_android_private).resolve().parent / ".tuxemon"
+    )
+else:
+    USER_STORAGE_DIR = platform.user_storage.user_dir()
+
 logger.debug(f"userdir: {USER_STORAGE_DIR}")
 
 # config file paths

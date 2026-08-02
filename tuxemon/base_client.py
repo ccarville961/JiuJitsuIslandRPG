@@ -93,6 +93,7 @@ class BaseClient(ABC):
         self.state_repository = StateRepository.from_loader(
             StateLoader("tuxemon.states", paths.LIBDIR)
         )
+
         self.state_manager = StateManager(
             package="tuxemon.states",
             client=self,

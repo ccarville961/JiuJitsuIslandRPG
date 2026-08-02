@@ -1,6 +1,8 @@
 # SPDX-License-Identifier: GPL-3.0
 from __future__ import annotations
 
+from pathlib import Path
+
 from collections.abc import Callable
 from typing import TYPE_CHECKING, Any, ClassVar
 
@@ -77,12 +79,22 @@ class JJICharacterSelectState(PygameMenuState):
 
         # Load the cleaned 64x88 front-facing selector preview.
         preview_path = (
-            f"mods/tuxemon/gfx/sprites/character_select/"
-            f"{preview_sprite}.png"
-        )
+            Path.cwd()
+            / "mods"
+            / "tuxemon"
+            / "gfx"
+            / "sprites"
+            / "character_select"
+            / f"{preview_sprite}.png"
+        ).resolve()
+
+        if not preview_path.is_file():
+            raise FileNotFoundError(
+                f"Character preview sprite was not found: {preview_path}"
+            )
 
         front_surface = pygame.image.load(
-            preview_path
+            str(preview_path)
         ).convert_alpha()
 
         # Remove transparent space surrounding the character so the
@@ -124,14 +136,7 @@ class JJICharacterSelectState(PygameMenuState):
             padding=(2, 8),
         )
 
-        navigation_frame = self.menu.add.frame_h(
-            width=self.menu.get_width() * 0.65,
-            height=self.font_type.medium * 2,
-            align=ALIGN_CENTER,
-            frame_id="character_navigation",
-        )
-
-        previous_button = self.menu.add.button(
+        self.menu.add.button(
             title="< Previous",
             action=self.previous,
             button_id="previous_character",
@@ -141,17 +146,7 @@ class JJICharacterSelectState(PygameMenuState):
             padding=(2, 8),
         )
 
-        next_button = self.menu.add.button(
-            title="Next >",
-            action=self.next,
-            button_id="next_character",
-            font_size=self.font_type.small,
-            font_color=(255, 255, 255),
-            selection_effect=HighlightSelection(),
-            padding=(2, 8),
-        )
-
-        confirm_button = self.menu.add.button(
+        self.menu.add.button(
             title="Confirm",
             action=self.confirm,
             button_id="confirm_character",
@@ -161,19 +156,14 @@ class JJICharacterSelectState(PygameMenuState):
             padding=(2, 8),
         )
 
-        navigation_frame.pack(
-            previous_button,
-            align="align-left",
-        )
-
-        navigation_frame.pack(
-            confirm_button,
-            align="align-center",
-        )
-
-        navigation_frame.pack(
-            next_button,
-            align="align-right",
+        self.menu.add.button(
+            title="Next >",
+            action=self.next,
+            button_id="next_character",
+            font_size=self.font_type.small,
+            font_color=(255, 255, 255),
+            selection_effect=HighlightSelection(),
+            padding=(2, 8),
         )
 
         # Start with the important confirmation option selected.

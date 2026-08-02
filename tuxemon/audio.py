@@ -227,7 +227,8 @@ class SoundManager:
             return SoundWrapper()
 
         try:
-            sound = pygame.mixer.Sound(filename)
+            # Android pygame does not accept pathlib.Path here.
+            sound = pygame.mixer.Sound(str(filename))
 
             # Apply physical volume based on mute state
             physical_volume = 0.0 if self.muted else self._user_volume
@@ -237,7 +238,7 @@ class SoundManager:
             self.sounds[slug] = wrapper
             return wrapper
 
-        except (MemoryError, pygame.error) as e:
+        except (MemoryError, TypeError, pygame.error) as e:
             logger.error(f"Failed to load sound '{slug}': {e}")
             return SoundWrapper()
 

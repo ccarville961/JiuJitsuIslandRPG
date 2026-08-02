@@ -25,6 +25,22 @@ from tuxemon.ui.draw import blit_alpha
 
 logger = logging.getLogger(__name__)
 
+
+def get_event_finger_id(event: object) -> int:
+    """Return a compatible finger ID across pygame/SDL platforms."""
+    finger_id = getattr(event, "finger_id", None)
+
+    if finger_id is None:
+        finger_id = getattr(event, "fingerid", None)
+
+    if finger_id is None:
+        finger_id = getattr(event, "touch_id", 0)
+
+    try:
+        return int(finger_id)
+    except (TypeError, ValueError):
+        return 0
+
 HORIZONTAL_AXIS = 0
 VERTICAL_AXIS = 1
 
@@ -569,7 +585,7 @@ class PygameTouchOverlayInput(PygameEventHandler):
                 int(input_event.x * self.resolution[0]),
                 int(input_event.y * self.resolution[1]),
             )
-            finger_id = input_event.fingerid
+            finger_id = input_get_event_finger_id(event)
 
             if input_event.type == pg.FINGERDOWN:
                 self._handle_finger_down(finger_id, touch_pos)
