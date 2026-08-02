@@ -177,9 +177,9 @@ class StartState(PygameMenuState):
 
         self.add_menu_items(self.menu)
 
-        # Play the JiuJitsu Island title-screen music.
+        # Play the custom JiuJitsu Island main theme.
         self.client.current_music.play(
-            "music_01_opening",
+            "music_main_theme",
             fade_previous=True,
         )
 
