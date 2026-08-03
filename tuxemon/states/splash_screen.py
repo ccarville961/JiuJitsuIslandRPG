@@ -38,20 +38,10 @@ class SplashState(PopUpMenu[Callable[[], None]]):
         self.task(self.fade_out, interval=self.default_duration)
         self.triggered = False
 
-        width, height = client.context.resolution
-        splash_border = int(width / 20)
-
-        logo = self.load_sprite(PYGAME_LOGO)
-        logo.rect.topleft = (
-            splash_border,
-            height - splash_border - logo.rect.height,
-        )
-
-        cc = self.load_sprite(CREATIVE_COMMONS)
-        cc.rect.topleft = (
-            width - splash_border - cc.rect.width,
-            height - splash_border - cc.rect.height,
-        )
+        # Store the splash sprites. Their final positions are calculated
+        # from the real Android display surface inside draw().
+        self.logo = self.load_sprite(PYGAME_LOGO)
+        self.cc = self.load_sprite(CREATIVE_COMMONS)
 
         self.client.sound_manager.play("sound_ding")
 
@@ -68,13 +58,37 @@ class SplashState(PopUpMenu[Callable[[], None]]):
         if not self.triggered:
             surface.fill(BLACK_COLOR)
 
+            screen_rect = surface.get_rect()
+            width = screen_rect.width
+            height = screen_rect.height
+
+            # Leave the lower corners free for Android touch controls.
+            horizontal_margin = max(18, int(width * 0.035))
+            top_margin = max(14, int(height * 0.05))
+
+            # Position both logos from the real display dimensions.
+            self.logo.rect.topleft = (
+                horizontal_margin,
+                top_margin,
+            )
+
+            self.cc.rect.topright = (
+                width - horizontal_margin,
+                top_margin,
+            )
+
             warning_lines = [
                 "18+ GAME",
                 "IT'S CRUDE, RUDE",
                 "AND NOT FOR VEGANS!",
             ]
 
-            y = surface.get_height() // 2 - 125
+            # Keep the warning centred between the upper logos and the
+            # mobile control area.
+            line_gap = max(30, int(height * 0.095))
+            warning_center_y = int(height * 0.46)
+            total_height = line_gap * (len(warning_lines) - 1)
+            y = warning_center_y - total_height // 2
 
             for line in warning_lines:
                 label = self.shadow_text(
@@ -83,21 +97,24 @@ class SplashState(PopUpMenu[Callable[[], None]]):
                     bg=(0, 0, 0),
                 ).convert_alpha()
 
-                scale = 2
-                label = pygame.transform.scale(
+                # Scale relative to the actual landscape height rather than
+                # using a fixed desktop multiplier.
+                scale = max(1.0, min(2.0, height / 360.0))
+
+                label = pygame.transform.smoothscale(
                     label,
                     (
-                        label.get_width() * scale,
-                        label.get_height() * scale,
+                        max(1, int(label.get_width() * scale)),
+                        max(1, int(label.get_height() * scale)),
                     ),
                 )
 
                 label_rect = label.get_rect(
-                    center=(surface.get_width() // 2, y)
+                    center=(screen_rect.centerx, y)
                 )
 
                 surface.blit(label, label_rect)
-                y += 55
+                y += line_gap
 
             self.sprites.draw(surface)
 
