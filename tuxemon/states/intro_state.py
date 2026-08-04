@@ -114,39 +114,11 @@ class IntroState(PopUpMenu[Callable[[], None]]):
             surface.fill(BLACK_COLOR)
 
             if self.background:
-                screen_rect = surface.get_rect()
-
-                # Keep the designed splash screen together in a central,
-                # mobile-safe area. The outer edges are reserved for the
-                # Android D-pad and A/B controls.
-                safe_width = int(screen_rect.width * 0.68)
-                safe_height = int(screen_rect.height * 0.76)
-
-                image_width, image_height = self.background.get_size()
-
-                scale_factor = min(
-                    safe_width / image_width,
-                    safe_height / image_height,
-                )
-
-                scaled_size = (
-                    max(1, int(image_width * scale_factor)),
-                    max(1, int(image_height * scale_factor)),
-                )
-
-                bg = pygame.transform.smoothscale(
+                bg = pygame.transform.scale(
                     self.background,
-                    scaled_size,
+                    surface.get_size(),
                 )
-
-                bg_rect = bg.get_rect(
-                    center=(
-                        screen_rect.centerx,
-                        int(screen_rect.height * 0.43),
-                    )
-                )
-
-                surface.blit(bg, bg_rect)
+                surface.blit(bg, (0, 0))
 
             ticks = pygame.time.get_ticks()
             alpha = 190 if (ticks % 1000) < 500 else 255

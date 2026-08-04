@@ -1,0 +1,661 @@
+=== CHANGE BG CHAR ACTION ===
+tuxemon/event/actions/change_bg_char.py-33-            resolution of the game (256x144 pixels).
+tuxemon/event/actions/change_bg_char.py-34-
+tuxemon/event/actions/change_bg_char.py-35-        npc_slug:
+tuxemon/event/actions/change_bg_char.py-36-            The slug of the NPC to display. A matching sprite file must
+tuxemon/event/actions/change_bg_char.py-37-            exist at:
+tuxemon/event/actions/change_bg_char.py-38-
+tuxemon/event/actions/change_bg_char.py-39-                ``gfx/sprites/player/<npc_slug>.png``
+tuxemon/event/actions/change_bg_char.py-40-
+tuxemon/event/actions/change_bg_char.py-41-            The sprite will be loaded, scaled, and rendered on top of
+tuxemon/event/actions/change_bg_char.py-42-            the background.
+tuxemon/event/actions/change_bg_char.py-43-
+tuxemon/event/actions/change_bg_char.py-44-    Notes:
+tuxemon/event/actions/change_bg_char.py-45-        - Background images must be located in ``gfx/ui/background/``.
+tuxemon/event/actions/change_bg_char.py-46-        - Background dimensions must be exactly 256x144 pixels.
+tuxemon/event/actions/change_bg_char.py-47-        - NPC sprites are loaded directly from their corresponding PNG
+tuxemon/event/actions/change_bg_char.py-48-          file in ``gfx/sprites/player/``.
+tuxemon/event/actions/change_bg_char.py-49-        - This action always pushes the ``NpcImageState``, which displays
+tuxemon/event/actions/change_bg_char.py-50-          the background and overlays the NPC sprite.
+tuxemon/event/actions/change_bg_char.py-51-    """
+tuxemon/event/actions/change_bg_char.py-52-
+tuxemon/event/actions/change_bg_char.py:53:    name = "change_bg_char"
+tuxemon/event/actions/change_bg_char.py-54-    background: str
+tuxemon/event/actions/change_bg_char.py-55-    slug: str
+tuxemon/event/actions/change_bg_char.py-56-
+tuxemon/event/actions/change_bg_char.py-57-    def start(self, session: Session) -> None:
+tuxemon/event/actions/change_bg_char.py-58-        client = session.client
+tuxemon/event/actions/change_bg_char.py-59-
+tuxemon/event/actions/change_bg_char.py-60-        if client.current_state is None:
+tuxemon/event/actions/change_bg_char.py-61-            raise RuntimeError
+tuxemon/event/actions/change_bg_char.py-62-
+tuxemon/event/actions/change_bg_char.py-63-        if client.has_extra_states():
+tuxemon/event/actions/change_bg_char.py-64-            client.pop_state()
+tuxemon/event/actions/change_bg_char.py-65-
+tuxemon/event/actions/change_bg_char.py-66-        if self.slug not in db.database["npc"]:
+tuxemon/event/actions/change_bg_char.py-67-            raise ValueError(f"NPC {self.slug} not found")
+tuxemon/event/actions/change_bg_char.py-68-
+tuxemon/event/actions/change_bg_char.py-69-        npc_data = NpcModel.lookup(self.slug, db)
+tuxemon/event/actions/change_bg_char.py-70-        sheet = get_combat_sheet(npc_data.template)
+tuxemon/event/actions/change_bg_char.py-71-        surface = sheet.front()
+tuxemon/event/actions/change_bg_char.py-72-        scale_int = session.client.context.scale
+tuxemon/event/actions/change_bg_char.py-73-        scaled = scale_surface(surface, scale_int)
+tuxemon/event/actions/change_bg_char.py-74-        sprite = load_surface(scaled)
+tuxemon/event/actions/change_bg_char.py-75-
+tuxemon/event/actions/change_bg_char.py-76-        client.push_state(
+tuxemon/event/actions/change_bg_char.py-77-            "NpcImageState",
+tuxemon/event/actions/change_bg_char.py-78-            background=self.background,
+tuxemon/event/actions/change_bg_char.py-79-            surface=sprite.image,
+tuxemon/event/actions/change_bg_char.py-80-        )
+=== DIALOG STATE ===
+     1	# SPDX-License-Identifier: GPL-3.0
+     2	# Copyright (c) 2014-2026 William Edwards <shadowapex@gmail.com>, Benjamin Bean <superman2k5@gmail.com>
+     3	from __future__ import annotations
+     4	
+     5	import logging
+     6	from collections.abc import Callable, Sequence
+     7	from typing import TYPE_CHECKING, Any, ClassVar
+     8	
+     9	from pygame import SRCALPHA
+    10	from pygame.rect import Rect
+    11	from pygame.surface import Surface
+    12	
+    13	from tuxemon.graphics import load_and_scale
+    14	from tuxemon.menu.menu import PopUpMenu
+    15	from tuxemon.platform.const import buttons
+    16	from tuxemon.platform.events import PlayerInput
+    17	from tuxemon.sprite import Sprite
+    18	from tuxemon.ui.text import TextArea
+    19	from tuxemon.ui.text_alignment import HorizontalAlignment, VerticalAlignment
+    20	
+    21	if TYPE_CHECKING:
+    22	    from tuxemon.base_client import BaseClient
+    23	    from tuxemon.platform.events import PlayerInput
+    24	    from tuxemon.sprite import Sprite
+    25	
+    26	logger = logging.getLogger(__name__)
+    27	
+    28	
+    29	class DialogState(PopUpMenu[None]):
+    30	    """
+    31	    Game state with a graphic box and some text in it.
+    32	
+    33	    Features:
+    34	    * Pressing the action button fast-forwards text.
+    35	    * When text is complete, shows the next message.
+    36	    * If no more messages, closes the dialog.
+    37	    * Optionally auto-closes after N seconds, either:
+    38	        - after the final line (default), or
+    39	        - per line (each line advances after N seconds).
+    40	    """
+    41	
+    42	    name: ClassVar[str] = "DialogState"
+    43	
+    44	    def __init__(
+    45	        self,
+    46	        client: BaseClient,
+    47	        rect: Rect,
+    48	        text: Sequence[str] = (),
+    49	        avatar: Sprite | None = None,
+    50	        box_style: dict[str, Any] | None = None,
+    51	        on_complete: Callable[[], None] | None = None,
+    52	        auto_close: bool = True,
+    53	        close_after: float | None = None,
+    54	        per_line_timeout: bool = False,
+    55	        advance_buttons: list[int] | None = None,
+    56	        dialog_speed: str | None = None,
+    57	        **kwargs: Any,
+    58	    ) -> None:
+    59	        super().__init__(client=client, rect=rect.copy(), **kwargs)
+    60	        self.text_queue = list(text)
+    61	        self.avatar = avatar
+    62	        self.on_complete = on_complete
+    63	        self.auto_close = auto_close
+    64	        self.close_after = close_after
+    65	        self.advance_buttons = advance_buttons or [buttons.A]
+    66	        self.per_line_timeout = per_line_timeout
+    67	        self.dialog_speed = dialog_speed or self.client.config.dialog_speed
+    68	
+    69	        self._elapsed_time: float = 0.0
+    70	        self._timer_active: bool = False
+    71	
+    72	        default_box_style: dict[str, Any] = {
+    73	            "bg_color": self.background_color,
+    74	            "font_color": self.font_color,
+    75	            "font_shadow": self.font_shadow_color,
+    76	            "border": self.borders_filename,
+    77	            "line_spacing": 0,
+    78	            "h_alignment": HorizontalAlignment.LEFT,
+    79	            "v_alignment": VerticalAlignment.TOP,
+    80	        }
+    81	
+    82	        final_box_style = default_box_style.copy()
+    83	        box_style = box_style or {}
+    84	        final_box_style.update(box_style)
+    85	
+    86	        _border = load_and_scale(final_box_style["border"])
+    87	        self.window.set_border(_border)
+    88	        self.window.set_color(final_box_style["bg_color"])
+    89	        scaling = self.client.context.scaling
+    90	        line_spacing = scaling.scale_int(final_box_style["line_spacing"])
+    91	
+    92	        internal_rect = self.calc_internal_rect().copy()
+    93	
+    94	        self.dialog_box = TextArea(
+    95	            font=self.font,
+    96	            font_color=final_box_style["font_color"],
+    97	            rect=internal_rect,
+    98	            scaling=self.client.context.scaling,
+    99	            font_shadow=final_box_style["font_shadow"],
+   100	            h_alignment=final_box_style["h_alignment"],
+   101	            v_alignment=final_box_style["v_alignment"],
+   102	            line_spacing=line_spacing,
+   103	        )
+   104	        self.sprites.add(self.dialog_box)
+   105	
+   106	    def on_open(self) -> None:
+   107	        """Start the dialog when the state is opened."""
+   108	        super().on_open()
+   109	
+   110	        internal_rect = self.calc_internal_rect()
+   111	        logger.debug(f"DialogState.on_open: internal rect {internal_rect}")
+   112	        self.dialog_box.rect = internal_rect
+   113	
+   114	        self.dialog_box.image = Surface(internal_rect.size, SRCALPHA)
+   115	        self.dialog_box.image = self.dialog_box._render_background()
+   116	
+   117	        if self.avatar:
+   118	            avatar_rect = self.calc_final_rect()
+   119	            self.avatar.rect.bottomleft = avatar_rect.left, avatar_rect.top
+   120	
+   121	        self.next_text()
+   122	
+   123	        if not self.text_queue and not self.auto_close:
+   124	            self._timer_active = False
+   125	
+   126	    def add_advance_button(self, button: int) -> None:
+   127	        """Add a button that can advance the dialog."""
+   128	        if button not in self.advance_buttons:
+   129	            self.advance_buttons.append(button)
+   130	
+   131	    def remove_advance_button(self, button: int) -> None:
+   132	        """Remove a button from the dialog advance list."""
+   133	        if button in self.advance_buttons:
+   134	            self.advance_buttons.remove(button)
+   135	
+   136	    def process_event(self, event: PlayerInput) -> PlayerInput | None:
+   137	        """Handle player input to fast-forward or advance dialog lines."""
+   138	        if event.pressed and event.button in self.advance_buttons:
+   139	            if not self.dialog.is_dialog_complete(self.dialog_box):
+   140	                logger.debug("Fast-forwarding current dialog line")
+   141	                self.dialog.dump_remaining_text(self.dialog_box)
+   142	            else:
+   143	                if self.dialog.is_busy():
+   144	                    logger.debug(
+   145	                        "Ignoring rapid click during AlertManager transition."
+   146	                    )
+   147	                    return None
+   148	                if self.text_queue or self.auto_close:
+   149	                    self.next_text()
+   150	                    logger.debug("Dialog line complete, advancing to next")
+   151	        return None
+   152	
+   153	    def update(self, dt: float) -> None:
+   154	        """Update dialog text, avatar, and auto-close timer each frame."""
+   155	        super().update(dt)
+   156	
+   157	        if self.dialog_box.drawing_text:
+   158	            self.dialog.update(dt)
+   159	
+   160	        if self.avatar:
+   161	            self.avatar.update(dt)
+   162	
+   163	        # Handle auto-close countdown
+   164	        if self._timer_active and self.close_after is not None:
+   165	            self._elapsed_time += dt
+   166	            if self._elapsed_time >= self.close_after:
+   167	                if self.per_line_timeout and self.text_queue:
+   168	                    # Advance automatically to next line
+   169	                    logger.debug("Auto-advancing to next line after timeout")
+   170	                    self._timer_active = False
+   171	                    self.next_text()
+   172	                else:
+   173	                    # Close dialog after final line
+   174	                    logger.debug("Dialog auto-closing after timeout")
+   175	                    self.close_dialog()
+   176	
+   177	    def next_text(self) -> str | None:
+   178	        """Advance to the next line of dialog or close when finished."""
+   179	        if self.dialog_box.drawing_text:
+   180	            return None
+   181	
+   182	        if self.text_queue:
+   183	            text = self.text_queue.pop(0)
+   184	
+   185	            if not text:
+   186	                return self.next_text()
+   187	
+   188	            self.dialog.alert(
+   189	                message=text,
+   190	                text_area=self.dialog_box,
+   191	                dialog_speed=self.dialog_speed,
+   192	            )
+   193	            self._reset_timer()
+   194	            return text
+   195	
+   196	        # No more text left
+   197	        self._reset_timer()
+   198	
+   199	        if not self._timer_active and self.auto_close:
+   200	            self.close_dialog()
+   201	
+   202	        return None
+   203	
+   204	    def close_dialog(self) -> None:
+   205	        """Close the dialog immediately and trigger the completion callback."""
+   206	        self._timer_active = False
+   207	        self.client.event_bus.publish(
+   208	            "DIALOG_CLOSED",
+   209	            payload={
+   210	                "state": self.name,
+   211	                "auto_close": self.auto_close,
+   212	                "remaining_text": self.text_queue.copy(),
+   213	            },
+   214	        )
+   215	        if self.on_complete:
+   216	            try:
+   217	                self.on_complete()
+   218	            except Exception as e:
+   219	                logger.error(f"Error in on_complete callback: {e}")
+   220	
+   221	        self.close()
+   222	
+   223	    def _reset_timer(self) -> None:
+   224	        """Reset elapsed time and activate the timer if conditions are met."""
+   225	        self._elapsed_time = 0.0
+   226	
+   227	        if self.close_after is not None:
+   228	            if self.per_line_timeout or not self.text_queue:
+   229	                self._timer_active = True
+   230	                return
+   231	
+   232	        self._timer_active = False
+=== OPEN DIALOG FUNCTION ===
+tuxemon/tools.py-168-    if raw_value in ("no_choice", "no_options", None):
+tuxemon/tools.py-169-        logger.info(
+tuxemon/tools.py-170-            f"Monster selection result for '{variable_name}': {raw_value}"
+tuxemon/tools.py-171-        )
+tuxemon/tools.py-172-        return None
+tuxemon/tools.py-173-
+tuxemon/tools.py-174-    try:
+tuxemon/tools.py-175-        return UUID(str(raw_value))
+tuxemon/tools.py-176-    except (ValueError, TypeError) as e:
+tuxemon/tools.py-177-        logger.warning(
+tuxemon/tools.py-178-            f"Invalid UUID format for '{variable_name}': {raw_value} ({e})"
+tuxemon/tools.py-179-        )
+tuxemon/tools.py-180-        return None
+tuxemon/tools.py-181-
+tuxemon/tools.py-182-
+tuxemon/tools.py-183-def fix_measure(measure: int, percentage: float) -> int:
+tuxemon/tools.py-184-    """it returns the correct measure based on percentage"""
+tuxemon/tools.py-185-    return round(measure * percentage)
+tuxemon/tools.py-186-
+tuxemon/tools.py-187-
+tuxemon/tools.py:188:def open_dialog(
+tuxemon/tools.py-189-    client: BaseClient,
+tuxemon/tools.py-190-    text: Sequence[str],
+tuxemon/tools.py-191-    avatar: Sprite | None = None,
+tuxemon/tools.py-192-    box_style: dict[str, Any] | None = None,
+tuxemon/tools.py-193-    position: DialogPosition = DialogPosition.BOTTOM,
+tuxemon/tools.py-194-    target_coords: tuple[int, int] | Rect | None = None,
+tuxemon/tools.py-195-    custom_rect: Rect | None = None,
+tuxemon/tools.py-196-    on_complete: Callable[[], None] | None = None,
+tuxemon/tools.py-197-    dialog_speed: str | None = None,
+tuxemon/tools.py-198-) -> State:
+tuxemon/tools.py-199-    """
+tuxemon/tools.py-200-    Open a dialog with the standard window size or a custom size/position.
+tuxemon/tools.py-201-
+tuxemon/tools.py-202-    Parameters:
+tuxemon/tools.py-203-        client: Game client.
+tuxemon/tools.py-204-        text: List of strings for the dialog content.
+tuxemon/tools.py-205-        avatar: Optional avatar sprite to display in the dialog.
+tuxemon/tools.py-206-        box_style: Dictionary containing background color, font color, etc.
+tuxemon/tools.py-207-        position: Position of the dialog box. Can be 'top', 'bottom', 'center',
+tuxemon/tools.py-208-            'topleft', 'topright', 'bottomleft', 'bottomright', 'right', 'left',
+tuxemon/tools.py-209-            or 'at_target' (if target_coords is a point).
+tuxemon/tools.py-210-            If target_coords is provided, this position will be relative to the target.
+tuxemon/tools.py-211-            Otherwise, it will be relative to the screen.
+tuxemon/tools.py-212-            This parameter is ignored if custom_rect is provided.
+tuxemon/tools.py-213-        target_coords: Optional. A tuple (x, y) representing a point, or a Pygame Rect.
+tuxemon/tools.py-214-            If provided, the 'position' will be relative to this point/rect.
+tuxemon/tools.py-215-            Ignored if custom_rect is provided.
+tuxemon/tools.py-216-        custom_rect: Optional. A Pygame Rect object specifying the exact area for the dialog.
+tuxemon/tools.py-217-            If provided, 'position' and 'target_coords' will be ignored.
+tuxemon/tools.py-218-        dialog_speed: Characters-per-frame delay for text rendering. If `None`, falls
+tuxemon/tools.py-219-            back to the client's configured default. Use 'slow' for instant text display.
+tuxemon/tools.py-220-
+tuxemon/tools.py-221-    Returns:
+tuxemon/tools.py-222-        The pushed dialog state.
+tuxemon/tools.py-223-    """
+tuxemon/tools.py-224-    box_style = box_style or {}
+tuxemon/tools.py-225-    if custom_rect is not None:
+tuxemon/tools.py-226-        dialog_rect = custom_rect
+tuxemon/tools.py-227-    else:
+tuxemon/tools.py-228-        dialog_rect = calc_dialog_rect(
+tuxemon/tools.py-229-            client.context.rect, position, target_coords=target_coords
+tuxemon/tools.py-230-        )
+tuxemon/tools.py-231-
+tuxemon/tools.py-232-    return client.push_state(
+tuxemon/tools.py-233-        "DialogState",
+tuxemon/tools.py-234-        rect=dialog_rect,
+tuxemon/tools.py-235-        text=text,
+tuxemon/tools.py-236-        avatar=avatar,
+tuxemon/tools.py-237-        box_style=box_style,
+tuxemon/tools.py-238-        on_complete=on_complete,
+tuxemon/tools.py-239-        dialog_speed=dialog_speed,
+tuxemon/tools.py-240-    )
+tuxemon/tools.py-241-
+tuxemon/tools.py-242-
+tuxemon/tools.py-243-def open_choice_dialog(
+tuxemon/tools.py-244-    client: BaseClient,
+tuxemon/tools.py-245-    menu: MenuOptions,
+tuxemon/tools.py-246-    escape_key_exits: bool = False,
+tuxemon/tools.py-247-    config: MenuStateConfig | None = None,
+tuxemon/tools.py-248-) -> State:
+tuxemon/tools.py-249-    """
+tuxemon/tools.py-250-    Opens a dialog choice using the standard window size.
+tuxemon/tools.py-251-
+tuxemon/tools.py-252-    Parameters:
+tuxemon/tools.py-253-        client: The LocalPygameClient instance.
+tuxemon/tools.py-254-        menu: A MenuOptions instance.
+tuxemon/tools.py-255-        escape_key_exits: Whether pressing the escape key will close the
+tuxemon/tools.py-256-            dialog (default: False).
+tuxemon/tools.py-257-        config: Configuration for the menu.
+tuxemon/tools.py-258-
+tuxemon/tools.py-259-    Returns:
+tuxemon/tools.py-260-        The newly pushed dialog choice state.
+tuxemon/tools.py-261-    """
+tuxemon/tools.py-262-    return client.push_state(
+tuxemon/tools.py-263-        "ChoiceState",
+tuxemon/tools.py-264-        menu=menu,
+tuxemon/tools.py-265-        escape_key_exits=escape_key_exits,
+tuxemon/tools.py-266-        config=config,
+tuxemon/tools.py-267-    )
+tuxemon/tools.py-268-
+tuxemon/tools.py-269-
+tuxemon/tools.py-270-def number_or_variable(variables: dict[str, Any], value: str) -> float:
+tuxemon/tools.py-271-    """
+tuxemon/tools.py-272-    Converts a string to a numeric value or retrieves a numeric variable by
+tuxemon/tools.py-273-    name.
+tuxemon/tools.py-274-
+tuxemon/tools.py-275-    This function attempts to convert the input string `value` into a float.
+tuxemon/tools.py-276-    If that fails, it then tries to retrieve a variable by its name from the
+tuxemon/tools.py-277-    `variables` dictionary and convert its value to a float.
+tuxemon/tools.py-278-
+tuxemon/tools.py-279-    Parameters:
+tuxemon/tools.py-280-        variables: A dictionary containing variable names and their
+tuxemon/tools.py-281-            corresponding values.
+tuxemon/tools.py-282-        value: Either a string containing a numeric value or the name of a
+tuxemon/tools.py-283-            variable.
+tuxemon/tools.py-284-
+tuxemon/tools.py-285-    Returns:
+tuxemon/tools.py-286-        The numeric value obtained by converting the string or retrieving
+tuxemon/tools.py-287-        the variable.
+tuxemon/tools.py-288-
+tuxemon/tools.py-289-    Raises:
+tuxemon/tools.py-290-        ValueError: If `value` is neither a valid numeric string nor a valid
+tuxemon/tools.py-291-        variable name, or the retrieved variable value cannot be converted to
+tuxemon/tools.py-292-        a float.
+tuxemon/tools.py-293-    """
+tuxemon/tools.py-294-    try:
+tuxemon/tools.py-295-        return float(value)
+tuxemon/tools.py-296-    except ValueError:
+tuxemon/tools.py-297-        try:
+tuxemon/tools.py-298-            return float(variables[value])
+tuxemon/tools.py-299-        except (KeyError, ValueError, TypeError):
+tuxemon/tools.py-300-            raise ValueError(
+tuxemon/tools.py-301-                f"Unable to retrieve numeric variable or convert value '{value}'."
+tuxemon/tools.py-302-            )
+tuxemon/tools.py-303-
+tuxemon/tools.py-304-
+tuxemon/tools.py-305-def cast_value(
+tuxemon/tools.py-306-    i: tuple[tuple[ValidParameterTypes, str], Any],
+tuxemon/tools.py-307-) -> Any:
+tuxemon/tools.py-308-    """
+tuxemon/tools.py-309-    Attempt to cast a raw value into one of the expected types.
+tuxemon/tools.py-310-
+tuxemon/tools.py-311-    Parameters:
+tuxemon/tools.py-312-        i: A tuple containing ((constructors, param_name), value).
+tuxemon/tools.py-313-           - constructors: sequence of type constructors or typing hints
+tuxemon/tools.py-314-           - param_name: name of the parameter (for error messages)
+tuxemon/tools.py-315-           - value: the raw value to cast
+tuxemon/tools.py-316-
+tuxemon/tools.py-317-    Returns:
+tuxemon/tools.py-318-        The value cast to one of the expected types.
+tuxemon/tools.py-319-
+tuxemon/tools.py-320-    Raises:
+tuxemon/tools.py-321-        ValueError: if the value cannot be cast to any of the expected types.
+tuxemon/tools.py-322-    """
+tuxemon/tools.py-323-    (type_constructors, param_name), value = i
+tuxemon/tools.py-324-
+tuxemon/tools.py-325-    # Normalize constructors into a list
+tuxemon/tools.py-326-    if not isinstance(type_constructors, Sequence) or isinstance(
+tuxemon/tools.py-327-        type_constructors, type
+tuxemon/tools.py-328-    ):
+tuxemon/tools.py-329-        type_constructors = [type_constructors]
+tuxemon/tools.py-330-
+tuxemon/tools.py-331-    # Expand Union/Optional types
+tuxemon/tools.py-332-    expanded: list[Any] = []
+tuxemon/tools.py-333-    for c in type_constructors:
+tuxemon/tools.py-334-        if c is None:
+tuxemon/tools.py-335-            expanded.append(type(None))
+tuxemon/tools.py-336-        elif get_origin(c) == UnionType:
+tuxemon/tools.py-337-            expanded.extend(get_args(c))
+tuxemon/tools.py-338-        else:
+tuxemon/tools.py-339-            expanded.append(c)
+tuxemon/tools.py-340-
+tuxemon/tools.py-341-    constructors_to_try: list[Any] = [c for c in expanded if c is not None]
+tuxemon/tools.py-342-    is_optional = type(None) in expanded
+tuxemon/tools.py-343-
+tuxemon/tools.py-344-    # Handle None
+tuxemon/tools.py-345-    if value is None:
+tuxemon/tools.py-346-        if is_optional:
+tuxemon/tools.py-347-            return None
+tuxemon/tools.py-348-        raise ValueError(f"Parameter '{param_name}' cannot be None.")
+tuxemon/tools.py-349-
+tuxemon/tools.py-350-    # Handle empty string
+tuxemon/tools.py-351-    if isinstance(value, str) and not value.strip():
+tuxemon/tools.py-352-        if is_optional:
+tuxemon/tools.py-353-            return None
+tuxemon/tools.py-354-        if str in constructors_to_try:
+tuxemon/tools.py-355-            return ""
+tuxemon/tools.py-356-        raise ValueError(f"Parameter '{param_name}' cannot be empty string.")
+tuxemon/tools.py-357-
+tuxemon/tools.py-358-    # First pass: direct isinstance
+tuxemon/tools.py-359-    for constructor in constructors_to_try:
+tuxemon/tools.py-360-        if get_origin(constructor) is Literal:
+tuxemon/tools.py-361-            continue
+tuxemon/tools.py-362-        origin = get_origin(constructor) or constructor
+tuxemon/tools.py-363-        try:
+tuxemon/tools.py-364-            if isinstance(value, origin):
+tuxemon/tools.py-365-                return value
+tuxemon/tools.py-366-        except TypeError:
+tuxemon/tools.py-367-            continue
+tuxemon/tools.py-368-
+=== CLIENT DISPLAY SETUP ===
+    45	            client = LocalPygameClient(config, context)
+    46	            logger.info("Client initialized successfully.")
+    47	        except (TypeError, ValueError) as e:
+    48	            logger.error(f"Failed to initialize client: {e}")
+    49	            raise
+    50	        except Exception as e:
+    51	            logger.critical(
+    52	                f"Unexpected error during client initialization: {e}"
+    53	            )
+    54	            raise
+    55	        return client
+    56	
+    57	    def __init__(self, config: TuxemonConfig, context: DisplayContext):
+    58	        # Android's pygame display surface uses the phone's physical
+    59	        # resolution. Keep that surface for final presentation, but render
+    60	        # Tuxemon itself to its stable logical resolution.
+    61	        self.android_scaled_output = platform.is_android()
+    62	        self.display_screen = context.screen
+    63	
+    64	        if self.android_scaled_output:
+    65	            logical_screen = pygame.Surface(
+    66	                context.resolution
+    67	            ).convert()
+    68	
+    69	            context.screen = logical_screen
+    70	            context.rect = logical_screen.get_rect()
+    71	
+    72	            print(
+    73	                "JJI_ANDROID_SCALER "
+    74	                f"physical={self.display_screen.get_size()} "
+    75	                f"logical={logical_screen.get_size()}",
+    76	                flush=True,
+    77	            )
+    78	
+    79	        super().__init__(config, context)
+    80	
+    81	        # movie creation
+    82	        self.frame_number = 0
+    83	        self.save_to_disk = False
+    84	
+    85	        # Initialize drawers
+    86	        self.state_drawer = StateDrawer(
+    87	            self.screen, self.state_manager, config
+    88	        )
+    89	        self.event_debug_drawer = EventDebugDrawer(self.context)
+    90	        self.renderer = Renderer(
+    91	            self.screen,
+    92	            self.state_drawer,
+    93	            self.config,
+    94	            self.event_debug_drawer,
+    95	        )
+    96	        self.debug_renderer = DebugRenderer(
+    97	            self.map_manager, self.npc_manager, self.context
+    98	        )
+    99	        map_renderer = MapRenderer(
+   100	            self.camera_manager,
+   101	            self.npc_manager,
+   102	            self.debug_renderer,
+   103	            self.context,
+   104	        )
+   105	        self.set_renderer(map_renderer)
+   106	
+   107	    def reset_renderer(self) -> None:
+   108	        current_map = self.map_manager.current_map
+   109	        if isinstance(current_map, NullMap):
+   110	            self.set_renderer(NullRenderer())
+   111	            logger.debug("Renderer reset to NullRenderer.")
+   112	        else:
+   113	            self.debug_renderer = DebugRenderer(
+   114	                self.map_manager, self.npc_manager, self.context
+   115	            )
+   116	            map_renderer = MapRenderer(
+   117	                self.camera_manager,
+   118	                self.npc_manager,
+   119	                self.debug_renderer,
+   120	                self.context,
+   121	            )
+   122	            self.set_renderer(map_renderer)
+   123	            logger.debug("Renderer reset to MapRenderer.")
+   124	
+   125	    def main(self) -> None:
+   126	        """
+   127	        Initiates the main game loop with a fixed timestep.
+   128	        """
+   129	        update = self.update
+   130	        draw = self.draw
+   131	        screen = self.screen
+   132	        flip = pygame.display.update
+   133	        clock = time.time
+   134	
+   135	        target_fps = self.config.fps
+   136	        frame_length = 1.0 / target_fps
+   137	
+   138	        last_time = clock()
+   139	        accumulator = 0.0
+   140	
+   141	        while self.state != ClientState.DONE:
+   142	            if self.state == ClientState.RUNNING:
+   143	                now = clock()
+   144	                dt = now - last_time
+   145	                last_time = now
+   146	
+   147	                # Prevent spiral of death if the game lags
+   148	                if dt > 0.25:
+   149	                    dt = 0.25
+   150	
+   151	                accumulator += dt
+   152	
+   153	                while accumulator >= frame_length:
+   154	                    update(frame_length)
+   155	                    accumulator -= frame_length
+   156	
+   157	                draw()
+   158	
+   159	                if self.android_scaled_output:
+   160	                    # Scale the finished 16:9 game frame to the largest
+   161	                    # proportional size supported by the Android display.
+   162	                    display_width, display_height = (
+   163	                        self.display_screen.get_size()
+   164	                    )
+   165	                    logical_width, logical_height = screen.get_size()
+   166	
+   167	                    presentation_scale = min(
+   168	                        display_width / logical_width,
+   169	                        display_height / logical_height,
+   170	                    )
+   171	
+   172	                    presentation_size = (
+   173	                        max(
+   174	                            1,
+   175	                            int(logical_width * presentation_scale),
+   176	                        ),
+   177	                        max(
+   178	                            1,
+   179	                            int(logical_height * presentation_scale),
+   180	                        ),
+   181	                    )
+   182	
+   183	                    scaled_frame = pygame.transform.scale(
+   184	                        screen,
+   185	                        presentation_size,
+   186	                    )
+   187	
+   188	                    self.display_screen.fill((0, 0, 0))
+   189	
+   190	                    presentation_rect = scaled_frame.get_rect(
+   191	                        center=self.display_screen.get_rect().center
+   192	                    )
+   193	
+   194	                    self.display_screen.blit(
+   195	                        scaled_frame,
+   196	                        presentation_rect,
+   197	                    )
+   198	
+   199	                    # Keep the touch controls at the physical display edges.
+   200	                    self.input_manager.draw_inputs(
+   201	                        self.display_screen
+   202	                    )
+   203	                else:
+   204	                    self.input_manager.draw_inputs(screen)
+   205	
+   206	                flip()
+   207	
+   208	                if self.config.show_fps:
+   209	                    self.renderer.update(frame_length)
+   210	
+   211	            elif self.state == ClientState.EXITING:
+   212	                self.perform_cleanup()
+   213	                self.state = ClientState.DONE
+   214	
+   215	    def update(self, dt: float) -> None:
+   216	        """Main loop for entire game."""
+   217	        self.update_states(dt)
+   218	
+   219	    def queue_command(self, command: Callable[[], None]) -> None:
+   220	        self.command_queue.put(command)

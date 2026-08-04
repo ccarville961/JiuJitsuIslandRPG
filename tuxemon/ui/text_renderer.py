@@ -46,10 +46,20 @@ class TextRenderer:
         fg_surf = self.font.render(char, True, fg)
         bg_surf = self.font.render(char, True, bg)
 
-        ox, oy = self._shadow_offset
+        # Android pygame requires integer blit positions.
+        ox_float, oy_float = self._shadow_offset
+        ox = int(round(ox_float))
+        oy = int(round(oy_float))
+
         w, h = fg_surf.get_size()
 
-        surf = Surface((int(w + ox), int(h + oy)), SRCALPHA)
+        surf = Surface(
+            (
+                max(1, int(w) + max(0, ox)),
+                max(1, int(h) + max(0, oy)),
+            ),
+            SRCALPHA,
+        )
         surf.blit(bg_surf, (ox, oy))
         surf.blit(fg_surf, (0, 0))
         return surf

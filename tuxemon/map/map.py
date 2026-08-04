@@ -410,7 +410,13 @@ def snap_rect(
     """
     left, top = snap_point(rect.topleft, grid_size)
     right, bottom = snap_point(rect.bottomright, grid_size)
-    return type(rect)((left, top, right - left, bottom - top))
+    # Android pygame requires explicit integer Rect arguments.
+    return type(rect)(
+        int(left),
+        int(top),
+        int(right - left),
+        int(bottom - top),
+    )
 
 
 def orientation_by_angle(angle: float) -> Orientation:

@@ -615,8 +615,15 @@ class TMXMapLoader:
             Tuples with form (tile position, properties).
         """
         region_conditions = copy_dict_with_keys(region.properties, REGION_KEYS)
+        # Android pygame requires explicit integer Rect arguments.
         rect = snap_rect(
-            Rect((region.x, region.y, region.width, region.height)), grid_size
+            Rect(
+                int(region.x),
+                int(region.y),
+                int(region.width),
+                int(region.height),
+            ),
+            grid_size,
         )
         for tile_x, tile_y in tiles_inside_rect(rect, grid_size):
             yield (

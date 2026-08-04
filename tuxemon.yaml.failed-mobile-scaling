@@ -1,0 +1,17 @@
+display:
+  resolution_x: 1280
+  resolution_y: 720
+  splash: true
+  fullscreen: true
+  fps: 60.0
+  vsync: false
+  show_fps: false
+  scaling: true
+  collision_map: false
+  large_gui: true
+  window_caption: "JiuJitsu Island"
+
+controller:
+  overlay: true
+  transparency: 190
+  hide_mouse: true
