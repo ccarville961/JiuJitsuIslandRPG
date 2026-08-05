@@ -126,10 +126,19 @@ class InputMenu(Menu[InputMenuObj]):
 
     def calc_internal_rect(self) -> Rect:
         """Calculate the internal area of the menu for layout."""
-        w = self.rect.width - self.rect.width * 0.95
-        h = self.rect.height - self.rect.height * 0.5
-        rect = self.rect.inflate(-w, -h)
-        rect.top = int(self.rect.centery * 0.7)
+        # Android's pygame build requires integer inflate values.
+        width_reduction = int(
+            round(self.rect.width - self.rect.width * 0.95)
+        )
+        height_reduction = int(
+            round(self.rect.height - self.rect.height * 0.5)
+        )
+
+        rect = self.rect.inflate(
+            -width_reduction,
+            -height_reduction,
+        )
+        rect.top = int(round(self.rect.centery * 0.7))
         return rect
 
     def initialize_items(
