@@ -8,7 +8,7 @@ from typing import TYPE_CHECKING, Any, ClassVar
 
 import pygame
 
-from pygame_menu.locals import ALIGN_CENTER
+from pygame_menu.locals import ALIGN_CENTER, ALIGN_LEFT, ALIGN_RIGHT
 from pygame_menu.widgets.selection.highlight import HighlightSelection
 
 from tuxemon.entity.sheet import CombatSheet
@@ -136,8 +136,17 @@ class JJICharacterSelectState(PygameMenuState):
             padding=(2, 8),
         )
 
-        self.menu.add.button(
-            title="< Previous",
+        # Keep all character-selection actions on one mobile-friendly row.
+        screen_width, _screen_height = self.client.context.resolution
+        action_row = self.menu.add.frame_h(
+            width=int(screen_width * 0.48),
+            height=max(44, int(self.font_type.small * 2.4)),
+            frame_id="character_action_row",
+        )
+        action_row.relax(True)
+
+        previous_button = self.menu.add.button(
+            title="< Previous  ",
             action=self.previous,
             button_id="previous_character",
             font_size=self.font_type.small,
@@ -146,7 +155,7 @@ class JJICharacterSelectState(PygameMenuState):
             padding=(2, 8),
         )
 
-        self.menu.add.button(
+        confirm_button = self.menu.add.button(
             title="Confirm",
             action=self.confirm,
             button_id="confirm_character",
@@ -156,7 +165,7 @@ class JJICharacterSelectState(PygameMenuState):
             padding=(2, 8),
         )
 
-        self.menu.add.button(
+        next_button = self.menu.add.button(
             title="Next >",
             action=self.next,
             button_id="next_character",
@@ -165,6 +174,14 @@ class JJICharacterSelectState(PygameMenuState):
             selection_effect=HighlightSelection(),
             padding=(2, 8),
         )
+
+        action_row.pack(previous_button, align=ALIGN_LEFT)
+        action_row.pack(confirm_button, align=ALIGN_CENTER)
+        action_row.pack(next_button, align=ALIGN_RIGHT)
+
+        # Move the complete Confirm widget slightly right while preserving
+        # its centred text and selection border.
+        confirm_button.translate(8, 0)
 
         # Start with the important confirmation option selected.
         self.menu.select_widget(selected_widget)
