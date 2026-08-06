@@ -266,9 +266,12 @@ class ControlState(PygameMenuState):
             )
 
     def process_event(self, event: PlayerInput) -> PlayerInput | None:
-        if event.button in (buttons.BACK, buttons.B):
+        if (
+            event.button in (buttons.START, buttons.BACK, buttons.B)
+            and event.pressed
+        ):
             self.reload_controls()
-            if not self.main_menu:
-                self.client.remove_state_by_name("ControlState")
+            self.client.remove_state_by_name("ControlState")
+            return None
 
         return super().process_event(event)

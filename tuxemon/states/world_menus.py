@@ -31,7 +31,6 @@ def add_menu_items_to_pygame_menu(
 ) -> None:
     """Helper function to add items to a pygame_menu.Menu instance."""
     menu.clear()
-    menu.add.vertical_fill()
 
     for item in items:
         label = item.label
@@ -43,7 +42,6 @@ def add_menu_items_to_pygame_menu(
                 label,
                 font_color=DIMGRAY_COLOR,
             )
-        menu.add.vertical_fill()
 
     width, height = resolution
     widgets_size = menu.get_size(widget=True)

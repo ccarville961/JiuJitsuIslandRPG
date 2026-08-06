@@ -118,11 +118,24 @@ class SaveMenuState(PaginatedMenuState):
 
     def initialize_items(self) -> None:
         rect = self.client.context.rect.copy()
+
+        # Android can expose the full physical landscape surface here.
+        # Cap the slot width against screen height so ultra-wide displays
+        # cannot create an oversized save popup.
+        slot_width = min(
+            int(round(rect.width * 0.58)),
+            int(round(rect.height * 1.10)),
+        )
+        slot_height = max(
+            64,
+            int(round(rect.height * 0.115)),
+        )
+
         slot_rect = Rect(
             0,
             0,
-            rect.width * SLOT_WIDTH_RATIO,
-            rect.height // SLOT_HEIGHT_RATIO,
+            slot_width,
+            slot_height,
         )
         for slot in SaveManager.all_slots(
             self.max_slots, include_autosave=False
@@ -242,11 +255,24 @@ class LoadMenuState(PaginatedMenuState):
 
     def initialize_items(self) -> None:
         rect = self.client.context.rect.copy()
+
+        # Android can expose the full physical landscape surface here.
+        # Cap the slot width against screen height so ultra-wide displays
+        # cannot create an oversized save popup.
+        slot_width = min(
+            int(round(rect.width * 0.58)),
+            int(round(rect.height * 1.10)),
+        )
+        slot_height = max(
+            64,
+            int(round(rect.height * 0.115)),
+        )
+
         slot_rect = Rect(
             0,
             0,
-            rect.width * SLOT_WIDTH_RATIO,
-            rect.height // SLOT_HEIGHT_RATIO,
+            slot_width,
+            slot_height,
         )
 
         for slot in SaveManager.all_slots(

@@ -96,7 +96,8 @@ class SaveManager:
             raise RuntimeError(f"Save data missing for slot {slot}")
 
         thumb = render_thumbnail(save_data, rect)
-        slot_image.blit(thumb, (rect.width * 0.20, 0))
+        thumb_x = int(rect.width * 0.20)
+        slot_image.blit(thumb, (thumb_x, 0))
 
         slot_label = (
             T.translate("menu_autosave")

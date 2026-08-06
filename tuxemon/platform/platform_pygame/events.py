@@ -633,6 +633,7 @@ class PygameTouchOverlayInput(PygameEventHandler):
             buttons.RIGHT: PlayerInput(buttons.RIGHT),
             buttons.A: PlayerInput(buttons.A),
             buttons.B: PlayerInput(buttons.B),
+            buttons.START: PlayerInput(buttons.START),
         }
 
         self._active_touches: dict[int, int] = {}
@@ -783,7 +784,7 @@ class PygameTouchOverlayInput(PygameEventHandler):
             (buttons.LEFT, self.ui.dpad.rect.left),
             (buttons.RIGHT, self.ui.dpad.rect.right),
             (buttons.A, self.ui.a_button.rect),
-            (buttons.B, self.ui.b_button.rect),
+            (buttons.START, self.ui.b_button.rect),
         )
 
         for button, rect in controls:
