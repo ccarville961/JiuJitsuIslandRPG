@@ -103,6 +103,9 @@ class InputMenu(Menu[InputMenuObj]):
         }
         super().__init__(client=client, **kwargs)
 
+        # Centre the naming menu over the visible game area.
+        self.rect.center = self.client.context.rect.center
+
         # The following is necessary to prevent writing a char immediately
         # after leaving the char variant dialog.
         self.leaving_char_variant_dialog = False
