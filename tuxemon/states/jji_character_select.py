@@ -179,8 +179,8 @@ class JJICharacterSelectState(PygameMenuState):
         action_row.pack(confirm_button, align=ALIGN_CENTER)
         action_row.pack(next_button, align=ALIGN_RIGHT)
 
-        # Move the complete Confirm widget slightly right while preserving
-        # its centred text and selection border.
+        # Balance the gaps around Confirm without changing button labels.
+        previous_button.translate(-10, 0)
         confirm_button.translate(8, 0)
 
         # Start with the important confirmation option selected.
