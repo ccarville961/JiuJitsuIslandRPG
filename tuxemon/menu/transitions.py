@@ -70,6 +70,41 @@ class SlideRight:
         menu.translate(offset, 0)
 
 
+class SlideRightWorldViewport:
+    """Slide the world menu smoothly from right to left."""
+
+    def __init__(self) -> None:
+        self._width: int | None = None
+
+    def apply(
+        self, menu: Menu, progress: float, context: DisplayContext
+    ) -> None:
+
+        current_menu = menu.get_current()
+
+        if self._width is None:
+            self._width = current_menu.get_width(border=True)
+
+        # The menu's absolute position is already its FINAL position.
+        #
+        # progress 0.0:
+        #     shift one complete menu width to the RIGHT
+        #
+        # progress 1.0:
+        #     translation reaches zero and the menu finishes exactly
+        #     at its predetermined final position.
+        #
+        # Y remains zero throughout, preventing the end-of-animation jump.
+        offset_x = int(
+            self._width * (1.0 - progress)
+        )
+
+        current_menu.translate(
+            offset_x,
+            0,
+        )
+
+
 class EaseOut:
     """Easing curve that accelerates quickly and slows toward the end."""
 

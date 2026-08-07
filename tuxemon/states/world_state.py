@@ -92,15 +92,15 @@ class WorldState(State):
         # Reuse the exact same nine-slice border used by normal game menus.
         border_surface = load_and_scale(CONFIG.menu_border)
 
-        # Give the decorative frame a small area outside the world image.
-        border_pad = max(
-            2,
-            self.client.context.scaling.scale_int(3),
-        )
+        # The menu border is a 3x3 nine-slice image. Reserve one complete
+        # border tile on every side of the centred world surface so the
+        # full menu-style corners and edges remain visible.
+        border_tile_w = max(1, border_surface.get_width() // 3)
+        border_tile_h = max(1, border_surface.get_height() // 3)
 
         self.world_border_rect = self.world_rect.inflate(
-            border_pad * 2,
-            border_pad * 2,
+            border_tile_w * 2,
+            border_tile_h * 2,
         )
 
         self.world_border = GraphicBox(

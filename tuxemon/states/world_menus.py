@@ -9,7 +9,7 @@ from typing import TYPE_CHECKING, Any, ClassVar
 from pygame_menu.menu import Menu
 
 from tuxemon.menu.menu import PygameMenuState
-from tuxemon.menu.transitions import SlideRight
+from tuxemon.menu.transitions import SlideRightWorldViewport
 from tuxemon.platform.const import buttons
 from tuxemon.platform.const.graphics import DIMGRAY_COLOR
 from tuxemon.platform.events import PlayerInput
@@ -70,7 +70,7 @@ class WorldMenuState(PygameMenuState):
         width, height = client.context.resolution
 
         super().__init__(
-            client=client, height=height, transition=SlideRight(), **kwargs
+            client=client, height=height, transition=SlideRightWorldViewport(), **kwargs
         )
 
         self.menu_manager = menu_manager
@@ -83,6 +83,38 @@ class WorldMenuState(PygameMenuState):
         display = self.menu_manager.build_current_menu_items(self.char)
         resolution = self.client.context.resolution
         add_menu_items_to_pygame_menu(self.menu, display, resolution)
+
+        # Establish the FINAL menu position before its slide animation starts.
+        # This prevents the menu jumping vertically when the animation ends.
+        current_menu = self.menu.get_current()
+
+        physical_rect = self.client.context.rect
+        logical_w, logical_h = self.client.context.resolution
+
+        world_left = physical_rect.centerx - logical_w // 2
+        world_top = physical_rect.centery - logical_h // 2
+        world_right = world_left + logical_w
+
+        menu_width = current_menu.get_width(border=True)
+
+        # Fine tuning for the bordered Android world viewport.
+        # Positive X moves right.
+        # Positive Y moves down.
+        WORLD_MENU_X_NUDGE = 16
+        WORLD_MENU_Y_NUDGE = 11
+
+        final_x = (
+            world_right
+            - menu_width
+            + WORLD_MENU_X_NUDGE
+        )
+        final_y = world_top + WORLD_MENU_Y_NUDGE
+
+        current_menu.translate(0, 0)
+        current_menu.set_absolute_position(
+            final_x,
+            final_y,
+        )
 
     def open_monster_menu(self) -> None:
         self.handler.open_monster_menu()
