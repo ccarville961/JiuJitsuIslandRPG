@@ -14,6 +14,9 @@ from typing import (
 from pygame.surface import Surface
 
 from tuxemon.camera.camera import Camera
+from tuxemon.graphics import load_and_scale
+from tuxemon.ui.graphic_box import GraphicBox
+from tuxemon.user_config import CONFIG
 from tuxemon.db import Direction
 from tuxemon.event.eventmiddleware import (
     CameraControlMiddleware,
@@ -71,6 +74,41 @@ class WorldState(State):
         self.camera = Camera(
             self.player, self.client.boundary, self.client.context
         )
+
+        # Android world/hospital presentation:
+        # render the map at the existing configured game resolution,
+        # then place that complete game window in the centre of the
+        # physical Android display.
+        self.world_surface = Surface(self.client.context.resolution)
+        self.world_rect = self.world_surface.get_rect(
+            center=self.client.context.rect.center
+        )
+
+        # The Camera class defaults to the physical Android display size.
+        # The world is now rendered into world_surface instead, so keep
+        # this camera's viewport matched to that surface only.
+        self.camera.view.screen_size = self.world_surface.get_size()
+
+        # Reuse the exact same nine-slice border used by normal game menus.
+        border_surface = load_and_scale(CONFIG.menu_border)
+
+        # Give the decorative frame a small area outside the world image.
+        border_pad = max(
+            2,
+            self.client.context.scaling.scale_int(3),
+        )
+
+        self.world_border_rect = self.world_rect.inflate(
+            border_pad * 2,
+            border_pad * 2,
+        )
+
+        self.world_border = GraphicBox(
+            rect=self.world_border_rect,
+            border=border_surface,
+            color=None,
+        )
+
         self.client.camera_manager.add_camera(self.player.slug, self.camera)
         self.faction_manager = FactionManager(self.client.event_bus)
         self.client.map_transition.change_map(map_name, yaml_name)
@@ -152,11 +190,31 @@ class WorldState(State):
         self.client.map_renderer.update(dt)
 
     def draw(self, surface: Surface) -> None:
-        """Draw the game world to the screen."""
+        """Draw the centred world/hospital game window."""
+
+        # Clear only the physical presentation area.
+        surface.fill((0, 0, 0))
+
+        # Render the map and its transitions into the normal game-sized
+        # surface rather than directly into the top-left of Android.
         self.client.map_renderer.draw(
-            surface, self.client.map_manager.current_map
+            self.world_surface,
+            self.client.map_manager.current_map,
         )
-        self.transition_manager.draw(surface)
+        self.transition_manager.draw(self.world_surface)
+
+        # Draw the existing game/menu border first.
+        self.world_border.draw(
+            surface,
+            self.world_border_rect,
+        )
+
+        # Then place the actual world on top so only the border remains
+        # visible around the outside.
+        surface.blit(
+            self.world_surface,
+            self.world_rect,
+        )
 
     def process_event(self, event: PlayerInput) -> PlayerInput | None:
         """
