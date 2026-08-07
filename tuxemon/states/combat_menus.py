@@ -25,6 +25,8 @@ from tuxemon.states.item_menu import ItemMenuState
 from tuxemon.states.monster_menu import MonsterMenuState
 from tuxemon.technique.technique import Technique
 from tuxemon.tools import fix_measure, open_dialog
+from tuxemon.ui.combat_viewport import get_combat_dialog_rect
+from tuxemon.ui.combat_viewport import get_combat_viewport
 from tuxemon.ui.graphic_box import GraphicBox
 from tuxemon.ui.text import TextArea
 
@@ -129,11 +131,16 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
                     self.sprites.remove(spr)
 
     def calculate_menu_rectangle(self) -> Rect:
-        rect_screen = self.client.context.rect.copy()
-        menu_width = fix_measure(rect_screen.w, 102 / 256)
-        menu_height = fix_measure(rect_screen.h, 36 / 144)
-        rect = Rect(0, 0, menu_width, menu_height)
-        rect.bottomright = rect_screen.w, rect_screen.h
+        dialog_rect = get_combat_dialog_rect(self.client.context)
+        menu_width = fix_measure(dialog_rect.w, 102 / 256)
+
+        rect = Rect(
+            0,
+            0,
+            menu_width,
+            dialog_rect.height,
+        )
+        rect.bottomright = dialog_rect.bottomright
         return rect
 
     def get_menu_profile(self) -> tuple[dict[str, str], dict[str, bool]]:
@@ -371,8 +378,16 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
                 self.session, self.opponents
             )
 
-            menu: Menu[Any] = self.client.push_state(Menu(self.client))
-            menu.shrink_to_items = True
+            # Give the technique selector exactly the same rectangle as the
+            # existing Fight command panel. This avoids unsupported resize()
+            # calls and lets the standard Menu layout fill the whole panel.
+            menu: Menu[Any] = self.client.push_state(
+                Menu(
+                    self.client,
+                    rect=self.rect.copy(),
+                )
+            )
+            menu.shrink_to_items = False
 
             # No usable moves → show only fallback/skip
             if not usable_moves:
@@ -441,9 +456,9 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
             if enabled_items:
                 menu.selected_index = enabled_items[0]
 
-            # position the new menu
-            menu.anchor("bottom", self.rect.top)
-            menu.anchor("right", self.client.context.rect.right)
+            # The menu already owns the exact Fight-panel rectangle.
+            # Keep its centre locked to that panel after layout calculation.
+            menu.anchor("center", self.rect.center)
 
             # set next menu after the selection is made
             menu.on_selection_callback = choose_target
@@ -454,7 +469,11 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
                     "combat_dialog", message="", dialog_speed="max"
                 )
 
-                screen_w, screen_h = self.client.context.resolution
+                viewport = get_combat_viewport(self.client.context)
+                screen_w = viewport.width
+                screen_h = viewport.height
+                offset_x = viewport.left
+                offset_y = viewport.top
 
                 # --- Clear old sprites if they exist ---
                 if self.range_icon_sprite:
@@ -497,13 +516,13 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
                             # Position independently on grid
                             if i == 0:
                                 spr.rect.topleft = (
-                                    fix_measure(screen_w, 132 / 256),
-                                    fix_measure(screen_h, 126 / 144),
+                                    offset_x + fix_measure(screen_w, 132 / 256),
+                                    offset_y + fix_measure(screen_h, 126 / 144),
                                 )
                             else:
                                 spr.rect.topleft = (
-                                    fix_measure(screen_w, 142 / 256),
-                                    fix_measure(screen_h, 126 / 144),
+                                    offset_x + fix_measure(screen_w, 142 / 256),
+                                    offset_y + fix_measure(screen_h, 126 / 144),
                                 )
 
                             self.sprites.add(spr, layer=200)
@@ -689,8 +708,8 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
                 role_sprite.image = badge_surface
                 role_sprite.rect = badge_surface.get_rect()
                 role_sprite.rect.topleft = (
-                    fix_measure(screen_w, 7 / 256),
-                    fix_measure(screen_h, 121 / 144),
+                    offset_x + fix_measure(screen_w, 7 / 256),
+                    offset_y + fix_measure(screen_h, 121 / 144),
                 )
 
                 self.sprites.add(role_sprite, layer=200)
@@ -707,8 +726,8 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
                     spr.image = surf
                     spr.rect = surf.get_rect()
                     spr.rect.topleft = (
-                        fix_measure(screen_w, 135 / 256),
-                        fix_measure(screen_h, 113 / 144),
+                        offset_x + fix_measure(screen_w, 135 / 256),
+                        offset_y + fix_measure(screen_h, 113 / 144),
                     )
                     self.sprites.add(spr, layer=200)
                     self.speed_icon_sprite = spr
@@ -738,18 +757,18 @@ class MainCombatMenuState(PopUpMenu[MenuGameObj]):
                     # Independent positioning (you can tweak these individually)
                     if key == "accuracy":
                         spr.rect.topleft = (
-                            fix_measure(screen_w, 7 / 256),
-                            fix_measure(screen_h, 114 / 144),
+                            offset_x + fix_measure(screen_w, 7 / 256),
+                            offset_y + fix_measure(screen_h, 114 / 144),
                         )
                     elif key == "power":
                         spr.rect.topleft = (
-                            fix_measure(screen_w, 61 / 256),
-                            fix_measure(screen_h, 123 / 144),
+                            offset_x + fix_measure(screen_w, 61 / 256),
+                            offset_y + fix_measure(screen_h, 123 / 144),
                         )
                     elif key == "recharge":
                         spr.rect.topleft = (
-                            fix_measure(screen_w, 7 / 256),
-                            fix_measure(screen_h, 133 / 144),
+                            offset_x + fix_measure(screen_w, 7 / 256),
+                            offset_y + fix_measure(screen_h, 133 / 144),
                         )
 
                     self.sprites.add(spr, layer=200)
@@ -909,9 +928,14 @@ class CombatTargetMenuState(Menu[Monster]):
 
     def _create_menu(self) -> None:
         """Sets up the menu UI."""
-        rect_screen = self.client.context.rect.copy()
-        rect = Rect(0, 0, rect_screen.w // 2, rect_screen.h // 4)
-        rect.bottomright = rect_screen.w, rect_screen.h
+        dialog_rect = get_combat_dialog_rect(self.client.context)
+        rect = Rect(
+            0,
+            0,
+            dialog_rect.w // 2,
+            dialog_rect.h,
+        )
+        rect.bottomright = dialog_rect.bottomright
 
         self.window = GraphicBox(
             rect,

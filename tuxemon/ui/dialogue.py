@@ -14,8 +14,9 @@ from tuxemon.user_config import CONFIG
 logger = logging.getLogger(__name__)
 
 LARGE_GUI_HEIGHT_RATIO = 0.4
+LARGE_GUI_WIDTH_RATIO = 0.70
 SMALL_GUI_HEIGHT_RATIO = 0.25
-SMALL_GUI_WIDTH_RATIO = 0.8
+SMALL_GUI_WIDTH_RATIO = 0.6
 
 
 def scale_dialog_size(rect: Rect) -> Rect:
@@ -23,6 +24,7 @@ def scale_dialog_size(rect: Rect) -> Rect:
     new = rect.copy()
     if CONFIG.large_gui:
         new.height = int(rect.height * LARGE_GUI_HEIGHT_RATIO)
+        new.width = int(rect.width * LARGE_GUI_WIDTH_RATIO)
     else:
         new.height = int(rect.height * SMALL_GUI_HEIGHT_RATIO)
         new.width = int(rect.width * SMALL_GUI_WIDTH_RATIO)

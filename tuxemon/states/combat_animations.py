@@ -33,6 +33,10 @@ from tuxemon.ui.combat_monsters import MonsterSpriteMap
 from tuxemon.ui.combat_status import StatusIconManager
 from tuxemon.ui.combat_text_display import CombatTextDisplay
 from tuxemon.ui.combat_zone import CombatZone
+from tuxemon.ui.combat_viewport import (
+    get_combat_viewport,
+    offset_combat_layouts,
+)
 from tuxemon.ui.text_alignment import HorizontalAlignment
 
 if TYPE_CHECKING:
@@ -77,13 +81,20 @@ class CombatAnimations(Menu[None], ABC):
         self.capdevs: list[CaptureDeviceSprite] = []
         self.horde_sprite: HordeSprite | None = None
         self.bars = CombatBars(self.client.context)
+        self.combat_viewport = get_combat_viewport(self.client.context)
+
         layout_manager = LayoutManager(
             mods_folder / "combat_layouts.yaml", self.client.context.scaling
         )
         _layout = layout_manager.prepare_all(teams)
+
+        # Combat YAML coordinates are relative to the native 256x144 canvas.
+        # Move every fighter and HUD rectangle into the centred viewport.
+        offset_combat_layouts(_layout, self.combat_viewport)
+
         self.hud_manager = CombatLayoutManager(_layout)
         self.status_icons = StatusIconManager(self, _layout, self.hud_manager)
-        self.combat_zone = CombatZone(self.client.context.rect)
+        self.combat_zone = CombatZone(self.combat_viewport)
         self.text_display = CombatTextDisplay(
             get_rect_func=self.hud_manager.get_rect,
             shadow_text_func=self.shadow_text,
@@ -99,6 +110,10 @@ class CombatAnimations(Menu[None], ABC):
         self.env = env
 
     def draw(self, surface: Surface) -> None:
+        # Combat uses a centred viewport on Android. Clear the complete
+        # physical surface first so the previous world/transition state
+        # cannot remain visible around the battle scene.
+        surface.fill((0, 0, 0))
         super().draw(surface)
 
     def _apply_officer_battle_sprite(
@@ -248,12 +263,11 @@ class CombatAnimations(Menu[None], ABC):
         monster_sprite.rect.midbottom = feet
 
         final_x = monster_sprite.rect.x
-        screen_w = self.client.context.rect.w
 
         if npc == self.session.player:
-            monster_sprite.rect.x = -monster_sprite.rect.w
+            monster_sprite.rect.right = self.combat_viewport.left
         else:
-            monster_sprite.rect.x = screen_w + monster_sprite.rect.w
+            monster_sprite.rect.left = self.combat_viewport.right
 
         self.sprites.add(monster_sprite)
         self.sprite_map.add_sprite(monster, monster_sprite)
@@ -299,7 +313,7 @@ class CombatAnimations(Menu[None], ABC):
         original_x = sprite.rect.x
 
         direction = 1
-        if sprite.rect.centerx > self.client.context.rect.centerx:
+        if sprite.rect.centerx > self.combat_viewport.centerx:
             direction = -1
 
         self.animate(
@@ -660,11 +674,11 @@ class CombatAnimations(Menu[None], ABC):
         if self.background_sprite:
             self.background_sprite.kill()
 
-        full_surf = self.env.prepare_background(self.client.context.rect.size)
+        full_surf = self.env.prepare_background(self.combat_viewport.size)
         spr = Sprite()
         spr.image = full_surf
         spr.rect = full_surf.get_rect()
-        spr.rect.topleft = (0, 0)
+        spr.rect.topleft = self.combat_viewport.topleft
         self.sprites.add(spr, layer=0)
         self.background_sprite = spr
 
@@ -693,7 +707,7 @@ class CombatAnimations(Menu[None], ABC):
         player_home = self.hud_manager.get_rect(player, "home")
         opp_home = self.hud_manager.get_rect(opponent, "home")
         layout = self.env.get_battle_layout(
-            self.client.context.rect.size, player_home, opp_home
+            self.combat_viewport.size, player_home, opp_home
         )
 
         # Spawn Islands / battle platforms for now.

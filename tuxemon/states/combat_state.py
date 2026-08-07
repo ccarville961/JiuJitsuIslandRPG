@@ -72,6 +72,7 @@ from tuxemon.status.status import Status
 from tuxemon.technique.technique import Technique
 from tuxemon.tools import assert_never
 from tuxemon.ui.combat_notifier import CombatNotifier, TextAnimationManager
+from tuxemon.ui.combat_viewport import get_combat_message_rect
 from tuxemon.ui.graphic_box import GraphicBox
 from tuxemon.ui.method_animation import MethodAnimationCache
 from tuxemon.ui.text import TextArea
@@ -358,9 +359,7 @@ class CombatState(CombatAnimations):
 
     def create_combat_dialog(self) -> None:
         """Create the area where battle messages are displayed."""
-        rect_screen = self.client.context.rect.copy()
-        rect = Rect(0, 0, rect_screen.w, rect_screen.h // 4)
-        rect.bottomright = rect_screen.w, rect_screen.h
+        rect = get_combat_message_rect(self.client.context)
         border = load_and_scale(self.borders_filename)
         dialog_box = GraphicBox(
             rect=rect, border=border, color=self.background_color
