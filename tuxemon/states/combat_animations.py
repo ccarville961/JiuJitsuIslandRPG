@@ -142,14 +142,25 @@ class CombatAnimations(Menu[None], ABC):
         # cannot remain visible around the battle scene.
         surface.fill((0, 0, 0))
 
-        # Draw only the frame here. Combat itself is rendered afterward,
-        # covering the middle and leaving the border around its outside.
+        # JJI_COMBAT_VIEWPORT_CLIP_V1
+        # Preserve the original battle animations/positions, but never
+        # allow fighters or HUD sprites to render into the black Android
+        # area outside the centred battle viewport.
+        previous_clip = surface.get_clip()
+        surface.set_clip(self.combat_viewport)
+
+        try:
+            # Draw the complete combat scene normally.
+            super().draw(surface)
+        finally:
+            surface.set_clip(previous_clip)
+
+        # JJI_COMBAT_BORDER_ON_TOP_V1
+        # Draw the outer battle frame after restoring the full-screen clip.
         self.combat_border.draw(
             surface,
             self.combat_border_rect,
         )
-
-        super().draw(surface)
 
     def _apply_officer_battle_sprite(
         self,
@@ -553,9 +564,18 @@ class CombatAnimations(Menu[None], ABC):
         self._update_hud_details(monster, hud, is_player)
 
         if is_player:
-            hud.rect.bottomleft = hud_rect.right, hud_rect.bottom
+            # Start just beyond the RIGHT edge of the framed battle.
+            hud.rect.bottomleft = (
+                self.combat_viewport.right,
+                hud_rect.bottom,
+            )
         else:
-            hud.rect.bottomright = 0, hud_rect.bottom
+            # Start just beyond the LEFT edge of the framed battle.
+            # Do not use x=0: that is the physical Android screen edge.
+            hud.rect.bottomright = (
+                self.combat_viewport.left,
+                hud_rect.bottom,
+            )
 
         if animate:
             target_pos = (
@@ -798,6 +818,10 @@ class CombatAnimations(Menu[None], ABC):
         self.combat_session.field_monsters.add_monster(opponent, opp_mon)
         self.combat_session.field_monsters.add_monster(player, player_mon)
 
+        # JJI_COMBAT_HUD_VIEWPORT_ENTRY_V1
+        # Keep the original HUD animations, including HP/XP bars.
+        # build_hud() now starts panels from the combat viewport edges
+        # rather than from the physical Android screen edges.
         self.update_hud(opponent, True, True)
         self.update_hud(player, True, True)
 

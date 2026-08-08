@@ -138,6 +138,7 @@ class CombatState(CombatAnimations):
     """
 
     name: ClassVar[str] = "CombatState"
+
     draw_borders = False
     escape_key_exits = False
 
@@ -155,6 +156,13 @@ class CombatState(CombatAnimations):
         self._captured_mon: Monster | None = None
         # player => home areas on screen
         super().__init__(client=client, teams=context.teams, **kwargs)
+
+        # JJI_COMBAT_BACKING_WINDOW_BLACK_V1
+        # Only the inherited full-size Menu backing window should be black.
+        # Keep self.background_color unchanged so combat dialogue boxes
+        # retain their normal cream/white appearance.
+        self.window.set_color((0, 0, 0))
+
         self.combat_session = self.client.combat_session
         self.unregister_event_handlers()
         self.register_event_handlers()
