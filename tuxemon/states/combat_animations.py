@@ -7,6 +7,8 @@ notably, the use of self.game
 
 from __future__ import annotations
 
+from pathlib import Path
+
 import logging
 from abc import ABC
 from functools import partial
@@ -17,6 +19,8 @@ from pygame.surface import Surface
 from pygame.transform import flip as pg_flip
 
 from tuxemon import graphics
+from tuxemon.graphics import load_and_scale
+from tuxemon.ui.graphic_box import GraphicBox
 from tuxemon.animation import Animation, ScheduleType
 from tuxemon.combat.utils import build_hud_text
 from tuxemon.constants.paths import mods_folder
@@ -83,6 +87,29 @@ class CombatAnimations(Menu[None], ABC):
         self.bars = CombatBars(self.client.context)
         self.combat_viewport = get_combat_viewport(self.client.context)
 
+        # JJI_COMBAT_BORDER_ONLY_V1
+        # Add the normal Tuxemon menu border around the existing
+        # centred combat viewport. Do not alter combat size or position.
+        combat_border_surface = load_and_scale(self.borders_filename)
+
+        border_tile_w = max(
+            1, combat_border_surface.get_width() // 3
+        )
+        border_tile_h = max(
+            1, combat_border_surface.get_height() // 3
+        )
+
+        self.combat_border_rect = self.combat_viewport.inflate(
+            border_tile_w * 2,
+            border_tile_h * 2,
+        )
+
+        self.combat_border = GraphicBox(
+            rect=self.combat_border_rect,
+            border=combat_border_surface,
+            color=None,
+        )
+
         layout_manager = LayoutManager(
             mods_folder / "combat_layouts.yaml", self.client.context.scaling
         )
@@ -114,6 +141,14 @@ class CombatAnimations(Menu[None], ABC):
         # physical surface first so the previous world/transition state
         # cannot remain visible around the battle scene.
         surface.fill((0, 0, 0))
+
+        # Draw only the frame here. Combat itself is rendered afterward,
+        # covering the middle and leaving the border around its outside.
+        self.combat_border.draw(
+            surface,
+            self.combat_border_rect,
+        )
+
         super().draw(surface)
 
     def _apply_officer_battle_sprite(
@@ -182,16 +217,24 @@ class CombatAnimations(Menu[None], ABC):
         self,
         monster: Monster,
     ) -> None:
-        """Use the character chosen at the start of the game in battle."""
+        """Use the selected JJI player battle sprite when available."""
         player = self.session.player
-        selected_sheet = (
-            player.appearance_manager.state.combat_sheet
-        )
+        selected_sheet = player.appearance_manager.state.combat_sheet
 
-        if selected_sheet:
-            monster.sprite_config.sheet_path = (
-                f"gfx/sprites/battle/{selected_sheet}"
-            )
+        # Appearance data can contain the overworld/base sprite name
+        # (for example "adventurer"). MonsterRenderer, however, needs
+        # a real JJI battle sheet from gfx/sprites/battle.
+        candidate = selected_sheet or "blackgi-whitebelt"
+        candidate_file = Path(
+            "mods/tuxemon/gfx/sprites/battle"
+        ) / f"{candidate}.png"
+
+        if not candidate_file.is_file():
+            candidate = "blackgi-whitebelt"
+
+        monster.sprite_config.sheet_path = (
+            f"gfx/sprites/battle/{candidate}"
+        )
 
     def refresh_ui(self) -> None:
         """Call this whenever HP or EXP changes."""
