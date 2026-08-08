@@ -72,7 +72,10 @@ from tuxemon.status.status import Status
 from tuxemon.technique.technique import Technique
 from tuxemon.tools import assert_never
 from tuxemon.ui.combat_notifier import CombatNotifier, TextAnimationManager
-from tuxemon.ui.combat_viewport import get_combat_message_rect
+from tuxemon.ui.combat_viewport import (
+    get_combat_dialog_rect,
+    get_combat_message_rect,
+)
 from tuxemon.ui.graphic_box import GraphicBox
 from tuxemon.ui.method_animation import MethodAnimationCache
 from tuxemon.ui.text import TextArea
@@ -367,7 +370,12 @@ class CombatState(CombatAnimations):
 
     def create_combat_dialog(self) -> None:
         """Create the area where battle messages are displayed."""
-        rect = get_combat_message_rect(self.client.context)
+
+        # JJI_FULL_WIDTH_COMBAT_DIALOG_V1
+        # Keep battle dialogue full-width permanently.
+        # The combat command menu is a separate overlay and covers the
+        # right-hand portion whenever Fight/Item/Opponent/Tap Out is shown.
+        rect = get_combat_dialog_rect(self.client.context)
         border = load_and_scale(self.borders_filename)
         dialog_box = GraphicBox(
             rect=rect, border=border, color=self.background_color
